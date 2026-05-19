@@ -1,10 +1,18 @@
+<div align="center">
+
 # Awesome Always-On Personal AI
 
-This repository accompanies the survey draft:
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![Paper](https://img.shields.io/badge/Paper-Draft-blue.svg)](#)
+[![Project](https://img.shields.io/badge/Project-GitHub-4c1.svg)](https://github.com/choiszt/awesome-always-on-personal-ai)
+[![GitHub stars](https://img.shields.io/github/stars/choiszt/awesome-always-on-personal-ai?style=social)](https://github.com/choiszt/awesome-always-on-personal-ai/stargazers)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/choiszt/awesome-always-on-personal-ai/pulls)
 
 **Always-On Personal AI: A Survey of Streaming Context, Persistent Memory, and Adaptive Action**
 
-The goal is to track papers, systems, datasets, benchmarks, and infrastructure for always-on personal AI: assistants that continuously observe context, maintain personal memory, decide when to wait or respond, and act through digital or embodied tools.
+</div>
+
+This repository accompanies the survey draft and tracks papers, systems, datasets, benchmarks, and infrastructure for always-on personal AI: assistants that continuously observe context, maintain personal memory, decide when to wait or respond, and act through digital or embodied tools.
 
 ## Taxonomy
 
