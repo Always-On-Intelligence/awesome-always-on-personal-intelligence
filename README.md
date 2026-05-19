@@ -8,21 +8,19 @@
 [![GitHub stars](https://img.shields.io/github/stars/choiszt/awesome-always-on-personal-ai?style=social)](https://github.com/choiszt/awesome-always-on-personal-ai/stargazers)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/choiszt/awesome-always-on-personal-ai/pulls)
 
-**Always-On Personal AI: A Survey of Streaming Context, Persistent Memory, and Adaptive Action**
+**Always-On Personal AI: A Survey of Sensing, Memory, and Action**
 
 </div>
 
-This repository accompanies the survey draft and tracks papers, systems, datasets, benchmarks, and infrastructure for always-on personal AI: assistants that continuously observe context, maintain personal memory, decide when to wait or respond, and act through digital or embodied tools.
+This repository accompanies the survey draft and tracks papers, systems, datasets, benchmarks, and infrastructure for always-on personal AI: assistants that continuously sense context, maintain personal memory, and decide when to wait, respond, intervene, or act through digital and embodied tools.
 
 ## Taxonomy
 
 - [Background and Surveys](#background-and-surveys)
-- [Streaming Context and Egocentric Perception](#streaming-context-and-egocentric-perception)
-- [Personal Memory and User Modeling](#personal-memory-and-user-modeling)
-- [Proactive Interaction and Decision Gating](#proactive-interaction-and-decision-gating)
-- [Agentic Action: Tools, GUI, Web, and Embodied Agents](#agentic-action-tools-gui-web-and-embodied-agents)
-- [World Models and Anticipation](#world-models-and-anticipation)
-- [Outcome Feedback and Self-Improvement](#outcome-feedback-and-self-improvement)
+- [Pillar 1: Sensing](#pillar-1-sensing)
+- [Pillar 2: Memory](#pillar-2-memory)
+- [Pillar 3: Action](#pillar-3-action)
+- [Integrated Always-On Systems](#integrated-always-on-systems)
 - [Benchmarks and Datasets](#benchmarks-and-datasets)
 - [Open-Source Systems and Infrastructure](#open-source-systems-and-infrastructure)
 - [Safety, Privacy, and Governance](#safety-privacy-and-governance)
@@ -67,7 +65,7 @@ This repository accompanies the survey draft and tracks papers, systems, dataset
   - Tags: survey, GUI-agents, multimodal-agents
   - Relevance: Surveys agents that operate graphical interfaces across web, desktop, and mobile.
 
-## Streaming Context and Egocentric Perception
+## Pillar 1: Sensing
 
 - [Ego4D: Around the World in 3,000 Hours of Egocentric Video](https://arxiv.org/abs/2110.07058) (CVPR 2022)
   - Tags: dataset, egocentric-video, streaming-context, episodic-memory, forecasting
@@ -81,12 +79,33 @@ This repository accompanies the survey draft and tracks papers, systems, dataset
 - [WearVox: An Egocentric Multichannel Voice Assistant Benchmark](https://arxiv.org/abs/2601.02391)
   - Tags: benchmark, wearable-audio, voice-assistant, smart-glasses
   - Relevance: Targets voice interaction under wearable, egocentric audio conditions.
+- [EgoLife: Towards Egocentric Life Assistant](https://arxiv.org/abs/2503.03803) (CVPR 2025)
+  - Tags: egocentric-video, wearable-assistant, multimodal-sensing
+  - Relevance: Frames first-person perception as a foundation for life-oriented AI assistance.
+- [Vinci: A Real-time Embodied Smart Assistant based on Egocentric Vision-Language Model](https://arxiv.org/abs/2412.21080)
+  - Tags: smart-assistant, egocentric-vlm, real-time-sensing
+  - Relevance: Real-time portable assistant built around egocentric vision-language sensing.
+- [Proactive Assistant Dialogue Generation from Streaming Egocentric Videos](https://arxiv.org/abs/2506.05904) (EMNLP 2025)
+  - Tags: streaming-video, proactive-assistance, egocentric-dialogue
+  - Relevance: Directly studies assistant responses generated from streaming egocentric video.
+- [ContextAgent: Context-Aware Proactive LLM Agents with Open-World Sensory Perceptions](https://arxiv.org/abs/2505.14668)
+  - Tags: sensory-context, proactive-agent, open-world-perception
+  - Relevance: Uses broader sensory context to improve proactive LLM agent behavior.
+- [ProAgent: Harnessing On-Demand Sensory Contexts for Proactive LLM Agent Systems](https://arxiv.org/abs/2512.06721)
+  - Tags: sensory-action, context-extraction, AR-glasses
+  - Relevance: Studies on-demand sensory context acquisition for proactive agents.
 
-## Personal Memory and User Modeling
+## Pillar 2: Memory
 
 - [Generative Agents: Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442) (UIST 2023)
   - Tags: memory, reflection, planning, social-agents
   - Relevance: Classic memory-reflection-planning architecture for agents with persistent experience records.
+- [MemoryBank: Enhancing Large Language Models with Long-Term Memory](https://arxiv.org/abs/2305.10250)
+  - Tags: long-term-memory, personalization, companion-agent
+  - Relevance: Early LLM memory system for long-term companion interaction and user modeling.
+- [Augmenting Language Models with Long-Term Memory](https://arxiv.org/abs/2306.07174)
+  - Tags: long-term-memory, retrieval, long-context
+  - Relevance: Memory-augmented language model design for storing and retrieving long histories.
 - [MemGPT: Towards LLMs as Operating Systems](https://arxiv.org/abs/2310.08560)
   - Tags: memory, virtual-context, agent-runtime
   - Relevance: Introduces OS-inspired memory tiers and control flow for long-context agent operation.
@@ -102,12 +121,36 @@ This repository accompanies the survey draft and tracks papers, systems, dataset
 - [Agentic Memory: Learning Unified Long-Term and Short-Term Memory Management for Large Language Model Agents](https://arxiv.org/abs/2601.01885)
   - Tags: memory-management, tool-use, self-improvement
   - Relevance: Treats memory operations as agent actions: store, retrieve, update, summarize, and discard.
+- [LoCoMo: Evaluating Very Long-Term Conversational Memory of LLM Agents](https://arxiv.org/abs/2402.17753)
+  - Tags: benchmark, long-term-memory, multi-session-dialogue
+  - Relevance: Evaluates memory over long, multi-session, multimodal conversations.
+- [LongMemEval: Benchmarking Chat Assistants on Long-Term Interactive Memory](https://arxiv.org/abs/2410.10813)
+  - Tags: benchmark, long-term-memory, interactive-memory
+  - Relevance: Tests extraction, temporal reasoning, knowledge updates, and abstention across sessions.
+- [Memory OS of AI Agent](https://arxiv.org/abs/2506.06326)
+  - Tags: memory-os, personalization, agent-memory
+  - Relevance: OS-inspired architecture for personalized long-term agent memory.
+- [MIRIX: Multi-Agent Memory System for LLM-Based Agents](https://arxiv.org/abs/2507.07957)
+  - Tags: memory-system, multimodal-memory, multi-agent-memory
+  - Relevance: Multi-type memory system spanning core, episodic, semantic, procedural, resource, and knowledge-vault memories.
+- [Evaluating Memory in LLM Agents via Incremental Multi-Turn Interactions](https://arxiv.org/abs/2507.05257)
+  - Tags: benchmark, memory-agent, incremental-interaction
+  - Relevance: Evaluates memory update and retrieval through incremental multi-turn interactions.
 
-## Proactive Interaction and Decision Gating
+## Pillar 3: Action
 
 - [A Survey on Proactive Dialogue Systems: Problems, Methods, and Prospects](https://arxiv.org/abs/2305.02750) (IJCAI 2023)
   - Tags: proactive-dialogue, system-initiative, decision-gating
   - Relevance: Baseline reference for dialogue systems that lead conversation toward system-side goals.
+- [Principles of Mixed-Initiative User Interfaces](https://dl.acm.org/doi/10.1145/302979.303030) (CHI 1999)
+  - Tags: mixed-initiative, action-policy, HCI
+  - Relevance: Classical foundation for deciding when a system should take initiative.
+- [Just-in-Time Adaptive Interventions in Mobile Health](https://pmc.ncbi.nlm.nih.gov/articles/PMC5364076/) (Annals of Behavioral Medicine 2018)
+  - Tags: intervention-timing, adaptive-action, mobile-sensing
+  - Relevance: Formalizes timely adaptive support under changing user context.
+- [Large Language Models Know What To Say But Not When To Speak](https://arxiv.org/abs/2410.16044) (EMNLP 2024)
+  - Tags: dialogue-timing, turn-taking, action-gating
+  - Relevance: Highlights the timing gap between content generation and appropriate intervention.
 - [Reflexion: Language Agents with Verbal Reinforcement Learning](https://arxiv.org/abs/2303.11366)
   - Tags: feedback, reflection, agent-learning
   - Relevance: Uses verbal feedback to update future behavior across trials.
@@ -117,9 +160,6 @@ This repository accompanies the survey draft and tracks papers, systems, dataset
 - [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629)
   - Tags: reasoning, acting, tool-use
   - Relevance: Canonical reasoning-action interleaving pattern for LLM agents.
-
-## Agentic Action: Tools, GUI, Web, and Embodied Agents
-
 - [WebArena: A Realistic Web Environment for Building Autonomous Agents](https://arxiv.org/abs/2307.13854)
   - Tags: benchmark, web-agents, tool-use, long-horizon
   - Relevance: Self-hosted web benchmark for realistic web task completion.
@@ -136,29 +176,29 @@ This repository accompanies the survey draft and tracks papers, systems, dataset
   - Tags: embodied-agent, lifelong-learning, skill-library
   - Relevance: Demonstrates open-ended skill acquisition and persistent action knowledge in Minecraft.
 
-## World Models and Anticipation
+## Integrated Always-On Systems
 
 - [Agentic World Modeling: Foundations, Capabilities, Laws, and Beyond](https://arxiv.org/abs/2604.22748)
   - Tags: survey, world-models, anticipation, self-revision
   - Relevance: Anchor reference for prediction and simulation as agent capabilities.
+- [VisionClaw: Always-On AI Agents through Smart Glasses](https://arxiv.org/abs/2604.03486)
+  - Tags: smart-glasses, always-on-agent, sensing-action, tool-use
+  - Relevance: Integrates live egocentric perception with agentic task execution on smart glasses.
+- [AI for Service: Proactive Assistance with AI Glasses](https://arxiv.org/abs/2510.14359)
+  - Tags: AI-glasses, proactive-assistance, mixed-initiative
+  - Relevance: Full-stack glasses assistant for proactive and real-time daily-life assistance.
+- [Memento: Towards Proactive Visualization of Everyday Memories with Personal Wearable AR Assistant](https://arxiv.org/abs/2601.17622)
+  - Tags: AR-assistant, personal-memory, proactive-recall
+  - Relevance: Connects captured personal memory with context-triggered AR recall.
+- [LlamaPIE: Proactive In-Ear Conversation Assistants](https://aclanthology.org/2025.findings-acl.710/) (ACL Findings 2025)
+  - Tags: hearable-assistant, proactive-dialogue, real-time-action
+  - Relevance: In-ear assistant that decides when to provide discreet conversational guidance.
 - [Voyager: An Open-Ended Embodied Agent with Large Language Models](https://arxiv.org/abs/2305.16291)
   - Tags: embodied-agent, exploration, skill-memory
   - Relevance: Connects action, exploration, and accumulated skills over long horizons.
 - [Ego4D: Around the World in 3,000 Hours of Egocentric Video](https://arxiv.org/abs/2110.07058)
   - Tags: egocentric-video, forecasting, episodic-memory
   - Relevance: Includes future forecasting tasks that align with anticipation in always-on assistants.
-
-## Outcome Feedback and Self-Improvement
-
-- [Reflexion: Language Agents with Verbal Reinforcement Learning](https://arxiv.org/abs/2303.11366)
-  - Tags: reflection, feedback, self-improvement
-  - Relevance: Turns task feedback into verbal memory for future attempts.
-- [Generative Agents: Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442)
-  - Tags: reflection, memory-consolidation, planning
-  - Relevance: Uses reflection over stored experience to affect later plans.
-- [Agentic Memory: Learning Unified Long-Term and Short-Term Memory Management for Large Language Model Agents](https://arxiv.org/abs/2601.01885)
-  - Tags: memory-actions, feedback, long-horizon
-  - Relevance: Learns when to store, retrieve, update, summarize, and discard memories.
 
 ## Benchmarks and Datasets
 
