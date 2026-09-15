@@ -1,0 +1,142 @@
+[
+  {
+    "id": "mem0",
+    "category": "tools",
+    "subcategory": "memory",
+    "title": "Mem0",
+    "description": "Adds retrievable long-term memories that persist across an agent's sessions, tools, and runs.",
+    "links": {
+      "website": "https://mem0.ai/",
+      "code": "https://github.com/mem0ai/mem0",
+      "docs": "https://docs.mem0.ai/introduction"
+    },
+    "tags": ["Long-term memory", "Personalization"],
+    "checked": "2026-09-15"
+  },
+  {
+    "id": "letta",
+    "category": "tools",
+    "subcategory": "memory",
+    "title": "Letta",
+    "description": "Supports stateful agents with persistent editable memory and background consolidation of lessons from prior conversations.",
+    "links": {
+      "website": "https://www.letta.com/",
+      "code": "https://github.com/letta-ai/letta",
+      "docs": "https://docs.letta.com/configuration/memory"
+    },
+    "tags": ["Persistent memory", "Consolidation"],
+    "checked": "2026-09-15"
+  },
+  {
+    "id": "graphiti",
+    "category": "tools",
+    "subcategory": "memory",
+    "title": "Graphiti",
+    "description": "Builds temporal knowledge graphs from evolving interactions while retaining fact history and links to source episodes.",
+    "links": {
+      "website": "https://github.com/getzep/graphiti",
+      "code": "https://github.com/getzep/graphiti",
+      "docs": "https://help.getzep.com/graphiti/getting-started/welcome"
+    },
+    "tags": ["Temporal memory", "Provenance"],
+    "checked": "2026-09-15"
+  },
+  {
+    "id": "memos",
+    "category": "tools",
+    "subcategory": "memory",
+    "title": "MemOS",
+    "description": "Provides APIs to store, retrieve, edit, and delete persistent agent memory with asynchronous ingestion and feedback-based correction.",
+    "links": {
+      "website": "https://github.com/MemTensor/MemOS",
+      "code": "https://github.com/MemTensor/MemOS",
+      "docs": "https://memos-docs.openmem.net/"
+    },
+    "tags": ["Memory lifecycle", "Corrections"],
+    "checked": "2026-09-15"
+  },
+  {
+    "id": "langgraph",
+    "category": "tools",
+    "subcategory": "runtime",
+    "title": "LangGraph",
+    "description": "Uses persistent checkpoints and cross-thread stores to resume agent workflows and retain useful context across interactions.",
+    "links": {
+      "website": "https://docs.langchain.com/oss/python/langgraph/overview",
+      "code": "https://github.com/langchain-ai/langgraph",
+      "docs": "https://docs.langchain.com/oss/python/langgraph/persistence"
+    },
+    "tags": ["Task continuation", "Checkpoints"],
+    "checked": "2026-09-15"
+  },
+  {
+    "id": "temporal",
+    "category": "tools",
+    "subcategory": "runtime",
+    "title": "Temporal",
+    "description": "Preserves workflow execution state through failures so long-running background jobs can wait for events and resume work.",
+    "links": {
+      "website": "https://temporal.io/",
+      "code": "https://github.com/temporalio/temporal",
+      "docs": "https://docs.temporal.io/workflow-execution"
+    },
+    "tags": ["Durable execution", "Recovery"],
+    "checked": "2026-09-15"
+  },
+  {
+    "id": "inngest",
+    "category": "tools",
+    "subcategory": "runtime",
+    "title": "Inngest",
+    "description": "Triggers asynchronous background functions from application events, webhooks, or recurring schedules for ongoing agent workflows.",
+    "links": {
+      "website": "https://www.inngest.com/",
+      "code": "https://github.com/inngest/inngest",
+      "docs": "https://www.inngest.com/docs/features/events-triggers"
+    },
+    "tags": ["Event triggers", "Scheduling"],
+    "checked": "2026-09-15"
+  },
+  {
+    "id": "composio",
+    "category": "tools",
+    "subcategory": "integrations",
+    "title": "Composio",
+    "description": "Connects agents to user-authorized app accounts and delivers app-event triggers that can start contextual background work.",
+    "links": {
+      "website": "https://composio.dev/",
+      "code": "https://github.com/ComposioHQ/composio",
+      "docs": "https://docs.composio.dev/docs/triggers"
+    },
+    "tags": ["Connected apps", "Event triggers"],
+    "checked": "2026-09-15"
+  },
+  {
+    "id": "model-context-protocol",
+    "category": "tools",
+    "subcategory": "integrations",
+    "title": "Model Context Protocol (MCP)",
+    "description": "Standardizes connections to external data and tools so personal agents can access authorized context and invoke application capabilities.",
+    "links": {
+      "website": "https://modelcontextprotocol.io/",
+      "code": "https://github.com/modelcontextprotocol/modelcontextprotocol",
+      "docs": "https://modelcontextprotocol.io/introduction"
+    },
+    "tags": ["Tool interfaces", "Context access"],
+    "checked": "2026-09-15"
+  },
+  {
+    "id": "langfuse",
+    "category": "tools",
+    "subcategory": "integrations",
+    "title": "Langfuse",
+    "description": "Records agent traces and evaluation signals to inspect failures, latency, and costs across ongoing assistance workflows.",
+    "links": {
+      "website": "https://langfuse.com/",
+      "code": "https://github.com/langfuse/langfuse",
+      "docs": "https://langfuse.com/docs/observability/overview"
+    },
+    "tags": ["Observability", "Evaluation"],
+    "checked": "2026-09-15"
+  }
+]

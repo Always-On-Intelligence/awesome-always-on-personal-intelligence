@@ -1,0 +1,153 @@
+[
+  {
+    "id": "omi",
+    "category": "products",
+    "subcategory": "wearables",
+    "title": "Omi",
+    "description": "Turns recorded conversations into searchable memories, summaries, extracted tasks, and daily recaps through a wearable and companion apps.",
+    "links": {
+      "website": "https://www.omi.me/pages/product",
+      "code": "https://github.com/BasedHardware/omi",
+      "docs": "https://help.omi.me/en/articles/12017447-omi-device-orders-shipping-what-to-expect"
+    },
+    "tags": ["Audio capture", "Personal memory"],
+    "checked": "2026-09-15",
+    "status": "Apps available; hardware stock varies",
+    "form_factor": "Pendant + companion apps"
+  },
+  {
+    "id": "ray-ban-meta",
+    "category": "products",
+    "subcategory": "wearables",
+    "title": "Ray-Ban Meta",
+    "description": "Provides camera-grounded assistance, voice interaction, and user-set reminders through smart glasses paired with the Meta AI app.",
+    "links": {
+      "website": "https://www.meta.com/ai-glasses/ray-ban-meta/",
+      "docs": "https://www.ray-ban.com/uk/c/frequently-asked-questions-ray-ban-meta-smart-glasses"
+    },
+    "tags": ["Visual context", "Reminders"],
+    "checked": "2026-09-15",
+    "status": "Available; AI features vary by country/language",
+    "form_factor": "Smart glasses"
+  },
+  {
+    "id": "plaud-notepin",
+    "category": "products",
+    "subcategory": "wearables",
+    "title": "PLAUD NotePin",
+    "description": "Captures user-started in-person conversations for later transcription, summarization, and retrieval in the Plaud app.",
+    "links": {
+      "website": "https://www.plaud.ai/products/plaud-notepin",
+      "docs": "https://support.plaud.ai/hc/en-us/articles/50841183397273-Start-recording"
+    },
+    "tags": ["Audio capture", "Conversation recall"],
+    "checked": "2026-09-15",
+    "status": "Available; recording is manually started",
+    "form_factor": "Wearable recorder"
+  },
+  {
+    "id": "windows-recall",
+    "category": "products",
+    "subcategory": "apps",
+    "title": "Windows Recall",
+    "description": "Stores opt-in screen snapshots locally and lets users search prior desktop activity with capture, filtering, and deletion controls.",
+    "links": {
+      "website": "https://support.microsoft.com/en-US/Windows/Ai/Ai-Features/retrace-your-steps-with-recall",
+      "docs": "https://support.microsoft.com/en-us/windows/privacy/privacy-and-control-over-your-recall-experience"
+    },
+    "tags": ["Screen history", "Local storage"],
+    "checked": "2026-09-15",
+    "status": "Preview; supported Copilot+ PCs only",
+    "form_factor": "Windows feature"
+  },
+  {
+    "id": "screenpipe",
+    "category": "products",
+    "subcategory": "apps",
+    "title": "screenpipe",
+    "description": "Builds a searchable local history of screen and audio activity that users and connected agents can use for recall and follow-up work.",
+    "links": {
+      "website": "https://screenpipe.com/",
+      "code": "https://github.com/screenpipe/screenpipe",
+      "docs": "https://docs.screenpi.pe/search-screen-history"
+    },
+    "tags": ["Desktop capture", "Personal memory"],
+    "checked": "2026-09-15",
+    "status": "Available; open-source project and desktop app",
+    "form_factor": "Desktop app"
+  },
+  {
+    "id": "claude-cowork",
+    "category": "products",
+    "subcategory": "apps",
+    "title": "Claude Cowork",
+    "description": "Runs delegated tasks across selected files and tools, with unattended scheduled work and results returned for review.",
+    "links": {
+      "website": "https://claude.com/product/cowork"
+    },
+    "tags": ["Background tasks", "Workspace"],
+    "checked": "2026-09-15",
+    "status": "Paid plans; web/mobile rollout varies",
+    "form_factor": "Desktop, web, and mobile"
+  },
+  {
+    "id": "chatgpt-pulse",
+    "category": "products",
+    "subcategory": "hosted",
+    "title": "ChatGPT Pulse",
+    "description": "Uses chat history, memory, feedback, and optional connected apps to prepare personalized research briefings between conversations.",
+    "links": {
+      "website": "https://openai.com/index/introducing-chatgpt-pulse/"
+    },
+    "tags": ["Daily briefings", "Personalization"],
+    "checked": "2026-09-15",
+    "status": "Preview documented; current access unconfirmed",
+    "form_factor": "ChatGPT mobile feature"
+  },
+  {
+    "id": "muse",
+    "category": "products",
+    "subcategory": "hosted",
+    "title": "Muse",
+    "description": "Combines persistent conversational memory with scheduled and event-driven background work, surfacing meaningful updates or requests for input.",
+    "links": {
+      "website": "https://muse.ai/",
+      "docs": "https://introducing.muse.ai/"
+    },
+    "tags": ["Personal memory", "Background tasks"],
+    "checked": "2026-09-15",
+    "status": "Rolling out in the US",
+    "form_factor": "Web, iOS, Android, and WhatsApp"
+  },
+  {
+    "id": "openclaw",
+    "category": "products",
+    "subcategory": "hosted",
+    "title": "OpenClaw",
+    "description": "Runs a personal assistant on user-managed infrastructure with durable memory, messaging access, and scheduled heartbeat checks or follow-ups.",
+    "links": {
+      "website": "https://openclaw.ai/",
+      "code": "https://github.com/openclaw/openclaw",
+      "docs": "https://docs.openclaw.ai/gateway/heartbeat"
+    },
+    "tags": ["Self-hosted", "Follow-ups"],
+    "checked": "2026-09-15",
+    "status": "Available; self-hosting and configuration required",
+    "form_factor": "Self-hosted messaging assistant"
+  },
+  {
+    "id": "lindy",
+    "category": "products",
+    "subcategory": "hosted",
+    "title": "Lindy",
+    "description": "Uses connected inbox and calendar context to prepare meetings, draft replies, and handle post-meeting follow-ups.",
+    "links": {
+      "website": "https://www.lindy.ai/",
+      "docs": "https://docs.lindy.ai/"
+    },
+    "tags": ["Meeting context", "Follow-ups"],
+    "checked": "2026-09-15",
+    "status": "Available; paid plans with trial",
+    "form_factor": "Web and messaging assistant"
+  }
+]

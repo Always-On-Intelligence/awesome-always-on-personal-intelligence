@@ -1,0 +1,40 @@
+name: Suggest a resource
+description: Suggest a relevant paper, benchmark, product, or developer tool.
+title: "[Resource] "
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Resource title
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Resource type
+      options:
+        - Research paper or system
+        - Benchmark or dataset
+        - Product
+        - Developer tool
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Primary source URL
+      description: Paper, official project, repository, or product documentation.
+    validations:
+      required: true
+  - type: textarea
+    id: relevance
+    attributes:
+      label: Relevance to always-on personal AI
+      description: Which sensing, memory, proactive action, continuing-service, or evaluation problem does it address?
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Category, availability, or correction notes
+      description: For products, include the observed availability and the date checked.

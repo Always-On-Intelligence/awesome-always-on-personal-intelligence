@@ -1,0 +1,1401 @@
+[
+  {
+    "id": "proactive-dialogue-survey",
+    "category": "surveys",
+    "subcategory": "surveys",
+    "title": "A Survey on Proactive Dialogue Systems: Problems, Methods, and Prospects",
+    "year": 2023,
+    "venue": "IJCAI",
+    "description": "Organizes proactive dialogue around system initiative, planning, and interaction goals.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2305.02750"
+    },
+    "tags": [
+      "Survey"
+    ]
+  },
+  {
+    "id": "agent-memory-survey",
+    "category": "surveys",
+    "subcategory": "surveys",
+    "title": "A Survey on the Memory Mechanism of Large Language Model based Agents",
+    "year": 2024,
+    "venue": "arXiv",
+    "description": "Surveys memory mechanisms that let language agents retain and reuse information beyond a single interaction.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2404.13501",
+      "project": "https://github.com/nuster1128/LLM_Agent_Memory_Survey"
+    },
+    "tags": [
+      "Survey"
+    ]
+  },
+  {
+    "id": "egocentric-procedural-ai-survey",
+    "category": "surveys",
+    "subcategory": "surveys",
+    "title": "Building Egocentric Procedural AI Assistant: Methods, Benchmarks, and Challenges",
+    "year": 2025,
+    "venue": "arXiv",
+    "description": "Reviews step understanding, error detection, and evaluation for egocentric procedural assistants.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2511.13261",
+      "project": "https://github.com/z1oong/Building-Egocentric-Procedural-AI-Assistant"
+    },
+    "tags": [
+      "Survey",
+      "Wearable"
+    ]
+  },
+  {
+    "id": "always-on-agents-survey",
+    "category": "surveys",
+    "subcategory": "surveys",
+    "title": "Always-On Agents: A Survey of Persistent Memory, State, and Governance in LLM Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "description": "Reviews persistent memory, agent state, and governance for assistants that continue operating across interactions.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2606.30306"
+    },
+    "tags": [
+      "Survey"
+    ]
+  },
+  {
+    "id": "digital-colleague-survey",
+    "category": "surveys",
+    "subcategory": "surveys",
+    "title": "From Chatbot to Digital Colleague: The Paradigm Shift Toward Persistent Autonomous AI",
+    "year": 2026,
+    "venue": "arXiv",
+    "description": "Examines persistent autonomous AI through workspaces, reusable capabilities, and governance.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2606.14502"
+    },
+    "tags": [
+      "Survey",
+      "Digital"
+    ]
+  },
+  {
+    "id": "coala",
+    "category": "surveys",
+    "subcategory": "foundations",
+    "title": "Cognitive Architectures for Language Agents",
+    "year": 2024,
+    "venue": "TMLR",
+    "description": "Provides a cognitive architecture for organizing language-agent memory, actions, and decision processes.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2309.02427"
+    },
+    "tags": [
+      "Foundational"
+    ]
+  },
+  {
+    "id": "sensecam",
+    "category": "surveys",
+    "subcategory": "foundations",
+    "title": "SenseCam: A Retrospective Memory Aid",
+    "year": 2006,
+    "venue": "UbiComp",
+    "description": "Demonstrates sensor-triggered wearable image capture and later review as an early approach to personal memory assistance.",
+    "links": {
+      "paper": "https://www.microsoft.com/en-us/research/publication/sensecam-retrospective-memory-aid/"
+    },
+    "tags": [
+      "Foundational",
+      "Wearable"
+    ]
+  },
+  {
+    "id": "mixed-initiative-interfaces",
+    "category": "surveys",
+    "subcategory": "foundations",
+    "title": "Principles of Mixed-Initiative User Interfaces",
+    "year": 1999,
+    "venue": "CHI",
+    "description": "Establishes principles for coordinating automated assistance with user goals, attention, uncertainty, and control.",
+    "links": {
+      "paper": "https://www.microsoft.com/en-us/research/publication/principles-mixed-initiative-user-interfaces/"
+    },
+    "tags": [
+      "Foundational",
+      "User control"
+    ]
+  },
+  {
+    "id": "chainstream",
+    "category": "sensing",
+    "subcategory": "context",
+    "title": "ChainStream: An LLM-based Framework for Unified Synthetic Sensing",
+    "year": 2024,
+    "venue": "arXiv",
+    "description": "Builds context-processing pipelines from heterogeneous sensor streams using language-model-generated programs.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2412.15240",
+      "code": "https://github.com/MobileLLM/ChainStream"
+    },
+    "tags": [
+      "Multimodal"
+    ]
+  },
+  {
+    "id": "omniparser",
+    "category": "sensing",
+    "subcategory": "context",
+    "title": "OmniParser for Pure Vision Based GUI Agent",
+    "year": 2024,
+    "venue": "arXiv",
+    "description": "Turns interface screenshots into structured elements for grounding computer-use actions.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2408.00203"
+    },
+    "tags": [
+      "Digital"
+    ]
+  },
+  {
+    "id": "videollm-online",
+    "category": "sensing",
+    "subcategory": "streaming",
+    "title": "VideoLLM-online: Online Video Large Language Model for Streaming Video",
+    "year": 2024,
+    "venue": "CVPR",
+    "description": "Adapts video-language modeling to process incoming frames and produce responses during an ongoing stream.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2406.11816",
+      "project": "https://showlab.github.io/videollm-online"
+    },
+    "tags": [
+      "Streaming"
+    ]
+  },
+  {
+    "id": "streaming-vlm",
+    "category": "sensing",
+    "subcategory": "streaming",
+    "title": "StreamingVLM: Real-Time Understanding for Infinite Video Streams",
+    "year": 2026,
+    "venue": "ICLR",
+    "description": "Maintains bounded working context for real-time understanding of video streams of unbounded length.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2510.09608",
+      "code": "https://github.com/mit-han-lab/streaming-vlm"
+    },
+    "tags": [
+      "Streaming"
+    ]
+  },
+  {
+    "id": "flash-vstream",
+    "category": "sensing",
+    "subcategory": "streaming",
+    "title": "Flash-VStream: Memory-Based Real-Time Understanding for Long Video Streams",
+    "year": 2024,
+    "venue": "arXiv",
+    "description": "Uses memory-based video processing to support real-time questions over long incoming streams.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2406.08085",
+      "project": "https://invinciblewyq.github.io/vstream-page/"
+    },
+    "tags": [
+      "Streaming"
+    ]
+  },
+  {
+    "id": "moshi",
+    "category": "sensing",
+    "subcategory": "streaming",
+    "title": "Moshi: a speech-text foundation model for real-time dialogue",
+    "year": 2024,
+    "venue": "arXiv",
+    "description": "Models simultaneous listening and speaking as an enabling component for continuous voice interaction.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2410.00037",
+      "code": "https://github.com/kyutai-labs/moshi"
+    },
+    "tags": [
+      "Audio",
+      "Streaming"
+    ]
+  },
+  {
+    "id": "personal-vad",
+    "category": "sensing",
+    "subcategory": "streaming",
+    "title": "Personal VAD: Speaker-Conditioned Voice Activity Detection",
+    "year": 2020,
+    "venue": "Odyssey",
+    "description": "Detects a target speaker's speech in streaming audio to support speaker-aware voice interfaces.",
+    "links": {
+      "paper": "https://arxiv.org/abs/1908.04284"
+    },
+    "tags": [
+      "Audio"
+    ]
+  },
+  {
+    "id": "egotrigger",
+    "category": "sensing",
+    "subcategory": "adaptive",
+    "title": "EgoTrigger: Toward Audio-Driven Image Capture for Human Memory Enhancement in All-Day Energy-Efficient Smart Glasses",
+    "year": 2025,
+    "venue": "IEEE TVCG / ISMAR",
+    "description": "Uses lightweight audio cues to trigger camera capture while preserving information useful for later episodic recall.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2508.01915"
+    },
+    "tags": [
+      "Wearable"
+    ]
+  },
+  {
+    "id": "wearable-contextual-ai-architecture",
+    "category": "sensing",
+    "subcategory": "adaptive",
+    "title": "Full System Architecture Modeling for Wearable Egocentric Contextual AI",
+    "year": 2025,
+    "venue": "arXiv",
+    "description": "Models full-device power and architectural trade-offs for sustained egocentric contextual AI workloads.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2512.16045"
+    },
+    "tags": [
+      "Wearable"
+    ]
+  },
+  {
+    "id": "deepwear",
+    "category": "sensing",
+    "subcategory": "adaptive",
+    "title": "DeepWear: Adaptive Local Offloading for On-Wearable Deep Learning",
+    "year": 2020,
+    "venue": "IEEE TMC",
+    "description": "Adaptively partitions and offloads wearable inference to manage latency, energy, and limited device resources.",
+    "links": {
+      "paper": "https://arxiv.org/abs/1712.03073"
+    },
+    "tags": [
+      "Wearable"
+    ]
+  },
+  {
+    "id": "kirigami",
+    "category": "sensing",
+    "subcategory": "adaptive",
+    "title": "Kirigami: Lightweight Speech Filtering for Privacy-Preserving Activity Recognition using Audio",
+    "year": 2024,
+    "venue": "IMWUT",
+    "description": "Filters speech on resource-constrained devices while retaining ambient sounds for activity recognition.",
+    "links": {
+      "paper": "https://mynkgoel.github.io/pdfs/kirigami.pdf"
+    },
+    "tags": [
+      "Privacy",
+      "Audio"
+    ]
+  },
+  {
+    "id": "memgpt",
+    "category": "memory",
+    "subcategory": "personal",
+    "title": "MemGPT: Towards LLMs as Operating Systems",
+    "year": 2023,
+    "venue": "arXiv",
+    "description": "Manages multiple memory tiers and control flow to support conversation beyond a model's context window.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2310.08560"
+    },
+    "tags": [
+      "Personalization"
+    ]
+  },
+  {
+    "id": "memorybank",
+    "category": "memory",
+    "subcategory": "personal",
+    "title": "MemoryBank: Enhancing Large Language Models with Long-Term Memory",
+    "year": 2023,
+    "venue": "arXiv",
+    "description": "Maintains and updates interaction memories and user summaries for long-term conversational personalization.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2305.10250"
+    },
+    "tags": [
+      "Personalization"
+    ]
+  },
+  {
+    "id": "a-mem",
+    "category": "memory",
+    "subcategory": "personal",
+    "title": "A-MEM: Agentic Memory for LLM Agents",
+    "year": 2025,
+    "venue": "NeurIPS",
+    "description": "Organizes memories as linked notes whose connections and descriptions can change as new experience arrives.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2502.12110",
+      "code": "https://github.com/WujiangXu/A-mem"
+    },
+    "tags": [
+      "Memory organization"
+    ]
+  },
+  {
+    "id": "mirix",
+    "category": "memory",
+    "subcategory": "personal",
+    "title": "MIRIX: Multi-Agent Memory System for LLM-Based Agents",
+    "year": 2025,
+    "venue": "arXiv",
+    "description": "Combines multiple memory types to retain and retrieve long-term conversational and visual user context.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2507.07957"
+    },
+    "tags": [
+      "Multimodal"
+    ]
+  },
+  {
+    "id": "memos-paper",
+    "category": "memory",
+    "subcategory": "personal",
+    "title": "MemOS: A Memory OS for AI System",
+    "year": 2025,
+    "venue": "arXiv",
+    "description": "Treats plaintext, activation, and parameter memories as manageable resources with provenance and lifecycle operations.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2507.03724"
+    },
+    "tags": [
+      "Multimodal"
+    ]
+  },
+  {
+    "id": "memory-os",
+    "category": "memory",
+    "subcategory": "personal",
+    "title": "Memory OS of AI Agent",
+    "year": 2025,
+    "venue": "arXiv",
+    "description": "Combines short-, mid-, and long-term storage with memory updates for personalized conversations.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2506.06326",
+      "code": "https://github.com/BAI-LAB/MemoryOS"
+    },
+    "tags": [
+      "Personalization"
+    ]
+  },
+  {
+    "id": "personalized-agents-human-feedback",
+    "category": "memory",
+    "subcategory": "modeling",
+    "title": "Learning Personalized Agents from Human Feedback",
+    "year": 2026,
+    "venue": "arXiv",
+    "description": "Uses clarification, remembered preferences, and post-action feedback to adapt to changing users in simulated tasks.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2602.16173"
+    },
+    "tags": [
+      "Personalization",
+      "User feedback"
+    ]
+  },
+  {
+    "id": "user-as-code",
+    "category": "memory",
+    "subcategory": "modeling",
+    "title": "User as Code: Executable Memory for Personalized Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "description": "Represents user facts and rules as executable state that supports aggregation, contradiction handling, and triggered checks.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2606.16707"
+    },
+    "tags": [
+      "Personalization"
+    ]
+  },
+  {
+    "id": "lightmem",
+    "category": "memory",
+    "subcategory": "lifecycle",
+    "title": "LightMem: Lightweight and Efficient Memory-Augmented Generation",
+    "year": 2026,
+    "venue": "ICLR",
+    "description": "Separates lightweight sensory filtering, short-term consolidation, and offline memory updates to reduce memory-management cost.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2510.18866",
+      "code": "https://github.com/zjunlp/LightMem"
+    },
+    "tags": [
+      "Personalization"
+    ]
+  },
+  {
+    "id": "memory-r1",
+    "category": "memory",
+    "subcategory": "lifecycle",
+    "title": "Memory-R1: Enhancing Large Language Model Agents to Manage and Utilize Memories via Reinforcement Learning",
+    "year": 2025,
+    "venue": "arXiv",
+    "description": "Learns memory add, update, delete, and retrieval decisions from downstream task rewards.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2508.19828"
+    },
+    "tags": [
+      "Policy learning"
+    ]
+  },
+  {
+    "id": "reasoning-bank",
+    "category": "memory",
+    "subcategory": "lifecycle",
+    "title": "ReasoningBank: Scaling Agent Self-Evolving with Reasoning Memory",
+    "year": 2026,
+    "venue": "ICLR",
+    "description": "Distills reusable reasoning guidance from successful and failed agent trajectories for later tasks.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2509.25140",
+      "code": "https://github.com/google-research/reasoning-bank"
+    },
+    "tags": [
+      "Self-evolution"
+    ]
+  },
+  {
+    "id": "agentic-context-engineering",
+    "category": "memory",
+    "subcategory": "lifecycle",
+    "title": "Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models",
+    "year": 2026,
+    "venue": "ICLR",
+    "description": "Maintains evolving context playbooks through generation, reflection, and curation of reusable guidance.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2510.04618"
+    },
+    "tags": [
+      "Self-evolution"
+    ]
+  },
+  {
+    "id": "memprivacy",
+    "category": "memory",
+    "subcategory": "lifecycle",
+    "title": "MemPrivacy: Privacy-Preserving Personalized Memory Management for Edge-Cloud Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "description": "Masks sensitive spans before cloud memory processing and restores values locally to preserve useful personal context.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.09530"
+    },
+    "tags": [
+      "Privacy"
+    ]
+  },
+  {
+    "id": "memq",
+    "category": "memory",
+    "subcategory": "lifecycle",
+    "title": "MemQ: Integrating Q-Learning into Self-Evolving Memory Agents over Provenance DAGs",
+    "year": 2026,
+    "venue": "arXiv",
+    "description": "Propagates outcome credit through memory-provenance chains to guide which experiences agents reuse.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.08374",
+      "code": "https://github.com/jwliao-ai/MemQ"
+    },
+    "tags": [
+      "Self-evolution"
+    ]
+  },
+  {
+    "id": "jitai-design-principles",
+    "category": "action",
+    "subcategory": "initiative",
+    "title": "Just-in-Time Adaptive Interventions (JITAIs) in Mobile Health: Key Components and Design Principles for Ongoing Health Behavior Support",
+    "year": 2018,
+    "venue": "Annals of Behavioral Medicine",
+    "description": "Defines decision points, tailoring variables, and intervention rules for support that responds to changing personal context.",
+    "links": {
+      "paper": "https://academic.oup.com/abm/article/52/6/446/4733473"
+    },
+    "tags": [
+      "Foundational"
+    ]
+  },
+  {
+    "id": "when-to-speak",
+    "category": "action",
+    "subcategory": "initiative",
+    "title": "Large Language Models Know What To Say But Not When To Speak",
+    "year": 2024,
+    "venue": "Findings of EMNLP",
+    "description": "Studies failures to recognize appropriate speaking opportunities within natural, unscripted conversation.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2410.16044"
+    },
+    "tags": [
+      "Audio"
+    ]
+  },
+  {
+    "id": "proactive-agent",
+    "category": "action",
+    "subcategory": "initiative",
+    "title": "Proactive Agent: Shifting LLM Agents from Reactive Responses to Active Assistance",
+    "year": 2024,
+    "venue": "arXiv",
+    "description": "Learns whether to initiate assistance from activity traces and human judgments of proposed tasks.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2410.12361"
+    },
+    "tags": [
+      "Digital"
+    ]
+  },
+  {
+    "id": "mmduet",
+    "category": "action",
+    "subcategory": "initiative",
+    "title": "VideoLLM Knows When to Speak: Enhancing Time-Sensitive Video Comprehension with Video-Text Duet Interaction Format",
+    "year": 2024,
+    "venue": "arXiv",
+    "description": "Uses interleaved video-text interaction to train models to respond at relevant moments during video playback.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2411.17991"
+    },
+    "tags": [
+      "Streaming"
+    ]
+  },
+  {
+    "id": "communication-policy-evolution",
+    "category": "action",
+    "subcategory": "initiative",
+    "title": "Communication Policy Evolution for Proactive LLM Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "description": "Refines text and interface communication policies using rollouts and prompt updates under simulated user preferences.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2606.14314"
+    },
+    "tags": [
+      "Self-evolution"
+    ]
+  },
+  {
+    "id": "proactor",
+    "category": "action",
+    "subcategory": "continuation",
+    "title": "ProActor: Timing-Aware Reinforcement Learning for Proactive Task Scheduling Agents",
+    "year": 2026,
+    "venue": "ACL",
+    "description": "Learns when to schedule proactive tasks by incorporating intervention timing into reinforcement learning.",
+    "links": {
+      "paper": "https://aclanthology.org/2026.acl-long.832/"
+    },
+    "tags": [
+      "Digital"
+    ]
+  },
+  {
+    "id": "proact",
+    "category": "action",
+    "subcategory": "continuation",
+    "title": "Anticipate and Learn: Unleashing Idle-Time Compute in Proactive Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "description": "Uses idle time, dialogue history, and persistent memory to acquire evidence for anticipated future user needs.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.25971"
+    },
+    "tags": [
+      "Personalization"
+    ]
+  },
+  {
+    "id": "ask-before-plan",
+    "category": "action",
+    "subcategory": "execution",
+    "title": "Ask-before-Plan: Proactive Language Agents for Real-World Planning",
+    "year": 2024,
+    "venue": "Findings of EMNLP",
+    "description": "Combines clarification, tool-based information gathering, and planning when user requests leave important details unresolved.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2406.12639"
+    },
+    "tags": [
+      "Tool use"
+    ]
+  },
+  {
+    "id": "know-no",
+    "category": "action",
+    "subcategory": "execution",
+    "title": "Robots That Ask For Help: Uncertainty Alignment for Large Language Model Planners",
+    "year": 2023,
+    "venue": "CoRL",
+    "description": "Calibrates uncertainty in robotic language planning so the robot can request human help when needed.",
+    "links": {
+      "paper": "https://proceedings.mlr.press/v229/ren23a.html"
+    },
+    "tags": [
+      "User control"
+    ]
+  },
+  {
+    "id": "code-as-monitor",
+    "category": "action",
+    "subcategory": "execution",
+    "title": "Code-as-Monitor: Constraint-aware Visual Programming for Reactive and Proactive Robotic Failure Detection",
+    "year": 2025,
+    "venue": "CVPR",
+    "description": "Generates executable visual constraints to monitor robotic progress and detect or anticipate execution failures.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2412.04455"
+    },
+    "tags": [
+      "Tool use"
+    ]
+  },
+  {
+    "id": "react",
+    "category": "action",
+    "subcategory": "execution",
+    "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+    "year": 2023,
+    "venue": "ICLR",
+    "description": "Provides an enabling pattern for interleaving reasoning, environmental observations, and tool actions.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2210.03629",
+      "project": "https://react-lm.github.io"
+    },
+    "tags": [
+      "Foundational",
+      "Tool use"
+    ]
+  },
+  {
+    "id": "vinci",
+    "category": "systems",
+    "subcategory": "daily",
+    "title": "Vinci: A Real-time Embodied Smart Assistant based on Egocentric Vision-Language Model",
+    "year": 2024,
+    "venue": "arXiv",
+    "description": "Combines portable egocentric vision-language perception with real-time assistance in everyday activities.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2412.21080",
+      "code": "https://github.com/OpenGVLab/vinci"
+    },
+    "tags": [
+      "Wearable"
+    ]
+  },
+  {
+    "id": "visionclaw",
+    "category": "systems",
+    "subcategory": "daily",
+    "title": "VisionClaw: Always-On AI Agents through Smart Glasses",
+    "year": 2026,
+    "venue": "arXiv",
+    "description": "Connects live smart-glasses perception to an agent that executes tasks through external tools.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.03486"
+    },
+    "tags": [
+      "Wearable",
+      "Tool use"
+    ]
+  },
+  {
+    "id": "ai-for-service",
+    "category": "systems",
+    "subcategory": "daily",
+    "title": "AI for Service: Proactive Assistance with AI Glasses",
+    "year": 2025,
+    "venue": "arXiv",
+    "description": "Presents a glasses-based architecture for context-driven, proactive assistance in everyday scenarios.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2510.14359"
+    },
+    "tags": [
+      "Wearable"
+    ]
+  },
+  {
+    "id": "promemassist",
+    "category": "systems",
+    "subcategory": "daily",
+    "title": "ProMemAssist: Exploring Timely Proactive Assistance Through Working Memory Modeling in Multi-Modal Wearable Devices",
+    "year": 2025,
+    "venue": "UIST",
+    "description": "Models a wearer's working memory to select useful assistance moments while accounting for interruption cost.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2507.21378"
+    },
+    "tags": [
+      "Wearable"
+    ]
+  },
+  {
+    "id": "memento-ar",
+    "category": "systems",
+    "subcategory": "daily",
+    "title": "Memento: Towards Proactive Visualization of Everyday Memories with Personal Wearable AR Assistant",
+    "year": 2026,
+    "venue": "IEEE VRW",
+    "description": "Uses retained everyday memories for context-triggered AR recall and lets users remove unwanted records.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2601.17622"
+    },
+    "tags": [
+      "Wearable",
+      "User control"
+    ]
+  },
+  {
+    "id": "proagent",
+    "category": "systems",
+    "subcategory": "daily",
+    "title": "ProAgent: Harnessing On-Demand Sensory Contexts for Proactive LLM Agent Systems in the Wild",
+    "year": 2025,
+    "venue": "arXiv",
+    "description": "Selects sensory context on demand and incorporates feedback-derived personas when deciding whether to assist.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2512.06721"
+    },
+    "tags": [
+      "Wearable",
+      "Personalization"
+    ]
+  },
+  {
+    "id": "contextagent",
+    "category": "systems",
+    "subcategory": "daily",
+    "title": "ContextAgent: Context-Aware Proactive LLM Agents with Open-World Sensory Perceptions",
+    "year": 2025,
+    "venue": "NeurIPS",
+    "description": "Combines wearable sensory context and historical personas to predict assistance needs and invoke relevant tools.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2505.14668",
+      "code": "https://github.com/openaiotlab/ContextAgent"
+    },
+    "tags": [
+      "Wearable",
+      "Tool use"
+    ]
+  },
+  {
+    "id": "pro2assist",
+    "category": "systems",
+    "subcategory": "daily",
+    "title": "Pro²Assist: Continuous Step-aware Proactive Assistance with Multi-modal Egocentric Perception for Long-horizon Procedural Tasks",
+    "year": 2026,
+    "venue": "IMWUT",
+    "description": "Tracks procedural progress from multimodal egocentric input to provide step-aware guidance throughout a task.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.04227"
+    },
+    "tags": [
+      "Wearable"
+    ]
+  },
+  {
+    "id": "llamapie",
+    "category": "systems",
+    "subcategory": "conversation",
+    "title": "LlamaPIE: Proactive In-Ear Conversation Assistants",
+    "year": 2025,
+    "venue": "Findings of ACL",
+    "description": "Delivers discreet in-ear conversation assistance with decisions about when to speak.",
+    "links": {
+      "paper": "https://aclanthology.org/2025.findings-acl.710/"
+    },
+    "tags": [
+      "Wearable",
+      "Audio"
+    ]
+  },
+  {
+    "id": "socialmind",
+    "category": "systems",
+    "subcategory": "conversation",
+    "title": "SocialMind: LLM-based Proactive AR Social Assistive System with Human-like Perception for In-situ Live Interactions",
+    "year": 2025,
+    "venue": "IMWUT",
+    "description": "Uses verbal, nonverbal, and social context to provide proactive AR suggestions during live interactions.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2412.04036"
+    },
+    "tags": [
+      "Wearable",
+      "Multimodal"
+    ]
+  },
+  {
+    "id": "lts-voiceagent",
+    "category": "systems",
+    "subcategory": "conversation",
+    "title": "LTS-VoiceAgent: A Listen-Think-Speak Framework for Efficient Streaming Voice Interaction via Semantic Triggering and Incremental Reasoning",
+    "year": 2026,
+    "venue": "arXiv",
+    "description": "Coordinates listening, background reasoning, and speaking with semantic triggers for streaming voice interaction.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2601.19952"
+    },
+    "tags": [
+      "Audio",
+      "Streaming"
+    ]
+  },
+  {
+    "id": "pask",
+    "category": "systems",
+    "subcategory": "digital",
+    "title": "PASK: Toward Intent-Aware Proactive Agents with Long-Term Memory",
+    "year": 2026,
+    "venue": "arXiv",
+    "description": "Combines streaming intent detection, long-term memory, and a proactive-agent runtime to identify latent user needs.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.08000"
+    },
+    "tags": [
+      "Digital",
+      "Personalization"
+    ]
+  },
+  {
+    "id": "pitch-daily-planning",
+    "category": "systems",
+    "subcategory": "digital",
+    "title": "\"Having Lunch Now\": Understanding How Users Engage with a Proactive Agent for Daily Planning and Self-Reflection",
+    "year": 2025,
+    "venue": "arXiv",
+    "description": "Studies scheduled planning and reflection check-ins with a proactive assistant over a 14-day deployment.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2509.24073"
+    },
+    "tags": [
+      "Digital",
+      "Longitudinal"
+    ]
+  },
+  {
+    "id": "propersim",
+    "category": "systems",
+    "subcategory": "digital",
+    "title": "ProPerSim: Developing Proactive and Personalized AI Assistants through User-Assistant Simulation",
+    "year": 2026,
+    "venue": "ICLR",
+    "description": "Studies feedback-adapted proactive recommendations through ProPerAssistant in simulated household interactions.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2509.21730"
+    },
+    "tags": [
+      "Simulation",
+      "Self-evolution"
+    ]
+  },
+  {
+    "id": "knowact-guiclaw",
+    "category": "systems",
+    "subcategory": "digital",
+    "title": "KnowAct-GUIClaw: Know Deeply, Act Perfectly, Personal GUI Assistant with Self-Evolving Memory and Skill",
+    "year": 2026,
+    "venue": "arXiv",
+    "description": "Combines personal experience memory, GUI execution, and reusable skill updates across device platforms.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2607.12625"
+    },
+    "tags": [
+      "Digital",
+      "Self-evolution"
+    ]
+  },
+  {
+    "id": "ouroboros",
+    "category": "systems",
+    "subcategory": "digital",
+    "title": "Ouroboros: A Self-Developing Frontier Coding Agent with Reviewed Core Evolution",
+    "year": 2026,
+    "venue": "arXiv",
+    "description": "Reports reviewed changes to a coding agent's tools, prompts, and implementation that become the runtime for later work.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.08311"
+    },
+    "tags": [
+      "Digital",
+      "Self-evolution"
+    ]
+  },
+  {
+    "id": "healthclaw",
+    "category": "systems",
+    "subcategory": "digital",
+    "title": "A Self-Evolving Agent for Longitudinal Personal Health Management",
+    "year": 2026,
+    "venue": "arXiv",
+    "description": "Updates personal profiles, procedures, and episodic records for longitudinal health support evaluated on synthetic trajectories.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2607.13940",
+      "code": "https://github.com/HC-Guo/HealthClaw"
+    },
+    "tags": [
+      "Simulation",
+      "Self-evolution"
+    ]
+  },
+  {
+    "id": "assistantx",
+    "category": "systems",
+    "subcategory": "physical",
+    "title": "AssistantX: An LLM-Powered Proactive Assistant in Collaborative Human-Populated Environments",
+    "year": 2025,
+    "venue": "IROS",
+    "description": "Coordinates office tasks through perception, memory, execution checks, and proactive requests for human collaboration.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2409.17655",
+      "project": "https://assistantx-agent.github.io/AssistantX/"
+    },
+    "tags": [
+      "Longitudinal",
+      "Tool use"
+    ]
+  },
+  {
+    "id": "micobot",
+    "category": "systems",
+    "subcategory": "physical",
+    "title": "Mixed-Initiative Dialog for Human-Robot Collaborative Manipulation",
+    "year": 2025,
+    "venue": "arXiv",
+    "description": "Uses mixed-initiative dialogue to negotiate task allocation with human partners during collaborative manipulation.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2508.05535",
+      "project": "https://robin-lab.cs.utexas.edu/MicoBot/"
+    },
+    "tags": [
+      "User control"
+    ]
+  },
+  {
+    "id": "collaborative-vlas",
+    "category": "systems",
+    "subcategory": "physical",
+    "title": "Learning to Assist: Collaborative VLAs for Implicit Human-Robot Collaboration",
+    "year": 2026,
+    "venue": "arXiv",
+    "description": "Studies premature robotic assistance and steers action timing during collaborative assembly with humans.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2606.12475"
+    },
+    "tags": [
+      "User control"
+    ]
+  },
+  {
+    "id": "ego4d",
+    "category": "evaluation",
+    "subcategory": "sensing",
+    "title": "Ego4D: Around the World in 3,000 Hours of Egocentric Video",
+    "year": 2022,
+    "venue": "CVPR",
+    "description": "Provides first-person daily-life video and tasks for episodic memory, activity understanding, and forecasting.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2110.07058",
+      "data": "https://ego4d-data.org/"
+    },
+    "tags": [
+      "Wearable",
+      "Multimodal"
+    ]
+  },
+  {
+    "id": "ego-exo4d",
+    "category": "evaluation",
+    "subcategory": "sensing",
+    "title": "Ego-Exo4D: Understanding Skilled Human Activity from First- and Third-Person Perspectives",
+    "year": 2024,
+    "venue": "CVPR",
+    "description": "Pairs first- and third-person recordings to evaluate skilled activity understanding across viewpoints.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2311.18259",
+      "data": "https://ego-exo4d-data.org/"
+    },
+    "tags": [
+      "Wearable",
+      "Multimodal"
+    ]
+  },
+  {
+    "id": "egolife",
+    "category": "evaluation",
+    "subcategory": "sensing",
+    "title": "EgoLife: Towards Egocentric Life Assistant",
+    "year": 2025,
+    "venue": "CVPR",
+    "description": "Provides extended multimodal daily-life recordings and assistant-oriented tasks for egocentric memory and reasoning.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2503.03803"
+    },
+    "tags": [
+      "Wearable",
+      "Longitudinal"
+    ]
+  },
+  {
+    "id": "teleego",
+    "category": "evaluation",
+    "subcategory": "sensing",
+    "title": "TeleEgo: Benchmarking Egocentric AI Assistants in the Wild",
+    "year": 2025,
+    "venue": "arXiv",
+    "description": "Evaluates egocentric assistants on streaming daily-life understanding and long-term memory.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2510.23981"
+    },
+    "tags": [
+      "Wearable",
+      "Longitudinal"
+    ]
+  },
+  {
+    "id": "wearvox",
+    "category": "evaluation",
+    "subcategory": "sensing",
+    "title": "WearVox: An Egocentric Multichannel Voice Assistant Benchmark for Wearables",
+    "year": 2025,
+    "venue": "arXiv",
+    "description": "Evaluates wearable voice assistants using egocentric multichannel audio with realistic speakers and background noise.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2601.02391"
+    },
+    "tags": [
+      "Wearable",
+      "Audio"
+    ]
+  },
+  {
+    "id": "ovo-bench",
+    "category": "evaluation",
+    "subcategory": "sensing",
+    "title": "OVO-Bench: How Far is Your Video-LLMs from Real-World Online Video Understanding?",
+    "year": 2025,
+    "venue": "CVPR",
+    "description": "Tests online video understanding across backward tracing, current perception, and forward reasoning.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2501.05510",
+      "code": "https://github.com/JoeLeelyf/OVO-Bench"
+    },
+    "tags": [
+      "Streaming"
+    ]
+  },
+  {
+    "id": "locomo",
+    "category": "evaluation",
+    "subcategory": "memory",
+    "title": "Evaluating Very Long-Term Conversational Memory of LLM Agents",
+    "year": 2024,
+    "venue": "arXiv",
+    "description": "Introduces LoCoMo for evaluating very long-term conversational memory across multi-session interactions.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2402.17753"
+    },
+    "tags": [
+      "Personalization"
+    ]
+  },
+  {
+    "id": "longmemeval",
+    "category": "evaluation",
+    "subcategory": "memory",
+    "title": "LongMemEval: Benchmarking Chat Assistants on Long-Term Interactive Memory",
+    "year": 2025,
+    "venue": "ICLR",
+    "description": "Tests extraction, temporal reasoning, updates, and abstention when assistants recall long interaction histories.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2410.10813",
+      "code": "https://github.com/xiaowu0162/LongMemEval"
+    },
+    "tags": [
+      "Personalization"
+    ]
+  },
+  {
+    "id": "memoryagentbench",
+    "category": "evaluation",
+    "subcategory": "memory",
+    "title": "Evaluating Memory in LLM Agents via Incremental Multi-Turn Interactions",
+    "year": 2025,
+    "venue": "arXiv",
+    "description": "Evaluates incremental memory through retrieval, learning, long-range understanding, and selective forgetting tasks.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2507.05257"
+    },
+    "tags": [
+      "Personalization"
+    ]
+  },
+  {
+    "id": "memconflict",
+    "category": "evaluation",
+    "subcategory": "memory",
+    "title": "MemConflict: Evaluating Long-Term Memory Systems Under Memory Conflicts",
+    "year": 2026,
+    "venue": "arXiv",
+    "description": "Tests how long-term memory systems resolve contradictory and changing information.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.20926"
+    },
+    "tags": [
+      "Personalization"
+    ]
+  },
+  {
+    "id": "op-bench",
+    "category": "evaluation",
+    "subcategory": "memory",
+    "title": "OP-Bench: Benchmarking Over-Personalization for Memory-Augmented Personalized Conversational Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "description": "Measures whether memory-augmented assistants apply personal context when it is irrelevant or inappropriate.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2601.13722"
+    },
+    "tags": [
+      "Personalization",
+      "User control"
+    ]
+  },
+  {
+    "id": "ipi-bench",
+    "category": "evaluation",
+    "subcategory": "proactive",
+    "title": "IPIBench: Evaluating Interactive Proactive Intelligence of MLLMs under Continuous Streams",
+    "year": 2026,
+    "venue": "arXiv",
+    "description": "Evaluates when and how multimodal assistants intervene while receiving continuous input streams.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.27074"
+    },
+    "tags": [
+      "Streaming"
+    ]
+  },
+  {
+    "id": "proagentbench",
+    "category": "evaluation",
+    "subcategory": "proactive",
+    "title": "ProAgentBench: Evaluating LLM Agents for Proactive Assistance with Real-World Data",
+    "year": 2026,
+    "venue": "arXiv",
+    "description": "Separates intervention timing from assistance content using traces of real user workflows.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2602.04482",
+      "code": "https://anonymous.4open.science/r/ProAgentBench-6BC0"
+    },
+    "tags": [
+      "Digital"
+    ]
+  },
+  {
+    "id": "pro2bench",
+    "category": "evaluation",
+    "subcategory": "proactive",
+    "title": "Plan, Watch, Recover: A Benchmark and Architectures for Proactive Procedural Assistance",
+    "year": 2026,
+    "venue": "arXiv",
+    "description": "Evaluates planning, monitoring, and recovery for proactive assistance during multistep procedures.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2606.04970"
+    },
+    "tags": [
+      "Wearable"
+    ]
+  },
+  {
+    "id": "triggerbench",
+    "category": "evaluation",
+    "subcategory": "proactive",
+    "title": "TriggerBench: Investigating Prospective Memory for Large Language Models",
+    "year": 2026,
+    "venue": "arXiv",
+    "description": "Tests whether models retain intentions and act when the relevant future event occurs.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2606.23459",
+      "code": "https://github.com/KristenZHANG/TriggerBench-Official"
+    },
+    "tags": [
+      "Prospective memory"
+    ]
+  },
+  {
+    "id": "pm-bench",
+    "category": "evaluation",
+    "subcategory": "proactive",
+    "title": "PM-Bench: Evaluating Prospective Memory in LLM Agents",
+    "year": 2026,
+    "venue": "COLM",
+    "description": "Evaluates whether agents remember pending intentions and execute them at appropriate later opportunities.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2607.12385"
+    },
+    "tags": [
+      "Prospective memory"
+    ]
+  },
+  {
+    "id": "pi-bench",
+    "category": "evaluation",
+    "subcategory": "proactive",
+    "title": "π-Bench: Evaluating Proactive Personal Assistant Agents in Long-Horizon Workflows",
+    "year": 2026,
+    "venue": "arXiv",
+    "description": "Tests proactive personal assistants on workflows that require maintaining and acting on needs over long horizons.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.14678"
+    },
+    "tags": [
+      "Digital",
+      "Longitudinal"
+    ]
+  },
+  {
+    "id": "sentinelbench",
+    "category": "evaluation",
+    "subcategory": "longitudinal",
+    "title": "SentinelBench: A Benchmark for Long-Running Monitoring Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "description": "Evaluates agents that must monitor evolving conditions and sustain correct decisions over long-running tasks.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2606.05342"
+    },
+    "tags": [
+      "Longitudinal"
+    ]
+  },
+  {
+    "id": "streammembench",
+    "category": "evaluation",
+    "subcategory": "longitudinal",
+    "title": "StreamMemBench: Streaming Evaluation of Agent Memory for Future-Oriented Assistance",
+    "year": 2026,
+    "venue": "Findings of EMNLP",
+    "description": "Evaluates how streaming memory supports assistance needs that arise after the original observations.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2606.14571",
+      "code": "https://github.com/landian60/StreamMemBench"
+    },
+    "tags": [
+      "Longitudinal",
+      "Prospective memory"
+    ]
+  },
+  {
+    "id": "past-bench",
+    "category": "evaluation",
+    "subcategory": "longitudinal",
+    "title": "PAST-Bench: Benchmarking the Foundations of Recursive Self-Improvement in Personal Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "description": "Tests the foundations of recursive self-improvement in personal agents over streams of tasks.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.04003",
+      "code": "https://github.com/Gen-Verse/PAST-Bench"
+    },
+    "tags": [
+      "Longitudinal",
+      "Self-evolution"
+    ]
+  },
+  {
+    "id": "evomembench",
+    "category": "evaluation",
+    "subcategory": "longitudinal",
+    "title": "EvoMemBench: Benchmarking Agent Memory from a Self-Evolving Perspective",
+    "year": 2026,
+    "venue": "arXiv",
+    "description": "Evaluates agent memory through experience accumulation and its effect on later performance.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.18421",
+      "code": "https://github.com/DSAIL-Memory/EvoMemBench"
+    },
+    "tags": [
+      "Self-evolution"
+    ]
+  },
+  {
+    "id": "proassist",
+    "category": "systems",
+    "subcategory": "daily",
+    "title": "Proactive Assistant Dialogue Generation from Streaming Egocentric Videos",
+    "year": 2025,
+    "venue": "EMNLP",
+    "description": "Learns context-sensitive guidance from streaming egocentric video using synthesized assistant dialogues.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2506.05904",
+      "project": "https://pro-assist.github.io/"
+    },
+    "tags": [
+      "Wearable",
+      "Streaming"
+    ]
+  },
+  {
+    "id": "streambridge",
+    "category": "action",
+    "subcategory": "initiative",
+    "title": "StreamBridge: Turning Your Offline Video Large Language Model into a Proactive Streaming Assistant",
+    "year": 2025,
+    "venue": "NeurIPS",
+    "description": "Adds a compressed memory buffer and an activation model to enable proactive responses from offline video-language models.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2505.05467"
+    },
+    "tags": [
+      "Streaming"
+    ]
+  },
+  {
+    "id": "vinci2",
+    "category": "systems",
+    "subcategory": "daily",
+    "title": "Vinci2: Providing Proactive Assistance in Continuous Egocentric Videos",
+    "year": 2026,
+    "venue": "ECCV",
+    "description": "Combines temporal summaries, semantic memory, and visual retrieval to decide when assistance is warranted in continuous egocentric video.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2607.11523",
+      "project": "https://sitonggong.github.io/EgoServe-page/"
+    },
+    "tags": [
+      "Wearable",
+      "Personalization"
+    ]
+  },
+  {
+    "id": "lightmem-ego",
+    "category": "systems",
+    "subcategory": "daily",
+    "title": "LightMem-Ego: Your AI Memory for Everyday Life",
+    "year": 2026,
+    "venue": "arXiv",
+    "description": "Maintains aligned audio-visual memories across multiple timescales for later recall on phones and AI glasses.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2607.11487",
+      "code": "https://github.com/zjunlp/LightMem-Ego"
+    },
+    "tags": [
+      "Wearable",
+      "Multimodal"
+    ]
+  }
+]

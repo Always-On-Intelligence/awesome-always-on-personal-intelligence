@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="452" viewBox="0 0 1120 452" role="img" aria-labelledby="title desc">
+  <title id="title">A continuing Sensing–Memory–Action loop</title>
+  <desc id="desc">Five channels connect sensing, memory, and action. Sensing writes memory. Memory guides sensing and action. Action guides subsequent sensing and feeds outcomes back to memory. Privacy, resources, uncertainty, and user authority constrain all three modules.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1 7 4 1 7" fill="none" stroke="#324D59" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></marker>
+  </defs>
+  <rect x="1" y="1" width="1118" height="450" rx="22" fill="#FCFBF6" stroke="#E7E6DF"/>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#253D4B">
+    <text x="36" y="46" font-size="27" font-weight="700">One personal assistant. A continuing loop.</text>
+    <text x="36" y="78" font-size="19" fill="#647278">Retain context, notice change, and choose when help is useful.</text>
+    <g stroke="#324D59" stroke-width="2.5">
+      <rect x="36" y="128" width="288" height="146" rx="18" fill="#E5EDD9"/>
+      <rect x="416" y="128" width="288" height="146" rx="18" fill="#F0E4DF"/>
+      <rect x="796" y="128" width="288" height="146" rx="18" fill="#DFEAF1"/>
+    </g>
+    <g font-size="29" font-weight="700"><text x="62" y="169">Sensing</text><text x="442" y="169">Memory</text><text x="822" y="169">Action</text></g>
+    <g font-size="18"><text x="62" y="205">Notice changing context</text><text x="62" y="238">Observe · interpret · adapt</text><text x="442" y="205">Keep usable personal state</text><text x="442" y="238">Remember · update · forget</text><text x="822" y="205">Choose the right intervention</text><text x="822" y="238">Wait · ask · prepare · act</text></g>
+    <g fill="none" stroke="#324D59" stroke-width="2.5" marker-end="url(#arrow)">
+      <path d="M328 176H406"/>
+      <path d="M708 176H786"/>
+      <path d="M412 236H334"/>
+      <path d="M792 236H714"/>
+      <path d="M940 279V314Q940 333 921 333H199Q180 333 180 314V282"/>
+    </g>
+    <g font-size="17" text-anchor="middle" font-weight="700"><text x="370" y="160">S → M</text><text x="750" y="160">M → A</text><text x="370" y="222">M → S</text><text x="750" y="222">A → M</text></g>
+    <rect x="375" y="311" width="370" height="42" rx="12" fill="#FCFBF6"/>
+    <text x="560" y="338" font-size="19" text-anchor="middle">A → S · Observe what happens next</text>
+    <path d="M36 379H1084" stroke="#DADDD7"/>
+    <text x="560" y="416" font-size="19" text-anchor="middle" fill="#566867">Privacy · Resources · Uncertainty · User authority</text>
+  </g>
+</svg>
