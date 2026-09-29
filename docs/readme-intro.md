@@ -1,44 +1,93 @@
 <div align="center">
 
-<img src="assets/banner.png" width="100%" alt="Always-On Personal AI: A Roadmap towards a Continuing and Self-Evolving Loop"/>
+<img src="assets/banner.png" width="100%" alt="Always-On Personal AI: A Roadmap Towards Continuing, Self-Evolving Loops"/>
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Paper](https://img.shields.io/badge/Paper-Working_Draft-355774)](https://always-on-agent.github.io/assets/always-on-personal-ai.pdf) [![Website](https://img.shields.io/badge/Website-Always--On_Agent-66816d)](https://always-on-agent.github.io/) [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-b88465)](CONTRIBUTING.md) [![GitHub](https://img.shields.io/badge/GitHub-Repository-355774?logo=github)](https://github.com/Always-On-Agent/awesome-always-on-personal-ai)
+<p>
+  <b>A chapter-aligned reading list for always-on personal AI:<br/>
+  sensing, memory, action, integrated systems, self-evolution, and evaluation.</b>
+</p>
 
-A curated collection of research, systems, products, and building blocks for personal AI that stays useful across interactions.
+<p>
+  <img src="https://img.shields.io/badge/Paper-Coming_Soon-355774?style=for-the-badge&logo=arxiv&logoColor=white" alt="Paper coming soon"/>
+  <a href="https://always-on-agent.github.io/"><img src="https://img.shields.io/badge/Project-Website-66816D?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Project website"/></a>
+</p>
 
-**[Research](#sensing)** &nbsp; · &nbsp; **[Systems](#systems)** &nbsp; · &nbsp; **[Products](#products)** &nbsp; · &nbsp; **[Benchmarks](#evaluation)** &nbsp; · &nbsp; **[Contribute](CONTRIBUTING.md)**
+<p>
+  <a href="https://github.com/Always-On-Agent/awesome-always-on-personal-ai/stargazers"><img src="https://img.shields.io/github/stars/Always-On-Agent/awesome-always-on-personal-ai?style=flat-square&logo=github&color=B88465" alt="GitHub stars"/></a>
+  <img src="https://img.shields.io/badge/Papers-{{PAPER_COUNT}}-355774?style=flat-square" alt="{{PAPER_COUNT}} papers"/>
+  <img src="https://img.shields.io/badge/Last_Update-September_2026-66816D?style=flat-square" alt="Last update September 2026"/>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-8C8C8C?style=flat-square" alt="MIT License"/></a>
+</p>
 
-<sub>{{RESEARCH_COUNT}} research resources · {{PRODUCT_COUNT}} products · {{TOOL_COUNT}} developer tools</sub>
+<p>
+  <a href="#introduction">Introduction</a> •
+  <a href="#foundations">Foundations</a> •
+  <a href="#sensing">Sensing</a> •
+  <a href="#memory">Memory</a> •
+  <a href="#action">Action</a> •
+  <a href="#systems">Systems</a> •
+  <a href="#evolution">Self-Evolution</a> •
+  <a href="#evaluation">Benchmarks</a> •
+  <a href="#products">Products &amp; Tools</a>
+</p>
+
+<sub>Continuously updated · Contributions are welcome</sub>
 
 </div>
+
+<a id="citation"></a>
+## Citation
+
+The paper will be released soon. Until then, please cite the project as follows; we will update the entry with the author list and paper link.
+
+```bibtex
+@misc{liu2026alwayson,
+  title  = {Always-On Personal AI: A Roadmap Towards Continuing, Self-Evolving Loops},
+  author = {{Authors to be announced}},
+  year   = {2026},
+  note   = {Paper coming soon},
+  url    = {https://github.com/Always-On-Agent/awesome-always-on-personal-ai}
+}
+```
+
+---
 
 <a id="news"></a>
 ## News
 
-- **2026-09-15** — Introduced an eight-category collection, a dedicated product directory, and structured contribution guidelines alongside the current survey draft.
+- **[2026/09]** The collection is now a chapter-aligned reading list of all **{{WORK_COUNT}} works cited in our survey**, with code links where available.
+- **[2026/09]** We released the first curated collection with a product directory and developer tools.
 
-<a id="overview"></a>
-## What makes personal AI always-on?
+---
 
-**Always-on personal AI sustains assistance between explicit requests and retains usable personal state across interactions.** It can wake on a schedule or a relevant event, carry unfinished commitments forward, and decide when to act, ask, or stay silent. Continuous operation does not require continuous recording or inference.
+<a id="introduction"></a>
+## Introduction
 
-Our survey organizes this behavior around **Sensing**, **Memory**, and **Action**. Governed **self-evolution** adds a further requirement: using attributed outcomes to propose, validate, and durably commit changes to future behavior.
+Personal AI is moving from answering isolated requests toward providing sustained assistance. An always-on assistant keeps working between requests and keeps personal state across interactions, so unfinished commitments carry forward. Our survey organizes this behavior around three functional modules, **Sensing**, **Memory**, and **Action**, and the six directed channels that carry information between them.
 
-<p align="center">
-  <img src="assets/loop.svg" width="100%" alt="Sensing, Memory, and Action are connected by five directed channels: Sensing to Memory, Memory to Action, Action to Sensing, Memory to Sensing, and Action to Memory. Privacy, resources, uncertainty, and user authority constrain the loop."/>
-</p>
+> [!IMPORTANT]
+> **Always-on personal AI runs a continuing loop: it sustains assistance between requests and retains personal state across interactions. Self-evolution extends this loop by revising the assistant from its own operating experience.**
 
-<details>
-<summary><b>Explore the full survey framework and reading guide</b></summary>
+| Channel | What it supplies | Difficulty |
+|:--:|:--|:--:|
+| **S→A** | Current context, events, and execution state for deciding whether, when, and how to act | Basic |
+| **S→M** | Sensed evidence for deciding what to admit, integrate, or correct | Moderate |
+| **M→A** | Retained personal state that shapes action content, timing, and commitments | Moderate |
+| **A→S** | Intentions, plans, and execution state whose expected effects must be checked | Moderate |
+| **M→S** | Retained priors that guide sampling, attention, compression, and interpretation | High |
+| **A→M** | Action context, outcomes, and feedback to retain, integrate, or correct | High |
 
-<p align="center"><img src="assets/survey-framework.png" width="100%" alt="Full survey overview: functional modules, integrated systems, loop closure, and HALO oversight."/></p>
+Evidence is thinnest for the two high-difficulty channels, memory guiding sensing (M→S) and action outcomes returning to memory (A→M). Entries below carry a channel tag where the survey discusses them under that channel.
 
-- **New to the topic?** Start with [Surveys & Foundations](#surveys), then [Integrated Systems](#systems).
-- **Studying a mechanism?** Explore [Sensing](#sensing), [Memory](#memory), and [Action](#action).
-- **Building an assistant?** Browse [Tools & Infrastructure](#tools) and [Benchmarks & Datasets](#evaluation).
-- **Looking for something to use?** Go directly to [Products](#products).
-- **Studying feedback and self-evolution?** Follow the `Self-evolution` tags and the [five-channel guide](docs/taxonomy.md).
+<div align="center">
+<img src="assets/roadmap.png" width="95%" alt="Overview of the roadmap: the continuing loop, the module chapters, the system-level review, and HALO"/>
+<br>
+<em><b>Figure 1.</b> Overview of the roadmap. Sensing, Memory, and Action are connected by six directed channels under shared conditions. Each module chapter covers space, conditions, policy, coupling, and evaluation, followed by the system-level review and the HALO audit.</em>
+</div>
 
-This collection includes enabling methods and partial systems as well as continuing assistants. Inclusion does not imply that a work demonstrates every capability of a full always-on loop.
+---
 
-</details>
+<a id="contents"></a>
+## Table of Contents
+
+{{TOC}}

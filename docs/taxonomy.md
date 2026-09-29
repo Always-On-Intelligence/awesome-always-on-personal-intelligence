@@ -1,67 +1,48 @@
 # Scope and taxonomy
 
-This reading list accompanies *Always-On Personal AI: A Roadmap towards a Continuing and Self-Evolving Loop*. Its navigation follows the survey's Sensing–Memory–Action framework while giving systems, evaluations, products, and developer infrastructure distinct entry points.
+This reading list accompanies *Always-On Personal AI: A Roadmap Towards Continuing, Self-Evolving Loops*. It collects the works cited in the survey and arranges them by the survey's chapters.
 
-## Inclusion
+## Scope
 
-An always-on personal assistant provides opportunities for assistance **between explicit requests** and carries **usable personal state across interactions**. Scheduled and event-driven operation qualify; uninterrupted recording or model execution is not required.
+An always-on personal assistant sustains assistance **between explicit requests** and retains **usable personal state across interactions**. Scheduled and event-driven operation qualify; continuous recording or model execution is not required. Self-evolution extends this continuing loop by revising the assistant from its own operating experience.
 
-We include three kinds of relevance:
+The list includes component methods, benchmarks, and partial systems when they supply relevant methods or evidence. Inclusion does not mean that a work meets the full always-on definition.
 
-1. **Continuing personal assistance:** systems that connect ongoing service with retained personal state.
-2. **Enabling methods:** a concrete contribution to continuing sensing, personal memory, intervention timing, task resumption, outcome feedback, or governed updates. The description must name that contribution.
-3. **Evaluation and implementation resources:** benchmarks, datasets, products, and tools that make these capabilities observable or practical.
+## Sections
 
-Long context, a long individual task, generic RAG, a one-off tool call, or a product's use of the word “agent” is insufficient by itself. Broad agent research is included selectively where its relevance can be stated concretely. A study can be relevant without establishing a full always-on loop.
+| Section | What it collects | Survey chapter |
+|:--|:--|:--|
+| Surveys & Foundations | Related surveys, early visions of personal assistance, and classic foundations | Introduction, Foundations |
+| Sensing | Input streams, operating conditions, and sensing policy: triggering, windows, representation, placement, routing | Sensing |
+| Memory | What persists, and how memory is admitted, retrieved, consolidated, corrected, and retired | Memory |
+| Action | Whether and when to act, control depth, interfaces, and authority | Action |
+| Always-On Systems & Applications | Integrated systems and product sources, grouped by wearable, digital, and physical domains | Integrated Systems |
+| Self-Evolution | Revisions from operating experience, their validation, and their risks | Integrated Systems, Trends |
+| Benchmarks & Evaluation | Module benchmarks and long-term or deployment evaluation | Evaluation sections, Trends |
+| Products & Tools | Products, hardware platforms, and developer infrastructure | Mapping the Literature and curated additions |
 
-## Primary homes
+Each work has one home. A benchmark sits under Benchmarks even when it studies memory or sensing, and a system from the application tables sits under Systems. Methods sit in the module subsection where the survey discusses them. The `Product` tag marks product documentation and product studies inside Systems.
 
-| Category | Primary contribution |
-|:--|:--|
-| Surveys & Foundations | Orientation, concepts, and foundational personal-assistance architectures |
-| Sensing & Context Awareness | Context acquisition, streaming understanding, adaptive observation |
-| Memory & Personalization | Durable personal state, user models, commitments, memory lifecycle |
-| Proactive Action & Continuous Execution | Initiative, timing, task continuation, execution, and feedback |
-| Integrated Systems & Applications | An assistant architecture studied in a concrete service setting |
-| Benchmarks & Datasets | A dataset, benchmark, evaluation environment, or assessment protocol |
-| Products | A maintained interface for end users, including clearly labeled previews |
-| Tools & Infrastructure | Reusable components for developers |
+## Six channels
 
-Use one primary home per work. A benchmark paper belongs in Evaluation even when it contributes to memory or sensing. A method's implementation belongs in its paper's links. A separately maintained developer library or end-user product may have a distinct resource record with a different description and purpose.
+| Channel | What it supplies | Difficulty | Covered in |
+|:--:|:--|:--:|:--|
+| S→A | Current context, events, and execution state for deciding whether, when, and how to act | Basic | Action |
+| S→M | Sensed evidence for deciding what to admit, integrate, or correct | Moderate | Memory |
+| M→A | Retained personal state that shapes action content, timing, and commitments | Moderate | Action |
+| A→S | Intentions, plans, and execution state whose expected effects must be checked | Moderate | Sensing |
+| M→S | Retained priors that guide sampling, attention, compression, and interpretation | High | Sensing |
+| A→M | Action context, outcomes, and feedback to retain, integrate, or correct | High | Memory |
 
-Systems use the paper's four application families. Products use their principal delivery form: wearable/ambient device, desktop/mobile interface, or hosted/messaging interface. A multi-surface product appears once under its principal use; the form-factor field records additional supported surfaces.
-
-## Cross-cutting themes
-
-Use at most two useful tags per entry. Themes such as `Self-evolution`, `Privacy`, `User control`, `Wearable`, `Digital`, and `Physical` can cross category boundaries. Open-source availability is expressed through a code link; it is not a separate class of research evidence.
-
-**Self-evolution** concerns feedback-derived changes to future behavior. Where a paper demonstrates only part of this process, say so. Storing a preference, running one reflection, or showing an unvalidated code edit does not establish the survey's full governed self-evolution requirements.
-
-## Five coupling channels
-
-| Channel | What crosses the boundary |
-|:--|:--|
-| S → M | Observations become durable memory |
-| M → A | Retained context informs intervention or execution |
-| A → S | Actions or unresolved outcomes change subsequent observation |
-| M → S | Memory guides what to observe or how to interpret it |
-| A → M | Attributed outcomes inform memory or persistent policy revision |
-
-These channels describe dependencies across categories. A source may support one connection and leave the others untested.
+A channel tag marks a work that the survey discusses under that channel, such as a row of a coupling table or an application table. A work can support one channel and leave the others untested.
 
 ## Levels and evidence
 
-The paper's cumulative levels distinguish durable state (L1), state-informed decisions (L2), continuing operation (L3), outcome feedback (L4), and governed policy revision (L5), above the session-local reference baseline (L0).
-
-We do not automatically assign these levels to repository entries. A level requires evidence for the relevant configuration, not a marketing claim or a system name. Product documentation describes features; research papers may report experiments; code exposes mechanisms. These sources answer different questions.
-
-HALO is the survey's assessment protocol. The survey uses its read mode to inspect existing configurations; its run mode specifies scoped execution and outcome assessment. The repository does not present that protocol as a newly measured leaderboard.
+The survey's loop-closure levels run from session-local response (L0) through retained state (L1), state-guided decisions (L2), unrequested action (L3), and attributed outcomes (L4) to governed revision (L5). L3 is where a service becomes always-on. The list does not assign these levels to entries; a level needs evidence for a specific configuration, which the survey's tables and HALO review provide.
 
 ## Ordering and maintenance
 
-- Research entries: descending year, then title within each subcategory.
-- Products and tools: alphabetical within each subcategory.
-- Product availability: official source, bounded status, and a last-checked date.
-- Empty subcategories: omitted until there is real material to include.
-- Source data: `data/research.json`, `data/products.json`, and `data/tools.json`.
-- Generated presentation: `README.md`; editable framing: `docs/readme-intro.md` and `docs/readme-footer.md`.
+- Research entries: newest first, then by title, within each subsection.
+- Products and tools: by group, then by title.
+- Empty subsections are omitted.
+- Source data: `data/research.json`, `data/products.json`, and `data/tools.json`. Framing text: `docs/readme-intro.md` and `docs/readme-footer.md`. `README.md` is generated.
