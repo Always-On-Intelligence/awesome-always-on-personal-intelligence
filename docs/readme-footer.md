@@ -37,3 +37,20 @@ You can also [suggest a resource](https://github.com/Always-On-Agent/awesome-alw
 The format follows [Awesome Long-Horizon Agents](https://github.com/RUC-NLPIR/Awesome-Long-Horizon-Agents). The banner and icons were created for this repository, and the overview figure is from our survey.
 
 Repository code and curation text are available under the [MIT License](LICENSE). Linked papers, products, datasets, and third-party assets keep their own licenses and terms.
+
+---
+
+<a id="citation"></a>
+## Citation
+
+The paper will be released soon. Until then, please cite the project as follows; we will update the entry with the author list and paper link.
+
+```bibtex
+@misc{liu2026alwayson,
+  title  = {Always-On Personal AI: A Roadmap Towards Continuing, Self-Evolving Loops},
+  author = {{Authors to be announced}},
+  year   = {2026},
+  note   = {Paper coming soon},
+  url    = {https://github.com/Always-On-Agent/awesome-always-on-personal-ai}
+}
+```

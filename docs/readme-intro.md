@@ -19,36 +19,11 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-8C8C8C?style=flat-square" alt="MIT License"/></a>
 </p>
 
-<p>
-  <a href="#introduction">Introduction</a> •
-  <a href="#foundations">Foundations</a> •
-  <a href="#sensing">Sensing</a> •
-  <a href="#memory">Memory</a> •
-  <a href="#action">Action</a> •
-  <a href="#systems">Systems</a> •
-  <a href="#evolution">Self-Evolution</a> •
-  <a href="#evaluation">Benchmarks</a> •
-  <a href="#products">Products &amp; Tools</a>
-</p>
-
 <sub>Continuously updated · Contributions are welcome</sub>
 
 </div>
 
-<a id="citation"></a>
-## Citation
-
-The paper will be released soon. Until then, please cite the project as follows; we will update the entry with the author list and paper link.
-
-```bibtex
-@misc{liu2026alwayson,
-  title  = {Always-On Personal AI: A Roadmap Towards Continuing, Self-Evolving Loops},
-  author = {{Authors to be announced}},
-  year   = {2026},
-  note   = {Paper coming soon},
-  url    = {https://github.com/Always-On-Agent/awesome-always-on-personal-ai}
-}
-```
+{{TOC}}
 
 ---
 
@@ -84,10 +59,3 @@ Evidence is thinnest for the two high-difficulty channels, memory guiding sensin
 <br>
 <em><b>Figure 1.</b> Overview of the roadmap. Sensing, Memory, and Action are connected by six directed channels under shared conditions. Each module chapter covers space, conditions, policy, coupling, and evaluation, followed by the system-level review and the HALO audit.</em>
 </div>
-
----
-
-<a id="contents"></a>
-## Table of Contents
-
-{{TOC}}
