@@ -13,11 +13,11 @@ The list includes component methods, benchmarks, and partial systems when they s
 | Section | What it collects | Survey chapter |
 |:--|:--|:--|
 | Surveys & Foundations | Related surveys, early visions of personal assistance, and classic foundations | Introduction, Foundations |
-| Sensing | Input streams, operating conditions, and sensing policy: triggering, windows, representation, placement, routing | Sensing |
-| Memory | What persists, and how memory is admitted, retrieved, consolidated, corrected, and retired | Memory |
-| Action | Whether and when to act, control depth, interfaces, and authority | Action |
-| Always-On Systems & Applications | Integrated systems and product sources, grouped by wearable, digital, and physical domains | Integrated Systems |
-| Self-Evolution | Revisions from operating experience, their validation, and their risks | Integrated Systems, Trends |
+| Sensing | What starts observation, operating conditions, and sensing policy: triggering, windows, segmentation, compression, placement, routing | Sensing |
+| Memory | What persists (retrospective, profile, prospective), and how memory is admitted, retrieved, consolidated, corrected, and retired | Memory |
+| Action | What starts an action, whether and when to act, control depth, interfaces, and authority | Action |
+| Always-On Systems & Applications | Integrated systems and product sources, grouped by wearable, digital, and physical domains | Applications and Loop Closure |
+| Self-Evolution | Revisions from operating experience, their validation, and their risks | Applications and Loop Closure, Trends |
 | Benchmarks & Evaluation | Module benchmarks and long-term or deployment evaluation | Evaluation sections, Trends |
 | Products & Tools | Products, hardware platforms, and developer infrastructure | Mapping the Literature and curated additions |
 

@@ -30,7 +30,8 @@
 <a id="news"></a>
 ## News
 
-- **[2026/09]** The collection is now a chapter-aligned reading list of all **{{WORK_COUNT}} works cited in our survey**, with code links where available.
+- **[2026/10]** Updated to the latest survey draft: **{{WORK_COUNT}} cited works**, with sections that follow its revised chapter structure.
+- **[2026/09]** The collection became a chapter-aligned reading list of the works cited in our survey, with code links where available.
 - **[2026/09]** We released the first curated collection with a product directory and developer tools.
 
 ---

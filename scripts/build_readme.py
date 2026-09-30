@@ -15,20 +15,21 @@ ROOT = Path(__file__).resolve().parents[1]
 CATEGORIES = [
     ("foundations", "Surveys & Foundations", "surveys", "Related surveys, early visions of personal assistance, and the classic ideas the survey builds on.", [
         ("surveys", "Surveys & Roadmaps"), ("background", "Early Visions & Classic Foundations")]),
-    ("sensing", "Sensing", "sensing", "What an assistant can observe, what observation costs, and how it decides when, how long, and how much to sense.", [
-        ("streams", "Input Streams: Body, Vision, Audio & Screen"), ("triggering", "Triggering & Sampling"),
-        ("windows", "Streaming Windows & Event Segmentation"), ("representation", "Representation & Compression"),
-        ("conditions", "Operating Conditions & Compute Placement"), ("coupling", "Routing & Sensing Guided by Memory and Action")]),
-    ("memory", "Memory", "memory", "What can persist across interactions and how memory is written, retrieved, consolidated, corrected, and retired.", [
-        ("types", "Memory Types & Storage"), ("admission", "Admission & Encoding"), ("retrieval", "Indexing & Retrieval"),
-        ("maintenance", "Consolidation, Correction & Forgetting"), ("coupling", "Writes from Sensing & Action")]),
-    ("action", "Action", "action", "Whether and when to intervene, how control is retained, through which interface, and under whose authority.", [
-        ("timing", "When to Act: Intervene, Wait or Ask"), ("interventions", "Interventions, Consequences & Feedback"),
+    ("sensing", "Sensing", "sensing", "What starts observation, what observation costs, and how the assistant decides when, how long, and how much to sense.", [
+        ("streams", "What Starts Observation: Continuous, Triggered & On-Demand"), ("conditions", "Operating Conditions & Compute Placement"),
+        ("triggering", "Triggering & Perception Budget"), ("windows", "Observation Windows & Online Segmentation"),
+        ("representation", "Compression, Redaction & Readiness"), ("coupling", "Routing & Sensing Guided by Memory and Action")]),
+    ("memory", "Memory", "memory", "What persists across interactions and how memory is admitted, retrieved, consolidated, corrected, and retired.", [
+        ("types", "What Persists: Retrospective, Profile & Prospective"), ("admission", "Admission & Encoding"),
+        ("retrieval", "Indexing, Retrieval & Delivery"), ("maintenance", "Consolidation, Correction & Retirement"),
+        ("coupling", "Writes from Sensing & Action")]),
+    ("action", "Action", "action", "What starts an action, whether and when to intervene, how control is retained, through which interface, and under whose authority.", [
+        ("interventions", "What Starts an Action: Reactive, Deferred & Proactive"), ("timing", "When to Act: Intervene, Wait or Ask"),
         ("control", "Control Depth & Interfaces"), ("authority", "Authority, Safety & Interruption Cost"), ("coupling", "Memory-Guided Action")]),
     ("systems", "Always-On Systems & Applications", "systems", "Integrated systems and product sources reviewed in the survey, grouped by interaction domain. `Product` marks product documentation or product studies.", [
         ("wearable", "Wearable"), ("digital", "Digital"), ("physical", "Physical")]),
     ("evolution", "Self-Evolution", "evolution", "Revising the assistant from its own operating experience: what changes, how a change is validated, and what can go wrong.", [
-        ("deployed", "Learning from Operating Experience"), ("recursive", "Recursive Revision, Validation & Risks")]),
+        ("deployed", "Self-Evolution in Deployed Loops"), ("recursive", "Recursive Revision, Validation & Risks")]),
     ("evaluation", "Benchmarks & Evaluation", "evaluation", "Benchmarks and evaluation settings for each module, plus long-term and deployment evaluation.", [
         ("sensing", "Sensing"), ("memory", "Memory"), ("action", "Action"), ("longitudinal", "Long-Term & Deployment Evaluation")]),
     ("products", "Products & Tools", "products", "Products, hardware platforms, and developer infrastructure. Descriptions follow official documentation, not independent evaluation.", [

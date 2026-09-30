@@ -1,10 +1,10 @@
 # Curation notes
 
-Last full pass: **2026-09-29**.
+Last full pass: **2026-10-01**, against the survey draft of the same date.
 
 ## Source
 
-The reading list collects every work cited in the survey chapters: Introduction, Foundations, Sensing, Memory, Action, Integrated Systems, HALO, Trends, and Conclusion. Product documentation and hardware pages cited in the survey are included as sources. The product and tool directories extend this with curated entries checked against official pages.
+The reading list collects every work cited in the survey chapters: Introduction, Foundations, Sensing, Memory, Action, Applications and Loop Closure, HALO, Trends, and Conclusion. Product documentation and hardware pages cited in the survey are included as sources. The product and tool directories extend this with curated entries checked against official pages.
 
 ## Placement
 
