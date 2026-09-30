@@ -9,7 +9,7 @@ import ssl
 from urllib.error import HTTPError, URLError
 from urllib.request import HTTPRedirectHandler, HTTPSHandler, Request, build_opener
 
-from build_readme import load_entries
+from build_readme import load_entries, load_sections
 
 
 class RedirectHandler(HTTPRedirectHandler):
@@ -38,7 +38,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output", help="Write a JSON report to this path")
     args = parser.parse_args()
-    urls = sorted({url for entry in load_entries() for url in entry["links"].values()})
+    urls = sorted({url for entry in load_entries(load_sections()[1]) for url in entry["links"].values()})
     with ThreadPoolExecutor(max_workers=6) as pool:
         results = list(pool.map(check, urls))
     summary = dict(Counter(row["result"] for row in results))

@@ -17,7 +17,7 @@ Each research entry renders in one format:
 ```
 
 - Use the acceptance venue when a work has one, and `arXiv` otherwise.
-- Place each work once, in the section where its main contribution fits.
+- Place each work once, under the survey section that discusses it.
 - Add a channel tag only when the work supplies or uses that channel.
 
 You can also [suggest a resource](https://github.com/Always-On-Agent/awesome-always-on-personal-ai/issues/new?template=resource.yml) or report a correction. [CONTRIBUTING.md](CONTRIBUTING.md) describes the data format.
@@ -43,12 +43,12 @@ Repository code and curation text are available under the [MIT License](LICENSE)
 <a id="citation"></a>
 ## Citation
 
-The paper will be released soon. Until then, please cite the project as follows; we will update the entry with the author list and paper link.
+The paper will be released soon. Until then, please cite it as it currently appears:
 
 ```bibtex
-@misc{liu2026alwayson,
+@misc{alwayson2026roadmap,
   title  = {Always-On Personal AI: A Roadmap Towards Continuing, Self-Evolving Loops},
-  author = {{Authors to be announced}},
+  author = {{Anonymous Author(s)}},
   year   = {2026},
   note   = {Paper coming soon},
   url    = {https://github.com/Always-On-Agent/awesome-always-on-personal-ai}

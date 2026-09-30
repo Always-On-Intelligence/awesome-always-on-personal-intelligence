@@ -1,8 +1,7 @@
 [
   {
     "id": "mem0",
-    "category": "products",
-    "subcategory": "tools",
+    "section": "products-tools",
     "group": "memory",
     "title": "Mem0",
     "description": "Adds retrievable long-term memories that persist across an agent's sessions, tools, and runs.",
@@ -15,8 +14,7 @@
   },
   {
     "id": "letta",
-    "category": "products",
-    "subcategory": "tools",
+    "section": "products-tools",
     "group": "memory",
     "title": "Letta",
     "description": "Supports stateful agents with persistent editable memory and background consolidation of lessons from prior conversations.",
@@ -29,8 +27,7 @@
   },
   {
     "id": "graphiti",
-    "category": "products",
-    "subcategory": "tools",
+    "section": "products-tools",
     "group": "memory",
     "title": "Graphiti",
     "description": "Builds temporal knowledge graphs from evolving interactions while retaining fact history and links to source episodes.",
@@ -43,8 +40,7 @@
   },
   {
     "id": "memos",
-    "category": "products",
-    "subcategory": "tools",
+    "section": "products-tools",
     "group": "memory",
     "title": "MemOS",
     "description": "Provides APIs to store, retrieve, edit, and delete persistent agent memory with asynchronous ingestion and feedback-based correction.",
@@ -57,8 +53,7 @@
   },
   {
     "id": "langgraph",
-    "category": "products",
-    "subcategory": "tools",
+    "section": "products-tools",
     "group": "runtime",
     "title": "LangGraph",
     "description": "Uses persistent checkpoints and cross-thread stores to resume agent workflows and retain useful context across interactions.",
@@ -71,8 +66,7 @@
   },
   {
     "id": "temporal",
-    "category": "products",
-    "subcategory": "tools",
+    "section": "products-tools",
     "group": "runtime",
     "title": "Temporal",
     "description": "Preserves workflow execution state through failures so long-running background jobs can wait for events and resume work.",
@@ -85,8 +79,7 @@
   },
   {
     "id": "inngest",
-    "category": "products",
-    "subcategory": "tools",
+    "section": "products-tools",
     "group": "runtime",
     "title": "Inngest",
     "description": "Triggers asynchronous background functions from application events, webhooks, or recurring schedules for ongoing agent workflows.",
@@ -99,8 +92,7 @@
   },
   {
     "id": "composio",
-    "category": "products",
-    "subcategory": "tools",
+    "section": "products-tools",
     "group": "integrations",
     "title": "Composio",
     "description": "Connects agents to user-authorized app accounts and delivers app-event triggers that can start contextual background work.",
@@ -113,8 +105,7 @@
   },
   {
     "id": "model-context-protocol",
-    "category": "products",
-    "subcategory": "tools",
+    "section": "products-tools",
     "group": "integrations",
     "title": "Model Context Protocol (MCP)",
     "description": "Standardizes connections to external data and tools so personal agents can access authorized context and invoke application capabilities.",
@@ -127,8 +118,7 @@
   },
   {
     "id": "langfuse",
-    "category": "products",
-    "subcategory": "tools",
+    "section": "products-tools",
     "group": "integrations",
     "title": "Langfuse",
     "description": "Records agent traces and evaluation signals to inspect failures, latency, and costs across ongoing assistance workflows.",
