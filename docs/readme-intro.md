@@ -3,8 +3,8 @@
 <img src="assets/banner.png" width="100%" alt="Always-On Personal AI: A Roadmap Towards Continuing, Self-Evolving Loops"/>
 
 <p>
-  <b>A chapter-aligned reading list for always-on personal AI:<br/>
-  sensing, memory, action, integrated systems, self-evolution, and evaluation.</b>
+  <b>The reading list of <i>Always-On Personal AI: A Roadmap Towards Continuing, Self-Evolving Loops</i>,<br/>
+  arranged by the survey's own sections.</b>
 </p>
 
 <p>
@@ -15,7 +15,7 @@
 <p>
   <a href="https://github.com/Always-On-Agent/awesome-always-on-personal-ai/stargazers"><img src="https://img.shields.io/github/stars/Always-On-Agent/awesome-always-on-personal-ai?style=flat-square&logo=github&color=B88465" alt="GitHub stars"/></a>
   <img src="https://img.shields.io/badge/Papers-{{PAPER_COUNT}}-355774?style=flat-square" alt="{{PAPER_COUNT}} papers"/>
-  <img src="https://img.shields.io/badge/Last_Update-September_2026-66816D?style=flat-square" alt="Last update September 2026"/>
+  <img src="https://img.shields.io/badge/Last_Update-October_2026-66816D?style=flat-square" alt="Last update October 2026"/>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-8C8C8C?style=flat-square" alt="MIT License"/></a>
 </p>
 
@@ -30,33 +30,34 @@
 <a id="news"></a>
 ## News
 
-- **[2026/10]** Updated to the latest survey draft: **{{WORK_COUNT}} cited works**, with sections that follow its revised chapter structure.
-- **[2026/09]** The collection became a chapter-aligned reading list of the works cited in our survey, with code links where available.
-- **[2026/09]** We released the first curated collection with a product directory and developer tools.
+- **[2026/10]** The list now follows the survey's structure and terms: its section numbers and titles, and within each module, space, operating conditions, policy, coupling, and evaluation. It covers all **{{WORK_COUNT}} cited works**.
+- **[2026/09]** The collection became a reading list of the works cited in our survey, with code links where available.
 
 ---
 
-<a id="introduction"></a>
-## Introduction
+<a id="overview"></a>
+## Overview
 
-Personal AI is moving from answering isolated requests toward providing sustained assistance. An always-on assistant keeps working between requests and keeps personal state across interactions, so unfinished commitments carry forward. Our survey organizes this behavior around three functional modules, **Sensing**, **Memory**, and **Action**, and the six directed channels that carry information between them.
+The promise of always-on personal AI lies in a **continuing, self-evolving loop**. A continuing loop sustains service and preserves relevant personal state across interactions. Its two properties, **operational continuity** and **state durability**, form the foundation of always-on personal AI. Building on it, a **self-evolving loop** revises the assistant using its own operating experience.
 
 > [!IMPORTANT]
-> **Always-on personal AI runs a continuing loop: it sustains assistance between requests and retains personal state across interactions. Self-evolution extends this loop by revising the assistant from its own operating experience.**
+> **The survey connects Sensing, Memory, and Action through six directed coupling channels. Shared operating conditions, such as privacy and authority, govern the modules, and an implementation of models and scaffolding realizes them.**
 
-| Channel | What it supplies | Difficulty |
-|:--:|:--|:--:|
-| **S→A** | Current context, events, and execution state for deciding whether, when, and how to act | Basic |
-| **S→M** | Sensed evidence for deciding what to admit, integrate, or correct | Moderate |
-| **M→A** | Retained personal state that shapes action content, timing, and commitments | Moderate |
-| **A→S** | Intentions, plans, and execution state whose expected effects must be checked | Moderate |
-| **M→S** | Retained priors that guide sampling, attention, compression, and interpretation | High |
-| **A→M** | Action context, outcomes, and feedback to retain, integrate, or correct | High |
+| Channel | What it supplies | Difficulty | Covered in |
+|:--:|:--|:--:|:--:|
+| **S→A** | Current context, events, and execution state, as the situation to act on and to decide whether, when, and how to act | Basic | [§5](#sec-5) |
+| **S→M** | Sensed evidence, as new material to retain and to decide what to admit, integrate, or correct | Moderate | [§4](#sec-4) |
+| **M→A** | Retained personal state, as action content and to choose timing, effector, or commitment | Moderate | [§5](#sec-5) |
+| **A→S** | Intentions, plans, and execution state, as expected effects to check and to decide what to observe | Moderate | [§3](#sec-3) |
+| **M→S** | Retained priors, as background for interpretation and to guide sampling, attention, or compression | High | [§3](#sec-3) |
+| **A→M** | Action context, trajectories, outcomes, and feedback, as task history to retain and to decide what to integrate or correct | High | [§4](#sec-4) |
 
-Evidence is thinnest for the two high-difficulty channels, memory guiding sensing (M→S) and action outcomes returning to memory (A→M). Entries below carry a channel tag where the survey discusses them under that channel.
+The synthesis finds the thinnest support for two channels: memory guiding sensing (M→S) and action outcomes returning to memory (A→M).
+
+**How to read the list.** Sections and titles follow the survey, and each work appears once, under the section where the survey discusses it. A channel tag such as `M→S` marks a work discussed under that coupling channel. In Section 6, `L0` to `L5` give a system's level in the loop-closure table, and `Product` marks product rows.
 
 <div align="center">
 <img src="assets/roadmap.png" width="95%" alt="Overview of the roadmap: the continuing loop, the module chapters, the system-level review, and HALO"/>
 <br>
-<em><b>Figure 1.</b> Overview of the roadmap. Sensing, Memory, and Action are connected by six directed channels under shared conditions. Each module chapter covers space, conditions, policy, coupling, and evaluation, followed by the system-level review and the HALO audit.</em>
+<em><b>Figure 1.</b> Overview of the roadmap. <b>Left:</b> the continuing loop connects Sensing, Memory, and Action through six directed coupling channels (Section 2); highlighted M→S and A→M arrows mark the two high-difficulty channels. Shared conditions and the implementation stack underpin all three modules. <b>Center:</b> each module chapter (Sections 3 to 5) follows a five-part structure: space, conditions, policy, coupling, and evaluation. <b>Right:</b> the system-level review (Section 6) examines integration bottlenecks and loop closure; HALO (Section 7) places reviewed systems in the framework in read mode and tests channels in run mode.</em>
 </div>

@@ -1,48 +1,50 @@
-# Scope and taxonomy
+# Scope and structure
 
-This reading list accompanies *Always-On Personal AI: A Roadmap Towards Continuing, Self-Evolving Loops*. It collects the works cited in the survey and arranges them by the survey's chapters.
+This reading list accompanies *Always-On Personal AI: A Roadmap Towards Continuing, Self-Evolving Loops*. It collects the works cited in the survey and arranges them by the survey's own sections, numbers, and titles.
 
 ## Scope
 
-An always-on personal assistant sustains assistance **between explicit requests** and retains **usable personal state across interactions**. Scheduled and event-driven operation qualify; continuous recording or model execution is not required. Self-evolution extends this continuing loop by revising the assistant from its own operating experience.
+A continuing loop sustains service and preserves relevant personal state across interactions. Its two properties, operational continuity and state durability, form the foundation of always-on personal AI. A self-evolving loop extends it by revising the assistant using its own operating experience. Scheduled and event-driven operation qualify; continuous recording or model execution is not required.
 
-The list includes component methods, benchmarks, and partial systems when they supply relevant methods or evidence. Inclusion does not mean that a work meets the full always-on definition.
+The list includes component methods, benchmarks, and partial systems when the survey uses them as methods or evidence. Inclusion does not mean that a work meets the full always-on definition.
 
-## Sections
+## Structure
 
-| Section | What it collects | Survey chapter |
-|:--|:--|:--|
-| Surveys & Foundations | Related surveys, early visions of personal assistance, and classic foundations | Introduction, Foundations |
-| Sensing | What starts observation, operating conditions, and sensing policy: triggering, windows, segmentation, compression, placement, routing | Sensing |
-| Memory | What persists (retrospective, profile, prospective), and how memory is admitted, retrieved, consolidated, corrected, and retired | Memory |
-| Action | What starts an action, whether and when to act, control depth, interfaces, and authority | Action |
-| Always-On Systems & Applications | Integrated systems and product sources, grouped by wearable, digital, and physical domains | Applications and Loop Closure |
-| Self-Evolution | Revisions from operating experience, their validation, and their risks | Applications and Loop Closure, Trends |
-| Benchmarks & Evaluation | Module benchmarks and long-term or deployment evaluation | Evaluation sections, Trends |
-| Products & Tools | Products, hardware platforms, and developer infrastructure | Mapping the Literature and curated additions |
+`data/sections.json` mirrors the survey's numbered sections:
 
-Each work has one home. A benchmark sits under Benchmarks even when it studies memory or sensing, and a system from the application tables sits under Systems. Methods sit in the module subsection where the survey discusses them. The `Product` tag marks product documentation and product studies inside Systems.
+| Section | Parts |
+|:--|:--|
+| 1 Introduction | Positioning and Related Surveys |
+| 2 Definitions and Foundations | Continuing and self-evolving loops, functional modules, coupling channels, operating conditions, operating regimes, mapping the literature |
+| 3 Sensing, 4 Memory, 5 Action | Space, operating conditions, policy, coupling across the loop, and evaluation, with the survey's subsections |
+| 6 Applications, System Bottlenecks, and Loop Closure | Applications and bottlenecks by domain, shared conditions and implementation, levels of loop closure, self-evolution in deployed loops |
+| 7 HALO | Read mode, run mode, limitations |
+| 8 Trends and Open Problems | Local policies, coordination, self-evolution and recursive revision, longitudinal evaluation |
 
-## Six channels
+Products & Tools follows as a curated addition; it is not part of the survey.
 
-| Channel | What it supplies | Difficulty | Covered in |
-|:--:|:--|:--:|:--|
-| S→A | Current context, events, and execution state for deciding whether, when, and how to act | Basic | Action |
-| S→M | Sensed evidence for deciding what to admit, integrate, or correct | Moderate | Memory |
-| M→A | Retained personal state that shapes action content, timing, and commitments | Moderate | Action |
-| A→S | Intentions, plans, and execution state whose expected effects must be checked | Moderate | Sensing |
-| M→S | Retained priors that guide sampling, attention, compression, and interpretation | High | Sensing |
-| A→M | Action context, outcomes, and feedback to retain, integrate, or correct | High | Memory |
+Inside a section, entries can carry the survey's own grouping: the paragraphs of the space subsections (continuous, triggered, and on-demand sensing; retrospective, profile, and prospective memory; reactive, deferred, and proactive action), the questions of the operating-conditions subsections, the groups of the benchmark tables, and the domain rows of the loop-closure table.
 
-A channel tag marks a work that the survey discusses under that channel, such as a row of a coupling table or an application table. A work can support one channel and leave the others untested.
+## Placement
 
-## Levels and evidence
+Each work appears once, under the section where the survey treats it most directly:
 
-The survey's loop-closure levels run from session-local response (L0) through retained state (L1), state-guided decisions (L2), unrequested action (L3), and attributed outcomes (L4) to governed revision (L5). L3 is where a service becomes always-on. The list does not assign these levels to entries; a level needs evidence for a specific configuration, which the survey's tables and HALO review provide.
+1. A related survey discussed in Section 1.1 stays there.
+2. A system in the application landscape table goes to its domain in Section 6.1; a system in the loop-closure table goes to Section 6.3.
+3. A benchmark in a module's benchmark table goes to that module's Benchmarks and Evaluation Settings.
+4. Other works go to the subsection that discusses them, preferring evaluation, then self-evolution, then policy, then space and operating conditions, then coupling, then the remaining chapters.
 
-## Ordering and maintenance
+## Tags
 
-- Research entries: newest first, then by title, within each subsection.
+| Tag | Meaning |
+|:--|:--|
+| `S→A`, `S→M`, `M→A`, `A→S`, `M→S`, `A→M` | The survey discusses the work under that coupling channel |
+| `L0` to `L5` | The system's level in the loop-closure table: session local, retained state, state-guided decision, unrequested action, attributed outcomes, governed revision |
+| `Product` | A product row of the loop-closure table |
+
+## Maintenance
+
+- Research entries: newest first, then by title, within each section or group.
 - Products and tools: by group, then by title.
-- Empty subsections are omitted.
-- Source data: `data/research.json`, `data/products.json`, and `data/tools.json`. Framing text: `docs/readme-intro.md` and `docs/readme-footer.md`. `README.md` is generated.
+- Sections without entries are omitted from the README.
+- Source data: `data/sections.json`, `data/research.json`, `data/products.json`, and `data/tools.json`. Framing text: `docs/readme-intro.md` and `docs/readme-footer.md`. `README.md` is generated.

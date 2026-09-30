@@ -1,8 +1,7 @@
 [
   {
     "id": "omi",
-    "category": "products",
-    "subcategory": "products",
+    "section": "products-list",
     "group": "wearables",
     "title": "Omi",
     "description": "Turns recorded conversations into searchable memories, summaries, extracted tasks, and daily recaps through a wearable and companion apps.",
@@ -15,8 +14,7 @@
   },
   {
     "id": "ray-ban-meta",
-    "category": "products",
-    "subcategory": "products",
+    "section": "products-list",
     "group": "wearables",
     "title": "Ray-Ban Meta",
     "description": "Provides camera-grounded assistance, voice interaction, and user-set reminders through smart glasses paired with the Meta AI app.",
@@ -28,8 +26,7 @@
   },
   {
     "id": "plaud-notepin",
-    "category": "products",
-    "subcategory": "products",
+    "section": "products-list",
     "group": "wearables",
     "title": "PLAUD NotePin",
     "description": "Captures user-started in-person conversations for later transcription, summarization, and retrieval in the Plaud app.",
@@ -41,8 +38,7 @@
   },
   {
     "id": "windows-recall",
-    "category": "products",
-    "subcategory": "products",
+    "section": "products-list",
     "group": "apps",
     "title": "Windows Recall",
     "description": "Stores opt-in screen snapshots locally and lets users search prior desktop activity with capture, filtering, and deletion controls.",
@@ -54,8 +50,7 @@
   },
   {
     "id": "screenpipe",
-    "category": "products",
-    "subcategory": "products",
+    "section": "products-list",
     "group": "apps",
     "title": "screenpipe",
     "description": "Builds a searchable local history of screen and audio activity that users and connected agents can use for recall and follow-up work.",
@@ -68,8 +63,7 @@
   },
   {
     "id": "claude-cowork",
-    "category": "products",
-    "subcategory": "products",
+    "section": "products-list",
     "group": "apps",
     "title": "Claude Cowork",
     "description": "Runs delegated tasks across selected files and tools, with unattended scheduled work and results returned for review.",
@@ -80,8 +74,7 @@
   },
   {
     "id": "chatgpt-pulse",
-    "category": "products",
-    "subcategory": "products",
+    "section": "products-list",
     "group": "hosted",
     "title": "ChatGPT Pulse",
     "description": "Uses chat history, memory, feedback, and optional connected apps to prepare personalized research briefings between conversations.",
@@ -92,8 +85,7 @@
   },
   {
     "id": "muse",
-    "category": "products",
-    "subcategory": "products",
+    "section": "products-list",
     "group": "hosted",
     "title": "Muse",
     "description": "Combines persistent conversational memory with scheduled and event-driven background work, surfacing meaningful updates or requests for input.",
@@ -105,8 +97,7 @@
   },
   {
     "id": "openclaw",
-    "category": "products",
-    "subcategory": "products",
+    "section": "products-list",
     "group": "hosted",
     "title": "OpenClaw",
     "description": "Runs a personal assistant on user-managed infrastructure with durable memory, messaging access, and scheduled heartbeat checks or follow-ups.",
@@ -119,8 +110,7 @@
   },
   {
     "id": "lindy",
-    "category": "products",
-    "subcategory": "products",
+    "section": "products-list",
     "group": "hosted",
     "title": "Lindy",
     "description": "Uses connected inbox and calendar context to prepare meetings, draft replies, and handle post-meeting follow-ups.",
