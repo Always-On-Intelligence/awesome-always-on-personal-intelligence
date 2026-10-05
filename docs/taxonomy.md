@@ -18,13 +18,13 @@ The list starts directly with the survey's module chapters and follows its title
 | Applications, System Bottlenecks, and Loop Closure | Applications and bottlenecks by domain, shared conditions and implementation, levels of loop closure, self-evolution in deployed loops |
 | Trends and Open Problems | Local policies, coordination, self-evolution and recursive revision, longitudinal evaluation |
 | Related Surveys | Capability-focused and concurrent system-level surveys |
-| Products & Tools | Curated products and developer tools, and the device pages the survey cites |
+| Products & Tools | The product pages, documentation, and blogs the survey cites, by wearable, digital, and physical domain; device pages; and the curated product directory and developer tools |
 
 The README's Foundations section summarizes the survey's definitions, coupling channels, and loop-closure levels without a reading list. Works the survey cites only in its Introduction or Foundations, such as textbooks and early visions, are left out, apart from the related surveys and device pages.
 
 ## Placement
 
-Each work appears once, under the section where the survey treats it most directly:
+Research works and products are kept apart: a source that is an official product page, documentation, or blog goes to Products & Tools under its interaction domain, whatever section cites it. Each research work appears once, under the section where the survey treats it most directly:
 
 1. A related survey discussed in the survey's positioning goes to Related Surveys.
 2. A system in the application landscape table goes to its domain under Applications and Bottlenecks; a system in the loop-closure table goes to Levels of Loop Closure.
@@ -38,7 +38,7 @@ Each work appears once, under the section where the survey treats it most direct
 | Grouping tags such as `Continuous`, `Profile`, `Deferred`, `Recall baselines`, `Wearable` | The survey's own grouping inside a section: what starts observation or action, the kind of memory, a benchmark-table group, or a system's domain |
 | `S→A`, `S→M`, `M→A`, `A→S`, `M→S`, `A→M` | The survey discusses the work under that coupling channel |
 | `L0` to `L5` | The system's level in the loop-closure table: session local, retained state, state-guided decision, unrequested action, attributed outcomes, governed revision |
-| `Product` | A product row of the loop-closure table |
+| `Product` | A published study of a product from the loop-closure table's product rows |
 
 ## Maintenance
 
