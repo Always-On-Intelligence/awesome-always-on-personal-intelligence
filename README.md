@@ -58,12 +58,11 @@
   - [Self-Evolution and Recursive Revision](#sec-8-3)
   - [Longitudinal Evaluation and Real Deployment](#sec-8-4)
 - [Related Surveys](#related-surveys) (35)
-- [Products & Tools](#products) (91)
+- [Products & Tools](#products) (65)
   - [Wearable Products](#products-wearable)
   - [Digital Products](#products-digital)
   - [Physical Products](#products-physical)
   - [Devices & Platforms](#products-devices)
-  - [Product Directory](#products-list)
   - [Developer Tools](#products-tools)
 - [Contributing](#contributing)
 - [Citation](#citation)
@@ -75,9 +74,9 @@
 <a id="news"></a>
 ## News
 
-- **[2026/10]** Research works and products are now listed apart: official product pages, documentation, and blogs moved to Products & Tools, grouped by wearable, digital, and physical domain.
+- **[2026/10]** Products now have one line each, linking the official product page instead of documentation or blog posts: **55 products**, kept apart from the research works and grouped by wearable, digital, and physical domain.
 - **[2026/10]** The list starts directly with the modules, without section numbers. Each list runs from the newest work to the oldest, related surveys sit near the end, and background works such as textbooks are left out.
-- **[2026/10]** Synced with the latest draft, now titled *Always-On Personal Intelligence: A Roadmap Towards Continuing, Self-Evolving Loops*: **500 works**, the revised memory policy subsections, and the new product rows of the loop-closure table.
+- **[2026/10]** Synced with the latest draft, now titled *Always-On Personal Intelligence: A Roadmap Towards Continuing, Self-Evolving Loops*: **429 research works**, the revised memory policy subsections, and the new product rows of the loop-closure table.
 - **[2026/10]** The list follows the survey's chapters, titles, and terms: within each module, space, operating conditions, policy, coupling, and evaluation.
 - **[2026/09]** The collection became a reading list of the works cited in our survey, with code links where available.
 
@@ -97,7 +96,7 @@ The promise of always-on personal intelligence lies in a **continuing, self-evol
 <em><b>Figure 1.</b> Overview of the roadmap. We first define always-on personal intelligence as a continuing loop that connects Sensing, Memory, and Action through six directed channels. We then review each module by its space, conditions, policy, coupling, and evaluation. Next, we examine integrated systems, their bottlenecks, and their levels of loop closure. Finally, we audit existing systems with HALO in read and run modes.</em>
 </div>
 
-**How to read the list.** Sections and titles follow the survey's module chapters, and each work appears once, under the section where the survey discusses it. Each list runs from the newest work to the oldest. Tags show the survey's own groupings: what starts observation or action, which kind of memory, a benchmark group, or a system's domain. A channel tag such as `M→S` marks a work discussed under that coupling channel, `L0` to `L5` give a system's level in the loop-closure table, and `Product` marks a published study of a product. Product pages, documentation, and blogs are listed separately under [Products & Tools](#products).
+**How to read the list.** Sections and titles follow the survey's module chapters, and each work appears once, under the section where the survey discusses it. Each list runs from the newest work to the oldest. Tags show the survey's own groupings: what starts observation or action, which kind of memory, a benchmark group, or a system's domain. A channel tag such as `M→S` marks a work discussed under that coupling channel, `L0` to `L5` give a system's level in the loop-closure table, and `Product` marks a published study of a product. Products are listed separately under [Products & Tools](#products), one line per product with its official page.
 
 ---
 
@@ -830,108 +829,78 @@ Capability-focused surveys, and concurrent system-level surveys that connect sev
 <a id="products"></a>
 ## <img src="assets/icons/products.svg" height="30" align="top" alt=""/> Products & Tools
 
-Products are listed apart from research works because their sources are official pages, documentation, and blogs. The first lists hold the product sources the survey cites, by interaction domain, with the product's level in the loop-closure table where the survey places it. The product directory and developer tools are curated for this repository; their descriptions follow official documentation checked in September 2026, and availability varies by plan, platform, and region. See the [product source notes](docs/product-sources.md).
+Products are listed apart from research works, one line per product with its official page. They cover the products and devices the survey discusses, by interaction domain and with the level the loop-closure table gives them, plus a few curated additions. Availability varies by plan, platform, and region. Developer tools are curated for this repository; see the [product source notes](docs/product-sources.md).
 
 <a id="products-wearable"></a>
 ### Wearable Products
 
-- **`Amazon 2026`** Building Bee at Amazon: How the Wearable AI Device Is Evolving. [[docs](https://www.aboutamazon.com/news/devices/bee-amazon-wearable-ai-device-new-features)] `L3`
-- **`Even Realities 2026`** Even G2 AI Glasses. [[website](https://www.evenrealities.com/ai-glasses)] `L2`
-- **`Based Hardware 2026`** Omi Developer Documentation: Notifications and Storing Conversations. [[docs](https://docs.omi.me/doc/developer/apps/Notifications)] `L3`
-- **`Based Hardware 2026`** Omi Help Center: First Steps. [[docs](https://help.omi.me/en/articles/13135362-first-steps)] `S→M`
-- **`Oura 2026`** Oura Advisor. [[docs](https://support.ouraring.com/hc/en-us/articles/39512345699219-Oura-Advisor)] `L2`
-- **`RayNeo 2026`** RayNeo iO AI Glasses. [[website](https://www.rayneo.cn/io.html)] `L2`
-- **`Looki 2026`** What Is a Wearable AI Assistant? How Context Becomes Help. [[blog](https://www.looki.ai/blogs/news/what-is-a-wearable-ai-assistant-how-real-world-context-becomes-help)] `L3`
-- **`Apple 2025`** watchOS 26 Delivers More Personalised Ways to Stay Active and Connected. [[blog](https://www.apple.com/uk/newsroom/2025/06/watchos-26-delivers-more-personalized-ways-to-stay-active-and-connected/)] `L3`
+- **`Amazon`** Bee. [[website](https://bee.computer/)] `L3`
+- **`Even Realities`** Even G2. [[website](https://www.evenrealities.com/smart-glasses)] `L2`
+- **`Looki`** Looki L1. [[website](https://www.looki.ai/)] `L3`
+- **`Based Hardware`** Omi. [[website](https://www.omi.me/)] `S→M` `L3`
+- **`Oura`** Oura Advisor. [[website](https://support.ouraring.com/hc/en-us/articles/39512345699219-Oura-Advisor)] `L2`
+- **`PLAUD`** PLAUD NotePin. [[website](https://www.plaud.ai/products/plaud-notepin)]
+- **`Meta`** Ray-Ban Meta. [[website](https://www.meta.com/ai-glasses/ray-ban-meta/)]
+- **`RayNeo`** RayNeo iO. [[website](https://www.rayneo.cn/io.html)] `L2`
+- **`Apple`** Smart Stack hints (watchOS). [[website](https://www.apple.com/os/watchos/)] `L3`
 
 <a id="products-digital"></a>
 ### Digital Products
 
-- **`Inbox Zero 2026`** AI Personal Assistant and Assistant Settings Documentation. [[docs](https://docs.getinboxzero.com/essentials/email-ai-personal-assistant)] `L4`
-- **`Catch 2026`** An Executive Assistant for Travel Planning. [[blog](https://www.catchagent.ai/blog/solutions/executive-assistant-travel-planning)] `L4`
-- **`Brea 2026`** Brea Documentation: Schedules and Triggers. [[docs](https://docs.brea.ai/automations/schedules-and-triggers/)]
-- **`Brea 2026`** Brea Documentation: Where Results Go. [[docs](https://docs.brea.ai/automations/where-results-go/)] `L3`
-- **`Caddy 2026`** Caddy: Important Email Alerts. [[docs](https://caddy.app/use-cases/important-email-alerts)] `L4`
-- **`Kindroid 2026`** Chat Features and Tools. [[docs](https://kindroid.ai/v2/docs/chat-features-and-tools/)] `L3`
-- **`Anthropic 2026`** Claude Cowork. [[website](https://claude.com/product/cowork)] `L2`
-- **`OPPO 2026`** ColorOS 17. [[website](https://www.coloros.com/version/coloros17/)] `L3`
-- **`OpenAI 2026`** Dreaming: Better Memory for a More Helpful ChatGPT. [[website](https://openai.com/index/chatgpt-memory-dreaming/)]
-- **`folk 2026`** folk: An AI That Nags You. [[docs](https://www.folk.com/use-cases/ai-that-nags-you)] `L4`
-- **`Google 2026`** Get Personal Suggestions on Your Pixel with Magic Cue. [[docs](https://support.google.com/pixelphone/answer/16508057)]
-- **`Google 2026`** Get Started with Your Daily Brief in Gemini Apps. [[docs](https://support.google.com/gemini/answer/17077455)] `L2`
-- **`xAI 2026`** Grok Bot for Engineering. [[docs](https://x.ai/bot/guides/grok-bot-for-engineering)] `A→S` `L4`
-- **`Nous Research 2026`** Hermes Agent Documentation: Scheduled Tasks (Cron). [[docs](https://hermes-agent.nousresearch.com/docs/user-guide/features/cron)]
-- **`Nous Research 2026`** Hermes Agent: Persistent Memory, Cron Jobs, and Skills Documentation. [[docs](https://hermes-agent.nousresearch.com/docs/user-guide/features/skills)] `L4`
-- **`HeyClicky 2026`** HeyClicky Changelog. [[docs](https://heyclicky.com/changelog)] `L4`
-- **`Meta 2026`** How Muse Works with Your Guidance and Approval. [[docs](https://www.meta.com/help/artificial-intelligence/1385290430137537/)]
-- **`Samsung 2026`** How to Use Now Nudge on Samsung Galaxy Phone. [[docs](https://www.samsung.com/us/support/answer/ANS10010355/)] `L3`
-- **`Meta 2026`** How We Built Safety Into Muse. [[blog](https://research.meta.ai/blog/security-and-safety-for-ai-agents-our-approach-with-muse)]
-- **`Meta 2026`** How We Designed Muse. [[blog](https://introducing.muse.ai/)]
-- **`Instinct 2026`** Instinct. [[website](https://instinct.com/)] `L3`
-- **`Thinking Machines 2026`** Interaction Models: A Scalable Approach to Human-AI Collaboration. [[blog](https://thinkingmachines.ai/blog/interaction-models/)] `L0`
-- **`Meta 2026`** Introducing Muse: The World's First Personal AI Agent Built for Everyone. [[blog](https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/)] `L3`
-- **`Leon 2026`** Leon: Your Open-Source Personal AI Assistant, 2.0 Developer Preview. [[code](https://github.com/leon-ai/leon)] `L4`
-- **`OpenAI 2026`** Meet dots: ChatGPT Documentation. [[docs](https://learn.chatgpt.com/docs/dots)] `A→S` `L4`
-- **`OpenClaw 2026`** OpenClaw Documentation: Heartbeat. [[docs](https://docs.openclaw.ai/gateway/heartbeat)]
-- **`OpenClaw 2026`** OpenClaw v2026.8.1: Automations and Scheduling. [[docs](https://docs.openclaw.ai/releases/2026.8.1/automations-and-scheduling)]
-- **`OpenClaw 2026`** OpenClaw: Memory, Heartbeat, and Self-Learning Documentation. [[docs](https://docs.openclaw.ai/tools/self-learning)] `L4`
-- **`Orchid 2026`** Orchid: An AI Assistant in iMessage. [[blog](https://orchid.ai/blog/orchid-ai-assistant-imessage)] `L3`
-- **`Pally 2026`** Pally Changelog. [[docs](https://pally.com/changelog.md)] `A→M` `L4`
-- **`Inbox Zero 2026`** Reply Zero: Inbox Zero Documentation. [[docs](https://docs.getinboxzero.com/essentials/reply-zero)]
-- **`Google 2026`** Schedule Actions in Gemini Apps. [[docs](https://support.google.com/gemini/answer/16316416)]
-- **`Anthropic 2026`** Schedule Recurring Tasks in Claude Cowork. [[docs](https://support.claude.com/en/articles/13854387-schedule-recurring-tasks-in-claude-cowork)]
-- **`Manus 2026`** Scheduled Tasks 2.0. [[docs](https://manus.im/blog/manus-schedules)] `L2`
-- **`OpenAI 2026`** Scheduled Tasks: ChatGPT Documentation. [[docs](https://learn.chatgpt.com/docs/automations)]
-- **`Today 2026`** Today: The AI Personal Agent for Your Whole Day. [[blog](https://today.ai/articles/blog/what-is-today)] `L2`
-- **`Pally 2026`** Todo Catcher: Pally Recipes. [[docs](https://pally.com/recipes/todo-catcher)]
-- **`Town 2026`** Town Documentation: Suggestions. [[docs](https://town.com/docs/features/suggestions)] `L4`
-- **`Vellum 2026`** Vellum Documentation: Followups. [[docs](https://vellum.ai/docs/skills-reference/followups.md)] `L4`
-- **`Vellum 2026`** Vellum Documentation: Scheduling. [[docs](https://vellum.ai/docs/key-concepts/scheduling.md)] `L4`
-- **`Huawei 2026`** Xiaoyi Suggestions: Frequently Asked Questions. [[docs](https://consumer.huawei.com/cn/support/content/zh-cn15965298/)] `L4`
-- **`Google 2025`** Google Pixel 10: 9 New AI Features and Updates. [[blog](https://blog.google/products-and-platforms/devices/pixel/google-pixel-10-ai-features-updates/)] `L3`
-- **`LangChain 2025`** Introducing Ambient Agents. [[docs](https://www.langchain.com/blog/introducing-ambient-agents)] `L4`
-- **`vivo 2025`** vivo X200 Series Frequently Asked Questions. [[docs](https://www.vivo.com.cn/service/questions/all?categoryId=158&questionId=1744)] `L3`
-- **`Microsoft 2024`** Update on the Recall Preview Feature for Copilot+ PCs. [[blog](https://blogs.windows.com/windowsexperience/2024/06/07/update-on-the-recall-preview-feature-for-copilot-pcs/)] `S→M` `L2`
-- **`Huawei 2023`** Huawei Releases HarmonyOS 4. [[blog](https://www.huawei.com/cn/news/2023/8/harmonyos4-function)]
+- **`Brea`** Brea. [[website](https://brea.ai/)] `L3`
+- **`Caddy`** Caddy. [[website](https://caddy.app/)] `L4`
+- **`Catch`** Catch. [[website](https://www.catchagent.ai/)] `L4`
+- **`OpenAI`** ChatGPT (Dot, Pulse, Scheduled Tasks, Memory). [[website](https://chatgpt.com/overview/)] `A→S` `L4`
+- **`Anthropic`** Claude Cowork. [[website](https://claude.com/product/cowork)] `L2`
+- **`LangChain`** EAIA (Executive AI Assistant). [[website](https://github.com/langchain-ai/executive-ai-assistant)] `L4`
+- **`folk`** Folk. [[website](https://www.folk.com/)] `L4`
+- **`Google`** Gemini (Daily Brief, Scheduled Actions). [[website](https://gemini.google/)] `L2`
+- **`xAI`** Grok Bot. [[website](https://x.ai/bot)] `A→S` `L4`
+- **`Nous Research`** Hermes Agent. [[website](https://hermes-agent.nousresearch.com/)] `L4`
+- **`HeyClicky`** HeyClicky. [[website](https://www.heyclicky.com/)] `L4`
+- **`Inbox Zero`** Inbox Zero. [[website](https://www.getinboxzero.com/)] `L4`
+- **`Instinct`** Instinct. [[website](https://instinct.com/)] `L3`
+- **`Thinking Machines`** Interaction Models. [[website](https://thinkingmachines.ai/)] `L0`
+- **`Kindroid`** Kindroid. [[website](https://kindroid.ai/)] `L3`
+- **`Leon`** Leon. [[website](https://getleon.ai/)] `L4`
+- **`Lindy`** Lindy. [[website](https://www.lindy.ai/)]
+- **`Manus`** Manus. [[website](https://manus.im/)] `L2`
+- **`Meta`** Muse. [[website](https://muse.ai/)] `L3`
+- **`Samsung`** Now Nudge (Galaxy AI). [[website](https://www.samsung.com/us/galaxy-ai/)] `L3`
+- **`OpenClaw`** OpenClaw. [[website](https://openclaw.ai/)] `L4`
+- **`OPPO`** OPPO Xiaobu (ColorOS 17). [[website](https://www.coloros.com/version/coloros17/)] `L3`
+- **`Orchid`** Orchid. [[website](https://orchid.ai/)] `L3`
+- **`Pally`** Pally. [[website](https://pally.com/)] `A→M` `L4`
+- **`Google`** Pixel Magic Cue. [[website](https://store.google.com/us/magazine/magic-cue?hl=en-US)] `L3`
+- **`screenpipe`** screenpipe. [[website](https://screenpipe.com/)]
+- **`Today`** Today. [[website](https://today.ai/)] `L2`
+- **`Town`** Town. [[website](https://www.town.com/)] `L4`
+- **`Vellum`** Vellum. [[website](https://www.vellum.ai/)] `L4`
+- **`Microsoft`** Windows Recall. [[website](https://support.microsoft.com/en-us/windows/ai/ai-features/retrace-your-steps-with-recall)] `S→M` `L2`
+- **`vivo`** Xiao V Suggestions. [[website](https://www.vivo.com.cn/originos)] `L3`
+- **`Huawei`** Xiaoyi Suggestions. [[website](https://consumer.huawei.com/cn/mobileservices/celia/)] `L4`
 
 <a id="products-physical"></a>
 ### Physical Products
 
-- **`Sony 2026`** aibo ERS-1000 Help Guide: Getting to Know aibo. [[docs](https://helpguide.sony.net/aibo/ers1000/v1/en-us/contents/TP0001970093.html)] `L3`
-- **`Casio 2026`** Casio Provides Moflin Smart Companions to Pediatric Ward at The Jikei University Hospital. [[blog](https://www.casio.com/intl/news/2026/0409-moflin/)] `L4`
-- **`Intuition Robotics 2026`** ElliQ: Frequently Asked Questions. [[docs](https://elliq.com/pages/faqs)] `S→M`
-- **`Amazon 2026`** Introducing Alexa+: Skills, Cost, and Availability. [[blog](https://www.aboutamazon.com/news/devices/new-alexa-generative-artificial-intelligence)] `L3`
-- **`KEYi Technology 2026`** Loona Deskmate. [[website](https://keyirobot.com/en-sg/products/deskmate)] `L4`
-- **`Figure AI 2025`** Helix: A Vision-Language-Action Model for Generalist Humanoid Control. [[website](https://www.figure.ai/news/helix)]
-- **`Amazon 2021`** Meet Astro, a Home Robot Unlike Any Other. [[docs](https://www.aboutamazon.com/news/devices/meet-astro-a-home-robot-unlike-any-other)] `L3`
+- **`Sony`** aibo. [[website](https://us.aibo.com/)] `L3`
+- **`Amazon`** Alexa+. [[website](https://www.amazon.com/alexaplus)] `L3`
+- **`Amazon`** Amazon Astro. [[website](https://www.amazon.com/Amazon-Astro/dp/B078NSDFSB)] `L3`
+- **`Intuition Robotics`** ElliQ. [[website](https://elliq.com/)] `S→M`
+- **`KEYi Technology`** Loona Deskmate. [[website](https://keyirobot.com/en-sg/products/deskmate)] `L4`
+- **`Casio`** Moflin. [[website](https://www.casio.com/us/moflin/)] `L4`
 
 <a id="products-devices"></a>
 ### Devices & Platforms
 
-- **`Meta 2026`** Hardware Specifications: Aria Gen 1. [[website](https://facebookresearch.github.io/projectaria_tools/docs/tech_spec/hardware_spec)]
-- **`Vuzix 2026`** M400 Smart Glasses. [[website](https://www.vuzix.com/products/m400-smart-glasses)]
-- **`X Square Robot 2026`** Quanta X2 and WALL-A: Company Development Milestones. [[website](https://x2robot.com/en/about)]
-- **`Meta 2025`** Inside Aria Gen 2: Explore the Cutting-Edge Tech Behind the Device. [[website](https://ai.meta.com/blog/aria-gen-2-research-glasses-under-the-hood-reality-labs/)]
-- **`Figure AI 2025`** Introducing Figure 03. [[website](https://www.figure.ai/news/introducing-figure-03)]
-- **`Samsung 2025`** Introducing Galaxy XR: Opening New Worlds. [[website](https://news.samsung.com/global/introducing-galaxy-xr-opening-new-worlds)]
-- **`rabbit 2024`** Introducing r1, a Pocket Companion That Moves AI from Words to Action. [[website](https://www.rabbit.tech/newsroom/introducing-r1)]
-- **`Meta 2024`** Project Aria Recording Profiles. [[website](https://facebookresearch.github.io/projectaria_tools/docs/tech_spec/recording_profiles)]
-- **`Bosch 2018`** CES 2018: Bosch Launches BMA400 Ultra-Low Power Accelerometer. [[website](https://www.bosch-sensortec.com/en/news/ces-2018-bosch-launches-bma400-ultra-low-power-accelerometer.html)]
-- **`Intel 2018`** New Intel RealSense D435i Stereo Depth Camera Adds 6 Degrees of Freedom Tracking. [[website](https://download.intel.com/newsroom/2021/archive/2018-11-13-news-new-intel-realsense-d435i-stereo-depth-camera-adds-6-degrees-freedom-tracking.pdf)]
-
-<a id="products-list"></a>
-### Product Directory
-
-- **`Wearable`** Omi: turns recorded conversations into searchable memories, summaries, extracted tasks, and daily recaps through a wearable and companion apps. [[docs](https://help.omi.me/en/articles/12017447-omi-device-orders-shipping-what-to-expect)] [[website](https://www.omi.me/pages/product)] [[code](https://github.com/BasedHardware/omi)]
-- **`Wearable`** PLAUD NotePin: captures user-started in-person conversations for later transcription, summarization, and retrieval in the Plaud app. [[docs](https://support.plaud.ai/hc/en-us/articles/50841183397273-Start-recording)] [[website](https://www.plaud.ai/products/plaud-notepin)]
-- **`Wearable`** Ray-Ban Meta: provides camera-grounded assistance, voice interaction, and user-set reminders through smart glasses paired with the Meta AI app. [[docs](https://www.ray-ban.com/uk/c/frequently-asked-questions-ray-ban-meta-smart-glasses)] [[website](https://www.meta.com/ai-glasses/ray-ban-meta/)]
-- **`Desktop & Mobile`** Claude Cowork: runs delegated tasks across selected files and tools, with unattended scheduled work and results returned for review. [[website](https://claude.com/product/cowork)]
-- **`Desktop & Mobile`** screenpipe: builds a searchable local history of screen and audio activity that users and connected agents can use for recall and follow-up work. [[docs](https://docs.screenpi.pe/search-screen-history)] [[website](https://screenpipe.com/)] [[code](https://github.com/screenpipe/screenpipe)]
-- **`Desktop & Mobile`** Windows Recall: stores opt-in screen snapshots locally and lets users search prior desktop activity with capture, filtering, and deletion controls. [[docs](https://support.microsoft.com/en-us/windows/privacy/privacy-and-control-over-your-recall-experience)] [[website](https://support.microsoft.com/en-US/Windows/Ai/Ai-Features/retrace-your-steps-with-recall)]
-- **`Cloud & Messaging`** ChatGPT Pulse: uses chat history, memory, feedback, and optional connected apps to prepare personalized research briefings between conversations. [[website](https://openai.com/index/introducing-chatgpt-pulse/)]
-- **`Cloud & Messaging`** Lindy: uses connected inbox and calendar context to prepare meetings, draft replies, and handle post-meeting follow-ups. [[docs](https://docs.lindy.ai/)] [[website](https://www.lindy.ai/)]
-- **`Cloud & Messaging`** Muse: combines persistent conversational memory with scheduled and event-driven background work, surfacing meaningful updates or requests for input. [[docs](https://introducing.muse.ai/)] [[website](https://muse.ai/)]
-- **`Cloud & Messaging`** OpenClaw: runs a personal assistant on user-managed infrastructure with durable memory, messaging access, and scheduled heartbeat checks or follow-ups. [[docs](https://docs.openclaw.ai/gateway/heartbeat)] [[website](https://openclaw.ai/)] [[code](https://github.com/openclaw/openclaw)]
+- **`Bosch Sensortec`** BMA400 accelerometer. [[website](https://www.bosch-sensortec.com/en/products/motion-sensors/accelerometers/bma400/)]
+- **`Figure AI`** Figure 03 (Helix). [[website](https://www.figure.ai/figure)]
+- **`Samsung`** Galaxy XR. [[website](https://www.samsung.com/us/xr/galaxy-xr/galaxy-xr/)]
+- **`Meta`** Project Aria glasses (Gen 1 and Gen 2). [[website](https://www.projectaria.com/)]
+- **`X Square Robot`** Quanta X2. [[website](https://x2robot.com/en)]
+- **`rabbit`** rabbit r1. [[website](https://www.rabbit.tech/rabbit-r1)]
+- **`RealSense`** RealSense D435i. [[website](https://www.realsenseai.com/products/depth-camera-d435i/)]
+- **`Vuzix`** Vuzix M400. [[website](https://www.vuzix.com/products/m400-smart-glasses)]
 
 <a id="products-tools"></a>
 ### Developer Tools

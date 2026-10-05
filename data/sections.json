@@ -605,7 +605,7 @@
     "title": "Products & Tools",
     "level": 2,
     "icon": "products",
-    "description": "Products are listed apart from research works because their sources are official pages, documentation, and blogs. The first lists hold the product sources the survey cites, by interaction domain, with the product's level in the loop-closure table where the survey places it. The product directory and developer tools are curated for this repository; their descriptions follow official documentation checked in September 2026, and availability varies by plan, platform, and region. See the [product source notes](docs/product-sources.md)."
+    "description": "Products are listed apart from research works, one line per product with its official page. They cover the products and devices the survey discusses, by interaction domain and with the level the loop-closure table gives them, plus a few curated additions. Availability varies by plan, platform, and region. Developer tools are curated for this repository; see the [product source notes](docs/product-sources.md)."
   },
   {
     "id": "products-wearable",
@@ -628,12 +628,6 @@
   {
     "id": "products-devices",
     "title": "Devices & Platforms",
-    "level": 3,
-    "parent": "products"
-  },
-  {
-    "id": "products-list",
-    "title": "Product Directory",
     "level": 3,
     "parent": "products"
   },

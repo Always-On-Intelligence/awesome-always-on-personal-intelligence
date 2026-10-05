@@ -30,9 +30,9 @@
 <a id="news"></a>
 ## News
 
-- **[2026/10]** Research works and products are now listed apart: official product pages, documentation, and blogs moved to Products & Tools, grouped by wearable, digital, and physical domain.
+- **[2026/10]** Products now have one line each, linking the official product page instead of documentation or blog posts: **{{PRODUCT_COUNT}} products**, kept apart from the research works and grouped by wearable, digital, and physical domain.
 - **[2026/10]** The list starts directly with the modules, without section numbers. Each list runs from the newest work to the oldest, related surveys sit near the end, and background works such as textbooks are left out.
-- **[2026/10]** Synced with the latest draft, now titled *Always-On Personal Intelligence: A Roadmap Towards Continuing, Self-Evolving Loops*: **{{WORK_COUNT}} works**, the revised memory policy subsections, and the new product rows of the loop-closure table.
+- **[2026/10]** Synced with the latest draft, now titled *Always-On Personal Intelligence: A Roadmap Towards Continuing, Self-Evolving Loops*: **{{WORK_COUNT}} research works**, the revised memory policy subsections, and the new product rows of the loop-closure table.
 - **[2026/10]** The list follows the survey's chapters, titles, and terms: within each module, space, operating conditions, policy, coupling, and evaluation.
 - **[2026/09]** The collection became a reading list of the works cited in our survey, with code links where available.
 
@@ -52,7 +52,7 @@ The promise of always-on personal intelligence lies in a **continuing, self-evol
 <em><b>Figure 1.</b> Overview of the roadmap. We first define always-on personal intelligence as a continuing loop that connects Sensing, Memory, and Action through six directed channels. We then review each module by its space, conditions, policy, coupling, and evaluation. Next, we examine integrated systems, their bottlenecks, and their levels of loop closure. Finally, we audit existing systems with HALO in read and run modes.</em>
 </div>
 
-**How to read the list.** Sections and titles follow the survey's module chapters, and each work appears once, under the section where the survey discusses it. Each list runs from the newest work to the oldest. Tags show the survey's own groupings: what starts observation or action, which kind of memory, a benchmark group, or a system's domain. A channel tag such as `M→S` marks a work discussed under that coupling channel, `L0` to `L5` give a system's level in the loop-closure table, and `Product` marks a published study of a product. Product pages, documentation, and blogs are listed separately under [Products & Tools](#products).
+**How to read the list.** Sections and titles follow the survey's module chapters, and each work appears once, under the section where the survey discusses it. Each list runs from the newest work to the oldest. Tags show the survey's own groupings: what starts observation or action, which kind of memory, a benchmark group, or a system's domain. A channel tag such as `M→S` marks a work discussed under that coupling channel, `L0` to `L5` give a system's level in the loop-closure table, and `Product` marks a published study of a product. Products are listed separately under [Products & Tools](#products), one line per product with its official page.
 
 ---
 

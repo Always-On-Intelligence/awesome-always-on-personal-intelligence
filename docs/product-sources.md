@@ -2,7 +2,7 @@
 
 Checked: **2026-09-15**.
 
-These notes record the primary sources used for the product and tool entries. Product descriptions summarize documented capabilities, not independently measured performance or proof of a complete always-on loop. Availability is qualified by the official page's rollout, platform, and plan wording. No products were purchased or tested for this curation.
+The README lists one line per product with its official page, checked on 2026-10-05. These notes keep the primary sources behind the curated product and tool entries from the September check. Product descriptions summarize documented capabilities, not independently measured performance or proof of a complete always-on loop. Availability is qualified by the official page's rollout, platform, and plan wording. No products were purchased or tested for this curation.
 
 The survey's digital-service discussion supplied ChatGPT Pulse, Claude Cowork, Muse, and Windows Recall; its bibliography supplied Ray-Ban Meta and PLAUD NotePin. Omi, screenpipe, OpenClaw, and Lindy extend coverage of wearable memory, desktop history, and continuing personal assistance. Developer infrastructure is maintained separately in `data/tools.json`.
 
