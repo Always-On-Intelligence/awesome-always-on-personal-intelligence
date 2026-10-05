@@ -1,6 +1,6 @@
 ## Resource or correction
 
-Describe the primary contribution and its relevance to always-on personal AI.
+Describe the primary contribution and its relevance to always-on personal intelligence.
 
 ## Sources
 

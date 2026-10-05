@@ -37,6 +37,20 @@
     "parent": "sec-2"
   },
   {
+    "id": "sec-2-1-1",
+    "number": "2.1.1",
+    "title": "Continuing Loop",
+    "level": 4,
+    "parent": "sec-2-1"
+  },
+  {
+    "id": "sec-2-1-2",
+    "number": "2.1.2",
+    "title": "Self-Evolving Extension",
+    "level": 4,
+    "parent": "sec-2-1"
+  },
+  {
     "id": "sec-2-2",
     "number": "2.2",
     "title": "Functional Modules: Spaces and Local Policies",
@@ -77,7 +91,7 @@
     "title": "Sensing",
     "level": 2,
     "icon": "sensing",
-    "description": "Sensing acquires and interprets the information a service needs, forming current context about the user, the environment, and ongoing tasks."
+    "description": "Sensing acquires current information from the user and the environment, forming the current context and the state of ongoing tasks."
   },
   {
     "id": "sec-3-1",
@@ -245,13 +259,6 @@
     ]
   },
   {
-    "id": "sec-3-5-3",
-    "number": "3.5.3",
-    "title": "Findings and Implications",
-    "level": 4,
-    "parent": "sec-3-5"
-  },
-  {
     "id": "sec-4",
     "number": "4",
     "title": "Memory",
@@ -301,55 +308,41 @@
   {
     "id": "sec-4-3-1",
     "number": "4.3.1",
-    "title": "What to Store: Admission",
+    "title": "What to Store and in What Form: Admission and Encoding",
     "level": 4,
     "parent": "sec-4-3"
   },
   {
     "id": "sec-4-3-2",
     "number": "4.3.2",
-    "title": "What Form Survives: Encoding, Scope, and Lineage",
+    "title": "How State Remains Reachable: Indexing and Identity",
     "level": 4,
     "parent": "sec-4-3"
   },
   {
     "id": "sec-4-3-3",
     "number": "4.3.3",
-    "title": "How State Remains Reachable: Indexing and Identity",
+    "title": "What Is Exposed Now: Retrieval and Delivery",
     "level": 4,
     "parent": "sec-4-3"
   },
   {
     "id": "sec-4-3-4",
     "number": "4.3.4",
-    "title": "What Is Exposed Now: Retrieval and Delivery",
+    "title": "How Records Change: Consolidation and Correction",
     "level": 4,
     "parent": "sec-4-3"
   },
   {
     "id": "sec-4-3-5",
     "number": "4.3.5",
-    "title": "When Episodes Become Abstractions: Consolidation",
+    "title": "What Stops Influencing Later Decisions: Retirement, Forgetting, and Deletion",
     "level": 4,
     "parent": "sec-4-3"
   },
   {
     "id": "sec-4-3-6",
     "number": "4.3.6",
-    "title": "Maintaining Current Validity: Correction and Conflict",
-    "level": 4,
-    "parent": "sec-4-3"
-  },
-  {
-    "id": "sec-4-3-7",
-    "number": "4.3.7",
-    "title": "What Must Cease to Influence: Retirement, Forgetting, and Deletion",
-    "level": 4,
-    "parent": "sec-4-3"
-  },
-  {
-    "id": "sec-4-3-8",
-    "number": "4.3.8",
     "title": "Learning the Memory Policy",
     "level": 4,
     "parent": "sec-4-3"
@@ -411,19 +404,12 @@
     ]
   },
   {
-    "id": "sec-4-5-3",
-    "number": "4.5.3",
-    "title": "Findings and Implications",
-    "level": 4,
-    "parent": "sec-4-5"
-  },
-  {
     "id": "sec-5",
     "number": "5",
     "title": "Action",
     "level": 2,
     "icon": "action",
-    "description": "Action decides whether, when, and how the assistant helps, choosing among silence, communication, preparation, and execution."
+    "description": "Action decides whether, when, and how the assistant intervenes, choosing among silence, communication, preparation, and execution."
   },
   {
     "id": "sec-5-1",
@@ -446,7 +432,7 @@
   {
     "id": "sec-5-1-2",
     "number": "5.1.2",
-    "title": "Forms, Interfaces, and Consequences",
+    "title": "Interfaces, Consequences, and Feedback",
     "level": 4,
     "parent": "sec-5-1"
   },
@@ -551,13 +537,6 @@
     ]
   },
   {
-    "id": "sec-5-5-3",
-    "number": "5.5.3",
-    "title": "Findings and Implications",
-    "level": 4,
-    "parent": "sec-5-5"
-  },
-  {
     "id": "sec-6",
     "number": "6",
     "title": "Applications, System Bottlenecks, and Loop Closure",
@@ -628,12 +607,12 @@
     "level": 3,
     "parent": "sec-6",
     "groups": [
+      "Physical products",
       "Digital products",
       "Wearable",
       "Wearable products",
       "Digital",
-      "Physical",
-      "Physical products"
+      "Physical"
     ]
   },
   {
@@ -661,7 +640,7 @@
   {
     "id": "sec-7-2",
     "number": "7.2",
-    "title": "Run Mode: Testing a Channel",
+    "title": "Run Mode: Testing Channels and the Chain of Evidence",
     "level": 3,
     "parent": "sec-7"
   },
@@ -678,7 +657,7 @@
     "title": "Trends and Open Problems",
     "level": 2,
     "icon": "evolution",
-    "description": "Open research needs: preserve opportunities to observe change, keep retained state correctable, and test why a mechanism revision is justified and whether it helps later."
+    "description": "Three research needs: preserving opportunities to observe change, keeping retained state correctable, and testing why a mechanism revision is justified and whether it helps later."
   },
   {
     "id": "sec-8-1",

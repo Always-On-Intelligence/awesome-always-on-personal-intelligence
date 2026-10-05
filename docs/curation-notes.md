@@ -1,6 +1,6 @@
 # Curation notes
 
-Last full pass: **2026-10-01**, against the survey draft of the same date, with the section structure of that draft.
+Last full pass: **2026-10-05**, against the survey draft of the same date, with the section structure of that draft.
 
 ## Source
 
