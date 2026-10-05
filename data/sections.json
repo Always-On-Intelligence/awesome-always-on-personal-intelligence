@@ -190,10 +190,6 @@
       {
         "name": "Profile memory: what holds now",
         "tag": "Profile"
-      },
-      {
-        "name": "Prospective memory: what is pending",
-        "tag": "Prospective"
       }
     ]
   },
@@ -512,15 +508,7 @@
         "tag": "Physical"
       },
       {
-        "name": "Digital products",
-        "tag": "Digital"
-      },
-      {
         "name": "Wearable",
-        "tag": "Wearable"
-      },
-      {
-        "name": "Wearable products",
         "tag": "Wearable"
       },
       {
@@ -617,17 +605,35 @@
     "title": "Products & Tools",
     "level": 2,
     "icon": "products",
-    "description": "Products and developer tools curated for this repository, and the device pages the survey cites. Product descriptions follow official documentation checked in September 2026; availability varies by plan, platform, and region. See the [product source notes](docs/product-sources.md)."
+    "description": "Products are listed apart from research works because their sources are official pages, documentation, and blogs. The first lists hold the product sources the survey cites, by interaction domain, with the product's level in the loop-closure table where the survey places it. The product directory and developer tools are curated for this repository; their descriptions follow official documentation checked in September 2026, and availability varies by plan, platform, and region. See the [product source notes](docs/product-sources.md)."
   },
   {
-    "id": "products-list",
-    "title": "Products",
+    "id": "products-wearable",
+    "title": "Wearable Products",
+    "level": 3,
+    "parent": "products"
+  },
+  {
+    "id": "products-digital",
+    "title": "Digital Products",
+    "level": 3,
+    "parent": "products"
+  },
+  {
+    "id": "products-physical",
+    "title": "Physical Products",
     "level": 3,
     "parent": "products"
   },
   {
     "id": "products-devices",
     "title": "Devices & Platforms",
+    "level": 3,
+    "parent": "products"
+  },
+  {
+    "id": "products-list",
+    "title": "Product Directory",
     "level": 3,
     "parent": "products"
   },

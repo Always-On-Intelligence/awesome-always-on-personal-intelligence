@@ -16,7 +16,7 @@
 
 <p>
   <a href="https://github.com/Always-On-Intelligence/awesome-always-on-personal-intelligence/stargazers"><img src="https://img.shields.io/github/stars/Always-On-Intelligence/awesome-always-on-personal-intelligence?style=flat-square&logo=github&color=B88465" alt="GitHub stars"/></a>
-  <img src="https://img.shields.io/badge/Papers-437-355774?style=flat-square" alt="437 papers"/>
+  <img src="https://img.shields.io/badge/Papers-428-355774?style=flat-square" alt="428 papers"/>
   <img src="https://img.shields.io/badge/Last_Update-October_2026-66816D?style=flat-square" alt="Last update October 2026"/>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-8C8C8C?style=flat-square" alt="MIT License"/></a>
 </p>
@@ -31,24 +31,24 @@
 - [News](#news)
 - [Overview](#overview)
 - [Foundations](#foundations)
-- [Sensing](#sec-3) (113)
+- [Sensing](#sec-3) (111)
   - [Sensing Space](#sec-3-1)
   - [Operating Conditions for Sensing](#sec-3-2)
   - [Sensing Policy](#sec-3-3)
   - [Sensing Coupling Across the Loop](#sec-3-4)
   - [Evaluation](#sec-3-5)
-- [Memory](#sec-4) (88)
+- [Memory](#sec-4) (83)
   - [Memory Space](#sec-4-1)
   - [Memory Policy](#sec-4-3)
   - [Memory Coupling Across the Loop](#sec-4-4)
   - [Evaluation](#sec-4-5)
-- [Action](#sec-5) (86)
+- [Action](#sec-5) (79)
   - [Action Space](#sec-5-1)
   - [Operating Conditions for Action](#sec-5-2)
   - [Action Policy](#sec-5-3)
   - [Action Coupling Across the Loop](#sec-5-4)
   - [Evaluation](#sec-5-5)
-- [Applications, System Bottlenecks, and Loop Closure](#sec-6) (146)
+- [Applications, System Bottlenecks, and Loop Closure](#sec-6) (97)
   - [Applications and Bottlenecks](#sec-6-1)
   - [Shared Conditions and Implementation Across Modules](#sec-6-2)
   - [Levels of Loop Closure](#sec-6-3)
@@ -58,9 +58,12 @@
   - [Self-Evolution and Recursive Revision](#sec-8-3)
   - [Longitudinal Evaluation and Real Deployment](#sec-8-4)
 - [Related Surveys](#related-surveys) (35)
-- [Products & Tools](#products) (28)
-  - [Products](#products-list)
+- [Products & Tools](#products) (91)
+  - [Wearable Products](#products-wearable)
+  - [Digital Products](#products-digital)
+  - [Physical Products](#products-physical)
   - [Devices & Platforms](#products-devices)
+  - [Product Directory](#products-list)
   - [Developer Tools](#products-tools)
 - [Contributing](#contributing)
 - [Citation](#citation)
@@ -72,6 +75,7 @@
 <a id="news"></a>
 ## News
 
+- **[2026/10]** Research works and products are now listed apart: official product pages, documentation, and blogs moved to Products & Tools, grouped by wearable, digital, and physical domain.
 - **[2026/10]** The list starts directly with the modules, without section numbers. Each list runs from the newest work to the oldest, related surveys sit near the end, and background works such as textbooks are left out.
 - **[2026/10]** Synced with the latest draft, now titled *Always-On Personal Intelligence: A Roadmap Towards Continuing, Self-Evolving Loops*: **500 works**, the revised memory policy subsections, and the new product rows of the loop-closure table.
 - **[2026/10]** The list follows the survey's chapters, titles, and terms: within each module, space, operating conditions, policy, coupling, and evaluation.
@@ -93,7 +97,7 @@ The promise of always-on personal intelligence lies in a **continuing, self-evol
 <em><b>Figure 1.</b> Overview of the roadmap. We first define always-on personal intelligence as a continuing loop that connects Sensing, Memory, and Action through six directed channels. We then review each module by its space, conditions, policy, coupling, and evaluation. Next, we examine integrated systems, their bottlenecks, and their levels of loop closure. Finally, we audit existing systems with HALO in read and run modes.</em>
 </div>
 
-**How to read the list.** Sections and titles follow the survey's module chapters, and each work appears once, under the section where the survey discusses it. Each list runs from the newest work to the oldest. Tags show the survey's own groupings: what starts observation or action, which kind of memory, a benchmark group, or a system's domain. A channel tag such as `M→S` marks a work discussed under that coupling channel, `L0` to `L5` give a system's level in the loop-closure table, and `Product` marks product rows.
+**How to read the list.** Sections and titles follow the survey's module chapters, and each work appears once, under the section where the survey discusses it. Each list runs from the newest work to the oldest. Tags show the survey's own groupings: what starts observation or action, which kind of memory, a benchmark group, or a system's domain. A channel tag such as `M→S` marks a work discussed under that coupling channel, `L0` to `L5` give a system's level in the loop-closure table, and `Product` marks a published study of a product. Product pages, documentation, and blogs are listed separately under [Products & Tools](#products).
 
 ---
 
@@ -142,7 +146,6 @@ Sensing acquires current information from the user and the environment, forming 
 
 - **`arXiv 2026`** Activity Frames: Deterministic Screen-Activity Compilation for Agent Memory and Replay. [[paper](https://arxiv.org/abs/2608.05784)] [[code](https://github.com/nossa-y/activity-frames)] `Continuous`
 - **`ECCV 2026`** Em-Garde: A Propose-Match Framework for Proactive Streaming Video Understanding. [[paper](https://arxiv.org/abs/2603.19054)] `Triggered` `M→S`
-- **`Meta 2026`** Hardware Specifications: Aria Gen 1. [[website](https://facebookresearch.github.io/projectaria_tools/docs/tech_spec/hardware_spec)] `Continuous`
 - **`arXiv 2026`** Mage-VL: An Efficient Codec-Native Streaming Multimodal Foundation Model. [[paper](https://arxiv.org/abs/2607.24904)] [[code](https://github.com/microsoft/Mage)] `Continuous`
 - **`arXiv 2026`** PULSE: Agentic Investigation with Passive Sensing for Proactive Affective Intervention in Cancer Survivorship. [[paper](https://arxiv.org/abs/2605.17679)] `On-demand`
 - **`arXiv 2026`** VibeVoice-ASR-Streaming Technical Report. [[paper](https://arxiv.org/abs/2609.02812)] `Continuous`
@@ -168,7 +171,6 @@ Sensing acquires current information from the user and the environment, forming 
 - **`arXiv 2025`** Full System Architecture Modeling for Wearable Egocentric Contextual AI. [[paper](https://arxiv.org/abs/2512.16045)]
 - **`CHI 2024`** In Focus, Out of Privacy: The Wearer's Perspective on the Privacy Dilemma of Camera Glasses. [[paper](https://doi.org/10.1145/3613904.3642242)]
 - **`MobiCom 2024`** MELTing point: Mobile Evaluation of Language Transformers. [[paper](https://arxiv.org/abs/2403.12844)] [[code](https://github.com/brave-experiments/melt-public)]
-- **`Meta 2024`** Project Aria Recording Profiles. [[website](https://facebookresearch.github.io/projectaria_tools/docs/tech_spec/recording_profiles)]
 - **`PETS 2022`** Exploring the Privacy Concerns of Bystanders in Smart Homes from the Perspectives of Both Owners and Bystanders. [[paper](https://petsymposium.org/popets/2022/popets-2022-0064.php)]
 - **`ASRU 2021`** Overlap-aware low-latency online speaker diarization based on end-to-end local segmentation. [[paper](https://arxiv.org/abs/2109.06483)]
 - **`Sensors 2020`** Thermal Model and Countermeasures for Future Smart Glasses. [[paper](https://doi.org/10.3390/s20051446)]
@@ -329,10 +331,7 @@ Memory retains information for later service and supplies it when a decision nee
 <a id="sec-4-1-1"></a>
 #### What Persists: Past, Present, and Future
 
-- **`Product help page 2026`** Omi Help Center: First Steps. [[paper](https://help.omi.me/en/articles/13135362-first-steps)] `Prospective` `S→M`
 - **`CVPR 2026`** PersonaVLM: Long-Term Personalized Multimodal LLMs. [[paper](https://arxiv.org/abs/2604.13074)] [[code](https://github.com/MiG-NJU/PersonaVLM)] `Profile`
-- **`Inbox Zero 2026`** Reply Zero: Inbox Zero Documentation. [[docs](https://docs.getinboxzero.com/essentials/reply-zero)] `Prospective`
-- **`Pally 2026`** Todo Catcher: Pally Recipes. [[docs](https://pally.com/recipes/todo-catcher)] `Prospective`
 - **`arXiv 2025`** Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory. [[paper](https://arxiv.org/abs/2504.19413)] [[code](https://github.com/mem0ai/mem0)] `Profile`
 - **`PACLIC 2025`** Personalized Graph-Based Retrieval for Large Language Models. [[paper](https://arxiv.org/abs/2501.02157)] [[code](https://github.com/pgraphrag-benchmark/pgr-llm)] `Profile`
 
@@ -369,7 +368,6 @@ Memory retains information for later service and supplies it when a decision nee
 
 - **`ACL 2026`** Controllable Memory Usage: Balancing Anchoring and Innovation in Long-Term Human-Agent Interaction. [[paper](https://arxiv.org/abs/2601.05107)] `M→A`
 - **`arXiv 2026`** OP-Bench: Benchmarking Over-Personalization for Memory-Augmented Personalized Conversational Agents. [[paper](https://arxiv.org/abs/2601.13722)] `M→A`
-- **`OpenClaw 2026`** OpenClaw Documentation: Heartbeat. [[docs](https://docs.openclaw.ai/gateway/heartbeat)]
 - **`arXiv 2026`** Rethinking Experience Utilization in Self-Evolving Language Model Agents. [[paper](https://arxiv.org/abs/2605.07164)]
 - **`arXiv 2026`** The Compliance Trap: Diagnosing How AI Agents Consume Conflicting Memory. [[paper](https://arxiv.org/abs/2607.10608)]
 - **`arXiv 2026`** VoiceMem: Streaming Dual-Brain Memory for Real-Time Interaction. [[paper](https://arxiv.org/abs/2608.26005)] [[code](https://github.com/xzf-thu/VoiceMem)]
@@ -379,7 +377,6 @@ Memory retains information for later service and supplies it when a decision nee
 #### How Records Change: Consolidation and Correction
 
 - **`arXiv 2026`** Auto-Dreamer: Learning Offline Memory Consolidation for Language Agents. [[paper](https://arxiv.org/abs/2605.20616)]
-- **`OpenAI 2026`** Dreaming: Better Memory for a More Helpful ChatGPT. [[website](https://openai.com/index/chatgpt-memory-dreaming/)]
 - **`ICLR 2026`** LightMem: Lightweight and Efficient Memory-Augmented Generation. [[paper](https://arxiv.org/abs/2510.18866)] [[code](https://github.com/zjunlp/LightMem)]
 - **`arXiv 2026`** Memory Beyond Recall: A Dual-Process Cognitive Memory System for Self-Evolving LLM Agents. [[paper](https://arxiv.org/abs/2606.09483)]
 - **`arXiv 2026`** MemQ: Integrating Q-Learning into Self-Evolving Memory Agents over Provenance DAGs. [[paper](https://arxiv.org/abs/2605.08374)] [[code](https://github.com/jwliao-ai/MemQ)] `A→M`
@@ -476,9 +473,7 @@ Action decides whether, when, and how the assistant intervenes, choosing among s
 <a id="sec-5-1-1"></a>
 #### What Starts an Action
 
-- **`Brea 2026`** Brea Documentation: Schedules and Triggers. [[docs](https://docs.brea.ai/automations/schedules-and-triggers/)] `Deferred`
 - **`ICLR 2026`** MMDuet2: Enhancing Proactive Interaction of Video MLLMs with Multi-Turn Reinforcement Learning. [[paper](https://arxiv.org/abs/2512.06810)] `Proactive`
-- **`Product help page 2026`** Schedule Recurring Tasks in Claude Cowork. [[paper](https://support.claude.com/en/articles/13854387-schedule-recurring-tasks-in-claude-cowork)] `Deferred`
 - **`PUC 2024`** A Conversational Agent for Creating Automations Exploiting Large Language Models. [[paper](https://doi.org/10.1007/s00779-024-01825-5)] `Deferred`
 - **`IMWUT 2024`** Sasha: Creative Goal-Oriented Reasoning in Smart Homes with Large Language Models. [[paper](https://arxiv.org/abs/2305.09802)] `Deferred`
 
@@ -487,7 +482,6 @@ Action decides whether, when, and how the assistant intervenes, choosing among s
 
 - **`arXiv 2026`** Agentic Self-Evolutionary Replanning for Embodied Navigation. [[paper](https://arxiv.org/abs/2603.02772)]
 - **`arXiv 2026`** ImplicitRM: Unbiased Reward Modeling from Implicit Preference Data for LLM alignment. [[paper](https://arxiv.org/abs/2603.23184)]
-- **`Figure AI 2025`** Helix: A Vision-Language-Action Model for Generalist Humanoid Control. [[website](https://www.figure.ai/news/helix)]
 - **`arXiv 2025`** UI-TARS-2 Technical Report: Advancing GUI Agent with Multi-Turn Reinforcement Learning. [[paper](https://arxiv.org/abs/2509.02544)] [[code](https://github.com/bytedance/ui-tars)]
 - **`NeurIPS 2024`** SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering. [[paper](https://arxiv.org/abs/2405.15793)]
 
@@ -521,9 +515,7 @@ Action decides whether, when, and how the assistant intervenes, choosing among s
 <a id="sec-5-3-2"></a>
 #### How Control Is Retained: Direct and Agentic
 
-- **`Nous Research 2026`** Hermes Agent Documentation: Scheduled Tasks (Cron). [[docs](https://hermes-agent.nousresearch.com/docs/user-guide/features/cron)]
 - **`arXiv 2026`** LongHorizon-Harness: Advancing Long-Horizon Agents for Real-World Tasks. [[paper](https://arxiv.org/abs/2608.01964)] [[code](https://github.com/AMAP-ML/LongHorizon-Harness)]
-- **`Release documentation 2026`** OpenClaw v2026.8.1: Automations and Scheduling. [[paper](https://docs.openclaw.ai/releases/2026.8.1/automations-and-scheduling)]
 - **`arXiv 2026`** Runtime-Independent Persistent Agents: Preserving Identity, Memory, and Code Across Models, Harnesses, and Servers. [[paper](https://arxiv.org/abs/2609.00546)]
 - **`arXiv 2026`** When Agents Overtrust Environmental Evidence: An Extensible Agentic Framework for Benchmarking Evidence-Grounding Defects in LLM Agents. [[paper](https://arxiv.org/abs/2605.08828)]
 - **`arXiv 2026`** Where Does Exactly-Once Live? Model, Harness, and Tool-Contract Effects on Duplicate Side Effects in LLM Agents. [[paper](https://arxiv.org/abs/2609.29095)] `A→S`
@@ -540,8 +532,6 @@ Action decides whether, when, and how the assistant intervenes, choosing among s
 
 - **`arXiv 2026`** Formal Policy Enforcement for Real-World Agentic Systems. [[paper](https://arxiv.org/abs/2602.16708)]
 - **`arXiv 2026`** Mind Your HEARTBEAT! Claw Background Execution Inherently Enables Silent Memory Pollution. [[paper](https://arxiv.org/abs/2603.23064)]
-- **`Product help page 2026`** Schedule Actions in Gemini Apps. [[paper](https://support.google.com/gemini/answer/16316416)]
-- **`OpenAI 2026`** Scheduled Tasks: ChatGPT Documentation. [[docs](https://learn.chatgpt.com/docs/automations)]
 - **`arXiv 2026`** Temporary Authority, Permanent Effects: Commit-Time Authorization for LLM Agents. [[paper](https://arxiv.org/abs/2607.10487)]
 - **`arXiv 2026`** When Memory Becomes Authority: Benchmarking Authority Collapse at the Memory Consolidation Boundary. [[paper](https://arxiv.org/abs/2608.01679)]
 - **`ACL 2025`** AGrail: A Lifelong Agent Guardrail with Effective and Adaptive Safety Detection. [[paper](https://aclanthology.org/2025.acl-long.399/)]
@@ -577,7 +567,7 @@ Action decides whether, when, and how the assistant intervenes, choosing among s
 
 - **`arXiv 2026`** Agent Memory Is a Surface for Endogenous Authorization Laundering. [[paper](https://arxiv.org/abs/2609.01836)] [[code](https://github.com/tommasocerruti/eal-bench)] `Authority and consequences across interactions` `M→A`
 - **`arXiv 2026`** Agentic Coding Needs Proactivity, Not Just Autonomy. [[paper](https://arxiv.org/abs/2605.06717)]
-- **`Version 0.2 2026`** Assistant Benchmark: A Public Scorecard for AI Assistants You Can Text. [[paper](https://assistantbenchmark.com/)] `Deferred`
+- **`Assistant Benchmark 2026`** Assistant Benchmark: A Public Scorecard for AI Assistants You Can Text. [[website](https://assistantbenchmark.com/)] `Deferred`
 - **`arXiv 2026`** Auditing Agent Harness Safety. [[paper](https://arxiv.org/abs/2605.14271)] [[code](https://github.com/eric-ai-lab/HarnessAudit)] `Reactive`
 - **`arXiv 2026`** AURA: Always-On Understanding and Real-Time Assistance via Video Streams. [[paper](https://arxiv.org/abs/2604.04184)] [[code](https://github.com/aurateam2026/AURA)] `Proactive` `L0`
 - **`arXiv 2026`** Claw-Eval: Towards Trustworthy Evaluation of Autonomous Agents. [[paper](https://arxiv.org/abs/2604.06132)] [[code](https://github.com/claw-eval/claw-eval)] `Reactive`
@@ -653,18 +643,13 @@ How Sensing, Memory, and Action work together in wearable, digital, and physical
 - **`CHI 2026`** "Having Lunch Now": Understanding How Users Engage with a Proactive Agent for Daily Planning and Self-Reflection. [[paper](https://arxiv.org/abs/2509.24073)] `A→S` `A→M` `L2`
 - **`arXiv 2026`** A Self-Evolving Agent for Longitudinal Personal Health Management. [[paper](https://arxiv.org/abs/2607.13940)] [[code](https://github.com/HC-Guo/HealthClaw)] `L2`
 - **`ICLR 2026`** Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models. [[paper](https://arxiv.org/abs/2510.04618)] [[code](https://github.com/ace-agent/ace)]
-- **`Anthropic 2026`** Claude Cowork. [[website](https://claude.com/product/cowork)] `L2` `Product`
 - **`arXiv 2026`** Darwin Mobile Agent: A Roadmap for Self-Evolution. [[paper](https://arxiv.org/abs/2606.20622)]
 - **`arXiv 2026`** DualPath: Breaking the Storage Bandwidth Bottleneck in Agentic LLM Inference. [[paper](https://arxiv.org/abs/2602.21548)]
 - **`arXiv 2026`** FreeToken: Efficient Edge-Native MoE Serving with Bandwidth-Adaptive Execution. [[paper](https://arxiv.org/abs/2608.16157)] [[code](https://github.com/FlashML-org/FreeToken)]
 - **`arXiv 2026`** From Chatbot to Digital Colleague: The Paradigm Shift Toward Persistent Autonomous AI. [[paper](https://arxiv.org/abs/2606.14502)]
-- **`Meta 2026`** How We Built Safety Into Muse. [[blog](https://research.meta.ai/blog/security-and-safety-for-ai-agents-our-approach-with-muse)]
-- **`Meta 2026`** How We Designed Muse. [[blog](https://introducing.muse.ai/)]
-- **`Meta 2026`** Introducing Muse: The World's First Personal AI Agent Built for Everyone. [[blog](https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/)] `L3` `Product`
 - **`arXiv 2026`** JoyAI-VL-Interaction: Real-Time Vision-Language Interaction Intelligence. [[paper](https://arxiv.org/abs/2606.14777)] [[code](https://github.com/jd-opensource/JoyAI-VL-Interaction)] `L0`
 - **`arXiv 2026`** KnowAct-GUIClaw: Know Deeply, Act Perfectly, Personal GUI Assistant with Self-Evolving Memory and Skill. [[paper](https://arxiv.org/abs/2607.12625)] [[code](https://github.com/HITsz-TMG/KnowAct)] `A→S` `A→M` `L2`
 - **`CVPR 2026`** Learning to Adapt: Self-Improving Web Agent via Cognitive-Aware Exploration. [[paper](https://arxiv.org/abs/2605.31365)]
-- **`OpenAI 2026`** Meet dots: ChatGPT Documentation. [[docs](https://learn.chatgpt.com/docs/dots)] `A→S` `L4` `Product`
 - **`arXiv 2026`** MOSS: Self-Evolution through Source-Level Rewriting in Autonomous Agent Systems. [[paper](https://arxiv.org/abs/2605.22794)] `L1`
 - **`arXiv 2026`** Ouroboros: A Self-Developing Frontier Coding Agent with Reviewed Core Evolution. [[paper](https://arxiv.org/abs/2608.08311)] [[code](https://github.com/razzant/ouroboros)] `L5`
 - **`arXiv 2026`** PASK: Toward Intent-Aware Proactive Agents with Long-Term Memory. [[paper](https://arxiv.org/abs/2604.08000)] `M→A` `L3`
@@ -673,13 +658,11 @@ How Sensing, Memory, and Action work together in wearable, digital, and physical
 - **`arXiv 2026`** Skill-Guided Continuation Distillation for GUI Agents. [[paper](https://arxiv.org/abs/2606.18890)]
 - **`arXiv 2026`** SkillHarness: Harnessing Safe Skills for Computer-Use Agents. [[paper](https://arxiv.org/abs/2606.20636)] [[code](https://github.com/YurunChen/SkillHarness)]
 - **`arXiv 2026`** User as Code: Executable Memory for Personalized Agents. [[paper](https://arxiv.org/abs/2606.16707)] `M→A` `L2`
-- **`Microsoft 2024`** Update on the Recall Preview Feature for Copilot+ PCs. [[blog](https://blogs.windows.com/windowsexperience/2024/06/07/update-on-the-recall-preview-feature-for-copilot-pcs/)] `S→M` `L2` `Product`
 
 <a id="sec-6-1-3"></a>
 #### Physical Assistance and Collaboration
 
 - **`arXiv 2026`** A Glimpse into Long-term Physical Coexistence with Intelligent Robots. [[paper](https://arxiv.org/abs/2607.11377)] `L2`
-- **`Intuition Robotics 2026`** ElliQ: Frequently Asked Questions. [[docs](https://elliq.com/pages/faqs)] `S→M`
 - **`IROS 2025`** AssistantX: An LLM-Powered Proactive Assistant in Collaborative Human-Populated Environments. [[paper](https://arxiv.org/abs/2409.17655)] [[project](https://assistantx-agent.github.io/AssistantX/)] [[code](https://github.com/AssistantX-Agent/AssistantX)] `A→S` `A→M` `L2`
 - **`arXiv 2025`** EgoMem: Lifelong Memory Agent for Full-duplex Omnimodal Models. [[paper](https://arxiv.org/abs/2509.11914)] `L3`
 - **`Cureus 2025`** The Long-Term Use of Communication Robots by Users of Visiting Healthcare Services: Development of an Integrated Vital Signs Measurement System. [[paper](https://doi.org/10.7759/cureus.77635)] `L4`
@@ -708,63 +691,23 @@ How Sensing, Memory, and Action work together in wearable, digital, and physical
 
 - **`arXiv 2026`** ABot-AgentOS: A General Robotic Agent OS with Lifelong Multi-modal Memory. [[paper](https://arxiv.org/abs/2607.10350)] `Physical` `L2`
 - **`arXiv 2026`** ABot-Claw: A Foundation for Persistent, Cooperative, and Self-Evolving Robotic Agents. [[paper](https://arxiv.org/abs/2604.10096)] `Physical` `A→S` `L2`
-- **`Inbox Zero 2026`** AI Personal Assistant and Assistant Settings Documentation. [[docs](https://docs.getinboxzero.com/essentials/email-ai-personal-assistant)] `Digital` `L4` `Product`
-- **`Sony 2026`** aibo ERS-1000 Help Guide: Getting to Know aibo. [[docs](https://helpguide.sony.net/aibo/ers1000/v1/en-us/contents/TP0001970093.html)] `Physical` `L3` `Product`
-- **`Catch 2026`** An Executive Assistant for Travel Planning. [[blog](https://www.catchagent.ai/blog/solutions/executive-assistant-travel-planning)] `Digital` `L4` `Product`
 - **`arXiv 2026`** Anticipate and Learn: Unleashing Idle-Time Compute in Proactive Agents. [[paper](https://arxiv.org/abs/2605.25971)] [[code](https://github.com/AgentACE-AI/ProAct)] `Digital` `M→S` `L3`
 - **`arXiv 2026`** AwareLLM: A Proactive Multimodal Ecosystem for Personalized Human-AI Collaboration to Enhance Productivity. [[paper](https://arxiv.org/abs/2605.09625)] `Digital` `L3`
 - **`CHI 2026`** Bloom: Designing for LLM-Augmented Behavior Change Interactions. [[paper](https://arxiv.org/abs/2510.05449)] `Digital` `L2`
-- **`Brea 2026`** Brea Documentation: Where Results Go. [[docs](https://docs.brea.ai/automations/where-results-go/)] `Digital` `L3` `Product`
-- **`Amazon 2026`** Building Bee at Amazon: How the Wearable AI Device Is Evolving. [[docs](https://www.aboutamazon.com/news/devices/bee-amazon-wearable-ai-device-new-features)] `Wearable` `L3` `Product`
-- **`Caddy 2026`** Caddy: Important Email Alerts. [[docs](https://caddy.app/use-cases/important-email-alerts)] `Digital` `L4` `Product`
-- **`Casio 2026`** Casio Provides Moflin Smart Companions to Pediatric Ward at The Jikei University Hospital. [[blog](https://www.casio.com/intl/news/2026/0409-moflin/)] `Physical` `L4` `Product`
-- **`Kindroid 2026`** Chat Features and Tools. [[docs](https://kindroid.ai/v2/docs/chat-features-and-tools/)] `Digital` `L3` `Product`
 - **`arXiv 2026`** Code Is the Body: Agent-Owned Software Bodies for Recursive Evolution and Descent. [[paper](https://arxiv.org/abs/2607.28691)] `Digital` `L5`
-- **`OPPO 2026`** ColorOS 17. [[website](https://www.coloros.com/version/coloros17/)] `Digital` `L3` `Product`
 - **`Front. Psychiatry 2026`** Detection of Depression Risk among Older Adults Using Home-Deployed Socially Assistive Robots: A Real-World Study. [[paper](https://doi.org/10.3389/fpsyt.2026.1740539)] `Physical` `L1` `Product`
 - **`WWW 2026`** Egocentric Co-Pilot: Web-Native Smart-Glasses Agents for Assistive Egocentric AI. [[paper](https://arxiv.org/abs/2603.01104)] `Wearable` `A→S` `L2`
-- **`Even Realities 2026`** Even G2 AI Glasses. [[website](https://www.evenrealities.com/ai-glasses)] `Wearable` `L2` `Product`
-- **`folk 2026`** folk: An AI That Nags You. [[docs](https://www.folk.com/use-cases/ai-that-nags-you)] `Digital` `L4` `Product`
-- **`Google 2026`** Get Personal Suggestions on Your Pixel with Magic Cue. [[docs](https://support.google.com/pixelphone/answer/16508057)] `Digital` `Product`
-- **`Google 2026`** Get Started with Your Daily Brief in Gemini Apps. [[docs](https://support.google.com/gemini/answer/17077455)] `Digital` `L2` `Product`
-- **`Product guide 2026`** Grok Bot for Engineering. [[paper](https://x.ai/bot/guides/grok-bot-for-engineering)] `Digital` `A→S` `L4` `Product`
-- **`Nous Research 2026`** Hermes Agent: Persistent Memory, Cron Jobs, and Skills Documentation. [[docs](https://hermes-agent.nousresearch.com/docs/user-guide/features/skills)] `Digital` `L4` `Product`
-- **`HeyClicky 2026`** HeyClicky Changelog. [[docs](https://heyclicky.com/changelog)] `Digital` `L4` `Product`
-- **`Meta Help Centre 2026`** How Muse Works with Your Guidance and Approval. [[paper](https://www.meta.com/help/artificial-intelligence/1385290430137537/)] `Digital` `Product`
-- **`Samsung 2026`** How to Use Now Nudge on Samsung Galaxy Phone. [[docs](https://www.samsung.com/us/support/answer/ANS10010355/)] `Digital` `L3` `Product`
-- **`Instinct 2026`** Instinct. [[website](https://instinct.com/)] `Digital` `L3` `Product`
-- **`Thinking Machines 2026`** Interaction Models: A Scalable Approach to Human-AI Collaboration. [[blog](https://thinkingmachines.ai/blog/interaction-models/)] `Digital` `L0` `Product`
-- **`Amazon 2026`** Introducing Alexa+: Skills, Cost, and Availability. [[blog](https://www.aboutamazon.com/news/devices/new-alexa-generative-artificial-intelligence)] `Physical` `L3` `Product`
 - **`arXiv 2026`** Learning Personalized Agents from Human Feedback. [[paper](https://arxiv.org/abs/2602.16173)] [[code](https://github.com/facebookresearch/PAHF)] `Digital` `M→S` `L2`
-- **`Open-source release 2026`** Leon: Your Open-Source Personal AI Assistant, 2.0 Developer Preview. [[paper](https://github.com/leon-ai/leon)] `Digital` `L4` `Product`
-- **`KEYi Technology 2026`** Loona Deskmate. [[website](https://keyirobot.com/en-sg/products/deskmate)] `Physical` `L4` `Product`
 - **`ICRA 2026`** Mixed-Initiative Dialog for Human-Robot Collaborative Manipulation. [[paper](https://arxiv.org/abs/2508.05535)] [[project](https://robin-lab.cs.utexas.edu/MicoBot/)] `Physical` `L0`
-- **`Based Hardware 2026`** Omi Developer Documentation: Notifications and Storing Conversations. [[docs](https://docs.omi.me/doc/developer/apps/Notifications)] `Wearable` `L3` `Product`
-- **`OpenClaw 2026`** OpenClaw: Memory, Heartbeat, and Self-Learning Documentation. [[docs](https://docs.openclaw.ai/tools/self-learning)] `Digital` `L4` `Product`
-- **`Orchid 2026`** Orchid: An AI Assistant in iMessage. [[blog](https://orchid.ai/blog/orchid-ai-assistant-imessage)] `Digital` `L3` `Product`
-- **`Oura 2026`** Oura Advisor. [[docs](https://support.ouraring.com/hc/en-us/articles/39512345699219-Oura-Advisor)] `Wearable` `L2` `Product`
-- **`Product changelog 2026`** Pally Changelog. [[paper](https://pally.com/changelog.md)] `Digital` `A→M` `L4` `Product`
 - **`ICLR 2026`** ProPerSim: Developing Proactive and Personalized AI Assistants through User-Assistant Simulation. [[paper](https://arxiv.org/abs/2509.21730)] `Digital` `A→M` `L4`
-- **`RayNeo 2026`** RayNeo iO AI Glasses. [[website](https://www.rayneo.cn/io.html)] `Wearable` `L2` `Product`
 - **`arXiv 2026`** Robots That Take Initiative: A Framework for Building and Evaluating Proactive Robots. [[paper](https://arxiv.org/abs/2609.28910)] `Physical` `A→S` `L4`
-- **`Manus 2026`** Scheduled Tasks 2.0. [[docs](https://manus.im/blog/manus-schedules)] `Digital` `L2` `Product`
 - **`ICLR 2026`** Seeing, Listening, Remembering, and Reasoning: A Multimodal Agent with Long-Term Memory. [[paper](https://arxiv.org/abs/2508.09736)] [[code](https://github.com/ByteDance-Seed/m3-agent)] `Wearable` `M→S` `L2`
 - **`J. Clin. Med. 2026`** Socially Assistive Robot Hyodol for Depressive Symptoms of Community-Dwelling Older Adults in Medically Underserved Areas: A Preliminary Study. [[paper](https://doi.org/10.3390/jcm15010217)] `Physical` `Product`
-- **`Today 2026`** Today: The AI Personal Agent for Your Whole Day. [[blog](https://today.ai/articles/blog/what-is-today)] `Digital` `L2` `Product`
-- **`Town 2026`** Town Documentation: Suggestions. [[docs](https://town.com/docs/features/suggestions)] `Digital` `L4` `Product`
-- **`Vellum 2026`** Vellum Documentation: Followups. [[docs](https://vellum.ai/docs/skills-reference/followups.md)] `Digital` `L4` `Product`
-- **`Vellum 2026`** Vellum Documentation: Scheduling. [[docs](https://vellum.ai/docs/key-concepts/scheduling.md)] `Digital` `L4` `Product`
 - **`arXiv 2026`** VisualClaw: A Real-Time, Personalized Agent for the Physical World. [[paper](https://arxiv.org/abs/2606.16295)] [[code](https://github.com/UCSC-VLAA/VisualClaw)] `Digital` `L2`
-- **`Looki 2026`** What Is a Wearable AI Assistant? How Context Becomes Help. [[blog](https://www.looki.ai/blogs/news/what-is-a-wearable-ai-assistant-how-real-world-context-becomes-help)] `Wearable` `L3` `Product`
-- **`Huawei 2026`** Xiaoyi Suggestions: Frequently Asked Questions. [[docs](https://consumer.huawei.com/cn/support/content/zh-cn15965298/)] `Digital` `L4` `Product`
 - **`AAAI 2025`** A Deployed Online Reinforcement Learning Algorithm In An Oral Health Clinical Trial. [[paper](https://arxiv.org/abs/2409.02069)] `Digital` `L5`
 - **`NeurIPS 2025`** ContextAgent: Context-Aware Proactive LLM Agents with Open-World Sensory Perceptions. [[paper](https://arxiv.org/abs/2505.14668)] [[code](https://github.com/openaiotlab/ContextAgent)] `Wearable` `A→S` `L0`
-- **`Google 2025`** Google Pixel 10: 9 New AI Features and Updates. [[blog](https://blog.google/products-and-platforms/devices/pixel/google-pixel-10-ai-features-updates/)] `Digital` `L3` `Product`
-- **`LangChain 2025`** Introducing Ambient Agents. [[docs](https://www.langchain.com/blog/introducing-ambient-agents)] `Digital` `L4` `Product`
 - **`EMNLP 2025`** Memory OS of AI Agent. [[paper](https://arxiv.org/abs/2506.06326)] [[code](https://github.com/BAI-LAB/MemoryOS)] `Digital` `L2`
 - **`ICLR 2025`** Proactive Agent: Shifting LLM Agents from Reactive Responses to Active Assistance. [[paper](https://arxiv.org/abs/2410.12361)] [[code](https://github.com/thunlp/proactiveagent)] `Digital` `L3`
-- **`vivo 2025`** vivo X200 Series Frequently Asked Questions. [[docs](https://www.vivo.com.cn/service/questions/all?categoryId=158&questionId=1744)] `Digital` `L3` `Product`
-- **`Apple 2025`** watchOS 26 Delivers More Personalised Ways to Stay Active and Connected. [[blog](https://www.apple.com/uk/newsroom/2025/06/watchos-26-delivers-more-personalized-ways-to-stay-active-and-connected/)] `Wearable` `L3` `Product`
 - **`JMIR 2024`** Effectiveness of a Digital Health Intervention Leveraging Reinforcement Learning: Results From the Diabetes and Mental Health Adaptive Notification Tracking and Evaluation (DIAMANTE) Randomized Clinical Trial. [[paper](https://doi.org/10.2196/60834)] `Digital` `L4`
 - **`AAAI 2024`** MemoryBank: Enhancing Large Language Models with Long-Term Memory. [[paper](https://arxiv.org/abs/2305.10250)] [[code](https://github.com/zhongwanjun/memorybank-siliconfriend)] `Digital` `L2`
 - **`CHI 2024`** MindShift: Leveraging Large Language Models for Mental-States-Based Problematic Smartphone Use Intervention. [[paper](https://arxiv.org/abs/2309.16639)] `Digital` `L2`
@@ -772,9 +715,7 @@ How Sensing, Memory, and Action work together in wearable, digital, and physical
 - **`CHI 2024`** Time2Stop: Adaptive and Explainable Human-AI Loop for Smartphone Overuse Intervention. [[paper](https://arxiv.org/abs/2403.05584)] `Digital` `L4`
 - **`CHI 2024`** Understanding the Impact of Long-Term Memory on Self-Disclosure with Large Language Model-Driven Chatbots for Public Health Intervention. [[paper](https://arxiv.org/abs/2402.11353)] `Digital` `L2`
 - **`arXiv 2024`** Vinci: A Real-time Embodied Smart Assistant based on Egocentric Vision-Language Model. [[paper](https://arxiv.org/abs/2412.21080)] [[code](https://github.com/OpenGVLab/vinci)] `Wearable` `L2`
-- **`Huawei 2023`** Huawei Releases HarmonyOS 4. [[blog](https://www.huawei.com/cn/news/2023/8/harmonyos4-function)] `Digital` `Product`
 - **`arXiv 2023`** MemGPT: Towards LLMs as Operating Systems. [[paper](https://arxiv.org/abs/2310.08560)] `Digital` `L2`
-- **`Amazon 2021`** Meet Astro, a Home Robot Unlike Any Other. [[docs](https://www.aboutamazon.com/news/devices/meet-astro-a-home-robot-unlike-any-other)] `Physical` `L3` `Product`
 - **`RA-L 2020`** Lio – A Personal Robot Assistant for Human-Robot Interaction and Care Applications. [[paper](https://arxiv.org/abs/2006.09019)] `Physical` `L4` `Product`
 - **`IMWUT 2020`** Personalized HeartSteps: A Reinforcement Learning Algorithm for Optimizing Physical Activity. [[paper](https://arxiv.org/abs/1909.03539)] `Wearable` `L5`
 
@@ -889,10 +830,97 @@ Capability-focused surveys, and concurrent system-level surveys that connect sev
 <a id="products"></a>
 ## <img src="assets/icons/products.svg" height="30" align="top" alt=""/> Products & Tools
 
-Products and developer tools curated for this repository, and the device pages the survey cites. Product descriptions follow official documentation checked in September 2026; availability varies by plan, platform, and region. See the [product source notes](docs/product-sources.md).
+Products are listed apart from research works because their sources are official pages, documentation, and blogs. The first lists hold the product sources the survey cites, by interaction domain, with the product's level in the loop-closure table where the survey places it. The product directory and developer tools are curated for this repository; their descriptions follow official documentation checked in September 2026, and availability varies by plan, platform, and region. See the [product source notes](docs/product-sources.md).
+
+<a id="products-wearable"></a>
+### Wearable Products
+
+- **`Amazon 2026`** Building Bee at Amazon: How the Wearable AI Device Is Evolving. [[docs](https://www.aboutamazon.com/news/devices/bee-amazon-wearable-ai-device-new-features)] `L3`
+- **`Even Realities 2026`** Even G2 AI Glasses. [[website](https://www.evenrealities.com/ai-glasses)] `L2`
+- **`Based Hardware 2026`** Omi Developer Documentation: Notifications and Storing Conversations. [[docs](https://docs.omi.me/doc/developer/apps/Notifications)] `L3`
+- **`Based Hardware 2026`** Omi Help Center: First Steps. [[docs](https://help.omi.me/en/articles/13135362-first-steps)] `S→M`
+- **`Oura 2026`** Oura Advisor. [[docs](https://support.ouraring.com/hc/en-us/articles/39512345699219-Oura-Advisor)] `L2`
+- **`RayNeo 2026`** RayNeo iO AI Glasses. [[website](https://www.rayneo.cn/io.html)] `L2`
+- **`Looki 2026`** What Is a Wearable AI Assistant? How Context Becomes Help. [[blog](https://www.looki.ai/blogs/news/what-is-a-wearable-ai-assistant-how-real-world-context-becomes-help)] `L3`
+- **`Apple 2025`** watchOS 26 Delivers More Personalised Ways to Stay Active and Connected. [[blog](https://www.apple.com/uk/newsroom/2025/06/watchos-26-delivers-more-personalized-ways-to-stay-active-and-connected/)] `L3`
+
+<a id="products-digital"></a>
+### Digital Products
+
+- **`Inbox Zero 2026`** AI Personal Assistant and Assistant Settings Documentation. [[docs](https://docs.getinboxzero.com/essentials/email-ai-personal-assistant)] `L4`
+- **`Catch 2026`** An Executive Assistant for Travel Planning. [[blog](https://www.catchagent.ai/blog/solutions/executive-assistant-travel-planning)] `L4`
+- **`Brea 2026`** Brea Documentation: Schedules and Triggers. [[docs](https://docs.brea.ai/automations/schedules-and-triggers/)]
+- **`Brea 2026`** Brea Documentation: Where Results Go. [[docs](https://docs.brea.ai/automations/where-results-go/)] `L3`
+- **`Caddy 2026`** Caddy: Important Email Alerts. [[docs](https://caddy.app/use-cases/important-email-alerts)] `L4`
+- **`Kindroid 2026`** Chat Features and Tools. [[docs](https://kindroid.ai/v2/docs/chat-features-and-tools/)] `L3`
+- **`Anthropic 2026`** Claude Cowork. [[website](https://claude.com/product/cowork)] `L2`
+- **`OPPO 2026`** ColorOS 17. [[website](https://www.coloros.com/version/coloros17/)] `L3`
+- **`OpenAI 2026`** Dreaming: Better Memory for a More Helpful ChatGPT. [[website](https://openai.com/index/chatgpt-memory-dreaming/)]
+- **`folk 2026`** folk: An AI That Nags You. [[docs](https://www.folk.com/use-cases/ai-that-nags-you)] `L4`
+- **`Google 2026`** Get Personal Suggestions on Your Pixel with Magic Cue. [[docs](https://support.google.com/pixelphone/answer/16508057)]
+- **`Google 2026`** Get Started with Your Daily Brief in Gemini Apps. [[docs](https://support.google.com/gemini/answer/17077455)] `L2`
+- **`xAI 2026`** Grok Bot for Engineering. [[docs](https://x.ai/bot/guides/grok-bot-for-engineering)] `A→S` `L4`
+- **`Nous Research 2026`** Hermes Agent Documentation: Scheduled Tasks (Cron). [[docs](https://hermes-agent.nousresearch.com/docs/user-guide/features/cron)]
+- **`Nous Research 2026`** Hermes Agent: Persistent Memory, Cron Jobs, and Skills Documentation. [[docs](https://hermes-agent.nousresearch.com/docs/user-guide/features/skills)] `L4`
+- **`HeyClicky 2026`** HeyClicky Changelog. [[docs](https://heyclicky.com/changelog)] `L4`
+- **`Meta 2026`** How Muse Works with Your Guidance and Approval. [[docs](https://www.meta.com/help/artificial-intelligence/1385290430137537/)]
+- **`Samsung 2026`** How to Use Now Nudge on Samsung Galaxy Phone. [[docs](https://www.samsung.com/us/support/answer/ANS10010355/)] `L3`
+- **`Meta 2026`** How We Built Safety Into Muse. [[blog](https://research.meta.ai/blog/security-and-safety-for-ai-agents-our-approach-with-muse)]
+- **`Meta 2026`** How We Designed Muse. [[blog](https://introducing.muse.ai/)]
+- **`Instinct 2026`** Instinct. [[website](https://instinct.com/)] `L3`
+- **`Thinking Machines 2026`** Interaction Models: A Scalable Approach to Human-AI Collaboration. [[blog](https://thinkingmachines.ai/blog/interaction-models/)] `L0`
+- **`Meta 2026`** Introducing Muse: The World's First Personal AI Agent Built for Everyone. [[blog](https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/)] `L3`
+- **`Leon 2026`** Leon: Your Open-Source Personal AI Assistant, 2.0 Developer Preview. [[code](https://github.com/leon-ai/leon)] `L4`
+- **`OpenAI 2026`** Meet dots: ChatGPT Documentation. [[docs](https://learn.chatgpt.com/docs/dots)] `A→S` `L4`
+- **`OpenClaw 2026`** OpenClaw Documentation: Heartbeat. [[docs](https://docs.openclaw.ai/gateway/heartbeat)]
+- **`OpenClaw 2026`** OpenClaw v2026.8.1: Automations and Scheduling. [[docs](https://docs.openclaw.ai/releases/2026.8.1/automations-and-scheduling)]
+- **`OpenClaw 2026`** OpenClaw: Memory, Heartbeat, and Self-Learning Documentation. [[docs](https://docs.openclaw.ai/tools/self-learning)] `L4`
+- **`Orchid 2026`** Orchid: An AI Assistant in iMessage. [[blog](https://orchid.ai/blog/orchid-ai-assistant-imessage)] `L3`
+- **`Pally 2026`** Pally Changelog. [[docs](https://pally.com/changelog.md)] `A→M` `L4`
+- **`Inbox Zero 2026`** Reply Zero: Inbox Zero Documentation. [[docs](https://docs.getinboxzero.com/essentials/reply-zero)]
+- **`Google 2026`** Schedule Actions in Gemini Apps. [[docs](https://support.google.com/gemini/answer/16316416)]
+- **`Anthropic 2026`** Schedule Recurring Tasks in Claude Cowork. [[docs](https://support.claude.com/en/articles/13854387-schedule-recurring-tasks-in-claude-cowork)]
+- **`Manus 2026`** Scheduled Tasks 2.0. [[docs](https://manus.im/blog/manus-schedules)] `L2`
+- **`OpenAI 2026`** Scheduled Tasks: ChatGPT Documentation. [[docs](https://learn.chatgpt.com/docs/automations)]
+- **`Today 2026`** Today: The AI Personal Agent for Your Whole Day. [[blog](https://today.ai/articles/blog/what-is-today)] `L2`
+- **`Pally 2026`** Todo Catcher: Pally Recipes. [[docs](https://pally.com/recipes/todo-catcher)]
+- **`Town 2026`** Town Documentation: Suggestions. [[docs](https://town.com/docs/features/suggestions)] `L4`
+- **`Vellum 2026`** Vellum Documentation: Followups. [[docs](https://vellum.ai/docs/skills-reference/followups.md)] `L4`
+- **`Vellum 2026`** Vellum Documentation: Scheduling. [[docs](https://vellum.ai/docs/key-concepts/scheduling.md)] `L4`
+- **`Huawei 2026`** Xiaoyi Suggestions: Frequently Asked Questions. [[docs](https://consumer.huawei.com/cn/support/content/zh-cn15965298/)] `L4`
+- **`Google 2025`** Google Pixel 10: 9 New AI Features and Updates. [[blog](https://blog.google/products-and-platforms/devices/pixel/google-pixel-10-ai-features-updates/)] `L3`
+- **`LangChain 2025`** Introducing Ambient Agents. [[docs](https://www.langchain.com/blog/introducing-ambient-agents)] `L4`
+- **`vivo 2025`** vivo X200 Series Frequently Asked Questions. [[docs](https://www.vivo.com.cn/service/questions/all?categoryId=158&questionId=1744)] `L3`
+- **`Microsoft 2024`** Update on the Recall Preview Feature for Copilot+ PCs. [[blog](https://blogs.windows.com/windowsexperience/2024/06/07/update-on-the-recall-preview-feature-for-copilot-pcs/)] `S→M` `L2`
+- **`Huawei 2023`** Huawei Releases HarmonyOS 4. [[blog](https://www.huawei.com/cn/news/2023/8/harmonyos4-function)]
+
+<a id="products-physical"></a>
+### Physical Products
+
+- **`Sony 2026`** aibo ERS-1000 Help Guide: Getting to Know aibo. [[docs](https://helpguide.sony.net/aibo/ers1000/v1/en-us/contents/TP0001970093.html)] `L3`
+- **`Casio 2026`** Casio Provides Moflin Smart Companions to Pediatric Ward at The Jikei University Hospital. [[blog](https://www.casio.com/intl/news/2026/0409-moflin/)] `L4`
+- **`Intuition Robotics 2026`** ElliQ: Frequently Asked Questions. [[docs](https://elliq.com/pages/faqs)] `S→M`
+- **`Amazon 2026`** Introducing Alexa+: Skills, Cost, and Availability. [[blog](https://www.aboutamazon.com/news/devices/new-alexa-generative-artificial-intelligence)] `L3`
+- **`KEYi Technology 2026`** Loona Deskmate. [[website](https://keyirobot.com/en-sg/products/deskmate)] `L4`
+- **`Figure AI 2025`** Helix: A Vision-Language-Action Model for Generalist Humanoid Control. [[website](https://www.figure.ai/news/helix)]
+- **`Amazon 2021`** Meet Astro, a Home Robot Unlike Any Other. [[docs](https://www.aboutamazon.com/news/devices/meet-astro-a-home-robot-unlike-any-other)] `L3`
+
+<a id="products-devices"></a>
+### Devices & Platforms
+
+- **`Meta 2026`** Hardware Specifications: Aria Gen 1. [[website](https://facebookresearch.github.io/projectaria_tools/docs/tech_spec/hardware_spec)]
+- **`Vuzix 2026`** M400 Smart Glasses. [[website](https://www.vuzix.com/products/m400-smart-glasses)]
+- **`X Square Robot 2026`** Quanta X2 and WALL-A: Company Development Milestones. [[website](https://x2robot.com/en/about)]
+- **`Meta 2025`** Inside Aria Gen 2: Explore the Cutting-Edge Tech Behind the Device. [[website](https://ai.meta.com/blog/aria-gen-2-research-glasses-under-the-hood-reality-labs/)]
+- **`Figure AI 2025`** Introducing Figure 03. [[website](https://www.figure.ai/news/introducing-figure-03)]
+- **`Samsung 2025`** Introducing Galaxy XR: Opening New Worlds. [[website](https://news.samsung.com/global/introducing-galaxy-xr-opening-new-worlds)]
+- **`rabbit 2024`** Introducing r1, a Pocket Companion That Moves AI from Words to Action. [[website](https://www.rabbit.tech/newsroom/introducing-r1)]
+- **`Meta 2024`** Project Aria Recording Profiles. [[website](https://facebookresearch.github.io/projectaria_tools/docs/tech_spec/recording_profiles)]
+- **`Bosch 2018`** CES 2018: Bosch Launches BMA400 Ultra-Low Power Accelerometer. [[website](https://www.bosch-sensortec.com/en/news/ces-2018-bosch-launches-bma400-ultra-low-power-accelerometer.html)]
+- **`Intel 2018`** New Intel RealSense D435i Stereo Depth Camera Adds 6 Degrees of Freedom Tracking. [[website](https://download.intel.com/newsroom/2021/archive/2018-11-13-news-new-intel-realsense-d435i-stereo-depth-camera-adds-6-degrees-freedom-tracking.pdf)]
 
 <a id="products-list"></a>
-### Products
+### Product Directory
 
 - **`Wearable`** Omi: turns recorded conversations into searchable memories, summaries, extracted tasks, and daily recaps through a wearable and companion apps. [[docs](https://help.omi.me/en/articles/12017447-omi-device-orders-shipping-what-to-expect)] [[website](https://www.omi.me/pages/product)] [[code](https://github.com/BasedHardware/omi)]
 - **`Wearable`** PLAUD NotePin: captures user-started in-person conversations for later transcription, summarization, and retrieval in the Plaud app. [[docs](https://support.plaud.ai/hc/en-us/articles/50841183397273-Start-recording)] [[website](https://www.plaud.ai/products/plaud-notepin)]
@@ -904,18 +932,6 @@ Products and developer tools curated for this repository, and the device pages t
 - **`Cloud & Messaging`** Lindy: uses connected inbox and calendar context to prepare meetings, draft replies, and handle post-meeting follow-ups. [[docs](https://docs.lindy.ai/)] [[website](https://www.lindy.ai/)]
 - **`Cloud & Messaging`** Muse: combines persistent conversational memory with scheduled and event-driven background work, surfacing meaningful updates or requests for input. [[docs](https://introducing.muse.ai/)] [[website](https://muse.ai/)]
 - **`Cloud & Messaging`** OpenClaw: runs a personal assistant on user-managed infrastructure with durable memory, messaging access, and scheduled heartbeat checks or follow-ups. [[docs](https://docs.openclaw.ai/gateway/heartbeat)] [[website](https://openclaw.ai/)] [[code](https://github.com/openclaw/openclaw)]
-
-<a id="products-devices"></a>
-### Devices & Platforms
-
-- **`Vuzix 2026`** M400 Smart Glasses. [[website](https://www.vuzix.com/products/m400-smart-glasses)]
-- **`X Square Robot 2026`** Quanta X2 and WALL-A: Company Development Milestones. [[website](https://x2robot.com/en/about)]
-- **`Meta 2025`** Inside Aria Gen 2: Explore the Cutting-Edge Tech Behind the Device. [[website](https://ai.meta.com/blog/aria-gen-2-research-glasses-under-the-hood-reality-labs/)]
-- **`Figure AI 2025`** Introducing Figure 03. [[website](https://www.figure.ai/news/introducing-figure-03)]
-- **`Samsung 2025`** Introducing Galaxy XR: Opening New Worlds. [[website](https://news.samsung.com/global/introducing-galaxy-xr-opening-new-worlds)]
-- **`rabbit 2024`** Introducing r1, a Pocket Companion That Moves AI from Words to Action. [[website](https://www.rabbit.tech/newsroom/introducing-r1)]
-- **`Bosch 2018`** CES 2018: Bosch Launches BMA400 Ultra-Low Power Accelerometer. [[website](https://www.bosch-sensortec.com/en/news/ces-2018-bosch-launches-bma400-ultra-low-power-accelerometer.html)]
-- **`Intel 2018`** New Intel RealSense D435i Stereo Depth Camera Adds 6 Degrees of Freedom Tracking. [[website](https://download.intel.com/newsroom/2021/archive/2018-11-13-news-new-intel-realsense-d435i-stereo-depth-camera-adds-6-degrees-freedom-tracking.pdf)]
 
 <a id="products-tools"></a>
 ### Developer Tools
