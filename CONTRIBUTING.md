@@ -49,7 +49,28 @@ The README renders each entry as:
 
 ## Products and tools
 
-Products and tools use the sections `products-list` and `products-tools`, and keep a one-sentence `description`, a `group` (`wearables`, `apps`, or `hosted` for products; `memory`, `runtime`, or `integrations` for tools), and the date you `checked` the official source (`YYYY-MM-DD`). Record the sources behind capability and availability claims in [docs/product-sources.md](docs/product-sources.md).
+`data/products.json` has one record per product:
+
+```json
+{
+  "id": "muse",
+  "section": "products-digital",
+  "title": "Muse",
+  "org": "Meta",
+  "links": {"website": "https://muse.ai/"},
+  "tags": ["L3"],
+  "sources": ["metamuse2026", "musedesign2026"],
+  "checked": "2026-10-05"
+}
+```
+
+- `section`: `products-wearable`, `products-digital`, `products-physical`, or `products-devices`.
+- `links`: only the product's most official page, such as its product or feature page; never a blog post. Use an official help page only when no product page exists.
+- `tags` (optional): channel tags and the loop-closure level the survey gives the product.
+- `sources`: the survey citation keys merged into this record; leave it empty for a curated addition.
+- `checked`: the date you opened the official page (`YYYY-MM-DD`).
+
+Developer tools in `data/tools.json` keep a one-sentence `description`, a `group` (`memory`, `runtime`, or `integrations`), their website, code, and docs links, and the `checked` date.
 
 ## Curation principles
 

@@ -1,123 +1,863 @@
 [
   {
-    "id": "omi",
-    "section": "products-list",
-    "group": "wearables",
-    "title": "Omi",
-    "description": "Turns recorded conversations into searchable memories, summaries, extracted tasks, and daily recaps through a wearable and companion apps.",
+    "id": "bma400",
+    "section": "products-devices",
+    "title": "BMA400 accelerometer",
+    "org": "Bosch Sensortec",
     "links": {
-      "website": "https://www.omi.me/pages/product",
-      "code": "https://github.com/BasedHardware/omi",
-      "docs": "https://help.omi.me/en/articles/12017447-omi-device-orders-shipping-what-to-expect"
+      "website": "https://www.bosch-sensortec.com/en/products/motion-sensors/accelerometers/bma400/"
     },
-    "checked": "2026-09-15"
+    "sources": [
+      "boschBMA4002018"
+    ],
+    "checked": "2026-10-05"
   },
   {
-    "id": "ray-ban-meta",
-    "section": "products-list",
-    "group": "wearables",
-    "title": "Ray-Ban Meta",
-    "description": "Provides camera-grounded assistance, voice interaction, and user-set reminders through smart glasses paired with the Meta AI app.",
+    "id": "figure-03",
+    "section": "products-devices",
+    "title": "Figure 03 (Helix)",
+    "org": "Figure AI",
     "links": {
-      "website": "https://www.meta.com/ai-glasses/ray-ban-meta/",
-      "docs": "https://www.ray-ban.com/uk/c/frequently-asked-questions-ray-ban-meta-smart-glasses"
+      "website": "https://www.figure.ai/figure"
     },
-    "checked": "2026-09-15"
+    "sources": [
+      "figure032025",
+      "helix2025"
+    ],
+    "checked": "2026-10-05"
   },
   {
-    "id": "plaud-notepin",
-    "section": "products-list",
-    "group": "wearables",
-    "title": "PLAUD NotePin",
-    "description": "Captures user-started in-person conversations for later transcription, summarization, and retrieval in the Plaud app.",
+    "id": "galaxy-xr",
+    "section": "products-devices",
+    "title": "Galaxy XR",
+    "org": "Samsung",
     "links": {
-      "website": "https://www.plaud.ai/products/plaud-notepin",
-      "docs": "https://support.plaud.ai/hc/en-us/articles/50841183397273-Start-recording"
+      "website": "https://www.samsung.com/us/xr/galaxy-xr/galaxy-xr/"
     },
-    "checked": "2026-09-15"
+    "sources": [
+      "galaxyXR2025"
+    ],
+    "checked": "2026-10-05"
   },
   {
-    "id": "windows-recall",
-    "section": "products-list",
-    "group": "apps",
-    "title": "Windows Recall",
-    "description": "Stores opt-in screen snapshots locally and lets users search prior desktop activity with capture, filtering, and deletion controls.",
+    "id": "project-aria",
+    "section": "products-devices",
+    "title": "Project Aria glasses (Gen 1 and Gen 2)",
+    "org": "Meta",
     "links": {
-      "website": "https://support.microsoft.com/en-US/Windows/Ai/Ai-Features/retrace-your-steps-with-recall",
-      "docs": "https://support.microsoft.com/en-us/windows/privacy/privacy-and-control-over-your-recall-experience"
+      "website": "https://www.projectaria.com/"
     },
-    "checked": "2026-09-15"
+    "sources": [
+      "ariagen1hardware",
+      "ariaprofiles",
+      "ariaGen2hardware2025"
+    ],
+    "checked": "2026-10-05"
   },
   {
-    "id": "screenpipe",
-    "section": "products-list",
-    "group": "apps",
-    "title": "screenpipe",
-    "description": "Builds a searchable local history of screen and audio activity that users and connected agents can use for recall and follow-up work.",
+    "id": "quanta-x2",
+    "section": "products-devices",
+    "title": "Quanta X2",
+    "org": "X Square Robot",
     "links": {
-      "website": "https://screenpipe.com/",
-      "code": "https://github.com/screenpipe/screenpipe",
-      "docs": "https://docs.screenpi.pe/search-screen-history"
+      "website": "https://x2robot.com/en"
     },
-    "checked": "2026-09-15"
+    "sources": [
+      "quantaX2hardware"
+    ],
+    "checked": "2026-10-05"
+  },
+  {
+    "id": "rabbit-r1",
+    "section": "products-devices",
+    "title": "rabbit r1",
+    "org": "rabbit",
+    "links": {
+      "website": "https://www.rabbit.tech/rabbit-r1"
+    },
+    "sources": [
+      "rabbitr12024"
+    ],
+    "checked": "2026-10-05"
+  },
+  {
+    "id": "realsense-d435i",
+    "section": "products-devices",
+    "title": "RealSense D435i",
+    "org": "RealSense",
+    "links": {
+      "website": "https://www.realsenseai.com/products/depth-camera-d435i/"
+    },
+    "sources": [
+      "intelD435i2018"
+    ],
+    "checked": "2026-10-05"
+  },
+  {
+    "id": "vuzix-m400",
+    "section": "products-devices",
+    "title": "Vuzix M400",
+    "org": "Vuzix",
+    "links": {
+      "website": "https://www.vuzix.com/products/m400-smart-glasses"
+    },
+    "sources": [
+      "vuzixM400"
+    ],
+    "checked": "2026-10-05"
+  },
+  {
+    "id": "brea",
+    "section": "products-digital",
+    "title": "Brea",
+    "org": "Brea",
+    "links": {
+      "website": "https://brea.ai/"
+    },
+    "tags": [
+      "L3"
+    ],
+    "sources": [
+      "brea2026",
+      "breatriggers2026"
+    ],
+    "checked": "2026-10-05"
+  },
+  {
+    "id": "caddy",
+    "section": "products-digital",
+    "title": "Caddy",
+    "org": "Caddy",
+    "links": {
+      "website": "https://caddy.app/"
+    },
+    "tags": [
+      "L4"
+    ],
+    "sources": [
+      "caddy2026"
+    ],
+    "checked": "2026-10-05"
+  },
+  {
+    "id": "catch",
+    "section": "products-digital",
+    "title": "Catch",
+    "org": "Catch",
+    "links": {
+      "website": "https://www.catchagent.ai/"
+    },
+    "tags": [
+      "L4"
+    ],
+    "sources": [
+      "catch2026"
+    ],
+    "checked": "2026-10-05"
+  },
+  {
+    "id": "chatgpt",
+    "section": "products-digital",
+    "title": "ChatGPT (Dot, Pulse, Scheduled Tasks, Memory)",
+    "org": "OpenAI",
+    "links": {
+      "website": "https://chatgpt.com/overview/"
+    },
+    "tags": [
+      "A→S",
+      "L4"
+    ],
+    "sources": [
+      "chatgptdots2026",
+      "chatgptscheduled2026",
+      "openaidreaming2026"
+    ],
+    "checked": "2026-10-05"
   },
   {
     "id": "claude-cowork",
-    "section": "products-list",
-    "group": "apps",
+    "section": "products-digital",
     "title": "Claude Cowork",
-    "description": "Runs delegated tasks across selected files and tools, with unattended scheduled work and results returned for review.",
+    "org": "Anthropic",
     "links": {
       "website": "https://claude.com/product/cowork"
     },
-    "checked": "2026-09-15"
+    "tags": [
+      "L2"
+    ],
+    "sources": [
+      "claudecowork2026",
+      "claudescheduled2026"
+    ],
+    "checked": "2026-10-05"
   },
   {
-    "id": "chatgpt-pulse",
-    "section": "products-list",
-    "group": "hosted",
-    "title": "ChatGPT Pulse",
-    "description": "Uses chat history, memory, feedback, and optional connected apps to prepare personalized research briefings between conversations.",
+    "id": "eaia",
+    "section": "products-digital",
+    "title": "EAIA (Executive AI Assistant)",
+    "org": "LangChain",
     "links": {
-      "website": "https://openai.com/index/introducing-chatgpt-pulse/"
+      "website": "https://github.com/langchain-ai/executive-ai-assistant"
     },
-    "checked": "2026-09-15"
+    "tags": [
+      "L4"
+    ],
+    "sources": [
+      "langchaineai2025"
+    ],
+    "checked": "2026-10-05"
   },
   {
-    "id": "muse",
-    "section": "products-list",
-    "group": "hosted",
-    "title": "Muse",
-    "description": "Combines persistent conversational memory with scheduled and event-driven background work, surfacing meaningful updates or requests for input.",
+    "id": "folk",
+    "section": "products-digital",
+    "title": "Folk",
+    "org": "folk",
     "links": {
-      "website": "https://muse.ai/",
-      "docs": "https://introducing.muse.ai/"
+      "website": "https://www.folk.com/"
     },
-    "checked": "2026-09-15"
+    "tags": [
+      "L4"
+    ],
+    "sources": [
+      "folk2026"
+    ],
+    "checked": "2026-10-05"
   },
   {
-    "id": "openclaw",
-    "section": "products-list",
-    "group": "hosted",
-    "title": "OpenClaw",
-    "description": "Runs a personal assistant on user-managed infrastructure with durable memory, messaging access, and scheduled heartbeat checks or follow-ups.",
+    "id": "gemini",
+    "section": "products-digital",
+    "title": "Gemini (Daily Brief, Scheduled Actions)",
+    "org": "Google",
     "links": {
-      "website": "https://openclaw.ai/",
-      "code": "https://github.com/openclaw/openclaw",
-      "docs": "https://docs.openclaw.ai/gateway/heartbeat"
+      "website": "https://gemini.google/"
     },
-    "checked": "2026-09-15"
+    "tags": [
+      "L2"
+    ],
+    "sources": [
+      "geminidailybrief2026",
+      "geminischeduled2026"
+    ],
+    "checked": "2026-10-05"
+  },
+  {
+    "id": "grok-bot",
+    "section": "products-digital",
+    "title": "Grok Bot",
+    "org": "xAI",
+    "links": {
+      "website": "https://x.ai/bot"
+    },
+    "tags": [
+      "A→S",
+      "L4"
+    ],
+    "sources": [
+      "grokbot2026"
+    ],
+    "checked": "2026-10-05"
+  },
+  {
+    "id": "hermes-agent",
+    "section": "products-digital",
+    "title": "Hermes Agent",
+    "org": "Nous Research",
+    "links": {
+      "website": "https://hermes-agent.nousresearch.com/"
+    },
+    "tags": [
+      "L4"
+    ],
+    "sources": [
+      "hermesagent2026",
+      "hermescron2026"
+    ],
+    "checked": "2026-10-05"
+  },
+  {
+    "id": "heyclicky",
+    "section": "products-digital",
+    "title": "HeyClicky",
+    "org": "HeyClicky",
+    "links": {
+      "website": "https://www.heyclicky.com/"
+    },
+    "tags": [
+      "L4"
+    ],
+    "sources": [
+      "heyclicky2026"
+    ],
+    "checked": "2026-10-05"
+  },
+  {
+    "id": "inbox-zero",
+    "section": "products-digital",
+    "title": "Inbox Zero",
+    "org": "Inbox Zero",
+    "links": {
+      "website": "https://www.getinboxzero.com/"
+    },
+    "tags": [
+      "L4"
+    ],
+    "sources": [
+      "inboxzero2026",
+      "inboxzeroreplyzero2026"
+    ],
+    "checked": "2026-10-05"
+  },
+  {
+    "id": "instinct",
+    "section": "products-digital",
+    "title": "Instinct",
+    "org": "Instinct",
+    "links": {
+      "website": "https://instinct.com/"
+    },
+    "tags": [
+      "L3"
+    ],
+    "sources": [
+      "instinct2026"
+    ],
+    "checked": "2026-10-05"
+  },
+  {
+    "id": "interaction-models",
+    "section": "products-digital",
+    "title": "Interaction Models",
+    "org": "Thinking Machines",
+    "links": {
+      "website": "https://thinkingmachines.ai/"
+    },
+    "tags": [
+      "L0"
+    ],
+    "sources": [
+      "thinkingmachines2026interactionmodels"
+    ],
+    "checked": "2026-10-05"
+  },
+  {
+    "id": "kindroid",
+    "section": "products-digital",
+    "title": "Kindroid",
+    "org": "Kindroid",
+    "links": {
+      "website": "https://kindroid.ai/"
+    },
+    "tags": [
+      "L3"
+    ],
+    "sources": [
+      "kindroid2026"
+    ],
+    "checked": "2026-10-05"
+  },
+  {
+    "id": "leon",
+    "section": "products-digital",
+    "title": "Leon",
+    "org": "Leon",
+    "links": {
+      "website": "https://getleon.ai/"
+    },
+    "tags": [
+      "L4"
+    ],
+    "sources": [
+      "leon2026"
+    ],
+    "checked": "2026-10-05"
   },
   {
     "id": "lindy",
-    "section": "products-list",
-    "group": "hosted",
+    "section": "products-digital",
     "title": "Lindy",
-    "description": "Uses connected inbox and calendar context to prepare meetings, draft replies, and handle post-meeting follow-ups.",
+    "org": "Lindy",
     "links": {
-      "website": "https://www.lindy.ai/",
-      "docs": "https://docs.lindy.ai/"
+      "website": "https://www.lindy.ai/"
     },
-    "checked": "2026-09-15"
+    "sources": [],
+    "checked": "2026-10-05"
+  },
+  {
+    "id": "manus",
+    "section": "products-digital",
+    "title": "Manus",
+    "org": "Manus",
+    "links": {
+      "website": "https://manus.im/"
+    },
+    "tags": [
+      "L2"
+    ],
+    "sources": [
+      "manusschedules2026"
+    ],
+    "checked": "2026-10-05"
+  },
+  {
+    "id": "muse",
+    "section": "products-digital",
+    "title": "Muse",
+    "org": "Meta",
+    "links": {
+      "website": "https://muse.ai/"
+    },
+    "tags": [
+      "L3"
+    ],
+    "sources": [
+      "metamuse2026",
+      "musesafety2026",
+      "musedesign2026",
+      "musehelpapproval2026"
+    ],
+    "checked": "2026-10-05"
+  },
+  {
+    "id": "now-nudge",
+    "section": "products-digital",
+    "title": "Now Nudge (Galaxy AI)",
+    "org": "Samsung",
+    "links": {
+      "website": "https://www.samsung.com/us/galaxy-ai/"
+    },
+    "tags": [
+      "L3"
+    ],
+    "sources": [
+      "nownudge2026"
+    ],
+    "checked": "2026-10-05"
+  },
+  {
+    "id": "openclaw",
+    "section": "products-digital",
+    "title": "OpenClaw",
+    "org": "OpenClaw",
+    "links": {
+      "website": "https://openclaw.ai/"
+    },
+    "tags": [
+      "L4"
+    ],
+    "sources": [
+      "openclaw2026",
+      "openclawheartbeat2026",
+      "openclawautomation2026"
+    ],
+    "checked": "2026-10-05"
+  },
+  {
+    "id": "oppo-xiaobu",
+    "section": "products-digital",
+    "title": "OPPO Xiaobu (ColorOS 17)",
+    "org": "OPPO",
+    "links": {
+      "website": "https://www.coloros.com/version/coloros17/"
+    },
+    "tags": [
+      "L3"
+    ],
+    "sources": [
+      "coloros172026"
+    ],
+    "checked": "2026-10-05"
+  },
+  {
+    "id": "orchid",
+    "section": "products-digital",
+    "title": "Orchid",
+    "org": "Orchid",
+    "links": {
+      "website": "https://orchid.ai/"
+    },
+    "tags": [
+      "L3"
+    ],
+    "sources": [
+      "orchid2026"
+    ],
+    "checked": "2026-10-05"
+  },
+  {
+    "id": "pally",
+    "section": "products-digital",
+    "title": "Pally",
+    "org": "Pally",
+    "links": {
+      "website": "https://pally.com/"
+    },
+    "tags": [
+      "A→M",
+      "L4"
+    ],
+    "sources": [
+      "pally2026",
+      "pallytodo2026"
+    ],
+    "checked": "2026-10-05"
+  },
+  {
+    "id": "pixel-magic-cue",
+    "section": "products-digital",
+    "title": "Pixel Magic Cue",
+    "org": "Google",
+    "links": {
+      "website": "https://store.google.com/us/magazine/magic-cue?hl=en-US"
+    },
+    "tags": [
+      "L3"
+    ],
+    "sources": [
+      "magiccue2025",
+      "magiccuehelp2026"
+    ],
+    "checked": "2026-10-05"
+  },
+  {
+    "id": "screenpipe",
+    "section": "products-digital",
+    "title": "screenpipe",
+    "org": "screenpipe",
+    "links": {
+      "website": "https://screenpipe.com/"
+    },
+    "sources": [],
+    "checked": "2026-10-05"
+  },
+  {
+    "id": "today",
+    "section": "products-digital",
+    "title": "Today",
+    "org": "Today",
+    "links": {
+      "website": "https://today.ai/"
+    },
+    "tags": [
+      "L2"
+    ],
+    "sources": [
+      "todayai2026"
+    ],
+    "checked": "2026-10-05"
+  },
+  {
+    "id": "town",
+    "section": "products-digital",
+    "title": "Town",
+    "org": "Town",
+    "links": {
+      "website": "https://www.town.com/"
+    },
+    "tags": [
+      "L4"
+    ],
+    "sources": [
+      "town2026"
+    ],
+    "checked": "2026-10-05"
+  },
+  {
+    "id": "vellum",
+    "section": "products-digital",
+    "title": "Vellum",
+    "org": "Vellum",
+    "links": {
+      "website": "https://www.vellum.ai/"
+    },
+    "tags": [
+      "L4"
+    ],
+    "sources": [
+      "vellumscheduling2026",
+      "vellumfollowups2026"
+    ],
+    "checked": "2026-10-05"
+  },
+  {
+    "id": "windows-recall",
+    "section": "products-digital",
+    "title": "Windows Recall",
+    "org": "Microsoft",
+    "links": {
+      "website": "https://support.microsoft.com/en-us/windows/ai/ai-features/retrace-your-steps-with-recall"
+    },
+    "tags": [
+      "S→M",
+      "L2"
+    ],
+    "sources": [
+      "msrecall2024"
+    ],
+    "checked": "2026-10-05"
+  },
+  {
+    "id": "xiao-v-suggestions",
+    "section": "products-digital",
+    "title": "Xiao V Suggestions",
+    "org": "vivo",
+    "links": {
+      "website": "https://www.vivo.com.cn/originos"
+    },
+    "tags": [
+      "L3"
+    ],
+    "sources": [
+      "xiaovsuggestions2025"
+    ],
+    "checked": "2026-10-05"
+  },
+  {
+    "id": "xiaoyi-suggestions",
+    "section": "products-digital",
+    "title": "Xiaoyi Suggestions",
+    "org": "Huawei",
+    "links": {
+      "website": "https://consumer.huawei.com/cn/mobileservices/celia/"
+    },
+    "tags": [
+      "L4"
+    ],
+    "sources": [
+      "xiaoyisuggestions2026",
+      "harmonyos42023"
+    ],
+    "checked": "2026-10-05"
+  },
+  {
+    "id": "aibo",
+    "section": "products-physical",
+    "title": "aibo",
+    "org": "Sony",
+    "links": {
+      "website": "https://us.aibo.com/"
+    },
+    "tags": [
+      "L3"
+    ],
+    "sources": [
+      "aiboguide2026"
+    ],
+    "checked": "2026-10-05"
+  },
+  {
+    "id": "alexa-plus",
+    "section": "products-physical",
+    "title": "Alexa+",
+    "org": "Amazon",
+    "links": {
+      "website": "https://www.amazon.com/alexaplus"
+    },
+    "tags": [
+      "L3"
+    ],
+    "sources": [
+      "alexaplus2026"
+    ],
+    "checked": "2026-10-05"
+  },
+  {
+    "id": "amazon-astro",
+    "section": "products-physical",
+    "title": "Amazon Astro",
+    "org": "Amazon",
+    "links": {
+      "website": "https://www.amazon.com/Amazon-Astro/dp/B078NSDFSB"
+    },
+    "tags": [
+      "L3"
+    ],
+    "sources": [
+      "amazonastro2021"
+    ],
+    "checked": "2026-10-05"
+  },
+  {
+    "id": "elliq",
+    "section": "products-physical",
+    "title": "ElliQ",
+    "org": "Intuition Robotics",
+    "links": {
+      "website": "https://elliq.com/"
+    },
+    "tags": [
+      "S→M"
+    ],
+    "sources": [
+      "elliqdocs2026"
+    ],
+    "checked": "2026-10-05"
+  },
+  {
+    "id": "loona-deskmate",
+    "section": "products-physical",
+    "title": "Loona Deskmate",
+    "org": "KEYi Technology",
+    "links": {
+      "website": "https://keyirobot.com/en-sg/products/deskmate"
+    },
+    "tags": [
+      "L4"
+    ],
+    "sources": [
+      "loonadeskmate2026"
+    ],
+    "checked": "2026-10-05"
+  },
+  {
+    "id": "moflin",
+    "section": "products-physical",
+    "title": "Moflin",
+    "org": "Casio",
+    "links": {
+      "website": "https://www.casio.com/us/moflin/"
+    },
+    "tags": [
+      "L4"
+    ],
+    "sources": [
+      "moflin2026"
+    ],
+    "checked": "2026-10-05"
+  },
+  {
+    "id": "bee",
+    "section": "products-wearable",
+    "title": "Bee",
+    "org": "Amazon",
+    "links": {
+      "website": "https://bee.computer/"
+    },
+    "tags": [
+      "L3"
+    ],
+    "sources": [
+      "bee2026"
+    ],
+    "checked": "2026-10-05"
+  },
+  {
+    "id": "even-g2",
+    "section": "products-wearable",
+    "title": "Even G2",
+    "org": "Even Realities",
+    "links": {
+      "website": "https://www.evenrealities.com/smart-glasses"
+    },
+    "tags": [
+      "L2"
+    ],
+    "sources": [
+      "evenrealitiesg22026"
+    ],
+    "checked": "2026-10-05"
+  },
+  {
+    "id": "looki-l1",
+    "section": "products-wearable",
+    "title": "Looki L1",
+    "org": "Looki",
+    "links": {
+      "website": "https://www.looki.ai/"
+    },
+    "tags": [
+      "L3"
+    ],
+    "sources": [
+      "looki2026"
+    ],
+    "checked": "2026-10-05"
+  },
+  {
+    "id": "omi",
+    "section": "products-wearable",
+    "title": "Omi",
+    "org": "Based Hardware",
+    "links": {
+      "website": "https://www.omi.me/"
+    },
+    "tags": [
+      "S→M",
+      "L3"
+    ],
+    "sources": [
+      "omi2026",
+      "omihelp2026"
+    ],
+    "checked": "2026-10-05"
+  },
+  {
+    "id": "oura-advisor",
+    "section": "products-wearable",
+    "title": "Oura Advisor",
+    "org": "Oura",
+    "links": {
+      "website": "https://support.ouraring.com/hc/en-us/articles/39512345699219-Oura-Advisor"
+    },
+    "tags": [
+      "L2"
+    ],
+    "sources": [
+      "ouraadvisor2026"
+    ],
+    "checked": "2026-10-05"
+  },
+  {
+    "id": "plaud-notepin",
+    "section": "products-wearable",
+    "title": "PLAUD NotePin",
+    "org": "PLAUD",
+    "links": {
+      "website": "https://www.plaud.ai/products/plaud-notepin"
+    },
+    "sources": [],
+    "checked": "2026-10-05"
+  },
+  {
+    "id": "ray-ban-meta",
+    "section": "products-wearable",
+    "title": "Ray-Ban Meta",
+    "org": "Meta",
+    "links": {
+      "website": "https://www.meta.com/ai-glasses/ray-ban-meta/"
+    },
+    "sources": [],
+    "checked": "2026-10-05"
+  },
+  {
+    "id": "rayneo-io",
+    "section": "products-wearable",
+    "title": "RayNeo iO",
+    "org": "RayNeo",
+    "links": {
+      "website": "https://www.rayneo.cn/io.html"
+    },
+    "tags": [
+      "L2"
+    ],
+    "sources": [
+      "rayneoio2026"
+    ],
+    "checked": "2026-10-05"
+  },
+  {
+    "id": "smart-stack-hints",
+    "section": "products-wearable",
+    "title": "Smart Stack hints (watchOS)",
+    "org": "Apple",
+    "links": {
+      "website": "https://www.apple.com/os/watchos/"
+    },
+    "tags": [
+      "L3"
+    ],
+    "sources": [
+      "smartstackhints2025"
+    ],
+    "checked": "2026-10-05"
   }
 ]

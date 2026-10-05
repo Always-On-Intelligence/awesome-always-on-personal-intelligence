@@ -19,10 +19,8 @@ ROOT = Path(__file__).resolve().parents[1]
 CHANNELS = ["S→A", "S→M", "M→A", "A→S", "M→S", "A→M"]
 TAGS = set(CHANNELS) | {f"L{i}" for i in range(6)} | {"Product"}
 LINK_LABELS = ["paper", "blog", "docs", "website", "project", "code", "data"]
-GROUPS = {
-    "products.json": ("products-list", {"wearables": "Wearable", "apps": "Desktop & Mobile", "hosted": "Cloud & Messaging"}),
-    "tools.json": ("products-tools", {"memory": "Memory", "runtime": "Runtime", "integrations": "Integrations"}),
-}
+PRODUCT_SECTIONS = {"products-wearable", "products-digital", "products-physical", "products-devices"}
+TOOL_GROUPS = {"memory": "Memory", "runtime": "Runtime", "integrations": "Integrations"}
 
 
 def is_single_line(value):
@@ -84,7 +82,7 @@ def load_entries(by_id):
                 raise ValueError(f"{name}: unknown section {entry.get('section')}")
             check_links(name, entry.get("links"))
             if filename == "research.json":
-                if entry["section"] in ("products-list", "products-tools"):
+                if entry["section"].startswith("products"):
                     raise ValueError(f"{name}: products and tools belong in products.json and tools.json")
                 if "group" in entry and entry["group"] not in [g["name"] for g in node.get("groups", [])]:
                     raise ValueError(f"{name}: group {entry['group']!r} is not listed for section {node['id']}")
@@ -104,15 +102,27 @@ def load_entries(by_id):
                 if not isinstance(tags, list) or len(tags) > 4 or any(t not in TAGS for t in tags):
                     raise ValueError(f"{name}: tags must be channels ({', '.join(CHANNELS)}), levels L0 to L5, or Product")
             else:
-                section, groups = GROUPS[filename]
-                if entry["section"] != section or entry.get("group") not in groups:
-                    raise ValueError(f"{name}: {filename} entries use section {section} and a group in {', '.join(groups)}")
-                if not is_single_line(entry.get("description")):
-                    raise ValueError(f"{name}: invalid description")
                 checked = entry.get("checked", "")
                 if not isinstance(checked, str) or not re.fullmatch(r"\d{4}-\d{2}-\d{2}", checked) or date.fromisoformat(checked) > date.today():
                     raise ValueError(f"{name}: checked must be a past YYYY-MM-DD date")
-                entry = dict(entry, label=groups[entry["group"]], order=list(groups).index(entry["group"]))
+                if filename == "products.json":
+                    # One line per product: its organization and its official page, never a blog post.
+                    if entry["section"] not in PRODUCT_SECTIONS or not is_single_line(entry.get("org")) or "`" in entry["org"]:
+                        raise ValueError(f"{name}: products need an org and one of {', '.join(sorted(PRODUCT_SECTIONS))}")
+                    if list(entry["links"]) != ["website"]:
+                        raise ValueError(f"{name}: a product links only its official website page")
+                    tags = entry.get("tags", [])
+                    if not isinstance(tags, list) or len(tags) > 3 or any(t not in TAGS for t in tags):
+                        raise ValueError(f"{name}: invalid product tags")
+                    if not isinstance(entry.get("sources", []), list) or not all(is_single_line(s) for s in entry.get("sources", [])):
+                        raise ValueError(f"{name}: sources must list survey citation keys")
+                    entry = dict(entry, label=entry["org"], order=0)
+                else:
+                    if entry["section"] != "products-tools" or entry.get("group") not in TOOL_GROUPS:
+                        raise ValueError(f"{name}: tools use section products-tools and a group in {', '.join(TOOL_GROUPS)}")
+                    if not is_single_line(entry.get("description")):
+                        raise ValueError(f"{name}: invalid description")
+                    entry = dict(entry, label=TOOL_GROUPS[entry["group"]], order=list(TOOL_GROUPS).index(entry["group"]))
             entries.append(entry)
     return entries
 
@@ -135,6 +145,10 @@ def resource_links(links):
 
 
 def render_entry(entry, group_tags):
+    if "org" in entry:
+        tags = "".join(f" `{tag}`" for tag in entry.get("tags", []))
+        title = md(entry["title"])
+        return f"- **`{entry['label']}`** {title}. {resource_links(entry['links'])}{tags}"
     if "label" in entry:
         description = entry["description"]
         if len(description) > 1 and description[1].islower():
@@ -169,6 +183,7 @@ def build(sections, entries):
         return len(direct.get(node["id"], [])) + sum(count(c) for c in children.get(node["id"], []))
 
     works = sum(1 for e in entries if "label" not in e)
+    products = sum(1 for e in entries if "org" in e)
     papers = sum(1 for e in entries if "label" not in e and "paper" in e["links"])
     tops = [n for n in sections if n["level"] == 2 and count(n)]
     toc = ["<details>", "<summary><b>Table of Contents</b></summary>", "", "- [News](#news)", "- [Overview](#overview)", "- [Foundations](#foundations)"]
@@ -177,7 +192,7 @@ def build(sections, entries):
         toc += [f"  - [{heading(c)}](#{c['id']})" for c in children.get(top["id"], []) if count(c)]
     toc += ["- [Contributing](#contributing)", "- [Citation](#citation)", "", "</details>"]
     intro = (ROOT / "docs" / "readme-intro.md").read_text(encoding="utf-8").rstrip()
-    intro = intro.replace("{{PAPER_COUNT}}", str(papers)).replace("{{WORK_COUNT}}", str(works)).replace("{{TOC}}", "\n".join(toc))
+    intro = intro.replace("{{PAPER_COUNT}}", str(papers)).replace("{{WORK_COUNT}}", str(works)).replace("{{PRODUCT_COUNT}}", str(products)).replace("{{TOC}}", "\n".join(toc))
     parts = ["<!-- Generated by scripts/build_readme.py. Edit data/*.json or docs/readme-*.md, then regenerate. -->", "", intro, ""]
 
     def emit(node):

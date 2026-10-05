@@ -18,13 +18,13 @@ The list starts directly with the survey's module chapters and follows its title
 | Applications, System Bottlenecks, and Loop Closure | Applications and bottlenecks by domain, shared conditions and implementation, levels of loop closure, self-evolution in deployed loops |
 | Trends and Open Problems | Local policies, coordination, self-evolution and recursive revision, longitudinal evaluation |
 | Related Surveys | Capability-focused and concurrent system-level surveys |
-| Products & Tools | The product pages, documentation, and blogs the survey cites, by wearable, digital, and physical domain; device pages; and the curated product directory and developer tools |
+| Products & Tools | One line per product the survey discusses, with its official page, by wearable, digital, and physical domain; devices and platforms; a few curated products; and developer tools |
 
 The README's Foundations section summarizes the survey's definitions, coupling channels, and loop-closure levels without a reading list. Works the survey cites only in its Introduction or Foundations, such as textbooks and early visions, are left out, apart from the related surveys and device pages.
 
 ## Placement
 
-Research works and products are kept apart: a source that is an official product page, documentation, or blog goes to Products & Tools under its interaction domain, whatever section cites it. Each research work appears once, under the section where the survey treats it most directly:
+Research works and products are kept apart. The survey's product sources (official pages, documentation, and blogs) are merged into one record per product, which links only the product's most official page and never a blog post, under its interaction domain. Each research work appears once, under the section where the survey treats it most directly:
 
 1. A related survey discussed in the survey's positioning goes to Related Surveys.
 2. A system in the application landscape table goes to its domain under Applications and Bottlenecks; a system in the loop-closure table goes to Levels of Loop Closure.
