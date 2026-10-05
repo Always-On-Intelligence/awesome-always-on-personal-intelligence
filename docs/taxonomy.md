@@ -42,7 +42,7 @@ Research works and products are kept apart. The survey's product sources (offici
 
 ## Maintenance
 
-- Research entries: newest first, then by title, within each section.
+- Research entries: newest first, then by title, within each section. The lists under Applications and Bottlenecks and Levels of Loop Closure run from the highest loop-closure level down, then newest first; works without a level come last.
 - Products and tools: by group, then by title.
 - Sections without entries are omitted from the README.
 - Source data: `data/sections.json` (sections in reading order, with the survey's groupings and their tags), `data/research.json`, `data/products.json`, and `data/tools.json`. Framing text: `docs/readme-intro.md` and `docs/readme-footer.md`. `README.md` is generated.

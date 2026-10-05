@@ -459,25 +459,29 @@
     "id": "sec-6-1-1",
     "title": "Wearable Assistance in Daily Activity and Conversation",
     "level": 4,
-    "parent": "sec-6-1"
+    "parent": "sec-6-1",
+    "sort": "level"
   },
   {
     "id": "sec-6-1-2",
     "title": "Digital Workspace and Personal Services",
     "level": 4,
-    "parent": "sec-6-1"
+    "parent": "sec-6-1",
+    "sort": "level"
   },
   {
     "id": "sec-6-1-3",
     "title": "Physical Assistance and Collaboration",
     "level": 4,
-    "parent": "sec-6-1"
+    "parent": "sec-6-1",
+    "sort": "level"
   },
   {
     "id": "sec-6-1-4",
     "title": "Patterns Across Domains",
     "level": 4,
-    "parent": "sec-6-1"
+    "parent": "sec-6-1",
+    "sort": "level"
   },
   {
     "id": "sec-6-2",
@@ -502,6 +506,7 @@
     "title": "Levels of Loop Closure",
     "level": 3,
     "parent": "sec-6",
+    "sort": "level",
     "groups": [
       {
         "name": "Physical products",
