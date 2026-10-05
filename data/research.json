@@ -1,736 +1,5 @@
 [
   {
-    "id": "streampro2026",
-    "section": "sec-1",
-    "title": "StreamPro: From Reactive Perception to Proactive Decision-Making in Streaming Video",
-    "year": 2026,
-    "venue": "arXiv",
-    "links": {
-      "paper": "https://arxiv.org/abs/2605.16381"
-    }
-  },
-  {
-    "id": "ha2014wearable",
-    "section": "sec-1",
-    "title": "Towards Wearable Cognitive Assistance",
-    "year": 2014,
-    "venue": "MobiSys",
-    "links": {
-      "paper": "https://www.pdl.cmu.edu/PDL-FTP/CloudComputing/ha-mobisys2014_abs.shtml"
-    }
-  },
-  {
-    "id": "horvitz1998lumiere",
-    "section": "sec-1",
-    "title": "The Lumière Project: Bayesian User Modeling for Inferring the Goals and Needs of Software Users",
-    "year": 1998,
-    "venue": "UAI",
-    "links": {
-      "paper": "https://www.microsoft.com/en-us/research/publication/lumiere-project-bayesian-user-modeling-inferring-goals-needs-software-users/"
-    }
-  },
-  {
-    "id": "weiser1991ubicomp",
-    "section": "sec-1",
-    "title": "The Computer for the 21st Century",
-    "year": 1991,
-    "venue": "Scientific American",
-    "links": {
-      "paper": "https://doi.org/10.1038/scientificamerican0991-94"
-    }
-  },
-  {
-    "id": "selfevolvingagents2025",
-    "section": "sec-1-1",
-    "title": "A Survey of Self-Evolving Agents: What, When, How, and Where to Evolve on the Path to Artificial Super Intelligence",
-    "year": 2026,
-    "venue": "TMLR",
-    "links": {
-      "paper": "https://openreview.net/forum?id=CTr3bovS5F"
-    }
-  },
-  {
-    "id": "yuansmartglasses2026",
-    "section": "sec-1-1",
-    "title": "A Survey on AI Smart Glasses for Wearable Intelligence: From Egocentric Sensing to Agentic Personalization",
-    "year": 2026,
-    "venue": "Preprints",
-    "links": {
-      "paper": "https://www.preprints.org/manuscript/202608.0648/v1"
-    }
-  },
-  {
-    "id": "memsecuritysurvey2026",
-    "section": "sec-1-1",
-    "title": "A Survey on Long-Term Memory Security in LLM Agents: Attacks, Defenses, and Governance Across the Memory Lifecycle",
-    "year": 2026,
-    "venue": "arXiv",
-    "links": {
-      "paper": "https://arxiv.org/abs/2604.16548"
-    },
-    "tags": [
-      "S→M"
-    ]
-  },
-  {
-    "id": "chu2026agenticworldmodeling",
-    "section": "sec-1-1",
-    "title": "Agentic World Modeling: Foundations, Capabilities, Laws, and Beyond",
-    "year": 2026,
-    "venue": "arXiv",
-    "links": {
-      "paper": "https://arxiv.org/abs/2604.22748",
-      "code": "https://github.com/matrix-agent/awesome-agentic-world-modeling"
-    }
-  },
-  {
-    "id": "kong2026autoresearch",
-    "section": "sec-1-1",
-    "title": "AI for Auto-Research: Roadmap and User Guide",
-    "year": 2026,
-    "venue": "arXiv",
-    "links": {
-      "paper": "https://arxiv.org/abs/2605.18661",
-      "code": "https://github.com/worldbench/awesome-ai-auto-research"
-    }
-  },
-  {
-    "id": "alwaysonagents2026",
-    "section": "sec-1-1",
-    "title": "Always-On Agents: A Survey of Persistent Memory, State, and Governance in LLM Agents",
-    "year": 2026,
-    "venue": "arXiv",
-    "links": {
-      "paper": "https://arxiv.org/abs/2606.30306"
-    }
-  },
-  {
-    "id": "qin2026audiovisual",
-    "section": "sec-1-1",
-    "title": "Audio-Visual Intelligence in Large Foundation Models",
-    "year": 2026,
-    "venue": "arXiv",
-    "links": {
-      "paper": "https://arxiv.org/abs/2605.04045",
-      "code": "https://github.com/JavisVerse/Awesome-AVI"
-    }
-  },
-  {
-    "id": "egovisionsurvey2025",
-    "section": "sec-1-1",
-    "title": "Challenges and Trends in Egocentric Vision: A Survey",
-    "year": 2026,
-    "venue": "Machine Intelligence Research",
-    "links": {
-      "paper": "https://arxiv.org/abs/2503.15275"
-    }
-  },
-  {
-    "id": "ding2026combodiedagentsnewparadigm",
-    "section": "sec-1-1",
-    "title": "ComBodied Agents: a New Paradigm of Human-Centric Agentic AI",
-    "year": 2026,
-    "venue": "arXiv",
-    "links": {
-      "paper": "https://arxiv.org/abs/2608.10915"
-    }
-  },
-  {
-    "id": "dynamicskillssurvey2026",
-    "section": "sec-1-1",
-    "title": "Dynamic Agent Skills: A Lifecycle Survey and Taxonomy of Evolving Skill Libraries",
-    "year": 2026,
-    "venue": "TMLR",
-    "links": {
-      "paper": "https://arxiv.org/abs/2607.10113"
-    }
-  },
-  {
-    "id": "bian2026sensorharfm",
-    "section": "sec-1-1",
-    "title": "Foundation Models Defining A New Era In Sensor-based Human Activity Recognition: A Survey And Outlook",
-    "year": 2026,
-    "venue": "IMWUT",
-    "links": {
-      "paper": "https://arxiv.org/abs/2604.02711"
-    }
-  },
-  {
-    "id": "zhang2026seeingactingsmartglasses",
-    "section": "sec-1-1",
-    "title": "From Seeing to Acting: Smart Glasses as First-Person Intelligence Platforms",
-    "year": 2026,
-    "venue": "arXiv",
-    "links": {
-      "paper": "https://arxiv.org/abs/2608.24877",
-      "code": "https://github.com/zhangzjn/awesome-smart-glasses"
-    }
-  },
-  {
-    "id": "streamingllmsurvey2026",
-    "section": "sec-1-1",
-    "title": "From Static Inference to Dynamic Interaction: A Survey of Streaming Large Language Models",
-    "year": 2026,
-    "venue": "Findings of ACL",
-    "links": {
-      "paper": "https://arxiv.org/abs/2603.04592"
-    }
-  },
-  {
-    "id": "ren2026selfimprovements",
-    "section": "sec-1-1",
-    "title": "Self-Improvements in Modern Agentic Systems: A Survey",
-    "year": 2026,
-    "venue": "arXiv",
-    "links": {
-      "paper": "https://arxiv.org/abs/2607.13104",
-      "code": "https://github.com/selfimproving-agent/awesome-Self-Improving-Agents"
-    }
-  },
-  {
-    "id": "personalizedagentsurvey2026",
-    "section": "sec-1-1",
-    "title": "Toward Personalized LLM-Powered Agents: Foundations, Evaluation, and Future Directions",
-    "year": 2026,
-    "venue": "arXiv",
-    "links": {
-      "paper": "https://arxiv.org/abs/2602.22680"
-    }
-  },
-  {
-    "id": "dong2026longhorizon",
-    "section": "sec-1-1",
-    "title": "Towards Long-Horizon Agents: A Survey",
-    "year": 2026,
-    "venue": "Preprints",
-    "links": {
-      "paper": "https://doi.org/10.20944/preprints202607.1328.v1"
-    }
-  },
-  {
-    "id": "selfevolvingsurveyfang2025",
-    "section": "sec-1-1",
-    "title": "A Comprehensive Survey of Self-Evolving AI Agents: A New Paradigm Bridging Foundation Models and Lifelong Agentic Systems",
-    "year": 2025,
-    "venue": "arXiv",
-    "links": {
-      "paper": "https://arxiv.org/abs/2508.07407",
-      "code": "https://github.com/EvoAgentX/Awesome-Self-Evolving-Agents"
-    }
-  },
-  {
-    "id": "zhang2024memorysurvey",
-    "section": "sec-1-1",
-    "title": "A Survey on the Memory Mechanism of Large Language Model Based Agents",
-    "year": 2025,
-    "venue": "ACM TOIS",
-    "links": {
-      "paper": "https://arxiv.org/abs/2404.13501",
-      "project": "https://github.com/nuster1128/LLM_Agent_Memory_Survey",
-      "code": "https://github.com/nuster1128/LLM_Agent_Memory_Survey"
-    }
-  },
-  {
-    "id": "abstentionsurvey2024",
-    "section": "sec-1-1",
-    "title": "Know Your Limits: A Survey of Abstention in Large Language Models",
-    "year": 2025,
-    "venue": "TACL",
-    "links": {
-      "paper": "https://arxiv.org/abs/2407.18418"
-    }
-  },
-  {
-    "id": "zhang2024guiagents",
-    "section": "sec-1-1",
-    "title": "Large Language Model-Brained GUI Agents: A Survey",
-    "year": 2025,
-    "venue": "TMLR",
-    "links": {
-      "paper": "https://arxiv.org/abs/2411.18279",
-      "code": "https://github.com/vyokky/LLM-Brained-GUI-Agents-Survey"
-    }
-  },
-  {
-    "id": "memoryage2025",
-    "section": "sec-1-1",
-    "title": "Memory in the Age of AI Agents",
-    "year": 2025,
-    "venue": "arXiv",
-    "links": {
-      "paper": "https://arxiv.org/abs/2512.13564",
-      "code": "https://github.com/Shichun-Liu/Agent-Memory-Paper-List"
-    }
-  },
-  {
-    "id": "deng2025tois",
-    "section": "sec-1-1",
-    "title": "Proactive Conversational AI: A Comprehensive Survey of Advancements and Opportunities",
-    "year": 2025,
-    "venue": "ACM TOIS",
-    "links": {
-      "paper": "https://doi.org/10.1145/3715097"
-    }
-  },
-  {
-    "id": "wang2024agentsurvey",
-    "section": "sec-1-1",
-    "title": "A Survey on Large Language Model Based Autonomous Agents",
-    "year": 2024,
-    "venue": "Front. Comput. Sci.",
-    "links": {
-      "paper": "https://arxiv.org/abs/2308.11432",
-      "code": "https://github.com/paitesanshi/llm-agent-survey"
-    }
-  },
-  {
-    "id": "yin2023mllmsurvey",
-    "section": "sec-1-1",
-    "title": "A Survey on Multimodal Large Language Models",
-    "year": 2024,
-    "venue": "Natl. Sci. Rev.",
-    "links": {
-      "paper": "https://arxiv.org/abs/2306.13549"
-    }
-  },
-  {
-    "id": "durante2024agentai",
-    "section": "sec-1-1",
-    "title": "Agent AI: Surveying the Horizons of Multimodal Interaction",
-    "year": 2024,
-    "venue": "arXiv",
-    "links": {
-      "paper": "https://arxiv.org/abs/2401.03568"
-    }
-  },
-  {
-    "id": "plizzari2024egofuture",
-    "section": "sec-1-1",
-    "title": "An Outlook into the Future of Egocentric Vision",
-    "year": 2024,
-    "venue": "IJCV",
-    "links": {
-      "paper": "https://arxiv.org/abs/2308.07123"
-    }
-  },
-  {
-    "id": "xu2024ondevicellm",
-    "section": "sec-1-1",
-    "title": "On-Device Language Models: A Comprehensive Review",
-    "year": 2024,
-    "venue": "arXiv",
-    "links": {
-      "paper": "https://arxiv.org/abs/2409.00088"
-    }
-  },
-  {
-    "id": "qin2023toolsurvey",
-    "section": "sec-1-1",
-    "title": "Tool Learning with Foundation Models",
-    "year": 2024,
-    "venue": "ACM CSUR",
-    "links": {
-      "paper": "https://arxiv.org/abs/2304.08354",
-      "code": "https://github.com/openbmb/bmtools"
-    }
-  },
-  {
-    "id": "deng2024humancentered",
-    "section": "sec-1-1",
-    "title": "Towards Human-centered Proactive Conversational Agents",
-    "year": 2024,
-    "venue": "SIGIR",
-    "links": {
-      "paper": "https://arxiv.org/abs/2404.12670"
-    }
-  },
-  {
-    "id": "deng2023proactivesurvey",
-    "section": "sec-1-1",
-    "title": "A Survey on Proactive Dialogue Systems: Problems, Methods, and Prospects",
-    "year": 2023,
-    "venue": "IJCAI",
-    "links": {
-      "paper": "https://arxiv.org/abs/2305.02750"
-    }
-  },
-  {
-    "id": "gao2023ragsurvey",
-    "section": "sec-1-1",
-    "title": "Retrieval-Augmented Generation for Large Language Models: A Survey",
-    "year": 2023,
-    "venue": "arXiv",
-    "links": {
-      "paper": "https://arxiv.org/abs/2312.10997"
-    }
-  },
-  {
-    "id": "xi2023risesurvey",
-    "section": "sec-1-1",
-    "title": "The Rise and Potential of Large Language Model Based Agents: A Survey",
-    "year": 2023,
-    "venue": "arXiv",
-    "links": {
-      "paper": "https://arxiv.org/abs/2309.07864",
-      "code": "https://github.com/woooodyy/llm-agent-paper-list"
-    }
-  },
-  {
-    "id": "tang2023videosurvey",
-    "section": "sec-1-1",
-    "title": "Video Understanding with Large Language Models: A Survey",
-    "year": 2023,
-    "venue": "arXiv",
-    "links": {
-      "paper": "https://arxiv.org/abs/2312.17432",
-      "code": "https://github.com/yunlong10/awesome-llms-for-video-understanding"
-    }
-  },
-  {
-    "id": "duan2022embodiedsurvey",
-    "section": "sec-1-1",
-    "title": "A Survey of Embodied AI: From Simulators to Research Tasks",
-    "year": 2022,
-    "venue": "IEEE TETCI",
-    "links": {
-      "paper": "https://arxiv.org/abs/2103.04918"
-    }
-  },
-  {
-    "id": "gurrin2014lifelogging",
-    "section": "sec-1-1",
-    "title": "LifeLogging: Personal Big Data",
-    "year": 2014,
-    "venue": "FnTIR",
-    "links": {
-      "paper": "https://doi.org/10.1561/1500000033"
-    }
-  },
-  {
-    "id": "sharma2022autonomousrl",
-    "section": "sec-2-1-1",
-    "title": "Autonomous Reinforcement Learning: Formalism and Benchmarking",
-    "year": 2022,
-    "venue": "ICLR",
-    "links": {
-      "paper": "https://arxiv.org/abs/2112.09605"
-    }
-  },
-  {
-    "id": "liao2022average",
-    "section": "sec-2-1-1",
-    "title": "Batch Policy Learning in Average Reward Markov Decision Processes",
-    "year": 2022,
-    "venue": "Ann. Stat.",
-    "links": {
-      "paper": "https://arxiv.org/abs/2007.11771"
-    }
-  },
-  {
-    "id": "sutton2018rl",
-    "section": "sec-2-1-1",
-    "title": "Reinforcement Learning: An Introduction",
-    "year": 2018,
-    "venue": "Book",
-    "links": {
-      "paper": "https://mitpress.mit.edu/9780262039246/reinforcement-learning/"
-    }
-  },
-  {
-    "id": "matrixagent2026awesomeawm",
-    "section": "sec-2-2",
-    "title": "Awesome Agentic World Modeling",
-    "year": 2026,
-    "venue": "GitHub",
-    "links": {
-      "code": "https://github.com/matrix-agent/awesome-agentic-world-modeling"
-    }
-  },
-  {
-    "id": "coala2024",
-    "section": "sec-2-2",
-    "title": "Cognitive Architectures for Language Agents",
-    "year": 2024,
-    "venue": "TMLR",
-    "links": {
-      "paper": "https://arxiv.org/abs/2309.02427",
-      "code": "https://github.com/ysymyth/awesome-language-agents"
-    }
-  },
-  {
-    "id": "lecun2022ami",
-    "section": "sec-2-2",
-    "title": "A Path Towards Autonomous Machine Intelligence",
-    "year": 2022,
-    "venue": "OpenReview",
-    "links": {
-      "paper": "https://openreview.net/forum?id=BZ5a1r-kVsf"
-    }
-  },
-  {
-    "id": "laird2012soar",
-    "section": "sec-2-2",
-    "title": "The Soar Cognitive Architecture",
-    "year": 2012,
-    "venue": "Book",
-    "links": {
-      "paper": "https://doi.org/10.7551/mitpress/7688.001.0001"
-    }
-  },
-  {
-    "id": "craik1943nature",
-    "section": "sec-2-2",
-    "title": "The Nature of Explanation",
-    "year": 1943,
-    "venue": "Book",
-    "links": {
-      "paper": "https://archive.org/details/natureofexplanat0000crai"
-    }
-  },
-  {
-    "id": "contextengineering2025",
-    "section": "sec-2-4",
-    "title": "A Survey of Context Engineering for Large Language Models",
-    "year": 2025,
-    "venue": "arXiv",
-    "links": {
-      "paper": "https://arxiv.org/abs/2507.13334",
-      "code": "https://github.com/Meirtz/Awesome-Context-Engineering"
-    }
-  },
-  {
-    "id": "modularmemoryposition2026",
-    "section": "sec-2-5",
-    "title": "Position: Modular Memory is the Key to Continual Learning Agents",
-    "year": 2026,
-    "venue": "arXiv",
-    "links": {
-      "paper": "https://arxiv.org/abs/2603.01761"
-    }
-  },
-  {
-    "id": "vuzixm400",
-    "section": "sec-2-6",
-    "title": "M400 Smart Glasses",
-    "year": 2026,
-    "venue": "Vuzix",
-    "links": {
-      "website": "https://www.vuzix.com/products/m400-smart-glasses"
-    }
-  },
-  {
-    "id": "quantax2hardware",
-    "section": "sec-2-6",
-    "title": "Quanta X2 and WALL-A: Company Development Milestones",
-    "year": 2026,
-    "venue": "X Square Robot",
-    "links": {
-      "website": "https://x2robot.com/en/about"
-    }
-  },
-  {
-    "id": "ariagen2hardware2025",
-    "section": "sec-2-6",
-    "title": "Inside Aria Gen 2: Explore the Cutting-Edge Tech Behind the Device",
-    "year": 2025,
-    "venue": "Meta",
-    "links": {
-      "website": "https://ai.meta.com/blog/aria-gen-2-research-glasses-under-the-hood-reality-labs/"
-    }
-  },
-  {
-    "id": "figure032025",
-    "section": "sec-2-6",
-    "title": "Introducing Figure 03",
-    "year": 2025,
-    "venue": "Figure AI",
-    "links": {
-      "website": "https://www.figure.ai/news/introducing-figure-03"
-    }
-  },
-  {
-    "id": "galaxyxr2025",
-    "section": "sec-2-6",
-    "title": "Introducing Galaxy XR: Opening New Worlds",
-    "year": 2025,
-    "venue": "Samsung",
-    "links": {
-      "website": "https://news.samsung.com/global/introducing-galaxy-xr-opening-new-worlds"
-    }
-  },
-  {
-    "id": "rabbitr12024",
-    "section": "sec-2-6",
-    "title": "Introducing r1, a Pocket Companion That Moves AI from Words to Action",
-    "year": 2024,
-    "venue": "rabbit",
-    "links": {
-      "website": "https://www.rabbit.tech/newsroom/introducing-r1"
-    }
-  },
-  {
-    "id": "omniparser2024",
-    "section": "sec-2-6",
-    "title": "OmniParser for Pure Vision Based GUI Agent",
-    "year": 2024,
-    "venue": "arXiv",
-    "links": {
-      "paper": "https://arxiv.org/abs/2408.00203",
-      "code": "https://github.com/microsoft/omniparser"
-    }
-  },
-  {
-    "id": "screenai2024",
-    "section": "sec-2-6",
-    "title": "ScreenAI: A Vision-Language Model for UI and Infographics Understanding",
-    "year": 2024,
-    "venue": "IJCAI",
-    "links": {
-      "paper": "https://arxiv.org/abs/2402.04615",
-      "code": "https://github.com/google-research-datasets/screen_annotation"
-    }
-  },
-  {
-    "id": "seeclick2024",
-    "section": "sec-2-6",
-    "title": "SeeClick: Harnessing GUI Grounding for Advanced Visual GUI Agents",
-    "year": 2024,
-    "venue": "ACL",
-    "links": {
-      "paper": "https://arxiv.org/abs/2401.10935"
-    }
-  },
-  {
-    "id": "pix2struct2023",
-    "section": "sec-2-6",
-    "title": "Pix2Struct: Screenshot Parsing as Pretraining for Visual Language Understanding",
-    "year": 2023,
-    "venue": "ICML",
-    "links": {
-      "paper": "https://arxiv.org/abs/2210.03347"
-    }
-  },
-  {
-    "id": "semantichearing2023",
-    "section": "sec-2-6",
-    "title": "Semantic Hearing: Programming Acoustic Scenes with Binaural Hearables",
-    "year": 2023,
-    "venue": "UIST",
-    "links": {
-      "paper": "https://arxiv.org/abs/2311.00320"
-    }
-  },
-  {
-    "id": "clearbuds2022",
-    "section": "sec-2-6",
-    "title": "ClearBuds: Wireless Binaural Earbuds for Learning-Based Speech Enhancement",
-    "year": 2022,
-    "venue": "MobiSys",
-    "links": {
-      "paper": "https://doi.org/10.1145/3498361.3538933"
-    }
-  },
-  {
-    "id": "vap2022",
-    "section": "sec-2-6",
-    "title": "Voice Activity Projection: Self-supervised Learning of Turn-taking Events",
-    "year": 2022,
-    "venue": "Interspeech",
-    "links": {
-      "paper": "https://doi.org/10.21437/Interspeech.2022-10955"
-    }
-  },
-  {
-    "id": "boschbma4002018",
-    "section": "sec-2-6",
-    "title": "CES 2018: Bosch Launches BMA400 Ultra-Low Power Accelerometer",
-    "year": 2018,
-    "venue": "Bosch",
-    "links": {
-      "website": "https://www.bosch-sensortec.com/en/news/ces-2018-bosch-launches-bma400-ultra-low-power-accelerometer.html"
-    }
-  },
-  {
-    "id": "inteld435i2018",
-    "section": "sec-2-6",
-    "title": "New Intel RealSense D435i Stereo Depth Camera Adds 6 Degrees of Freedom Tracking",
-    "year": 2018,
-    "venue": "Intel",
-    "links": {
-      "website": "https://download.intel.com/newsroom/2021/archive/2018-11-13-news-new-intel-realsense-d435i-stereo-depth-camera-adds-6-degrees-freedom-tracking.pdf"
-    }
-  },
-  {
-    "id": "myers2007calo",
-    "section": "sec-2-6",
-    "title": "An Intelligent Personal Assistant for Task and Time Management",
-    "year": 2007,
-    "venue": "AI Magazine",
-    "links": {
-      "paper": "https://ojs.aaai.org/aimagazine/index.php/aimagazine/article/view/2039"
-    }
-  },
-  {
-    "id": "horvitz2004busybody",
-    "section": "sec-2-6",
-    "title": "BusyBody: Creating and Fielding Personalized Models of the Cost of Interruption",
-    "year": 2004,
-    "venue": "CSCW",
-    "links": {
-      "paper": "https://www.microsoft.com/en-us/research/publication/busybody-creating-fielding-personalized-models-cost-interruption/"
-    }
-  },
-  {
-    "id": "dumais2003sis",
-    "section": "sec-2-6",
-    "title": "Stuff I've Seen: A System for Personal Information Retrieval and Re-Use",
-    "year": 2003,
-    "venue": "SIGIR",
-    "links": {
-      "paper": "https://www.microsoft.com/en-us/research/publication/stuff-ive-seen-a-system-for-personal-information-retrieval-and-re-use/"
-    }
-  },
-  {
-    "id": "healey1998startlecam",
-    "section": "sec-2-6",
-    "title": "StartleCam: A Cybernetic Wearable Camera",
-    "year": 1998,
-    "venue": "ISWC",
-    "links": {
-      "paper": "https://vismod.media.mit.edu/pub/tech-reports/TR-468/"
-    }
-  },
-  {
-    "id": "abowd1997cyberguide",
-    "section": "sec-2-6",
-    "title": "Cyberguide: A Mobile Context-Aware Tour Guide",
-    "year": 1997,
-    "venue": "Wireless Networks",
-    "links": {
-      "paper": "https://sites.cc.gatech.edu/fce/cyberguide/index.html"
-    }
-  },
-  {
-    "id": "remembranceagent1996",
-    "section": "sec-2-6",
-    "title": "Remembrance Agent: A Continuously Running Automated Information Retrieval System",
-    "year": 1996,
-    "venue": "PAAM",
-    "links": {
-      "paper": "https://www.bradleyrhodes.com/Papers/remembrance.html"
-    }
-  },
-  {
-    "id": "bush1945memex",
-    "section": "sec-2-6",
-    "title": "As We May Think",
-    "year": 1945,
-    "venue": "The Atlantic",
-    "links": {
-      "paper": "https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/"
-    }
-  },
-  {
     "id": "russell2020aima",
     "section": "sec-3-1",
     "title": "Artificial Intelligence: A Modern Approach",
@@ -812,7 +81,7 @@
     "id": "moshi2024",
     "section": "sec-3-1-1",
     "group": "Continuous sensing",
-    "title": "Moshi: A Speech-Text Foundation Model for Real-Time Dialogue",
+    "title": "Moshi: a speech-text foundation model for real-time dialogue",
     "year": 2024,
     "venue": "arXiv",
     "links": {
@@ -910,9 +179,18 @@
     }
   },
   {
+    "id": "dailydroid2026",
+    "section": "sec-3-2",
+    "title": "Do LLMs Need to See Everything? A Benchmark and Study of Failures in LLM-driven Smartphone Automation using Screentext vs. Screenshots",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.17817"
+    }
+  },
+  {
     "id": "edgeinference2026",
     "section": "sec-3-2",
-    "group": "Can observations reach decisions in time?",
     "title": "LLM Inference at the Edge: Mobile, NPU, and GPU Performance Efficiency Trade-offs Under Sustained Load",
     "year": 2026,
     "venue": "arXiv",
@@ -921,20 +199,18 @@
     }
   },
   {
-    "id": "chen2017wearable",
+    "id": "selectivehearing2026",
     "section": "sec-3-2",
-    "group": "Can observations reach decisions in time?",
-    "title": "An Empirical Study of Latency in an Emerging Class of Edge Computing Applications for Wearable Cognitive Assistance",
-    "year": 2017,
-    "venue": "SEC",
+    "title": "Protecting Bystander Privacy via Selective Hearing in Audio LLMs",
+    "year": 2026,
+    "venue": "ACL",
     "links": {
-      "paper": "https://doi.org/10.1145/3132211.3134458"
+      "paper": "https://arxiv.org/abs/2512.06380"
     }
   },
   {
     "id": "aria2power",
     "section": "sec-3-2",
-    "group": "How long can sensing continue?",
     "title": "Full System Architecture Modeling for Wearable Egocentric Contextual AI",
     "year": 2025,
     "venue": "arXiv",
@@ -943,10 +219,19 @@
     }
   },
   {
+    "id": "bhardwaj2024infocus",
+    "section": "sec-3-2",
+    "title": "In Focus, Out of Privacy: The Wearer's Perspective on the Privacy Dilemma of Camera Glasses",
+    "year": 2024,
+    "venue": "CHI",
+    "links": {
+      "paper": "https://doi.org/10.1145/3613904.3642242"
+    }
+  },
+  {
     "id": "meltingpoint2024",
     "section": "sec-3-2",
-    "group": "How long can sensing continue?",
-    "title": "MELTing Point: Mobile Evaluation of Language Transformers",
+    "title": "MELTing point: Mobile Evaluation of Language Transformers",
     "year": 2024,
     "venue": "MobiCom",
     "links": {
@@ -957,7 +242,6 @@
   {
     "id": "ariaprofiles",
     "section": "sec-3-2",
-    "group": "How long can sensing continue?",
     "title": "Project Aria Recording Profiles",
     "year": 2024,
     "venue": "Meta",
@@ -966,31 +250,8 @@
     }
   },
   {
-    "id": "selectivehearing2026",
-    "section": "sec-3-2",
-    "group": "Whose information may be observed?",
-    "title": "Protecting Bystander Privacy via Selective Hearing in Audio LLMs",
-    "year": 2026,
-    "venue": "ACL",
-    "links": {
-      "paper": "https://arxiv.org/abs/2512.06380"
-    }
-  },
-  {
-    "id": "bhardwaj2024infocus",
-    "section": "sec-3-2",
-    "group": "Whose information may be observed?",
-    "title": "In Focus, Out of Privacy: The Wearer's Perspective on the Privacy Dilemma of Camera Glasses",
-    "year": 2024,
-    "venue": "CHI",
-    "links": {
-      "paper": "https://doi.org/10.1145/3613904.3642242"
-    }
-  },
-  {
     "id": "alshehri2022bystanders",
     "section": "sec-3-2",
-    "group": "Whose information may be observed?",
     "title": "Exploring the Privacy Concerns of Bystanders in Smart Homes from the Perspectives of Both Owners and Bystanders",
     "year": 2022,
     "venue": "PETS",
@@ -1001,8 +262,7 @@
   {
     "id": "diart2021",
     "section": "sec-3-2",
-    "group": "Whose information may be observed?",
-    "title": "Overlap-Aware Low-Latency Online Speaker Diarization Based on End-to-End Local Segmentation",
+    "title": "Overlap-aware low-latency online speaker diarization based on end-to-end local segmentation",
     "year": 2021,
     "venue": "ASRU",
     "links": {
@@ -1010,9 +270,18 @@
     }
   },
   {
+    "id": "matsuhashi2020thermal",
+    "section": "sec-3-2",
+    "title": "Thermal Model and Countermeasures for Future Smart Glasses",
+    "year": 2020,
+    "venue": "Sensors",
+    "links": {
+      "paper": "https://doi.org/10.3390/s20051446"
+    }
+  },
+  {
     "id": "malekzadeh2019mobilesensor",
     "section": "sec-3-2",
-    "group": "Whose information may be observed?",
     "title": "Mobile Sensor Data Anonymization",
     "year": 2019,
     "venue": "IoTDI",
@@ -1021,9 +290,18 @@
     }
   },
   {
+    "id": "chen2017wearable",
+    "section": "sec-3-2",
+    "title": "An Empirical Study of Latency in an Emerging Class of Edge Computing Applications for Wearable Cognitive Assistance",
+    "year": 2017,
+    "venue": "SEC",
+    "links": {
+      "paper": "https://doi.org/10.1145/3132211.3134458"
+    }
+  },
+  {
     "id": "koelle2015bystander",
     "section": "sec-3-2",
-    "group": "Whose information may be observed?",
     "title": "Don't Look at Me That Way! Understanding User Attitudes Towards Data Glasses Usage",
     "year": 2015,
     "venue": "MobileHCI",
@@ -1034,34 +312,11 @@
   {
     "id": "denning2014insitu",
     "section": "sec-3-2",
-    "group": "Whose information may be observed?",
     "title": "In Situ with Bystanders of Augmented Reality Glasses: Perspectives on Recording and Privacy-Mediating Technologies",
     "year": 2014,
     "venue": "CHI",
     "links": {
       "paper": "https://doi.org/10.1145/2556288.2557352"
-    }
-  },
-  {
-    "id": "dailydroid2026",
-    "section": "sec-3-2",
-    "group": "Why do sensing bottlenecks differ across systems?",
-    "title": "Do LLMs Need to See Everything? A Benchmark and Study of Failures in LLM-driven Smartphone Automation using Screentext vs.\\ Screenshots",
-    "year": 2026,
-    "venue": "arXiv",
-    "links": {
-      "paper": "https://arxiv.org/abs/2604.17817"
-    }
-  },
-  {
-    "id": "matsuhashi2020thermal",
-    "section": "sec-3-2",
-    "group": "Why do sensing bottlenecks differ across systems?",
-    "title": "Thermal Model and Countermeasures for Future Smart Glasses",
-    "year": 2020,
-    "venue": "Sensors",
-    "links": {
-      "paper": "https://doi.org/10.3390/s20051446"
     }
   },
   {
@@ -1108,7 +363,7 @@
   {
     "id": "streammind",
     "section": "sec-3-3-1",
-    "title": "Streammind: Unlocking full frame rate streaming video dialogue through event-gated cognition",
+    "title": "StreamMind: Unlocking Full Frame Rate Streaming Video Dialogue through Event-Gated Cognition",
     "year": 2025,
     "venue": "ICCV",
     "links": {
@@ -1273,7 +528,7 @@
   {
     "id": "mambaotr2025",
     "section": "sec-3-3-4",
-    "title": "Mamba-OTR: A Mamba-Based Solution for Online Take and Release Detection from Untrimmed Egocentric Video",
+    "title": "Mamba-OTR: a Mamba-based Solution for Online Take and Release Detection from Untrimmed Egocentric Video",
     "year": 2025,
     "venue": "ICIAP",
     "links": {
@@ -1539,7 +794,7 @@
   {
     "id": "dispider",
     "section": "sec-3-3-8",
-    "title": "Dispider: Enabling video llms with active real-time interaction via disentangled perception, decision, and reaction",
+    "title": "Dispider: Enabling Video LLMs with Active Real-Time Interaction via Disentangled Perception, Decision, and Reaction",
     "year": 2025,
     "venue": "CVPR",
     "links": {
@@ -1550,7 +805,7 @@
   {
     "id": "mirix",
     "section": "sec-3-3-8",
-    "title": "Mirix: Multi-agent memory system for llm-based agents",
+    "title": "MIRIX: Multi-Agent Memory System for LLM-Based Agents",
     "year": 2025,
     "venue": "arXiv",
     "links": {
@@ -1720,7 +975,7 @@
     "id": "egolife",
     "section": "sec-3-5-2",
     "group": "Continuous and triggered capture: coverage and cost",
-    "title": "Egolife: Towards egocentric life assistant",
+    "title": "EgoLife: Towards Egocentric Life Assistant",
     "year": 2025,
     "venue": "CVPR",
     "links": {
@@ -1933,7 +1188,7 @@
     "id": "estpbench",
     "section": "sec-3-5-2",
     "group": "Readiness and response timing",
-    "title": "Eyes wide open: Ego proactive video-llm for streaming video",
+    "title": "Eyes Wide Open: Ego Proactive Video-LLM for Streaming Video",
     "year": 2025,
     "venue": "NeurIPS",
     "links": {
@@ -2013,7 +1268,7 @@
     "id": "mem0-paper",
     "section": "sec-4-1-1",
     "group": "Profile memory: what holds now",
-    "title": "Mem0: Building production-ready ai agents with scalable long-term memory",
+    "title": "Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory",
     "year": 2025,
     "venue": "arXiv",
     "links": {
@@ -2093,7 +1348,7 @@
   {
     "id": "memos-paper",
     "section": "sec-4-1-2",
-    "title": "Memos: A memory os for ai system",
+    "title": "MemOS: A Memory OS for AI System",
     "year": 2025,
     "venue": "arXiv",
     "links": {
@@ -2128,7 +1383,7 @@
   {
     "id": "mem1",
     "section": "sec-4-3-1",
-    "title": "Mem1: Learning to synergize memory and reasoning for efficient long-horizon agents",
+    "title": "MEM1: Learning to Synergize Memory and Reasoning for Efficient Long-Horizon Agents",
     "year": 2026,
     "venue": "ICLR",
     "links": {
@@ -2138,7 +1393,7 @@
   {
     "id": "memmachine2026",
     "section": "sec-4-3-1",
-    "title": "MemMachine: A ground-truth-preserving memory system for personalized AI agents",
+    "title": "MemMachine: A Ground-Truth-Preserving Memory System for Personalized AI Agents",
     "year": 2026,
     "venue": "arXiv",
     "links": {
@@ -2181,7 +1436,7 @@
   {
     "id": "ramem2026",
     "section": "sec-4-3-2",
-    "title": "RaMem: Contextual Reinstatement for Long-Term Agentic Memory",
+    "title": "RaMem: Contextual Reinstatement for Long-term Agentic Memory",
     "year": 2026,
     "venue": "arXiv",
     "links": {
@@ -2202,7 +1457,7 @@
   {
     "id": "zep",
     "section": "sec-4-3-2",
-    "title": "Zep: a temporal knowledge graph architecture for agent memory",
+    "title": "Zep: A Temporal Knowledge Graph Architecture for Agent Memory",
     "year": 2025,
     "venue": "arXiv",
     "links": {
@@ -2432,7 +1687,7 @@
   {
     "id": "memoryr1",
     "section": "sec-4-4-3",
-    "title": "Memory-R1: Enhancing large language model agents to manage and utilize memories via reinforcement learning",
+    "title": "Memory-R1: Enhancing Large Language Model Agents to Manage and Utilize Memories via Reinforcement Learning",
     "year": 2026,
     "venue": "ACL",
     "links": {
@@ -2458,7 +1713,7 @@
   {
     "id": "reflectivemem",
     "section": "sec-4-4-3",
-    "title": "In prospect and retrospect: Reflective memory management for long-term personalized dialogue agents",
+    "title": "In Prospect and Retrospect: Reflective Memory Management for Long-term Personalized Dialogue Agents",
     "year": 2025,
     "venue": "ACL",
     "links": {
@@ -2905,7 +2160,7 @@
     "id": "proevent2026",
     "section": "sec-4-5-2",
     "group": "Prospective: holding what is pending",
-    "title": "ProEvent: An Event-Centric Benchmark for Proactive Agents",
+    "title": "ProEvent: An Event-centric Benchmark for Proactive Agents",
     "year": 2026,
     "venue": "arXiv",
     "links": {
@@ -3105,7 +2360,6 @@
   {
     "id": "nahumshani2018jitai",
     "section": "sec-5-2",
-    "group": "What does an intervention cost the user?",
     "title": "Just-in-Time Adaptive Interventions (JITAIs) in Mobile Health: Key Components and Design Principles for Ongoing Health Behavior Support",
     "year": 2018,
     "venue": "Ann. Behav. Med.",
@@ -3116,7 +2370,6 @@
   {
     "id": "iqbalbailey2008breakpoint",
     "section": "sec-5-2",
-    "group": "What does an intervention cost the user?",
     "title": "Effects of intelligent notification management on users and their tasks",
     "year": 2008,
     "venue": "CHI",
@@ -3127,7 +2380,6 @@
   {
     "id": "mcfarlane2002interruption",
     "section": "sec-5-2",
-    "group": "What does an intervention cost the user?",
     "title": "Comparison of Four Primary Methods for Coordinating the Interruption of People in Human-Computer Interaction",
     "year": 2002,
     "venue": "HCI Journal",
@@ -3240,7 +2492,7 @@
   {
     "id": "streambridge",
     "section": "sec-5-3-1",
-    "title": "Streambridge: Turning your offline video large language model into a proactive streaming assistant",
+    "title": "StreamBridge: Turning Your Offline Video Large Language Model into a Proactive Streaming Assistant",
     "year": 2025,
     "venue": "NeurIPS",
     "links": {
@@ -3335,7 +2587,7 @@
   {
     "id": "yao2023react",
     "section": "sec-5-3-2",
-    "title": "React: Synergizing reasoning and acting in language models",
+    "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
     "year": 2023,
     "venue": "ICLR",
     "links": {
@@ -3357,7 +2609,7 @@
   {
     "id": "sage2023",
     "section": "sec-5-3-3",
-    "title": "SAGE: Smart Home Agent with Grounded Execution",
+    "title": "SAGE: Smart home Agent with Grounded Execution",
     "year": 2023,
     "venue": "arXiv",
     "links": {
@@ -4079,7 +3331,7 @@
   {
     "id": "ai4service",
     "section": "sec-6-1-1",
-    "title": "Ai for service: Proactive assistance with ai glasses",
+    "title": "AI for Service: Proactive Assistance with AI Glasses",
     "year": 2025,
     "venue": "arXiv",
     "links": {
@@ -4093,7 +3345,7 @@
   {
     "id": "aiget",
     "section": "sec-6-1-1",
-    "title": "Aiget: Transforming everyday moments into hidden knowledge discovery with ai assistance on smart glasses",
+    "title": "AiGet: Transforming Everyday Moments into Hidden Knowledge Discovery with AI Assistance on Smart Glasses",
     "year": 2025,
     "venue": "CHI",
     "links": {
@@ -4132,7 +3384,7 @@
   {
     "id": "proassist2025",
     "section": "sec-6-1-1",
-    "title": "Proactive assistant dialogue generation from streaming egocentric videos",
+    "title": "Proactive Assistant Dialogue Generation from Streaming Egocentric Videos",
     "year": 2025,
     "venue": "EMNLP",
     "links": {
@@ -4161,7 +3413,7 @@
   {
     "id": "promemassist",
     "section": "sec-6-1-1",
-    "title": "Promemassist: Exploring timely proactive assistance through working memory modeling in multi-modal wearable devices",
+    "title": "ProMemAssist: Exploring Timely Proactive Assistance Through Working Memory Modeling in Multi-Modal Wearable Devices",
     "year": 2025,
     "venue": "UIST",
     "links": {
@@ -4187,7 +3439,7 @@
   {
     "id": "socialmind",
     "section": "sec-6-1-1",
-    "title": "Socialmind: Llm-based proactive ar social assistive system with human-like perception for in-situ live interactions",
+    "title": "SocialMind: LLM-based Proactive AR Social Assistive System with Human-like Perception for In-situ Live Interactions",
     "year": 2025,
     "venue": "IMWUT",
     "links": {
@@ -4211,7 +3463,7 @@
   {
     "id": "veluri2024fullduplex",
     "section": "sec-6-1-1",
-    "title": "Beyond turn-based interfaces: Synchronous llms as full-duplex dialogue agents",
+    "title": "Beyond Turn-Based Interfaces: Synchronous LLMs as Full-Duplex Dialogue Agents",
     "year": 2024,
     "venue": "EMNLP",
     "links": {
@@ -4227,6 +3479,21 @@
     "links": {
       "paper": "https://doi.org/10.18653/v1/2024.findings-emnlp.909"
     }
+  },
+  {
+    "id": "lunchnow2025",
+    "section": "sec-6-1-2",
+    "title": "\"Having Lunch Now\": Understanding How Users Engage with a Proactive Agent for Daily Planning and Self-Reflection",
+    "year": 2026,
+    "venue": "CHI",
+    "links": {
+      "paper": "https://arxiv.org/abs/2509.24073"
+    },
+    "tags": [
+      "A→S",
+      "A→M",
+      "L2"
+    ]
   },
   {
     "id": "healthclaw2026",
@@ -4495,21 +3762,6 @@
     ]
   },
   {
-    "id": "lunchnow2025",
-    "section": "sec-6-1-2",
-    "title": "“Having Lunch Now”: Understanding How Users Engage with a Proactive Agent for Daily Planning and Self-Reflection",
-    "year": 2026,
-    "venue": "CHI",
-    "links": {
-      "paper": "https://arxiv.org/abs/2509.24073"
-    },
-    "tags": [
-      "A→S",
-      "A→M",
-      "L2"
-    ]
-  },
-  {
     "id": "msrecall2024",
     "section": "sec-6-1-2",
     "title": "Update on the Recall Preview Feature for Copilot+ PCs",
@@ -4764,7 +4016,7 @@
     "id": "propersim",
     "section": "sec-6-3",
     "group": "Digital",
-    "title": "Propersim: Developing proactive and personalized ai assistants through user-assistant simulation",
+    "title": "ProPerSim: Developing Proactive and Personalized AI Assistants through User-Assistant Simulation",
     "year": 2026,
     "venue": "ICLR",
     "links": {
@@ -4794,7 +4046,7 @@
     "id": "oralytics2025",
     "section": "sec-6-3",
     "group": "Digital",
-    "title": "A Deployed Online Reinforcement Learning Algorithm in an Oral Health Clinical Trial",
+    "title": "A Deployed Online Reinforcement Learning Algorithm In An Oral Health Clinical Trial",
     "year": 2025,
     "venue": "AAAI",
     "links": {
@@ -5579,7 +4831,7 @@
     "id": "m3agent",
     "section": "sec-6-3",
     "group": "Wearable",
-    "title": "Seeing, listening, remembering, and reasoning: A multimodal agent with long-term memory",
+    "title": "Seeing, Listening, Remembering, and Reasoning: A Multimodal Agent with Long-Term Memory",
     "year": 2026,
     "venue": "ICLR",
     "links": {
@@ -5595,7 +4847,7 @@
     "id": "contextagent",
     "section": "sec-6-3",
     "group": "Wearable",
-    "title": "Contextagent: Context-aware proactive llm agents with open-world sensory perceptions",
+    "title": "ContextAgent: Context-Aware Proactive LLM Agents with Open-World Sensory Perceptions",
     "year": 2025,
     "venue": "NeurIPS",
     "links": {
@@ -5611,7 +4863,7 @@
     "id": "vinci",
     "section": "sec-6-3",
     "group": "Wearable",
-    "title": "Vinci: A real-time embodied smart assistant based on egocentric vision-language model",
+    "title": "Vinci: A Real-time Embodied Smart Assistant based on Egocentric Vision-Language Model",
     "year": 2024,
     "venue": "arXiv",
     "links": {
@@ -5854,7 +5106,7 @@
   {
     "id": "zetta2026",
     "section": "sec-6-4",
-    "title": "Zetta : An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence",
+    "title": "Zetta ζ: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence",
     "year": 2026,
     "venue": "arXiv",
     "links": {
@@ -5865,7 +5117,7 @@
   {
     "id": "alphaevolve2025",
     "section": "sec-6-4",
-    "title": "AlphaEvolve: A Coding Agent for Scientific and Algorithmic Discovery",
+    "title": "AlphaEvolve: A coding agent for scientific and algorithmic discovery",
     "year": 2025,
     "venue": "arXiv",
     "links": {
@@ -6149,6 +5401,478 @@
     "venue": "RecSys",
     "links": {
       "paper": "https://arxiv.org/abs/1710.11214"
+    }
+  },
+  {
+    "id": "chu2026agenticworldmodeling",
+    "section": "related-surveys",
+    "title": "Agentic World Modeling: Foundations, Capabilities, Laws, and Beyond",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.22748",
+      "code": "https://github.com/matrix-agent/awesome-agentic-world-modeling"
+    }
+  },
+  {
+    "id": "qin2026audiovisual",
+    "section": "related-surveys",
+    "title": "Audio-Visual Intelligence in Large Foundation Models",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.04045",
+      "code": "https://github.com/JavisVerse/Awesome-AVI"
+    }
+  },
+  {
+    "id": "ding2026combodiedagentsnewparadigm",
+    "section": "related-surveys",
+    "title": "ComBodied Agents: a New Paradigm of Human-Centric Agentic AI",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.10915"
+    }
+  },
+  {
+    "id": "zhang2026seeingactingsmartglasses",
+    "section": "related-surveys",
+    "title": "From Seeing to Acting: Smart Glasses as First-Person Intelligence Platforms",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.24877",
+      "code": "https://github.com/zhangzjn/awesome-smart-glasses"
+    }
+  },
+  {
+    "id": "personalizedagentsurvey2026",
+    "section": "related-surveys",
+    "title": "Toward Personalized LLM-Powered Agents: Foundations, Evaluation, and Future Directions",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2602.22680"
+    }
+  },
+  {
+    "id": "memoryage2025",
+    "section": "related-surveys",
+    "title": "Memory in the Age of AI Agents",
+    "year": 2025,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2512.13564",
+      "code": "https://github.com/Shichun-Liu/Agent-Memory-Paper-List"
+    }
+  },
+  {
+    "id": "durante2024agentai",
+    "section": "related-surveys",
+    "title": "Agent AI: Surveying the Horizons of Multimodal Interaction",
+    "year": 2024,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2401.03568"
+    }
+  },
+  {
+    "id": "qin2023toolsurvey",
+    "section": "related-surveys",
+    "title": "Tool Learning with Foundation Models",
+    "year": 2024,
+    "venue": "ACM CSUR",
+    "links": {
+      "paper": "https://arxiv.org/abs/2304.08354",
+      "code": "https://github.com/openbmb/bmtools"
+    }
+  },
+  {
+    "id": "deng2024humancentered",
+    "section": "related-surveys",
+    "title": "Towards Human-centered Proactive Conversational Agents",
+    "year": 2024,
+    "venue": "SIGIR",
+    "links": {
+      "paper": "https://arxiv.org/abs/2404.12670"
+    }
+  },
+  {
+    "id": "gurrin2014lifelogging",
+    "section": "related-surveys",
+    "title": "LifeLogging: Personal Big Data",
+    "year": 2014,
+    "venue": "FnTIR",
+    "links": {
+      "paper": "https://doi.org/10.1561/1500000033"
+    }
+  },
+  {
+    "id": "selfevolvingagents2025",
+    "section": "related-surveys",
+    "group": "Capability-focused surveys",
+    "title": "A Survey of Self-Evolving Agents: What, When, How, and Where to Evolve on the Path to Artificial Super Intelligence",
+    "year": 2026,
+    "venue": "TMLR",
+    "links": {
+      "paper": "https://openreview.net/forum?id=CTr3bovS5F"
+    }
+  },
+  {
+    "id": "memsecuritysurvey2026",
+    "section": "related-surveys",
+    "group": "Capability-focused surveys",
+    "title": "A Survey on Long-Term Memory Security in LLM Agents: Attacks, Defenses, and Governance Across the Memory Lifecycle",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.16548"
+    },
+    "tags": [
+      "S→M"
+    ]
+  },
+  {
+    "id": "kong2026autoresearch",
+    "section": "related-surveys",
+    "group": "Capability-focused surveys",
+    "title": "AI for Auto-Research: Roadmap and User Guide",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.18661",
+      "code": "https://github.com/worldbench/awesome-ai-auto-research"
+    }
+  },
+  {
+    "id": "egovisionsurvey2025",
+    "section": "related-surveys",
+    "group": "Capability-focused surveys",
+    "title": "Challenges and Trends in Egocentric Vision: A Survey",
+    "year": 2026,
+    "venue": "Machine Intelligence Research",
+    "links": {
+      "paper": "https://arxiv.org/abs/2503.15275"
+    }
+  },
+  {
+    "id": "dynamicskillssurvey2026",
+    "section": "related-surveys",
+    "group": "Capability-focused surveys",
+    "title": "Dynamic Agent Skills: A Lifecycle Survey and Taxonomy of Evolving Skill Libraries",
+    "year": 2026,
+    "venue": "TMLR",
+    "links": {
+      "paper": "https://arxiv.org/abs/2607.10113"
+    }
+  },
+  {
+    "id": "bian2026sensorharfm",
+    "section": "related-surveys",
+    "group": "Capability-focused surveys",
+    "title": "Foundation Models Defining A New Era In Sensor-based Human Activity Recognition: A Survey And Outlook",
+    "year": 2026,
+    "venue": "IMWUT",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.02711"
+    }
+  },
+  {
+    "id": "streamingllmsurvey2026",
+    "section": "related-surveys",
+    "group": "Capability-focused surveys",
+    "title": "From Static Inference to Dynamic Interaction: A Survey of Streaming Large Language Models",
+    "year": 2026,
+    "venue": "Findings of ACL",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.04592"
+    }
+  },
+  {
+    "id": "ren2026selfimprovements",
+    "section": "related-surveys",
+    "group": "Capability-focused surveys",
+    "title": "Self-Improvements in Modern Agentic Systems: A Survey",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2607.13104",
+      "code": "https://github.com/selfimproving-agent/awesome-Self-Improving-Agents"
+    }
+  },
+  {
+    "id": "selfevolvingsurveyfang2025",
+    "section": "related-surveys",
+    "group": "Capability-focused surveys",
+    "title": "A Comprehensive Survey of Self-Evolving AI Agents: A New Paradigm Bridging Foundation Models and Lifelong Agentic Systems",
+    "year": 2025,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2508.07407",
+      "code": "https://github.com/EvoAgentX/Awesome-Self-Evolving-Agents"
+    }
+  },
+  {
+    "id": "zhang2024memorysurvey",
+    "section": "related-surveys",
+    "group": "Capability-focused surveys",
+    "title": "A Survey on the Memory Mechanism of Large Language Model based Agents",
+    "year": 2025,
+    "venue": "ACM TOIS",
+    "links": {
+      "paper": "https://arxiv.org/abs/2404.13501",
+      "project": "https://github.com/nuster1128/LLM_Agent_Memory_Survey",
+      "code": "https://github.com/nuster1128/LLM_Agent_Memory_Survey"
+    }
+  },
+  {
+    "id": "abstentionsurvey2024",
+    "section": "related-surveys",
+    "group": "Capability-focused surveys",
+    "title": "Know Your Limits: A Survey of Abstention in Large Language Models",
+    "year": 2025,
+    "venue": "TACL",
+    "links": {
+      "paper": "https://arxiv.org/abs/2407.18418"
+    }
+  },
+  {
+    "id": "zhang2024guiagents",
+    "section": "related-surveys",
+    "group": "Capability-focused surveys",
+    "title": "Large Language Model-Brained GUI Agents: A Survey",
+    "year": 2025,
+    "venue": "TMLR",
+    "links": {
+      "paper": "https://arxiv.org/abs/2411.18279",
+      "code": "https://github.com/vyokky/LLM-Brained-GUI-Agents-Survey"
+    }
+  },
+  {
+    "id": "deng2025tois",
+    "section": "related-surveys",
+    "group": "Capability-focused surveys",
+    "title": "Proactive Conversational AI: A Comprehensive Survey of Advancements and Opportunities",
+    "year": 2025,
+    "venue": "ACM TOIS",
+    "links": {
+      "paper": "https://doi.org/10.1145/3715097"
+    }
+  },
+  {
+    "id": "wang2024agentsurvey",
+    "section": "related-surveys",
+    "group": "Capability-focused surveys",
+    "title": "A Survey on Large Language Model based Autonomous Agents",
+    "year": 2024,
+    "venue": "Front. Comput. Sci.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2308.11432",
+      "code": "https://github.com/paitesanshi/llm-agent-survey"
+    }
+  },
+  {
+    "id": "yin2023mllmsurvey",
+    "section": "related-surveys",
+    "group": "Capability-focused surveys",
+    "title": "A Survey on Multimodal Large Language Models",
+    "year": 2024,
+    "venue": "Natl. Sci. Rev.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2306.13549"
+    }
+  },
+  {
+    "id": "plizzari2024egofuture",
+    "section": "related-surveys",
+    "group": "Capability-focused surveys",
+    "title": "An Outlook into the Future of Egocentric Vision",
+    "year": 2024,
+    "venue": "IJCV",
+    "links": {
+      "paper": "https://arxiv.org/abs/2308.07123"
+    }
+  },
+  {
+    "id": "xu2024ondevicellm",
+    "section": "related-surveys",
+    "group": "Capability-focused surveys",
+    "title": "On-Device Language Models: A Comprehensive Review",
+    "year": 2024,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2409.00088"
+    }
+  },
+  {
+    "id": "deng2023proactivesurvey",
+    "section": "related-surveys",
+    "group": "Capability-focused surveys",
+    "title": "A Survey on Proactive Dialogue Systems: Problems, Methods, and Prospects",
+    "year": 2023,
+    "venue": "IJCAI",
+    "links": {
+      "paper": "https://arxiv.org/abs/2305.02750"
+    }
+  },
+  {
+    "id": "gao2023ragsurvey",
+    "section": "related-surveys",
+    "group": "Capability-focused surveys",
+    "title": "Retrieval-Augmented Generation for Large Language Models: A Survey",
+    "year": 2023,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2312.10997"
+    }
+  },
+  {
+    "id": "xi2023risesurvey",
+    "section": "related-surveys",
+    "group": "Capability-focused surveys",
+    "title": "The Rise and Potential of Large Language Model Based Agents: A Survey",
+    "year": 2023,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2309.07864",
+      "code": "https://github.com/woooodyy/llm-agent-paper-list"
+    }
+  },
+  {
+    "id": "tang2023videosurvey",
+    "section": "related-surveys",
+    "group": "Capability-focused surveys",
+    "title": "Video Understanding with Large Language Models: A Survey",
+    "year": 2023,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2312.17432",
+      "code": "https://github.com/yunlong10/awesome-llms-for-video-understanding"
+    }
+  },
+  {
+    "id": "duan2022embodiedsurvey",
+    "section": "related-surveys",
+    "group": "Capability-focused surveys",
+    "title": "A Survey of Embodied AI: From Simulators to Research Tasks",
+    "year": 2022,
+    "venue": "IEEE TETCI",
+    "links": {
+      "paper": "https://arxiv.org/abs/2103.04918"
+    }
+  },
+  {
+    "id": "yuansmartglasses2026",
+    "section": "related-surveys",
+    "group": "Concurrent system-level surveys",
+    "title": "A Survey on AI Smart Glasses for Wearable Intelligence: From Egocentric Sensing to Agentic Personalization",
+    "year": 2026,
+    "venue": "Preprints",
+    "links": {
+      "paper": "https://www.preprints.org/manuscript/202608.0648/v1"
+    }
+  },
+  {
+    "id": "alwaysonagents2026",
+    "section": "related-surveys",
+    "group": "Concurrent system-level surveys",
+    "title": "Always-On Agents: A Survey of Persistent Memory, State, and Governance in LLM Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2606.30306"
+    }
+  },
+  {
+    "id": "dong2026longhorizon",
+    "section": "related-surveys",
+    "group": "Concurrent system-level surveys",
+    "title": "Towards Long-Horizon Agents: A Survey",
+    "year": 2026,
+    "venue": "Preprints",
+    "links": {
+      "paper": "https://doi.org/10.20944/preprints202607.1328.v1"
+    }
+  },
+  {
+    "id": "vuzixm400",
+    "section": "products-devices",
+    "title": "M400 Smart Glasses",
+    "year": 2026,
+    "venue": "Vuzix",
+    "links": {
+      "website": "https://www.vuzix.com/products/m400-smart-glasses"
+    }
+  },
+  {
+    "id": "quantax2hardware",
+    "section": "products-devices",
+    "title": "Quanta X2 and WALL-A: Company Development Milestones",
+    "year": 2026,
+    "venue": "X Square Robot",
+    "links": {
+      "website": "https://x2robot.com/en/about"
+    }
+  },
+  {
+    "id": "ariagen2hardware2025",
+    "section": "products-devices",
+    "title": "Inside Aria Gen 2: Explore the Cutting-Edge Tech Behind the Device",
+    "year": 2025,
+    "venue": "Meta",
+    "links": {
+      "website": "https://ai.meta.com/blog/aria-gen-2-research-glasses-under-the-hood-reality-labs/"
+    }
+  },
+  {
+    "id": "figure032025",
+    "section": "products-devices",
+    "title": "Introducing Figure 03",
+    "year": 2025,
+    "venue": "Figure AI",
+    "links": {
+      "website": "https://www.figure.ai/news/introducing-figure-03"
+    }
+  },
+  {
+    "id": "galaxyxr2025",
+    "section": "products-devices",
+    "title": "Introducing Galaxy XR: Opening New Worlds",
+    "year": 2025,
+    "venue": "Samsung",
+    "links": {
+      "website": "https://news.samsung.com/global/introducing-galaxy-xr-opening-new-worlds"
+    }
+  },
+  {
+    "id": "rabbitr12024",
+    "section": "products-devices",
+    "title": "Introducing r1, a Pocket Companion That Moves AI from Words to Action",
+    "year": 2024,
+    "venue": "rabbit",
+    "links": {
+      "website": "https://www.rabbit.tech/newsroom/introducing-r1"
+    }
+  },
+  {
+    "id": "boschbma4002018",
+    "section": "products-devices",
+    "title": "CES 2018: Bosch Launches BMA400 Ultra-Low Power Accelerometer",
+    "year": 2018,
+    "venue": "Bosch",
+    "links": {
+      "website": "https://www.bosch-sensortec.com/en/news/ces-2018-bosch-launches-bma400-ultra-low-power-accelerometer.html"
+    }
+  },
+  {
+    "id": "inteld435i2018",
+    "section": "products-devices",
+    "title": "New Intel RealSense D435i Stereo Depth Camera Adds 6 Degrees of Freedom Tracking",
+    "year": 2018,
+    "venue": "Intel",
+    "links": {
+      "website": "https://download.intel.com/newsroom/2021/archive/2018-11-13-news-new-intel-realsense-d435i-stereo-depth-camera-adds-6-degrees-freedom-tracking.pdf"
     }
   }
 ]

@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """Validate the reading list and generate README.md (stdlib only).
 
-data/sections.json mirrors the survey's numbered sections; every entry names the section
-where the survey discusses it, and optionally a group inside that section.
+data/sections.json follows the survey's chapters and titles; every entry names the section where
+the survey discusses it, and optionally one of the survey's groupings inside that section, which
+is shown as a short tag. Each list runs from the newest work to the oldest.
 """
 
 import argparse
@@ -45,8 +46,9 @@ def load_sections():
             raise ValueError(f"section {name}: a top-level section needs an icon and a description")
         if node["level"] > 2 and by_id.get(node.get("parent"), {}).get("level") != node["level"] - 1:
             raise ValueError(f"section {name}: parent must be the enclosing section")
-        if not all(is_single_line(g) for g in node.get("groups", [])):
-            raise ValueError(f"section {name}: invalid group names")
+        groups = node.get("groups", [])
+        if not all(isinstance(g, dict) and is_single_line(g.get("name")) and is_single_line(g.get("tag")) for g in groups):
+            raise ValueError(f"section {name}: groups need a name and a tag")
         by_id[name] = node
     return sections, by_id
 
@@ -82,9 +84,9 @@ def load_entries(by_id):
                 raise ValueError(f"{name}: unknown section {entry.get('section')}")
             check_links(name, entry.get("links"))
             if filename == "research.json":
-                if entry["section"].startswith("products"):
+                if entry["section"] in ("products-list", "products-tools"):
                     raise ValueError(f"{name}: products and tools belong in products.json and tools.json")
-                if "group" in entry and entry["group"] not in node.get("groups", []):
+                if "group" in entry and entry["group"] not in [g["name"] for g in node.get("groups", [])]:
                     raise ValueError(f"{name}: group {entry['group']!r} is not listed for section {node['id']}")
                 year = entry.get("year")
                 if type(year) is not int or not 1900 <= year <= date.today().year:
@@ -132,7 +134,7 @@ def resource_links(links):
     return " ".join(f"[[{label}]({markdown_url(links[label])})]" for label in LINK_LABELS if label in links)
 
 
-def render_entry(entry):
+def render_entry(entry, group_tags):
     if "label" in entry:
         description = entry["description"]
         if len(description) > 1 and description[1].islower():
@@ -140,7 +142,8 @@ def render_entry(entry):
         return f"- **`{entry['label']}`** {md(entry['title'])}: {md(description)} {resource_links(entry['links'])}"
     title = md(entry["title"])
     title = title if title[-1] in ".?!" else title + "."
-    tags = "".join(f" `{tag}`" for tag in entry.get("tags", []))
+    tags = [group_tags[entry["group"]]] if entry.get("group") in group_tags else []
+    tags = "".join(f" `{tag}`" for tag in tags + entry.get("tags", []))
     return f"- **`{entry['venue']} {entry['year']}`** {title} {resource_links(entry['links'])}{tags}"
 
 
@@ -151,7 +154,7 @@ def order(entry):
 
 
 def heading(node):
-    return f"{node['number']} {node['title']}" if node["number"] else node["title"]
+    return node["title"]
 
 
 def build(sections, entries):
@@ -168,7 +171,7 @@ def build(sections, entries):
     works = sum(1 for e in entries if "label" not in e)
     papers = sum(1 for e in entries if "label" not in e and "paper" in e["links"])
     tops = [n for n in sections if n["level"] == 2 and count(n)]
-    toc = ["<details>", "<summary><b>Table of Contents</b></summary>", "", "- [News](#news)", "- [Overview](#overview)"]
+    toc = ["<details>", "<summary><b>Table of Contents</b></summary>", "", "- [News](#news)", "- [Overview](#overview)", "- [Foundations](#foundations)"]
     for top in tops:
         toc.append(f"- [{heading(top)}](#{top['id']}) ({count(top)})")
         toc += [f"  - [{heading(c)}](#{c['id']})" for c in children.get(top["id"], []) if count(c)]
@@ -185,14 +188,10 @@ def build(sections, entries):
             parts.append(f'---\n\n<a id="{node["id"]}"></a>\n## <img src="assets/icons/{node["icon"]}.svg" height="30" align="top" alt=""/> {heading(node)}\n\n{node["description"]}\n')
         else:
             parts.append(f'<a id="{node["id"]}"></a>\n{"#" * level} {heading(node)}\n')
-        own = direct.get(node["id"], [])
-        for group in [""] + node.get("groups", []):
-            selected = sorted((e for e in own if e.get("group", "") == group), key=order)
-            if not selected:
-                continue
-            if group:
-                parts.append(f"**{md(group)}**\n")
-            parts.extend(render_entry(e) for e in selected)
+        own = sorted(direct.get(node["id"], []), key=order)
+        if own:
+            group_tags = {g["name"]: g["tag"] for g in node.get("groups", [])}
+            parts.extend(render_entry(e, group_tags) for e in own)
             parts.append("")
         for child in children.get(node["id"], []):
             emit(child)

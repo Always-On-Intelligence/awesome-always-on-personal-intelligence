@@ -8,7 +8,7 @@ The reading list collects every work cited in the survey chapters: Introduction,
 
 ## Placement
 
-The list follows the survey's numbered sections and titles, recorded in `data/sections.json`. Each work appears once, under the section where the survey treats it most directly. The rules are in [the scope and structure notes](taxonomy.md#placement).
+The list follows the survey's module chapters and titles, recorded in `data/sections.json`. Each work appears once, under the section where the survey treats it most directly, and each list runs from the newest work to the oldest. Works cited only as background in the survey's Introduction or Foundations are left out. The rules are in [the scope and structure notes](taxonomy.md#placement).
 
 ## Metadata
 

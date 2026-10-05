@@ -35,8 +35,8 @@ Python 3.9 or newer is enough; no packages are required. Commit the data change 
 ```
 
 - `id`: unique lowercase kebab-case string.
-- `section`: the id of the survey section that discusses the work, from `data/sections.json` (for example `sec-3-3-1` for 3.3.1 Whether to Observe: Triggering and Wake-Up).
-- `group` (optional): one of the groups listed for that section, such as a paragraph of a space subsection or a group of a benchmark table.
+- `section`: the id of the survey section that discusses the work, from `data/sections.json` (for example `sec-3-3-1` for Whether to Observe: Triggering and Wake-Up).
+- `group` (optional): one of the group names listed for that section, such as a paragraph of a space subsection or a group of a benchmark table. The README shows the group's short tag.
 - `venue` and `year`: the acceptance venue and its year when the work has one; otherwise `arXiv` and the year of the first preprint. Product pages and documentation use the organization as the venue.
 - `links`: HTTPS URLs keyed by `paper`, `blog`, `docs`, `website`, `project`, `code`, or `data`. Prefer the arXiv abstract page, then the DOI or official page. Add code only from the official repository.
 - `tags` (optional): up to two channel tags (`S→A`, `S→M`, `M→A`, `A→S`, `M→S`, `A→M`), a loop-closure level (`L0` to `L5`), and `Product`.
@@ -53,7 +53,7 @@ Products and tools use the sections `products-list` and `products-tools`, and ke
 
 ## Curation principles
 
-- Place each work once, under the survey section that discusses it.
+- Place each work once, under the survey section that discusses it. Lists run from the newest work to the oldest.
 - Add a channel tag only when the work supplies or uses that channel.
 - Keep titles exact and leave out rankings, promotional wording, and affiliate links.
 - Report corrections, moved links, and discontinued products with a source.

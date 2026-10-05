@@ -30,8 +30,9 @@
 <a id="news"></a>
 ## News
 
-- **[2026/10]** Synced with the latest draft, now titled *Always-On Personal Intelligence: A Roadmap Towards Continuing, Self-Evolving Loops*: **{{WORK_COUNT}} cited works**, the revised memory policy subsections, and the new product rows of the loop-closure table.
-- **[2026/10]** The list now follows the survey's structure and terms: its section numbers and titles, and within each module, space, operating conditions, policy, coupling, and evaluation.
+- **[2026/10]** The list starts directly with the modules, without section numbers. Each list runs from the newest work to the oldest, related surveys sit near the end, and background works such as textbooks are left out.
+- **[2026/10]** Synced with the latest draft, now titled *Always-On Personal Intelligence: A Roadmap Towards Continuing, Self-Evolving Loops*: **{{WORK_COUNT}} works**, the revised memory policy subsections, and the new product rows of the loop-closure table.
+- **[2026/10]** The list follows the survey's chapters, titles, and terms: within each module, space, operating conditions, policy, coupling, and evaluation.
 - **[2026/09]** The collection became a reading list of the works cited in our survey, with code links where available.
 
 ---
@@ -39,26 +40,44 @@
 <a id="overview"></a>
 ## Overview
 
-The promise of always-on personal intelligence lies in a **continuing, self-evolving loop**. A continuing loop sustains service and preserves relevant personal state across interactions. Its two properties, **operational continuity** and **state durability**, form the foundation of always-on personal intelligence. Building on it, a **self-evolving loop** revises the assistant using its own operating experience.
+The promise of always-on personal intelligence lies in a **continuing, self-evolving loop**. It must sustain assistance between requests, retain personal context, and carry unfinished commitments forward. Self-evolution extends the continuing loop through self-revisions from operating experience.
 
 > [!IMPORTANT]
-> **The survey connects Sensing, Memory, and Action through six directed coupling channels. Shared operating conditions, such as privacy and authority, govern the modules, and an implementation of models and scaffolding realizes them.**
-
-| Channel | What it supplies | Difficulty | Covered in |
-|:--:|:--|:--:|:--:|
-| **S→A** | Current context, events, and execution state, as the situation to act on and to decide whether, when, and how to act | Basic | [§5](#sec-5) |
-| **S→M** | Sensed evidence, as new material to retain and to decide what to admit, integrate, or correct | Moderate | [§4](#sec-4) |
-| **M→A** | Retained personal state, as action content and to choose timing, effector, or commitment | Moderate | [§5](#sec-5) |
-| **A→S** | Intentions, plans, and execution state, as expected effects to check and to decide what to observe | Moderate | [§3](#sec-3) |
-| **M→S** | Retained priors, as background for interpretation and to guide sampling, attention, or compression | High | [§3](#sec-3) |
-| **A→M** | Action context, trajectories, outcomes, and feedback, as task history to retain and to decide what to integrate or correct | High | [§4](#sec-4) |
-
-The synthesis finds the thinnest support for two channels: memory guiding sensing (M→S) and action outcomes returning to memory (A→M).
-
-**How to read the list.** Sections and titles follow the survey, and each work appears once, under the section where the survey discusses it. A channel tag such as `M→S` marks a work discussed under that coupling channel. In Section 6, `L0` to `L5` give a system's level in the loop-closure table, and `Product` marks product rows.
+> **The survey connects Sensing, Memory, and Action through six directed coupling channels. These modules operate under real-world conditions, such as privacy and authority, and are realized by an implementation of models and scaffolding.**
 
 <div align="center">
 <img src="assets/roadmap.png" width="95%" alt="Overview of the roadmap: the continuing loop, the module chapters, the system-level review, and HALO"/>
 <br>
-<em><b>Figure 1.</b> Overview of the roadmap. This roadmap is organized into four parts. We first define always-on personal intelligence as a continuing loop that connects Sensing, Memory, and Action through six directed channels (Section 2). We then review each module by its space, conditions, policy, coupling, and evaluation (Sections 3 to 5). Next, we examine integrated systems, their bottlenecks, and their levels of loop closure (Section 6). Finally, we audit existing systems with HALO in read and run modes (Section 7).</em>
+<em><b>Figure 1.</b> Overview of the roadmap. We first define always-on personal intelligence as a continuing loop that connects Sensing, Memory, and Action through six directed channels. We then review each module by its space, conditions, policy, coupling, and evaluation. Next, we examine integrated systems, their bottlenecks, and their levels of loop closure. Finally, we audit existing systems with HALO in read and run modes.</em>
 </div>
+
+**How to read the list.** Sections and titles follow the survey's module chapters, and each work appears once, under the section where the survey discusses it. Each list runs from the newest work to the oldest. Tags show the survey's own groupings: what starts observation or action, which kind of memory, a benchmark group, or a system's domain. A channel tag such as `M→S` marks a work discussed under that coupling channel, `L0` to `L5` give a system's level in the loop-closure table, and `Product` marks product rows.
+
+---
+
+<a id="foundations"></a>
+## <img src="assets/icons/foundations.svg" height="30" align="top" alt=""/> Foundations
+
+A **continuing loop** sustains service and preserves relevant personal state across interactions. Its two properties, **operational continuity** and **state durability**, form the foundation of always-on personal intelligence. A **self-evolving loop** builds on it and revises the assistant using its own operating experience. Within each module, the survey distinguishes its **space**, the information and capabilities available to it, from the **local policy** that selects and uses them. Six directed **coupling channels** carry information between the modules:
+
+| Channel | What it supplies | Difficulty | Covered in |
+|:--:|:--|:--:|:--:|
+| **S→A** | Current context, events, and execution state, as the situation to act on and to decide whether, when, and how to act | Basic | [Action](#sec-5) |
+| **S→M** | Sensed evidence, as new material to retain and to decide what to admit, integrate, or correct | Moderate | [Memory](#sec-4) |
+| **M→A** | Retained personal state, as action content and to choose timing, effector, or commitment | Moderate | [Action](#sec-5) |
+| **A→S** | Intentions, plans, and execution state, as expected effects to check and to decide what to observe | Moderate | [Sensing](#sec-3) |
+| **M→S** | Retained priors, as background for interpretation and to guide sampling, attention, or compression | High | [Sensing](#sec-3) |
+| **A→M** | Action context, trajectories, outcomes, and feedback, as task history to retain and to decide what to integrate or correct | High | [Memory](#sec-4) |
+
+Systems differ in how much of the loop they close. Each level keeps the capabilities of the levels below it:
+
+| Level | A service reaches it when |
+|:--:|:--|
+| **L0** Session local | It serves within one session, without retention across interactions (the reference baseline) |
+| **L1** Retained state | Information from one interaction is still available in a separate, later interaction |
+| **L2** State-guided decision | A stored record changes a later Sensing or Action decision |
+| **L3** Unrequested action | It decides for itself whether or when to act at a step that no request starts, and waiting counts as an outcome |
+| **L4** Attributed outcomes | Outcome evidence from outside a decision is linked to that decision and used to check or correct assistance |
+| **L5** Governed revision | Its revisions persist into later runs, and the shared conditions are applied to every revision path before a revision takes effect |
+
+The synthesis finds the thinnest support for two channels: memory guiding sensing (M→S) and action outcomes returning to memory (A→M).
