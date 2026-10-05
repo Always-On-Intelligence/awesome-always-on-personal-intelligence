@@ -44,6 +44,8 @@ def load_sections():
             raise ValueError(f"section {name}: a top-level section needs an icon and a description")
         if node["level"] > 2 and by_id.get(node.get("parent"), {}).get("level") != node["level"] - 1:
             raise ValueError(f"section {name}: parent must be the enclosing section")
+        if node.get("sort", "year") not in ("year", "level"):
+            raise ValueError(f"section {name}: sort must be year or level")
         groups = node.get("groups", [])
         if not all(isinstance(g, dict) and is_single_line(g.get("name")) and is_single_line(g.get("tag")) for g in groups):
             raise ValueError(f"section {name}: groups need a name and a tag")
@@ -161,9 +163,13 @@ def render_entry(entry, group_tags):
     return f"- **`{entry['venue']} {entry['year']}`** {title} {resource_links(entry['links'])}{tags}"
 
 
-def order(entry):
+def order(entry, by_level=False):
+    """Newest first; in the systems lists, highest loop-closure level first, then newest."""
     if "label" in entry:
         return (entry["order"], entry["title"].casefold())
+    if by_level:
+        level = max((int(t[1]) for t in entry.get("tags", []) if re.fullmatch(r"L[0-5]", t)), default=-1)
+        return (-level, -entry["year"], entry["title"].casefold())
     return (-entry["year"], entry["title"].casefold())
 
 
@@ -203,7 +209,7 @@ def build(sections, entries):
             parts.append(f'---\n\n<a id="{node["id"]}"></a>\n## <img src="assets/icons/{node["icon"]}.svg" height="30" align="top" alt=""/> {heading(node)}\n\n{node["description"]}\n')
         else:
             parts.append(f'<a id="{node["id"]}"></a>\n{"#" * level} {heading(node)}\n')
-        own = sorted(direct.get(node["id"], []), key=order)
+        own = sorted(direct.get(node["id"], []), key=lambda e: order(e, node.get("sort") == "level"))
         if own:
             group_tags = {g["name"]: g["tag"] for g in node.get("groups", [])}
             parts.extend(render_entry(e, group_tags) for e in own)

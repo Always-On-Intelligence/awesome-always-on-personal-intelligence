@@ -927,6 +927,17 @@
     }
   },
   {
+    "id": "webarena2023",
+    "section": "sec-3-5-2",
+    "title": "WebArena: A Realistic Web Environment for Building Autonomous Agents",
+    "year": 2024,
+    "venue": "ICLR",
+    "links": {
+      "paper": "https://arxiv.org/abs/2307.13854",
+      "code": "https://github.com/web-arena-x/webarena"
+    }
+  },
+  {
     "id": "personalvad2020",
     "section": "sec-3-5-2",
     "title": "Personal VAD: Speaker-Conditioned Voice Activity Detection",
@@ -938,6 +949,16 @@
     "tags": [
       "M→S"
     ]
+  },
+  {
+    "id": "horvitz1999mixedinitiative",
+    "section": "sec-3-5-2",
+    "title": "Principles of mixed-initiative user interfaces",
+    "year": 1999,
+    "venue": "CHI",
+    "links": {
+      "paper": "https://www.microsoft.com/en-us/research/publication/principles-mixed-initiative-user-interfaces/"
+    }
   },
   {
     "id": "egometas2026",
@@ -2165,16 +2186,6 @@
     }
   },
   {
-    "id": "horvitz1999mixedinitiative",
-    "section": "sec-5-1",
-    "title": "Principles of mixed-initiative user interfaces",
-    "year": 1999,
-    "venue": "CHI",
-    "links": {
-      "paper": "https://www.microsoft.com/en-us/research/publication/principles-mixed-initiative-user-interfaces/"
-    }
-  },
-  {
     "id": "rulebotpp2024",
     "section": "sec-5-1-1",
     "group": "Deferred action",
@@ -2673,17 +2684,6 @@
     "links": {
       "paper": "https://arxiv.org/abs/2404.07972",
       "code": "https://github.com/xlang-ai/OSWorld"
-    }
-  },
-  {
-    "id": "webarena2023",
-    "section": "sec-5-5-2",
-    "title": "WebArena: A Realistic Web Environment for Building Autonomous Agents",
-    "year": 2024,
-    "venue": "ICLR",
-    "links": {
-      "paper": "https://arxiv.org/abs/2307.13854",
-      "code": "https://github.com/web-arena-x/webarena"
     }
   },
   {
