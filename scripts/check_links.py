@@ -21,7 +21,7 @@ class RedirectHandler(HTTPRedirectHandler):
 
 
 def check(url):
-    request = Request(url, headers={"User-Agent": "Always-On-Agent resource-link-check/1.0"})
+    request = Request(url, headers={"User-Agent": "Always-On-Intelligence resource-link-check/1.0"})
     try:
         opener = build_opener(RedirectHandler, HTTPSHandler(context=ssl.create_default_context()))
         with opener.open(request, timeout=20) as response:

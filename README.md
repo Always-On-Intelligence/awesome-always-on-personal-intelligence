@@ -11,11 +11,11 @@
 
 <p>
   <img src="https://img.shields.io/badge/Paper-Coming_Soon-355774?style=for-the-badge&logo=arxiv&logoColor=white" alt="Paper coming soon"/>
-  <a href="https://always-on-agent.github.io/"><img src="https://img.shields.io/badge/Project-Website-66816D?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Project website"/></a>
+  <a href="https://always-on-intelligence.github.io/"><img src="https://img.shields.io/badge/Project-Website-66816D?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Project website"/></a>
 </p>
 
 <p>
-  <a href="https://github.com/Always-On-Agent/awesome-always-on-personal-ai/stargazers"><img src="https://img.shields.io/github/stars/Always-On-Agent/awesome-always-on-personal-ai?style=flat-square&logo=github&color=B88465" alt="GitHub stars"/></a>
+  <a href="https://github.com/Always-On-Intelligence/awesome-always-on-personal-intelligence/stargazers"><img src="https://img.shields.io/github/stars/Always-On-Intelligence/awesome-always-on-personal-intelligence?style=flat-square&logo=github&color=B88465" alt="GitHub stars"/></a>
   <img src="https://img.shields.io/badge/Papers-464-355774?style=flat-square" alt="464 papers"/>
   <img src="https://img.shields.io/badge/Last_Update-October_2026-66816D?style=flat-square" alt="Last update October 2026"/>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-8C8C8C?style=flat-square" alt="MIT License"/></a>
@@ -1065,7 +1065,7 @@ Each research entry renders in one format:
 - Place each work once, under the survey section that discusses it.
 - Add a channel tag only when the work supplies or uses that channel.
 
-You can also [suggest a resource](https://github.com/Always-On-Agent/awesome-always-on-personal-ai/issues/new?template=resource.yml) or report a correction. [CONTRIBUTING.md](CONTRIBUTING.md) describes the data format.
+You can also [suggest a resource](https://github.com/Always-On-Intelligence/awesome-always-on-personal-intelligence/issues/new?template=resource.yml) or report a correction. [CONTRIBUTING.md](CONTRIBUTING.md) describes the data format.
 
 ---
 
@@ -1073,7 +1073,7 @@ You can also [suggest a resource](https://github.com/Always-On-Agent/awesome-alw
 
 <div align="center">
 
-[![Star History Chart](https://api.star-history.com/svg?repos=Always-On-Agent/awesome-always-on-personal-ai&type=Date)](https://star-history.com/#Always-On-Agent/awesome-always-on-personal-ai&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=Always-On-Intelligence/awesome-always-on-personal-intelligence&type=Date)](https://star-history.com/#Always-On-Intelligence/awesome-always-on-personal-intelligence&Date)
 
 </div>
 
@@ -1096,6 +1096,6 @@ The paper will be released soon. Until then, please cite it as it currently appe
   author = {{Anonymous Author(s)}},
   year   = {2026},
   note   = {Paper coming soon},
-  url    = {https://github.com/Always-On-Agent/awesome-always-on-personal-ai}
+  url    = {https://github.com/Always-On-Intelligence/awesome-always-on-personal-intelligence}
 }
 ```

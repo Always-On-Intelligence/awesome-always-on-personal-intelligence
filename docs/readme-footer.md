@@ -20,7 +20,7 @@ Each research entry renders in one format:
 - Place each work once, under the survey section that discusses it.
 - Add a channel tag only when the work supplies or uses that channel.
 
-You can also [suggest a resource](https://github.com/Always-On-Agent/awesome-always-on-personal-ai/issues/new?template=resource.yml) or report a correction. [CONTRIBUTING.md](CONTRIBUTING.md) describes the data format.
+You can also [suggest a resource](https://github.com/Always-On-Intelligence/awesome-always-on-personal-intelligence/issues/new?template=resource.yml) or report a correction. [CONTRIBUTING.md](CONTRIBUTING.md) describes the data format.
 
 ---
 
@@ -28,7 +28,7 @@ You can also [suggest a resource](https://github.com/Always-On-Agent/awesome-alw
 
 <div align="center">
 
-[![Star History Chart](https://api.star-history.com/svg?repos=Always-On-Agent/awesome-always-on-personal-ai&type=Date)](https://star-history.com/#Always-On-Agent/awesome-always-on-personal-ai&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=Always-On-Intelligence/awesome-always-on-personal-intelligence&type=Date)](https://star-history.com/#Always-On-Intelligence/awesome-always-on-personal-intelligence&Date)
 
 </div>
 
@@ -51,6 +51,6 @@ The paper will be released soon. Until then, please cite it as it currently appe
   author = {{Anonymous Author(s)}},
   year   = {2026},
   note   = {Paper coming soon},
-  url    = {https://github.com/Always-On-Agent/awesome-always-on-personal-ai}
+  url    = {https://github.com/Always-On-Intelligence/awesome-always-on-personal-intelligence}
 }
 ```
