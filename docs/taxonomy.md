@@ -1,10 +1,10 @@
 # Scope and structure
 
-This reading list accompanies *Always-On Personal AI: A Roadmap Towards Continuing, Self-Evolving Loops*. It collects the works cited in the survey and arranges them by the survey's own sections, numbers, and titles.
+This reading list accompanies *Always-On Personal Intelligence: A Roadmap Towards Continuing, Self-Evolving Loops*. It collects the works cited in the survey and arranges them by the survey's own sections, numbers, and titles.
 
 ## Scope
 
-A continuing loop sustains service and preserves relevant personal state across interactions. Its two properties, operational continuity and state durability, form the foundation of always-on personal AI. A self-evolving loop extends it by revising the assistant using its own operating experience. Scheduled and event-driven operation qualify; continuous recording or model execution is not required.
+A continuing loop sustains service and preserves relevant personal state across interactions. Its two properties, operational continuity and state durability, form the foundation of always-on personal intelligence. A self-evolving loop extends it by revising the assistant using its own operating experience. Scheduled and event-driven operation qualify; continuous recording or model execution is not required.
 
 The list includes component methods, benchmarks, and partial systems when the survey uses them as methods or evidence. Inclusion does not mean that a work meets the full always-on definition.
 

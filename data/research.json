@@ -221,7 +221,7 @@
   {
     "id": "zhang2024memorysurvey",
     "section": "sec-1-1",
-    "title": "A Survey on the Memory Mechanism of Large Language Model based Agents",
+    "title": "A Survey on the Memory Mechanism of Large Language Model Based Agents",
     "year": 2025,
     "venue": "ACM TOIS",
     "links": {
@@ -252,6 +252,17 @@
     }
   },
   {
+    "id": "memoryage2025",
+    "section": "sec-1-1",
+    "title": "Memory in the Age of AI Agents",
+    "year": 2025,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2512.13564",
+      "code": "https://github.com/Shichun-Liu/Agent-Memory-Paper-List"
+    }
+  },
+  {
     "id": "deng2025tois",
     "section": "sec-1-1",
     "title": "Proactive Conversational AI: A Comprehensive Survey of Advancements and Opportunities",
@@ -264,7 +275,7 @@
   {
     "id": "wang2024agentsurvey",
     "section": "sec-1-1",
-    "title": "A Survey on Large Language Model based Autonomous Agents",
+    "title": "A Survey on Large Language Model Based Autonomous Agents",
     "year": 2024,
     "venue": "Front. Comput. Sci.",
     "links": {
@@ -397,7 +408,7 @@
   },
   {
     "id": "sharma2022autonomousrl",
-    "section": "sec-2-1",
+    "section": "sec-2-1-1",
     "title": "Autonomous Reinforcement Learning: Formalism and Benchmarking",
     "year": 2022,
     "venue": "ICLR",
@@ -407,7 +418,7 @@
   },
   {
     "id": "liao2022average",
-    "section": "sec-2-1",
+    "section": "sec-2-1-1",
     "title": "Batch Policy Learning in Average Reward Markov Decision Processes",
     "year": 2022,
     "venue": "Ann. Stat.",
@@ -417,7 +428,7 @@
   },
   {
     "id": "sutton2018rl",
-    "section": "sec-2-1",
+    "section": "sec-2-1-1",
     "title": "Reinforcement Learning: An Introduction",
     "year": 2018,
     "venue": "Book",
@@ -752,6 +763,17 @@
     }
   },
   {
+    "id": "ariagen1hardware",
+    "section": "sec-3-1-1",
+    "group": "Continuous sensing",
+    "title": "Hardware Specifications: Aria Gen 1",
+    "year": 2026,
+    "venue": "Meta",
+    "links": {
+      "website": "https://facebookresearch.github.io/projectaria_tools/docs/tech_spec/hardware_spec"
+    }
+  },
+  {
     "id": "magevl2026",
     "section": "sec-3-1-1",
     "group": "Continuous sensing",
@@ -775,17 +797,6 @@
     }
   },
   {
-    "id": "liu2025egocentric",
-    "section": "sec-3-1-1",
-    "group": "Continuous sensing",
-    "title": "Egocentric perception and memory: from embodied understanding to a lifelong assistant",
-    "year": 2025,
-    "venue": "PhD Thesis",
-    "links": {
-      "paper": "https://doi.org/10.32657/10356/205210"
-    }
-  },
-  {
     "id": "chainstream2024",
     "section": "sec-3-1-1",
     "group": "Continuous sensing",
@@ -801,27 +812,13 @@
     "id": "moshi2024",
     "section": "sec-3-1-1",
     "group": "Continuous sensing",
-    "title": "Moshi: a speech-text foundation model for real-time dialogue",
+    "title": "Moshi: A Speech-Text Foundation Model for Real-Time Dialogue",
     "year": 2024,
     "venue": "arXiv",
     "links": {
       "paper": "https://arxiv.org/abs/2410.00037",
       "code": "https://github.com/kyutai-labs/moshi"
     }
-  },
-  {
-    "id": "personalvad2020",
-    "section": "sec-3-1-1",
-    "group": "Continuous sensing",
-    "title": "Personal VAD: Speaker-Conditioned Voice Activity Detection",
-    "year": 2020,
-    "venue": "Odyssey",
-    "links": {
-      "paper": "https://arxiv.org/abs/1908.04284"
-    },
-    "tags": [
-      "M→S"
-    ]
   },
   {
     "id": "vocell2020",
@@ -935,17 +932,6 @@
     }
   },
   {
-    "id": "ariagen1hardware",
-    "section": "sec-3-2",
-    "group": "How long can sensing continue?",
-    "title": "Hardware Specifications: Aria Gen 1",
-    "year": 2026,
-    "venue": "Meta",
-    "links": {
-      "website": "https://facebookresearch.github.io/projectaria_tools/docs/tech_spec/hardware_spec"
-    }
-  },
-  {
     "id": "aria2power",
     "section": "sec-3-2",
     "group": "How long can sensing continue?",
@@ -960,7 +946,7 @@
     "id": "meltingpoint2024",
     "section": "sec-3-2",
     "group": "How long can sensing continue?",
-    "title": "MELTing point: Mobile Evaluation of Language Transformers",
+    "title": "MELTing Point: Mobile Evaluation of Language Transformers",
     "year": 2024,
     "venue": "MobiCom",
     "links": {
@@ -1016,7 +1002,7 @@
     "id": "diart2021",
     "section": "sec-3-2",
     "group": "Whose information may be observed?",
-    "title": "Overlap-aware low-latency online speaker diarization based on end-to-end local segmentation",
+    "title": "Overlap-Aware Low-Latency Online Speaker Diarization Based on End-to-End Local Segmentation",
     "year": 2021,
     "venue": "ASRU",
     "links": {
@@ -1060,7 +1046,7 @@
     "id": "dailydroid2026",
     "section": "sec-3-2",
     "group": "Why do sensing bottlenecks differ across systems?",
-    "title": "Do LLMs Need to See Everything? A Benchmark and Study of Failures in LLM-driven Smartphone Automation using Screentext vs. Screenshots",
+    "title": "Do LLMs Need to See Everything? A Benchmark and Study of Failures in LLM-driven Smartphone Automation using Screentext vs.\\ Screenshots",
     "year": 2026,
     "venue": "arXiv",
     "links": {
@@ -1122,7 +1108,7 @@
   {
     "id": "streammind",
     "section": "sec-3-3-1",
-    "title": "StreamMind: Unlocking Full Frame Rate Streaming Video Dialogue through Event-Gated Cognition",
+    "title": "Streammind: Unlocking full frame rate streaming video dialogue through event-gated cognition",
     "year": 2025,
     "venue": "ICCV",
     "links": {
@@ -1287,7 +1273,7 @@
   {
     "id": "mambaotr2025",
     "section": "sec-3-3-4",
-    "title": "Mamba-OTR: a Mamba-based Solution for Online Take and Release Detection from Untrimmed Egocentric Video",
+    "title": "Mamba-OTR: A Mamba-Based Solution for Online Take and Release Detection from Untrimmed Egocentric Video",
     "year": 2025,
     "venue": "ICIAP",
     "links": {
@@ -1553,7 +1539,7 @@
   {
     "id": "dispider",
     "section": "sec-3-3-8",
-    "title": "Dispider: Enabling Video LLMs with Active Real-Time Interaction via Disentangled Perception, Decision, and Reaction",
+    "title": "Dispider: Enabling video llms with active real-time interaction via disentangled perception, decision, and reaction",
     "year": 2025,
     "venue": "CVPR",
     "links": {
@@ -1564,7 +1550,7 @@
   {
     "id": "mirix",
     "section": "sec-3-3-8",
-    "title": "MIRIX: Multi-Agent Memory System for LLM-Based Agents",
+    "title": "Mirix: Multi-agent memory system for llm-based agents",
     "year": 2025,
     "venue": "arXiv",
     "links": {
@@ -1677,13 +1663,13 @@
     }
   },
   {
-    "id": "guidebench2026",
+    "id": "egocross2026",
     "section": "sec-3-5-2",
-    "title": "GUIDE: A Benchmark for Understanding and Assisting Users in Open-Ended GUI Tasks",
+    "title": "EgoCross: Benchmarking Multimodal Large Language Models for Cross-Domain Egocentric Video Question Answering",
     "year": 2026,
-    "venue": "CVPR",
+    "venue": "AAAI",
     "links": {
-      "paper": "https://arxiv.org/abs/2603.25864"
+      "paper": "https://doi.org/10.1609/aaai.v40i8.37589"
     }
   },
   {
@@ -1707,6 +1693,19 @@
     }
   },
   {
+    "id": "personalvad2020",
+    "section": "sec-3-5-2",
+    "title": "Personal VAD: Speaker-Conditioned Voice Activity Detection",
+    "year": 2020,
+    "venue": "Odyssey",
+    "links": {
+      "paper": "https://arxiv.org/abs/1908.04284"
+    },
+    "tags": [
+      "M→S"
+    ]
+  },
+  {
     "id": "egometas2026",
     "section": "sec-3-5-2",
     "group": "Continuous and triggered capture: coverage and cost",
@@ -1721,7 +1720,7 @@
     "id": "egolife",
     "section": "sec-3-5-2",
     "group": "Continuous and triggered capture: coverage and cost",
-    "title": "EgoLife: Towards Egocentric Life Assistant",
+    "title": "Egolife: Towards egocentric life assistant",
     "year": 2025,
     "venue": "CVPR",
     "links": {
@@ -1797,6 +1796,28 @@
     }
   },
   {
+    "id": "egonight2026",
+    "section": "sec-3-5-2",
+    "group": "Perception baselines: supplied input",
+    "title": "EgoNight: Towards Egocentric Vision Understanding at Night with a Challenging Benchmark",
+    "year": 2026,
+    "venue": "ICLR",
+    "links": {
+      "paper": "https://arxiv.org/abs/2510.06218"
+    }
+  },
+  {
+    "id": "egosound2026",
+    "section": "sec-3-5-2",
+    "group": "Perception baselines: supplied input",
+    "title": "EgoSound: Benchmarking Sound Understanding in Egocentric Videos",
+    "year": 2026,
+    "venue": "CVPR",
+    "links": {
+      "paper": "https://arxiv.org/abs/2602.14122"
+    }
+  },
+  {
     "id": "webpii2026",
     "section": "sec-3-5-2",
     "group": "Perception baselines: supplied input",
@@ -1831,18 +1852,6 @@
     }
   },
   {
-    "id": "egoexo4d2024",
-    "section": "sec-3-5-2",
-    "group": "Perception baselines: supplied input",
-    "title": "Ego-Exo4D: Understanding Skilled Human Activity from First- and Third-Person Perspectives",
-    "year": 2024,
-    "venue": "CVPR",
-    "links": {
-      "paper": "https://arxiv.org/abs/2311.18259",
-      "data": "https://ego-exo4d-data.org/"
-    }
-  },
-  {
     "id": "ego4d2022",
     "section": "sec-3-5-2",
     "group": "Perception baselines: supplied input",
@@ -1863,17 +1872,6 @@
     "venue": "ICCV",
     "links": {
       "paper": "https://arxiv.org/abs/2101.10511"
-    }
-  },
-  {
-    "id": "warden2018speechcommands",
-    "section": "sec-3-5-2",
-    "group": "Perception baselines: supplied input",
-    "title": "Speech Commands: A Dataset for Limited-Vocabulary Speech Recognition",
-    "year": 2018,
-    "venue": "arXiv",
-    "links": {
-      "paper": "https://arxiv.org/abs/1804.03209"
     }
   },
   {
@@ -1935,7 +1933,7 @@
     "id": "estpbench",
     "section": "sec-3-5-2",
     "group": "Readiness and response timing",
-    "title": "Eyes Wide Open: Ego Proactive Video-LLM for Streaming Video",
+    "title": "Eyes wide open: Ego proactive video-llm for streaming video",
     "year": 2025,
     "venue": "NeurIPS",
     "links": {
@@ -2000,59 +1998,6 @@
     }
   },
   {
-    "id": "physmem",
-    "section": "sec-4-1-1",
-    "title": "PhysMem: Scaling Test-Time Memory for Embodied Physical Reasoning",
-    "year": 2026,
-    "venue": "arXiv",
-    "links": {
-      "paper": "https://arxiv.org/abs/2602.20323"
-    }
-  },
-  {
-    "id": "agentworkflowmemory2024",
-    "section": "sec-4-1-1",
-    "title": "Agent Workflow Memory",
-    "year": 2025,
-    "venue": "ICML",
-    "links": {
-      "paper": "https://arxiv.org/abs/2409.07429",
-      "code": "https://github.com/zorazrw/agent-workflow-memory"
-    }
-  },
-  {
-    "id": "memoryage2025",
-    "section": "sec-4-1-1",
-    "title": "Memory in the Age of AI Agents",
-    "year": 2025,
-    "venue": "arXiv",
-    "links": {
-      "paper": "https://arxiv.org/abs/2512.13564",
-      "code": "https://github.com/Shichun-Liu/Agent-Memory-Paper-List"
-    }
-  },
-  {
-    "id": "voyager2023",
-    "section": "sec-4-1-1",
-    "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
-    "year": 2024,
-    "venue": "TMLR",
-    "links": {
-      "paper": "https://arxiv.org/abs/2305.16291",
-      "code": "https://github.com/MineDojo/Voyager"
-    }
-  },
-  {
-    "id": "tulving1972episodic",
-    "section": "sec-4-1-1",
-    "title": "Episodic and Semantic Memory",
-    "year": 1972,
-    "venue": "Book chapter",
-    "links": {
-      "paper": "https://archive.org/details/organizationofme0000unse_j3u4"
-    }
-  },
-  {
     "id": "personavlm2026",
     "section": "sec-4-1-1",
     "group": "Profile memory: what holds now",
@@ -2068,7 +2013,7 @@
     "id": "mem0-paper",
     "section": "sec-4-1-1",
     "group": "Profile memory: what holds now",
-    "title": "Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory",
+    "title": "Mem0: Building production-ready ai agents with scalable long-term memory",
     "year": 2025,
     "venue": "arXiv",
     "links": {
@@ -2094,9 +2039,9 @@
     "group": "Prospective memory: what is pending",
     "title": "Omi Help Center: First Steps",
     "year": 2026,
-    "venue": "Based Hardware",
+    "venue": "Product help page",
     "links": {
-      "website": "https://help.omi.me/en/articles/13135362-first-steps"
+      "paper": "https://help.omi.me/en/articles/13135362-first-steps"
     },
     "tags": [
       "S→M"
@@ -2148,12 +2093,23 @@
   {
     "id": "memos-paper",
     "section": "sec-4-1-2",
-    "title": "MemOS: A Memory OS for AI System",
+    "title": "Memos: A memory os for ai system",
     "year": 2025,
     "venue": "arXiv",
     "links": {
       "paper": "https://arxiv.org/abs/2507.03724",
       "code": "https://github.com/MemTensor/MemOS"
+    }
+  },
+  {
+    "id": "voyager2023",
+    "section": "sec-4-1-2",
+    "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+    "year": 2024,
+    "venue": "TMLR",
+    "links": {
+      "paper": "https://arxiv.org/abs/2305.16291",
+      "code": "https://github.com/MineDojo/Voyager"
     }
   },
   {
@@ -2171,8 +2127,8 @@
   },
   {
     "id": "mem1",
-    "section": "sec-4-3-2",
-    "title": "MEM1: Learning to Synergize Memory and Reasoning for Efficient Long-Horizon Agents",
+    "section": "sec-4-3-1",
+    "title": "Mem1: Learning to synergize memory and reasoning for efficient long-horizon agents",
     "year": 2026,
     "venue": "ICLR",
     "links": {
@@ -2181,8 +2137,8 @@
   },
   {
     "id": "memmachine2026",
-    "section": "sec-4-3-2",
-    "title": "MemMachine: A Ground-Truth-Preserving Memory System for Personalized AI Agents",
+    "section": "sec-4-3-1",
+    "title": "MemMachine: A ground-truth-preserving memory system for personalized AI agents",
     "year": 2026,
     "venue": "arXiv",
     "links": {
@@ -2191,7 +2147,7 @@
   },
   {
     "id": "generativeagents2023",
-    "section": "sec-4-3-2",
+    "section": "sec-4-3-1",
     "title": "Generative Agents: Interactive Simulacra of Human Behavior",
     "year": 2023,
     "venue": "UIST",
@@ -2201,7 +2157,7 @@
   },
   {
     "id": "mosaicmemory2026",
-    "section": "sec-4-3-3",
+    "section": "sec-4-3-2",
     "title": "Accurate and Efficient Long-Term Memory for LLM Agents",
     "year": 2026,
     "venue": "arXiv",
@@ -2211,7 +2167,7 @@
   },
   {
     "id": "infinimemory2026",
-    "section": "sec-4-3-3",
+    "section": "sec-4-3-2",
     "title": "Infini Memory: Maintainable Topic Documents for Long-Term LLM Agent Memory",
     "year": 2026,
     "venue": "arXiv",
@@ -2224,8 +2180,8 @@
   },
   {
     "id": "ramem2026",
-    "section": "sec-4-3-3",
-    "title": "RaMem: Contextual Reinstatement for Long-term Agentic Memory",
+    "section": "sec-4-3-2",
+    "title": "RaMem: Contextual Reinstatement for Long-Term Agentic Memory",
     "year": 2026,
     "venue": "arXiv",
     "links": {
@@ -2234,7 +2190,7 @@
   },
   {
     "id": "amem2025",
-    "section": "sec-4-3-3",
+    "section": "sec-4-3-2",
     "title": "A-MEM: Agentic Memory for LLM Agents",
     "year": 2025,
     "venue": "NeurIPS",
@@ -2245,8 +2201,8 @@
   },
   {
     "id": "zep",
-    "section": "sec-4-3-3",
-    "title": "Zep: A Temporal Knowledge Graph Architecture for Agent Memory",
+    "section": "sec-4-3-2",
+    "title": "Zep: a temporal knowledge graph architecture for agent memory",
     "year": 2025,
     "venue": "arXiv",
     "links": {
@@ -2256,7 +2212,7 @@
   },
   {
     "id": "steem2026",
-    "section": "sec-4-3-4",
+    "section": "sec-4-3-3",
     "title": "Controllable Memory Usage: Balancing Anchoring and Innovation in Long-Term Human-Agent Interaction",
     "year": 2026,
     "venue": "ACL",
@@ -2269,7 +2225,7 @@
   },
   {
     "id": "opbench2026",
-    "section": "sec-4-3-4",
+    "section": "sec-4-3-3",
     "title": "OP-Bench: Benchmarking Over-Personalization for Memory-Augmented Personalized Conversational Agents",
     "year": 2026,
     "venue": "arXiv",
@@ -2282,7 +2238,7 @@
   },
   {
     "id": "openclawheartbeat2026",
-    "section": "sec-4-3-4",
+    "section": "sec-4-3-3",
     "title": "OpenClaw Documentation: Heartbeat",
     "year": 2026,
     "venue": "OpenClaw",
@@ -2292,7 +2248,7 @@
   },
   {
     "id": "expweaver2026",
-    "section": "sec-4-3-4",
+    "section": "sec-4-3-3",
     "title": "Rethinking Experience Utilization in Self-Evolving Language Model Agents",
     "year": 2026,
     "venue": "arXiv",
@@ -2302,7 +2258,7 @@
   },
   {
     "id": "compliancetrap2026",
-    "section": "sec-4-3-4",
+    "section": "sec-4-3-3",
     "title": "The Compliance Trap: Diagnosing How AI Agents Consume Conflicting Memory",
     "year": 2026,
     "venue": "arXiv",
@@ -2312,7 +2268,7 @@
   },
   {
     "id": "voicemem2026",
-    "section": "sec-4-3-4",
+    "section": "sec-4-3-3",
     "title": "VoiceMem: Streaming Dual-Brain Memory for Real-Time Interaction",
     "year": 2026,
     "venue": "arXiv",
@@ -2323,7 +2279,7 @@
   },
   {
     "id": "gam2025",
-    "section": "sec-4-3-4",
+    "section": "sec-4-3-3",
     "title": "General Agentic Memory Via Deep Research",
     "year": 2025,
     "venue": "arXiv",
@@ -2334,7 +2290,7 @@
   },
   {
     "id": "autodreamer2026",
-    "section": "sec-4-3-5",
+    "section": "sec-4-3-4",
     "title": "Auto-Dreamer: Learning Offline Memory Consolidation for Language Agents",
     "year": 2026,
     "venue": "arXiv",
@@ -2344,7 +2300,7 @@
   },
   {
     "id": "openaidreaming2026",
-    "section": "sec-4-3-5",
+    "section": "sec-4-3-4",
     "title": "Dreaming: Better Memory for a More Helpful ChatGPT",
     "year": 2026,
     "venue": "OpenAI",
@@ -2354,7 +2310,7 @@
   },
   {
     "id": "lightmem2025",
-    "section": "sec-4-3-5",
+    "section": "sec-4-3-4",
     "title": "LightMem: Lightweight and Efficient Memory-Augmented Generation",
     "year": 2026,
     "venue": "ICLR",
@@ -2365,7 +2321,7 @@
   },
   {
     "id": "dcpm2026",
-    "section": "sec-4-3-5",
+    "section": "sec-4-3-4",
     "title": "Memory Beyond Recall: A Dual-Process Cognitive Memory System for Self-Evolving LLM Agents",
     "year": 2026,
     "venue": "arXiv",
@@ -2375,7 +2331,7 @@
   },
   {
     "id": "memq2026",
-    "section": "sec-4-3-5",
+    "section": "sec-4-3-4",
     "title": "MemQ: Integrating Q-Learning into Self-Evolving Memory Agents over Provenance DAGs",
     "year": 2026,
     "venue": "arXiv",
@@ -2388,8 +2344,18 @@
     ]
   },
   {
+    "id": "physmem",
+    "section": "sec-4-3-4",
+    "title": "PhysMem: Scaling Test-Time Memory for Embodied Physical Reasoning",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2602.20323"
+    }
+  },
+  {
     "id": "faultymemories2026",
-    "section": "sec-4-3-5",
+    "section": "sec-4-3-4",
     "title": "Useful Memories Become Faulty When Continuously Updated by LLMs",
     "year": 2026,
     "venue": "arXiv",
@@ -2398,8 +2364,19 @@
     }
   },
   {
+    "id": "agentworkflowmemory2024",
+    "section": "sec-4-3-4",
+    "title": "Agent Workflow Memory",
+    "year": 2025,
+    "venue": "ICML",
+    "links": {
+      "paper": "https://arxiv.org/abs/2409.07429",
+      "code": "https://github.com/zorazrw/agent-workflow-memory"
+    }
+  },
+  {
     "id": "mobileagente2025",
-    "section": "sec-4-3-5",
+    "section": "sec-4-3-4",
     "title": "Mobile-Agent-E: Self-Evolving Mobile Assistant for Complex Tasks",
     "year": 2025,
     "venue": "arXiv",
@@ -2412,7 +2389,7 @@
   },
   {
     "id": "sleeptime2025",
-    "section": "sec-4-3-5",
+    "section": "sec-4-3-4",
     "title": "Sleep-time Compute: Beyond Inference Scaling at Test-time",
     "year": 2025,
     "venue": "arXiv",
@@ -2423,7 +2400,7 @@
   },
   {
     "id": "pando2026",
-    "section": "sec-4-3-7",
+    "section": "sec-4-3-5",
     "title": "PANDO: Efficient Multimodal AI Agents via Online Skill Distillation",
     "year": 2026,
     "venue": "arXiv",
@@ -2433,7 +2410,7 @@
   },
   {
     "id": "gapchat2023",
-    "section": "sec-4-3-7",
+    "section": "sec-4-3-5",
     "title": "Mind the Gap Between Conversations for Improved Long-Term Dialogue Generation",
     "year": 2023,
     "venue": "Findings of EMNLP",
@@ -2443,7 +2420,7 @@
   },
   {
     "id": "memskill2026",
-    "section": "sec-4-3-8",
+    "section": "sec-4-3-6",
     "title": "MemSkill: Learning and Evolving Memory Skills for Self-Evolving Agents",
     "year": 2026,
     "venue": "arXiv",
@@ -2455,7 +2432,7 @@
   {
     "id": "memoryr1",
     "section": "sec-4-4-3",
-    "title": "Memory-R1: Enhancing Large Language Model Agents to Manage and Utilize Memories via Reinforcement Learning",
+    "title": "Memory-R1: Enhancing large language model agents to manage and utilize memories via reinforcement learning",
     "year": 2026,
     "venue": "ACL",
     "links": {
@@ -2481,7 +2458,7 @@
   {
     "id": "reflectivemem",
     "section": "sec-4-4-3",
-    "title": "In Prospect and Retrospect: Reflective Memory Management for Long-term Personalized Dialogue Agents",
+    "title": "In prospect and retrospect: Reflective memory management for long-term personalized dialogue agents",
     "year": 2025,
     "venue": "ACL",
     "links": {
@@ -2510,6 +2487,16 @@
     "links": {
       "paper": "https://arxiv.org/abs/2606.24775",
       "code": "https://github.com/OpenDataBox/MemoryData"
+    }
+  },
+  {
+    "id": "capabilityerosion2026",
+    "section": "sec-4-5-2",
+    "title": "Do Self-Evolving Agents Forget? Capability Degradation and Preservation in Lifelong LLM Agent Adaptation",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.09315"
     }
   },
   {
@@ -2601,6 +2588,26 @@
     "links": {
       "paper": "https://arxiv.org/abs/2605.27141",
       "code": "https://github.com/meituan-longcat/vitabench-2.0"
+    }
+  },
+  {
+    "id": "stalerepair2026",
+    "section": "sec-4-5-2",
+    "title": "When Memory Updates but Behavior Does Not: Repairing Implicit Stale Dependencies in Personalized Agent Responses",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.01619"
+    }
+  },
+  {
+    "id": "statepoisoning2026",
+    "section": "sec-4-5-2",
+    "title": "When Routine Chats Turn Toxic: Unintended Long-Term State Poisoning in Personalized Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.06731"
     }
   },
   {
@@ -2898,7 +2905,7 @@
     "id": "proevent2026",
     "section": "sec-4-5-2",
     "group": "Prospective: holding what is pending",
-    "title": "ProEvent: An Event-centric Benchmark for Proactive Agents",
+    "title": "ProEvent: An Event-Centric Benchmark for Proactive Agents",
     "year": 2026,
     "venue": "arXiv",
     "links": {
@@ -2980,36 +2987,6 @@
     }
   },
   {
-    "id": "capabilityerosion2026",
-    "section": "sec-4-5-3",
-    "title": "Do Self-Evolving Agents Forget? Capability Degradation and Preservation in Lifelong LLM Agent Adaptation",
-    "year": 2026,
-    "venue": "arXiv",
-    "links": {
-      "paper": "https://arxiv.org/abs/2605.09315"
-    }
-  },
-  {
-    "id": "stalerepair2026",
-    "section": "sec-4-5-3",
-    "title": "When Memory Updates but Behavior Does Not: Repairing Implicit Stale Dependencies in Personalized Agent Responses",
-    "year": 2026,
-    "venue": "arXiv",
-    "links": {
-      "paper": "https://arxiv.org/abs/2608.01619"
-    }
-  },
-  {
-    "id": "statepoisoning2026",
-    "section": "sec-4-5-3",
-    "title": "When Routine Chats Turn Toxic: Unintended Long-Term State Poisoning in Personalized Agents",
-    "year": 2026,
-    "venue": "arXiv",
-    "links": {
-      "paper": "https://arxiv.org/abs/2605.06731"
-    }
-  },
-  {
     "id": "horvitz1999mixedinitiative",
     "section": "sec-5-1",
     "title": "Principles of mixed-initiative user interfaces",
@@ -3036,9 +3013,9 @@
     "group": "Deferred action",
     "title": "Schedule Recurring Tasks in Claude Cowork",
     "year": 2026,
-    "venue": "Anthropic",
+    "venue": "Product help page",
     "links": {
-      "website": "https://support.claude.com/en/articles/13854387-schedule-recurring-tasks-in-claude-cowork"
+      "paper": "https://support.claude.com/en/articles/13854387-schedule-recurring-tasks-in-claude-cowork"
     }
   },
   {
@@ -3263,7 +3240,7 @@
   {
     "id": "streambridge",
     "section": "sec-5-3-1",
-    "title": "StreamBridge: Turning Your Offline Video Large Language Model into a Proactive Streaming Assistant",
+    "title": "Streambridge: Turning your offline video large language model into a proactive streaming assistant",
     "year": 2025,
     "venue": "NeurIPS",
     "links": {
@@ -3317,9 +3294,9 @@
     "section": "sec-5-3-2",
     "title": "OpenClaw v2026.8.1: Automations and Scheduling",
     "year": 2026,
-    "venue": "OpenClaw",
+    "venue": "Release documentation",
     "links": {
-      "website": "https://docs.openclaw.ai/releases/2026.8.1/automations-and-scheduling"
+      "paper": "https://docs.openclaw.ai/releases/2026.8.1/automations-and-scheduling"
     }
   },
   {
@@ -3358,7 +3335,7 @@
   {
     "id": "yao2023react",
     "section": "sec-5-3-2",
-    "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+    "title": "React: Synergizing reasoning and acting in language models",
     "year": 2023,
     "venue": "ICLR",
     "links": {
@@ -3380,7 +3357,7 @@
   {
     "id": "sage2023",
     "section": "sec-5-3-3",
-    "title": "SAGE: Smart home Agent with Grounded Execution",
+    "title": "SAGE: Smart Home Agent with Grounded Execution",
     "year": 2023,
     "venue": "arXiv",
     "links": {
@@ -3412,9 +3389,9 @@
     "section": "sec-5-3-4",
     "title": "Schedule Actions in Gemini Apps",
     "year": 2026,
-    "venue": "Google",
+    "venue": "Product help page",
     "links": {
-      "website": "https://support.google.com/gemini/answer/16316416"
+      "paper": "https://support.google.com/gemini/answer/16316416"
     }
   },
   {
@@ -3714,9 +3691,9 @@
     "group": "Deferred: commitments over time",
     "title": "Assistant Benchmark: A Public Scorecard for AI Assistants You Can Text",
     "year": 2026,
-    "venue": "Assistant Benchmark",
+    "venue": "Version 0.2",
     "links": {
-      "website": "https://assistantbenchmark.com/"
+      "paper": "https://assistantbenchmark.com/"
     }
   },
   {
@@ -4102,7 +4079,7 @@
   {
     "id": "ai4service",
     "section": "sec-6-1-1",
-    "title": "AI for Service: Proactive Assistance with AI Glasses",
+    "title": "Ai for service: Proactive assistance with ai glasses",
     "year": 2025,
     "venue": "arXiv",
     "links": {
@@ -4116,7 +4093,7 @@
   {
     "id": "aiget",
     "section": "sec-6-1-1",
-    "title": "AiGet: Transforming Everyday Moments into Hidden Knowledge Discovery with AI Assistance on Smart Glasses",
+    "title": "Aiget: Transforming everyday moments into hidden knowledge discovery with ai assistance on smart glasses",
     "year": 2025,
     "venue": "CHI",
     "links": {
@@ -4155,7 +4132,7 @@
   {
     "id": "proassist2025",
     "section": "sec-6-1-1",
-    "title": "Proactive Assistant Dialogue Generation from Streaming Egocentric Videos",
+    "title": "Proactive assistant dialogue generation from streaming egocentric videos",
     "year": 2025,
     "venue": "EMNLP",
     "links": {
@@ -4184,7 +4161,7 @@
   {
     "id": "promemassist",
     "section": "sec-6-1-1",
-    "title": "ProMemAssist: Exploring Timely Proactive Assistance Through Working Memory Modeling in Multi-Modal Wearable Devices",
+    "title": "Promemassist: Exploring timely proactive assistance through working memory modeling in multi-modal wearable devices",
     "year": 2025,
     "venue": "UIST",
     "links": {
@@ -4210,7 +4187,7 @@
   {
     "id": "socialmind",
     "section": "sec-6-1-1",
-    "title": "SocialMind: LLM-based Proactive AR Social Assistive System with Human-like Perception for In-situ Live Interactions",
+    "title": "Socialmind: Llm-based proactive ar social assistive system with human-like perception for in-situ live interactions",
     "year": 2025,
     "venue": "IMWUT",
     "links": {
@@ -4234,7 +4211,7 @@
   {
     "id": "veluri2024fullduplex",
     "section": "sec-6-1-1",
-    "title": "Beyond Turn-Based Interfaces: Synchronous LLMs as Full-Duplex Dialogue Agents",
+    "title": "Beyond turn-based interfaces: Synchronous llms as full-duplex dialogue agents",
     "year": 2024,
     "venue": "EMNLP",
     "links": {
@@ -4250,21 +4227,6 @@
     "links": {
       "paper": "https://doi.org/10.18653/v1/2024.findings-emnlp.909"
     }
-  },
-  {
-    "id": "lunchnow2025",
-    "section": "sec-6-1-2",
-    "title": "\"Having Lunch Now\": Understanding How Users Engage with a Proactive Agent for Daily Planning and Self-Reflection",
-    "year": 2026,
-    "venue": "CHI",
-    "links": {
-      "paper": "https://arxiv.org/abs/2509.24073"
-    },
-    "tags": [
-      "A→S",
-      "A→M",
-      "L2"
-    ]
   },
   {
     "id": "healthclaw2026",
@@ -4421,6 +4383,21 @@
     }
   },
   {
+    "id": "chatgptdots2026",
+    "section": "sec-6-1-2",
+    "title": "Meet dots: ChatGPT Documentation",
+    "year": 2026,
+    "venue": "OpenAI",
+    "links": {
+      "docs": "https://learn.chatgpt.com/docs/dots"
+    },
+    "tags": [
+      "A→S",
+      "L4",
+      "Product"
+    ]
+  },
+  {
     "id": "moss2026",
     "section": "sec-6-1-2",
     "title": "MOSS: Self-Evolution through Source-Level Rewriting in Autonomous Agent Systems",
@@ -4518,17 +4495,18 @@
     ]
   },
   {
-    "id": "chatgptpulse2025",
+    "id": "lunchnow2025",
     "section": "sec-6-1-2",
-    "title": "Introducing ChatGPT Pulse",
-    "year": 2025,
-    "venue": "OpenAI",
+    "title": "“Having Lunch Now”: Understanding How Users Engage with a Proactive Agent for Daily Planning and Self-Reflection",
+    "year": 2026,
+    "venue": "CHI",
     "links": {
-      "website": "https://openai.com/index/introducing-chatgpt-pulse/"
+      "paper": "https://arxiv.org/abs/2509.24073"
     },
     "tags": [
-      "L2",
-      "Product"
+      "A→S",
+      "A→M",
+      "L2"
     ]
   },
   {
@@ -4547,6 +4525,19 @@
     ]
   },
   {
+    "id": "philia2026",
+    "section": "sec-6-1-3",
+    "title": "A Glimpse into Long-term Physical Coexistence with Intelligent Robots",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2607.11377"
+    },
+    "tags": [
+      "L2"
+    ]
+  },
+  {
     "id": "elliqdocs2026",
     "section": "sec-6-1-3",
     "title": "ElliQ: Frequently Asked Questions",
@@ -4557,20 +4548,6 @@
     },
     "tags": [
       "S→M"
-    ]
-  },
-  {
-    "id": "micobot2026",
-    "section": "sec-6-1-3",
-    "title": "Mixed-Initiative Dialog for Human-Robot Collaborative Manipulation",
-    "year": 2026,
-    "venue": "ICRA",
-    "links": {
-      "paper": "https://arxiv.org/abs/2508.05535",
-      "project": "https://robin-lab.cs.utexas.edu/MicoBot/"
-    },
-    "tags": [
-      "L0"
     ]
   },
   {
@@ -4604,6 +4581,19 @@
     ]
   },
   {
+    "id": "palro2025",
+    "section": "sec-6-1-3",
+    "title": "The Long-Term Use of Communication Robots by Users of Visiting Healthcare Services: Development of an Integrated Vital Signs Measurement System",
+    "year": 2025,
+    "venue": "Cureus",
+    "links": {
+      "paper": "https://doi.org/10.7759/cureus.77635"
+    },
+    "tags": [
+      "L4"
+    ]
+  },
+  {
     "id": "elliq2024",
     "section": "sec-6-1-3",
     "title": "ElliQ, an AI-Driven Social Robot to Alleviate Loneliness: Progress and Lessons Learned",
@@ -4615,6 +4605,19 @@
     "tags": [
       "L3",
       "Product"
+    ]
+  },
+  {
+    "id": "movecare2023",
+    "section": "sec-6-1-3",
+    "title": "Integrating Social Assistive Robots, IoT, Virtual Communities and Smart Objects to Assist at-Home Independently Living Elders: the MoveCare Project",
+    "year": 2023,
+    "venue": "IJSR",
+    "links": {
+      "paper": "https://doi.org/10.1007/s12369-021-00843-0"
+    },
+    "tags": [
+      "L4"
     ]
   },
   {
@@ -4761,7 +4764,7 @@
     "id": "propersim",
     "section": "sec-6-3",
     "group": "Digital",
-    "title": "ProPerSim: Developing Proactive and Personalized AI Assistants through User-Assistant Simulation",
+    "title": "Propersim: Developing proactive and personalized ai assistants through user-assistant simulation",
     "year": 2026,
     "venue": "ICLR",
     "links": {
@@ -4791,14 +4794,14 @@
     "id": "oralytics2025",
     "section": "sec-6-3",
     "group": "Digital",
-    "title": "A Deployed Online Reinforcement Learning Algorithm In An Oral Health Clinical Trial",
+    "title": "A Deployed Online Reinforcement Learning Algorithm in an Oral Health Clinical Trial",
     "year": 2025,
     "venue": "AAAI",
     "links": {
       "paper": "https://arxiv.org/abs/2409.02069"
     },
     "tags": [
-      "L4"
+      "L5"
     ]
   },
   {
@@ -4885,7 +4888,7 @@
       "paper": "https://arxiv.org/abs/2408.15076"
     },
     "tags": [
-      "L4"
+      "L5"
     ]
   },
   {
@@ -4953,7 +4956,7 @@
     "year": 2026,
     "venue": "Catch",
     "links": {
-      "website": "https://www.catchagent.ai/blog/solutions/executive-assistant-travel-planning"
+      "blog": "https://www.catchagent.ai/blog/solutions/executive-assistant-travel-planning"
     },
     "tags": [
       "L4",
@@ -4991,6 +4994,36 @@
     ]
   },
   {
+    "id": "kindroid2026",
+    "section": "sec-6-3",
+    "group": "Digital products",
+    "title": "Chat Features and Tools",
+    "year": 2026,
+    "venue": "Kindroid",
+    "links": {
+      "docs": "https://kindroid.ai/v2/docs/chat-features-and-tools/"
+    },
+    "tags": [
+      "L3",
+      "Product"
+    ]
+  },
+  {
+    "id": "coloros172026",
+    "section": "sec-6-3",
+    "group": "Digital products",
+    "title": "ColorOS 17",
+    "year": 2026,
+    "venue": "OPPO",
+    "links": {
+      "website": "https://www.coloros.com/version/coloros17/"
+    },
+    "tags": [
+      "L3",
+      "Product"
+    ]
+  },
+  {
     "id": "folk2026",
     "section": "sec-6-3",
     "group": "Digital products",
@@ -5002,6 +5035,20 @@
     },
     "tags": [
       "L4",
+      "Product"
+    ]
+  },
+  {
+    "id": "magiccuehelp2026",
+    "section": "sec-6-3",
+    "group": "Digital products",
+    "title": "Get Personal Suggestions on Your Pixel with Magic Cue",
+    "year": 2026,
+    "venue": "Google",
+    "links": {
+      "docs": "https://support.google.com/pixelphone/answer/16508057"
+    },
+    "tags": [
       "Product"
     ]
   },
@@ -5026,9 +5073,9 @@
     "group": "Digital products",
     "title": "Grok Bot for Engineering",
     "year": 2026,
-    "venue": "xAI",
+    "venue": "Product guide",
     "links": {
-      "website": "https://x.ai/bot/guides/grok-bot-for-engineering"
+      "paper": "https://x.ai/bot/guides/grok-bot-for-engineering"
     },
     "tags": [
       "A→S",
@@ -5052,16 +5099,61 @@
     ]
   },
   {
+    "id": "heyclicky2026",
+    "section": "sec-6-3",
+    "group": "Digital products",
+    "title": "HeyClicky Changelog",
+    "year": 2026,
+    "venue": "HeyClicky",
+    "links": {
+      "docs": "https://heyclicky.com/changelog"
+    },
+    "tags": [
+      "L4",
+      "Product"
+    ]
+  },
+  {
     "id": "musehelpapproval2026",
     "section": "sec-6-3",
     "group": "Digital products",
     "title": "How Muse Works with Your Guidance and Approval",
     "year": 2026,
-    "venue": "Meta",
+    "venue": "Meta Help Centre",
     "links": {
-      "website": "https://www.meta.com/help/artificial-intelligence/1385290430137537/"
+      "paper": "https://www.meta.com/help/artificial-intelligence/1385290430137537/"
     },
     "tags": [
+      "Product"
+    ]
+  },
+  {
+    "id": "nownudge2026",
+    "section": "sec-6-3",
+    "group": "Digital products",
+    "title": "How to Use Now Nudge on Samsung Galaxy Phone",
+    "year": 2026,
+    "venue": "Samsung",
+    "links": {
+      "docs": "https://www.samsung.com/us/support/answer/ANS10010355/"
+    },
+    "tags": [
+      "L3",
+      "Product"
+    ]
+  },
+  {
+    "id": "instinct2026",
+    "section": "sec-6-3",
+    "group": "Digital products",
+    "title": "Instinct",
+    "year": 2026,
+    "venue": "Instinct",
+    "links": {
+      "website": "https://instinct.com/"
+    },
+    "tags": [
+      "L3",
       "Product"
     ]
   },
@@ -5086,27 +5178,11 @@
     "group": "Digital products",
     "title": "Leon: Your Open-Source Personal AI Assistant, 2.0 Developer Preview",
     "year": 2026,
-    "venue": "Leon",
+    "venue": "Open-source release",
     "links": {
-      "code": "https://github.com/leon-ai/leon"
+      "paper": "https://github.com/leon-ai/leon"
     },
     "tags": [
-      "L4",
-      "Product"
-    ]
-  },
-  {
-    "id": "chatgptdots2026",
-    "section": "sec-6-3",
-    "group": "Digital products",
-    "title": "Meet dots: ChatGPT Documentation",
-    "year": 2026,
-    "venue": "OpenAI",
-    "links": {
-      "docs": "https://learn.chatgpt.com/docs/dots"
-    },
-    "tags": [
-      "A→S",
       "L4",
       "Product"
     ]
@@ -5134,7 +5210,7 @@
     "year": 2026,
     "venue": "Orchid",
     "links": {
-      "website": "https://orchid.ai/blog/orchid-ai-assistant-imessage"
+      "blog": "https://orchid.ai/blog/orchid-ai-assistant-imessage"
     },
     "tags": [
       "L3",
@@ -5147,9 +5223,9 @@
     "group": "Digital products",
     "title": "Pally Changelog",
     "year": 2026,
-    "venue": "Pally",
+    "venue": "Product changelog",
     "links": {
-      "website": "https://pally.com/changelog.md"
+      "paper": "https://pally.com/changelog.md"
     },
     "tags": [
       "A→M",
@@ -5173,6 +5249,21 @@
     ]
   },
   {
+    "id": "todayai2026",
+    "section": "sec-6-3",
+    "group": "Digital products",
+    "title": "Today: The AI Personal Agent for Your Whole Day",
+    "year": 2026,
+    "venue": "Today",
+    "links": {
+      "blog": "https://today.ai/articles/blog/what-is-today"
+    },
+    "tags": [
+      "L2",
+      "Product"
+    ]
+  },
+  {
     "id": "town2026",
     "section": "sec-6-3",
     "group": "Digital products",
@@ -5184,6 +5275,66 @@
     },
     "tags": [
       "L4",
+      "Product"
+    ]
+  },
+  {
+    "id": "vellumfollowups2026",
+    "section": "sec-6-3",
+    "group": "Digital products",
+    "title": "Vellum Documentation: Followups",
+    "year": 2026,
+    "venue": "Vellum",
+    "links": {
+      "docs": "https://vellum.ai/docs/skills-reference/followups.md"
+    },
+    "tags": [
+      "L4",
+      "Product"
+    ]
+  },
+  {
+    "id": "vellumscheduling2026",
+    "section": "sec-6-3",
+    "group": "Digital products",
+    "title": "Vellum Documentation: Scheduling",
+    "year": 2026,
+    "venue": "Vellum",
+    "links": {
+      "docs": "https://vellum.ai/docs/key-concepts/scheduling.md"
+    },
+    "tags": [
+      "L4",
+      "Product"
+    ]
+  },
+  {
+    "id": "xiaoyisuggestions2026",
+    "section": "sec-6-3",
+    "group": "Digital products",
+    "title": "Xiaoyi Suggestions: Frequently Asked Questions",
+    "year": 2026,
+    "venue": "Huawei",
+    "links": {
+      "docs": "https://consumer.huawei.com/cn/support/content/zh-cn15965298/"
+    },
+    "tags": [
+      "L4",
+      "Product"
+    ]
+  },
+  {
+    "id": "magiccue2025",
+    "section": "sec-6-3",
+    "group": "Digital products",
+    "title": "Google Pixel 10: 9 New AI Features and Updates",
+    "year": 2025,
+    "venue": "Google",
+    "links": {
+      "blog": "https://blog.google/products-and-platforms/devices/pixel/google-pixel-10-ai-features-updates/"
+    },
+    "tags": [
+      "L3",
       "Product"
     ]
   },
@@ -5203,17 +5354,32 @@
     ]
   },
   {
-    "id": "philia2026",
+    "id": "xiaovsuggestions2025",
     "section": "sec-6-3",
-    "group": "Physical",
-    "title": "A Glimpse into Long-term Physical Coexistence with Intelligent Robots",
-    "year": 2026,
-    "venue": "arXiv",
+    "group": "Digital products",
+    "title": "vivo X200 Series Frequently Asked Questions",
+    "year": 2025,
+    "venue": "vivo",
     "links": {
-      "paper": "https://arxiv.org/abs/2607.11377"
+      "docs": "https://www.vivo.com.cn/service/questions/all?categoryId=158&questionId=1744"
     },
     "tags": [
-      "L2"
+      "L3",
+      "Product"
+    ]
+  },
+  {
+    "id": "harmonyos42023",
+    "section": "sec-6-3",
+    "group": "Digital products",
+    "title": "Huawei Releases HarmonyOS 4",
+    "year": 2023,
+    "venue": "Huawei",
+    "links": {
+      "blog": "https://www.huawei.com/cn/news/2023/8/harmonyos4-function"
+    },
+    "tags": [
+      "Product"
     ]
   },
   {
@@ -5246,6 +5412,21 @@
     ]
   },
   {
+    "id": "micobot2026",
+    "section": "sec-6-3",
+    "group": "Physical",
+    "title": "Mixed-Initiative Dialog for Human-Robot Collaborative Manipulation",
+    "year": 2026,
+    "venue": "ICRA",
+    "links": {
+      "paper": "https://arxiv.org/abs/2508.05535",
+      "project": "https://robin-lab.cs.utexas.edu/MicoBot/"
+    },
+    "tags": [
+      "L0"
+    ]
+  },
+  {
     "id": "gaprobot2026",
     "section": "sec-6-3",
     "group": "Physical",
@@ -5257,20 +5438,6 @@
     },
     "tags": [
       "A→S",
-      "L4"
-    ]
-  },
-  {
-    "id": "movecare2023",
-    "section": "sec-6-3",
-    "group": "Physical",
-    "title": "Integrating Social Assistive Robots, IoT, Virtual Communities and Smart Objects to Assist at-Home Independently Living Elders: the MoveCare Project",
-    "year": 2023,
-    "venue": "IJSR",
-    "links": {
-      "paper": "https://doi.org/10.1007/s12369-021-00843-0"
-    },
-    "tags": [
       "L4"
     ]
   },
@@ -5290,6 +5457,21 @@
     ]
   },
   {
+    "id": "moflin2026",
+    "section": "sec-6-3",
+    "group": "Physical products",
+    "title": "Casio Provides Moflin Smart Companions to Pediatric Ward at The Jikei University Hospital",
+    "year": 2026,
+    "venue": "Casio",
+    "links": {
+      "blog": "https://www.casio.com/intl/news/2026/0409-moflin/"
+    },
+    "tags": [
+      "L4",
+      "Product"
+    ]
+  },
+  {
     "id": "hyodolfront2026",
     "section": "sec-6-3",
     "group": "Physical products",
@@ -5301,6 +5483,36 @@
     },
     "tags": [
       "L1",
+      "Product"
+    ]
+  },
+  {
+    "id": "alexaplus2026",
+    "section": "sec-6-3",
+    "group": "Physical products",
+    "title": "Introducing Alexa+: Skills, Cost, and Availability",
+    "year": 2026,
+    "venue": "Amazon",
+    "links": {
+      "blog": "https://www.aboutamazon.com/news/devices/new-alexa-generative-artificial-intelligence"
+    },
+    "tags": [
+      "L3",
+      "Product"
+    ]
+  },
+  {
+    "id": "loonadeskmate2026",
+    "section": "sec-6-3",
+    "group": "Physical products",
+    "title": "Loona Deskmate",
+    "year": 2026,
+    "venue": "KEYi Technology",
+    "links": {
+      "website": "https://keyirobot.com/en-sg/products/deskmate"
+    },
+    "tags": [
+      "L4",
       "Product"
     ]
   },
@@ -5367,7 +5579,7 @@
     "id": "m3agent",
     "section": "sec-6-3",
     "group": "Wearable",
-    "title": "Seeing, Listening, Remembering, and Reasoning: A Multimodal Agent with Long-Term Memory",
+    "title": "Seeing, listening, remembering, and reasoning: A multimodal agent with long-term memory",
     "year": 2026,
     "venue": "ICLR",
     "links": {
@@ -5383,7 +5595,7 @@
     "id": "contextagent",
     "section": "sec-6-3",
     "group": "Wearable",
-    "title": "ContextAgent: Context-Aware Proactive LLM Agents with Open-World Sensory Perceptions",
+    "title": "Contextagent: Context-aware proactive llm agents with open-world sensory perceptions",
     "year": 2025,
     "venue": "NeurIPS",
     "links": {
@@ -5399,7 +5611,7 @@
     "id": "vinci",
     "section": "sec-6-3",
     "group": "Wearable",
-    "title": "Vinci: A Real-time Embodied Smart Assistant based on Egocentric Vision-Language Model",
+    "title": "Vinci: A real-time embodied smart assistant based on egocentric vision-language model",
     "year": 2024,
     "venue": "arXiv",
     "links": {
@@ -5421,7 +5633,7 @@
       "paper": "https://arxiv.org/abs/1909.03539"
     },
     "tags": [
-      "L4"
+      "L5"
     ]
   },
   {
@@ -5436,6 +5648,21 @@
     },
     "tags": [
       "L3",
+      "Product"
+    ]
+  },
+  {
+    "id": "evenrealitiesg22026",
+    "section": "sec-6-3",
+    "group": "Wearable products",
+    "title": "Even G2 AI Glasses",
+    "year": 2026,
+    "venue": "Even Realities",
+    "links": {
+      "website": "https://www.evenrealities.com/ai-glasses"
+    },
+    "tags": [
+      "L2",
       "Product"
     ]
   },
@@ -5470,14 +5697,44 @@
     ]
   },
   {
-    "id": "workoutbuddy2026",
+    "id": "rayneoio2026",
     "section": "sec-6-3",
     "group": "Wearable products",
-    "title": "Use Workout Buddy in Workout on Apple Watch",
+    "title": "RayNeo iO AI Glasses",
     "year": 2026,
+    "venue": "RayNeo",
+    "links": {
+      "website": "https://www.rayneo.cn/io.html"
+    },
+    "tags": [
+      "L2",
+      "Product"
+    ]
+  },
+  {
+    "id": "looki2026",
+    "section": "sec-6-3",
+    "group": "Wearable products",
+    "title": "What Is a Wearable AI Assistant? How Context Becomes Help",
+    "year": 2026,
+    "venue": "Looki",
+    "links": {
+      "blog": "https://www.looki.ai/blogs/news/what-is-a-wearable-ai-assistant-how-real-world-context-becomes-help"
+    },
+    "tags": [
+      "L3",
+      "Product"
+    ]
+  },
+  {
+    "id": "smartstackhints2025",
+    "section": "sec-6-3",
+    "group": "Wearable products",
+    "title": "watchOS 26 Delivers More Personalised Ways to Stay Active and Connected",
+    "year": 2025,
     "venue": "Apple",
     "links": {
-      "docs": "https://support.apple.com/guide/watch/use-workout-buddy-apd65c7938e6/watchos"
+      "blog": "https://www.apple.com/uk/newsroom/2025/06/watchos-26-delivers-more-personalized-ways-to-stay-active-and-connected/"
     },
     "tags": [
       "L3",
@@ -5597,7 +5854,7 @@
   {
     "id": "zetta2026",
     "section": "sec-6-4",
-    "title": "Zetta ζ: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence",
+    "title": "Zetta : An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence",
     "year": 2026,
     "venue": "arXiv",
     "links": {
@@ -5608,7 +5865,7 @@
   {
     "id": "alphaevolve2025",
     "section": "sec-6-4",
-    "title": "AlphaEvolve: A coding agent for scientific and algorithmic discovery",
+    "title": "AlphaEvolve: A Coding Agent for Scientific and Algorithmic Discovery",
     "year": 2025,
     "venue": "arXiv",
     "links": {

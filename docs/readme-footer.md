@@ -47,7 +47,7 @@ The paper will be released soon. Until then, please cite it as it currently appe
 
 ```bibtex
 @misc{alwayson2026roadmap,
-  title  = {Always-On Personal AI: A Roadmap Towards Continuing, Self-Evolving Loops},
+  title  = {Always-On Personal Intelligence: A Roadmap Towards Continuing, Self-Evolving Loops},
   author = {{Anonymous Author(s)}},
   year   = {2026},
   note   = {Paper coming soon},

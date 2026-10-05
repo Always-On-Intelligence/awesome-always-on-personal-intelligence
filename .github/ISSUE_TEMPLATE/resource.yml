@@ -29,7 +29,7 @@ body:
   - type: textarea
     id: relevance
     attributes:
-      label: Relevance to always-on personal AI
+      label: Relevance to always-on personal intelligence
       description: Which sensing, memory, proactive action, continuing-service, or evaluation problem does it address?
     validations:
       required: true
