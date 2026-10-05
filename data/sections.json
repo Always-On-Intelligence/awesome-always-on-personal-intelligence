@@ -1,93 +1,6 @@
 [
   {
-    "id": "sec-1",
-    "number": "1",
-    "title": "Introduction",
-    "level": 2,
-    "icon": "surveys",
-    "description": "Related surveys: capability-focused surveys and concurrent system-level surveys."
-  },
-  {
-    "id": "sec-1-1",
-    "number": "1.1",
-    "title": "Positioning and Related Surveys",
-    "level": 3,
-    "parent": "sec-1"
-  },
-  {
-    "id": "sec-1-2",
-    "number": "1.2",
-    "title": "Contributions",
-    "level": 3,
-    "parent": "sec-1"
-  },
-  {
-    "id": "sec-2",
-    "number": "2",
-    "title": "Definitions and Foundations",
-    "level": 2,
-    "icon": "foundations",
-    "description": "The continuing loop and its self-evolving extension, the three functional modules with their spaces and local policies, the six coupling channels, shared operating conditions, and the map of the literature."
-  },
-  {
-    "id": "sec-2-1",
-    "number": "2.1",
-    "title": "Continuing and Self-Evolving Loops",
-    "level": 3,
-    "parent": "sec-2"
-  },
-  {
-    "id": "sec-2-1-1",
-    "number": "2.1.1",
-    "title": "Continuing Loop",
-    "level": 4,
-    "parent": "sec-2-1"
-  },
-  {
-    "id": "sec-2-1-2",
-    "number": "2.1.2",
-    "title": "Self-Evolving Extension",
-    "level": 4,
-    "parent": "sec-2-1"
-  },
-  {
-    "id": "sec-2-2",
-    "number": "2.2",
-    "title": "Functional Modules: Spaces and Local Policies",
-    "level": 3,
-    "parent": "sec-2"
-  },
-  {
-    "id": "sec-2-3",
-    "number": "2.3",
-    "title": "Six Coupling Channels",
-    "level": 3,
-    "parent": "sec-2"
-  },
-  {
-    "id": "sec-2-4",
-    "number": "2.4",
-    "title": "Operating Conditions and Implementation",
-    "level": 3,
-    "parent": "sec-2"
-  },
-  {
-    "id": "sec-2-5",
-    "number": "2.5",
-    "title": "Operating Regimes and Adjacent Concepts",
-    "level": 3,
-    "parent": "sec-2"
-  },
-  {
-    "id": "sec-2-6",
-    "number": "2.6",
-    "title": "Mapping the Literature",
-    "level": 3,
-    "parent": "sec-2"
-  },
-  {
     "id": "sec-3",
-    "number": "3",
     "title": "Sensing",
     "level": 2,
     "icon": "sensing",
@@ -95,172 +8,168 @@
   },
   {
     "id": "sec-3-1",
-    "number": "3.1",
     "title": "Sensing Space",
     "level": 3,
     "parent": "sec-3"
   },
   {
     "id": "sec-3-1-1",
-    "number": "3.1.1",
     "title": "What Starts Observation",
     "level": 4,
     "parent": "sec-3-1",
     "groups": [
-      "Continuous sensing",
-      "Triggered sensing",
-      "On-demand sensing"
+      {
+        "name": "Continuous sensing",
+        "tag": "Continuous"
+      },
+      {
+        "name": "Triggered sensing",
+        "tag": "Triggered"
+      },
+      {
+        "name": "On-demand sensing",
+        "tag": "On-demand"
+      }
     ]
   },
   {
     "id": "sec-3-1-2",
-    "number": "3.1.2",
     "title": "Observations and Current State",
     "level": 4,
     "parent": "sec-3-1"
   },
   {
     "id": "sec-3-2",
-    "number": "3.2",
     "title": "Operating Conditions for Sensing",
     "level": 3,
-    "parent": "sec-3",
-    "groups": [
-      "Whose information may be observed?",
-      "How long can sensing continue?",
-      "Can observations reach decisions in time?",
-      "Why do sensing bottlenecks differ across systems?"
-    ]
+    "parent": "sec-3"
   },
   {
     "id": "sec-3-3",
-    "number": "3.3",
     "title": "Sensing Policy",
     "level": 3,
     "parent": "sec-3"
   },
   {
     "id": "sec-3-3-1",
-    "number": "3.3.1",
     "title": "Whether to Observe: Triggering and Wake-Up",
     "level": 4,
     "parent": "sec-3-3"
   },
   {
     "id": "sec-3-3-2",
-    "number": "3.3.2",
     "title": "How Much to Observe: Allocating the Perception Budget",
     "level": 4,
     "parent": "sec-3-3"
   },
   {
     "id": "sec-3-3-3",
-    "number": "3.3.3",
     "title": "How Long to Observe: Observation Windows",
     "level": 4,
     "parent": "sec-3-3"
   },
   {
     "id": "sec-3-3-4",
-    "number": "3.3.4",
     "title": "Where to Cut: Online Segmentation",
     "level": 4,
     "parent": "sec-3-3"
   },
   {
     "id": "sec-3-3-5",
-    "number": "3.3.5",
     "title": "What to Keep: Compression, Representation, and Redaction",
     "level": 4,
     "parent": "sec-3-3"
   },
   {
     "id": "sec-3-3-6",
-    "number": "3.3.6",
     "title": "Whether Enough Has Been Observed: Interpretation and Readiness",
     "level": 4,
     "parent": "sec-3-3"
   },
   {
     "id": "sec-3-3-7",
-    "number": "3.3.7",
     "title": "Where the Computation Runs: On-Device, Edge, and Cloud",
     "level": 4,
     "parent": "sec-3-3"
   },
   {
     "id": "sec-3-3-8",
-    "number": "3.3.8",
     "title": "Where the Result Goes: Routing",
     "level": 4,
     "parent": "sec-3-3"
   },
   {
     "id": "sec-3-3-9",
-    "number": "3.3.9",
     "title": "Learning the Sensing Policy",
     "level": 4,
     "parent": "sec-3-3"
   },
   {
     "id": "sec-3-4",
-    "number": "3.4",
     "title": "Sensing Coupling Across the Loop",
     "level": 3,
     "parent": "sec-3"
   },
   {
     "id": "sec-3-4-1",
-    "number": "3.4.1",
     "title": "Local Decisions and Coupling Boundaries",
     "level": 4,
     "parent": "sec-3-4"
   },
   {
     "id": "sec-3-4-2",
-    "number": "3.4.2",
     "title": "Memory to Sensing: the M→S Channel",
     "level": 4,
     "parent": "sec-3-4"
   },
   {
     "id": "sec-3-4-3",
-    "number": "3.4.3",
     "title": "Action to Sensing: the A→S Channel",
     "level": 4,
     "parent": "sec-3-4"
   },
   {
     "id": "sec-3-5",
-    "number": "3.5",
     "title": "Evaluation",
     "level": 3,
     "parent": "sec-3"
   },
   {
     "id": "sec-3-5-1",
-    "number": "3.5.1",
     "title": "Evaluation Metrics",
     "level": 4,
     "parent": "sec-3-5"
   },
   {
     "id": "sec-3-5-2",
-    "number": "3.5.2",
     "title": "Benchmarks and Evaluation Settings",
     "level": 4,
     "parent": "sec-3-5",
     "groups": [
-      "Perception baselines: supplied input",
-      "Continuous and triggered capture: coverage and cost",
-      "Readiness and response timing",
-      "On-demand: checking again",
-      "Guidance from Memory and Action"
+      {
+        "name": "Perception baselines: supplied input",
+        "tag": "Perception baselines"
+      },
+      {
+        "name": "Continuous and triggered capture: coverage and cost",
+        "tag": "Continuous and triggered capture"
+      },
+      {
+        "name": "Readiness and response timing",
+        "tag": "Readiness and response timing"
+      },
+      {
+        "name": "On-demand: checking again",
+        "tag": "On-demand"
+      },
+      {
+        "name": "Guidance from Memory and Action",
+        "tag": "Guidance from Memory and Action"
+      }
     ]
   },
   {
     "id": "sec-4",
-    "number": "4",
     "title": "Memory",
     "level": 2,
     "icon": "memory",
@@ -268,144 +177,146 @@
   },
   {
     "id": "sec-4-1",
-    "number": "4.1",
     "title": "Memory Space",
     "level": 3,
     "parent": "sec-4"
   },
   {
     "id": "sec-4-1-1",
-    "number": "4.1.1",
     "title": "What Persists: Past, Present, and Future",
     "level": 4,
     "parent": "sec-4-1",
     "groups": [
-      "Profile memory: what holds now",
-      "Prospective memory: what is pending"
+      {
+        "name": "Profile memory: what holds now",
+        "tag": "Profile"
+      },
+      {
+        "name": "Prospective memory: what is pending",
+        "tag": "Prospective"
+      }
     ]
   },
   {
     "id": "sec-4-1-2",
-    "number": "4.1.2",
     "title": "Representations and Storage",
     "level": 4,
     "parent": "sec-4-1"
   },
   {
     "id": "sec-4-2",
-    "number": "4.2",
     "title": "Operating Conditions for Memory",
     "level": 3,
     "parent": "sec-4"
   },
   {
     "id": "sec-4-3",
-    "number": "4.3",
     "title": "Memory Policy",
     "level": 3,
     "parent": "sec-4"
   },
   {
     "id": "sec-4-3-1",
-    "number": "4.3.1",
     "title": "What to Store and in What Form: Admission and Encoding",
     "level": 4,
     "parent": "sec-4-3"
   },
   {
     "id": "sec-4-3-2",
-    "number": "4.3.2",
     "title": "How State Remains Reachable: Indexing and Identity",
     "level": 4,
     "parent": "sec-4-3"
   },
   {
     "id": "sec-4-3-3",
-    "number": "4.3.3",
     "title": "What Is Exposed Now: Retrieval and Delivery",
     "level": 4,
     "parent": "sec-4-3"
   },
   {
     "id": "sec-4-3-4",
-    "number": "4.3.4",
     "title": "How Records Change: Consolidation and Correction",
     "level": 4,
     "parent": "sec-4-3"
   },
   {
     "id": "sec-4-3-5",
-    "number": "4.3.5",
     "title": "What Stops Influencing Later Decisions: Retirement, Forgetting, and Deletion",
     "level": 4,
     "parent": "sec-4-3"
   },
   {
     "id": "sec-4-3-6",
-    "number": "4.3.6",
     "title": "Learning the Memory Policy",
     "level": 4,
     "parent": "sec-4-3"
   },
   {
     "id": "sec-4-4",
-    "number": "4.4",
     "title": "Memory Coupling Across the Loop",
     "level": 3,
     "parent": "sec-4"
   },
   {
     "id": "sec-4-4-1",
-    "number": "4.4.1",
     "title": "Local Decisions and Coupling Boundaries",
     "level": 4,
     "parent": "sec-4-4"
   },
   {
     "id": "sec-4-4-2",
-    "number": "4.4.2",
     "title": "Sensing to Memory: the S→M Channel",
     "level": 4,
     "parent": "sec-4-4"
   },
   {
     "id": "sec-4-4-3",
-    "number": "4.4.3",
     "title": "Action to Memory: the A→M Channel",
     "level": 4,
     "parent": "sec-4-4"
   },
   {
     "id": "sec-4-5",
-    "number": "4.5",
     "title": "Evaluation",
     "level": 3,
     "parent": "sec-4"
   },
   {
     "id": "sec-4-5-1",
-    "number": "4.5.1",
     "title": "Evaluation Metrics",
     "level": 4,
     "parent": "sec-4-5"
   },
   {
     "id": "sec-4-5-2",
-    "number": "4.5.2",
     "title": "Benchmarks and Evaluation Settings",
     "level": 4,
     "parent": "sec-4-5",
     "groups": [
-      "Recall baselines",
-      "Admission: what enters the store",
-      "Profile: keeping what holds valid",
-      "Prospective: holding what is pending",
-      "Coupling and later use: state influences subsequent decisions"
+      {
+        "name": "Recall baselines",
+        "tag": "Recall baselines"
+      },
+      {
+        "name": "Admission: what enters the store",
+        "tag": "Admission"
+      },
+      {
+        "name": "Profile: keeping what holds valid",
+        "tag": "Profile"
+      },
+      {
+        "name": "Prospective: holding what is pending",
+        "tag": "Prospective"
+      },
+      {
+        "name": "Coupling and later use: state influences subsequent decisions",
+        "tag": "Coupling and later use"
+      }
     ]
   },
   {
     "id": "sec-5",
-    "number": "5",
     "title": "Action",
     "level": 2,
     "icon": "action",
@@ -413,218 +324,223 @@
   },
   {
     "id": "sec-5-1",
-    "number": "5.1",
     "title": "Action Space",
     "level": 3,
     "parent": "sec-5"
   },
   {
     "id": "sec-5-1-1",
-    "number": "5.1.1",
     "title": "What Starts an Action",
     "level": 4,
     "parent": "sec-5-1",
     "groups": [
-      "Deferred action",
-      "Proactive action"
+      {
+        "name": "Deferred action",
+        "tag": "Deferred"
+      },
+      {
+        "name": "Proactive action",
+        "tag": "Proactive"
+      }
     ]
   },
   {
     "id": "sec-5-1-2",
-    "number": "5.1.2",
     "title": "Interfaces, Consequences, and Feedback",
     "level": 4,
     "parent": "sec-5-1"
   },
   {
     "id": "sec-5-2",
-    "number": "5.2",
     "title": "Operating Conditions for Action",
     "level": 3,
-    "parent": "sec-5",
-    "groups": [
-      "What does an intervention cost the user?"
-    ]
+    "parent": "sec-5"
   },
   {
     "id": "sec-5-3",
-    "number": "5.3",
     "title": "Action Policy",
     "level": 3,
     "parent": "sec-5"
   },
   {
     "id": "sec-5-3-1",
-    "number": "5.3.1",
     "title": "Whether and When to Intervene: Gating, Silence, and Asking",
     "level": 4,
     "parent": "sec-5-3"
   },
   {
     "id": "sec-5-3-2",
-    "number": "5.3.2",
     "title": "How Control Is Retained: Direct and Agentic",
     "level": 4,
     "parent": "sec-5-3"
   },
   {
     "id": "sec-5-3-3",
-    "number": "5.3.3",
     "title": "Through Which Interface the State Changes: Effectors and Receipts",
     "level": 4,
     "parent": "sec-5-3"
   },
   {
     "id": "sec-5-3-4",
-    "number": "5.3.4",
     "title": "Which Effect Is Authorized: Authority",
     "level": 4,
     "parent": "sec-5-3"
   },
   {
     "id": "sec-5-3-5",
-    "number": "5.3.5",
     "title": "Learning the Action Policy",
     "level": 4,
     "parent": "sec-5-3"
   },
   {
     "id": "sec-5-4",
-    "number": "5.4",
     "title": "Action Coupling Across the Loop",
     "level": 3,
     "parent": "sec-5"
   },
   {
     "id": "sec-5-4-1",
-    "number": "5.4.1",
     "title": "Local Decisions and Coupling Boundaries",
     "level": 4,
     "parent": "sec-5-4"
   },
   {
     "id": "sec-5-4-2",
-    "number": "5.4.2",
     "title": "Memory to Action: the M→A Channel",
     "level": 4,
     "parent": "sec-5-4"
   },
   {
     "id": "sec-5-5",
-    "number": "5.5",
     "title": "Evaluation",
     "level": 3,
     "parent": "sec-5"
   },
   {
     "id": "sec-5-5-1",
-    "number": "5.5.1",
     "title": "Evaluation Metrics",
     "level": 4,
     "parent": "sec-5-5"
   },
   {
     "id": "sec-5-5-2",
-    "number": "5.5.2",
     "title": "Benchmarks and Evaluation Settings",
     "level": 4,
     "parent": "sec-5-5",
     "groups": [
-      "Reactive: executing a request",
-      "Deferred: commitments over time",
-      "Proactive: acting or staying silent",
-      "Authority and consequences across interactions"
+      {
+        "name": "Reactive: executing a request",
+        "tag": "Reactive"
+      },
+      {
+        "name": "Deferred: commitments over time",
+        "tag": "Deferred"
+      },
+      {
+        "name": "Proactive: acting or staying silent",
+        "tag": "Proactive"
+      },
+      {
+        "name": "Authority and consequences across interactions",
+        "tag": "Authority and consequences across interactions"
+      }
     ]
   },
   {
     "id": "sec-6",
-    "number": "6",
     "title": "Applications, System Bottlenecks, and Loop Closure",
     "level": 2,
     "icon": "systems",
-    "description": "How Sensing, Memory, and Action work together in wearable, digital, and physical applications, where reported systems meet bottlenecks, and which level of loop closure each supports. A level tag (L0 to L5) gives a system's place in the loop-closure table, and `Product` marks its product rows."
+    "description": "How Sensing, Memory, and Action work together in wearable, digital, and physical applications, where reported systems meet bottlenecks, and which level of loop closure each supports. A level tag (`L0` to `L5`) gives a system's place in the loop-closure table, and `Product` marks its product rows."
   },
   {
     "id": "sec-6-1",
-    "number": "6.1",
     "title": "Applications and Bottlenecks",
     "level": 3,
     "parent": "sec-6"
   },
   {
     "id": "sec-6-1-1",
-    "number": "6.1.1",
     "title": "Wearable Assistance in Daily Activity and Conversation",
     "level": 4,
     "parent": "sec-6-1"
   },
   {
     "id": "sec-6-1-2",
-    "number": "6.1.2",
     "title": "Digital Workspace and Personal Services",
     "level": 4,
     "parent": "sec-6-1"
   },
   {
     "id": "sec-6-1-3",
-    "number": "6.1.3",
     "title": "Physical Assistance and Collaboration",
     "level": 4,
     "parent": "sec-6-1"
   },
   {
     "id": "sec-6-1-4",
-    "number": "6.1.4",
     "title": "Patterns Across Domains",
     "level": 4,
     "parent": "sec-6-1"
   },
   {
     "id": "sec-6-2",
-    "number": "6.2",
     "title": "Shared Conditions and Implementation Across Modules",
     "level": 3,
     "parent": "sec-6"
   },
   {
     "id": "sec-6-2-1",
-    "number": "6.2.1",
     "title": "Shared Conditions",
     "level": 4,
     "parent": "sec-6-2"
   },
   {
     "id": "sec-6-2-2",
-    "number": "6.2.2",
     "title": "Implementation: Organizing Context Across Requests",
     "level": 4,
     "parent": "sec-6-2"
   },
   {
     "id": "sec-6-3",
-    "number": "6.3",
     "title": "Levels of Loop Closure",
     "level": 3,
     "parent": "sec-6",
     "groups": [
-      "Physical products",
-      "Digital products",
-      "Wearable",
-      "Wearable products",
-      "Digital",
-      "Physical"
+      {
+        "name": "Physical products",
+        "tag": "Physical"
+      },
+      {
+        "name": "Digital products",
+        "tag": "Digital"
+      },
+      {
+        "name": "Wearable",
+        "tag": "Wearable"
+      },
+      {
+        "name": "Wearable products",
+        "tag": "Wearable"
+      },
+      {
+        "name": "Digital",
+        "tag": "Digital"
+      },
+      {
+        "name": "Physical",
+        "tag": "Physical"
+      }
     ]
   },
   {
     "id": "sec-6-4",
-    "number": "6.4",
     "title": "Self-Evolution in Deployed Loops",
     "level": 3,
     "parent": "sec-6"
   },
   {
     "id": "sec-7",
-    "number": "7",
     "title": "HALO: Harness for Always-On Loop Oversight",
     "level": 2,
     "icon": "evaluation",
@@ -632,28 +548,24 @@
   },
   {
     "id": "sec-7-1",
-    "number": "7.1",
     "title": "Read Mode: Existing Systems in the Framework",
     "level": 3,
     "parent": "sec-7"
   },
   {
     "id": "sec-7-2",
-    "number": "7.2",
     "title": "Run Mode: Testing Channels and the Chain of Evidence",
     "level": 3,
     "parent": "sec-7"
   },
   {
     "id": "sec-7-3",
-    "number": "7.3",
     "title": "Limitations",
     "level": 3,
     "parent": "sec-7"
   },
   {
     "id": "sec-8",
-    "number": "8",
     "title": "Trends and Open Problems",
     "level": 2,
     "icon": "evolution",
@@ -661,58 +573,66 @@
   },
   {
     "id": "sec-8-1",
-    "number": "8.1",
     "title": "Local Policies for Always-On Assistance",
     "level": 3,
     "parent": "sec-8"
   },
   {
     "id": "sec-8-2",
-    "number": "8.2",
     "title": "Coordination Across Sensing, Memory, and Action",
     "level": 3,
     "parent": "sec-8"
   },
   {
     "id": "sec-8-3",
-    "number": "8.3",
     "title": "Self-Evolution and Recursive Revision",
     "level": 3,
     "parent": "sec-8"
   },
   {
     "id": "sec-8-4",
-    "number": "8.4",
     "title": "Longitudinal Evaluation and Real Deployment",
     "level": 3,
     "parent": "sec-8"
   },
   {
-    "id": "sec-9",
-    "number": "9",
-    "title": "Conclusion",
+    "id": "related-surveys",
+    "title": "Related Surveys",
     "level": 2,
     "icon": "surveys",
-    "description": "Summary of the roadmap."
+    "description": "Capability-focused surveys, and concurrent system-level surveys that connect several components around persistent state, device platforms, human trajectories, or model-harness co-evolution.",
+    "groups": [
+      {
+        "name": "Capability-focused surveys",
+        "tag": "Capability-focused"
+      },
+      {
+        "name": "Concurrent system-level surveys",
+        "tag": "Concurrent system-level"
+      }
+    ]
   },
   {
     "id": "products",
-    "number": "",
     "title": "Products & Tools",
     "level": 2,
     "icon": "products",
-    "description": "Products and developer infrastructure curated for this repository, beyond the works cited in the survey. Product descriptions follow official documentation checked in September 2026; availability varies by plan, platform, and region. See the [product source notes](docs/product-sources.md)."
+    "description": "Products and developer tools curated for this repository, and the device pages the survey cites. Product descriptions follow official documentation checked in September 2026; availability varies by plan, platform, and region. See the [product source notes](docs/product-sources.md)."
   },
   {
     "id": "products-list",
-    "number": "",
     "title": "Products",
     "level": 3,
     "parent": "products"
   },
   {
+    "id": "products-devices",
+    "title": "Devices & Platforms",
+    "level": 3,
+    "parent": "products"
+  },
+  {
     "id": "products-tools",
-    "number": "",
     "title": "Developer Tools",
     "level": 3,
     "parent": "products"

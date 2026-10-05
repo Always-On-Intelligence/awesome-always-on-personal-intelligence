@@ -1,6 +1,6 @@
 # Scope and structure
 
-This reading list accompanies *Always-On Personal Intelligence: A Roadmap Towards Continuing, Self-Evolving Loops*. It collects the works cited in the survey and arranges them by the survey's own sections, numbers, and titles.
+This reading list accompanies *Always-On Personal Intelligence: A Roadmap Towards Continuing, Self-Evolving Loops*. It collects the works the survey discusses and arranges them by the survey's chapters, titles, and terms.
 
 ## Scope
 
@@ -10,41 +10,39 @@ The list includes component methods, benchmarks, and partial systems when the su
 
 ## Structure
 
-`data/sections.json` mirrors the survey's numbered sections:
+The list starts directly with the survey's module chapters and follows its titles and terms. `data/sections.json` records the sections in reading order:
 
 | Section | Parts |
 |:--|:--|
-| 1 Introduction | Positioning and Related Surveys |
-| 2 Definitions and Foundations | Continuing and self-evolving loops, functional modules, coupling channels, operating conditions, operating regimes, mapping the literature |
-| 3 Sensing, 4 Memory, 5 Action | Space, operating conditions, policy, coupling across the loop, and evaluation, with the survey's subsections |
-| 6 Applications, System Bottlenecks, and Loop Closure | Applications and bottlenecks by domain, shared conditions and implementation, levels of loop closure, self-evolution in deployed loops |
-| 7 HALO | Read mode, run mode, limitations |
-| 8 Trends and Open Problems | Local policies, coordination, self-evolution and recursive revision, longitudinal evaluation |
+| Sensing, Memory, Action | Space, operating conditions, policy, coupling across the loop, and evaluation, with the survey's subsections |
+| Applications, System Bottlenecks, and Loop Closure | Applications and bottlenecks by domain, shared conditions and implementation, levels of loop closure, self-evolution in deployed loops |
+| Trends and Open Problems | Local policies, coordination, self-evolution and recursive revision, longitudinal evaluation |
+| Related Surveys | Capability-focused and concurrent system-level surveys |
+| Products & Tools | Curated products and developer tools, and the device pages the survey cites |
 
-Products & Tools follows as a curated addition; it is not part of the survey.
-
-Inside a section, entries can carry the survey's own grouping: the paragraphs of the space subsections (continuous, triggered, and on-demand sensing; retrospective, profile, and prospective memory; reactive, deferred, and proactive action), the questions of the operating-conditions subsections, the groups of the benchmark tables, and the domain rows of the loop-closure table.
+The README's Foundations section summarizes the survey's definitions, coupling channels, and loop-closure levels without a reading list. Works the survey cites only in its Introduction or Foundations, such as textbooks and early visions, are left out, apart from the related surveys and device pages.
 
 ## Placement
 
 Each work appears once, under the section where the survey treats it most directly:
 
-1. A related survey discussed in Section 1.1 stays there.
-2. A system in the application landscape table goes to its domain in Section 6.1; a system in the loop-closure table goes to Section 6.3.
+1. A related survey discussed in the survey's positioning goes to Related Surveys.
+2. A system in the application landscape table goes to its domain under Applications and Bottlenecks; a system in the loop-closure table goes to Levels of Loop Closure.
 3. A benchmark in a module's benchmark table goes to that module's Benchmarks and Evaluation Settings.
-4. Other works go to the subsection that discusses them, preferring evaluation, then self-evolution, then policy, then space and operating conditions, then coupling, then the remaining chapters.
+4. Other works go to the subsection that discusses them, preferring evaluation, then self-evolution, then policy, then space and operating conditions, then coupling.
 
 ## Tags
 
 | Tag | Meaning |
 |:--|:--|
+| Grouping tags such as `Continuous`, `Profile`, `Deferred`, `Recall baselines`, `Wearable` | The survey's own grouping inside a section: what starts observation or action, the kind of memory, a benchmark-table group, or a system's domain |
 | `S→A`, `S→M`, `M→A`, `A→S`, `M→S`, `A→M` | The survey discusses the work under that coupling channel |
 | `L0` to `L5` | The system's level in the loop-closure table: session local, retained state, state-guided decision, unrequested action, attributed outcomes, governed revision |
 | `Product` | A product row of the loop-closure table |
 
 ## Maintenance
 
-- Research entries: newest first, then by title, within each section or group.
+- Research entries: newest first, then by title, within each section.
 - Products and tools: by group, then by title.
 - Sections without entries are omitted from the README.
-- Source data: `data/sections.json`, `data/research.json`, `data/products.json`, and `data/tools.json`. Framing text: `docs/readme-intro.md` and `docs/readme-footer.md`. `README.md` is generated.
+- Source data: `data/sections.json` (sections in reading order, with the survey's groupings and their tags), `data/research.json`, `data/products.json`, and `data/tools.json`. Framing text: `docs/readme-intro.md` and `docs/readme-footer.md`. `README.md` is generated.
