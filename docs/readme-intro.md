@@ -9,11 +9,11 @@
 
 <p>
   <img src="https://img.shields.io/badge/Paper-Coming_Soon-355774?style=for-the-badge&logo=arxiv&logoColor=white" alt="Paper coming soon"/>
-  <a href="https://always-on-agent.github.io/"><img src="https://img.shields.io/badge/Project-Website-66816D?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Project website"/></a>
+  <a href="https://always-on-intelligence.github.io/"><img src="https://img.shields.io/badge/Project-Website-66816D?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Project website"/></a>
 </p>
 
 <p>
-  <a href="https://github.com/Always-On-Agent/awesome-always-on-personal-ai/stargazers"><img src="https://img.shields.io/github/stars/Always-On-Agent/awesome-always-on-personal-ai?style=flat-square&logo=github&color=B88465" alt="GitHub stars"/></a>
+  <a href="https://github.com/Always-On-Intelligence/awesome-always-on-personal-intelligence/stargazers"><img src="https://img.shields.io/github/stars/Always-On-Intelligence/awesome-always-on-personal-intelligence?style=flat-square&logo=github&color=B88465" alt="GitHub stars"/></a>
   <img src="https://img.shields.io/badge/Papers-{{PAPER_COUNT}}-355774?style=flat-square" alt="{{PAPER_COUNT}} papers"/>
   <img src="https://img.shields.io/badge/Last_Update-October_2026-66816D?style=flat-square" alt="Last update October 2026"/>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-8C8C8C?style=flat-square" alt="MIT License"/></a>

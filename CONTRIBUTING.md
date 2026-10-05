@@ -4,7 +4,7 @@ Thank you for helping keep this reading list accurate and useful.
 
 ## Suggest a resource
 
-Use the [resource suggestion form](https://github.com/Always-On-Agent/awesome-always-on-personal-ai/issues/new?template=resource.yml) if you prefer not to edit JSON. Include a primary source and one sentence on how the work relates to always-on personal intelligence.
+Use the [resource suggestion form](https://github.com/Always-On-Intelligence/awesome-always-on-personal-intelligence/issues/new?template=resource.yml) if you prefer not to edit JSON. Include a primary source and one sentence on how the work relates to always-on personal intelligence.
 
 ## Add or correct an entry
 

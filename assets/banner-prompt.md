@@ -1,5 +1,33 @@
 # Banner generation record
 
+## Revision 3: retitled for Always-On Personal Intelligence
+
+- Final asset: `banner.png`
+- Tool: Codex CLI 0.154.0, built-in image generation in edit mode
+- Date: 2026-10-05
+- Dimensions: 2172 × 724 pixels (3:1)
+- Edit target: the Revision 2 `banner.png`; only the three title lines changed
+- Title: "Always-On Personal Intelligence:" / "A Roadmap Towards" / "Continuing, Self-Evolving Loops", following the survey's current title
+- Inspection: one attempt; every word, the colon, the comma, and both hyphens visually checked; no old text remains and nothing overlaps the drawing
+- Processing: copied the generated PNG without raster editing
+
+### Exact revision prompt
+
+```text
+Use case: text-localization.
+Asset type: research reading-list README banner.
+Input image: banner.png is the EDIT TARGET, not a style reference.
+Edit this existing image. Change ONLY the three title lines at the upper center. Preserve the illustration, composition, all objects, their positions, colors, shapes, and the warm ivory background as closely as possible. Keep the friendly hand-drawn scientific cartoon style, the person with smart glasses and an earbud at the left, the open notebook, memory cards and laptop in the center, the domestic robot and person at a computer on the right, the looping arrow, and muted sage, dusty blue, clay pink and ochre palette. Keep the existing ochre underline.
+Completely remove the old title text "Always-On Personal AI:", "A Roadmap towards a", and "Continuing and Self-Evolving Loop".
+Replace it with exactly these three centered lines, without quotation marks:
+Line 1: Always-On Personal Intelligence:
+Line 2: A Roadmap Towards
+Line 3: Continuing, Self-Evolving Loops
+Typography: Line 1 large bold clean lettering matching the original first line's style, weight and dark navy color. Fit the longer line on ONE line within the clear upper-center space, reducing lettering size as needed while retaining prominent, legible weight. Lines 2 and 3 smaller tasteful cursive handwriting matching the original subtitle. Keep all three lines centered, with clear space around them, without overlap with any drawing. Title must be clearly legible at 850 pixels display width.
+Exact spelling and punctuation are critical: "Always-On" has a hyphen; "Personal"; "Intelligence:" ends with a colon; "A Roadmap Towards" has capital A, R and T and no trailing "a"; "Continuing," ends with a comma; "Self-Evolving" has a hyphen and capital S and E; "Loops" is plural with capital L. Do not duplicate or omit words.
+Output one wide 3:1 landscape PNG, preferably 2172 x 724 pixels. Preserve full framing. No other text, labels, logos, badges, numbers or watermarks. Only the title lettering may change.
+```
+
 ## Revision 2 — paper illustration style and complete title
 
 - Final asset: `banner.png`
