@@ -21,6 +21,7 @@ TAGS = set(CHANNELS) | {f"L{i}" for i in range(6)} | {"Product"}
 LINK_LABELS = ["paper", "blog", "docs", "website", "project", "code", "data"]
 PRODUCT_SECTIONS = {"products-wearable", "products-digital", "products-physical", "products-devices"}
 TOOL_GROUPS = {"memory": "Memory", "runtime": "Runtime", "integrations": "Integrations"}
+ROMAN = ["", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"]
 
 
 def is_single_line(value):
@@ -177,12 +178,16 @@ def heading(node):
     return node["title"]
 
 
+HALO_REPO = "https://github.com/Always-On-Intelligence/HALO"
+
+
 def card(href, icon, title, lines, full=None):
     """One cell of the contents grid: icon, title, then small lines of text or links."""
+    href = href if href.startswith("https://") else f"#{href}"
     tip = f' title="{html.escape(full)}"' if full else ""
     body = "".join(f"<br/><sub>{line}</sub>" for line in lines)
-    return (f'<td align="center" valign="top" width="25%"><a href="#{href}"{tip}><img src="assets/icons/{icon}.svg" width="40" alt=""/></a>'
-            f'<br/><a href="#{href}"{tip}><b>{html.escape(title)}</b></a>{body}</td>')
+    return (f'<td align="center" valign="top" width="33%"><a href="{href}"{tip}><img src="assets/icons/{icon}.svg" width="40" alt=""/></a>'
+            f'<br/><a href="{href}"{tip}><b>{html.escape(title)}</b></a>{body}</td>')
 
 
 def contents(tops, children, count, direct):
@@ -205,12 +210,22 @@ def contents(tops, children, count, direct):
             return f"{products} products · {len(entries) - products} tools"
         return f"{count(node)} works"
 
-    cells = [card("foundations", "foundations", "Foundations", ["Definitions · Channels · Levels"], "Overview and Foundations")]
+    def numbered(node):
+        """Chapters carry the survey's section number in Roman numerals, as in Figure 1. Other cards have none."""
+        m = re.fullmatch(r"sec-(\d+)", node["id"])
+        title = node.get("short", node["title"])
+        return f"{ROMAN[int(m.group(1))]}. {title}" if m else title
+
+    cells = [card("foundations", "foundations", f"{ROMAN[2]}. Foundations", ["Definitions · Channels · Levels"], "Overview and Foundations")]
     for node in tops:
         lines = [size(node)] + ([links(node)] if links(node) else [])
-        cells.append(card(node["id"], node["icon"], node.get("short", node["title"]), lines, node["title"]))
-    cells += ['<td width="25%"></td>'] * (-len(cells) % 4)
-    rows = ["<tr>" + "".join(cells[i:i + 4]) + "</tr>" for i in range(0, len(cells), 4)]
+        cells.append(card(node["id"], node["icon"], numbered(node), lines, node["title"]))
+        if node["id"] == "sec-6" and not any(n["id"] == "sec-7" for n in tops):
+            # HALO lists no works of its own here, so its card leads to the HALO code instead
+            cells.append(card(HALO_REPO, "evaluation", f"{ROMAN[7]}. HALO", ["Read mode · Run mode", f'<a href="{HALO_REPO}">Code</a>'],
+                              "HALO: Harness for Always-On Loop Oversight"))
+    cells += ['<td width="33%"></td>'] * (-len(cells) % 3)
+    rows = ["<tr>" + "".join(cells[i:i + 3]) + "</tr>" for i in range(0, len(cells), 3)]
     return ['<div align="center">', "", '<table align="center">', *rows, "</table>", "",
             '<p align="center"><a href="#contributing">Contributing</a> · <a href="#citation">Citation</a></p>', "", "</div>"]
 
