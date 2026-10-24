@@ -192,7 +192,7 @@ def build(sections, entries):
     products = sum(1 for e in entries if "org" in e)
     papers = sum(1 for e in entries if "label" not in e and "paper" in e["links"])
     tops = [n for n in sections if n["level"] == 2 and count(n)]
-    toc = ["<details>", "<summary><b>Table of Contents</b></summary>", "", "- [News](#news)", "- [Overview](#overview)", "- [Foundations](#foundations)"]
+    toc = ["<details>", "<summary><b>Table of Contents</b></summary>", "", "- [Overview](#overview)", "- [Foundations](#foundations)"]
     for top in tops:
         toc.append(f"- [{heading(top)}](#{top['id']}) ({count(top)})")
         toc += [f"  - [{heading(c)}](#{c['id']})" for c in children.get(top["id"], []) if count(c)]

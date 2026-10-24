@@ -5,11 +5,6 @@
 <img src="assets/banner.png" width="100%" alt="Always-On Personal Intelligence: A Roadmap Towards Continuing, Self-Evolving Loops"/>
 
 <p>
-  <b>The reading list of <i>Always-On Personal Intelligence: A Roadmap Towards Continuing, Self-Evolving Loops</i>,<br/>
-  arranged by the survey's own sections.</b>
-</p>
-
-<p>
   <img src="https://img.shields.io/badge/Paper-Coming_Soon-355774?style=for-the-badge&logo=arxiv&logoColor=white" alt="Paper coming soon"/>
   <a href="https://always-on-intelligence.github.io/"><img src="https://img.shields.io/badge/Project-Website-66816D?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Project website"/></a>
 </p>
@@ -17,7 +12,6 @@
 <p>
   <a href="https://github.com/Always-On-Intelligence/awesome-always-on-personal-intelligence/stargazers"><img src="https://img.shields.io/github/stars/Always-On-Intelligence/awesome-always-on-personal-intelligence?style=flat-square&logo=github&color=B88465" alt="GitHub stars"/></a>
   <img src="https://img.shields.io/badge/Papers-428-355774?style=flat-square" alt="428 papers"/>
-  <img src="https://img.shields.io/badge/Last_Update-October_2026-66816D?style=flat-square" alt="Last update October 2026"/>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-8C8C8C?style=flat-square" alt="MIT License"/></a>
 </p>
 
@@ -28,7 +22,6 @@
 <details>
 <summary><b>Table of Contents</b></summary>
 
-- [News](#news)
 - [Overview](#overview)
 - [Foundations](#foundations)
 - [Sensing](#sec-3) (113)
@@ -68,17 +61,6 @@
 - [Citation](#citation)
 
 </details>
-
----
-
-<a id="news"></a>
-## News
-
-- **[2026/10]** Products now have one line each, linking the official product page instead of documentation or blog posts: **55 products**, kept apart from the research works and grouped by wearable, digital, and physical domain.
-- **[2026/10]** The list starts directly with the modules, without section numbers. Each list runs from the newest work to the oldest, related surveys sit near the end, and background works such as textbooks are left out.
-- **[2026/10]** Synced with the latest draft, now titled *Always-On Personal Intelligence: A Roadmap Towards Continuing, Self-Evolving Loops*: **429 research works**, the revised memory policy subsections, and the new product rows of the loop-closure table.
-- **[2026/10]** The list follows the survey's chapters, titles, and terms: within each module, space, operating conditions, policy, coupling, and evaluation.
-- **[2026/09]** The collection became a reading list of the works cited in our survey, with code links where available.
 
 ---
 
