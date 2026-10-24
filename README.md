@@ -19,48 +19,17 @@
 
 </div>
 
-<details>
-<summary><b>Table of Contents</b></summary>
+<div align="center">
 
-- [Overview](#overview)
-- [Foundations](#foundations)
-- [Sensing](#sec-3) (113)
-  - [Sensing Space](#sec-3-1)
-  - [Operating Conditions for Sensing](#sec-3-2)
-  - [Sensing Policy](#sec-3-3)
-  - [Sensing Coupling Across the Loop](#sec-3-4)
-  - [Evaluation](#sec-3-5)
-- [Memory](#sec-4) (83)
-  - [Memory Space](#sec-4-1)
-  - [Memory Policy](#sec-4-3)
-  - [Memory Coupling Across the Loop](#sec-4-4)
-  - [Evaluation](#sec-4-5)
-- [Action](#sec-5) (77)
-  - [Action Space](#sec-5-1)
-  - [Operating Conditions for Action](#sec-5-2)
-  - [Action Policy](#sec-5-3)
-  - [Action Coupling Across the Loop](#sec-5-4)
-  - [Evaluation](#sec-5-5)
-- [Applications, System Bottlenecks, and Loop Closure](#sec-6) (97)
-  - [Applications and Bottlenecks](#sec-6-1)
-  - [Shared Conditions and Implementation Across Modules](#sec-6-2)
-  - [Levels of Loop Closure](#sec-6-3)
-  - [Self-Evolution in Deployed Loops](#sec-6-4)
-- [Trends and Open Problems](#sec-8) (24)
-  - [Local Policies for Always-On Assistance](#sec-8-1)
-  - [Self-Evolution and Recursive Revision](#sec-8-3)
-  - [Longitudinal Evaluation and Real Deployment](#sec-8-4)
-- [Related Surveys](#related-surveys) (35)
-- [Products & Tools](#products) (65)
-  - [Wearable Products](#products-wearable)
-  - [Digital Products](#products-digital)
-  - [Physical Products](#products-physical)
-  - [Devices & Platforms](#products-devices)
-  - [Developer Tools](#products-tools)
-- [Contributing](#contributing)
-- [Citation](#citation)
+<table align="center">
+<tr><td align="center" valign="top" width="33%"><a href="#foundations" title="Overview and Foundations"><img src="assets/icons/foundations.svg" width="40" alt=""/></a><br/><a href="#foundations" title="Overview and Foundations"><b>II. Foundations</b></a><br/><sub>Definitions · Channels · Levels</sub></td><td align="center" valign="top" width="33%"><a href="#sec-3" title="Sensing"><img src="assets/icons/sensing.svg" width="40" alt=""/></a><br/><a href="#sec-3" title="Sensing"><b>III. Sensing</b></a><br/><sub>113 works</sub><br/><sub><a href="#sec-3-1">Space</a> · <a href="#sec-3-2">Conditions</a> · <a href="#sec-3-3">Policy</a><br/><a href="#sec-3-4">Coupling</a> · <a href="#sec-3-5">Evaluation</a></sub></td><td align="center" valign="top" width="33%"><a href="#sec-4" title="Memory"><img src="assets/icons/memory.svg" width="40" alt=""/></a><br/><a href="#sec-4" title="Memory"><b>IV. Memory</b></a><br/><sub>83 works</sub><br/><sub><a href="#sec-4-1">Space</a> · <a href="#sec-4-3">Policy</a> · <a href="#sec-4-4">Coupling</a><br/><a href="#sec-4-5">Evaluation</a></sub></td></tr>
+<tr><td align="center" valign="top" width="33%"><a href="#sec-5" title="Action"><img src="assets/icons/action.svg" width="40" alt=""/></a><br/><a href="#sec-5" title="Action"><b>V. Action</b></a><br/><sub>77 works</sub><br/><sub><a href="#sec-5-1">Space</a> · <a href="#sec-5-2">Conditions</a> · <a href="#sec-5-3">Policy</a><br/><a href="#sec-5-4">Coupling</a> · <a href="#sec-5-5">Evaluation</a></sub></td><td align="center" valign="top" width="33%"><a href="#sec-6" title="Applications, System Bottlenecks, and Loop Closure"><img src="assets/icons/systems.svg" width="40" alt=""/></a><br/><a href="#sec-6" title="Applications, System Bottlenecks, and Loop Closure"><b>VI. Systems &amp; Loop Closure</b></a><br/><sub>97 works</sub><br/><sub><a href="#sec-6-1">Applications</a> · <a href="#sec-6-2">Shared Conditions</a><br/><a href="#sec-6-3">Loop Closure</a> · <a href="#sec-6-4">Self-Evolution</a></sub></td><td align="center" valign="top" width="33%"><a href="https://github.com/Always-On-Intelligence/HALO" title="HALO: Harness for Always-On Loop Oversight"><img src="assets/icons/evaluation.svg" width="40" alt=""/></a><br/><a href="https://github.com/Always-On-Intelligence/HALO" title="HALO: Harness for Always-On Loop Oversight"><b>VII. HALO</b></a><br/><sub>Read mode · Run mode</sub><br/><sub><a href="https://github.com/Always-On-Intelligence/HALO">Code</a></sub></td></tr>
+<tr><td align="center" valign="top" width="33%"><a href="#sec-8" title="Trends and Open Problems"><img src="assets/icons/evolution.svg" width="40" alt=""/></a><br/><a href="#sec-8" title="Trends and Open Problems"><b>VIII. Open Problems</b></a><br/><sub>24 works</sub><br/><sub><a href="#sec-8-1">Local Policies</a> · <a href="#sec-8-3">Self-Evolution</a><br/><a href="#sec-8-4">Long-Term Evaluation</a></sub></td><td align="center" valign="top" width="33%"><a href="#related-surveys" title="Related Surveys"><img src="assets/icons/surveys.svg" width="40" alt=""/></a><br/><a href="#related-surveys" title="Related Surveys"><b>Related Surveys</b></a><br/><sub>35 works</sub></td><td align="center" valign="top" width="33%"><a href="#products" title="Products &amp; Tools"><img src="assets/icons/products.svg" width="40" alt=""/></a><br/><a href="#products" title="Products &amp; Tools"><b>Products &amp; Tools</b></a><br/><sub>55 products · 10 tools</sub><br/><sub><a href="#products-wearable">Wearable</a> · <a href="#products-digital">Digital</a> · <a href="#products-physical">Physical</a><br/><a href="#products-devices">Devices</a> · <a href="#products-tools">Tools</a></sub></td></tr>
+</table>
 
-</details>
+<p align="center"><a href="#contributing">Contributing</a> · <a href="#citation">Citation</a></p>
+
+</div>
 
 ---
 
