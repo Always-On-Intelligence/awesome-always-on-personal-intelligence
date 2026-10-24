@@ -2,6 +2,7 @@
   {
     "id": "sec-3",
     "title": "Sensing",
+    "short": "Sensing",
     "level": 2,
     "icon": "sensing",
     "description": "Sensing acquires current information from the user and the environment, forming the current context and the state of ongoing tasks."
@@ -9,6 +10,7 @@
   {
     "id": "sec-3-1",
     "title": "Sensing Space",
+    "short": "Space",
     "level": 3,
     "parent": "sec-3"
   },
@@ -41,12 +43,14 @@
   {
     "id": "sec-3-2",
     "title": "Operating Conditions for Sensing",
+    "short": "Conditions",
     "level": 3,
     "parent": "sec-3"
   },
   {
     "id": "sec-3-3",
     "title": "Sensing Policy",
+    "short": "Policy",
     "level": 3,
     "parent": "sec-3"
   },
@@ -107,6 +111,7 @@
   {
     "id": "sec-3-4",
     "title": "Sensing Coupling Across the Loop",
+    "short": "Coupling",
     "level": 3,
     "parent": "sec-3"
   },
@@ -131,6 +136,7 @@
   {
     "id": "sec-3-5",
     "title": "Evaluation",
+    "short": "Evaluation",
     "level": 3,
     "parent": "sec-3"
   },
@@ -171,6 +177,7 @@
   {
     "id": "sec-4",
     "title": "Memory",
+    "short": "Memory",
     "level": 2,
     "icon": "memory",
     "description": "Memory retains information for later service and supplies it when a decision needs it or a commitment falls due."
@@ -178,6 +185,7 @@
   {
     "id": "sec-4-1",
     "title": "Memory Space",
+    "short": "Space",
     "level": 3,
     "parent": "sec-4"
   },
@@ -202,12 +210,14 @@
   {
     "id": "sec-4-2",
     "title": "Operating Conditions for Memory",
+    "short": "Conditions",
     "level": 3,
     "parent": "sec-4"
   },
   {
     "id": "sec-4-3",
     "title": "Memory Policy",
+    "short": "Policy",
     "level": 3,
     "parent": "sec-4"
   },
@@ -250,6 +260,7 @@
   {
     "id": "sec-4-4",
     "title": "Memory Coupling Across the Loop",
+    "short": "Coupling",
     "level": 3,
     "parent": "sec-4"
   },
@@ -274,6 +285,7 @@
   {
     "id": "sec-4-5",
     "title": "Evaluation",
+    "short": "Evaluation",
     "level": 3,
     "parent": "sec-4"
   },
@@ -314,6 +326,7 @@
   {
     "id": "sec-5",
     "title": "Action",
+    "short": "Action",
     "level": 2,
     "icon": "action",
     "description": "Action decides whether, when, and how the assistant intervenes, choosing among silence, communication, preparation, and execution."
@@ -321,6 +334,7 @@
   {
     "id": "sec-5-1",
     "title": "Action Space",
+    "short": "Space",
     "level": 3,
     "parent": "sec-5"
   },
@@ -349,12 +363,14 @@
   {
     "id": "sec-5-2",
     "title": "Operating Conditions for Action",
+    "short": "Conditions",
     "level": 3,
     "parent": "sec-5"
   },
   {
     "id": "sec-5-3",
     "title": "Action Policy",
+    "short": "Policy",
     "level": 3,
     "parent": "sec-5"
   },
@@ -391,6 +407,7 @@
   {
     "id": "sec-5-4",
     "title": "Action Coupling Across the Loop",
+    "short": "Coupling",
     "level": 3,
     "parent": "sec-5"
   },
@@ -409,6 +426,7 @@
   {
     "id": "sec-5-5",
     "title": "Evaluation",
+    "short": "Evaluation",
     "level": 3,
     "parent": "sec-5"
   },
@@ -445,6 +463,7 @@
   {
     "id": "sec-6",
     "title": "Applications, System Bottlenecks, and Loop Closure",
+    "short": "Systems & Loop Closure",
     "level": 2,
     "icon": "systems",
     "description": "How Sensing, Memory, and Action work together in wearable, digital, and physical applications, where reported systems meet bottlenecks, and which level of loop closure each supports. A level tag (`L0` to `L5`) gives a system's place in the loop-closure table, and `Product` marks its product rows."
@@ -452,6 +471,7 @@
   {
     "id": "sec-6-1",
     "title": "Applications and Bottlenecks",
+    "short": "Applications",
     "level": 3,
     "parent": "sec-6"
   },
@@ -486,6 +506,7 @@
   {
     "id": "sec-6-2",
     "title": "Shared Conditions and Implementation Across Modules",
+    "short": "Shared Conditions",
     "level": 3,
     "parent": "sec-6"
   },
@@ -504,6 +525,7 @@
   {
     "id": "sec-6-3",
     "title": "Levels of Loop Closure",
+    "short": "Loop Closure",
     "level": 3,
     "parent": "sec-6",
     "sort": "level",
@@ -529,12 +551,14 @@
   {
     "id": "sec-6-4",
     "title": "Self-Evolution in Deployed Loops",
+    "short": "Self-Evolution",
     "level": 3,
     "parent": "sec-6"
   },
   {
     "id": "sec-7",
     "title": "HALO: Harness for Always-On Loop Oversight",
+    "short": "HALO",
     "level": 2,
     "icon": "evaluation",
     "description": "HALO places existing systems in the framework and examines the evidence behind their service requirements."
@@ -542,24 +566,28 @@
   {
     "id": "sec-7-1",
     "title": "Read Mode: Existing Systems in the Framework",
+    "short": "Read Mode",
     "level": 3,
     "parent": "sec-7"
   },
   {
     "id": "sec-7-2",
     "title": "Run Mode: Testing Channels and the Chain of Evidence",
+    "short": "Run Mode",
     "level": 3,
     "parent": "sec-7"
   },
   {
     "id": "sec-7-3",
     "title": "Limitations",
+    "short": "Limitations",
     "level": 3,
     "parent": "sec-7"
   },
   {
     "id": "sec-8",
     "title": "Trends and Open Problems",
+    "short": "Open Problems",
     "level": 2,
     "icon": "evolution",
     "description": "Three research needs: preserving opportunities to observe change, keeping retained state correctable, and testing why a mechanism revision is justified and whether it helps later."
@@ -567,30 +595,35 @@
   {
     "id": "sec-8-1",
     "title": "Local Policies for Always-On Assistance",
+    "short": "Local Policies",
     "level": 3,
     "parent": "sec-8"
   },
   {
     "id": "sec-8-2",
     "title": "Coordination Across Sensing, Memory, and Action",
+    "short": "Coordination",
     "level": 3,
     "parent": "sec-8"
   },
   {
     "id": "sec-8-3",
     "title": "Self-Evolution and Recursive Revision",
+    "short": "Self-Evolution",
     "level": 3,
     "parent": "sec-8"
   },
   {
     "id": "sec-8-4",
     "title": "Longitudinal Evaluation and Real Deployment",
+    "short": "Long-Term Evaluation",
     "level": 3,
     "parent": "sec-8"
   },
   {
     "id": "related-surveys",
     "title": "Related Surveys",
+    "short": "Related Surveys",
     "level": 2,
     "icon": "surveys",
     "description": "Capability-focused surveys, and concurrent system-level surveys that connect several components around persistent state, device platforms, human trajectories, or model-harness co-evolution.",
@@ -608,6 +641,7 @@
   {
     "id": "products",
     "title": "Products & Tools",
+    "short": "Products & Tools",
     "level": 2,
     "icon": "products",
     "description": "Products are listed apart from research works, one line per product with its official page. They cover the products and devices the survey discusses, by interaction domain and with the level the loop-closure table gives them, plus a few curated additions. Availability varies by plan, platform, and region. Developer tools are curated for this repository; see the [product source notes](docs/product-sources.md)."
@@ -615,30 +649,35 @@
   {
     "id": "products-wearable",
     "title": "Wearable Products",
+    "short": "Wearable",
     "level": 3,
     "parent": "products"
   },
   {
     "id": "products-digital",
     "title": "Digital Products",
+    "short": "Digital",
     "level": 3,
     "parent": "products"
   },
   {
     "id": "products-physical",
     "title": "Physical Products",
+    "short": "Physical",
     "level": 3,
     "parent": "products"
   },
   {
     "id": "products-devices",
     "title": "Devices & Platforms",
+    "short": "Devices",
     "level": 3,
     "parent": "products"
   },
   {
     "id": "products-tools",
     "title": "Developer Tools",
+    "short": "Tools",
     "level": 3,
     "parent": "products"
   }
