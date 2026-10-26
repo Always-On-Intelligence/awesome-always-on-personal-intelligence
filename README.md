@@ -11,7 +11,7 @@
 
 <p>
   <a href="https://github.com/Always-On-Intelligence/awesome-always-on-personal-intelligence/stargazers"><img src="https://img.shields.io/github/stars/Always-On-Intelligence/awesome-always-on-personal-intelligence?style=flat-square&logo=github&color=B88465" alt="GitHub stars"/></a>
-  <img src="https://img.shields.io/badge/Papers-428-355774?style=flat-square" alt="428 papers"/>
+  <img src="https://img.shields.io/badge/Papers-430-355774?style=flat-square" alt="430 papers"/>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-8C8C8C?style=flat-square" alt="MIT License"/></a>
 </p>
 
@@ -47,7 +47,7 @@ The promise of always-on personal intelligence lies in a **continuing, self-evol
 <em><b>Figure 1.</b> Overview of the roadmap. We first define always-on personal intelligence as a continuing loop that connects Sensing, Memory, and Action through six directed channels. We then review each module by its space, conditions, policy, coupling, and evaluation. Next, we examine integrated systems, their bottlenecks, and their levels of loop closure. Finally, we audit existing systems with HALO in read and run modes.</em>
 </div>
 
-**How to read the list.** Sections and titles follow the survey's module chapters, and each work appears once, under the section where the survey discusses it. Each list runs from the newest work to the oldest, except the application and loop-closure lists, which run from the highest loop-closure level (`L5`) down. Tags show the survey's own groupings: what starts observation or action, which kind of memory, a benchmark group, or a system's domain. A channel tag such as `M→S` marks a work discussed under that coupling channel, `L0` to `L5` give a system's level in the loop-closure table, and `Product` marks a published study of a product. Products are listed separately under [Products & Tools](#products), one line per product with its official page.
+**How to read the list.** Sections and titles follow the survey's module chapters, and each work appears once, under the section where the survey discusses it. Works added by the daily scan, which the survey does not cite yet, sit where they fit its framework. Each list runs from the newest work to the oldest, except the application and loop-closure lists, which run from the highest loop-closure level (`L5`) down. Tags show the survey's own groupings: what starts observation or action, which kind of memory, a benchmark group, or a system's domain. A channel tag such as `M→S` marks a work discussed under that coupling channel, `L0` to `L5` give a system's level in the loop-closure table, and `Product` marks a published study of a product. Products are listed separately under [Products & Tools](#products), one line per product with its official page.
 
 ---
 
@@ -285,6 +285,7 @@ Memory retains information for later service and supplies it when a decision nee
 
 - **`CVPR 2026`** PersonaVLM: Long-Term Personalized Multimodal LLMs. [[paper](https://arxiv.org/abs/2604.13074)] [[code](https://github.com/MiG-NJU/PersonaVLM)] `Profile`
 - **`arXiv 2025`** Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory. [[paper](https://arxiv.org/abs/2504.19413)] [[code](https://github.com/mem0ai/mem0)] `Profile`
+- **`arXiv 2025`** O-Mem: Omni Memory System for Personalized, Long Horizon, Self-Evolving Agents. [[paper](https://arxiv.org/abs/2511.13593)] `Profile` `M→A`
 - **`PACLIC 2025`** Personalized Graph-Based Retrieval for Large Language Models. [[paper](https://arxiv.org/abs/2501.02157)] [[code](https://github.com/pgraphrag-benchmark/pgr-llm)] `Profile`
 
 <a id="sec-4-1-2"></a>
@@ -572,6 +573,7 @@ How Sensing, Memory, and Action work together in wearable, digital, and physical
 - **`arXiv 2026`** LightMem-Ego: Your AI Memory for Everyday Life. [[paper](https://arxiv.org/abs/2607.11487)] [[code](https://github.com/zjunlp/LightMem-Ego)] `L2`
 - **`IEEE VR 2026`** SpeechLess: Micro-utterance with Personalized Spatial Memory-aware Assistant in Everyday Augmented Reality. [[paper](https://arxiv.org/abs/2602.00793)] `M→S` `L2`
 - **`arXiv 2026`** VisionClaw: Always-On AI Agents through Smart Glasses. [[paper](https://arxiv.org/abs/2604.03486)] `L2`
+- **`arXiv 2025`** MemPal: Leveraging Multimodal AI and LLMs for Voice-Activated Object Retrieval in Homes of Older Adults. [[paper](https://arxiv.org/abs/2502.01801)] `S→M` `M→A` `L2`
 - **`IMWUT 2026`** Pro²Assist: Continuous Step-aware Proactive Assistance with Multi-modal Egocentric Perception for Long-horizon Procedural Tasks. [[paper](https://arxiv.org/abs/2605.04227)] `L0`
 - **`Findings of ACL 2025`** LLAMAPIE: Proactive In-Ear Conversation Assistants. [[paper](https://arxiv.org/abs/2505.04066)] [[code](https://github.com/chentuochao/LlamaPIE)] `L0`
 - **`EMNLP 2025`** Proactive Assistant Dialogue Generation from Streaming Egocentric Videos. [[paper](https://arxiv.org/abs/2506.05904)] [[project](https://pro-assist.github.io/)] [[code](https://github.com/pro-assist/ProAssist)] `L0`
@@ -787,12 +789,14 @@ Products are listed apart from research works, one line per product with its off
 - **`Amazon`** Bee. [[website](https://bee.computer/)] `L3`
 - **`Even Realities`** Even G2. [[website](https://www.evenrealities.com/smart-glasses)] `L2`
 - **`Looki`** Looki L1. [[website](https://www.looki.ai/)] `L3`
+- **`Memoket`** Memoket Gem. [[website](https://memoket.ai/)] `S→M` `M→A` `L2`
 - **`Based Hardware`** Omi. [[website](https://www.omi.me/)] `S→M` `L3`
 - **`Oura`** Oura Advisor. [[website](https://support.ouraring.com/hc/en-us/articles/39512345699219-Oura-Advisor)] `L2`
 - **`PLAUD`** PLAUD NotePin. [[website](https://www.plaud.ai/products/plaud-notepin)]
 - **`Meta`** Ray-Ban Meta. [[website](https://www.meta.com/ai-glasses/ray-ban-meta/)]
 - **`RayNeo`** RayNeo iO. [[website](https://www.rayneo.cn/io.html)] `L2`
 - **`Apple`** Smart Stack hints (watchOS). [[website](https://www.apple.com/os/watchos/)] `L3`
+- **`Soulog Inc.`** Soulog Sense. [[website](https://www.soulog.com/products/soulogsense)] `S→M` `M→A` `L2`
 
 <a id="products-digital"></a>
 ### Digital Products
