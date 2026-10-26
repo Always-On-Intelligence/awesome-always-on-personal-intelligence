@@ -859,5 +859,39 @@
       "smartstackhints2025"
     ],
     "checked": "2026-10-05"
+  },
+  {
+    "id": "memoketgem",
+    "section": "products-wearable",
+    "title": "Memoket Gem",
+    "org": "Memoket",
+    "links": {
+      "website": "https://memoket.ai/"
+    },
+    "tags": [
+      "S→M",
+      "M→A",
+      "L2"
+    ],
+    "sources": [],
+    "checked": "2026-10-26",
+    "added": "2026-10-26"
+  },
+  {
+    "id": "soulogsense",
+    "section": "products-wearable",
+    "title": "Soulog Sense",
+    "org": "Soulog Inc.",
+    "links": {
+      "website": "https://www.soulog.com/products/soulogsense"
+    },
+    "tags": [
+      "S→M",
+      "M→A",
+      "L2"
+    ],
+    "sources": [],
+    "checked": "2026-10-26",
+    "added": "2026-10-26"
   }
 ]

@@ -4925,5 +4925,36 @@
     "links": {
       "paper": "https://doi.org/10.20944/preprints202607.1328.v1"
     }
+  },
+  {
+    "id": "mempal2025",
+    "section": "sec-6-1-1",
+    "title": "MemPal: Leveraging Multimodal AI and LLMs for Voice-Activated Object Retrieval in Homes of Older Adults",
+    "year": 2025,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2502.01801"
+    },
+    "tags": [
+      "S→M",
+      "M→A",
+      "L2"
+    ],
+    "added": "2026-10-26"
+  },
+  {
+    "id": "omem2025",
+    "section": "sec-4-1-1",
+    "group": "Profile memory: what holds now",
+    "title": "O-Mem: Omni Memory System for Personalized, Long Horizon, Self-Evolving Agents",
+    "year": 2025,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2511.13593"
+    },
+    "tags": [
+      "M→A"
+    ],
+    "added": "2026-10-26"
   }
 ]
