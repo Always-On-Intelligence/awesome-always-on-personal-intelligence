@@ -41,10 +41,10 @@ Python 3.9 or newer is enough; no packages are required. Commit the data change 
 - `links`: HTTPS URLs keyed by `paper`, `blog`, `docs`, `website`, `project`, `code`, or `data`. Prefer the arXiv abstract page, then the DOI or official page. Add code only from the official repository.
 - `tags` (optional): up to two channel tags (`S→A`, `S→M`, `M→A`, `A→S`, `M→S`, `A→M`), a loop-closure level (`L0` to `L5`), and `Product`.
 
-The README renders each entry as a line with badges:
+The README renders each entry as a line with badges, and the venue badge opens the paper:
 
 ```
-- ![Venue Year] Title. [[paper](URL)] [[code](URL)] ![M→S]
+- [![Venue Year]](paper URL) Title. [![Code]](code URL) ![M→S]
 ```
 
 ## Products and tools

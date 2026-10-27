@@ -10,10 +10,10 @@ python3 scripts/build_readme.py
 python3 scripts/build_readme.py --check
 ```
 
-Each research entry renders in one format:
+Each research entry renders in one format, and its venue badge opens the paper:
 
 ```
-- ![Venue Year] Title. [[paper](URL)] [[code](URL)] ![M→S]
+- [![Venue Year]](paper URL) Title. [![Code]](code URL) ![M→S]
 ```
 
 - Use the acceptance venue when a work has one, and `arXiv` otherwise.
