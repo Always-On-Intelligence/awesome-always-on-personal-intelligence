@@ -788,15 +788,15 @@ Products are listed apart from research works, one line per product with its off
 
 | Product | Company | Level and channels |
 |---|---|---|
-| <img src="https://www.google.com/s2/favicons?domain=apple.com&sz=64" width="16" height="16" alt=""/> **Apple Watch** | Apple | [Smart Stack hints](https://www.apple.com/os/watchos/) ![L3][b-l3-b8924a] |
+| <img src="https://www.google.com/s2/favicons?domain=apple.com&sz=64" width="16" height="16" alt=""/> **[Apple Watch Smart Stack hints](https://www.apple.com/os/watchos/)** | Apple | ![L3][b-l3-b8924a] |
 | <img src="https://www.google.com/s2/favicons?domain=bee.computer&sz=64" width="16" height="16" alt=""/> **[Bee](https://bee.computer/)** | Amazon | ![L3][b-l3-b8924a] |
 | <img src="https://www.google.com/s2/favicons?domain=evenrealities.com&sz=64" width="16" height="16" alt=""/> **[Even G2](https://www.evenrealities.com/smart-glasses)** | Even Realities | ![L2][b-l2-6b7785] |
 | <img src="https://www.google.com/s2/favicons?domain=looki.ai&sz=64" width="16" height="16" alt=""/> **[Looki L1](https://www.looki.ai/)** | Looki | ![L3][b-l3-b8924a] |
 | <img src="https://www.google.com/s2/favicons?domain=memoket.ai&sz=64" width="16" height="16" alt=""/> **[Memoket Gem](https://memoket.ai/)** | Memoket | ![L2][b-l2-6b7785] ![S→M][b-s-to-m-9d675d] ![M→A][b-m-to-a-556b88] |
 | <img src="https://www.google.com/s2/favicons?domain=memo-mind.com&sz=64" width="16" height="16" alt=""/> **[MemoMind One (Memo+)](https://www.memo-mind.com/pages/memomind-one)** | MemoMind | ![L2][b-l2-6b7785] ![S→M][b-s-to-m-9d675d] ![M→A][b-m-to-a-556b88] |
 | <img src="https://www.google.com/s2/favicons?domain=omi.me&sz=64" width="16" height="16" alt=""/> **[Omi](https://www.omi.me/)** | Based Hardware | ![L3][b-l3-b8924a] ![S→M][b-s-to-m-9d675d] |
-| <img src="https://www.google.com/s2/favicons?domain=ouraring.com&sz=64" width="16" height="16" alt=""/> **Oura** | Oura | [Advisor](https://support.ouraring.com/hc/en-us/articles/39512345699219-Oura-Advisor) ![L2][b-l2-6b7785] |
-| <img src="https://www.google.com/s2/favicons?domain=plaud.ai&sz=64" width="16" height="16" alt=""/> **PLAUD** | PLAUD | [NotePin](https://www.plaud.ai/products/plaud-notepin) |
+| <img src="https://www.google.com/s2/favicons?domain=ouraring.com&sz=64" width="16" height="16" alt=""/> **[Oura Advisor](https://support.ouraring.com/hc/en-us/articles/39512345699219-Oura-Advisor)** | Oura | ![L2][b-l2-6b7785] |
+| <img src="https://www.google.com/s2/favicons?domain=plaud.ai&sz=64" width="16" height="16" alt=""/> **[PLAUD NotePin](https://www.plaud.ai/products/plaud-notepin)** | PLAUD |  |
 | <img src="https://www.google.com/s2/favicons?domain=meta.com&sz=64" width="16" height="16" alt=""/> **[Ray-Ban Meta](https://www.meta.com/ai-glasses/ray-ban-meta/)** | Meta |  |
 | <img src="https://www.google.com/s2/favicons?domain=rayneo.cn&sz=64" width="16" height="16" alt=""/> **[RayNeo iO](https://www.rayneo.cn/io.html)** | RayNeo | ![L2][b-l2-6b7785] |
 | <img src="https://www.google.com/s2/favicons?domain=soulog.com&sz=64" width="16" height="16" alt=""/> **[Soulog Sense](https://www.soulog.com/products/soulogsense)** | Soulog Inc. | ![L2][b-l2-6b7785] ![S→M][b-s-to-m-9d675d] ![M→A][b-m-to-a-556b88] |
@@ -809,13 +809,17 @@ Products are listed apart from research works, one line per product with its off
 | <img src="https://www.google.com/s2/favicons?domain=brea.ai&sz=64" width="16" height="16" alt=""/> **[Brea](https://brea.ai/)** | Brea | ![L3][b-l3-b8924a] |
 | <img src="https://www.google.com/s2/favicons?domain=caddy.app&sz=64" width="16" height="16" alt=""/> **[Caddy](https://caddy.app/)** | Caddy | ![L4][b-l4-9a7430] |
 | <img src="https://www.google.com/s2/favicons?domain=catchagent.ai&sz=64" width="16" height="16" alt=""/> **[Catch](https://www.catchagent.ai/)** | Catch | ![L4][b-l4-9a7430] |
-| <img src="https://www.google.com/s2/favicons?domain=chatgpt.com&sz=64" width="16" height="16" alt=""/> **ChatGPT** | OpenAI | [Dot](https://learn.chatgpt.com/docs/dots) ![L4][b-l4-9a7430] ![A→S][b-a-to-s-607a6d]<br>[Memory](https://chatgpt.com/overview/)<br>[Scheduled Tasks](https://learn.chatgpt.com/docs/automations) |
-| <img src="https://www.google.com/s2/favicons?domain=claude.com&sz=64" width="16" height="16" alt=""/> **Claude** | Anthropic | [Cowork](https://claude.com/product/cowork) ![L2][b-l2-6b7785]<br>[Duet](https://claude.com/product/claude-duet) ![L3][b-l3-b8924a] ![M→A][b-m-to-a-556b88] |
+| <img src="https://www.google.com/s2/favicons?domain=chatgpt.com&sz=64" width="16" height="16" alt=""/> **[ChatGPT Dot](https://learn.chatgpt.com/docs/dots)** | OpenAI | ![L4][b-l4-9a7430] ![A→S][b-a-to-s-607a6d] |
+| <img src="https://www.google.com/s2/favicons?domain=chatgpt.com&sz=64" width="16" height="16" alt=""/> **[ChatGPT Memory](https://chatgpt.com/overview/)** | OpenAI |  |
+| <img src="https://www.google.com/s2/favicons?domain=chatgpt.com&sz=64" width="16" height="16" alt=""/> **[ChatGPT Scheduled Tasks](https://learn.chatgpt.com/docs/automations)** | OpenAI |  |
+| <img src="https://www.google.com/s2/favicons?domain=claude.com&sz=64" width="16" height="16" alt=""/> **[Claude Cowork](https://claude.com/product/cowork)** | Anthropic | ![L2][b-l2-6b7785] |
+| <img src="https://www.google.com/s2/favicons?domain=claude.com&sz=64" width="16" height="16" alt=""/> **[Claude Duet](https://claude.com/product/claude-duet)** | Anthropic | ![L3][b-l3-b8924a] ![M→A][b-m-to-a-556b88] |
 | <img src="https://www.google.com/s2/favicons?domain=langchain.com&sz=64" width="16" height="16" alt=""/> **[EAIA (Executive AI Assistant)](https://github.com/langchain-ai/executive-ai-assistant)** | LangChain | ![L4][b-l4-9a7430] |
 | <img src="https://www.google.com/s2/favicons?domain=folk.com&sz=64" width="16" height="16" alt=""/> **[Folk](https://www.folk.com/)** | folk | ![L4][b-l4-9a7430] |
-| <img src="https://www.google.com/s2/favicons?domain=samsung.com&sz=64" width="16" height="16" alt=""/> **Galaxy AI** | Samsung | [Now Nudge](https://www.samsung.com/us/galaxy-ai/) ![L3][b-l3-b8924a] |
-| <img src="https://www.google.com/s2/favicons?domain=gemini.google&sz=64" width="16" height="16" alt=""/> **Gemini** | Google | [Daily Brief](https://gemini.google/overview/daily-brief/) ![L2][b-l2-6b7785]<br>[Scheduled Actions](https://support.google.com/gemini/answer/16316416) |
-| <img src="https://www.google.com/s2/favicons?domain=x.ai&sz=64" width="16" height="16" alt=""/> **Grok** | xAI | [Grok Bot](https://x.ai/bot) ![L4][b-l4-9a7430] ![A→S][b-a-to-s-607a6d] |
+| <img src="https://www.google.com/s2/favicons?domain=samsung.com&sz=64" width="16" height="16" alt=""/> **[Galaxy AI Now Nudge](https://www.samsung.com/us/galaxy-ai/)** | Samsung | ![L3][b-l3-b8924a] |
+| <img src="https://www.google.com/s2/favicons?domain=gemini.google&sz=64" width="16" height="16" alt=""/> **[Gemini Daily Brief](https://gemini.google/overview/daily-brief/)** | Google | ![L2][b-l2-6b7785] |
+| <img src="https://www.google.com/s2/favicons?domain=gemini.google&sz=64" width="16" height="16" alt=""/> **[Gemini Scheduled Actions](https://support.google.com/gemini/answer/16316416)** | Google |  |
+| <img src="https://www.google.com/s2/favicons?domain=x.ai&sz=64" width="16" height="16" alt=""/> **[Grok Bot](https://x.ai/bot)** | xAI | ![L4][b-l4-9a7430] ![A→S][b-a-to-s-607a6d] |
 | <img src="https://www.google.com/s2/favicons?domain=nousresearch.com&sz=64" width="16" height="16" alt=""/> **[Hermes Agent](https://hermes-agent.nousresearch.com/)** | Nous Research | ![L4][b-l4-9a7430] |
 | <img src="https://www.google.com/s2/favicons?domain=heyclicky.com&sz=64" width="16" height="16" alt=""/> **[HeyClicky](https://www.heyclicky.com/)** | HeyClicky | ![L4][b-l4-9a7430] |
 | <img src="https://www.google.com/s2/favicons?domain=getinboxzero.com&sz=64" width="16" height="16" alt=""/> **[Inbox Zero](https://www.getinboxzero.com/)** | Inbox Zero | ![L4][b-l4-9a7430] |
@@ -829,15 +833,15 @@ Products are listed apart from research works, one line per product with its off
 | <img src="https://www.google.com/s2/favicons?domain=openclaw.ai&sz=64" width="16" height="16" alt=""/> **[OpenClaw](https://openclaw.ai/)** | OpenClaw | ![L4][b-l4-9a7430] |
 | <img src="https://www.google.com/s2/favicons?domain=orchid.ai&sz=64" width="16" height="16" alt=""/> **[Orchid](https://orchid.ai/)** | Orchid | ![L3][b-l3-b8924a] |
 | <img src="https://www.google.com/s2/favicons?domain=pally.com&sz=64" width="16" height="16" alt=""/> **[Pally](https://pally.com/)** | Pally | ![L4][b-l4-9a7430] ![A→M][b-a-to-m-9d675d] |
-| <img src="https://www.google.com/s2/favicons?domain=google.com&sz=64" width="16" height="16" alt=""/> **Pixel** | Google | [Magic Cue](https://store.google.com/us/magazine/magic-cue?hl=en-US) ![L3][b-l3-b8924a] |
+| <img src="https://www.google.com/s2/favicons?domain=google.com&sz=64" width="16" height="16" alt=""/> **[Pixel Magic Cue](https://store.google.com/us/magazine/magic-cue?hl=en-US)** | Google | ![L3][b-l3-b8924a] |
 | <img src="https://www.google.com/s2/favicons?domain=screenpipe.com&sz=64" width="16" height="16" alt=""/> **[screenpipe](https://screenpipe.com/)** | screenpipe |  |
-| <img src="https://www.google.com/s2/favicons?domain=apple.com&sz=64" width="16" height="16" alt=""/> **Siri** | Apple | [Conversation recall (macOS 27.2)](https://support.apple.com/en-us/127257) ![L1][b-l1-868e98] ![M→A][b-m-to-a-556b88] ![A→M][b-a-to-m-9d675d] |
+| <img src="https://www.google.com/s2/favicons?domain=apple.com&sz=64" width="16" height="16" alt=""/> **[Siri Conversation recall (macOS 27.2)](https://support.apple.com/en-us/127257)** | Apple | ![L1][b-l1-868e98] ![M→A][b-m-to-a-556b88] ![A→M][b-a-to-m-9d675d] |
 | <img src="https://www.google.com/s2/favicons?domain=today.ai&sz=64" width="16" height="16" alt=""/> **[Today](https://today.ai/)** | Today | ![L2][b-l2-6b7785] |
 | <img src="https://www.google.com/s2/favicons?domain=town.com&sz=64" width="16" height="16" alt=""/> **[Town](https://www.town.com/)** | Town | ![L4][b-l4-9a7430] |
 | <img src="https://www.google.com/s2/favicons?domain=vellum.ai&sz=64" width="16" height="16" alt=""/> **[Vellum](https://www.vellum.ai/)** | Vellum | ![L4][b-l4-9a7430] |
-| <img src="https://www.google.com/s2/favicons?domain=microsoft.com&sz=64" width="16" height="16" alt=""/> **Windows** | Microsoft | [Recall](https://support.microsoft.com/en-us/windows/ai/ai-features/retrace-your-steps-with-recall) ![L2][b-l2-6b7785] ![S→M][b-s-to-m-9d675d] |
+| <img src="https://www.google.com/s2/favicons?domain=microsoft.com&sz=64" width="16" height="16" alt=""/> **[Windows Recall](https://support.microsoft.com/en-us/windows/ai/ai-features/retrace-your-steps-with-recall)** | Microsoft | ![L2][b-l2-6b7785] ![S→M][b-s-to-m-9d675d] |
 | <img src="https://www.google.com/s2/favicons?domain=vivo.com.cn&sz=64" width="16" height="16" alt=""/> **[Xiao V Suggestions](https://www.vivo.com.cn/originos)** | vivo | ![L3][b-l3-b8924a] |
-| <img src="https://www.google.com/s2/favicons?domain=coloros.com&sz=64" width="16" height="16" alt=""/> **Xiaobu** | OPPO | [Xiaobu (ColorOS 17)](https://www.coloros.com/version/coloros17/) ![L3][b-l3-b8924a] |
+| <img src="https://www.google.com/s2/favicons?domain=coloros.com&sz=64" width="16" height="16" alt=""/> **[Xiaobu (ColorOS 17)](https://www.coloros.com/version/coloros17/)** | OPPO | ![L3][b-l3-b8924a] |
 | <img src="https://www.google.com/s2/favicons?domain=huawei.com&sz=64" width="16" height="16" alt=""/> **[Xiaoyi Suggestions](https://consumer.huawei.com/cn/mobileservices/celia/)** | Huawei | ![L4][b-l4-9a7430] |
 
 <a id="products-physical"></a>
@@ -895,7 +899,7 @@ python3 scripts/build_readme.py --check
 Each research entry renders in one format:
 
 ```
-- **`Venue Year`** Title. [[paper](URL)] [[code](URL)] `M→S`
+- ![Venue Year] Title. [[paper](URL)] [[code](URL)] ![M→S]
 ```
 
 - Use the acceptance venue when a work has one, and `arXiv` otherwise.
@@ -914,9 +918,7 @@ You can also [suggest a resource](https://github.com/Always-On-Intelligence/awes
 
 </div>
 
-## Acknowledgments
-
-The format follows [Awesome Long-Horizon Agents](https://github.com/RUC-NLPIR/Awesome-Long-Horizon-Agents). The banner and icons were created for this repository, and the overview figure is from our survey.
+## License
 
 Repository code and curation text are available under the [MIT License](LICENSE). Linked papers, products, datasets, and third-party assets keep their own licenses and terms.
 

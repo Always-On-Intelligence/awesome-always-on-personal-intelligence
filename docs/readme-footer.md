@@ -13,7 +13,7 @@ python3 scripts/build_readme.py --check
 Each research entry renders in one format:
 
 ```
-- **`Venue Year`** Title. [[paper](URL)] [[code](URL)] `M→S`
+- ![Venue Year] Title. [[paper](URL)] [[code](URL)] ![M→S]
 ```
 
 - Use the acceptance venue when a work has one, and `arXiv` otherwise.
@@ -32,9 +32,7 @@ You can also [suggest a resource](https://github.com/Always-On-Intelligence/awes
 
 </div>
 
-## Acknowledgments
-
-The format follows [Awesome Long-Horizon Agents](https://github.com/RUC-NLPIR/Awesome-Long-Horizon-Agents). The banner and icons were created for this repository, and the overview figure is from our survey.
+## License
 
 Repository code and curation text are available under the [MIT License](LICENSE). Linked papers, products, datasets, and third-party assets keep their own licenses and terms.
 

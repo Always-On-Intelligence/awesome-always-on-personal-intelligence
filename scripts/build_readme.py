@@ -217,25 +217,29 @@ def logo(entry):
     return f'<img src="https://www.google.com/s2/favicons?domain={domain}&sz=64" width="16" height="16" alt=""/> '
 
 
+def product_name(entry):
+    """A feature's name with its product line in front, unless the feature's name already starts with it."""
+    title, series = entry["title"], entry["series"]
+    if re.match(re.escape(series) + r"(\W|$)", title, re.IGNORECASE):
+        return title
+    return f"{series} {title}"
+
+
 def product_table(rows, badge):
-    """One table per domain with a row per product line: the product, its company, then each feature with its own level."""
+    """One table per domain with a row per product or feature, a product line's rows together under its icon."""
     series = {}
     for e in rows:
         series.setdefault(e["series"], []).append(e)
     table = []
     for name in sorted(series, key=str.casefold):
         group = sorted(series[name], key=lambda e: e["title"].casefold())
-        single = len(group) == 1 and group[0]["title"] == name
-        url = markdown_url(group[0]["links"]["website"])
-        product = f"{logo(group[0])}**[{md(name)}]({url})**" if single else f"{logo(group[0])}**{md(name)}**"
-        features = []
+        icon = logo(group[0])
         for e in group:
+            product = f"{icon}**[{md(product_name(e))}]({markdown_url(e['links']['website'])})**" + "".join(
+                f"<br><sub>{u['date'].replace('-', '/')} · [{md(u['label'])}]({markdown_url(u['url'])})</sub>"
+                for u in sorted(e.get("updates", []), key=lambda u: u["date"], reverse=True)[:3])
             tags = sorted((t for t in e.get("tags", []) if t in LEVEL_COLORS or t in CHANNEL_COLORS), key=lambda t: t not in LEVEL_COLORS)
-            badges = " ".join(badge.tag(t) for t in tags)
-            features.append(badges if single else f"[{md(e['title'])}]({markdown_url(e['links']['website'])}) {badges}".rstrip())
-            features += [f"<sub>{u['date'].replace('-', '/')} · [{md(u['label'])}]({markdown_url(u['url'])})</sub>"
-                         for u in sorted(e.get("updates", []), key=lambda u: u["date"], reverse=True)[:3]]
-        table.append([product, md(group[0]["org"]), "<br>".join(f for f in features if f)])
+            table.append([product, md(e["org"]), " ".join(badge.tag(t) for t in tags)])
     if any(row[2] for row in table):
         return ["| Product | Company | Level and channels |", "|---|---|---|", *(f"| {' | '.join(row)} |" for row in table)]
     return ["| Product | Company |", "|---|---|", *(f"| {row[0]} | {row[1]} |" for row in table)]
