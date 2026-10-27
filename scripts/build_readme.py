@@ -55,10 +55,6 @@ class Badges:
     def tag(self, tag):
         return self(tag, self.color(tag))
 
-    def img(self, tag):
-        """The tag's badge as an HTML image, for HTML blocks, where Markdown references are not read."""
-        return f'<img src="{self.url(tag, self.color(tag))}" alt="{html.escape(tag)}"/>'
-
     def definitions(self):
         return [f"[{key}]: {url}" for key, url in sorted(self.refs.items())]
 
@@ -221,30 +217,28 @@ def logo(entry):
     return f'<img src="https://www.google.com/s2/favicons?domain={domain}&sz=64" width="16" height="16" alt=""/> '
 
 
-def product_cards(rows, badge):
-    """One grid per domain, three cards to a row: each product line once, then one line per feature with its own level."""
+def product_table(rows, badge):
+    """One table per domain with a row per product line: the product, its company, then each feature with its own level."""
     series = {}
     for e in rows:
         series.setdefault(e["series"], []).append(e)
-
-    def link(e, text):
-        return f'<a href="{html.escape(e["links"]["website"])}">{md(text)}</a>'
-
-    cells = []
+    table = []
     for name in sorted(series, key=str.casefold):
         group = sorted(series[name], key=lambda e: e["title"].casefold())
         single = len(group) == 1 and group[0]["title"] == name
-        lines = [f"{logo(group[0])}<b>{link(group[0], name) if single else md(name)}</b>"]
-        if group[0]["org"].casefold() != name.casefold():
-            lines.append(f"<sub>{md(group[0]['org'])}</sub>")
+        url = markdown_url(group[0]["links"]["website"])
+        product = f"{logo(group[0])}**[{md(name)}]({url})**" if single else f"{logo(group[0])}**{md(name)}**"
+        features = []
         for e in group:
             tags = sorted((t for t in e.get("tags", []) if t in LEVEL_COLORS or t in CHANNEL_COLORS), key=lambda t: t not in LEVEL_COLORS)
-            badges = " ".join(badge.img(t) for t in tags)
-            lines.append(badges if single else f"{link(e, e['title'])} {badges}".rstrip())
-            for u in sorted(e.get("updates", []), key=lambda u: u["date"], reverse=True)[:3]:
-                lines.append(f'<sub>{u["date"].replace("-", "/")} · <a href="{html.escape(u["url"])}">{md(u["label"])}</a></sub>')
-        cells.append(f'<td width="33%" valign="top">{"<br/>".join(line for line in lines if line)}</td>')
-    return ["<table>", *("<tr>" + "".join(cells[i:i + 3]) + "</tr>" for i in range(0, len(cells), 3)), "</table>"]
+            badges = " ".join(badge.tag(t) for t in tags)
+            features.append(badges if single else f"[{md(e['title'])}]({markdown_url(e['links']['website'])}) {badges}".rstrip())
+            features += [f"<sub>{u['date'].replace('-', '/')} · [{md(u['label'])}]({markdown_url(u['url'])})</sub>"
+                         for u in sorted(e.get("updates", []), key=lambda u: u["date"], reverse=True)[:3]]
+        table.append([product, md(group[0]["org"]), "<br>".join(f for f in features if f)])
+    if any(row[2] for row in table):
+        return ["| Product | Company | Level and channels |", "|---|---|---|", *(f"| {' | '.join(row)} |" for row in table)]
+    return ["| Product | Company |", "|---|---|", *(f"| {row[0]} | {row[1]} |" for row in table)]
 
 
 def order(entry, by_level=False):
@@ -339,7 +333,7 @@ def build(sections, entries):
             parts.append(f'<a id="{node["id"]}"></a>\n{"#" * level} {heading(node)}\n')
         own = sorted(direct.get(node["id"], []), key=lambda e: order(e, node.get("sort") == "level"))
         if own and node["id"] in PRODUCT_SECTIONS:
-            parts.extend(product_cards(own, badge))
+            parts.extend(product_table(own, badge))
             parts.append("")
         elif own:
             group_tags = {g["name"]: g["tag"] for g in node.get("groups", [])}
