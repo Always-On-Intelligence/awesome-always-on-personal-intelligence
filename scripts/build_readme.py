@@ -29,6 +29,7 @@ LEVEL_COLORS = {"L0": "9a9a9a", "L1": "868e98", "L2": "6b7785", "L3": "b8924a", 
 GROUP_COLORS = {"sec-3": "8fa399", "sec-4": "bb9188", "sec-5": "8a9bb3", "sec-6": "a39a87"}
 VENUE_COLORS = {"arXiv": "a1574a", "Preprints": "8c8c8c", "Book": "8c8c8c"}
 VENUE_DEFAULT, PRODUCT_COLOR, NEUTRAL = "355774", "8a6400", "8c8c8c"
+NO_LEVEL = "d0d0d0"  # products the survey gives no level: lighter than the L0 to L2 greys, with dark text
 
 
 class Badges:
@@ -55,10 +56,10 @@ class Badges:
     def tag(self, tag):
         return self(tag, self.color(tag))
 
-    def img(self, tag):
-        """The tag's badge as an HTML image, for HTML tables, where Markdown references are not read. It sits at the top of
-        its line, so a line of badges is exactly as tall as a line of text."""
-        return f'<img src="{self.url(tag, self.color(tag))}" alt="{html.escape(tag)}" align="top"/>'
+    def img(self, text, color=None):
+        """A badge as an HTML image, for HTML tables, where Markdown references are not read. It sits at the top of its
+        line, so a line of badges is exactly as tall as a line of text."""
+        return f'<img src="{self.url(text, color or self.color(text))}" alt="{html.escape(text)}" align="top"/>'
 
     def definitions(self):
         return [f"[{key}]: {url}" for key, url in sorted(self.refs.items())]
@@ -245,7 +246,9 @@ def product_table(rows, badge):
         for e in group:
             names.append(f'{icons[e["series"]]}<b><a href="{html.escape(e["links"]["website"])}">{md(product_name(e))}</a></b>')
             tags = sorted((t for t in e.get("tags", []) if t in LEVEL_COLORS or t in CHANNEL_COLORS), key=lambda t: t not in LEVEL_COLORS)
-            levels.append(" ".join(badge.img(t) for t in tags) or "&nbsp;")
+            if not any(t in LEVEL_COLORS for t in tags):  # so that a line without a level does not seem to share the one above
+                tags.insert(0, None)
+            levels.append(" ".join(badge.img(t) if t else badge.img("No level", NO_LEVEL) for t in tags))
             for u in sorted(e.get("updates", []), key=lambda u: u["date"], reverse=True)[:3]:
                 names.append(f'<sub>{u["date"].replace("-", "/")} · <a href="{html.escape(u["url"])}">{md(u["label"])}</a></sub>')
                 levels.append("<sub>&nbsp;</sub>")  # keeps each feature's badges on the line of its name
