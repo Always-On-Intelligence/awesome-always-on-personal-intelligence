@@ -55,6 +55,11 @@ class Badges:
     def tag(self, tag):
         return self(tag, self.color(tag))
 
+    def img(self, tag):
+        """The tag's badge as an HTML image, for HTML tables, where Markdown references are not read. It sits at the top of
+        its line, so a line of badges is exactly as tall as a line of text."""
+        return f'<img src="{self.url(tag, self.color(tag))}" alt="{html.escape(tag)}" align="top"/>'
+
     def definitions(self):
         return [f"[{key}]: {url}" for key, url in sorted(self.refs.items())]
 
@@ -226,23 +231,29 @@ def product_name(entry):
 
 
 def product_table(rows, badge):
-    """One table per domain with a row per product or feature, a product line's rows together under its icon."""
-    series = {}
-    for e in rows:
-        series.setdefault(e["series"], []).append(e)
-    table = []
-    for name in sorted(series, key=str.casefold):
-        group = sorted(series[name], key=lambda e: e["title"].casefold())
-        icon = logo(group[0])
+    """One table per domain with a row per company, so that a company's products share a row colour. Each product or
+    feature has its own line with its link, and the last column gives each one its level and channels on the same line."""
+    icons, companies = {}, {}
+    for e in sorted(rows, key=lambda e: (e["series"].casefold(), e["title"].casefold())):
+        icons.setdefault(e["series"], logo(e))
+        companies.setdefault(e["org"].casefold(), []).append(e)
+    rated = any(t in LEVEL_COLORS or t in CHANNEL_COLORS for e in rows for t in e.get("tags", []))
+    head = "<th>Product</th><th>Company</th>" + ("<th>Level and channels</th>" if rated else "")
+    body = []
+    for group in sorted(companies.values(), key=lambda g: product_name(g[0]).casefold()):
+        names, levels = [], []
         for e in group:
-            product = f"{icon}**[{md(product_name(e))}]({markdown_url(e['links']['website'])})**" + "".join(
-                f"<br><sub>{u['date'].replace('-', '/')} · [{md(u['label'])}]({markdown_url(u['url'])})</sub>"
-                for u in sorted(e.get("updates", []), key=lambda u: u["date"], reverse=True)[:3])
+            names.append(f'{icons[e["series"]]}<b><a href="{html.escape(e["links"]["website"])}">{md(product_name(e))}</a></b>')
             tags = sorted((t for t in e.get("tags", []) if t in LEVEL_COLORS or t in CHANNEL_COLORS), key=lambda t: t not in LEVEL_COLORS)
-            table.append([product, md(e["org"]), " ".join(badge.tag(t) for t in tags)])
-    if any(row[2] for row in table):
-        return ["| Product | Company | Level and channels |", "|---|---|---|", *(f"| {' | '.join(row)} |" for row in table)]
-    return ["| Product | Company |", "|---|---|", *(f"| {row[0]} | {row[1]} |" for row in table)]
+            levels.append(" ".join(badge.img(t) for t in tags) or "&nbsp;")
+            for u in sorted(e.get("updates", []), key=lambda u: u["date"], reverse=True)[:3]:
+                names.append(f'<sub>{u["date"].replace("-", "/")} · <a href="{html.escape(u["url"])}">{md(u["label"])}</a></sub>')
+                levels.append("<sub>&nbsp;</sub>")  # keeps each feature's badges on the line of its name
+        cells = f'<td nowrap valign="top">{"<br/>".join(names)}</td><td>{md(group[0]["org"])}</td>'
+        if rated:
+            cells += f'<td nowrap valign="top">{"<br/>".join(levels)}</td>'
+        body.append(f"<tr>{cells}</tr>")
+    return ["<table>", f"<thead><tr>{head}</tr></thead>", "<tbody>", *body, "</tbody>", "</table>"]
 
 
 def order(entry, by_level=False):
