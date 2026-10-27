@@ -1,6 +1,7 @@
 [
   {
     "id": "bma400",
+    "series": "BMA400 accelerometer",
     "section": "products-devices",
     "title": "BMA400 accelerometer",
     "org": "Bosch Sensortec",
@@ -14,6 +15,7 @@
   },
   {
     "id": "figure-03",
+    "series": "Figure 03 (Helix)",
     "section": "products-devices",
     "title": "Figure 03 (Helix)",
     "org": "Figure AI",
@@ -28,6 +30,7 @@
   },
   {
     "id": "galaxy-xr",
+    "series": "Galaxy XR",
     "section": "products-devices",
     "title": "Galaxy XR",
     "org": "Samsung",
@@ -41,6 +44,7 @@
   },
   {
     "id": "project-aria",
+    "series": "Project Aria glasses (Gen 1 and Gen 2)",
     "section": "products-devices",
     "title": "Project Aria glasses (Gen 1 and Gen 2)",
     "org": "Meta",
@@ -56,6 +60,7 @@
   },
   {
     "id": "quanta-x2",
+    "series": "Quanta X2",
     "section": "products-devices",
     "title": "Quanta X2",
     "org": "X Square Robot",
@@ -69,6 +74,7 @@
   },
   {
     "id": "rabbit-r1",
+    "series": "rabbit r1",
     "section": "products-devices",
     "title": "rabbit r1",
     "org": "rabbit",
@@ -82,6 +88,7 @@
   },
   {
     "id": "realsense-d435i",
+    "series": "RealSense D435i",
     "section": "products-devices",
     "title": "RealSense D435i",
     "org": "RealSense",
@@ -95,6 +102,7 @@
   },
   {
     "id": "vuzix-m400",
+    "series": "Vuzix M400",
     "section": "products-devices",
     "title": "Vuzix M400",
     "org": "Vuzix",
@@ -108,6 +116,7 @@
   },
   {
     "id": "brea",
+    "series": "Brea",
     "section": "products-digital",
     "title": "Brea",
     "org": "Brea",
@@ -125,6 +134,7 @@
   },
   {
     "id": "caddy",
+    "series": "Caddy",
     "section": "products-digital",
     "title": "Caddy",
     "org": "Caddy",
@@ -141,6 +151,7 @@
   },
   {
     "id": "catch",
+    "series": "Catch",
     "section": "products-digital",
     "title": "Catch",
     "org": "Catch",
@@ -156,28 +167,58 @@
     "checked": "2026-10-05"
   },
   {
-    "id": "chatgpt",
+    "id": "chatgpt-dot",
+    "series": "ChatGPT",
     "section": "products-digital",
-    "title": "ChatGPT (Dot, Pulse, Scheduled Tasks, Memory)",
     "org": "OpenAI",
+    "checked": "2026-10-05",
+    "title": "Dot",
     "links": {
-      "website": "https://chatgpt.com/overview/"
+      "website": "https://learn.chatgpt.com/docs/dots"
     },
     "tags": [
       "A→S",
       "L4"
     ],
     "sources": [
-      "chatgptdots2026",
-      "chatgptscheduled2026",
-      "openaidreaming2026"
-    ],
-    "checked": "2026-10-05"
+      "chatgptdots2026"
+    ]
   },
   {
-    "id": "claude-cowork",
+    "id": "chatgpt-scheduledtasks",
+    "series": "ChatGPT",
     "section": "products-digital",
-    "title": "Claude Cowork",
+    "org": "OpenAI",
+    "checked": "2026-10-05",
+    "title": "Scheduled Tasks",
+    "links": {
+      "website": "https://learn.chatgpt.com/docs/automations"
+    },
+    "tags": [],
+    "sources": [
+      "chatgptscheduled2026"
+    ]
+  },
+  {
+    "id": "chatgpt-memory",
+    "series": "ChatGPT",
+    "section": "products-digital",
+    "org": "OpenAI",
+    "checked": "2026-10-05",
+    "title": "Memory",
+    "links": {
+      "website": "https://chatgpt.com/overview/"
+    },
+    "tags": [],
+    "sources": [
+      "openaidreaming2026"
+    ]
+  },
+  {
+    "id": "claude-cowork-cowork",
+    "series": "Claude",
+    "section": "products-digital",
+    "title": "Cowork",
     "org": "Anthropic",
     "links": {
       "website": "https://claude.com/product/cowork"
@@ -192,7 +233,26 @@
     "checked": "2026-10-05"
   },
   {
+    "id": "claude-cowork-duet",
+    "series": "Claude",
+    "section": "products-digital",
+    "org": "Anthropic",
+    "title": "Duet",
+    "links": {
+      "website": "https://claude.com/product/claude-duet"
+    },
+    "tags": [
+      "M→A",
+      "L3"
+    ],
+    "sources": [
+      "claudeduet2026"
+    ],
+    "checked": "2026-10-27"
+  },
+  {
     "id": "eaia",
+    "series": "EAIA (Executive AI Assistant)",
     "section": "products-digital",
     "title": "EAIA (Executive AI Assistant)",
     "org": "LangChain",
@@ -205,10 +265,12 @@
     "sources": [
       "langchaineai2025"
     ],
-    "checked": "2026-10-05"
+    "checked": "2026-10-05",
+    "logo": "langchain.com"
   },
   {
     "id": "folk",
+    "series": "Folk",
     "section": "products-digital",
     "title": "Folk",
     "org": "folk",
@@ -224,24 +286,40 @@
     "checked": "2026-10-05"
   },
   {
-    "id": "gemini",
+    "id": "gemini-dailybrief",
+    "series": "Gemini",
     "section": "products-digital",
-    "title": "Gemini (Daily Brief, Scheduled Actions)",
     "org": "Google",
+    "checked": "2026-10-05",
+    "title": "Daily Brief",
     "links": {
-      "website": "https://gemini.google/"
+      "website": "https://gemini.google/overview/daily-brief/"
     },
     "tags": [
       "L2"
     ],
     "sources": [
-      "geminidailybrief2026",
+      "geminidailybrief2026"
+    ]
+  },
+  {
+    "id": "gemini-scheduledactions",
+    "series": "Gemini",
+    "section": "products-digital",
+    "org": "Google",
+    "checked": "2026-10-05",
+    "title": "Scheduled Actions",
+    "links": {
+      "website": "https://support.google.com/gemini/answer/16316416"
+    },
+    "tags": [],
+    "sources": [
       "geminischeduled2026"
-    ],
-    "checked": "2026-10-05"
+    ]
   },
   {
     "id": "grok-bot",
+    "series": "Grok",
     "section": "products-digital",
     "title": "Grok Bot",
     "org": "xAI",
@@ -259,6 +337,7 @@
   },
   {
     "id": "hermes-agent",
+    "series": "Hermes Agent",
     "section": "products-digital",
     "title": "Hermes Agent",
     "org": "Nous Research",
@@ -276,6 +355,7 @@
   },
   {
     "id": "heyclicky",
+    "series": "HeyClicky",
     "section": "products-digital",
     "title": "HeyClicky",
     "org": "HeyClicky",
@@ -292,6 +372,7 @@
   },
   {
     "id": "inbox-zero",
+    "series": "Inbox Zero",
     "section": "products-digital",
     "title": "Inbox Zero",
     "org": "Inbox Zero",
@@ -309,6 +390,7 @@
   },
   {
     "id": "instinct",
+    "series": "Instinct",
     "section": "products-digital",
     "title": "Instinct",
     "org": "Instinct",
@@ -325,6 +407,7 @@
   },
   {
     "id": "interaction-models",
+    "series": "Interaction Models",
     "section": "products-digital",
     "title": "Interaction Models",
     "org": "Thinking Machines",
@@ -341,6 +424,7 @@
   },
   {
     "id": "kindroid",
+    "series": "Kindroid",
     "section": "products-digital",
     "title": "Kindroid",
     "org": "Kindroid",
@@ -357,6 +441,7 @@
   },
   {
     "id": "leon",
+    "series": "Leon",
     "section": "products-digital",
     "title": "Leon",
     "org": "Leon",
@@ -373,6 +458,7 @@
   },
   {
     "id": "lindy",
+    "series": "Lindy",
     "section": "products-digital",
     "title": "Lindy",
     "org": "Lindy",
@@ -384,6 +470,7 @@
   },
   {
     "id": "manus",
+    "series": "Manus",
     "section": "products-digital",
     "title": "Manus",
     "org": "Manus",
@@ -400,6 +487,7 @@
   },
   {
     "id": "muse",
+    "series": "Muse",
     "section": "products-digital",
     "title": "Muse",
     "org": "Meta",
@@ -419,8 +507,9 @@
   },
   {
     "id": "now-nudge",
+    "series": "Galaxy AI",
     "section": "products-digital",
-    "title": "Now Nudge (Galaxy AI)",
+    "title": "Now Nudge",
     "org": "Samsung",
     "links": {
       "website": "https://www.samsung.com/us/galaxy-ai/"
@@ -435,6 +524,7 @@
   },
   {
     "id": "openclaw",
+    "series": "OpenClaw",
     "section": "products-digital",
     "title": "OpenClaw",
     "org": "OpenClaw",
@@ -453,8 +543,9 @@
   },
   {
     "id": "oppo-xiaobu",
+    "series": "Xiaobu",
     "section": "products-digital",
-    "title": "OPPO Xiaobu (ColorOS 17)",
+    "title": "Xiaobu (ColorOS 17)",
     "org": "OPPO",
     "links": {
       "website": "https://www.coloros.com/version/coloros17/"
@@ -469,6 +560,7 @@
   },
   {
     "id": "orchid",
+    "series": "Orchid",
     "section": "products-digital",
     "title": "Orchid",
     "org": "Orchid",
@@ -485,6 +577,7 @@
   },
   {
     "id": "pally",
+    "series": "Pally",
     "section": "products-digital",
     "title": "Pally",
     "org": "Pally",
@@ -503,8 +596,9 @@
   },
   {
     "id": "pixel-magic-cue",
+    "series": "Pixel",
     "section": "products-digital",
-    "title": "Pixel Magic Cue",
+    "title": "Magic Cue",
     "org": "Google",
     "links": {
       "website": "https://store.google.com/us/magazine/magic-cue?hl=en-US"
@@ -520,6 +614,7 @@
   },
   {
     "id": "screenpipe",
+    "series": "screenpipe",
     "section": "products-digital",
     "title": "screenpipe",
     "org": "screenpipe",
@@ -531,6 +626,7 @@
   },
   {
     "id": "today",
+    "series": "Today",
     "section": "products-digital",
     "title": "Today",
     "org": "Today",
@@ -547,6 +643,7 @@
   },
   {
     "id": "town",
+    "series": "Town",
     "section": "products-digital",
     "title": "Town",
     "org": "Town",
@@ -563,6 +660,7 @@
   },
   {
     "id": "vellum",
+    "series": "Vellum",
     "section": "products-digital",
     "title": "Vellum",
     "org": "Vellum",
@@ -580,8 +678,9 @@
   },
   {
     "id": "windows-recall",
+    "series": "Windows",
     "section": "products-digital",
-    "title": "Windows Recall",
+    "title": "Recall",
     "org": "Microsoft",
     "links": {
       "website": "https://support.microsoft.com/en-us/windows/ai/ai-features/retrace-your-steps-with-recall"
@@ -597,6 +696,7 @@
   },
   {
     "id": "xiao-v-suggestions",
+    "series": "Xiao V Suggestions",
     "section": "products-digital",
     "title": "Xiao V Suggestions",
     "org": "vivo",
@@ -613,6 +713,7 @@
   },
   {
     "id": "xiaoyi-suggestions",
+    "series": "Xiaoyi Suggestions",
     "section": "products-digital",
     "title": "Xiaoyi Suggestions",
     "org": "Huawei",
@@ -630,6 +731,7 @@
   },
   {
     "id": "aibo",
+    "series": "aibo",
     "section": "products-physical",
     "title": "aibo",
     "org": "Sony",
@@ -646,6 +748,7 @@
   },
   {
     "id": "alexa-plus",
+    "series": "Alexa+",
     "section": "products-physical",
     "title": "Alexa+",
     "org": "Amazon",
@@ -662,6 +765,7 @@
   },
   {
     "id": "amazon-astro",
+    "series": "Amazon Astro",
     "section": "products-physical",
     "title": "Amazon Astro",
     "org": "Amazon",
@@ -678,6 +782,7 @@
   },
   {
     "id": "elliq",
+    "series": "ElliQ",
     "section": "products-physical",
     "title": "ElliQ",
     "org": "Intuition Robotics",
@@ -694,6 +799,7 @@
   },
   {
     "id": "loona-deskmate",
+    "series": "Loona Deskmate",
     "section": "products-physical",
     "title": "Loona Deskmate",
     "org": "KEYi Technology",
@@ -710,6 +816,7 @@
   },
   {
     "id": "moflin",
+    "series": "Moflin",
     "section": "products-physical",
     "title": "Moflin",
     "org": "Casio",
@@ -726,6 +833,7 @@
   },
   {
     "id": "bee",
+    "series": "Bee",
     "section": "products-wearable",
     "title": "Bee",
     "org": "Amazon",
@@ -742,6 +850,7 @@
   },
   {
     "id": "even-g2",
+    "series": "Even G2",
     "section": "products-wearable",
     "title": "Even G2",
     "org": "Even Realities",
@@ -758,6 +867,7 @@
   },
   {
     "id": "looki-l1",
+    "series": "Looki L1",
     "section": "products-wearable",
     "title": "Looki L1",
     "org": "Looki",
@@ -774,6 +884,7 @@
   },
   {
     "id": "omi",
+    "series": "Omi",
     "section": "products-wearable",
     "title": "Omi",
     "org": "Based Hardware",
@@ -792,8 +903,9 @@
   },
   {
     "id": "oura-advisor",
+    "series": "Oura",
     "section": "products-wearable",
-    "title": "Oura Advisor",
+    "title": "Advisor",
     "org": "Oura",
     "links": {
       "website": "https://support.ouraring.com/hc/en-us/articles/39512345699219-Oura-Advisor"
@@ -808,8 +920,9 @@
   },
   {
     "id": "plaud-notepin",
+    "series": "PLAUD",
     "section": "products-wearable",
-    "title": "PLAUD NotePin",
+    "title": "NotePin",
     "org": "PLAUD",
     "links": {
       "website": "https://www.plaud.ai/products/plaud-notepin"
@@ -819,6 +932,7 @@
   },
   {
     "id": "ray-ban-meta",
+    "series": "Ray-Ban Meta",
     "section": "products-wearable",
     "title": "Ray-Ban Meta",
     "org": "Meta",
@@ -830,6 +944,7 @@
   },
   {
     "id": "rayneo-io",
+    "series": "RayNeo iO",
     "section": "products-wearable",
     "title": "RayNeo iO",
     "org": "RayNeo",
@@ -846,8 +961,9 @@
   },
   {
     "id": "smart-stack-hints",
+    "series": "Apple Watch",
     "section": "products-wearable",
-    "title": "Smart Stack hints (watchOS)",
+    "title": "Smart Stack hints",
     "org": "Apple",
     "links": {
       "website": "https://www.apple.com/os/watchos/"
@@ -862,6 +978,7 @@
   },
   {
     "id": "memoketgem",
+    "series": "Memoket Gem",
     "section": "products-wearable",
     "title": "Memoket Gem",
     "org": "Memoket",
@@ -879,6 +996,7 @@
   },
   {
     "id": "soulogsense",
+    "series": "Soulog Sense",
     "section": "products-wearable",
     "title": "Soulog Sense",
     "org": "Soulog Inc.",
@@ -896,6 +1014,7 @@
   },
   {
     "id": "memomindonememo",
+    "series": "MemoMind One (Memo+)",
     "section": "products-wearable",
     "title": "MemoMind One (Memo+)",
     "org": "MemoMind",
@@ -913,8 +1032,9 @@
   },
   {
     "id": "siriaiconversation",
+    "series": "Siri",
     "section": "products-digital",
-    "title": "Siri AI conversation recall (macOS 27.2)",
+    "title": "Conversation recall (macOS 27.2)",
     "org": "Apple",
     "links": {
       "website": "https://support.apple.com/en-us/127257"

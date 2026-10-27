@@ -13,7 +13,7 @@ import json
 from pathlib import Path
 import re
 import sys
-from urllib.parse import urlsplit
+from urllib.parse import quote, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 CHANNELS = ["S→A", "S→M", "M→A", "A→S", "M→S", "A→M"]
@@ -22,6 +22,34 @@ LINK_LABELS = ["paper", "blog", "docs", "website", "project", "code", "data"]
 PRODUCT_SECTIONS = {"products-wearable", "products-digital", "products-physical", "products-devices"}
 TOOL_GROUPS = {"memory": "Memory", "runtime": "Runtime", "integrations": "Integrations"}
 ROMAN = ["", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"]
+# Badge colours from the survey's palette: channels by the module that receives them (rose = Memory,
+# blue = Action, sage = Sensing), levels from grey to gold (L3 to L5 are the always-on levels).
+CHANNEL_COLORS = {"S→M": "9d675d", "A→M": "9d675d", "S→A": "556b88", "M→A": "556b88", "M→S": "607a6d", "A→S": "607a6d"}
+LEVEL_COLORS = {"L0": "9a9a9a", "L1": "868e98", "L2": "6b7785", "L3": "b8924a", "L4": "9a7430", "L5": "6b4e17"}
+GROUP_COLORS = {"sec-3": "8fa399", "sec-4": "bb9188", "sec-5": "8a9bb3", "sec-6": "a39a87"}
+VENUE_COLORS = {"arXiv": "a1574a", "Preprints": "8c8c8c", "Book": "8c8c8c"}
+VENUE_DEFAULT, PRODUCT_COLOR, NEUTRAL = "355774", "8a6400", "8c8c8c"
+
+
+class Badges:
+    """Coloured shields.io badges, written as reference-style images so each badge URL appears once."""
+
+    def __init__(self):
+        self.refs = {}
+
+    def __call__(self, text, color):
+        key = "b-" + re.sub(r"[^a-z0-9]+", "-", f"{text} {color}".lower().replace("→", " to ")).strip("-")
+        if key not in self.refs:
+            label = text.replace("-", "--").replace("_", "__").replace(" ", "_")
+            self.refs[key] = f"https://img.shields.io/badge/{quote(label, safe='')}-{color}?style=flat-square"
+        return f"![{md(text)}][{key}]"
+
+    def tag(self, tag):
+        color = CHANNEL_COLORS.get(tag) or LEVEL_COLORS.get(tag) or (PRODUCT_COLOR if tag == "Product" else NEUTRAL)
+        return self(tag, color)
+
+    def definitions(self):
+        return [f"[{key}]: {url}" for key, url in sorted(self.refs.items())]
 
 
 def is_single_line(value):
@@ -119,6 +147,14 @@ def load_entries(by_id):
                         raise ValueError(f"{name}: invalid product tags")
                     if not isinstance(entry.get("sources", []), list) or not all(is_single_line(s) for s in entry.get("sources", [])):
                         raise ValueError(f"{name}: sources must list survey citation keys")
+                    if "logo" in entry and not re.fullmatch(r"[a-z0-9.-]+\.[a-z]{2,}", str(entry["logo"])):
+                        raise ValueError(f"{name}: logo must be a domain such as claude.com")
+                    if not is_single_line(entry.get("series")):
+                        raise ValueError(f"{name}: products need a series (the product line a feature belongs to)")
+                    for update in entry.get("updates", []):
+                        if not (re.fullmatch(r"\d{4}-\d{2}", str(update.get("date", ""))) and is_single_line(update.get("label"))):
+                            raise ValueError(f"{name}: an update needs a YYYY-MM date and a short label")
+                        check_links(name, {"website": update.get("url")})
                     entry = dict(entry, label=entry["org"], order=0)
                 else:
                     if entry["section"] != "products-tools" or entry.get("group") not in TOOL_GROUPS:
@@ -147,9 +183,9 @@ def resource_links(links):
     return " ".join(f"[[{label}]({markdown_url(links[label])})]" for label in LINK_LABELS if label in links)
 
 
-def render_entry(entry, group_tags):
+def render_entry(entry, group_tags, badge, group_color=NEUTRAL):
     if "org" in entry:
-        tags = "".join(f" `{tag}`" for tag in entry.get("tags", []))
+        tags = "".join(f" {badge.tag(tag)}" for tag in entry.get("tags", []))
         title = md(entry["title"])
         return f"- **`{entry['label']}`** {title}. {resource_links(entry['links'])}{tags}"
     if "label" in entry:
@@ -159,9 +195,46 @@ def render_entry(entry, group_tags):
         return f"- **`{entry['label']}`** {md(entry['title'])}: {md(description)} {resource_links(entry['links'])}"
     title = md(entry["title"])
     title = title if title[-1] in ".?!" else title + "."
-    tags = [group_tags[entry["group"]]] if entry.get("group") in group_tags else []
-    tags = "".join(f" `{tag}`" for tag in tags + entry.get("tags", []))
-    return f"- **`{entry['venue']} {entry['year']}`** {title} {resource_links(entry['links'])}{tags}"
+    tags = [badge(group_tags[entry["group"]], group_color)] if entry.get("group") in group_tags else []
+    tags = "".join(f" {t}" for t in tags + [badge.tag(tag) for tag in entry.get("tags", [])])
+    venue = badge(f"{entry['venue']} {entry['year']}", VENUE_COLORS.get(entry["venue"], VENUE_DEFAULT))
+    return f"- {venue} {title} {resource_links(entry['links'])}{tags}"
+
+
+def logo(entry):
+    """The site icon of a product line, from its official page's domain (or the entry's `logo` domain)."""
+    host = entry.get("logo") or urlsplit(entry["links"]["website"]).netloc.lower().removeprefix("www.")
+    labels = host.split(".")
+    keep = 3 if len(labels) > 2 and ".".join(labels[-2:]) in ("com.cn", "co.uk", "com.au", "co.jp", "com.sg") else 2
+    domain = ".".join(labels[-keep:])
+    return f'<img src="https://www.google.com/s2/favicons?domain={domain}&sz=64" width="16" height="16" alt=""/> '
+
+
+def product_table(rows, badge):
+    """One table per domain: each product line once, then one row per feature with its own level."""
+    series = {}
+    for e in rows:
+        series.setdefault(e["series"], []).append(e)
+    lines = ["| Product | Feature | Level | Channels | Updates |", "|---|---|---|---|---|"]
+    for name in sorted(series, key=str.casefold):
+        group = sorted(series[name], key=lambda e: e["title"].casefold())
+        single = len(group) == 1 and group[0]["title"] == name
+        for i, e in enumerate(group):
+            url = markdown_url(e["links"]["website"])
+            org = "" if e["org"].casefold() == name.casefold() else f"<br><sub>{md(e['org'])}</sub>"
+            icon = logo(group[0]) if i == 0 else ""
+            if single:
+                product, feature = f"{icon}**[{md(name)}]({url})**{org}", ""
+            else:
+                product = f"{icon}**{md(name)}**{org}" if i == 0 else ""
+                feature = f"[{md(e['title'])}]({url})"
+            tags = e.get("tags", [])
+            level = " ".join(badge.tag(t) for t in tags if t in LEVEL_COLORS)
+            channels = " ".join(badge.tag(t) for t in tags if t in CHANNEL_COLORS)
+            updates = "<br>".join(f"[{u['date'].replace('-', '/')} · {md(u['label'])}]({markdown_url(u['url'])})"
+                                  for u in sorted(e.get("updates", []), key=lambda u: u["date"], reverse=True)[:3])
+            lines.append(f"| {product} | {feature} | {level} | {channels} | {updates} |")
+    return lines
 
 
 def order(entry, by_level=False):
@@ -241,6 +314,10 @@ def build(sections, entries):
     intro = (ROOT / "docs" / "readme-intro.md").read_text(encoding="utf-8").rstrip()
     intro = intro.replace("{{PAPER_COUNT}}", str(papers)).replace("{{WORK_COUNT}}", str(works)).replace("{{PRODUCT_COUNT}}", str(products)).replace("{{TOC}}", "\n".join(toc))
     parts = ["<!-- Generated by scripts/build_readme.py. Edit data/*.json or docs/readme-*.md, then regenerate. -->", "", intro, ""]
+    badge = Badges()
+    top_of = {}
+    for node in sections:
+        top_of[node["id"]] = top_of.get(node.get("parent"), node["id"])
 
     def emit(node):
         if not count(node):
@@ -251,9 +328,13 @@ def build(sections, entries):
         else:
             parts.append(f'<a id="{node["id"]}"></a>\n{"#" * level} {heading(node)}\n')
         own = sorted(direct.get(node["id"], []), key=lambda e: order(e, node.get("sort") == "level"))
-        if own:
+        if own and node["id"] in PRODUCT_SECTIONS:
+            parts.extend(product_table(own, badge))
+            parts.append("")
+        elif own:
             group_tags = {g["name"]: g["tag"] for g in node.get("groups", [])}
-            parts.extend(render_entry(e, group_tags) for e in own)
+            color = GROUP_COLORS.get(top_of.get(node["id"]), NEUTRAL)
+            parts.extend(render_entry(e, group_tags, badge, color) for e in own)
             parts.append("")
         for child in children.get(node["id"], []):
             emit(child)
@@ -261,6 +342,7 @@ def build(sections, entries):
     for top in tops:
         emit(top)
     parts.append((ROOT / "docs" / "readme-footer.md").read_text(encoding="utf-8").rstrip())
+    parts += ["", "<!-- badge images -->", *badge.definitions()]
     return "\n".join(parts) + "\n"
 
 
