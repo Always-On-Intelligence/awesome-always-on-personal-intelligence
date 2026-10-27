@@ -41,19 +41,20 @@ Python 3.9 or newer is enough; no packages are required. Commit the data change 
 - `links`: HTTPS URLs keyed by `paper`, `blog`, `docs`, `website`, `project`, `code`, or `data`. Prefer the arXiv abstract page, then the DOI or official page. Add code only from the official repository.
 - `tags` (optional): up to two channel tags (`S→A`, `S→M`, `M→A`, `A→S`, `M→S`, `A→M`), a loop-closure level (`L0` to `L5`), and `Product`.
 
-The README renders each entry as:
+The README renders each entry as a line with badges:
 
 ```
-- **`Venue Year`** Title. [[paper](URL)] [[code](URL)] `M→S`
+- ![Venue Year] Title. [[paper](URL)] [[code](URL)] ![M→S]
 ```
 
 ## Products and tools
 
-`data/products.json` has one record per product:
+`data/products.json` has one record per product, or per feature when a product line has several:
 
 ```json
 {
   "id": "muse",
+  "series": "Muse",
   "section": "products-digital",
   "title": "Muse",
   "org": "Meta",
@@ -64,11 +65,14 @@ The README renders each entry as:
 }
 ```
 
+- `series`: the product line. A line with several features has one record per feature, such as Claude Cowork and Claude Duet with `series` `Claude` and titles `Cowork` and `Duet`, and the README shows each feature in its own row with its own level, next to the line's other features. A product without separate features uses its name for both.
 - `section`: `products-wearable`, `products-digital`, `products-physical`, or `products-devices`.
 - `links`: only the product's most official page, such as its product or feature page; never a blog post. Use an official help page only when no product page exists.
 - `tags` (optional): channel tags and the loop-closure level the survey gives the product.
 - `sources`: the survey citation keys merged into this record; leave it empty for a curated addition.
 - `checked`: the date you opened the official page (`YYYY-MM-DD`).
+- `updates` (optional): major updates, each with a `date` (`YYYY-MM`), a short `label`, and an official HTTPS `url`. The README shows the latest three under the product's name.
+- `logo` (optional): the domain to take the product's icon from when its page's domain gives the wrong one, for example `langchain.com`.
 
 Developer tools in `data/tools.json` keep a one-sentence `description`, a `group` (`memory`, `runtime`, or `integrations`), their website, code, and docs links, and the `checked` date.
 
