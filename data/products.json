@@ -893,5 +893,39 @@
     "sources": [],
     "checked": "2026-10-26",
     "added": "2026-10-26"
+  },
+  {
+    "id": "memomindonememo",
+    "section": "products-wearable",
+    "title": "MemoMind One (Memo+)",
+    "org": "MemoMind",
+    "links": {
+      "website": "https://www.memo-mind.com/pages/memomind-one"
+    },
+    "tags": [
+      "S→M",
+      "M→A",
+      "L2"
+    ],
+    "sources": [],
+    "checked": "2026-10-27",
+    "added": "2026-10-27"
+  },
+  {
+    "id": "siriaiconversation",
+    "section": "products-digital",
+    "title": "Siri AI conversation recall (macOS 27.2)",
+    "org": "Apple",
+    "links": {
+      "website": "https://support.apple.com/en-us/127257"
+    },
+    "tags": [
+      "M→A",
+      "A→M",
+      "L1"
+    ],
+    "sources": [],
+    "checked": "2026-10-27",
+    "added": "2026-10-27"
   }
 ]
