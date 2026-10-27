@@ -30,6 +30,9 @@ GROUP_COLORS = {"sec-3": "8fa399", "sec-4": "bb9188", "sec-5": "8a9bb3", "sec-6"
 VENUE_COLORS = {"arXiv": "a1574a", "Preprints": "8c8c8c", "Book": "8c8c8c"}
 VENUE_DEFAULT, PRODUCT_COLOR, NEUTRAL = "355774", "8a6400", "8c8c8c"
 NO_LEVEL = "d0d0d0"  # products the survey gives no level: lighter than the L0 to L2 greys, with dark text
+# Links other than the one the venue badge opens, as dark badges after the title, in this order
+LINK_BADGES, LINK_COLOR = {"code": "Code", "project": "Project", "data": "Data", "docs": "Docs", "blog": "Blog", "website": "Website"}, "3b434d"
+MAIN_LINKS = ["paper", "project", "website", "docs", "blog", "code", "data"]
 
 
 class Badges:
@@ -39,18 +42,19 @@ class Badges:
         self.refs = {}
 
     @staticmethod
-    def url(text, color):
+    def url(text, color, logo=None):
         label = text.replace("-", "--").replace("_", "__").replace(" ", "_")
-        return f"https://img.shields.io/badge/{quote(label, safe='')}-{color}?style=flat-square"
+        icon = f"&logo={logo}&logoColor=white" if logo else ""
+        return f"https://img.shields.io/badge/{quote(label, safe='')}-{color}?style=flat-square{icon}"
 
     @staticmethod
     def color(tag):
         return CHANNEL_COLORS.get(tag) or LEVEL_COLORS.get(tag) or (PRODUCT_COLOR if tag == "Product" else NEUTRAL)
 
-    def __call__(self, text, color):
-        key = "b-" + re.sub(r"[^a-z0-9]+", "-", f"{text} {color}".lower().replace("→", " to ")).strip("-")
+    def __call__(self, text, color, logo=None):
+        key = "b-" + re.sub(r"[^a-z0-9]+", "-", f"{text} {color} {logo or ''}".lower().replace("→", " to ")).strip("-")
         if key not in self.refs:
-            self.refs[key] = self.url(text, color)
+            self.refs[key] = self.url(text, color, logo)
         return f"![{md(text)}][{key}]"
 
     def tag(self, tag):
@@ -192,26 +196,33 @@ def markdown_url(url):
     return url
 
 
-def resource_links(links):
-    return " ".join(f"[[{label}]({markdown_url(links[label])})]" for label in LINK_LABELS if label in links)
+def link_badges(links, badge, skip=None):
+    """Each link as a small dark badge, with the GitHub mark on code hosted there."""
+    out = []
+    for label, text in LINK_BADGES.items():
+        if label in links and label != skip:
+            logo = "github" if label == "code" and urlsplit(links[label]).netloc == "github.com" else None
+            out.append(f"[{badge(text, LINK_COLOR, logo)}]({markdown_url(links[label])})")
+    return "".join(f" {b}" for b in out)
 
 
 def render_entry(entry, group_tags, badge, group_color=NEUTRAL):
     if "org" in entry:
         tags = "".join(f" {badge.tag(tag)}" for tag in entry.get("tags", []))
         title = md(entry["title"])
-        return f"- **`{entry['label']}`** {title}. {resource_links(entry['links'])}{tags}"
+        return f"- **`{entry['label']}`** {title}.{link_badges(entry['links'], badge)}{tags}"
     if "label" in entry:
         description = entry["description"]
         if len(description) > 1 and description[1].islower():
             description = description[0].lower() + description[1:]
-        return f"- **`{entry['label']}`** {md(entry['title'])}: {md(description)} {resource_links(entry['links'])}"
+        return f"- {badge(entry['label'], NEUTRAL)} {md(entry['title'])}: {md(description)}{link_badges(entry['links'], badge)}"
     title = md(entry["title"])
     title = title if title[-1] in ".?!" else title + "."
     tags = [badge(group_tags[entry["group"]], group_color)] if entry.get("group") in group_tags else []
     tags = "".join(f" {t}" for t in tags + [badge.tag(tag) for tag in entry.get("tags", [])])
+    main = next(label for label in MAIN_LINKS if label in entry["links"])  # the venue badge opens it, the paper when there is one
     venue = badge(f"{entry['venue']} {entry['year']}", VENUE_COLORS.get(entry["venue"], VENUE_DEFAULT))
-    return f"- {venue} {title} {resource_links(entry['links'])}{tags}"
+    return f"- [{venue}]({markdown_url(entry['links'][main])}) {title}{link_badges(entry['links'], badge, skip=main)}{tags}"
 
 
 def logo(entry):
