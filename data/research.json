@@ -245,7 +245,8 @@
     "year": 2021,
     "venue": "ASRU",
     "links": {
-      "paper": "https://arxiv.org/abs/2109.06483"
+      "paper": "https://arxiv.org/abs/2109.06483",
+      "code": "https://github.com/juanmc2005/StreamingSpeakerDiarization"
     }
   },
   {
@@ -461,7 +462,8 @@
     "year": 2024,
     "venue": "ICLR",
     "links": {
-      "paper": "https://arxiv.org/abs/2309.17453"
+      "paper": "https://arxiv.org/abs/2309.17453",
+      "code": "https://github.com/mit-han-lab/streaming-llm"
     }
   },
   {
@@ -501,7 +503,8 @@
     "year": 2025,
     "venue": "IEEE TNNLS",
     "links": {
-      "paper": "https://arxiv.org/abs/2309.15683"
+      "paper": "https://arxiv.org/abs/2309.15683",
+      "code": "https://github.com/Thinksky5124/SVTAS"
     }
   },
   {
@@ -582,7 +585,8 @@
     "year": 2022,
     "venue": "ECCV",
     "links": {
-      "paper": "https://arxiv.org/abs/2209.09236"
+      "paper": "https://arxiv.org/abs/2209.09236",
+      "code": "https://github.com/zhaoyue-zephyrus/TeSTra"
     }
   },
   {
@@ -684,7 +688,7 @@
     "section": "sec-3-3-6",
     "title": "Ask Now, Use Later: Benchmarking the Proactivity Gap in Long-Lived LLM Agents",
     "year": 2026,
-    "venue": "arXiv",
+    "venue": "EMNLP",
     "links": {
       "paper": "https://arxiv.org/abs/2605.28108"
     }
@@ -727,7 +731,8 @@
     "year": 2026,
     "venue": "arXiv",
     "links": {
-      "paper": "https://arxiv.org/abs/2605.17172"
+      "paper": "https://arxiv.org/abs/2605.17172",
+      "code": "https://github.com/openjarvis/openjarvis"
     }
   },
   {
@@ -964,7 +969,7 @@
     "id": "egometas2026",
     "section": "sec-3-5-2",
     "group": "Continuous and triggered capture: coverage and cost",
-    "title": "Ego-METAS: An Egocentric Online Multimodal Energy-efficient Temporal Action Segmentation Benchmark",
+    "title": "Ego-METAS: Egocentric online Multimodal Energy-efficient Temporal Action Segmentation benchmark",
     "year": 2026,
     "venue": "arXiv",
     "links": {
@@ -1031,7 +1036,7 @@
     "id": "rememberverifyask2026",
     "section": "sec-3-5-2",
     "group": "On-demand: checking again",
-    "title": "Remember, Verify, or Ask? Cross-Family Evaluation of Memory Commitment in LLM Agents",
+    "title": "Remember, Verify, or Ask? Evaluating Memory Decisions at Reuse Time",
     "year": 2026,
     "venue": "arXiv",
     "links": {
@@ -1058,7 +1063,8 @@
     "year": 2026,
     "venue": "ICLR",
     "links": {
-      "paper": "https://arxiv.org/abs/2510.06218"
+      "paper": "https://arxiv.org/abs/2510.06218",
+      "code": "https://github.com/dehezhang2/EgoNight"
     }
   },
   {
@@ -1338,7 +1344,8 @@
     "year": 2026,
     "venue": "arXiv",
     "links": {
-      "paper": "https://arxiv.org/abs/2606.21144"
+      "paper": "https://arxiv.org/abs/2606.21144",
+      "code": "https://github.com/galaxyChen/AdaMem"
     },
     "tags": [
       "S→M"
@@ -1447,7 +1454,7 @@
     "section": "sec-4-3-3",
     "title": "OP-Bench: Benchmarking Over-Personalization for Memory-Augmented Personalized Conversational Agents",
     "year": 2026,
-    "venue": "arXiv",
+    "venue": "EMNLP",
     "links": {
       "paper": "https://arxiv.org/abs/2601.13722"
     },
@@ -1670,11 +1677,12 @@
   {
     "id": "persistentsycophancy2026",
     "section": "sec-4-5-2",
-    "title": "Agents Don't Just Agree, They Remember: Benchmarking Persistent Sycophancy in Stateful Personal Agents",
+    "title": "Agents Don't Just Agree, They Remember: Benchmarking Persistent Sycophancy in Self-Improving Personal Agents",
     "year": 2026,
     "venue": "arXiv",
     "links": {
-      "paper": "https://arxiv.org/abs/2607.10526"
+      "paper": "https://arxiv.org/abs/2607.10526",
+      "code": "https://github.com/henrymao2004/agent-sycophancy"
     }
   },
   {
@@ -1973,7 +1981,7 @@
     "group": "Coupling and later use: state influences subsequent decisions",
     "title": "MemoryArena: Benchmarking Agent Memory in Interdependent Multi-Session Agentic Tasks",
     "year": 2026,
-    "venue": "arXiv",
+    "venue": "ICML",
     "links": {
       "paper": "https://arxiv.org/abs/2602.16313"
     }
@@ -2072,7 +2080,8 @@
     "year": 2026,
     "venue": "arXiv",
     "links": {
-      "paper": "https://arxiv.org/abs/2605.18565"
+      "paper": "https://arxiv.org/abs/2605.18565",
+      "code": "https://github.com/amy-hyunji/MINTEval"
     }
   },
   {
@@ -2221,7 +2230,7 @@
   {
     "id": "serp2026",
     "section": "sec-5-1-2",
-    "title": "Agentic Self-Evolutionary Replanning for Embodied Navigation",
+    "title": "Self-Evolutionary Replanning for Failure-Aware Motion Planning",
     "year": 2026,
     "venue": "arXiv",
     "links": {
@@ -2231,9 +2240,9 @@
   {
     "id": "implicitrm2026",
     "section": "sec-5-1-2",
-    "title": "ImplicitRM: Unbiased Reward Modeling from Implicit Preference Data for LLM alignment",
+    "title": "Unbiased Reward Modeling from Implicit Feedback for LLM Alignment",
     "year": 2026,
-    "venue": "arXiv",
+    "venue": "ICML",
     "links": {
       "paper": "https://arxiv.org/abs/2603.23184"
     }
@@ -2323,7 +2332,7 @@
   {
     "id": "triggerrouting2026",
     "section": "sec-5-3-1",
-    "title": "Do Proactive Agents Really Need an LLM to Decide When to Wake and What to Anchor?",
+    "title": "Do Proactive Agents Need an LLM to Decide When to Act?",
     "year": 2026,
     "venue": "arXiv",
     "links": {
@@ -2335,7 +2344,7 @@
     "section": "sec-5-3-1",
     "title": "Learning to Assist: Collaborative VLAs for Implicit Human-Robot Collaboration",
     "year": 2026,
-    "venue": "arXiv",
+    "venue": "CoRL",
     "links": {
       "paper": "https://arxiv.org/abs/2606.12475"
     }
@@ -2374,7 +2383,7 @@
   {
     "id": "when2speak2026",
     "section": "sec-5-3-1",
-    "title": "When2Speak: A Dataset for Temporal Participation and Turn-Taking in Multi-Party Conversations for LLMs",
+    "title": "When2Speak: A Dataset for Temporal Participation and Turn-Taking in Multi-Party Conversations for Large Language Models",
     "year": 2026,
     "venue": "arXiv",
     "links": {
@@ -2440,7 +2449,8 @@
     "year": 2026,
     "venue": "arXiv",
     "links": {
-      "paper": "https://arxiv.org/abs/2609.00546"
+      "paper": "https://arxiv.org/abs/2609.00546",
+      "code": "https://github.com/our-ark/enoch-muse-runtime"
     }
   },
   {
@@ -2501,7 +2511,7 @@
   {
     "id": "formalpolicy2026",
     "section": "sec-5-3-4",
-    "title": "Formal Policy Enforcement for Real-World Agentic Systems",
+    "title": "Formal Policy Enforcement for Agentic Systems",
     "year": 2026,
     "venue": "arXiv",
     "links": {
@@ -2703,7 +2713,7 @@
     "group": "Authority and consequences across interactions",
     "title": "Agent Memory Is a Surface for Endogenous Authorization Laundering",
     "year": 2026,
-    "venue": "arXiv",
+    "venue": "NeurIPS Workshop",
     "links": {
       "paper": "https://arxiv.org/abs/2609.01836",
       "code": "https://github.com/tommasocerruti/eal-bench"
@@ -2745,9 +2755,10 @@
     "group": "Authority and consequences across interactions",
     "title": "PACE: Towards Surfacing Hidden Conflicts in User Requests",
     "year": 2026,
-    "venue": "arXiv",
+    "venue": "EMNLP",
     "links": {
-      "paper": "https://arxiv.org/abs/2609.03293"
+      "paper": "https://arxiv.org/abs/2609.03293",
+      "code": "https://github.com/p2chp2t/pacemaker"
     },
     "tags": [
       "M→A"
@@ -3111,7 +3122,8 @@
     "year": 2026,
     "venue": "ICML",
     "links": {
-      "paper": "https://arxiv.org/abs/2601.22575"
+      "paper": "https://arxiv.org/abs/2601.22575",
+      "code": "https://github.com/Lucky-Lance/PhoStream"
     }
   },
   {
@@ -3215,7 +3227,8 @@
     "venue": "arXiv",
     "links": {
       "paper": "https://arxiv.org/abs/2511.13261",
-      "project": "https://github.com/z1oong/Building-Egocentric-Procedural-AI-Assistant"
+      "project": "https://github.com/z1oong/Building-Egocentric-Procedural-AI-Assistant",
+      "code": "https://github.com/z1oong/Building-Egocentric-Procedural-AI-Assistant"
     }
   },
   {
@@ -3250,7 +3263,7 @@
   {
     "id": "proagent",
     "section": "sec-6-1-1",
-    "title": "ProAgent: Harnessing On-Demand Sensory Contexts for Proactive LLM Agent Systems",
+    "title": "ProAgent: Harnessing On-Demand Sensory Contexts for Proactive LLM Agent Systems in the Wild",
     "year": 2025,
     "venue": "arXiv",
     "links": {
@@ -3459,7 +3472,8 @@
     "year": 2026,
     "venue": "arXiv",
     "links": {
-      "paper": "https://arxiv.org/abs/2605.22794"
+      "paper": "https://arxiv.org/abs/2605.22794",
+      "code": "https://github.com/hkgai-official/Moss"
     },
     "tags": [
       "L1"
@@ -3511,7 +3525,8 @@
     "year": 2026,
     "venue": "ICML",
     "links": {
-      "paper": "https://arxiv.org/abs/2605.16883"
+      "paper": "https://arxiv.org/abs/2605.16883",
+      "code": "https://github.com/jinshilong-dev/SE-GA"
     }
   },
   {
@@ -3953,7 +3968,8 @@
     "year": 2026,
     "venue": "arXiv",
     "links": {
-      "paper": "https://arxiv.org/abs/2607.10350"
+      "paper": "https://arxiv.org/abs/2607.10350",
+      "code": "https://github.com/amap-cvlab/ABot-AgentOS"
     },
     "tags": [
       "L2"
@@ -4151,7 +4167,8 @@
     "year": 2026,
     "venue": "arXiv",
     "links": {
-      "paper": "https://arxiv.org/abs/2605.13941"
+      "paper": "https://arxiv.org/abs/2605.13941",
+      "code": "https://github.com/aiming-lab/SimpleMem"
     }
   },
   {
@@ -4161,7 +4178,8 @@
     "year": 2026,
     "venue": "arXiv",
     "links": {
-      "paper": "https://arxiv.org/abs/2605.30621"
+      "paper": "https://arxiv.org/abs/2605.30621",
+      "code": "https://github.com/A-EVO-Lab/a-evolve"
     }
   },
   {
@@ -4221,7 +4239,8 @@
     "year": 2026,
     "venue": "arXiv",
     "links": {
-      "paper": "https://arxiv.org/abs/2604.14399"
+      "paper": "https://arxiv.org/abs/2604.14399",
+      "code": "https://github.com/wuaodi/SpaceMind"
     }
   },
   {
@@ -4345,9 +4364,10 @@
     "section": "sec-8-3",
     "title": "Library Drift: Diagnosing and Fixing a Silent Failure Mode in Self-Evolving LLM Skill Libraries",
     "year": 2026,
-    "venue": "arXiv",
+    "venue": "ICML Workshop",
     "links": {
-      "paper": "https://arxiv.org/abs/2605.19576"
+      "paper": "https://arxiv.org/abs/2605.19576",
+      "code": "https://github.com/amazon-science/Self-Evolving-Agents-Ratchet"
     }
   },
   {
@@ -4357,7 +4377,8 @@
     "year": 2026,
     "venue": "arXiv",
     "links": {
-      "paper": "https://arxiv.org/abs/2608.24735"
+      "paper": "https://arxiv.org/abs/2608.24735",
+      "code": "https://github.com/minnesotanlp/meta-n"
     }
   },
   {
@@ -4367,7 +4388,8 @@
     "year": 2026,
     "venue": "arXiv",
     "links": {
-      "paper": "https://arxiv.org/abs/2608.12851"
+      "paper": "https://arxiv.org/abs/2608.12851",
+      "code": "https://github.com/henrymao2004/misevolve"
     }
   },
   {
@@ -4499,7 +4521,7 @@
     "section": "sec-8-4",
     "title": "Toward User-Conditioned Evaluation of Personal LLM Agents under Temporal Interventions",
     "year": 2026,
-    "venue": "arXiv",
+    "venue": "KDD Workshop",
     "links": {
       "paper": "https://arxiv.org/abs/2607.21635"
     }
@@ -4511,7 +4533,8 @@
     "year": 2026,
     "venue": "arXiv",
     "links": {
-      "paper": "https://arxiv.org/abs/2607.12790"
+      "paper": "https://arxiv.org/abs/2607.12790",
+      "code": "https://github.com/amazon-science/Self-Evolving-Agents-Double-Ratchet"
     }
   },
   {
@@ -4656,7 +4679,7 @@
     "group": "Capability-focused surveys",
     "title": "A Survey on Long-Term Memory Security in LLM Agents: Attacks, Defenses, and Governance Across the Memory Lifecycle",
     "year": 2026,
-    "venue": "arXiv",
+    "venue": "EMNLP",
     "links": {
       "paper": "https://arxiv.org/abs/2604.16548"
     },
@@ -4668,7 +4691,7 @@
     "id": "kong2026autoresearch",
     "section": "related-surveys",
     "group": "Capability-focused surveys",
-    "title": "AI for Auto-Research: Roadmap and User Guide",
+    "title": "AI for Auto-Research: Roadmap & User Guide",
     "year": 2026,
     "venue": "arXiv",
     "links": {
@@ -4706,7 +4729,8 @@
     "year": 2026,
     "venue": "IMWUT",
     "links": {
-      "paper": "https://arxiv.org/abs/2604.02711"
+      "paper": "https://arxiv.org/abs/2604.02711",
+      "code": "https://github.com/zhaxidele/Foundation-Models-Defining-A-New-Era-In-Human-Activity-Recognition"
     }
   },
   {
@@ -4717,7 +4741,8 @@
     "year": 2026,
     "venue": "Findings of ACL",
     "links": {
-      "paper": "https://arxiv.org/abs/2603.04592"
+      "paper": "https://arxiv.org/abs/2603.04592",
+      "code": "https://github.com/EIT-NLP/Awesome-Streaming-LLMs"
     }
   },
   {
@@ -4811,7 +4836,8 @@
     "year": 2024,
     "venue": "Natl. Sci. Rev.",
     "links": {
-      "paper": "https://arxiv.org/abs/2306.13549"
+      "paper": "https://arxiv.org/abs/2306.13549",
+      "code": "https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models"
     }
   },
   {
@@ -4833,7 +4859,8 @@
     "year": 2024,
     "venue": "arXiv",
     "links": {
-      "paper": "https://arxiv.org/abs/2409.00088"
+      "paper": "https://arxiv.org/abs/2409.00088",
+      "code": "https://github.com/NexaAI/Awesome-LLMs-on-device"
     }
   },
   {
