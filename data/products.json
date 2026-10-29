@@ -761,7 +761,14 @@
     "sources": [
       "alexaplus2026"
     ],
-    "checked": "2026-10-05"
+    "checked": "2026-10-05",
+    "updates": [
+      {
+        "date": "2026-10",
+        "label": "Camera sensing for Alexa+",
+        "url": "https://www.amazon.com/alexaplus"
+      }
+    ]
   },
   {
     "id": "amazon-astro",
@@ -1048,5 +1055,41 @@
     "sources": [],
     "checked": "2026-10-27",
     "added": "2026-10-27"
+  },
+  {
+    "id": "forthbandand",
+    "series": "Forth",
+    "section": "products-wearable",
+    "title": "Band and Cue",
+    "org": "Forth",
+    "links": {
+      "website": "https://getforth.co/facts/"
+    },
+    "tags": [
+      "S→M",
+      "M→A",
+      "L2"
+    ],
+    "sources": [],
+    "checked": "2026-10-29",
+    "added": "2026-10-29"
+  },
+  {
+    "id": "ona",
+    "series": "Ona",
+    "section": "products-wearable",
+    "title": "Ona",
+    "org": "Ona",
+    "links": {
+      "website": "https://onavoice.ai/"
+    },
+    "tags": [
+      "S→M",
+      "M→A",
+      "L2"
+    ],
+    "sources": [],
+    "checked": "2026-10-29",
+    "added": "2026-10-29"
   }
 ]

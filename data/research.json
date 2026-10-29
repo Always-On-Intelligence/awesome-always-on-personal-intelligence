@@ -4983,5 +4983,32 @@
       "M→A"
     ],
     "added": "2026-10-26"
+  },
+  {
+    "id": "etamem2026",
+    "section": "sec-4-1-2",
+    "title": "ETAMem: Decoupling and Aligning Heterogeneous Memory for Long-Term Conversational Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.37443"
+    },
+    "added": "2026-10-29"
+  },
+  {
+    "id": "proactivememoryfor2026",
+    "section": "sec-5-4-2",
+    "title": "Proactive Memory for Event-Driven LLM Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.36967",
+      "code": "https://anonymous.4open.science/r/ProactMem-5351/"
+    },
+    "tags": [
+      "S→M",
+      "M→A"
+    ],
+    "added": "2026-10-29"
   }
 ]
