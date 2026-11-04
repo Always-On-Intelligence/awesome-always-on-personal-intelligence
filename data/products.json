@@ -1210,5 +1210,22 @@
     "sources": [],
     "checked": "2026-10-28",
     "added": "2026-10-28"
+  },
+  {
+    "id": "oak1",
+    "series": "Oak1",
+    "section": "products-wearable",
+    "title": "Oak1",
+    "org": "Careflick",
+    "links": {
+      "website": "https://careflick.com/"
+    },
+    "tags": [
+      "M→A",
+      "L2"
+    ],
+    "sources": [],
+    "checked": "2026-11-03",
+    "added": "2026-11-03"
   }
 ]
