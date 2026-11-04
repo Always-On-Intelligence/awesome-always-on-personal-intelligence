@@ -7472,5 +7472,166 @@
       "S→A"
     ],
     "added": "2026-10-28"
+  },
+  {
+    "id": "itemcompass2026",
+    "section": "sec-6-1-1",
+    "title": "ItemCompass: Real-Time Edge-AI Wearable Vision for Tag-Free Domestic Object Retrieval",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.38629"
+    },
+    "tags": [
+      "S→M",
+      "M→A",
+      "L2"
+    ],
+    "added": "2026-11-02"
+  },
+  {
+    "id": "longtermagent2026",
+    "section": "sec-4-3-4",
+    "title": "Long-Term Agent Memory through Complementary Curation and Consolidation",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.39790"
+    },
+    "added": "2026-11-02"
+  },
+  {
+    "id": "calm2026",
+    "section": "sec-4-3-4",
+    "title": "CALM: Conflict-Aware Lifecycle Memory Governance for Long-Horizon Language Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.38573"
+    },
+    "added": "2026-11-02"
+  },
+  {
+    "id": "appreciationteachesunauthorized2026",
+    "section": "sec-6-4",
+    "title": "Appreciation Teaches Unauthorized Execution: Self-Evolution Degrades the Robustness of Personal Agents to Indirect Prompt Injection",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.39122",
+      "code": "https://github.com/SaFo-Lab/Evolve-IPI"
+    },
+    "tags": [
+      "M→A",
+      "A→M"
+    ],
+    "added": "2026-11-02"
+  },
+  {
+    "id": "halo2026",
+    "section": "sec-5-5-2",
+    "group": "Proactive: acting or staying silent",
+    "title": "HALO: Human-Grounded Granular Evaluation of Proactive Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.39086",
+      "code": "https://github.com/CedricPei/HALO"
+    },
+    "tags": [
+      "S→A",
+      "M→A"
+    ],
+    "added": "2026-11-02"
+  },
+  {
+    "id": "askstream2026",
+    "section": "sec-3-5-2",
+    "group": "Readiness and response timing",
+    "title": "AskStream: When and What to Ask Proactively under Uncertainty in Streaming Video Understanding",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.38678"
+    },
+    "tags": [
+      "S→A"
+    ],
+    "added": "2026-11-02"
+  },
+  {
+    "id": "whentoassist2026",
+    "section": "sec-5-3-1",
+    "title": "When to Assist and What to Suggest: Joint Gating and Memory-Grounded Hint Generation in One Compact Decoder",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.40611"
+    },
+    "tags": [
+      "S→A",
+      "M→A"
+    ],
+    "added": "2026-11-02"
+  },
+  {
+    "id": "isitmy2026",
+    "section": "sec-4-3-2",
+    "title": "Is it my preference? Role Grounding Attack against Agent's Memory via Social Interaction",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.38209"
+    },
+    "tags": [
+      "S→M",
+      "M→A"
+    ],
+    "added": "2026-11-02"
+  },
+  {
+    "id": "memsteer2026",
+    "section": "sec-4-3-6",
+    "title": "MemSteer: Turning User Histories into Supervision for Agent Memory Optimization",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.39276"
+    },
+    "added": "2026-11-02"
+  },
+  {
+    "id": "agenticuniversity2026",
+    "section": "sec-6-1-2",
+    "title": "Agentic University: Collaborative Agents for Personalized Learning",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.40492",
+      "code": "https://github.com/AgenticOrgLab/AgenticUniversity.git"
+    },
+    "tags": [
+      "M→A",
+      "A→M",
+      "L2"
+    ],
+    "added": "2026-11-02"
+  },
+  {
+    "id": "theathleteas2026",
+    "section": "sec-6-1-1",
+    "title": "The Athlete as a Scientist of One: Agentic Bayesian Experimental Design for Individualized Physiology from Consumer Wearables",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.40370"
+    },
+    "tags": [
+      "S→M",
+      "M→A",
+      "A→M",
+      "L2"
+    ],
+    "added": "2026-11-02"
   }
 ]
