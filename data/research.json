@@ -7200,5 +7200,277 @@
       "M→A"
     ],
     "added": "2026-10-25"
+  },
+  {
+    "id": "thepriceof2026",
+    "section": "sec-5-3-1",
+    "title": "The Price of Scale in Proactive Memory Recall",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.34507",
+      "code": "https://github.com/RiverChenStillCompiling/price-of-scale"
+    },
+    "tags": [
+      "M→A"
+    ],
+    "added": "2026-10-28"
+  },
+  {
+    "id": "conmem2026",
+    "section": "sec-4-3-1",
+    "title": "ConMem: Counterfactual Multi-Scenario Probing for Resolving LLM Memory Misalignment",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.33432"
+    },
+    "tags": [
+      "M→A"
+    ],
+    "added": "2026-10-28"
+  },
+  {
+    "id": "streamvibe2026",
+    "section": "sec-5-5-2",
+    "group": "Proactive: acting or staying silent",
+    "title": "StreamVibe: Proactive Video Agents for Evolving User Intent",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.34662"
+    },
+    "tags": [
+      "S→A",
+      "M→A"
+    ],
+    "added": "2026-10-28"
+  },
+  {
+    "id": "slicemem2026",
+    "section": "sec-4-3-1",
+    "title": "SLICE-Mem: Salience-Gated Lightweight Information Curation for Efficient LLM Agent Memory",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.33015"
+    },
+    "added": "2026-10-28"
+  },
+  {
+    "id": "iprefbench2026",
+    "section": "sec-4-5-2",
+    "group": "Coupling and later use: state influences subsequent decisions",
+    "title": "iPrefBench: A User-Centric Benchmark for Personalized Mobile Use Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.34735"
+    },
+    "tags": [
+      "M→A"
+    ],
+    "added": "2026-10-28"
+  },
+  {
+    "id": "memorytax2026",
+    "section": "sec-4-5-2",
+    "group": "Recall baselines",
+    "title": "Memory Tax: Dissecting the Net Value of Agent Memory",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.34073"
+    },
+    "added": "2026-10-28"
+  },
+  {
+    "id": "inferpriv2026",
+    "section": "sec-5-5-2",
+    "group": "Authority and consequences across interactions",
+    "title": "InferPriv: Evaluating Inferential Privacy Leakage in LLM Assistants",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.34640"
+    },
+    "tags": [
+      "M→A"
+    ],
+    "added": "2026-10-28"
+  },
+  {
+    "id": "omniinteractscope2026",
+    "section": "sec-5-5-2",
+    "group": "Proactive: acting or staying silent",
+    "title": "Omni-InteractScope: Benchmarking Proactive and Agentic Interaction in Continuous Omnimodal Streams",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.35439"
+    },
+    "tags": [
+      "S→A"
+    ],
+    "added": "2026-10-28"
+  },
+  {
+    "id": "adaptivememoryindex2026",
+    "section": "sec-4-3-6",
+    "title": "Adaptive Memory Index Evolution for Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.34977"
+    },
+    "added": "2026-10-28"
+  },
+  {
+    "id": "retrievalaugmentedonline2026",
+    "section": "sec-4-3-3",
+    "title": "Retrieval-Augmented Online Textual Memory for Episodic Memory Video Question Answering",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.31284"
+    },
+    "tags": [
+      "S→M"
+    ],
+    "added": "2026-10-28"
+  },
+  {
+    "id": "agentmemoryas2026",
+    "section": "sec-4-3-3",
+    "title": "Agent Memory as Recommendation: Recommender-System Design for Long-Term Memory of LLM Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.34673"
+    },
+    "added": "2026-10-28"
+  },
+  {
+    "id": "fromvoiceprintsto2026",
+    "section": "sec-4-3-2",
+    "title": "From Voiceprints to User Entities: Online Speaker-Memory Construction for Multi-User Spoken Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.36713"
+    },
+    "tags": [
+      "S→M"
+    ],
+    "added": "2026-10-28"
+  },
+  {
+    "id": "interactiveworld2026",
+    "section": "sec-5-5-2",
+    "group": "Reactive: executing a request",
+    "title": "InteractiveWorld: A Verifiable Human-Centric Environment for Building Better Interactive MLLM Assistants",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.33966"
+    },
+    "tags": [
+      "S→A",
+      "A→S"
+    ],
+    "added": "2026-10-28"
+  },
+  {
+    "id": "trawmem2026",
+    "section": "sec-4-3-3",
+    "title": "TrawMem: Reframing Agent Memory as Task-Oriented Role-Adaptive Workspaces",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.36918"
+    },
+    "added": "2026-10-28"
+  },
+  {
+    "id": "flexamem2026",
+    "section": "sec-4-3-3",
+    "title": "FlexA-Mem: Budget-Adaptive Agentic Memory for LLM Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.33274",
+      "code": "https://github.com/WujiangXu/Flex-Amem"
+    },
+    "added": "2026-10-28"
+  },
+  {
+    "id": "behaviormem2026",
+    "section": "sec-4-5-2",
+    "group": "Profile: keeping what holds valid",
+    "title": "BehaviorMem: Building and Evaluating User Memory from Real-World E-Commerce Behavior Streams",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.34790"
+    },
+    "tags": [
+      "S→M"
+    ],
+    "added": "2026-10-28"
+  },
+  {
+    "id": "causaldagguided2026",
+    "section": "sec-5-3-5",
+    "title": "Causal DAG-Guided Reinforcement Learning for Long-Term Physical Activity Maintenance: Using Prior Data to Inform Future Deployment",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.36019"
+    },
+    "tags": [
+      "S→A",
+      "A→M"
+    ],
+    "added": "2026-10-28"
+  },
+  {
+    "id": "glancear2026",
+    "section": "sec-3-3-1",
+    "title": "GlanceAR: Repurposing Phone Sensors via Low-Cost Reflectors for Always-On Obstacle Awareness",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.33142"
+    },
+    "tags": [
+      "S→A"
+    ],
+    "added": "2026-10-28"
+  },
+  {
+    "id": "iscomplexagentic2026",
+    "section": "sec-4-5-2",
+    "group": "Recall baselines",
+    "title": "Is Complex Agentic Memory Always Needed? Naive RAG Is Stronger Than We Thought",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.30755"
+    },
+    "added": "2026-10-28"
+  },
+  {
+    "id": "apersonalizedand2026",
+    "section": "sec-5-3-5",
+    "title": "A Personalized and Adaptive Intelligent Tutoring System for Psychomotor Learning",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.33467"
+    },
+    "tags": [
+      "S→A"
+    ],
+    "added": "2026-10-28"
   }
 ]

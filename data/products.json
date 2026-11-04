@@ -1193,5 +1193,22 @@
     "sources": [],
     "checked": "2026-10-25",
     "added": "2026-10-25"
+  },
+  {
+    "id": "harkpro",
+    "series": "Hark",
+    "section": "products-digital",
+    "title": "Pro",
+    "org": "Hark",
+    "links": {
+      "website": "https://hark.com/"
+    },
+    "tags": [
+      "M→A",
+      "L2"
+    ],
+    "sources": [],
+    "checked": "2026-10-28",
+    "added": "2026-10-28"
   }
 ]
