@@ -378,7 +378,7 @@ Memory retains information for later service and supplies it when a decision nee
 - [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.22877) DynamicMem: A Long-Horizon Memory Benchmark in Real-World Settings.
 - [![Findings of ACL 2026][b-findings-of-acl-2026-355774]](https://arxiv.org/abs/2604.11182) Evaluating Memory Capability in Continuous Lifelog Scenario. ![Admission][b-admission-bb9188]
 - [![ICLR 2026][b-iclr-2026-355774]](https://arxiv.org/abs/2507.05257) Evaluating Memory in LLM Agents via Incremental Multi-Turn Interactions. [![Code][b-code-3b434d-github]](https://github.com/HUST-AI-HYZ/MemoryAgentBench) ![Recall baselines][b-recall-baselines-bb9188]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.18421) EvoMemBench: Benchmarking Agent Memory from a Self-Evolving Perspective. [![Code][b-code-3b434d-github]](https://github.com/DSAIL-Memory/EvoMemBench) ![Coupling and later use][b-coupling-and-later-use-bb9188]
+- [![NeurIPS 2026][b-neurips-2026-355774]](https://arxiv.org/abs/2605.18421) EvoMemBench: Benchmarking Agent Memory from a Self-Evolving Perspective. [![Code][b-code-3b434d-github]](https://github.com/DSAIL-Memory/EvoMemBench) ![Coupling and later use][b-coupling-and-later-use-bb9188]
 - [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2604.04901) FileGram: Grounding Agent Personalization in File-System Behavioral Traces. [![Code][b-code-3b434d-github]](https://github.com/synvo-ai/FileGram)
 - [![Findings of ACL 2026][b-findings-of-acl-2026-355774]](https://arxiv.org/abs/2604.20006) From Recall to Forgetting: Benchmarking Long-Term Memory for Personalized Agents. ![Profile][b-profile-bb9188]
 - [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2511.03506) HaluMem: Evaluating Hallucinations in Memory Systems of Agents. [![Code][b-code-3b434d-github]](https://github.com/MemTensor/HaluMem) ![Admission][b-admission-bb9188]
@@ -1080,6 +1080,7 @@ The paper will be released soon. Until then, please cite it as it currently appe
 [b-neurips-2021-355774]: https://img.shields.io/badge/NeurIPS_2021-355774?style=flat-square
 [b-neurips-2024-355774]: https://img.shields.io/badge/NeurIPS_2024-355774?style=flat-square
 [b-neurips-2025-355774]: https://img.shields.io/badge/NeurIPS_2025-355774?style=flat-square
+[b-neurips-2026-355774]: https://img.shields.io/badge/NeurIPS_2026-355774?style=flat-square
 [b-neurips-d-b-2023-355774]: https://img.shields.io/badge/NeurIPS_D%26B_2023-355774?style=flat-square
 [b-neurips-d-b-2024-355774]: https://img.shields.io/badge/NeurIPS_D%26B_2024-355774?style=flat-square
 [b-neurips-d-b-2025-355774]: https://img.shields.io/badge/NeurIPS_D%26B_2025-355774?style=flat-square

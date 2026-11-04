@@ -1957,7 +1957,7 @@
     "group": "Coupling and later use: state influences subsequent decisions",
     "title": "EvoMemBench: Benchmarking Agent Memory from a Self-Evolving Perspective",
     "year": 2026,
-    "venue": "arXiv",
+    "venue": "NeurIPS",
     "links": {
       "paper": "https://arxiv.org/abs/2605.18421",
       "code": "https://github.com/DSAIL-Memory/EvoMemBench"
