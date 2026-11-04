@@ -11,7 +11,7 @@
 
 <p>
   <a href="https://github.com/Always-On-Intelligence/awesome-always-on-personal-intelligence/stargazers"><img src="https://img.shields.io/github/stars/Always-On-Intelligence/awesome-always-on-personal-intelligence?style=flat-square&logo=github&color=B88465" alt="GitHub stars"/></a>
-  <img src="https://img.shields.io/badge/Papers-432-355774?style=flat-square" alt="432 papers"/>
+  <img src="https://img.shields.io/badge/Papers-434-355774?style=flat-square" alt="434 papers"/>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-8C8C8C?style=flat-square" alt="MIT License"/></a>
 </p>
 
@@ -343,6 +343,7 @@ Memory retains information for later service and supplies it when a decision nee
 <a id="sec-4-3-5"></a>
 #### What Stops Influencing Later Decisions: Retirement, Forgetting, and Deletion
 
+- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.31366) AfterDeleteBench: Auditing Post-Deletion Information Persistence in LLM Agents.
 - [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.24785) PANDO: Efficient Multimodal AI Agents via Online Skill Distillation.
 - [![Findings of EMNLP 2023][b-findings-of-emnlp-2023-355774]](https://aclanthology.org/2023.findings-emnlp.720/) Mind the Gap Between Conversations for Improved Long-Term Dialogue Generation.
 
@@ -407,6 +408,7 @@ Memory retains information for later service and supplies it when a decision nee
 - [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.27141) VitaBench 2.0: Evaluating Personalized and Proactive Agents in Long-Term User Interactions. [![Code][b-code-3b434d-github]](https://github.com/meituan-longcat/vitabench-2.0)
 - [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.01619) When Memory Updates but Behavior Does Not: Repairing Implicit Stale Dependencies in Personalized Agent Responses.
 - [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.06731) When Routine Chats Turn Toxic: Unintended Long-Term State Poisoning in Personalized Agents.
+- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.30485) Why Bother Me Again? Benchmarking Personal Agent Memory for Interaction Preferences. ![M→A][b-m-to-a-556b88] ![A→M][b-a-to-m-9d675d]
 - [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.29341) WorldMemArena: Evaluating Multimodal Agent Memory Through Action-World Interaction. [![Code][b-code-3b434d-github]](https://github.com/UCSB-AI/WorldMemArena) ![Coupling and later use][b-coupling-and-later-use-bb9188] ![S→M][b-s-to-m-9d675d]
 - [![arXiv 2025][b-arxiv-2025-a1574a]](https://arxiv.org/abs/2505.11942) LifelongAgentBench: Evaluating LLM Agents as Lifelong Learners.
 - [![ICLR 2025][b-iclr-2025-355774]](https://arxiv.org/abs/2410.10813) LongMemEval: Benchmarking Chat Assistants on Long-Term Interactive Memory. [![Code][b-code-3b434d-github]](https://github.com/xiaowu0162/LongMemEval) ![Recall baselines][b-recall-baselines-bb9188]
