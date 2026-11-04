@@ -7633,5 +7633,28 @@
       "L2"
     ],
     "added": "2026-11-02"
+  },
+  {
+    "id": "kite2026",
+    "section": "sec-4-3-3",
+    "title": "KITE: Retrieval as a Decision Procedure for Long-Term Conversational Memory",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.41521",
+      "code": "https://github.com/memoket/memoket-kite"
+    },
+    "added": "2026-11-03"
+  },
+  {
+    "id": "whenshouldai2026",
+    "section": "sec-5-3-1",
+    "title": "When Should AI Agents Ask? Clarification Requests Under Limited Human Attention",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.41129"
+    },
+    "added": "2026-11-03"
   }
 ]
