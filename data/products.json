@@ -1091,5 +1091,107 @@
     "sources": [],
     "checked": "2026-10-29",
     "added": "2026-10-29"
+  },
+  {
+    "id": "lia",
+    "series": "LIA",
+    "section": "products-digital",
+    "title": "LIA",
+    "org": "LIA",
+    "links": {
+      "website": "https://lia.jeyswork.com/en"
+    },
+    "tags": [
+      "M→A",
+      "L3"
+    ],
+    "sources": [],
+    "checked": "2026-10-25",
+    "added": "2026-10-25"
+  },
+  {
+    "id": "specsintelligence",
+    "series": "SPECS Intelligence",
+    "section": "products-digital",
+    "title": "SPECS Intelligence",
+    "org": "Snap",
+    "links": {
+      "website": "https://www.specs.com/intelligence"
+    },
+    "tags": [
+      "M→A",
+      "L3"
+    ],
+    "sources": [],
+    "checked": "2026-10-25",
+    "added": "2026-10-25"
+  },
+  {
+    "id": "violoop",
+    "series": "Violoop",
+    "section": "products-devices",
+    "title": "Violoop",
+    "org": "Violoop",
+    "links": {
+      "website": "https://violoop.ai/"
+    },
+    "tags": [
+      "S→M",
+      "M→A",
+      "L3"
+    ],
+    "sources": [],
+    "checked": "2026-10-25",
+    "added": "2026-10-25"
+  },
+  {
+    "id": "switchbotaimindclip",
+    "series": "SwitchBot AI MindClip",
+    "section": "products-wearable",
+    "title": "SwitchBot AI MindClip",
+    "org": "SwitchBot",
+    "links": {
+      "website": "https://us.switch-bot.com/products/switchbot-ai-mindclip"
+    },
+    "tags": [
+      "S→M",
+      "M→A",
+      "L2"
+    ],
+    "sources": [],
+    "checked": "2026-10-25",
+    "added": "2026-10-25"
+  },
+  {
+    "id": "sai",
+    "series": "Sai",
+    "section": "products-digital",
+    "title": "Sai",
+    "org": "Simular",
+    "links": {
+      "website": "https://sai.work"
+    },
+    "tags": [
+      "L2"
+    ],
+    "sources": [],
+    "checked": "2026-10-25",
+    "added": "2026-10-25"
+  },
+  {
+    "id": "openmuse",
+    "series": "OpenMuse",
+    "section": "products-digital",
+    "title": "OpenMuse",
+    "org": "CopilotKit",
+    "links": {
+      "website": "https://github.com/CopilotKit/OpenMuse"
+    },
+    "tags": [
+      "L2"
+    ],
+    "sources": [],
+    "checked": "2026-10-25",
+    "added": "2026-10-25"
   }
 ]

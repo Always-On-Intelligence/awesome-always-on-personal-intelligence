@@ -5036,5 +5036,2169 @@
       "paper": "https://arxiv.org/abs/2610.31366"
     },
     "added": "2026-10-24"
+  },
+  {
+    "id": "apmbench2026",
+    "section": "sec-4-5-2",
+    "group": "Coupling and later use: state influences subsequent decisions",
+    "title": "APM-Bench: Benchmarking Cross-session Persistent Memory for Egocentric Streaming Video Assistants",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.37559"
+    },
+    "tags": [
+      "S→M",
+      "M→A"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "promemagent2026",
+    "section": "sec-5-4-2",
+    "title": "ProMemAgent: Long-Horizon Proactive Assistance with Context-Aware Prospective Memory from Sensory Perceptions",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.27400"
+    },
+    "tags": [
+      "S→M",
+      "M→A"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "nanomuse2026",
+    "section": "sec-6-1-2",
+    "title": "nanoMuse: An Open-Source Personal Agent for Every Device You Own",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.08699"
+    },
+    "tags": [
+      "L1"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "dyadmem2026",
+    "section": "sec-4-5-2",
+    "group": "Profile: keeping what holds valid",
+    "title": "DyadMem: A Long-Term Memory Benchmark of How Agents Work with Users",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.03020"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "persist2026",
+    "section": "sec-4-3-2",
+    "title": "PERSIST: Who-What-When Memory Across Sessions for Full-Duplex Spoken Dialogue",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.07725"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "proactegomem2026",
+    "section": "sec-4-5-2",
+    "group": "Admission: what enters the store",
+    "title": "ProactEgoMem: Benchmarking Proactive Memory in Streaming Egocentric Video",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.30089"
+    },
+    "tags": [
+      "S→M"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "affectiveagent2026",
+    "section": "sec-5-3-1",
+    "title": "Affective Agent: On-Device Personalized Intervention Reasoning for Wearable Systems",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.12322"
+    },
+    "tags": [
+      "M→A",
+      "A→M"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "preferencedrivenonline2026",
+    "section": "sec-5-3-5",
+    "title": "Preference-Driven Online Adaptation for Personalized Interaction Initiation in Proactive AI Assistants",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.04416"
+    },
+    "tags": [
+      "M→A",
+      "A→M"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "richard2026",
+    "section": "sec-6-1-2",
+    "title": "Richard: Voice-First Mobile Interaction for Persistent Tasks",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.39976"
+    },
+    "tags": [
+      "L2"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "qwenaudioagent2026",
+    "section": "sec-6-2-2",
+    "title": "Qwen-Audio-Agent Technical Report",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.25195"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "psyevo2026",
+    "section": "sec-6-4",
+    "title": "PsyEvo: A Personalized Counseling Agent That Self-Evolves at Test Time",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.02885",
+      "code": "https://github.com/Lingxi-mental-health/PsyEvo"
+    },
+    "tags": [
+      "M→A",
+      "A→M"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "pair2026",
+    "section": "sec-8-4",
+    "title": "PAIR: Perceptual Affective Inference and Regulation in a Real-Time Multimodal Conversational Agent",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.07523"
+    },
+    "tags": [
+      "M→A",
+      "A→M"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "personalizinglargelanguage2026",
+    "section": "sec-5-3-5",
+    "title": "Personalizing Large Language Model Agents with Small Policy Models",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.00215"
+    },
+    "tags": [
+      "M→A",
+      "A→M"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "learningpersonalizedmemory2026",
+    "section": "sec-4-3-6",
+    "title": "Learning Personalized Memory Gating from Delayed One-Sided Feedback",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.23812"
+    },
+    "tags": [
+      "A→M"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "echo2026",
+    "section": "sec-6-1-2",
+    "title": "ECHO: A Locally-Deployable Agentic Health Assistant with Temporal Memory, Safety Guardrails, and Speech Assessment",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.06110"
+    },
+    "tags": [
+      "M→A",
+      "L2"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "memuse2026",
+    "section": "sec-4-5-2",
+    "group": "Coupling and later use: state influences subsequent decisions",
+    "title": "MemUse: Moving Memory Evaluation from Direct QA to Natural Integration in Long-Term Human-AI Conversation",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.24189",
+      "code": "https://github.com/ryuichi-sumida/memuse"
+    },
+    "tags": [
+      "M→A"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "realcompanion2026",
+    "section": "sec-4-5-2",
+    "group": "Coupling and later use: state influences subsequent decisions",
+    "title": "RealCompanion: Benchmarking Human Understanding from Reasoning over Longitudinal Real-World Conversations",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.01780"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "guidedreflectionfor2026",
+    "section": "sec-8-4",
+    "title": "Guided Reflection for Personal Sleep Insight in Everyday Sleep Tracking",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.10822"
+    },
+    "tags": [
+      "M→A"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "contextweave2026",
+    "section": "sec-4-5-2",
+    "group": "Coupling and later use: state influences subsequent decisions",
+    "title": "ContextWeave: A Real-World Workflow Benchmark",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.04830"
+    },
+    "tags": [
+      "M→A"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "notforgotten2026",
+    "section": "sec-4-3-3",
+    "title": "Not Forgotten: Implementation and Evaluation of a Personalized Episodic Memory for the Humanoid Robot Head Kim",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2607.24190"
+    },
+    "tags": [
+      "M→A"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "robofind2026",
+    "section": "sec-6-1-3",
+    "title": "RoboFind: Multi-Agent Personalized Object Search for People Who Are Blind or Have Low Vision",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.20330"
+    },
+    "tags": [
+      "L2"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "regulatutor2026",
+    "section": "sec-5-4-2",
+    "title": "RegulaTutor: A Theory-Informed Framework for Long-Term Personalized Learning",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.13399"
+    },
+    "tags": [
+      "M→A"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "yourhomeremembers2026",
+    "section": "sec-4-4-2",
+    "title": "Your Home Remembers: A Voice-Enabled Household Memory Assistant for Conversational Retrieval",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.30895"
+    },
+    "tags": [
+      "S→M"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "fewerclarificationsbetter2026",
+    "section": "sec-4-5-2",
+    "group": "Coupling and later use: state influences subsequent decisions",
+    "title": "Fewer Clarifications, Better Code: Benchmarking Cross-Session Personalized Ambiguity Adaptation in Coding Assistants",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2607.26611"
+    },
+    "tags": [
+      "M→A"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "dopersonalizedskills2026",
+    "section": "sec-4-4-3",
+    "title": "Do Personalized Skills Help Coding Agents? An Empirical Study of Developer Interaction Histories",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.10319"
+    },
+    "tags": [
+      "M→A",
+      "A→M"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "knowingtheuser2026",
+    "section": "sec-5-3-4",
+    "title": "Knowing the User Is Not Knowing What We Established: Grounding Awareness in Personal Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.18684"
+    },
+    "tags": [
+      "M→A"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "whenpersonalmemory2026",
+    "section": "sec-4-5-2",
+    "group": "Profile: keeping what holds valid",
+    "title": "When Personal Memory Has No Single Answer: Evaluating LLM Agents under Irreducible Conflict",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.13921"
+    },
+    "tags": [
+      "M→A"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "agentmemgate2026",
+    "section": "sec-4-3-1",
+    "title": "AgentMemGate: Addressing Speculation Contamination in Conversational Assistant Memory",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.07707"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "amuadmissionand2026",
+    "section": "sec-4-3-1",
+    "title": "AMU:Admission and Memory Update for Personalized Conversations---Structured Memory with SLM Guided Control",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.36976"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "towardrobustpersonalized2026",
+    "section": "sec-4-3-4",
+    "title": "Toward Robust Personalized Alignment for LLMs: Mitigating Persona Drift in Multi-Turn Dialogue",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.12373"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "prottt2026",
+    "section": "sec-4-1-2",
+    "title": "ProTTT: Learning to Learn Semantic User Memory with Test-Time Training",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.32564"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "hypertrace2026",
+    "section": "sec-4-3-4",
+    "title": "HyperTrace: Hypothesis-Based Preference Tracing for Online LLM Personalization",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.09835",
+      "code": "https://github.com/jiseshen/HyperTrace"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "finperma2026",
+    "section": "sec-4-5-2",
+    "group": "Profile: keeping what holds valid",
+    "title": "FinPerMA: A Theory-Informed, Event-Grounded Personalized-Memory Benchmark for LLM Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.04095"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "canagentskeep2026",
+    "section": "sec-4-2",
+    "title": "Can Agents Keep Secrets They Were Never Told? Benchmarking Latent Privacy Risks Across Sessions with MemJoin",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.24359"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "disclosurebegetsdisclosure2026",
+    "section": "sec-4-2",
+    "title": "Disclosure Begets Disclosure: A Self-Reinforcing Privacy Loop in LLM Agents with Persistent Memory",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.28315"
+    },
+    "tags": [
+      "M→A",
+      "A→M"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "ftamem2026",
+    "section": "sec-4-3-1",
+    "title": "FTA-Mem: Fact-Time-Affect Anchored Memory for Low-Density Long-Term Dialogue",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.16303"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "fromprofilingto2026",
+    "section": "sec-4-5-2",
+    "group": "Coupling and later use: state influences subsequent decisions",
+    "title": "From Profiling to Synthesis: Benchmarking Implicit Behavioral Alignment in Personalized LLM Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.02171"
+    },
+    "tags": [
+      "M→A"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "memorythatlooks2026",
+    "section": "sec-4-3-3",
+    "title": "Memory That Looks Forward: A Zero-Inference Prospective Term for Personal Memory Retrieval",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.22091"
+    },
+    "tags": [
+      "M→A"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "keepitinmind2026",
+    "section": "sec-4-5-2",
+    "group": "Coupling and later use: state influences subsequent decisions",
+    "title": "Keep It InMind: Benchmarking the Implicit-Association Blind Spot in Agent Memory",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2607.24368"
+    },
+    "tags": [
+      "M→A"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "epmem2026",
+    "section": "sec-4-2",
+    "title": "EP-Mem: Elastic Privacy Memory for Social Relationship-Aware LLM Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.35233"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "loveforbelievable2026",
+    "section": "sec-5-4-2",
+    "title": "Love for Believable AI: Artificial Partiality and Relationship Persistence as an Engineerable Stance",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.09895"
+    },
+    "tags": [
+      "M→A"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "habitbench2026",
+    "section": "sec-4-5-2",
+    "group": "Profile: keeping what holds valid",
+    "title": "HABIT-Bench: Evaluating Habit Induction from Longitudinal Weak Evidence in Agent Memory",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.24520"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "learningfromothers2026",
+    "section": "sec-4-3-3",
+    "title": "Learning from Others, Acting for You: Cross-User Memory Sharing for LLM Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.32511"
+    },
+    "tags": [
+      "M→A"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "audienceboundpersistent2026",
+    "section": "sec-4-2",
+    "title": "Audience-Bound Persistent Memory: Authorization Across the Memory Lifecycle",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.36373"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "promptile2026",
+    "section": "sec-4-4-3",
+    "title": "Promptile: Recovering and Reusing Prompting Strategies from LLM Interaction Histories",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.26485"
+    },
+    "tags": [
+      "M→A",
+      "A→M"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "whatshouldai2026",
+    "section": "sec-4-3-1",
+    "title": "What should AI forget? A design and taxonomy for negative space governance in AI memory",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.27607"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "willmyassistant2026",
+    "section": "sec-4-5-2",
+    "group": "Recall baselines",
+    "title": "Will My Assistant Remember My Allergy? What Personal LLM Assistants Forget When Conversation Memory Is Compressed",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.05767"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "colearn2026",
+    "section": "sec-5-4-2",
+    "title": "CoLearn: An Agentic Tutor that Learns its Learner in a Human--AI Co-Learning Loop",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.21154"
+    },
+    "tags": [
+      "M→A",
+      "A→M"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "workingwithagentic2026",
+    "section": "sec-8-4",
+    "title": "Working with Agentic `Teammates': When a New Organizational Actor Collides with the Human Ecosystem of Work",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.29901"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "cosec2026",
+    "section": "sec-5-5-2",
+    "group": "Authority and consequences across interactions",
+    "title": "CoSec: Benchmarking Agent Security in Communities",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.34790"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "gatedmemory2026",
+    "section": "sec-4-3-1",
+    "title": "Gated Memory: Admission-Controlled Memory Formation for Conversational AI",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.11270"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "agentantibody2026",
+    "section": "sec-5-3-4",
+    "title": "AgentAntibody: An Adaptive Immune System for Defending LLM Agents against Prompt Injection",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.04053"
+    },
+    "tags": [
+      "M→A",
+      "A→M"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "compass2026",
+    "section": "sec-6-1-2",
+    "title": "Compass: Continuously Aligning Social Media Feeds via In-Situ Reflections",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.04274"
+    },
+    "tags": [
+      "S→A",
+      "M→A",
+      "L3"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "notallspeech2026",
+    "section": "sec-3-3-9",
+    "title": "Not All Speech Is Intent: Adaptive Self-Correcting Inference Layer for Post-ASR False Wake-Up",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.12469"
+    },
+    "tags": [
+      "M→S",
+      "A→M"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "reconstructionandreflection2026",
+    "section": "sec-3-3-5",
+    "title": "Reconstruction and Reflection of Positive Experiences through Resurfacing Laughter-indexed Everyday Moments",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.12642"
+    },
+    "tags": [
+      "S→M"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "weclawarena2026",
+    "section": "sec-5-5-2",
+    "group": "Authority and consequences across interactions",
+    "title": "WeClawArena: An Auditable Sandbox and Benchmark for Cross-User Agents Collaboration and Security in Human-Centered Agent Networks",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.03499"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "towardpersonalintelligence2026",
+    "section": "sec-6-2-1",
+    "title": "Toward Personal Intelligence Through Cooperative Observation",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.17128"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "eternalsunshineof2026",
+    "section": "sec-4-3-5",
+    "title": "Eternal Sunshine of the Spotless Mind: Systematically Erasing LLM's Memories",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.36414"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "emptycommitments2026",
+    "section": "sec-5-5-2",
+    "group": "Deferred: commitments over time",
+    "title": "Empty Commitments: When Agents Promise What They Cannot Deliver",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.01045"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "workingthroughrepresentation2026",
+    "section": "sec-6-2-2",
+    "title": "Working Through Representation: Malleable Workspaces for Human-Agent Knowledge Work",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.30893"
+    },
+    "tags": [
+      "M→A",
+      "A→M"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "designingproactivethought2026",
+    "section": "sec-5-3-1",
+    "title": "Designing Proactive Thought Partners for Writing",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.01588"
+    },
+    "tags": [
+      "S→A"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "agentzeromemory2026",
+    "section": "sec-4-1-2",
+    "title": "Agent Zero Memory: Provenance-Aware Long-Term Memory for LLM Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.29606"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "thinkflow2026",
+    "section": "sec-4-1-2",
+    "title": "ThinkFlow: Self-Evolving Probabilistic Latent Memory for Lifelong Conversational Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.17010"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "setoka2026",
+    "section": "sec-4-5-2",
+    "group": "Profile: keeping what holds valid",
+    "title": "Setoka: A Benchmark for Hierarchical User Understanding in Personalized Agents over Heterogeneous Data",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2607.27056"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "anagenticjust2026",
+    "section": "sec-6-1-2",
+    "title": "An Agentic Just-in-Time Adaptive Intervention System for Personalized Sleep Support: Proof-of-Concept Study with N of 1 Data",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.21805"
+    },
+    "tags": [
+      "M→A",
+      "L3"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "mitigatingoverpersonalization2026",
+    "section": "sec-4-3-3",
+    "title": "Mitigating Over-Personalization in LLMs via Structured Memory",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.08300"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "grove2026",
+    "section": "sec-4-4-2",
+    "title": "GROVE: Growing and Reasoning over Temporally Stratified Memory from Streaming Video Experience",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.02392",
+      "code": "https://github.com/SitongGong/GROVE"
+    },
+    "tags": [
+      "S→M",
+      "M→A"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "learningwhatto2026",
+    "section": "sec-4-3-6",
+    "title": "Learning What to Share and What to Personalize: Hierarchical Strategy Co-Evolution for Agent Memory",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.25329"
+    },
+    "tags": [
+      "A→M"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "tomemoriesand2026",
+    "section": "sec-4-5-2",
+    "group": "Profile: keeping what holds valid",
+    "title": "To Memories and Beyond: From Remembering to Knowing You across Long-Term Multimodal Personal Archives",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.19167"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "thepersonais2026",
+    "section": "sec-6-2-2",
+    "title": "The Persona Is Still There, but Who Is Speaking? Latent Identity Reversion in Persistent AI Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.01490"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "carryon2026",
+    "section": "sec-6-1-3",
+    "title": "CarryOn: A Dual-Loop Harness for Personalized and Reliable Robot Assistance",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.21453"
+    },
+    "tags": [
+      "M→A",
+      "L2"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "lsrep2026",
+    "section": "sec-4-5-2",
+    "title": "LSREP: A Longitudinal State-Replay Protocol for Evaluating Conversational Memory, with ICE v2 as an Audited Local-First Architecture",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.16730"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "pragma2026",
+    "section": "sec-4-5-2",
+    "group": "Coupling and later use: state influences subsequent decisions",
+    "title": "PRAGMA: Evaluating Personalized Guidance with Memory Alignment in Lifelong Conversations",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.09664"
+    },
+    "tags": [
+      "M→A"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "relevancedoesnot2026",
+    "section": "sec-5-4-2",
+    "title": "Relevance Does Not Imply Applicability: Experience Activation for Personal GUI Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.33304"
+    },
+    "tags": [
+      "M→A"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "memfold2026",
+    "section": "sec-4-1-2",
+    "title": "MemFold: Learning Compact Soft Memory for Long-Context Personalization via On-Policy Optimization",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.36435"
+    },
+    "tags": [
+      "M→A"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "wheretheevidence2026",
+    "section": "sec-8-4",
+    "title": "Where the Evidence Lives: Auditing AI Companions' Self-Descriptions",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.38753"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "proactiveai2026",
+    "section": "sec-5-3-1",
+    "title": "Proactive AI: From Turns to Replannable Dialogue Timelines",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.05159"
+    },
+    "tags": [
+      "M→A"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "memadapter2026",
+    "section": "sec-4-3-3",
+    "title": "Memadapter: Counterfactual Adaptation Against Memory-induced Sycophancy",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.05162",
+      "code": "https://github.com/DEEP-JLU/MemAdapter"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "persevalbench2026",
+    "section": "sec-4-5-2",
+    "group": "Profile: keeping what holds valid",
+    "title": "PersEvalBench: Can LLM Evaluators Judge Contextually Appropriate Use of Persona Information?",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.19314"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "precomem2026",
+    "section": "sec-4-3-4",
+    "title": "PreCoMem: Predictive Cognitive Memory for Self-Evolving Long-Term Dialogue Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.29467"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "pause2026",
+    "section": "sec-5-5-2",
+    "group": "Reactive: executing a request",
+    "title": "PAUSE: A User-Centric Benchmark for Personal AI Assistants in Unified Service Environments",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2607.27354"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "musclememoryfor2026",
+    "section": "sec-4-4-3",
+    "title": "Muscle Memory for Agents: Compile not Merely Retrieve",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.08995"
+    },
+    "tags": [
+      "M→A",
+      "A→M"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "efficienttesttime2026",
+    "section": "sec-6-4",
+    "title": "Efficient Test-Time Adaptation through Human-AI Interaction",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.04141"
+    },
+    "tags": [
+      "M→A",
+      "A→M"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "vulnerabilitiesinpersonalization2026",
+    "section": "sec-4-2",
+    "title": "Vulnerabilities in Personalization: Assessing Health Privacy Risks in ChatGPT Logs and Memory",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.14697"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "pia2026",
+    "section": "sec-4-1-2",
+    "title": "PIA: A Personal Intelligence Agent Turning Health Conversations into Records and Records into Understanding",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.31255"
+    },
+    "tags": [
+      "M→A"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "mirage2026",
+    "section": "sec-4-5-2",
+    "group": "Recall baselines",
+    "title": "MIRAGE: How Conversation State Shapes Historical Evidence Use in Multimodal Personal Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.19059"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "balms2026",
+    "section": "sec-3-5-2",
+    "group": "Perception baselines: supplied input",
+    "title": "BALMS: Benchmarking Agentic LLMs for Longitudinal Mental Health Sensing",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.27219"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "cuemem2026",
+    "section": "sec-4-5-2",
+    "group": "Admission: what enters the store",
+    "title": "CUE-Mem: Benchmarking Long-Term User Memory via Implicit Cues in Multimodal Conversations",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.32574"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "pdeubench2026",
+    "section": "sec-5-5-2",
+    "group": "Reactive: executing a request",
+    "title": "PDEU-Bench: Benchmarking the Personalized Planning Lifecycle of Tool-Calling LLM Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.34930"
+    },
+    "tags": [
+      "M→A"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "memlife2026",
+    "section": "sec-4-3-6",
+    "title": "MemLife: Curating and Reasoning over Long-Term Egocentric Video Memories",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.40195"
+    },
+    "tags": [
+      "S→M",
+      "M→A"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "interpretingatwrite2026",
+    "section": "sec-4-3-1",
+    "title": "Interpreting at Write Time: A Policy Ablation for Multi-Goal Agent Memory",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.02897"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "haveiscene2026",
+    "section": "sec-4-3-2",
+    "title": "Have I Scene This Before? Spatially Grounded Conversational Memory for Complex Queries in Egocentric Assistants",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.05526"
+    },
+    "tags": [
+      "S→M",
+      "M→A"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "memcut2026",
+    "section": "sec-4-3-5",
+    "title": "MemCut: Every Secret Leaves a Trail in the Long-Term Memory of LLM Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.21405"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "mosaic2026",
+    "section": "sec-4-5-2",
+    "group": "Recall baselines",
+    "title": "MOSAIC: An Omni-Modal Benchmark for Long-Term Memory and Cross-Modal Reasoning in Conversational Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.29249"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "qumem2026",
+    "section": "sec-4-3-3",
+    "title": "QUMem: Personalized Memory for Query-Conditioned User-State Inference in LLM Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.16168"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "simlife2026",
+    "section": "sec-4-5-2",
+    "group": "Profile: keeping what holds valid",
+    "title": "SIMLIFE: Pattern Understanding for Long-Horizon Human-Agent Partnership",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.19610"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "authscribe2026",
+    "section": "sec-8-4",
+    "title": "AuthScribe: Supporting Agency and Authorship in LLM-Assisted Reflective Journaling",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.15439"
+    },
+    "tags": [
+      "M→A"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "supersensedoctor2026",
+    "section": "sec-3-1-2",
+    "title": "SuperSenseDoctor: A Multimodal and Contactless Agent for Health Tracking",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.16257"
+    },
+    "tags": [
+      "S→A",
+      "S→M"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "healthloopqa2026",
+    "section": "sec-3-5-2",
+    "group": "Perception baselines: supplied input",
+    "title": "HealthLoopQA: A Context-Aware Question Answering Benchmark for Interpreting Wearable Monitoring Data in Diabetes Care",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.06976"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "sodamem2026",
+    "section": "sec-4-1-2",
+    "title": "SodaMem: Evidence-Grounded Temporal Graph Memory for LLM Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.08055"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "contextawareemotionally2026",
+    "section": "sec-5-3-5",
+    "title": "Context-Aware Emotionally Adaptive Voice Assistants: A Multimodal Framework for Empathetic Human-Agent Interaction",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.16417"
+    },
+    "tags": [
+      "S→A"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "samplingsafefutures2026",
+    "section": "sec-5-2",
+    "title": "Sampling Safe Futures: Multimodal Trajectory Planning for Personalized Safety in Anthropomorphic AI",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.30780",
+      "code": "https://github.com/benedettapicano/ANTHROPOMORPHIC_SAFETY_TRAJ"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "ream2026",
+    "section": "sec-6-2-2",
+    "title": "Ream: Unfolding Mutual Awareness in Human-Agent Workspaces",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.09497"
+    },
+    "tags": [
+      "S→M",
+      "M→A"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "disentanglinglongterm2026",
+    "section": "sec-4-1-2",
+    "title": "Disentangling Long-Term Memory via Latent Neuro-Symbolic Reasoning",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.18461"
+    },
+    "tags": [
+      "M→A"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "hgpanon2026",
+    "section": "sec-4-1-2",
+    "title": "HGP:An on-device personalized agent memory via hybrid graph storage",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.10071"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "memleak2026",
+    "section": "sec-4-2",
+    "title": "MemLeak: Cross-User Semantic Leakage in Multi-Tenant AI Agent Memory",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.04195"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "peam2026",
+    "section": "sec-6-4",
+    "title": "PEAM: On-device Communication Agent for Personalized, Efficient and Autonomous Mobile Network Configuration",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.14855"
+    },
+    "tags": [
+      "M→A",
+      "A→M"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "canagentsforget2026",
+    "section": "sec-4-3-5",
+    "title": "Can Agents Forget When Asked? A Benchmark for Memory Unlearning in LLM Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.18052",
+      "code": "https://github.com/Nboxff/bemula-benchmark"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "hypothesesguidedself2026",
+    "section": "sec-4-3-4",
+    "title": "Hypotheses-Guided Self Distillation for Continual Personalization",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.00251"
+    },
+    "tags": [
+      "M→A",
+      "A→M"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "tailoredtoyou2026",
+    "section": "sec-8-4",
+    "title": "Tailored to you: longitudinal effects of personalising language models",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.20077"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "dolphinbench2026",
+    "section": "sec-4-5-2",
+    "group": "Coupling and later use: state influences subsequent decisions",
+    "title": "DolphinBench: Mapping the Pareto Frontier of Agent Memory",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.24971"
+    },
+    "tags": [
+      "M→A"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "harnessevolutionas2026",
+    "section": "sec-6-4",
+    "title": "Harness Evolution as Learning: Approximation, Generalization, and Optimization Limits of Self-Improving Personal Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.36892"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "memoryprovenancelaundering2026",
+    "section": "sec-5-3-4",
+    "title": "Memory Provenance Laundering in LLM Agents: A Non-Amplification Firewall for Persistent Memory",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2607.29167"
+    },
+    "tags": [
+      "M→A"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "ensimem2026",
+    "section": "sec-4-3-2",
+    "title": "EnSIMem: Entity-Structured Indexing for Long-Term Agent Memory",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.27279",
+      "code": "https://github.com/RamonMeng/EnSIMem"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "characterizingmemorymisalignment2026",
+    "section": "sec-4-2",
+    "title": "Characterizing Memory Misalignment in Human-LLM Interaction From User Perspectives",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.33623"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "seabench2026",
+    "section": "sec-6-4",
+    "title": "SEABench: Benchmarking Endogenous Misalignment In Self-Evolving Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.35596"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "raliikat20262026",
+    "section": "sec-4-3-3",
+    "title": "RALI@iKAT 2026: Retrieval-aware User Profile Denoising via Personalized Conversational Dense Retrieval",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.17673"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "knowitact2026",
+    "section": "sec-4-5-2",
+    "group": "Coupling and later use: state influences subsequent decisions",
+    "title": "Know It, Act on It: Investigating Memory Utilization in LLM Personalization",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2607.29433"
+    },
+    "tags": [
+      "M→A"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "usertoolbench2026",
+    "section": "sec-4-5-2",
+    "group": "Coupling and later use: state influences subsequent decisions",
+    "title": "UserToolBench: A User-Profile-Hidden Benchmark for Personalized Decision Making in Tool-Use LLMs",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.10042"
+    },
+    "tags": [
+      "M→A"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "memorywinsall2026",
+    "section": "sec-4-2",
+    "title": "MEMORY Wins All: Indirect Bias Injection Attacks via Social Media Feeds",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.22061"
+    },
+    "tags": [
+      "S→M",
+      "M→A"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "hero2026",
+    "section": "sec-4-3-3",
+    "title": "HERO: Human-profile Enhanced Retrieval Optimization Framework for Long-term Agent Memory",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.22310"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "personalizingllmagent2026",
+    "section": "sec-4-3-2",
+    "title": "Personalizing LLM Agent Memory Using Biometrics",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.08558"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "whoisyour2026",
+    "section": "sec-5-2",
+    "title": "Who Is Your Agent Serving? Provider-Side Indirect Prompt Injection in Proactive Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.05266"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "personalagentmediated2026",
+    "section": "sec-5-4-2",
+    "title": "Personal-Agent Mediated Recommendation with Cross-Platform User History",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.07588"
+    },
+    "tags": [
+      "M→A"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "dppm2026",
+    "section": "sec-4-1-2",
+    "title": "DPPM: Dual-Path Parametric Memory for Personalized Language Models",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.11776"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "dpmemview2026",
+    "section": "sec-4-2",
+    "title": "DP-MemView: A Memory Interface for Attribute-Level Transcript Privacy in Long-Term LLM Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.03130"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "spieval2026",
+    "section": "sec-5-5-2",
+    "group": "Reactive: executing a request",
+    "title": "SPIEval: Evaluating Large Language Models as Mobile Assistants over Scattered Personal Information",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.10692"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "voicelongmemeval2026",
+    "section": "sec-4-5-2",
+    "group": "Recall baselines",
+    "title": "VoiceLongMemEval: Do Assistants Remember How You Sounded?",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.00570"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "longcounsel82026",
+    "section": "sec-3-5-2",
+    "group": "Perception baselines: supplied input",
+    "title": "LongCounsel-8: A Benchmark Suite for Longitudinal Depression Tracking from Multi-Session Counseling Dialogues",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.03507"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "aim2026",
+    "section": "sec-4-2",
+    "title": "AIM: A Privacy-Aware Interoperable Memory Framework for Multi-Agent Multi-User LLM Systems",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.12320"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "twist2026",
+    "section": "sec-4-5-2",
+    "group": "Coupling and later use: state influences subsequent decisions",
+    "title": "TWIST: A Proposed Benchmark for Intervention Quality in Conversational Memory, with a Human-Validated Draft-Alignment",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.28575"
+    },
+    "tags": [
+      "M→A"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "latentmultimodalmemory2026",
+    "section": "sec-4-1-2",
+    "title": "Latent Multimodal Memory Reasoning",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.23890"
+    },
+    "tags": [
+      "M→A"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "shareborneai2026",
+    "section": "sec-4-2",
+    "title": "Share-Borne AI Virus: Memory-Hopping Attacks Across LLM Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.35576"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "relevanceisnot2026",
+    "section": "sec-4-3-3",
+    "title": "Relevance Is Not Sufficiency: What Actually Closes the Evidence Gap in Long-Term Memory QA",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.09348"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "stalemisattributedor2026",
+    "section": "sec-4-5-2",
+    "group": "Profile: keeping what holds valid",
+    "title": "Stale, Misattributed, or Late: Where Personal Memory Fails Before Generation",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.10265"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "temporalevidenceforests2026",
+    "section": "sec-4-3-3",
+    "title": "Temporal Evidence Forests for Long-Horizon Multi-Party Conversational Memory",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.12874"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "whosecredentialis2026",
+    "section": "sec-5-5-2",
+    "group": "Authority and consequences across interactions",
+    "title": "Whose Credential Is It? How Owner Attribution in Agent MemoryShapes Cross-User Account Misuse",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.25707"
+    },
+    "tags": [
+      "M→A"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "ekova2026",
+    "section": "sec-6-1-2",
+    "title": "Ekova: A Personality-Support Agent for Self-Discovery Dialogue",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.00478",
+      "code": "https://github.com/Yukyin/Ekova"
+    },
+    "tags": [
+      "L1"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "lineconversationhistory2026",
+    "section": "sec-4-3-3",
+    "title": "LINE Conversation History Retrieval for Personal Memory RAG: Evaluating Search Representations and Hybrid Retrieval",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.27809"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "evalmem2026",
+    "section": "sec-4-5-2",
+    "group": "Recall baselines",
+    "title": "EvalMem: An Operation-Level Diagnostic Framework for Long-Term Memory Systems",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.22231"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "creamem2026",
+    "section": "sec-4-1-2",
+    "title": "CreaMem: A Scene-Aware Memory Architecture for Personalized Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.08550"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "apdmem2026",
+    "section": "sec-4-3-3",
+    "title": "APDMem: Agent-Controlled Progressive Disclosure for Query-Adaptive Long-Term Memory",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.02472"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "clawrec2026",
+    "section": "sec-5-4-2",
+    "title": "ClawRec: A Claw-Native Recommender System",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2607.23779",
+      "code": "https://github.com/RUCAIBox/ClawRec"
+    },
+    "tags": [
+      "M→A"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "whenagentslearn2026",
+    "section": "sec-4-2",
+    "title": "When Agents Learn to Be You: Benchmarking Privacy Leakage, Impersonation Risk, and Defenses in Persona Skills",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.03700"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "lunar2026",
+    "section": "sec-4-5-2",
+    "group": "Coupling and later use: state influences subsequent decisions",
+    "title": "LUNAR: Benchmarking Personalized Large Language Models on UNiversal User BehAvioR Logs",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.05246"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "arbormem2026",
+    "section": "sec-4-1-2",
+    "title": "ArborMem: Navigating Interaction States with Memory Forests",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.17534"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "medcache2026",
+    "section": "sec-4-3-4",
+    "title": "MedCache: Efficient and Temporally Valid Memory for Longitudinal Clinical Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.29528"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "meboleavesa2026",
+    "section": "sec-6-1-2",
+    "title": "\"MeBo Leaves a Piece of You Behind\": Designing a Relational Voice-Based Memory Companion for Older Adults",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.24706"
+    },
+    "tags": [
+      "M→A",
+      "L2"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "cope2026",
+    "section": "sec-6-4",
+    "title": "COPE: Continual Personalization of LLMs under Sparse User Feedback via User Embeddings and Self-Evaluation",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.26853"
+    },
+    "tags": [
+      "M→A",
+      "A→M"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "airlog2026",
+    "section": "sec-4-4-2",
+    "title": "AirLog: Store-Level Indoor Life Logging Made Easy",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.31864"
+    },
+    "tags": [
+      "S→M"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "adaptarena2026",
+    "section": "sec-4-5-2",
+    "group": "Coupling and later use: state influences subsequent decisions",
+    "title": "AdaptArena: Evaluating Test-Time Personalization of Web Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.36488",
+      "code": "https://github.com/McGill-NLP/web-agents-test-time-adaptations"
+    },
+    "tags": [
+      "M→A"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "suggestedisnot2026",
+    "section": "sec-4-3-5",
+    "title": "Suggested Is Not Superseded: A Pre-Registered Evaluation of a System-One Model as a Memory-Retirement Gate",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.15710"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "explicitstateelicitation2026",
+    "section": "sec-4-5-2",
+    "group": "Coupling and later use: state influences subsequent decisions",
+    "title": "Explicit State Elicitation Is Not Enough: A Controlled Audit of Memory-Policy Classification",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.17247"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "douserauthored2026",
+    "section": "sec-5-3-4",
+    "title": "Do User-Authored Permission Policies Improve Protection Against AI Agent Overreach?",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.27443"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "kernelmanagedshared2026",
+    "section": "sec-6-2-2",
+    "title": "Kernel-Managed Shared Memory for System-Wide Personalization",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.10144"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "memoryconsolidationflattens2026",
+    "section": "sec-4-5-2",
+    "group": "Profile: keeping what holds valid",
+    "title": "Memory Consolidation Flattens the Temporal Shape of User Facts",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.36457"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "knowingthestore2026",
+    "section": "sec-4-5-2",
+    "group": "Prospective: holding what is pending",
+    "title": "Knowing the Store: What a Memory Backend Must Write Down Before an Agent Can Read It",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.04794"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "defenseindepth2026",
+    "section": "sec-4-3-3",
+    "title": "Defense-in-Depth for LLMs: Evaluating Memory Gates Against Activation-Induced and Memory-Induced Sycophancy",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.07403"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "dopersonalizedllms2026",
+    "section": "sec-4-3-3",
+    "title": "Do Personalized LLMs Need the Whole Conversation? Matching the Full History with Only 5% of Its Text via Relevance-Filtered Context",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.14952"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "whatsurviveswhen2026",
+    "section": "sec-4-1-2",
+    "title": "What Survives When Activation Steering Is Used as Memory",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.14958"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "inferscale2026",
+    "section": "sec-4-3-3",
+    "title": "InferScale: GPU-Native KV Injection for Personalized LLM Serving",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2607.27090"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "wearableqa2026",
+    "section": "sec-3-5-2",
+    "group": "Perception baselines: supplied input",
+    "title": "WearableQA: A Benchmark for Health Reasoning over Real-World Wearable Data",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.05405"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "biomemart2026",
+    "section": "sec-4-3-2",
+    "title": "BIO-MEMART: Biometric-Aware KV Cache Memory for Multi-User LLM Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.08566"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "ecgscroll2026",
+    "section": "sec-3-5-2",
+    "group": "Readiness and response timing",
+    "title": "ECG-Scroll: A Long-Horizon, Streaming Benchmark and Agent Environment for Interpretation of Ambulatory Electrocardiograms",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.33117"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "overpersonalizationis2026",
+    "section": "sec-4-3-3",
+    "title": "Over-Personalization Is a Decision Failure: Generation-Induced Apply Bias in LLMs",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.34284"
+    },
+    "tags": [
+      "M→A"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "pairpref2026",
+    "section": "sec-4-5-2",
+    "group": "Coupling and later use: state influences subsequent decisions",
+    "title": "PairPref: When Should Memory Guide the Answer? A Benchmark for Contextual Preference Use",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.34526"
+    },
+    "tags": [
+      "M→A"
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "id": "madeleine2026",
+    "section": "sec-4-3-3",
+    "title": "Madeleine: Learning Involuntary Recall for Conversational Memory from Simulated Lives",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.01118"
+    },
+    "added": "2026-10-25"
+  },
+  {
+    "id": "statewise2026",
+    "section": "sec-4-3-4",
+    "title": "StateWise: Diagnosing and Repairing Persistent Operational State Before Agent Actions",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.05241"
+    },
+    "tags": [
+      "M→A"
+    ],
+    "added": "2026-10-25"
   }
 ]
