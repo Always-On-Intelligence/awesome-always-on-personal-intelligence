@@ -5010,5 +5010,31 @@
       "M→A"
     ],
     "added": "2026-10-29"
+  },
+  {
+    "id": "whybotherme2026",
+    "section": "sec-4-5-2",
+    "title": "Why Bother Me Again? Benchmarking Personal Agent Memory for Interaction Preferences",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.30485"
+    },
+    "tags": [
+      "M→A",
+      "A→M"
+    ],
+    "added": "2026-10-24"
+  },
+  {
+    "id": "afterdeletebench2026",
+    "section": "sec-4-3-5",
+    "title": "AfterDeleteBench: Auditing Post-Deletion Information Persistence in LLM Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.31366"
+    },
+    "added": "2026-10-24"
   }
 ]
