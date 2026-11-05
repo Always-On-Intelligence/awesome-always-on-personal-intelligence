@@ -46,7 +46,7 @@ The paper will be released soon. Until then, please cite it as it currently appe
 ```bibtex
 @misc{alwayson2026roadmap,
   title  = {Always-On Personal Intelligence: A Roadmap Towards Continuing, Self-Evolving Loops},
-  author = {{Anonymous Author(s)}},
+  author = {Liu, Shuai and Guo, Hongming and Jin, Weiyang and Hu, Kairui and Tian, Shulin and Dong, Yuhao and Wu, Jinming and Zhang, Kaichen and Tang, Yujin and Han, Xinyang and Chai, Wenhao and Fu, Yuqian and Zhang, Ce and Zhang, Yuanhan and Kong, Lingdong and Siyao, Li and Yang, Jingkang and Bertasius, Gedas and Li, Manling and Wu, Jiajun and Wang, Mengdi and Song, Dawn and Liu, Ziwei},
   year   = {2026},
   note   = {Paper coming soon},
   url    = {https://github.com/Always-On-Intelligence/awesome-always-on-personal-intelligence}
