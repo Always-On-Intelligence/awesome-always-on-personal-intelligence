@@ -5107,6 +5107,18 @@
     }
   },
   {
+    "id": "yang2026",
+    "section": "related-surveys",
+    "group": "Concurrent system-level surveys",
+    "title": "Proactive AI for Superintelligent Agents",
+    "year": 2026,
+    "venue": "Preprint",
+    "links": {
+      "paper": "https://empathyang.github.io/Proactive-AI-for-Superintelligent-Agents/Proactive-AI-for-Superintelligent-Agents.pdf",
+      "project": "https://empathyang.github.io/Proactive-AI-for-Superintelligent-Agents/"
+    }
+  },
+  {
     "id": "mempal2025",
     "section": "sec-6-1-1",
     "title": "MemPal: Leveraging Multimodal AI and LLMs for Voice-Activated Object Retrieval in Homes of Older Adults",

@@ -640,7 +640,7 @@
     "short": "Systems & Loop Closure",
     "level": 2,
     "icon": "systems",
-    "description": "How Sensing, Memory, and Action work together in wearable, digital, and physical applications, where reported systems meet bottlenecks, and which level of loop closure each supports. A level tag (`L0` to `L5`) gives a system's place in the loop-closure table, and `Product` marks its product rows."
+    "description": "How Sensing, Memory, and Action work together in wearable, digital, and physical applications, where reported systems meet bottlenecks, which level of loop closure each supports, and how reported systems revise their mechanism. A level tag (`L0` to `L5`) gives a system's place in the loop-closure table, and `Product` marks its product rows."
   },
   {
     "id": "sec-6-1",
@@ -769,7 +769,7 @@
     "short": "HALO",
     "level": 2,
     "icon": "evaluation",
-    "description": "HALO is a diagnostic tool that assesses the loop completeness of existing systems."
+    "description": "HALO is a diagnostic tool that assesses the loop completeness of existing systems. It examines the coupling channels of the continuing loop and, for self-evolution that rests on outcome feedback, the five steps of the chain of evidence. In read mode, language-model reviewers read a system's papers and released code and decide whether each channel and evidence step is reported. In run mode, a system's released code runs on fixed inputs with one or more channels or evidence steps removed, to examine how its behavior changes."
   },
   {
     "id": "sec-7-1",
@@ -902,7 +902,7 @@
     "short": "Related Surveys",
     "level": 2,
     "icon": "surveys",
-    "description": "Capability-focused surveys, and concurrent system-level surveys that connect several components around persistent state, device platforms, human trajectories, or model-harness co-evolution.",
+    "description": "Capability-focused surveys, which each study one capability in depth, and concurrent system-level surveys, which organize the field from other perspectives: a person's own state, the smart-glasses device, long-horizon tasks, proactiveness, or the lifecycle of what an agent keeps across sessions.",
     "groups": [
       {
         "name": "Perception across modalities and deployment settings",

@@ -11,7 +11,7 @@
 
 <p>
   <a href="https://github.com/Always-On-Intelligence/awesome-always-on-personal-intelligence/stargazers"><img src="https://img.shields.io/github/stars/Always-On-Intelligence/awesome-always-on-personal-intelligence?style=flat-square&logo=github&color=B88465" alt="GitHub stars"/></a>
-  <img src="https://img.shields.io/badge/Papers-730-355774?style=flat-square" alt="730 papers"/>
+  <img src="https://img.shields.io/badge/Papers-731-355774?style=flat-square" alt="731 papers"/>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-8C8C8C?style=flat-square" alt="MIT License"/></a>
 </p>
 
@@ -36,47 +36,55 @@
 <a id="overview"></a>
 ## Overview
 
-The promise of always-on personal intelligence lies in a **continuing, self-evolving loop**. It must sustain assistance between requests, retain personal context, and carry unfinished commitments forward. Self-evolution extends the continuing loop through self-revisions from operating experience.
+Always-on personal intelligence demands more than episodic, task-driven agents. To remain always-on, it requires a **continuing loop** that sustains assistance between requests, retains personal context, and carries unfinished commitments forward. To grow more personal over time, this loop can also become **self-evolving**, revising how it works based on past experience.
 
 > [!IMPORTANT]
-> **The survey connects Sensing, Memory, and Action through six directed coupling channels. These modules operate under real-world conditions, such as privacy and authority, and are realized by an implementation of models and scaffolding.**
+> **The survey organizes the assistant into three functional modules, Sensing, Memory, and Action, connected by six directed channels that pass information between them. These modules operate under real-world limits, from battery life to privacy and user permissions, and run on models and the scaffolding around them.**
 
 <div align="center">
-<img src="assets/roadmap.png" width="95%" alt="Overview of the roadmap: the continuing loop, the module chapters, the system-level review, and HALO"/>
+<img src="assets/roadmap.png" width="95%" alt="Overview of the roadmap: the continuing loop, the module chapters, the system-level review, HALO, and the open problems"/>
 <br>
-<em><b>Figure 1.</b> Overview of the roadmap. We first define always-on personal intelligence as a continuing loop that connects Sensing, Memory, and Action through six directed channels. We then review each module by its space, conditions, policy, coupling, and evaluation. Next, we examine integrated systems, their bottlenecks, and their levels of loop closure. Finally, we audit existing systems with HALO in read and run modes.</em>
+<em><b>Figure 1.</b> Overview of the roadmap. This roadmap is organized into five parts. We first define always-on personal intelligence as a continuing loop that connects Sensing, Memory, and Action through six directed channels. We then review each module by its space, conditions, policy, coupling, and evaluation. Building on these reviews, we examine integrated systems, their bottlenecks, and their levels of loop closure, and audit existing systems with HALO in read and run modes. Finally, we discuss the open problems in always-on personal intelligence.</em>
 </div>
 
-**How to read the list.** Sections and titles follow the survey's module chapters, and each work appears once, under the section where the survey discusses it. Works added by the daily scan, which the survey does not cite yet, sit where they fit its framework. Each list runs from the newest work to the oldest, except the application and loop-closure lists, which run from the highest loop-closure level (`L5`) down. Tags show the survey's own groupings: what starts observation or action, which kind of memory, a benchmark group, or a system's domain. A channel tag such as `M→S` marks a work discussed under that coupling channel, `L0` to `L5` give a system's level in the loop-closure table, and `Product` marks a published study of a product. Products are listed separately under [Products & Tools](#products), one line per product with its official page.
+**How to read the list.** Sections and titles follow the survey's module chapters, and each work appears once, under the section where the survey discusses it. Long sections are divided into the survey's own sub-categories: the paragraphs of its text, the groups of its benchmark tables, or its open problems, and a work the survey cites sits under the one that cites it. Works added by the daily scan, which the survey does not cite yet, sit where they fit its framework. Each list runs from the newest work to the oldest, except the application and loop-closure lists, which run from the highest loop-closure level (`L5`) down. A channel tag such as `M→S` marks a work discussed under that coupling channel, `L0` to `L5` give a system's level in the loop-closure table, and `Product` marks a published study of a product. Products are listed separately under [Products & Tools](#products), one line per product with its official page.
 
 ---
 
 <a id="foundations"></a>
 ## <img src="assets/icons/foundations.svg" height="30" align="top" alt=""/> Foundations
 
-A **continuing loop** sustains service and preserves relevant personal state across interactions. Its two properties, **operational continuity** and **state durability**, form the foundation of always-on personal intelligence. A **self-evolving loop** builds on it and revises the assistant using its own operating experience. Within each module, the survey distinguishes its **space**, the information and capabilities available to it, from the **local policy** that selects and uses them. Six directed **coupling channels** carry information between the modules:
+Always-on personal intelligence is personal assistance that maintains two core properties for the same user. **Operational continuity** is the ability to keep operating between explicit requests and to decide when to act or wait. **State durability** is the ability to preserve user-specific state for later use and to carry unresolved commitments across interaction boundaries. The **continuing loop**, the foundation of always-on personal intelligence, provides both properties through the recurring operation of Sensing, Memory, and Action.
 
-| Channel | What it supplies | Difficulty | Covered in |
+Its **self-evolving extension** uses operating experience to make durable revisions to the assistant's **mechanism**, the model weights and the scaffolding that decide how it works, and later steps use the revised mechanism. Storing that the user prefers reminders at their workstation is a state update, while editing the timing rule to wait until they are back there is a revision. A claim of self-evolution that rests on outcome feedback needs a chain of evidence with five steps: record, outcome, attribution, revision, and later use.
+
+Within each module, the survey distinguishes its **space**, what the module can do and represent, from the **local policy** that chooses among these options. Six directed **coupling channels** each carry information from one module to another for the receiving module to use:
+
+| Channel | Information flow | Difficulty | Covered in |
 |:--:|:--|:--:|:--:|
-| **S→A** | Current context, events, and execution state, as the situation to act on and to decide whether, when, and how to act | Basic | [Action](#sec-5) |
-| **S→M** | Sensed evidence, as new material to retain and to decide what to admit, integrate, or correct | Moderate | [Memory](#sec-4) |
-| **M→A** | Retained personal state, as action content and to choose timing, effector, or commitment | Moderate | [Action](#sec-5) |
-| **A→S** | Intentions, plans, and execution state, as expected effects to check and to decide what to observe | Moderate | [Sensing](#sec-3) |
-| **M→S** | Retained priors, as background for interpretation and to guide sampling, attention, or compression | High | [Sensing](#sec-3) |
-| **A→M** | Action context, trajectories, outcomes, and feedback, as task history to retain and to decide what to integrate or correct | High | [Memory](#sec-4) |
+| **S→A** | Current context and observed execution state that inform Action's decisions | Basic | [Action](#sec-5) |
+| **S→M** | Observations that Memory uses to create or update records | Moderate | [Memory](#sec-4) |
+| **M→A** | Retained personal information and pending commitments that inform Action's decisions | Moderate | [Action](#sec-5) |
+| **A→S** | Action plans and execution state that guide what Sensing observes and checks | Moderate | [Sensing](#sec-3) |
+| **M→S** | Retained information that guides what Sensing observes and how it interprets new observations | High | [Sensing](#sec-3) |
+| **A→M** | Action context and immediate results that Memory uses to maintain task history | High | [Memory](#sec-4) |
 
-Systems differ in how much of the loop they close. Each level keeps the capabilities of the levels below it:
+Difficulty is the survey's qualitative rating. Basic marks the S→A path that every agent system has, and High marks channels whose errors are hard to detect and correct.
 
-| Level | A service reaches it when |
+Every module and channel works under **shared conditions**, the limits set by the user and the world: privacy, user authority, safety, resource budgets, availability, and uncertainty. Within these limits, each runs on an **implementation**, the models and the scaffolding around them, such as prompts, tools, memory stores, and the harness that runs the loop.
+
+Systems differ in how completely they close this loop. The six levels are cumulative, and L3 is the first always-on level, because from L3 on both properties hold:
+
+| Level | An assistant reaches it when |
 |:--:|:--|
-| **L0** Session local | It serves within one session, without retention across interactions (the reference baseline) |
-| **L1** Retained state | Information from one interaction is still available in a separate, later interaction |
-| **L2** State-guided decision | A stored record changes a later Sensing or Action decision |
-| **L3** Unrequested action | It decides for itself whether or when to act at a step that no request starts, and waiting counts as an outcome |
-| **L4** Attributed outcomes | Outcome evidence from outside a decision is linked to that decision and used to check or correct assistance |
-| **L5** Governed revision | Its revisions persist into later runs, and the shared conditions are applied to every revision path before a revision takes effect |
+| **L0** Session local | It responds within one session and keeps nothing across interactions (the baseline) |
+| **L1** Retained state | It carries information across sessions: one session writes a memory that a later session can read |
+| **L2** State-guided decision | Its stored records change later decisions about what to sense or how to act, while it still acts only as requested |
+| **L3** Unrequested action | It decides for itself whether or when to act without a request, and waiting is one of its choices. Acting at a time or condition the user fixed stays at L2 |
+| **L4** Attributed outcomes | It links outcome evidence that arrives after a decision, from the world or the user, to that decision, so that it can check or correct its assistance |
+| **L5** Governed revision | It revises its mechanism only within the shared conditions: a control applies them to every revision before it takes effect, and the revisions that pass carry over into later runs |
 
-The synthesis finds the thinnest support for two channels: memory guiding sensing (M→S) and action outcomes returning to memory (A→M).
+The survey's synthesis reveals the thinnest support for two channels: Memory guiding Sensing (M→S), and action outcomes returning to Memory (A→M). These gaps motivate two research priorities: keeping sensing open to unexpected change for reliable operation, and attributing outcomes to earlier decisions for self-evolution.
 
 ---
 
@@ -949,7 +957,7 @@ Action decides whether, when, and how the assistant acts on the external world, 
 <a id="sec-6"></a>
 ## <img src="assets/icons/systems.svg" height="30" align="top" alt=""/> Applications, System Bottlenecks, and Loop Closure
 
-How Sensing, Memory, and Action work together in wearable, digital, and physical applications, where reported systems meet bottlenecks, and which level of loop closure each supports. A level tag (`L0` to `L5`) gives a system's place in the loop-closure table, and `Product` marks its product rows.
+How Sensing, Memory, and Action work together in wearable, digital, and physical applications, where reported systems meet bottlenecks, which level of loop closure each supports, and how reported systems revise their mechanism. A level tag (`L0` to `L5`) gives a system's place in the loop-closure table, and `Product` marks its product rows.
 
 <a id="sec-6-1"></a>
 ### Applications and Bottlenecks
@@ -1232,7 +1240,7 @@ Where current always-on systems fall short, stated as open problems in four part
 <a id="related-surveys"></a>
 ## <img src="assets/icons/surveys.svg" height="30" align="top" alt=""/> Related Surveys
 
-Capability-focused surveys, and concurrent system-level surveys that connect several components around persistent state, device platforms, human trajectories, or model-harness co-evolution.
+Capability-focused surveys, which each study one capability in depth, and concurrent system-level surveys, which organize the field from other perspectives: a person's own state, the smart-glasses device, long-horizon tasks, proactiveness, or the lifecycle of what an agent keeps across sessions.
 
 ### Perception across modalities and deployment settings
 
@@ -1287,6 +1295,7 @@ Capability-focused surveys, and concurrent system-level surveys that connect sev
 - Always-On Agents: A Survey of Persistent Memory, State, and Governance in LLM Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.30306)
 - ComBodied Agents: a New Paradigm of Human-Centric Agentic AI. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.10915)
 - From Seeing to Acting: Smart Glasses as First-Person Intelligence Platforms. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.24877) [![Code][b-code-3b434d-github]](https://github.com/zhangzjn/awesome-smart-glasses)
+- Proactive AI for Superintelligent Agents. [![Preprint 2026][b-preprint-2026-355774]](https://empathyang.github.io/Proactive-AI-for-Superintelligent-Agents/Proactive-AI-for-Superintelligent-Agents.pdf) [![Project][b-project-3b434d]](https://empathyang.github.io/Proactive-AI-for-Superintelligent-Agents/)
 - Towards Long-Horizon Agents: A Survey. [![Preprints 2026][b-preprints-2026-8c8c8c]](https://doi.org/10.20944/preprints202607.1328.v1)
 
 ---
@@ -1610,6 +1619,7 @@ The paper will be released soon. Until then, please cite it as it currently appe
 [b-odyssey-2020-355774]: https://img.shields.io/badge/Odyssey_2020-355774?style=flat-square
 [b-paclic-2025-355774]: https://img.shields.io/badge/PACLIC_2025-355774?style=flat-square
 [b-pets-2022-355774]: https://img.shields.io/badge/PETS_2022-355774?style=flat-square
+[b-preprint-2026-355774]: https://img.shields.io/badge/Preprint_2026-355774?style=flat-square
 [b-preprints-2026-8c8c8c]: https://img.shields.io/badge/Preprints_2026-8c8c8c?style=flat-square
 [b-proc-ieee-1988-355774]: https://img.shields.io/badge/Proc._IEEE_1988-355774?style=flat-square
 [b-product-8a6400]: https://img.shields.io/badge/Product-8a6400?style=flat-square
