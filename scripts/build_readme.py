@@ -2,8 +2,10 @@
 """Validate the reading list and generate README.md (stdlib only).
 
 data/sections.json follows the survey's chapters and titles; every entry names the section where
-the survey discusses it, and optionally one of the survey's groupings inside that section, which
-is shown as a short tag. Each list runs from the newest work to the oldest.
+the survey discusses it, and one of the survey's own divisions of that section when the section
+lists them (a paragraph of its text, a group of its benchmark table, an open problem). A section
+whose works fall into two or more divisions shows one short list per division, in the paper's
+order, under its own heading. Each list runs from the newest work to the oldest.
 """
 
 import argparse
@@ -215,14 +217,15 @@ def render_entry(entry, group_tags, badge, group_color=NEUTRAL):
         description = entry["description"]
         if len(description) > 1 and description[1].islower():
             description = description[0].lower() + description[1:]
-        return f"- {badge(entry['label'], NEUTRAL)} {md(entry['title'])}: {md(description)}{link_badges(entry['links'], badge)}"
+        return f"- {md(entry['title'])}: {md(description)} {badge(entry['label'], NEUTRAL)}{link_badges(entry['links'], badge)}"
     title = md(entry["title"])
     title = title if title[-1] in ".?!" else title + "."
     tags = [badge(group_tags[entry["group"]], group_color)] if entry.get("group") in group_tags else []
     tags = "".join(f" {t}" for t in tags + [badge.tag(tag) for tag in entry.get("tags", [])])
     main = next(label for label in MAIN_LINKS if label in entry["links"])  # the venue badge opens it, the paper when there is one
     venue = badge(f"{entry['venue']} {entry['year']}", VENUE_COLORS.get(entry["venue"], VENUE_DEFAULT))
-    return f"- [{venue}]({markdown_url(entry['links'][main])}) {title}{link_badges(entry['links'], badge, skip=main)}{tags}"
+    # the title comes first; the venue badge after it opens the paper (or the work's page when there is no paper)
+    return f"- {title} [{venue}]({markdown_url(entry['links'][main])}){link_badges(entry['links'], badge, skip=main)}{tags}"
 
 
 def logo(entry):
@@ -365,10 +368,24 @@ def build(sections, entries):
             parts.extend(product_table(own, badge))
             parts.append("")
         elif own:
-            group_tags = {g["name"]: g["tag"] for g in node.get("groups", [])}
             color = GROUP_COLORS.get(top_of.get(node["id"]), NEUTRAL)
-            parts.extend(render_entry(e, group_tags, badge, color) for e in own)
-            parts.append("")
+            used = [g["name"] for g in node.get("groups", []) if any(e.get("group") == g["name"] for e in own)]
+            if len(used) >= 2:
+                # the paper's own divisions of this section, in its order, one short list each
+                sub = "#" * min(level + 1, 6)
+                for name in used:
+                    parts.append(f"{sub} {name}\n")
+                    parts.extend(render_entry(e, {}, badge, color) for e in own if e.get("group") == name)
+                    parts.append("")
+                rest = [e for e in own if e.get("group") not in used]
+                if rest:
+                    parts.append(f"{sub} Other Works\n")
+                    parts.extend(render_entry(e, {}, badge, color) for e in rest)
+                    parts.append("")
+            else:
+                # one division or none: a single list, without a tag that every entry would share
+                parts.extend(render_entry(e, {}, badge, color) for e in own)
+                parts.append("")
         for child in children.get(node["id"], []):
             emit(child)
 

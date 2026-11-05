@@ -36,15 +36,15 @@ Python 3.9 or newer is enough; no packages are required. Commit the data change 
 
 - `id`: unique lowercase kebab-case string.
 - `section`: the id of the survey section that discusses the work, from `data/sections.json` (for example `sec-3-3-1` for Whether to Observe: Triggering and Wake-Up).
-- `group` (optional): one of the group names listed for that section, such as a paragraph of a space subsection or a group of a benchmark table. The README shows the group's short tag.
+- `group`: when the section lists groups, the one that fits, copied exactly. Groups are the survey's own divisions of the section, such as a paragraph of its text, a group of its benchmark table, or an open problem. When a section's works fall into two or more groups, the README shows one list per group under its own heading, in the paper's order.
 - `venue` and `year`: the acceptance venue and its year when the work has one; otherwise `arXiv` and the year of the first preprint. Product pages and documentation use the organization as the venue.
 - `links`: HTTPS URLs keyed by `paper`, `blog`, `docs`, `website`, `project`, `code`, or `data`. Prefer the arXiv abstract page, then the DOI or official page. Add code only from the official repository.
 - `tags` (optional): up to two channel tags (`S→A`, `S→M`, `M→A`, `A→S`, `M→S`, `A→M`), a loop-closure level (`L0` to `L5`), and `Product`.
 
-The README renders each entry as a line with badges, and the venue badge opens the paper:
+The README renders each entry as one line that starts with the title, followed by its badges; the venue badge opens the paper:
 
 ```
-- [![Venue Year]](paper URL) Title. [![Code]](code URL) ![M→S]
+- Title. [![Venue Year]](paper URL) [![Code]](code URL) ![M→S]
 ```
 
 ## Products and tools

@@ -170,6 +170,7 @@
   {
     "id": "dailydroid2026",
     "section": "sec-3-2",
+    "group": "What does remote processing cost?",
     "title": "Do LLMs Need to See Everything? A Benchmark and Study of Failures in LLM-driven Smartphone Automation using Screentext vs. Screenshots",
     "year": 2026,
     "venue": "arXiv",
@@ -180,6 +181,7 @@
   {
     "id": "edgeinference2026",
     "section": "sec-3-2",
+    "group": "Can observations reach decisions in time?",
     "title": "LLM Inference at the Edge: Mobile, NPU, and GPU Performance Efficiency Trade-offs Under Sustained Load",
     "year": 2026,
     "venue": "arXiv",
@@ -190,6 +192,7 @@
   {
     "id": "selectivehearing2026",
     "section": "sec-3-2",
+    "group": "Whose information is the assistant allowed to observe?",
     "title": "Protecting Bystander Privacy via Selective Hearing in Audio LLMs",
     "year": 2026,
     "venue": "ACL",
@@ -200,6 +203,7 @@
   {
     "id": "aria2power",
     "section": "sec-3-2",
+    "group": "How long can sensing continue?",
     "title": "Full System Architecture Modeling for Wearable Egocentric Contextual AI",
     "year": 2025,
     "venue": "arXiv",
@@ -210,6 +214,7 @@
   {
     "id": "bhardwaj2024infocus",
     "section": "sec-3-2",
+    "group": "Whose information is the assistant allowed to observe?",
     "title": "In Focus, Out of Privacy: The Wearer's Perspective on the Privacy Dilemma of Camera Glasses",
     "year": 2024,
     "venue": "CHI",
@@ -220,6 +225,7 @@
   {
     "id": "meltingpoint2024",
     "section": "sec-3-2",
+    "group": "How long can sensing continue?",
     "title": "MELTing point: Mobile Evaluation of Language Transformers",
     "year": 2024,
     "venue": "MobiCom",
@@ -231,6 +237,7 @@
   {
     "id": "alshehri2022bystanders",
     "section": "sec-3-2",
+    "group": "Whose information is the assistant allowed to observe?",
     "title": "Exploring the Privacy Concerns of Bystanders in Smart Homes from the Perspectives of Both Owners and Bystanders",
     "year": 2022,
     "venue": "PETS",
@@ -241,6 +248,7 @@
   {
     "id": "diart2021",
     "section": "sec-3-2",
+    "group": "Whose information is the assistant allowed to observe?",
     "title": "Overlap-aware low-latency online speaker diarization based on end-to-end local segmentation",
     "year": 2021,
     "venue": "ASRU",
@@ -252,6 +260,7 @@
   {
     "id": "matsuhashi2020thermal",
     "section": "sec-3-2",
+    "group": "How long can sensing continue?",
     "title": "Thermal Model and Countermeasures for Future Smart Glasses",
     "year": 2020,
     "venue": "Sensors",
@@ -262,6 +271,7 @@
   {
     "id": "malekzadeh2019mobilesensor",
     "section": "sec-3-2",
+    "group": "Whose information is the assistant allowed to observe?",
     "title": "Mobile Sensor Data Anonymization",
     "year": 2019,
     "venue": "IoTDI",
@@ -272,6 +282,7 @@
   {
     "id": "chen2017wearable",
     "section": "sec-3-2",
+    "group": "Can observations reach decisions in time?",
     "title": "An Empirical Study of Latency in an Emerging Class of Edge Computing Applications for Wearable Cognitive Assistance",
     "year": 2017,
     "venue": "SEC",
@@ -282,6 +293,7 @@
   {
     "id": "koelle2015bystander",
     "section": "sec-3-2",
+    "group": "Whose information is the assistant allowed to observe?",
     "title": "Don't Look at Me That Way! Understanding User Attitudes Towards Data Glasses Usage",
     "year": 2015,
     "venue": "MobileHCI",
@@ -292,6 +304,7 @@
   {
     "id": "denning2014insitu",
     "section": "sec-3-2",
+    "group": "Whose information is the assistant allowed to observe?",
     "title": "In Situ with Bystanders of Augmented Reality Glasses: Perspectives on Recording and Privacy-Mediating Technologies",
     "year": 2014,
     "venue": "CHI",
@@ -479,6 +492,7 @@
   {
     "id": "esmem2026",
     "section": "sec-3-3-4",
+    "group": "Boundaries from prediction and change",
     "title": "ES-Mem: Event Segmentation-Based Memory for Long-Term Dialogue Agents",
     "year": 2026,
     "venue": "arXiv",
@@ -489,6 +503,7 @@
   {
     "id": "eventvstream2026",
     "section": "sec-3-3-4",
+    "group": "Boundaries from prediction and change",
     "title": "Event-VStream: Event-Driven Real-Time Understanding for Long Video Streams",
     "year": 2026,
     "venue": "CVPR",
@@ -499,6 +514,7 @@
   {
     "id": "svtasrl2023",
     "section": "sec-3-3-4",
+    "group": "Action progress and onsets",
     "title": "End-to-End Streaming Video Temporal Action Segmentation with Reinforce Learning",
     "year": 2025,
     "venue": "IEEE TNNLS",
@@ -510,6 +526,7 @@
   {
     "id": "mambaotr2025",
     "section": "sec-3-3-4",
+    "group": "Overlapping and unfamiliar events",
     "title": "Mamba-OTR: a Mamba-based Solution for Online Take and Release Detection from Untrimmed Egocentric Video",
     "year": 2025,
     "venue": "ICIAP",
@@ -520,6 +537,7 @@
   {
     "id": "ongebd2025",
     "section": "sec-3-3-4",
+    "group": "Overlapping and unfamiliar events",
     "title": "Online Generic Event Boundary Detection",
     "year": 2025,
     "venue": "ICCV",
@@ -530,6 +548,7 @@
   {
     "id": "actionswitch2024",
     "section": "sec-3-3-4",
+    "group": "Overlapping and unfamiliar events",
     "title": "ActionSwitch: Class-agnostic Detection of Simultaneous Actions in Streaming Videos",
     "year": 2024,
     "venue": "ECCV",
@@ -541,6 +560,7 @@
   {
     "id": "objectaware2024",
     "section": "sec-3-3-4",
+    "group": "Overlapping and unfamiliar events",
     "title": "Object Aware Egocentric Online Action Detection",
     "year": 2024,
     "venue": "CVPR Workshop",
@@ -551,6 +571,7 @@
   {
     "id": "protas2024",
     "section": "sec-3-3-4",
+    "group": "Action progress and onsets",
     "title": "Progress-Aware Online Action Segmentation for Egocentric Procedural Task Videos",
     "year": 2024,
     "venue": "CVPR",
@@ -561,6 +582,7 @@
   {
     "id": "svtas2022",
     "section": "sec-3-3-4",
+    "group": "Action progress and onsets",
     "title": "Streaming Video Temporal Action Segmentation In Real Time",
     "year": 2023,
     "venue": "ISKE",
@@ -571,6 +593,7 @@
   {
     "id": "assembly101",
     "section": "sec-3-3-4",
+    "group": "Boundary timing and its value",
     "title": "Assembly101: A Large-Scale Multi-View Video Dataset for Understanding Procedural Activities",
     "year": 2022,
     "venue": "CVPR",
@@ -581,6 +604,7 @@
   {
     "id": "testra2022",
     "section": "sec-3-3-4",
+    "group": "Action progress and onsets",
     "title": "Real-time Online Video Detection with Temporal Smoothing Transformers",
     "year": 2022,
     "venue": "ECCV",
@@ -592,6 +616,7 @@
   {
     "id": "epickitchens100",
     "section": "sec-3-3-4",
+    "group": "Boundary timing and its value",
     "title": "Rescaling Egocentric Vision: Collection, Pipeline and Challenges for EPIC-KITCHENS-100",
     "year": 2022,
     "venue": "IJCV",
@@ -602,6 +627,7 @@
   {
     "id": "lstr2021",
     "section": "sec-3-3-4",
+    "group": "Action progress and onsets",
     "title": "Long Short-Term Transformer for Online Action Detection",
     "year": 2021,
     "venue": "NeurIPS",
@@ -612,6 +638,7 @@
   {
     "id": "startnet2019",
     "section": "sec-3-3-4",
+    "group": "Action progress and onsets",
     "title": "StartNet: Online Detection of Action Start in Untrimmed Videos",
     "year": 2019,
     "venue": "ICCV",
@@ -622,6 +649,7 @@
   {
     "id": "odas2018",
     "section": "sec-3-3-4",
+    "group": "Action progress and onsets",
     "title": "Online Detection of Action Start in Untrimmed, Streaming Videos",
     "year": 2018,
     "venue": "ECCV",
@@ -632,6 +660,7 @@
   {
     "id": "oad2016",
     "section": "sec-3-3-4",
+    "group": "Action progress and onsets",
     "title": "Online Action Detection",
     "year": 2016,
     "venue": "ECCV",
@@ -642,6 +671,7 @@
   {
     "id": "zacks2007event",
     "section": "sec-3-3-4",
+    "group": "Boundaries from prediction and change",
     "title": "Event Perception: A Mind/Brain Perspective",
     "year": 2007,
     "venue": "Psychol. Bull.",
@@ -893,6 +923,7 @@
   {
     "id": "simplestream2026",
     "section": "sec-3-5-2",
+    "group": "Organizing supplied streams",
     "title": "A Simple Baseline for Streaming Video Understanding",
     "year": 2026,
     "venue": "arXiv",
@@ -904,6 +935,7 @@
   {
     "id": "egocross2026",
     "section": "sec-3-5-2",
+    "group": "Perception baselines: supplied input",
     "title": "EgoCross: Benchmarking Multimodal Large Language Models for Cross-Domain Egocentric Video Question Answering",
     "year": 2026,
     "venue": "AAAI",
@@ -914,6 +946,7 @@
   {
     "id": "egotrigger",
     "section": "sec-3-5-2",
+    "group": "Continuous and triggered capture: coverage and cost",
     "title": "EgoTrigger: Toward Audio-Driven Image Capture for Human Memory Enhancement in All-Day Energy-Efficient Smart Glasses",
     "year": 2025,
     "venue": "TVCG",
@@ -924,6 +957,7 @@
   {
     "id": "onlinetas2024",
     "section": "sec-3-5-2",
+    "group": "Organizing supplied streams",
     "title": "OnlineTAS: An Online Baseline for Temporal Action Segmentation",
     "year": 2024,
     "venue": "NeurIPS",
@@ -933,7 +967,8 @@
   },
   {
     "id": "webarena2023",
-    "section": "sec-3-5-2",
+    "section": "sec-5-5-2",
+    "group": "Reactive: executing a request",
     "title": "WebArena: A Realistic Web Environment for Building Autonomous Agents",
     "year": 2024,
     "venue": "ICLR",
@@ -945,6 +980,7 @@
   {
     "id": "personalvad2020",
     "section": "sec-3-5-2",
+    "group": "Guidance from Memory and Action",
     "title": "Personal VAD: Speaker-Conditioned Voice Activity Detection",
     "year": 2020,
     "venue": "Odyssey",
@@ -957,7 +993,7 @@
   },
   {
     "id": "horvitz1999mixedinitiative",
-    "section": "sec-3-5-2",
+    "section": "sec-5-2",
     "title": "Principles of mixed-initiative user interfaces",
     "year": 1999,
     "venue": "CHI",
@@ -994,7 +1030,7 @@
   {
     "id": "flashvstream2024",
     "section": "sec-3-5-2",
-    "group": "Continuous and triggered capture: coverage and cost",
+    "group": "Organizing supplied streams",
     "title": "Flash-VStream: Memory-Based Real-Time Understanding for Long Video Streams",
     "year": 2024,
     "venue": "arXiv",
@@ -1127,7 +1163,7 @@
   {
     "id": "gebd2021",
     "section": "sec-3-5-2",
-    "group": "Perception baselines: supplied input",
+    "group": "Organizing supplied streams",
     "title": "Generic Event Boundary Detection: A Benchmark for Event Segmentation",
     "year": 2021,
     "venue": "ICCV",
@@ -1160,7 +1196,7 @@
   {
     "id": "egosat2026",
     "section": "sec-3-5-2",
-    "group": "Readiness and response timing",
+    "group": "Perception baselines: supplied input",
     "title": "EgoSAT: A Comprehensive Benchmark of Egocentric Streaming Interaction Understanding",
     "year": 2026,
     "venue": "ECCV",
@@ -1215,7 +1251,7 @@
   {
     "id": "ovobench2025",
     "section": "sec-3-5-2",
-    "group": "Readiness and response timing",
+    "group": "Perception baselines: supplied input",
     "title": "OVO-Bench: How Far Is Your Video-LLM from Real-World Online Video Understanding?",
     "year": 2025,
     "venue": "CVPR",
@@ -1297,6 +1333,7 @@
   {
     "id": "memorysubstrateharness2026",
     "section": "sec-4-1-2",
+    "group": "The choice of a storage architecture",
     "title": "Harness the Memory: A Holistic Evaluation of Memory Substrates in Memory Agents",
     "year": 2026,
     "venue": "NeurIPS",
@@ -1307,6 +1344,7 @@
   {
     "id": "metismemory2026",
     "section": "sec-4-1-2",
+    "group": "Code and dense state",
     "title": "Metis: Memory Foundation Model",
     "year": 2026,
     "venue": "arXiv",
@@ -1318,6 +1356,7 @@
   {
     "id": "memos-paper",
     "section": "sec-4-1-2",
+    "group": "The choice of a storage architecture",
     "title": "MemOS: A Memory OS for AI System",
     "year": 2025,
     "venue": "arXiv",
@@ -1329,6 +1368,7 @@
   {
     "id": "voyager2023",
     "section": "sec-4-1-2",
+    "group": "Code and dense state",
     "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
     "year": 2024,
     "venue": "TMLR",
@@ -1340,6 +1380,7 @@
   {
     "id": "adamem2026",
     "section": "sec-4-3-1",
+    "group": "Admission",
     "title": "AdaMem: Learning What to Remember with Adaptive Memory Policies for Personalized Agents",
     "year": 2026,
     "venue": "arXiv",
@@ -1354,6 +1395,7 @@
   {
     "id": "mem1",
     "section": "sec-4-3-1",
+    "group": "Encoding",
     "title": "MEM1: Learning to Synergize Memory and Reasoning for Efficient Long-Horizon Agents",
     "year": 2026,
     "venue": "ICLR",
@@ -1364,6 +1406,7 @@
   {
     "id": "memmachine2026",
     "section": "sec-4-3-1",
+    "group": "Encoding",
     "title": "MemMachine: A Ground-Truth-Preserving Memory System for Personalized AI Agents",
     "year": 2026,
     "venue": "arXiv",
@@ -1374,6 +1417,7 @@
   {
     "id": "generativeagents2023",
     "section": "sec-4-3-1",
+    "group": "Encoding",
     "title": "Generative Agents: Interactive Simulacra of Human Behavior",
     "year": 2023,
     "venue": "UIST",
@@ -1384,6 +1428,7 @@
   {
     "id": "mosaicmemory2026",
     "section": "sec-4-3-2",
+    "group": "Indexing",
     "title": "Accurate and Efficient Long-Term Memory for LLM Agents",
     "year": 2026,
     "venue": "arXiv",
@@ -1394,6 +1439,7 @@
   {
     "id": "infinimemory2026",
     "section": "sec-4-3-2",
+    "group": "Indexing",
     "title": "Infini Memory: Maintainable Topic Documents for Long-Term LLM Agent Memory",
     "year": 2026,
     "venue": "arXiv",
@@ -1407,6 +1453,7 @@
   {
     "id": "ramem2026",
     "section": "sec-4-3-2",
+    "group": "Indexing",
     "title": "RaMem: Contextual Reinstatement for Long-term Agentic Memory",
     "year": 2026,
     "venue": "arXiv",
@@ -1417,6 +1464,7 @@
   {
     "id": "amem2025",
     "section": "sec-4-3-2",
+    "group": "Indexing",
     "title": "A-MEM: Agentic Memory for LLM Agents",
     "year": 2025,
     "venue": "NeurIPS",
@@ -1428,6 +1476,7 @@
   {
     "id": "zep",
     "section": "sec-4-3-2",
+    "group": "Indexing",
     "title": "Zep: A Temporal Knowledge Graph Architecture for Agent Memory",
     "year": 2025,
     "venue": "arXiv",
@@ -1439,6 +1488,7 @@
   {
     "id": "steem2026",
     "section": "sec-4-3-3",
+    "group": "Retrieval",
     "title": "Controllable Memory Usage: Balancing Anchoring and Innovation in Long-Term Human-Agent Interaction",
     "year": 2026,
     "venue": "ACL",
@@ -1452,6 +1502,7 @@
   {
     "id": "opbench2026",
     "section": "sec-4-3-3",
+    "group": "Retrieval",
     "title": "OP-Bench: Benchmarking Over-Personalization for Memory-Augmented Personalized Conversational Agents",
     "year": 2026,
     "venue": "EMNLP",
@@ -1465,6 +1516,7 @@
   {
     "id": "expweaver2026",
     "section": "sec-4-3-3",
+    "group": "Retrieval",
     "title": "Rethinking Experience Utilization in Self-Evolving Language Model Agents",
     "year": 2026,
     "venue": "arXiv",
@@ -1475,6 +1527,7 @@
   {
     "id": "compliancetrap2026",
     "section": "sec-4-3-3",
+    "group": "Retrieval",
     "title": "The Compliance Trap: Diagnosing How AI Agents Consume Conflicting Memory",
     "year": 2026,
     "venue": "arXiv",
@@ -1485,6 +1538,7 @@
   {
     "id": "voicemem2026",
     "section": "sec-4-3-3",
+    "group": "Retrieval",
     "title": "VoiceMem: Streaming Dual-Brain Memory for Real-Time Interaction",
     "year": 2026,
     "venue": "arXiv",
@@ -1496,6 +1550,7 @@
   {
     "id": "gam2025",
     "section": "sec-4-3-3",
+    "group": "Retrieval",
     "title": "General Agentic Memory Via Deep Research",
     "year": 2025,
     "venue": "arXiv",
@@ -1507,6 +1562,7 @@
   {
     "id": "autodreamer2026",
     "section": "sec-4-3-4",
+    "group": "Consolidation",
     "title": "Auto-Dreamer: Learning Offline Memory Consolidation for Language Agents",
     "year": 2026,
     "venue": "arXiv",
@@ -1517,6 +1573,7 @@
   {
     "id": "lightmem2025",
     "section": "sec-4-3-4",
+    "group": "Consolidation",
     "title": "LightMem: Lightweight and Efficient Memory-Augmented Generation",
     "year": 2026,
     "venue": "ICLR",
@@ -1528,6 +1585,7 @@
   {
     "id": "dcpm2026",
     "section": "sec-4-3-4",
+    "group": "Consolidation",
     "title": "Memory Beyond Recall: A Dual-Process Cognitive Memory System for Self-Evolving LLM Agents",
     "year": 2026,
     "venue": "arXiv",
@@ -1538,6 +1596,7 @@
   {
     "id": "memq2026",
     "section": "sec-4-3-4",
+    "group": "Consolidation",
     "title": "MemQ: Integrating Q-Learning into Self-Evolving Memory Agents over Provenance DAGs",
     "year": 2026,
     "venue": "arXiv",
@@ -1552,6 +1611,7 @@
   {
     "id": "physmem",
     "section": "sec-4-3-4",
+    "group": "Consolidation",
     "title": "PhysMem: Scaling Test-Time Memory for Embodied Physical Reasoning",
     "year": 2026,
     "venue": "arXiv",
@@ -1562,6 +1622,7 @@
   {
     "id": "faultymemories2026",
     "section": "sec-4-3-4",
+    "group": "Consolidation",
     "title": "Useful Memories Become Faulty When Continuously Updated by LLMs",
     "year": 2026,
     "venue": "arXiv",
@@ -1572,6 +1633,7 @@
   {
     "id": "agentworkflowmemory2024",
     "section": "sec-4-3-4",
+    "group": "Consolidation",
     "title": "Agent Workflow Memory",
     "year": 2025,
     "venue": "ICML",
@@ -1583,6 +1645,7 @@
   {
     "id": "mobileagente2025",
     "section": "sec-4-3-4",
+    "group": "Consolidation",
     "title": "Mobile-Agent-E: Self-Evolving Mobile Assistant for Complex Tasks",
     "year": 2025,
     "venue": "arXiv",
@@ -1596,6 +1659,7 @@
   {
     "id": "sleeptime2025",
     "section": "sec-4-3-4",
+    "group": "Consolidation",
     "title": "Sleep-time Compute: Beyond Inference Scaling at Test-time",
     "year": 2025,
     "venue": "arXiv",
@@ -1677,6 +1741,7 @@
   {
     "id": "persistentsycophancy2026",
     "section": "sec-4-5-2",
+    "group": "Profile: keeping what holds valid",
     "title": "Agents Don't Just Agree, They Remember: Benchmarking Persistent Sycophancy in Self-Improving Personal Agents",
     "year": 2026,
     "venue": "arXiv",
@@ -1687,7 +1752,7 @@
   },
   {
     "id": "agentnativememory2026",
-    "section": "sec-4-5-2",
+    "section": "sec-4-5-1",
     "title": "Are We Ready For An Agent-Native Memory System?",
     "year": 2026,
     "venue": "arXiv",
@@ -1698,7 +1763,8 @@
   },
   {
     "id": "capabilityerosion2026",
-    "section": "sec-4-5-2",
+    "section": "sec-8-3",
+    "group": "Telling Whether a Revision Helped",
     "title": "Do Self-Evolving Agents Forget? Capability Degradation and Preservation in Lifelong LLM Agent Adaptation",
     "year": 2026,
     "venue": "arXiv",
@@ -1709,6 +1775,7 @@
   {
     "id": "dynamicmem2026",
     "section": "sec-4-5-2",
+    "group": "Coupling and later use: state influences subsequent decisions",
     "title": "DynamicMem: A Long-Horizon Memory Benchmark in Real-World Settings",
     "year": 2026,
     "venue": "arXiv",
@@ -1719,6 +1786,7 @@
   {
     "id": "liu2026filegram",
     "section": "sec-4-5-2",
+    "group": "Coupling and later use: state influences subsequent decisions",
     "title": "FileGram: Grounding Agent Personalization in File-System Behavioral Traces",
     "year": 2026,
     "venue": "arXiv",
@@ -1730,6 +1798,7 @@
   {
     "id": "hippocamp",
     "section": "sec-4-5-2",
+    "group": "Recall baselines",
     "title": "HippoCamp: Benchmarking Contextual Agents on Personal Computers",
     "year": 2026,
     "venue": "ECCV",
@@ -1741,6 +1810,7 @@
   {
     "id": "knowubench2026",
     "section": "sec-4-5-2",
+    "group": "Coupling and later use: state influences subsequent decisions",
     "title": "KnowU-Bench: Towards Interactive, Proactive, and Personalized Mobile Agent Evaluation",
     "year": 2026,
     "venue": "arXiv",
@@ -1752,6 +1822,7 @@
   {
     "id": "pis2026",
     "section": "sec-4-5-2",
+    "group": "Prospective: holding what is pending",
     "title": "Making Prospective Memory SLM-Shaped: Typed Intention Stores for Small-Model Agents",
     "year": 2026,
     "venue": "arXiv",
@@ -1765,6 +1836,7 @@
   {
     "id": "parebench2026",
     "section": "sec-4-5-2",
+    "group": "Coupling and later use: state influences subsequent decisions",
     "title": "Proactive Agent Research Environment: Simulating Active Users to Evaluate Proactive Assistants",
     "year": 2026,
     "venue": "arXiv",
@@ -1779,6 +1851,7 @@
   {
     "id": "statecontamination2026",
     "section": "sec-4-5-2",
+    "group": "Profile: keeping what holds valid",
     "title": "State Contamination in Memory-Augmented LLM Agents",
     "year": 2026,
     "venue": "arXiv",
@@ -1789,6 +1862,7 @@
   {
     "id": "vitabench2",
     "section": "sec-4-5-2",
+    "group": "Coupling and later use: state influences subsequent decisions",
     "title": "VitaBench 2.0: Evaluating Personalized and Proactive Agents in Long-Term User Interactions",
     "year": 2026,
     "venue": "arXiv",
@@ -1799,7 +1873,8 @@
   },
   {
     "id": "stalerepair2026",
-    "section": "sec-4-5-2",
+    "section": "sec-4-3-4",
+    "group": "Correction",
     "title": "When Memory Updates but Behavior Does Not: Repairing Implicit Stale Dependencies in Personalized Agent Responses",
     "year": 2026,
     "venue": "arXiv",
@@ -1809,7 +1884,8 @@
   },
   {
     "id": "statepoisoning2026",
-    "section": "sec-4-5-2",
+    "section": "sec-4-3-1",
+    "group": "Admission",
     "title": "When Routine Chats Turn Toxic: Unintended Long-Term State Poisoning in Personalized Agents",
     "year": 2026,
     "venue": "arXiv",
@@ -1820,6 +1896,7 @@
   {
     "id": "lifelongagentbench2025",
     "section": "sec-4-5-2",
+    "group": "Coupling and later use: state influences subsequent decisions",
     "title": "LifelongAgentBench: Evaluating LLM Agents as Lifelong Learners",
     "year": 2025,
     "venue": "arXiv",
@@ -1867,7 +1944,7 @@
   {
     "id": "memeye2026",
     "section": "sec-4-5-2",
-    "group": "Admission: what enters the store",
+    "group": "Recall baselines",
     "title": "MemEye: A Visual-Centric Evaluation Framework for Multimodal Agent Memory",
     "year": 2026,
     "venue": "arXiv",
@@ -1966,7 +2043,7 @@
   {
     "id": "longmemevalv22026",
     "section": "sec-4-5-2",
-    "group": "Coupling and later use: state influences subsequent decisions",
+    "group": "Recall baselines",
     "title": "LongMemEval-V2: Evaluating Long-Term Agent Memory Toward Experienced Colleagues",
     "year": 2026,
     "venue": "arXiv",
@@ -2027,7 +2104,7 @@
   {
     "id": "worldmemarena2026",
     "section": "sec-4-5-2",
-    "group": "Coupling and later use: state influences subsequent decisions",
+    "group": "Admission: what enters the store",
     "title": "WorldMemArena: Evaluating Multimodal Agent Memory Through Action-World Interaction",
     "year": 2026,
     "venue": "arXiv",
@@ -2301,6 +2378,7 @@
   {
     "id": "agenticabstention2026",
     "section": "sec-5-3-1",
+    "group": "Clarifying, preparing, or stopping",
     "title": "Agentic Abstention: Do Agents Know When to Stop Instead of Act?",
     "year": 2026,
     "venue": "arXiv",
@@ -2312,6 +2390,7 @@
   {
     "id": "duplexpo2026",
     "section": "sec-5-3-1",
+    "group": "Waiting for a useful moment",
     "title": "Decoupling Conversational Dynamics in Full-Duplex Spoken Models through Reinforcement Learning",
     "year": 2026,
     "venue": "arXiv",
@@ -2322,6 +2401,7 @@
   {
     "id": "devfieldstudy2026",
     "section": "sec-5-3-1",
+    "group": "Waiting for a useful moment",
     "title": "Developer Interaction Patterns with Proactive AI: A Five-Day Field Study",
     "year": 2026,
     "venue": "IUI",
@@ -2332,6 +2412,7 @@
   {
     "id": "triggerrouting2026",
     "section": "sec-5-3-1",
+    "group": "Choosing a separate or shared timing model",
     "title": "Do Proactive Agents Need an LLM to Decide When to Act?",
     "year": 2026,
     "venue": "arXiv",
@@ -2342,6 +2423,7 @@
   {
     "id": "collaborativevla2026",
     "section": "sec-5-3-1",
+    "group": "Waiting for a useful moment",
     "title": "Learning to Assist: Collaborative VLAs for Implicit Human-Robot Collaboration",
     "year": 2026,
     "venue": "CoRL",
@@ -2352,6 +2434,7 @@
   {
     "id": "proactor2026",
     "section": "sec-5-3-1",
+    "group": "Choosing a separate or shared timing model",
     "title": "ProActor: Timing-Aware Reinforcement Learning for Proactive Task Scheduling Agents",
     "year": 2026,
     "venue": "ACL",
@@ -2362,6 +2445,7 @@
   {
     "id": "roboomni2025",
     "section": "sec-5-3-1",
+    "group": "Clarifying, preparing, or stopping",
     "title": "RoboOmni: Proactive Robot Manipulation in Omni-modal Context",
     "year": 2026,
     "venue": "ICLR",
@@ -2373,6 +2457,7 @@
   {
     "id": "speakorstaysilent2026",
     "section": "sec-5-3-1",
+    "group": "Waiting for a useful moment",
     "title": "Speak or Stay Silent: Context-Aware Turn-Taking in Multi-Party Dialogue",
     "year": 2026,
     "venue": "arXiv",
@@ -2383,6 +2468,7 @@
   {
     "id": "when2speak2026",
     "section": "sec-5-3-1",
+    "group": "Waiting for a useful moment",
     "title": "When2Speak: A Dataset for Temporal Participation and Turn-Taking in Multi-Party Conversations for Large Language Models",
     "year": 2026,
     "venue": "arXiv",
@@ -2393,6 +2479,7 @@
   {
     "id": "robix2025",
     "section": "sec-5-3-1",
+    "group": "Clarifying, preparing, or stopping",
     "title": "Robix: A Unified Model for Robot Interaction, Reasoning and Planning",
     "year": 2025,
     "venue": "arXiv",
@@ -2403,6 +2490,7 @@
   {
     "id": "streambridge",
     "section": "sec-5-3-1",
+    "group": "Choosing a separate or shared timing model",
     "title": "StreamBridge: Turning Your Offline Video Large Language Model into a Proactive Streaming Assistant",
     "year": 2025,
     "venue": "NeurIPS",
@@ -2413,6 +2501,7 @@
   {
     "id": "talkingturns2025",
     "section": "sec-5-3-1",
+    "group": "Waiting for a useful moment",
     "title": "Talking Turns: Benchmarking Audio Foundation Models on Turn-Taking Dynamics",
     "year": 2025,
     "venue": "ICLR",
@@ -2423,6 +2512,7 @@
   {
     "id": "mmduet2024",
     "section": "sec-5-3-1",
+    "group": "Choosing a separate or shared timing model",
     "title": "VideoLLM Knows When to Speak: Enhancing Time-Sensitive Video Comprehension with Video-Text Duet Interaction Format",
     "year": 2025,
     "venue": "Findings of EMNLP",
@@ -2511,6 +2601,7 @@
   {
     "id": "formalpolicy2026",
     "section": "sec-5-3-4",
+    "group": "Checking permission before an action takes effect",
     "title": "Formal Policy Enforcement for Agentic Systems",
     "year": 2026,
     "venue": "arXiv",
@@ -2521,6 +2612,7 @@
   {
     "id": "heartbeat2026",
     "section": "sec-5-3-4",
+    "group": "Rechecking after a pause or handoff",
     "title": "Mind Your HEARTBEAT! Claw Background Execution Inherently Enables Silent Memory Pollution",
     "year": 2026,
     "venue": "arXiv",
@@ -2531,6 +2623,7 @@
   {
     "id": "committime2026",
     "section": "sec-5-3-4",
+    "group": "Rechecking after a pause or handoff",
     "title": "Temporary Authority, Permanent Effects: Commit-Time Authorization for LLM Agents",
     "year": 2026,
     "venue": "arXiv",
@@ -2541,6 +2634,7 @@
   {
     "id": "authmembench2026",
     "section": "sec-5-3-4",
+    "group": "Rechecking after a pause or handoff",
     "title": "When Memory Becomes Authority: Benchmarking Authority Collapse at the Memory Consolidation Boundary",
     "year": 2026,
     "venue": "arXiv",
@@ -2551,6 +2645,7 @@
   {
     "id": "agrail2025",
     "section": "sec-5-3-4",
+    "group": "Checking permission before an action takes effect",
     "title": "AGrail: A Lifelong Agent Guardrail with Effective and Adaptive Safety Detection",
     "year": 2025,
     "venue": "ACL",
@@ -2561,6 +2656,7 @@
   {
     "id": "craftpolicy2025",
     "section": "sec-5-3-4",
+    "group": "Checking permission before an action takes effect",
     "title": "Effective Red-Teaming of Policy-Adherent Agents",
     "year": 2025,
     "venue": "EMNLP",
@@ -2581,6 +2677,7 @@
   {
     "id": "demystifyingskills2026",
     "section": "sec-5-4-2",
+    "group": "Separating retrieval, delivery, and use",
     "title": "Demystifying Agent Skills: Why They Work-Until They Don't",
     "year": 2026,
     "venue": "arXiv",
@@ -2595,6 +2692,7 @@
   {
     "id": "mementopersonal2025",
     "section": "sec-5-4-2",
+    "group": "Using personal and task context",
     "title": "Embodied Agents Meet Personalization: Investigating Challenges and Solutions Through the Lens of Memory Utilization",
     "year": 2026,
     "venue": "ICLR",
@@ -2609,6 +2707,7 @@
   {
     "id": "mementogui2026",
     "section": "sec-5-4-2",
+    "group": "Using personal and task context",
     "title": "MementoGUI: Learning Agentic Multimodal Memory Control for Long-Horizon GUI Agents",
     "year": 2026,
     "venue": "arXiv",
@@ -2622,6 +2721,7 @@
   {
     "id": "mmskills2026",
     "section": "sec-5-4-2",
+    "group": "Delivering due commitments and procedures",
     "title": "MMSkills: Towards Multimodal Skills for General Visual Agents",
     "year": 2026,
     "venue": "arXiv",
@@ -2656,6 +2756,7 @@
   {
     "id": "proactivecoding2026",
     "section": "sec-5-5-2",
+    "group": "Proactive: acting or staying silent",
     "title": "Agentic Coding Needs Proactivity, Not Just Autonomy",
     "year": 2026,
     "venue": "arXiv",
@@ -2666,6 +2767,7 @@
   {
     "id": "androidworld2024",
     "section": "sec-5-5-2",
+    "group": "Reactive: executing a request",
     "title": "AndroidWorld: A Dynamic Benchmarking Environment for Autonomous Agents",
     "year": 2025,
     "venue": "ICLR",
@@ -2677,6 +2779,7 @@
   {
     "id": "agentbench2023",
     "section": "sec-5-5-2",
+    "group": "Reactive: executing a request",
     "title": "AgentBench: Evaluating LLMs as Agents",
     "year": 2024,
     "venue": "ICLR",
@@ -2688,6 +2791,7 @@
   {
     "id": "osworld2024",
     "section": "sec-5-5-2",
+    "group": "Reactive: executing a request",
     "title": "OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments",
     "year": 2024,
     "venue": "NeurIPS D&B",
@@ -2699,6 +2803,7 @@
   {
     "id": "mind2web2023",
     "section": "sec-5-5-2",
+    "group": "Reactive: executing a request",
     "title": "Mind2Web: Towards a Generalist Agent for the Web",
     "year": 2023,
     "venue": "NeurIPS D&B",
@@ -2840,7 +2945,7 @@
   {
     "id": "aura2026",
     "section": "sec-5-5-2",
-    "group": "Proactive: acting or staying silent",
+    "group": "Reactive: executing a request",
     "title": "AURA: Always-On Understanding and Real-Time Assistance via Video Streams",
     "year": 2026,
     "venue": "arXiv",
@@ -2866,7 +2971,7 @@
   {
     "id": "omnipro2026",
     "section": "sec-5-5-2",
-    "group": "Proactive: acting or staying silent",
+    "group": "Deferred: commitments over time",
     "title": "OmniPro: A Comprehensive Benchmark for Omni-Proactive Streaming Video Understanding",
     "year": 2026,
     "venue": "arXiv",
@@ -2916,7 +3021,7 @@
   {
     "id": "stride2026",
     "section": "sec-5-5-2",
-    "group": "Proactive: acting or staying silent",
+    "group": "Reactive: executing a request",
     "title": "STRIDE: When to Speak Meets Sequence Denoising for Streaming Video Understanding",
     "year": 2026,
     "venue": "ECCV",
@@ -2928,7 +3033,7 @@
   {
     "id": "pibench2026",
     "section": "sec-5-5-2",
-    "group": "Proactive: acting or staying silent",
+    "group": "Deferred: commitments over time",
     "title": "π-Bench: Evaluating Proactive Personal Assistant Agents in Long-Horizon Workflows",
     "year": 2026,
     "venue": "arXiv",
@@ -2999,7 +3104,7 @@
   {
     "id": "jarvisbench2026",
     "section": "sec-5-5-2",
-    "group": "Reactive: executing a request",
+    "group": "Deferred: commitments over time",
     "title": "JarvisBench: Always-on Intelligence Between Humans and Agents",
     "year": 2026,
     "venue": "arXiv",
@@ -3022,7 +3127,7 @@
   {
     "id": "smhbench2026",
     "section": "sec-5-5-2",
-    "group": "Reactive: executing a request",
+    "group": "Deferred: commitments over time",
     "title": "SMH-Bench: Benchmarking LLM Agents for Environment-Grounded Reasoning and Action in Smart Homes",
     "year": 2026,
     "venue": "arXiv",
@@ -4143,6 +4248,7 @@
   {
     "id": "crlvla2026",
     "section": "sec-6-4",
+    "group": "Why revision is harder inside an always-on assistant",
     "title": "CRL-VLA: Continual Vision-Language-Action Learning",
     "year": 2026,
     "venue": "arXiv",
@@ -4153,6 +4259,7 @@
   {
     "id": "embodiskill2026",
     "section": "sec-6-4",
+    "group": "Revising prompts and written instructions",
     "title": "EmbodiSkill: Skill-Aware Reflection for Self-Evolving Embodied Agents",
     "year": 2026,
     "venue": "arXiv",
@@ -4163,6 +4270,7 @@
   {
     "id": "evolvemem2026",
     "section": "sec-6-4",
+    "group": "Revising storage and retrieval rules",
     "title": "EvolveMem: Self-Evolving Memory Architecture via AutoResearch for LLM Agents",
     "year": 2026,
     "venue": "arXiv",
@@ -4174,6 +4282,7 @@
   {
     "id": "harnessbenefit2026",
     "section": "sec-6-4",
+    "group": "Which revisions are governed",
     "title": "Harness Updating Is Not Harness Benefit: Disentangling Evolution Capabilities in Self-Evolving LLM Agents",
     "year": 2026,
     "venue": "arXiv",
@@ -4185,6 +4294,7 @@
   {
     "id": "hyperskill2026",
     "section": "sec-6-4",
+    "group": "Why revision is harder inside an always-on assistant",
     "title": "HyperSkill: Self-Evolving LLM Agents via Hypergraph-Structured Skill Memory",
     "year": 2026,
     "venue": "NeurIPS Workshop",
@@ -4195,6 +4305,7 @@
   {
     "id": "pace2026",
     "section": "sec-6-4",
+    "group": "Revising prompts and written instructions",
     "title": "PACE: Anytime-Valid Acceptance Tests for Self-Evolving Agents",
     "year": 2026,
     "venue": "arXiv",
@@ -4205,6 +4316,7 @@
   {
     "id": "oeo2026",
     "section": "sec-6-4",
+    "group": "Why revision is harder inside an always-on assistant",
     "title": "Rethinking Self-Evolving Agents: Do We Still Need Prescribed Optimization Pipelines?",
     "year": 2026,
     "venue": "arXiv",
@@ -4215,6 +4327,7 @@
   {
     "id": "shaper2026",
     "section": "sec-6-4",
+    "group": "Why revision is harder inside an always-on assistant",
     "title": "Self-Evolving Embodied Agents via Skill-Harness Evolution",
     "year": 2026,
     "venue": "arXiv",
@@ -4225,6 +4338,7 @@
   {
     "id": "skillsmith2026",
     "section": "sec-6-4",
+    "group": "Revising tools and APIs",
     "title": "SkillSmith: Co-Evolving Skills and Tools for Self-Improving Agent Systems",
     "year": 2026,
     "venue": "arXiv",
@@ -4235,6 +4349,7 @@
   {
     "id": "spacemind2026",
     "section": "sec-6-4",
+    "group": "Why revision is harder inside an always-on assistant",
     "title": "SpaceMind: A Modular and Self-Evolving Embodied Vision-Language Agent Framework for Autonomous On-orbit Servicing",
     "year": 2026,
     "venue": "arXiv",
@@ -4246,6 +4361,7 @@
   {
     "id": "lifelongvla2026",
     "section": "sec-6-4",
+    "group": "Why revision is harder inside an always-on assistant",
     "title": "Towards Human-like Physical Intelligence: Lifelong Vision-Language-Action Learning for Robotic Manipulation",
     "year": 2026,
     "venue": "arXiv",
@@ -4256,6 +4372,7 @@
   {
     "id": "zetta2026",
     "section": "sec-6-4",
+    "group": "Why revision is harder inside an always-on assistant",
     "title": "Zetta ζ: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence",
     "year": 2026,
     "venue": "arXiv",
@@ -4267,6 +4384,7 @@
   {
     "id": "alphaevolve2025",
     "section": "sec-6-4",
+    "group": "Why revision is harder inside an always-on assistant",
     "title": "AlphaEvolve: A coding agent for scientific and algorithmic discovery",
     "year": 2025,
     "venue": "arXiv",
@@ -4277,6 +4395,7 @@
   {
     "id": "seear12025",
     "section": "sec-6-4",
+    "group": "Why revision is harder inside an always-on assistant",
     "title": "SEEA-R1: Tree-Structured Reinforcement Fine-Tuning for Self-Evolving Embodied Agents",
     "year": 2025,
     "venue": "NeurIPS",
@@ -4287,6 +4406,7 @@
   {
     "id": "seal2025",
     "section": "sec-6-4",
+    "group": "Why revision is harder inside an always-on assistant",
     "title": "Self-Adapting Language Models",
     "year": 2025,
     "venue": "NeurIPS",
@@ -4297,6 +4417,7 @@
   {
     "id": "pi06recap2025",
     "section": "sec-6-4",
+    "group": "Why revision is harder inside an always-on assistant",
     "title": "π*0.6: a VLA That Learns From Experience",
     "year": 2025,
     "venue": "arXiv",
@@ -4307,6 +4428,7 @@
   {
     "id": "prorl2026",
     "section": "sec-8-1",
+    "group": "Deciding When to Act, Wait, or Ask",
     "title": "ProRL: Effective Reinforcement Learning for Proactive Recommendation via Rectified Policy Gradient Estimation",
     "year": 2026,
     "venue": "ICML",
@@ -4318,6 +4440,7 @@
   {
     "id": "blindvla2025",
     "section": "sec-8-3",
+    "group": "Telling Whether a Revision Helped",
     "title": "Don't Blind Your VLA: Aligning Visual Representations for OOD Generalization",
     "year": 2026,
     "venue": "AAMAS",
@@ -4329,6 +4452,7 @@
   {
     "id": "hyperagents2026",
     "section": "sec-8-3",
+    "group": "Revising the Revision Procedure",
     "title": "Hyperagents",
     "year": 2026,
     "venue": "arXiv",
@@ -4340,6 +4464,7 @@
   {
     "id": "alma2026",
     "section": "sec-8-3",
+    "group": "Revising the Revision Procedure",
     "title": "Learning to Continually Learn via Meta-learning Agentic Memory Designs",
     "year": 2026,
     "venue": "ICLR Workshop",
@@ -4351,6 +4476,7 @@
   {
     "id": "metattl2026",
     "section": "sec-8-3",
+    "group": "Revising the Revision Procedure",
     "title": "Learning to Learn-at-Test-Time: Language Agents with Learnable Adaptation Policies",
     "year": 2026,
     "venue": "ICML Workshop",
@@ -4362,6 +4488,7 @@
   {
     "id": "librarydrift2026",
     "section": "sec-8-3",
+    "group": "Keeping Self-Evolution Within the User's Bounds",
     "title": "Library Drift: Diagnosing and Fixing a Silent Failure Mode in Self-Evolving LLM Skill Libraries",
     "year": 2026,
     "venue": "ICML Workshop",
@@ -4373,6 +4500,7 @@
   {
     "id": "metan2026",
     "section": "sec-8-3",
+    "group": "Revising the Revision Procedure",
     "title": "Metaⁿ: Recursive Self-Improvement through Emergent Depth",
     "year": 2026,
     "venue": "arXiv",
@@ -4383,7 +4511,7 @@
   },
   {
     "id": "practicemakesunsafe2026",
-    "section": "sec-8-3",
+    "section": "sec-6-2-1",
     "title": "Practice Makes Unsafe: Skill Misevolution in Self-Improving LLM Agents",
     "year": 2026,
     "venue": "arXiv",
@@ -4395,6 +4523,7 @@
   {
     "id": "recursiveharness2026",
     "section": "sec-8-3",
+    "group": "Revising the Revision Procedure",
     "title": "Recursive Harness Self-Improvement",
     "year": 2026,
     "venue": "arXiv",
@@ -4405,6 +4534,7 @@
   {
     "id": "rsisurvey2026",
     "section": "sec-8-3",
+    "group": "Revising the Revision Procedure",
     "title": "Recursive Self-Improvement in AI: From Bounded Self-Refinement to Autonomous Research Loops",
     "year": 2026,
     "venue": "arXiv",
@@ -4415,6 +4545,7 @@
   {
     "id": "selfauthoredverification2026",
     "section": "sec-8-3",
+    "group": "Telling Whether a Revision Helped",
     "title": "Self-Authored Verification Is Unreliable in Heuristic Self-Improving Agents",
     "year": 2026,
     "venue": "arXiv",
@@ -4425,6 +4556,7 @@
   {
     "id": "anytimecertificates2026",
     "section": "sec-8-3",
+    "group": "Telling Whether a Revision Helped",
     "title": "Self-Evolving Agents with Anytime-Valid Certificates",
     "year": 2026,
     "venue": "arXiv",
@@ -4435,6 +4567,7 @@
   {
     "id": "redqueengodel2026",
     "section": "sec-8-3",
+    "group": "Revising the Revision Procedure",
     "title": "The Red Queen Gödel Machine: Co-Evolving Agents and Their Evaluators",
     "year": 2026,
     "venue": "arXiv",
@@ -4444,7 +4577,7 @@
   },
   {
     "id": "misevolve2026",
-    "section": "sec-8-3",
+    "section": "sec-6-2-1",
     "title": "Your Agent May Misevolve: Emergent Risks in Self-evolving LLM Agents",
     "year": 2026,
     "venue": "ICLR",
@@ -4456,6 +4589,7 @@
   {
     "id": "drtulu2025",
     "section": "sec-8-4",
+    "group": "Evaluating a Loop Whose Decisions Shape Later Inputs",
     "title": "DR Tulu: Reinforcement Learning with Evolving Rubrics for Deep Research",
     "year": 2026,
     "venue": "ICML",
@@ -4466,7 +4600,8 @@
   },
   {
     "id": "lifeside2026",
-    "section": "sec-8-4",
+    "section": "sec-8-3",
+    "group": "Telling Whether a Revision Helped",
     "title": "LifeSide: Benchmarking Agents as Lifelong Digital Companions",
     "year": 2026,
     "venue": "arXiv",
@@ -4477,6 +4612,7 @@
   {
     "id": "rubricbench2026",
     "section": "sec-8-4",
+    "group": "Evaluating a Loop Whose Decisions Shape Later Inputs",
     "title": "RubricBench: Aligning Model-Generated Rubrics with Human Standards",
     "year": 2026,
     "venue": "ACL",
@@ -4487,7 +4623,8 @@
   },
   {
     "id": "seaeval2026",
-    "section": "sec-8-4",
+    "section": "sec-8-3",
+    "group": "Telling Whether a Revision Helped",
     "title": "SEA-Eval: A Benchmark for Evaluating Self-Evolving Agents Beyond Episodic Assessment",
     "year": 2026,
     "venue": "arXiv",
@@ -4497,7 +4634,8 @@
   },
   {
     "id": "duan2026genuinersi",
-    "section": "sec-8-4",
+    "section": "sec-8-3",
+    "group": "Revising the Revision Procedure",
     "title": "The Last AI Built by Humans: Toward Genuine Recursive Self-Improvement",
     "year": 2026,
     "venue": "arXiv",
@@ -4509,6 +4647,7 @@
   {
     "id": "verificationhorizon2026",
     "section": "sec-8-4",
+    "group": "Evaluating a Loop Whose Decisions Shape Later Inputs",
     "title": "The Verification Horizon: No Silver Bullet for Coding Agent Rewards",
     "year": 2026,
     "venue": "arXiv",
@@ -4518,7 +4657,8 @@
   },
   {
     "id": "userconditionedeval2026",
-    "section": "sec-8-4",
+    "section": "sec-8-3",
+    "group": "Telling Whether a Revision Helped",
     "title": "Toward User-Conditioned Evaluation of Personal LLM Agents under Temporal Interventions",
     "year": 2026,
     "venue": "KDD Workshop",
@@ -4529,6 +4669,7 @@
   {
     "id": "doubleratchet2026",
     "section": "sec-8-4",
+    "group": "Evaluating a Loop Whose Decisions Shape Later Inputs",
     "title": "Who Grades the Grader? Co-Evolving Evaluation Metrics and Skills for Self-Improving LLM Agents",
     "year": 2026,
     "venue": "arXiv",
@@ -4540,6 +4681,7 @@
   {
     "id": "perdomo2020performative",
     "section": "sec-8-4",
+    "group": "Evaluating a Loop Whose Decisions Shape Later Inputs",
     "title": "Performative Prediction",
     "year": 2020,
     "venue": "ICML",
@@ -4550,6 +4692,7 @@
   {
     "id": "chaney2018feedback",
     "section": "sec-8-4",
+    "group": "Evaluating a Loop Whose Decisions Shape Later Inputs",
     "title": "How Algorithmic Confounding in Recommendation Systems Increases Homogeneity and Decreases Utility",
     "year": 2018,
     "venue": "RecSys",
@@ -4560,6 +4703,7 @@
   {
     "id": "chu2026agenticworldmodeling",
     "section": "related-surveys",
+    "group": "Agent decision and execution methods",
     "title": "Agentic World Modeling: Foundations, Capabilities, Laws, and Beyond",
     "year": 2026,
     "venue": "arXiv",
@@ -4571,6 +4715,7 @@
   {
     "id": "qin2026audiovisual",
     "section": "related-surveys",
+    "group": "Perception across modalities and deployment settings",
     "title": "Audio-Visual Intelligence in Large Foundation Models",
     "year": 2026,
     "venue": "arXiv",
@@ -4582,6 +4727,7 @@
   {
     "id": "ding2026combodiedagentsnewparadigm",
     "section": "related-surveys",
+    "group": "Concurrent system-level surveys",
     "title": "ComBodied Agents: a New Paradigm of Human-Centric Agentic AI",
     "year": 2026,
     "venue": "arXiv",
@@ -4592,6 +4738,7 @@
   {
     "id": "zhang2026seeingactingsmartglasses",
     "section": "related-surveys",
+    "group": "Concurrent system-level surveys",
     "title": "From Seeing to Acting: Smart Glasses as First-Person Intelligence Platforms",
     "year": 2026,
     "venue": "arXiv",
@@ -4603,6 +4750,7 @@
   {
     "id": "personalizedagentsurvey2026",
     "section": "related-surveys",
+    "group": "How information is retained, used, and governed",
     "title": "Toward Personalized LLM-Powered Agents: Foundations, Evaluation, and Future Directions",
     "year": 2026,
     "venue": "arXiv",
@@ -4613,6 +4761,7 @@
   {
     "id": "memoryage2025",
     "section": "related-surveys",
+    "group": "How information is retained, used, and governed",
     "title": "Memory in the Age of AI Agents",
     "year": 2025,
     "venue": "arXiv",
@@ -4624,6 +4773,7 @@
   {
     "id": "durante2024agentai",
     "section": "related-surveys",
+    "group": "Agent decision and execution methods",
     "title": "Agent AI: Surveying the Horizons of Multimodal Interaction",
     "year": 2024,
     "venue": "arXiv",
@@ -4634,6 +4784,7 @@
   {
     "id": "qin2023toolsurvey",
     "section": "related-surveys",
+    "group": "Agent decision and execution methods",
     "title": "Tool Learning with Foundation Models",
     "year": 2024,
     "venue": "ACM CSUR",
@@ -4645,6 +4796,7 @@
   {
     "id": "deng2024humancentered",
     "section": "related-surveys",
+    "group": "Proactive assistance",
     "title": "Towards Human-centered Proactive Conversational Agents",
     "year": 2024,
     "venue": "SIGIR",
@@ -4655,6 +4807,7 @@
   {
     "id": "gurrin2014lifelogging",
     "section": "related-surveys",
+    "group": "Perception across modalities and deployment settings",
     "title": "LifeLogging: Personal Big Data",
     "year": 2014,
     "venue": "FnTIR",
@@ -4665,7 +4818,7 @@
   {
     "id": "selfevolvingagents2025",
     "section": "related-surveys",
-    "group": "Capability-focused surveys",
+    "group": "Self-improving agents",
     "title": "A Survey of Self-Evolving Agents: What, When, How, and Where to Evolve on the Path to Artificial Super Intelligence",
     "year": 2026,
     "venue": "TMLR",
@@ -4676,7 +4829,7 @@
   {
     "id": "memsecuritysurvey2026",
     "section": "related-surveys",
-    "group": "Capability-focused surveys",
+    "group": "How information is retained, used, and governed",
     "title": "A Survey on Long-Term Memory Security in LLM Agents: Attacks, Defenses, and Governance Across the Memory Lifecycle",
     "year": 2026,
     "venue": "EMNLP",
@@ -4690,7 +4843,7 @@
   {
     "id": "kong2026autoresearch",
     "section": "related-surveys",
-    "group": "Capability-focused surveys",
+    "group": "Self-improving agents",
     "title": "AI for Auto-Research: Roadmap & User Guide",
     "year": 2026,
     "venue": "arXiv",
@@ -4702,7 +4855,7 @@
   {
     "id": "egovisionsurvey2025",
     "section": "related-surveys",
-    "group": "Capability-focused surveys",
+    "group": "Perception across modalities and deployment settings",
     "title": "Challenges and Trends in Egocentric Vision: A Survey",
     "year": 2026,
     "venue": "Machine Intelligence Research",
@@ -4713,7 +4866,7 @@
   {
     "id": "dynamicskillssurvey2026",
     "section": "related-surveys",
-    "group": "Capability-focused surveys",
+    "group": "Self-improving agents",
     "title": "Dynamic Agent Skills: A Lifecycle Survey and Taxonomy of Evolving Skill Libraries",
     "year": 2026,
     "venue": "TMLR",
@@ -4724,7 +4877,7 @@
   {
     "id": "bian2026sensorharfm",
     "section": "related-surveys",
-    "group": "Capability-focused surveys",
+    "group": "Perception across modalities and deployment settings",
     "title": "Foundation Models Defining A New Era In Sensor-based Human Activity Recognition: A Survey And Outlook",
     "year": 2026,
     "venue": "IMWUT",
@@ -4736,7 +4889,7 @@
   {
     "id": "streamingllmsurvey2026",
     "section": "related-surveys",
-    "group": "Capability-focused surveys",
+    "group": "Perception across modalities and deployment settings",
     "title": "From Static Inference to Dynamic Interaction: A Survey of Streaming Large Language Models",
     "year": 2026,
     "venue": "Findings of ACL",
@@ -4748,7 +4901,7 @@
   {
     "id": "ren2026selfimprovements",
     "section": "related-surveys",
-    "group": "Capability-focused surveys",
+    "group": "Self-improving agents",
     "title": "Self-Improvements in Modern Agentic Systems: A Survey",
     "year": 2026,
     "venue": "arXiv",
@@ -4760,7 +4913,7 @@
   {
     "id": "selfevolvingsurveyfang2025",
     "section": "related-surveys",
-    "group": "Capability-focused surveys",
+    "group": "Self-improving agents",
     "title": "A Comprehensive Survey of Self-Evolving AI Agents: A New Paradigm Bridging Foundation Models and Lifelong Agentic Systems",
     "year": 2025,
     "venue": "arXiv",
@@ -4772,7 +4925,7 @@
   {
     "id": "zhang2024memorysurvey",
     "section": "related-surveys",
-    "group": "Capability-focused surveys",
+    "group": "How information is retained, used, and governed",
     "title": "A Survey on the Memory Mechanism of Large Language Model based Agents",
     "year": 2025,
     "venue": "ACM TOIS",
@@ -4785,7 +4938,7 @@
   {
     "id": "abstentionsurvey2024",
     "section": "related-surveys",
-    "group": "Capability-focused surveys",
+    "group": "Proactive assistance",
     "title": "Know Your Limits: A Survey of Abstention in Large Language Models",
     "year": 2025,
     "venue": "TACL",
@@ -4796,7 +4949,7 @@
   {
     "id": "zhang2024guiagents",
     "section": "related-surveys",
-    "group": "Capability-focused surveys",
+    "group": "Agent decision and execution methods",
     "title": "Large Language Model-Brained GUI Agents: A Survey",
     "year": 2025,
     "venue": "TMLR",
@@ -4808,7 +4961,7 @@
   {
     "id": "deng2025tois",
     "section": "related-surveys",
-    "group": "Capability-focused surveys",
+    "group": "Proactive assistance",
     "title": "Proactive Conversational AI: A Comprehensive Survey of Advancements and Opportunities",
     "year": 2025,
     "venue": "ACM TOIS",
@@ -4819,7 +4972,7 @@
   {
     "id": "wang2024agentsurvey",
     "section": "related-surveys",
-    "group": "Capability-focused surveys",
+    "group": "Agent decision and execution methods",
     "title": "A Survey on Large Language Model based Autonomous Agents",
     "year": 2024,
     "venue": "Front. Comput. Sci.",
@@ -4831,7 +4984,7 @@
   {
     "id": "yin2023mllmsurvey",
     "section": "related-surveys",
-    "group": "Capability-focused surveys",
+    "group": "Perception across modalities and deployment settings",
     "title": "A Survey on Multimodal Large Language Models",
     "year": 2024,
     "venue": "Natl. Sci. Rev.",
@@ -4843,7 +4996,7 @@
   {
     "id": "plizzari2024egofuture",
     "section": "related-surveys",
-    "group": "Capability-focused surveys",
+    "group": "Perception across modalities and deployment settings",
     "title": "An Outlook into the Future of Egocentric Vision",
     "year": 2024,
     "venue": "IJCV",
@@ -4854,7 +5007,7 @@
   {
     "id": "xu2024ondevicellm",
     "section": "related-surveys",
-    "group": "Capability-focused surveys",
+    "group": "Perception across modalities and deployment settings",
     "title": "On-Device Language Models: A Comprehensive Review",
     "year": 2024,
     "venue": "arXiv",
@@ -4866,7 +5019,7 @@
   {
     "id": "deng2023proactivesurvey",
     "section": "related-surveys",
-    "group": "Capability-focused surveys",
+    "group": "Proactive assistance",
     "title": "A Survey on Proactive Dialogue Systems: Problems, Methods, and Prospects",
     "year": 2023,
     "venue": "IJCAI",
@@ -4877,7 +5030,7 @@
   {
     "id": "gao2023ragsurvey",
     "section": "related-surveys",
-    "group": "Capability-focused surveys",
+    "group": "How information is retained, used, and governed",
     "title": "Retrieval-Augmented Generation for Large Language Models: A Survey",
     "year": 2023,
     "venue": "arXiv",
@@ -4888,7 +5041,7 @@
   {
     "id": "xi2023risesurvey",
     "section": "related-surveys",
-    "group": "Capability-focused surveys",
+    "group": "Agent decision and execution methods",
     "title": "The Rise and Potential of Large Language Model Based Agents: A Survey",
     "year": 2023,
     "venue": "arXiv",
@@ -4900,7 +5053,7 @@
   {
     "id": "tang2023videosurvey",
     "section": "related-surveys",
-    "group": "Capability-focused surveys",
+    "group": "Perception across modalities and deployment settings",
     "title": "Video Understanding with Large Language Models: A Survey",
     "year": 2023,
     "venue": "arXiv",
@@ -4912,7 +5065,7 @@
   {
     "id": "duan2022embodiedsurvey",
     "section": "related-surveys",
-    "group": "Capability-focused surveys",
+    "group": "Agent decision and execution methods",
     "title": "A Survey of Embodied AI: From Simulators to Research Tasks",
     "year": 2022,
     "venue": "IEEE TETCI",
@@ -4987,6 +5140,7 @@
   {
     "id": "etamem2026",
     "section": "sec-4-1-2",
+    "group": "Structured records and embeddings",
     "title": "ETAMem: Decoupling and Aligning Heterogeneous Memory for Long-Term Conversational Agents",
     "year": 2026,
     "venue": "arXiv",
@@ -4998,6 +5152,7 @@
   {
     "id": "proactivememoryfor2026",
     "section": "sec-5-4-2",
+    "group": "Delivering due commitments and procedures",
     "title": "Proactive Memory for Event-Driven LLM Agents",
     "year": 2026,
     "venue": "arXiv",
@@ -5014,6 +5169,7 @@
   {
     "id": "whybotherme2026",
     "section": "sec-4-5-2",
+    "group": "Profile: keeping what holds valid",
     "title": "Why Bother Me Again? Benchmarking Personal Agent Memory for Interaction Preferences",
     "year": 2026,
     "venue": "arXiv",
@@ -5056,6 +5212,7 @@
   {
     "id": "promemagent2026",
     "section": "sec-5-4-2",
+    "group": "Delivering due commitments and procedures",
     "title": "ProMemAgent: Long-Horizon Proactive Assistance with Context-Aware Prospective Memory from Sensory Perceptions",
     "year": 2026,
     "venue": "arXiv",
@@ -5098,6 +5255,7 @@
   {
     "id": "persist2026",
     "section": "sec-4-3-2",
+    "group": "Indexing",
     "title": "PERSIST: Who-What-When Memory Across Sessions for Full-Duplex Spoken Dialogue",
     "year": 2026,
     "venue": "arXiv",
@@ -5124,6 +5282,7 @@
   {
     "id": "affectiveagent2026",
     "section": "sec-5-3-1",
+    "group": "Waiting for a useful moment",
     "title": "Affective Agent: On-Device Personalized Intervention Reasoning for Wearable Systems",
     "year": 2026,
     "venue": "arXiv",
@@ -5179,6 +5338,7 @@
   {
     "id": "psyevo2026",
     "section": "sec-6-4",
+    "group": "Revising model parameters from personal feedback",
     "title": "PsyEvo: A Personalized Counseling Agent That Self-Evolves at Test Time",
     "year": 2026,
     "venue": "arXiv",
@@ -5195,6 +5355,7 @@
   {
     "id": "pair2026",
     "section": "sec-8-4",
+    "group": "Measuring Benefit and Burden Over Months",
     "title": "PAIR: Perceptual Affective Inference and Regulation in a Real-Time Multimodal Conversational Agent",
     "year": 2026,
     "venue": "arXiv",
@@ -5282,6 +5443,7 @@
   {
     "id": "guidedreflectionfor2026",
     "section": "sec-8-4",
+    "group": "Measuring Benefit and Burden Over Months",
     "title": "Guided Reflection for Personal Sleep Insight in Everyday Sleep Tracking",
     "year": 2026,
     "venue": "arXiv",
@@ -5311,6 +5473,7 @@
   {
     "id": "notforgotten2026",
     "section": "sec-4-3-3",
+    "group": "Retrieval",
     "title": "Not Forgotten: Implementation and Evaluation of a Personalized Episodic Memory for the Humanoid Robot Head Kim",
     "year": 2026,
     "venue": "arXiv",
@@ -5339,6 +5502,7 @@
   {
     "id": "regulatutor2026",
     "section": "sec-5-4-2",
+    "group": "Using personal and task context",
     "title": "RegulaTutor: A Theory-Informed Framework for Long-Term Personalized Learning",
     "year": 2026,
     "venue": "arXiv",
@@ -5397,6 +5561,7 @@
   {
     "id": "knowingtheuser2026",
     "section": "sec-5-3-4",
+    "group": "Checking permission before an action takes effect",
     "title": "Knowing the User Is Not Knowing What We Established: Grounding Awareness in Personal Agents",
     "year": 2026,
     "venue": "arXiv",
@@ -5426,6 +5591,7 @@
   {
     "id": "agentmemgate2026",
     "section": "sec-4-3-1",
+    "group": "Admission",
     "title": "AgentMemGate: Addressing Speculation Contamination in Conversational Assistant Memory",
     "year": 2026,
     "venue": "NeurIPS Workshop",
@@ -5437,6 +5603,7 @@
   {
     "id": "amuadmissionand2026",
     "section": "sec-4-3-1",
+    "group": "Admission",
     "title": "AMU:Admission and Memory Update for Personalized Conversations---Structured Memory with SLM Guided Control",
     "year": 2026,
     "venue": "arXiv",
@@ -5449,6 +5616,7 @@
   {
     "id": "towardrobustpersonalized2026",
     "section": "sec-4-3-4",
+    "group": "Correction",
     "title": "Toward Robust Personalized Alignment for LLMs: Mitigating Persona Drift in Multi-Turn Dialogue",
     "year": 2026,
     "venue": "Findings of EMNLP",
@@ -5460,6 +5628,7 @@
   {
     "id": "prottt2026",
     "section": "sec-4-1-2",
+    "group": "Parametric memory",
     "title": "ProTTT: Learning to Learn Semantic User Memory with Test-Time Training",
     "year": 2026,
     "venue": "arXiv",
@@ -5471,6 +5640,7 @@
   {
     "id": "hypertrace2026",
     "section": "sec-4-3-4",
+    "group": "Consolidation",
     "title": "HyperTrace: Hypothesis-Based Preference Tracing for Online LLM Personalization",
     "year": 2026,
     "venue": "Findings of EMNLP",
@@ -5495,6 +5665,7 @@
   {
     "id": "canagentskeep2026",
     "section": "sec-4-2",
+    "group": "What is the assistant allowed to keep, and for how long?",
     "title": "Can Agents Keep Secrets They Were Never Told? Benchmarking Latent Privacy Risks Across Sessions with MemJoin",
     "year": 2026,
     "venue": "arXiv",
@@ -5506,6 +5677,7 @@
   {
     "id": "disclosurebegetsdisclosure2026",
     "section": "sec-4-2",
+    "group": "What is the assistant allowed to keep, and for how long?",
     "title": "Disclosure Begets Disclosure: A Self-Reinforcing Privacy Loop in LLM Agents with Persistent Memory",
     "year": 2026,
     "venue": "arXiv",
@@ -5521,6 +5693,7 @@
   {
     "id": "ftamem2026",
     "section": "sec-4-3-1",
+    "group": "Encoding",
     "title": "FTA-Mem: Fact-Time-Affect Anchored Memory for Low-Density Long-Term Dialogue",
     "year": 2026,
     "venue": "arXiv",
@@ -5547,6 +5720,7 @@
   {
     "id": "memorythatlooks2026",
     "section": "sec-4-3-3",
+    "group": "Delivery",
     "title": "Memory That Looks Forward: A Zero-Inference Prospective Term for Personal Memory Retrieval",
     "year": 2026,
     "venue": "arXiv",
@@ -5577,6 +5751,7 @@
   {
     "id": "epmem2026",
     "section": "sec-4-2",
+    "group": "What is the assistant allowed to keep, and for how long?",
     "title": "EP-Mem: Elastic Privacy Memory for Social Relationship-Aware LLM Agents",
     "year": 2026,
     "venue": "arXiv",
@@ -5588,6 +5763,7 @@
   {
     "id": "loveforbelievable2026",
     "section": "sec-5-4-2",
+    "group": "Using personal and task context",
     "title": "Love for Believable AI: Artificial Partiality and Relationship Persistence as an Engineerable Stance",
     "year": 2026,
     "venue": "arXiv",
@@ -5614,6 +5790,7 @@
   {
     "id": "learningfromothers2026",
     "section": "sec-4-3-3",
+    "group": "Retrieval",
     "title": "Learning from Others, Acting for You: Cross-User Memory Sharing for LLM Agents",
     "year": 2026,
     "venue": "arXiv",
@@ -5628,6 +5805,7 @@
   {
     "id": "audienceboundpersistent2026",
     "section": "sec-4-2",
+    "group": "What is the assistant allowed to keep, and for how long?",
     "title": "Audience-Bound Persistent Memory: Authorization Across the Memory Lifecycle",
     "year": 2026,
     "venue": "arXiv",
@@ -5654,6 +5832,7 @@
   {
     "id": "whatshouldai2026",
     "section": "sec-4-3-1",
+    "group": "Admission",
     "title": "What should AI forget? A design and taxonomy for negative space governance in AI memory",
     "year": 2026,
     "venue": "arXiv",
@@ -5677,6 +5856,7 @@
   {
     "id": "colearn2026",
     "section": "sec-5-4-2",
+    "group": "Using personal and task context",
     "title": "CoLearn: An Agentic Tutor that Learns its Learner in a Human--AI Co-Learning Loop",
     "year": 2026,
     "venue": "EMNLP",
@@ -5692,6 +5872,7 @@
   {
     "id": "workingwithagentic2026",
     "section": "sec-8-4",
+    "group": "Measuring Benefit and Burden Over Months",
     "title": "Working with Agentic `Teammates': When a New Organizational Actor Collides with the Human Ecosystem of Work",
     "year": 2026,
     "venue": "arXiv",
@@ -5715,6 +5896,7 @@
   {
     "id": "gatedmemory2026",
     "section": "sec-4-3-1",
+    "group": "Admission",
     "title": "Gated Memory: Admission-Controlled Memory Formation for Conversational AI",
     "year": 2026,
     "venue": "arXiv",
@@ -5726,6 +5908,7 @@
   {
     "id": "agentantibody2026",
     "section": "sec-5-3-4",
+    "group": "Checking permission before an action takes effect",
     "title": "AgentAntibody: An Adaptive Immune System for Defending LLM Agents against Prompt Injection",
     "year": 2026,
     "venue": "arXiv",
@@ -5847,6 +6030,7 @@
   {
     "id": "designingproactivethought2026",
     "section": "sec-5-3-1",
+    "group": "Waiting for a useful moment",
     "title": "Designing Proactive Thought Partners for Writing",
     "year": 2026,
     "venue": "arXiv",
@@ -5861,6 +6045,7 @@
   {
     "id": "agentzeromemory2026",
     "section": "sec-4-1-2",
+    "group": "Structured records and embeddings",
     "title": "Agent Zero Memory: Provenance-Aware Long-Term Memory for LLM Agents",
     "year": 2026,
     "venue": "arXiv",
@@ -5872,6 +6057,7 @@
   {
     "id": "thinkflow2026",
     "section": "sec-4-1-2",
+    "group": "Code and dense state",
     "title": "ThinkFlow: Self-Evolving Probabilistic Latent Memory for Lifelong Conversational Agents",
     "year": 2026,
     "venue": "arXiv",
@@ -5910,6 +6096,7 @@
   {
     "id": "mitigatingoverpersonalization2026",
     "section": "sec-4-3-3",
+    "group": "Retrieval",
     "title": "Mitigating Over-Personalization in LLMs via Structured Memory",
     "year": 2026,
     "venue": "arXiv",
@@ -5989,6 +6176,7 @@
   {
     "id": "lsrep2026",
     "section": "sec-4-5-2",
+    "group": "Profile: keeping what holds valid",
     "title": "LSREP: A Longitudinal State-Replay Protocol for Evaluating Conversational Memory, with ICE v2 as an Audited Local-First Architecture",
     "year": 2026,
     "venue": "arXiv",
@@ -6016,6 +6204,7 @@
   {
     "id": "relevancedoesnot2026",
     "section": "sec-5-4-2",
+    "group": "Separating retrieval, delivery, and use",
     "title": "Relevance Does Not Imply Applicability: Experience Activation for Personal GUI Agents",
     "year": 2026,
     "venue": "arXiv",
@@ -6030,6 +6219,7 @@
   {
     "id": "memfold2026",
     "section": "sec-4-1-2",
+    "group": "Code and dense state",
     "title": "MemFold: Learning Compact Soft Memory for Long-Context Personalization via On-Policy Optimization",
     "year": 2026,
     "venue": "arXiv",
@@ -6044,6 +6234,7 @@
   {
     "id": "wheretheevidence2026",
     "section": "sec-8-4",
+    "group": "Measuring Benefit and Burden Over Months",
     "title": "Where the Evidence Lives: Auditing AI Companions' Self-Descriptions",
     "year": 2026,
     "venue": "arXiv",
@@ -6055,6 +6246,7 @@
   {
     "id": "proactiveai2026",
     "section": "sec-5-3-1",
+    "group": "Waiting for a useful moment",
     "title": "Proactive AI: From Turns to Replannable Dialogue Timelines",
     "year": 2026,
     "venue": "arXiv",
@@ -6069,6 +6261,7 @@
   {
     "id": "memadapter2026",
     "section": "sec-4-3-3",
+    "group": "Retrieval",
     "title": "Memadapter: Counterfactual Adaptation Against Memory-induced Sycophancy",
     "year": 2026,
     "venue": "arXiv",
@@ -6093,6 +6286,7 @@
   {
     "id": "precomem2026",
     "section": "sec-4-3-4",
+    "group": "Correction",
     "title": "PreCoMem: Predictive Cognitive Memory for Self-Evolving Long-Term Dialogue Agents",
     "year": 2026,
     "venue": "NeurIPS",
@@ -6132,6 +6326,7 @@
   {
     "id": "efficienttesttime2026",
     "section": "sec-6-4",
+    "group": "Revising model parameters from personal feedback",
     "title": "Efficient Test-Time Adaptation through Human-AI Interaction",
     "year": 2026,
     "venue": "arXiv",
@@ -6147,6 +6342,7 @@
   {
     "id": "vulnerabilitiesinpersonalization2026",
     "section": "sec-4-2",
+    "group": "What is the assistant allowed to keep, and for how long?",
     "title": "Vulnerabilities in Personalization: Assessing Health Privacy Risks in ChatGPT Logs and Memory",
     "year": 2026,
     "venue": "arXiv",
@@ -6158,6 +6354,7 @@
   {
     "id": "pia2026",
     "section": "sec-4-1-2",
+    "group": "Structured records and embeddings",
     "title": "PIA: A Personal Intelligence Agent Turning Health Conversations into Records and Records into Understanding",
     "year": 2026,
     "venue": "arXiv",
@@ -6239,6 +6436,7 @@
   {
     "id": "interpretingatwrite2026",
     "section": "sec-4-3-1",
+    "group": "Encoding",
     "title": "Interpreting at Write Time: A Policy Ablation for Multi-Goal Agent Memory",
     "year": 2026,
     "venue": "NeurIPS Workshop",
@@ -6250,6 +6448,7 @@
   {
     "id": "haveiscene2026",
     "section": "sec-4-3-2",
+    "group": "Indexing",
     "title": "Have I Scene This Before? Spatially Grounded Conversational Memory for Complex Queries in Egocentric Assistants",
     "year": 2026,
     "venue": "arXiv",
@@ -6288,6 +6487,7 @@
   {
     "id": "qumem2026",
     "section": "sec-4-3-3",
+    "group": "Retrieval",
     "title": "QUMem: Personalized Memory for Query-Conditioned User-State Inference in LLM Agents",
     "year": 2026,
     "venue": "arXiv",
@@ -6311,6 +6511,7 @@
   {
     "id": "authscribe2026",
     "section": "sec-8-4",
+    "group": "Measuring Benefit and Burden Over Months",
     "title": "AuthScribe: Supporting Agency and Authorship in LLM-Assisted Reflective Journaling",
     "year": 2026,
     "venue": "arXiv",
@@ -6352,6 +6553,7 @@
   {
     "id": "sodamem2026",
     "section": "sec-4-1-2",
+    "group": "Structured records and embeddings",
     "title": "SodaMem: Evidence-Grounded Temporal Graph Memory for LLM Agents",
     "year": 2026,
     "venue": "arXiv",
@@ -6405,6 +6607,7 @@
   {
     "id": "disentanglinglongterm2026",
     "section": "sec-4-1-2",
+    "group": "Structured records and embeddings",
     "title": "Disentangling Long-Term Memory via Latent Neuro-Symbolic Reasoning",
     "year": 2026,
     "venue": "arXiv",
@@ -6419,6 +6622,7 @@
   {
     "id": "hgpanon2026",
     "section": "sec-4-1-2",
+    "group": "Structured records and embeddings",
     "title": "HGP:An on-device personalized agent memory via hybrid graph storage",
     "year": 2026,
     "venue": "arXiv",
@@ -6431,6 +6635,7 @@
   {
     "id": "memleak2026",
     "section": "sec-4-2",
+    "group": "What is the assistant allowed to keep, and for how long?",
     "title": "MemLeak: Cross-User Semantic Leakage in Multi-Tenant AI Agent Memory",
     "year": 2026,
     "venue": "NeurIPS",
@@ -6442,6 +6647,7 @@
   {
     "id": "peam2026",
     "section": "sec-6-4",
+    "group": "Revising prompts and written instructions",
     "title": "PEAM: On-device Communication Agent for Personalized, Efficient and Autonomous Mobile Network Configuration",
     "year": 2026,
     "venue": "arXiv",
@@ -6469,6 +6675,7 @@
   {
     "id": "hypothesesguidedself2026",
     "section": "sec-4-3-4",
+    "group": "Consolidation",
     "title": "Hypotheses-Guided Self Distillation for Continual Personalization",
     "year": 2026,
     "venue": "arXiv",
@@ -6484,6 +6691,7 @@
   {
     "id": "tailoredtoyou2026",
     "section": "sec-8-4",
+    "group": "Measuring Benefit and Burden Over Months",
     "title": "Tailored to you: longitudinal effects of personalising language models",
     "year": 2026,
     "venue": "arXiv",
@@ -6510,6 +6718,7 @@
   {
     "id": "harnessevolutionas2026",
     "section": "sec-6-4",
+    "group": "Revising the harness while the assistant runs",
     "title": "Harness Evolution as Learning: Approximation, Generalization, and Optimization Limits of Self-Improving Personal Agents",
     "year": 2026,
     "venue": "arXiv",
@@ -6521,6 +6730,7 @@
   {
     "id": "memoryprovenancelaundering2026",
     "section": "sec-5-3-4",
+    "group": "Checking permission before an action takes effect",
     "title": "Memory Provenance Laundering in LLM Agents: A Non-Amplification Firewall for Persistent Memory",
     "year": 2026,
     "venue": "arXiv",
@@ -6535,6 +6745,7 @@
   {
     "id": "ensimem2026",
     "section": "sec-4-3-2",
+    "group": "Indexing",
     "title": "EnSIMem: Entity-Structured Indexing for Long-Term Agent Memory",
     "year": 2026,
     "venue": "arXiv",
@@ -6547,6 +6758,7 @@
   {
     "id": "characterizingmemorymisalignment2026",
     "section": "sec-4-2",
+    "group": "What is the assistant allowed to keep, and for how long?",
     "title": "Characterizing Memory Misalignment in Human-LLM Interaction From User Perspectives",
     "year": 2026,
     "venue": "arXiv",
@@ -6558,6 +6770,7 @@
   {
     "id": "seabench2026",
     "section": "sec-6-4",
+    "group": "Which revisions are governed",
     "title": "SEABench: Benchmarking Endogenous Misalignment In Self-Evolving Agents",
     "year": 2026,
     "venue": "arXiv",
@@ -6569,6 +6782,7 @@
   {
     "id": "raliikat20262026",
     "section": "sec-4-3-3",
+    "group": "Retrieval",
     "title": "RALI@iKAT 2026: Retrieval-aware User Profile Denoising via Personalized Conversational Dense Retrieval",
     "year": 2026,
     "venue": "SIGIR Workshop",
@@ -6610,6 +6824,7 @@
   {
     "id": "memorywinsall2026",
     "section": "sec-4-2",
+    "group": "What is the assistant allowed to keep, and for how long?",
     "title": "MEMORY Wins All: Indirect Bias Injection Attacks via Social Media Content",
     "year": 2026,
     "venue": "arXiv",
@@ -6625,6 +6840,7 @@
   {
     "id": "hero2026",
     "section": "sec-4-3-3",
+    "group": "Retrieval",
     "title": "HERO: Human-profile Enhanced Retrieval Optimization Framework for Long-term Agent Memory",
     "year": 2026,
     "venue": "arXiv",
@@ -6636,6 +6852,7 @@
   {
     "id": "personalizingllmagent2026",
     "section": "sec-4-3-2",
+    "group": "Indexing",
     "title": "Personalizing LLM Agent Memory Using Biometrics",
     "year": 2026,
     "venue": "arXiv",
@@ -6658,6 +6875,7 @@
   {
     "id": "personalagentmediated2026",
     "section": "sec-5-4-2",
+    "group": "Using personal and task context",
     "title": "Personal-Agent Mediated Recommendation with Cross-Platform User History",
     "year": 2026,
     "venue": "arXiv",
@@ -6672,6 +6890,7 @@
   {
     "id": "dppm2026",
     "section": "sec-4-1-2",
+    "group": "Parametric memory",
     "title": "DPPM: Dual-Path Parametric Memory for Personalized Language Models",
     "year": 2026,
     "venue": "arXiv",
@@ -6683,6 +6902,7 @@
   {
     "id": "dpmemview2026",
     "section": "sec-4-2",
+    "group": "What is the assistant allowed to keep, and for how long?",
     "title": "DP-MemView: A Memory Interface for Attribute-Level Transcript Privacy in Long-Term LLM Agents",
     "year": 2026,
     "venue": "arXiv",
@@ -6730,6 +6950,7 @@
   {
     "id": "aim2026",
     "section": "sec-4-2",
+    "group": "What is the assistant allowed to keep, and for how long?",
     "title": "AIM: A Privacy-Aware Interoperable Memory Framework for Multi-Agent Multi-User LLM Systems",
     "year": 2026,
     "venue": "arXiv",
@@ -6756,6 +6977,7 @@
   {
     "id": "latentmultimodalmemory2026",
     "section": "sec-4-1-2",
+    "group": "Structured records and embeddings",
     "title": "Latent Multimodal Memory Reasoning",
     "year": 2026,
     "venue": "arXiv",
@@ -6770,6 +6992,7 @@
   {
     "id": "shareborneai2026",
     "section": "sec-4-2",
+    "group": "What is the assistant allowed to keep, and for how long?",
     "title": "Share-Borne AI Virus: Memory-Hopping Attacks Across LLM Agents",
     "year": 2026,
     "venue": "arXiv",
@@ -6782,6 +7005,7 @@
   {
     "id": "relevanceisnot2026",
     "section": "sec-4-3-3",
+    "group": "Retrieval",
     "title": "Relevance Is Not Sufficiency: What Actually Closes the Evidence Gap in Long-Term Memory QA",
     "year": 2026,
     "venue": "arXiv",
@@ -6806,6 +7030,7 @@
   {
     "id": "temporalevidenceforests2026",
     "section": "sec-4-3-3",
+    "group": "Retrieval",
     "title": "Temporal Evidence Forests for Long-Horizon Multi-Party Conversational Memory",
     "year": 2026,
     "venue": "arXiv",
@@ -6847,6 +7072,7 @@
   {
     "id": "lineconversationhistory2026",
     "section": "sec-4-3-3",
+    "group": "Retrieval",
     "title": "LINE Conversation History Retrieval for Personal Memory RAG: Evaluating Search Representations and Hybrid Retrieval",
     "year": 2026,
     "venue": "arXiv",
@@ -6870,6 +7096,7 @@
   {
     "id": "creamem2026",
     "section": "sec-4-1-2",
+    "group": "Structured records and embeddings",
     "title": "CreaMem: A Scene-Aware Memory Architecture for Personalized Agents",
     "year": 2026,
     "venue": "EMNLP",
@@ -6881,6 +7108,7 @@
   {
     "id": "apdmem2026",
     "section": "sec-4-3-3",
+    "group": "Retrieval",
     "title": "APDMem: Agent-Controlled Progressive Disclosure for Query-Adaptive Long-Term Memory",
     "year": 2026,
     "venue": "EMNLP",
@@ -6892,6 +7120,7 @@
   {
     "id": "clawrec2026",
     "section": "sec-5-4-2",
+    "group": "Using personal and task context",
     "title": "ClawRec: A Claw-Native Recommender System",
     "year": 2026,
     "venue": "arXiv",
@@ -6907,6 +7136,7 @@
   {
     "id": "whenagentslearn2026",
     "section": "sec-4-2",
+    "group": "What is the assistant allowed to keep, and for how long?",
     "title": "When Agents Learn to Be You: Benchmarking Privacy Leakage, Impersonation Risk, and Defenses in Persona Skills",
     "year": 2026,
     "venue": "arXiv",
@@ -6930,6 +7160,7 @@
   {
     "id": "arbormem2026",
     "section": "sec-4-1-2",
+    "group": "Structured records and embeddings",
     "title": "ArborMem: Navigating Interaction States with Memory Forests",
     "year": 2026,
     "venue": "arXiv",
@@ -6941,6 +7172,7 @@
   {
     "id": "medcache2026",
     "section": "sec-4-3-4",
+    "group": "Correction",
     "title": "MedCache: Efficient and Temporally Valid Memory for Longitudinal Clinical Agents",
     "year": 2026,
     "venue": "arXiv",
@@ -6967,6 +7199,7 @@
   {
     "id": "cope2026",
     "section": "sec-6-4",
+    "group": "Revising model parameters from personal feedback",
     "title": "COPE: Continual Personalization of LLMs under Sparse User Feedback via User Embeddings and Self-Evaluation",
     "year": 2026,
     "venue": "arXiv",
@@ -7035,6 +7268,7 @@
   {
     "id": "douserauthored2026",
     "section": "sec-5-3-4",
+    "group": "Checking permission before an action takes effect",
     "title": "Do User-Authored Permission Policies Improve Protection Against AI Agent Overreach?",
     "year": 2026,
     "venue": "arXiv",
@@ -7082,6 +7316,7 @@
   {
     "id": "defenseindepth2026",
     "section": "sec-4-3-3",
+    "group": "Retrieval",
     "title": "Defense-in-Depth for LLMs: Evaluating Memory Gates Against Activation-Induced and Memory-Induced Sycophancy",
     "year": 2026,
     "venue": "arXiv",
@@ -7093,6 +7328,7 @@
   {
     "id": "dopersonalizedllms2026",
     "section": "sec-4-3-3",
+    "group": "Retrieval",
     "title": "Do Personalized LLMs Need the Whole Conversation? Matching the Full History with Only 5% of Its Text via Relevance-Filtered Context",
     "year": 2026,
     "venue": "arXiv",
@@ -7104,6 +7340,7 @@
   {
     "id": "whatsurviveswhen2026",
     "section": "sec-4-1-2",
+    "group": "Code and dense state",
     "title": "What Survives When Activation Steering Is Used as Memory",
     "year": 2026,
     "venue": "arXiv",
@@ -7116,6 +7353,7 @@
   {
     "id": "inferscale2026",
     "section": "sec-4-3-3",
+    "group": "Retrieval",
     "title": "InferScale: GPU-Native KV Injection for Personalized LLM Serving",
     "year": 2026,
     "venue": "arXiv",
@@ -7139,6 +7377,7 @@
   {
     "id": "biomemart2026",
     "section": "sec-4-3-2",
+    "group": "Indexing",
     "title": "BIO-MEMART: Biometric-Aware KV Cache Memory for Multi-User LLM Agents",
     "year": 2026,
     "venue": "arXiv",
@@ -7162,6 +7401,7 @@
   {
     "id": "overpersonalizationis2026",
     "section": "sec-4-3-3",
+    "group": "Retrieval",
     "title": "Over-Personalization Is a Decision Failure: Generation-Induced Apply Bias in LLMs",
     "year": 2026,
     "venue": "arXiv",
@@ -7191,6 +7431,7 @@
   {
     "id": "madeleine2026",
     "section": "sec-4-3-3",
+    "group": "Retrieval",
     "title": "Madeleine: Learning Involuntary Recall for Conversational Memory from Simulated Lives",
     "year": 2026,
     "venue": "arXiv",
@@ -7202,6 +7443,7 @@
   {
     "id": "statewise2026",
     "section": "sec-4-3-4",
+    "group": "Correction",
     "title": "StateWise: Diagnosing and Repairing Persistent Operational State Before Agent Actions",
     "year": 2026,
     "venue": "arXiv",
@@ -7216,6 +7458,7 @@
   {
     "id": "thepriceof2026",
     "section": "sec-5-3-1",
+    "group": "Choosing a separate or shared timing model",
     "title": "The Price of Scale in Proactive Memory Recall",
     "year": 2026,
     "venue": "arXiv",
@@ -7231,6 +7474,7 @@
   {
     "id": "conmem2026",
     "section": "sec-4-3-1",
+    "group": "Admission",
     "title": "ConMem: Counterfactual Multi-Scenario Probing for Resolving LLM Memory Misalignment",
     "year": 2026,
     "venue": "arXiv",
@@ -7261,6 +7505,7 @@
   {
     "id": "slicemem2026",
     "section": "sec-4-3-1",
+    "group": "Admission",
     "title": "SLICE-Mem: Salience-Gated Lightweight Information Curation for Efficient LLM Agent Memory",
     "year": 2026,
     "venue": "arXiv",
@@ -7340,6 +7585,7 @@
   {
     "id": "retrievalaugmentedonline2026",
     "section": "sec-4-3-3",
+    "group": "Retrieval",
     "title": "Retrieval-Augmented Online Textual Memory for Episodic Memory Video Question Answering",
     "year": 2026,
     "venue": "arXiv",
@@ -7354,6 +7600,7 @@
   {
     "id": "agentmemoryas2026",
     "section": "sec-4-3-3",
+    "group": "Retrieval",
     "title": "Agent Memory as Recommendation: Recommender-System Design for Long-Term Memory of LLM Agents",
     "year": 2026,
     "venue": "arXiv",
@@ -7365,6 +7612,7 @@
   {
     "id": "fromvoiceprintsto2026",
     "section": "sec-4-3-2",
+    "group": "Indexing",
     "title": "From Voiceprints to User Entities: Online Speaker-Memory Construction for Multi-User Spoken Agents",
     "year": 2026,
     "venue": "arXiv",
@@ -7395,6 +7643,7 @@
   {
     "id": "trawmem2026",
     "section": "sec-4-3-3",
+    "group": "Retrieval",
     "title": "TrawMem: Reframing Agent Memory as Task-Oriented Role-Adaptive Workspaces",
     "year": 2026,
     "venue": "arXiv",
@@ -7406,6 +7655,7 @@
   {
     "id": "flexamem2026",
     "section": "sec-4-3-3",
+    "group": "Retrieval",
     "title": "FlexA-Mem: Budget-Adaptive Agentic Memory for LLM Agents",
     "year": 2026,
     "venue": "arXiv",
@@ -7504,6 +7754,7 @@
   {
     "id": "longtermagent2026",
     "section": "sec-4-3-4",
+    "group": "Consolidation",
     "title": "Long-Term Agent Memory through Complementary Curation and Consolidation",
     "year": 2026,
     "venue": "arXiv",
@@ -7515,6 +7766,7 @@
   {
     "id": "calm2026",
     "section": "sec-4-3-4",
+    "group": "Correction",
     "title": "CALM: Conflict-Aware Lifecycle Memory Governance for Long-Horizon Language Agents",
     "year": 2026,
     "venue": "arXiv",
@@ -7526,6 +7778,7 @@
   {
     "id": "appreciationteachesunauthorized2026",
     "section": "sec-6-4",
+    "group": "Which revisions are governed",
     "title": "Appreciation Teaches Unauthorized Execution: Self-Evolution Degrades the Robustness of Personal Agents to Indirect Prompt Injection",
     "year": 2026,
     "venue": "arXiv",
@@ -7575,6 +7828,7 @@
   {
     "id": "whentoassist2026",
     "section": "sec-5-3-1",
+    "group": "Choosing a separate or shared timing model",
     "title": "When to Assist and What to Suggest: Joint Gating and Memory-Grounded Hint Generation in One Compact Decoder",
     "year": 2026,
     "venue": "arXiv",
@@ -7590,6 +7844,7 @@
   {
     "id": "isitmy2026",
     "section": "sec-4-3-2",
+    "group": "Indexing",
     "title": "Is it my preference? Role Grounding Attack against Agent's Memory via Social Interaction",
     "year": 2026,
     "venue": "arXiv",
@@ -7650,6 +7905,7 @@
   {
     "id": "kite2026",
     "section": "sec-4-3-3",
+    "group": "Retrieval",
     "title": "KITE: Retrieval as a Decision Procedure for Long-Term Conversational Memory",
     "year": 2026,
     "venue": "arXiv",
@@ -7662,6 +7918,7 @@
   {
     "id": "whenshouldai2026",
     "section": "sec-5-3-1",
+    "group": "Clarifying, preparing, or stopping",
     "title": "When Should AI Agents Ask? Clarification Requests Under Limited Human Attention",
     "year": 2026,
     "venue": "arXiv",
@@ -7687,6 +7944,7 @@
   {
     "id": "pulse2026-2",
     "section": "sec-5-4-2",
+    "group": "Using personal and task context",
     "title": "Pulse: Long-Horizon Tasks Need Streaming Personalization",
     "year": 2026,
     "venue": "arXiv",
@@ -7716,6 +7974,7 @@
   {
     "id": "measuringsuccessin2026",
     "section": "sec-8-4",
+    "group": "Measuring Benefit and Burden Over Months",
     "title": "Measuring \"Success\" In the Transition from Pre- to Post-LLM Conversational Agents through the Lens of Interaction & Explanations for Older Adults",
     "year": 2026,
     "venue": "arXiv",
@@ -7727,6 +7986,7 @@
   {
     "id": "scalaris2026",
     "section": "sec-4-1-2",
+    "group": "Structured records and embeddings",
     "title": "Scalaris: A Scalable Enterprise Memory Architecture for Conversational AI Assistants",
     "year": 2026,
     "venue": "arXiv",
@@ -7738,6 +7998,7 @@
   {
     "id": "camerafreeobject2026",
     "section": "sec-3-2",
+    "group": "How long can sensing continue?",
     "title": "Camera-Free Object Discovery and Interaction with GazeTags",
     "year": 2026,
     "venue": "arXiv",
@@ -7779,6 +8040,7 @@
   {
     "id": "trackmem2026",
     "section": "sec-4-3-4",
+    "group": "Correction",
     "title": "TrackMem: Tracking Evolving Beliefs in Long-Horizon Financial Dialogue",
     "year": 2026,
     "venue": "arXiv",
@@ -7806,6 +8068,7 @@
   {
     "id": "whoschedulesagent2026",
     "section": "sec-4-3-3",
+    "group": "Delivery",
     "title": "Who Schedules Agent Memory? A Sidecar Approach to Long-Horizon Tasks",
     "year": 2026,
     "venue": "arXiv",
@@ -7820,6 +8083,7 @@
   {
     "id": "astatechange2026",
     "section": "sec-4-3-4",
+    "group": "Correction",
     "title": "A State Change Is Local, Its Consequences Are Not: Dependency-Aware State Revision for Long-Term Agent Memory",
     "year": 2026,
     "venue": "arXiv",
@@ -7862,6 +8126,7 @@
   {
     "id": "chainondemand2026",
     "section": "sec-4-3-3",
+    "group": "Retrieval",
     "title": "Chain on Demand: Deferred Evidence Organization for Long-Term Conversational Memory",
     "year": 2026,
     "venue": "arXiv",
@@ -7899,6 +8164,7 @@
   {
     "id": "recursiveselfimprovement2026",
     "section": "sec-6-4",
+    "group": "What a revision changes",
     "title": "Recursive Self-Improvement of Exoskeleton Assistance Policies through Human-in-the-Loop Feedback",
     "year": 2026,
     "venue": "arXiv",
@@ -7910,6 +8176,7 @@
   {
     "id": "heirloom2026",
     "section": "sec-4-2",
+    "group": "Can the store be reached when it is needed?",
     "title": "Heirloom: Carrying a Phone's Personalization Across Base-Model Generations",
     "year": 2026,
     "venue": "arXiv",

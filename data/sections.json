@@ -5,7 +5,7 @@
     "short": "Sensing",
     "level": 2,
     "icon": "sensing",
-    "description": "Sensing acquires current information from the user and the environment, forming the current context and the state of ongoing tasks."
+    "description": "Sensing takes in observations and feedback from the user and the world, forming the current context and the state of ongoing tasks."
   },
   {
     "id": "sec-3-1",
@@ -22,30 +22,48 @@
     "groups": [
       {
         "name": "Continuous sensing",
-        "tag": "Continuous"
+        "tag": "Continuous sensing"
       },
       {
         "name": "Triggered sensing",
-        "tag": "Triggered"
+        "tag": "Triggered sensing"
       },
       {
         "name": "On-demand sensing",
-        "tag": "On-demand"
+        "tag": "On-demand sensing"
       }
     ]
   },
   {
     "id": "sec-3-1-2",
-    "title": "Observations and Current State",
+    "title": "Observation Formats and Metadata",
     "level": 4,
     "parent": "sec-3-1"
   },
   {
     "id": "sec-3-2",
-    "title": "Operating Conditions for Sensing",
+    "title": "Shared Conditions for Sensing",
     "short": "Conditions",
     "level": 3,
-    "parent": "sec-3"
+    "parent": "sec-3",
+    "groups": [
+      {
+        "name": "Whose information is the assistant allowed to observe?",
+        "tag": "Whose information is the assistant allowed to observe?"
+      },
+      {
+        "name": "How long can sensing continue?",
+        "tag": "How long can sensing continue?"
+      },
+      {
+        "name": "Can observations reach decisions in time?",
+        "tag": "Can observations reach decisions in time?"
+      },
+      {
+        "name": "What does remote processing cost?",
+        "tag": "What does remote processing cost?"
+      }
+    ]
   },
   {
     "id": "sec-3-3",
@@ -68,7 +86,7 @@
   },
   {
     "id": "sec-3-3-3",
-    "title": "How Long to Observe: Observation Windows",
+    "title": "How Much History to Use: Observation Windows",
     "level": 4,
     "parent": "sec-3-3"
   },
@@ -76,7 +94,25 @@
     "id": "sec-3-3-4",
     "title": "Where to Cut: Online Segmentation",
     "level": 4,
-    "parent": "sec-3-3"
+    "parent": "sec-3-3",
+    "groups": [
+      {
+        "name": "Action progress and onsets",
+        "tag": "Action progress and onsets"
+      },
+      {
+        "name": "Overlapping and unfamiliar events",
+        "tag": "Overlapping and unfamiliar events"
+      },
+      {
+        "name": "Boundaries from prediction and change",
+        "tag": "Boundaries from prediction and change"
+      },
+      {
+        "name": "Boundary timing and its value",
+        "tag": "Boundary timing and its value"
+      }
+    ]
   },
   {
     "id": "sec-3-3-5",
@@ -161,6 +197,10 @@
         "tag": "Continuous and triggered capture"
       },
       {
+        "name": "Organizing supplied streams",
+        "tag": "Organizing supplied streams"
+      },
+      {
         "name": "Readiness and response timing",
         "tag": "Readiness and response timing"
       },
@@ -180,7 +220,7 @@
     "short": "Memory",
     "level": 2,
     "icon": "memory",
-    "description": "Memory retains information for later service and supplies it when a decision needs it or a commitment falls due."
+    "description": "Memory keeps what the assistant learns about the user and hands it back when a decision needs it or a commitment falls due."
   },
   {
     "id": "sec-4-1",
@@ -196,8 +236,16 @@
     "parent": "sec-4-1",
     "groups": [
       {
+        "name": "Retrospective memory: what happened",
+        "tag": "Retrospective memory"
+      },
+      {
         "name": "Profile memory: what holds now",
-        "tag": "Profile"
+        "tag": "Profile memory"
+      },
+      {
+        "name": "Prospective memory: what is pending",
+        "tag": "Prospective memory"
       }
     ]
   },
@@ -205,14 +253,50 @@
     "id": "sec-4-1-2",
     "title": "Representations and Storage",
     "level": 4,
-    "parent": "sec-4-1"
+    "parent": "sec-4-1",
+    "groups": [
+      {
+        "name": "Raw records and summaries",
+        "tag": "Raw records and summaries"
+      },
+      {
+        "name": "Structured records and embeddings",
+        "tag": "Structured records and embeddings"
+      },
+      {
+        "name": "Code and dense state",
+        "tag": "Code and dense state"
+      },
+      {
+        "name": "Parametric memory",
+        "tag": "Parametric memory"
+      },
+      {
+        "name": "The choice of a storage architecture",
+        "tag": "The choice of a storage architecture"
+      }
+    ]
   },
   {
     "id": "sec-4-2",
-    "title": "Operating Conditions for Memory",
+    "title": "Shared Conditions for Memory",
     "short": "Conditions",
     "level": 3,
-    "parent": "sec-4"
+    "parent": "sec-4",
+    "groups": [
+      {
+        "name": "What is the assistant allowed to keep, and for how long?",
+        "tag": "What is the assistant allowed to keep, and for how long?"
+      },
+      {
+        "name": "What does keeping and searching cost as the store grows?",
+        "tag": "What does keeping and searching cost as the store grows?"
+      },
+      {
+        "name": "Can the store be reached when it is needed?",
+        "tag": "Can the store be reached when it is needed?"
+      }
+    ]
   },
   {
     "id": "sec-4-3",
@@ -225,25 +309,65 @@
     "id": "sec-4-3-1",
     "title": "What to Store and in What Form: Admission and Encoding",
     "level": 4,
-    "parent": "sec-4-3"
+    "parent": "sec-4-3",
+    "groups": [
+      {
+        "name": "Admission",
+        "tag": "Admission"
+      },
+      {
+        "name": "Encoding",
+        "tag": "Encoding"
+      }
+    ]
   },
   {
     "id": "sec-4-3-2",
     "title": "How State Remains Reachable: Indexing and Identity",
     "level": 4,
-    "parent": "sec-4-3"
+    "parent": "sec-4-3",
+    "groups": [
+      {
+        "name": "Indexing",
+        "tag": "Indexing"
+      },
+      {
+        "name": "Maintenance and updates",
+        "tag": "Maintenance and updates"
+      }
+    ]
   },
   {
     "id": "sec-4-3-3",
     "title": "What Is Exposed Now: Retrieval and Delivery",
     "level": 4,
-    "parent": "sec-4-3"
+    "parent": "sec-4-3",
+    "groups": [
+      {
+        "name": "Retrieval",
+        "tag": "Retrieval"
+      },
+      {
+        "name": "Delivery",
+        "tag": "Delivery"
+      }
+    ]
   },
   {
     "id": "sec-4-3-4",
     "title": "How Records Change: Consolidation and Correction",
     "level": 4,
-    "parent": "sec-4-3"
+    "parent": "sec-4-3",
+    "groups": [
+      {
+        "name": "Consolidation",
+        "tag": "Consolidation"
+      },
+      {
+        "name": "Correction",
+        "tag": "Correction"
+      }
+    ]
   },
   {
     "id": "sec-4-3-5",
@@ -329,7 +453,7 @@
     "short": "Action",
     "level": 2,
     "icon": "action",
-    "description": "Action decides whether, when, and how the assistant intervenes, choosing among silence, communication, preparation, and execution."
+    "description": "Action decides whether, when, and how the assistant acts on the external world, for example by sending a message, editing a file, or speaking aloud."
   },
   {
     "id": "sec-5-1",
@@ -345,12 +469,16 @@
     "parent": "sec-5-1",
     "groups": [
       {
+        "name": "Reactive action",
+        "tag": "Reactive action"
+      },
+      {
         "name": "Deferred action",
-        "tag": "Deferred"
+        "tag": "Deferred action"
       },
       {
         "name": "Proactive action",
-        "tag": "Proactive"
+        "tag": "Proactive action"
       }
     ]
   },
@@ -362,7 +490,7 @@
   },
   {
     "id": "sec-5-2",
-    "title": "Operating Conditions for Action",
+    "title": "Shared Conditions for Action",
     "short": "Conditions",
     "level": 3,
     "parent": "sec-5"
@@ -378,11 +506,29 @@
     "id": "sec-5-3-1",
     "title": "Whether and When to Intervene: Gating, Silence, and Asking",
     "level": 4,
-    "parent": "sec-5-3"
+    "parent": "sec-5-3",
+    "groups": [
+      {
+        "name": "Using an expressed or inferred goal",
+        "tag": "Using an expressed or inferred goal"
+      },
+      {
+        "name": "Waiting for a useful moment",
+        "tag": "Waiting for a useful moment"
+      },
+      {
+        "name": "Clarifying, preparing, or stopping",
+        "tag": "Clarifying, preparing, or stopping"
+      },
+      {
+        "name": "Choosing a separate or shared timing model",
+        "tag": "Choosing a separate or shared timing model"
+      }
+    ]
   },
   {
     "id": "sec-5-3-2",
-    "title": "How Control Is Retained: Direct and Agentic",
+    "title": "How Control Is Retained: Single-Step and Multi-Step",
     "level": 4,
     "parent": "sec-5-3"
   },
@@ -394,9 +540,19 @@
   },
   {
     "id": "sec-5-3-4",
-    "title": "Which Effect Is Authorized: Authority",
+    "title": "Which Effect Is Authorized: Proceeding, Confirming, and Withholding",
     "level": 4,
-    "parent": "sec-5-3"
+    "parent": "sec-5-3",
+    "groups": [
+      {
+        "name": "Checking permission before an action takes effect",
+        "tag": "Checking permission before an action takes effect"
+      },
+      {
+        "name": "Rechecking after a pause or handoff",
+        "tag": "Rechecking after a pause or handoff"
+      }
+    ]
   },
   {
     "id": "sec-5-3-5",
@@ -421,7 +577,25 @@
     "id": "sec-5-4-2",
     "title": "Memory to Action: the M→A Channel",
     "level": 4,
-    "parent": "sec-5-4"
+    "parent": "sec-5-4",
+    "groups": [
+      {
+        "name": "Using personal and task context",
+        "tag": "Using personal and task context"
+      },
+      {
+        "name": "Delivering due commitments and procedures",
+        "tag": "Delivering due commitments and procedures"
+      },
+      {
+        "name": "Separating retrieval, delivery, and use",
+        "tag": "Separating retrieval, delivery, and use"
+      },
+      {
+        "name": "Why memory-guided action is difficult",
+        "tag": "Why memory-guided action is difficult"
+      }
+    ]
   },
   {
     "id": "sec-5-5",
@@ -484,7 +658,7 @@
   },
   {
     "id": "sec-6-1-2",
-    "title": "Digital Workspace and Personal Services",
+    "title": "Digital Workspace and Personal Assistants",
     "level": 4,
     "parent": "sec-6-1",
     "sort": "level"
@@ -531,10 +705,6 @@
     "sort": "level",
     "groups": [
       {
-        "name": "Physical products",
-        "tag": "Physical"
-      },
-      {
         "name": "Wearable",
         "tag": "Wearable"
       },
@@ -545,6 +715,10 @@
       {
         "name": "Physical",
         "tag": "Physical"
+      },
+      {
+        "name": "Physical products",
+        "tag": "Physical"
       }
     ]
   },
@@ -553,7 +727,41 @@
     "title": "Self-Evolution in Deployed Loops",
     "short": "Self-Evolution",
     "level": 3,
-    "parent": "sec-6"
+    "parent": "sec-6",
+    "groups": [
+      {
+        "name": "Why revision is harder inside an always-on assistant",
+        "tag": "Why revision is harder inside an always-on assistant"
+      },
+      {
+        "name": "What a revision changes",
+        "tag": "What a revision changes"
+      },
+      {
+        "name": "Revising model parameters from personal feedback",
+        "tag": "Revising model parameters from personal feedback"
+      },
+      {
+        "name": "Revising prompts and written instructions",
+        "tag": "Revising prompts and written instructions"
+      },
+      {
+        "name": "Revising storage and retrieval rules",
+        "tag": "Revising storage and retrieval rules"
+      },
+      {
+        "name": "Revising tools and APIs",
+        "tag": "Revising tools and APIs"
+      },
+      {
+        "name": "Revising the harness while the assistant runs",
+        "tag": "Revising the harness while the assistant runs"
+      },
+      {
+        "name": "Which revisions are governed",
+        "tag": "Which revisions are governed"
+      }
+    ]
   },
   {
     "id": "sec-7",
@@ -561,11 +769,11 @@
     "short": "HALO",
     "level": 2,
     "icon": "evaluation",
-    "description": "HALO places existing systems in the framework and examines the evidence behind their service requirements."
+    "description": "HALO is a diagnostic tool that assesses the loop completeness of existing systems."
   },
   {
     "id": "sec-7-1",
-    "title": "Read Mode: Existing Systems in the Framework",
+    "title": "Read Mode: Channel Coverage and Evidence for Self-Evolution",
     "short": "Read Mode",
     "level": 3,
     "parent": "sec-7"
@@ -590,35 +798,103 @@
     "short": "Open Problems",
     "level": 2,
     "icon": "evolution",
-    "description": "Three research needs: preserving opportunities to observe change, keeping retained state correctable, and testing why a mechanism revision is justified and whether it helps later."
+    "description": "Where current always-on systems fall short, stated as open problems in four parts: sustaining the continuing loop; authority, privacy, and safety; self-evolution and recursive revision; and longitudinal evaluation and real deployment."
   },
   {
     "id": "sec-8-1",
-    "title": "Local Policies for Always-On Assistance",
+    "title": "Sustaining the Continuing Loop",
     "short": "Local Policies",
     "level": 3,
-    "parent": "sec-8"
+    "parent": "sec-8",
+    "groups": [
+      {
+        "name": "Observing Between Requests",
+        "tag": "Observing Between Requests"
+      },
+      {
+        "name": "Updating Beliefs Without Being Told",
+        "tag": "Updating Beliefs Without Being Told"
+      },
+      {
+        "name": "Keeping and Closing Commitments",
+        "tag": "Keeping and Closing Commitments"
+      },
+      {
+        "name": "Deciding When to Act, Wait, or Ask",
+        "tag": "Deciding When to Act, Wait, or Ask"
+      },
+      {
+        "name": "Sharing Limited Resources Across Pending Tasks",
+        "tag": "Sharing Limited Resources Across Pending Tasks"
+      }
+    ]
   },
   {
     "id": "sec-8-2",
-    "title": "Coordination Across Sensing, Memory, and Action",
+    "title": "Authority, Privacy, and Safety",
     "short": "Coordination",
     "level": 3,
-    "parent": "sec-8"
+    "parent": "sec-8",
+    "groups": [
+      {
+        "name": "Consent That Outlasts the Conversation",
+        "tag": "Consent That Outlasts the Conversation"
+      },
+      {
+        "name": "Where the Assistant Runs and What It Can Reach",
+        "tag": "Where the Assistant Runs and What It Can Reach"
+      },
+      {
+        "name": "Whose Context the Assistant Holds",
+        "tag": "Whose Context the Assistant Holds"
+      },
+      {
+        "name": "Overseeing an Assistant That Acts on Its Own",
+        "tag": "Overseeing an Assistant That Acts on Its Own"
+      }
+    ]
   },
   {
     "id": "sec-8-3",
     "title": "Self-Evolution and Recursive Revision",
     "short": "Self-Evolution",
     "level": 3,
-    "parent": "sec-8"
+    "parent": "sec-8",
+    "groups": [
+      {
+        "name": "Learning From Implicit, Delayed Outcomes",
+        "tag": "Learning From Implicit, Delayed Outcomes"
+      },
+      {
+        "name": "Telling Whether a Revision Helped",
+        "tag": "Telling Whether a Revision Helped"
+      },
+      {
+        "name": "Keeping Self-Evolution Within the User's Bounds",
+        "tag": "Keeping Self-Evolution Within the User's Bounds"
+      },
+      {
+        "name": "Revising the Revision Procedure",
+        "tag": "Revising the Revision Procedure"
+      }
+    ]
   },
   {
     "id": "sec-8-4",
     "title": "Longitudinal Evaluation and Real Deployment",
     "short": "Long-Term Evaluation",
     "level": 3,
-    "parent": "sec-8"
+    "parent": "sec-8",
+    "groups": [
+      {
+        "name": "Evaluating a Loop Whose Decisions Shape Later Inputs",
+        "tag": "Evaluating a Loop Whose Decisions Shape Later Inputs"
+      },
+      {
+        "name": "Measuring Benefit and Burden Over Months",
+        "tag": "Measuring Benefit and Burden Over Months"
+      }
+    ]
   },
   {
     "id": "related-surveys",
@@ -629,12 +905,28 @@
     "description": "Capability-focused surveys, and concurrent system-level surveys that connect several components around persistent state, device platforms, human trajectories, or model-harness co-evolution.",
     "groups": [
       {
-        "name": "Capability-focused surveys",
-        "tag": "Capability-focused"
+        "name": "Perception across modalities and deployment settings",
+        "tag": "Perception across modalities and deployment settings"
+      },
+      {
+        "name": "How information is retained, used, and governed",
+        "tag": "How information is retained, used, and governed"
+      },
+      {
+        "name": "Proactive assistance",
+        "tag": "Proactive assistance"
+      },
+      {
+        "name": "Agent decision and execution methods",
+        "tag": "Agent decision and execution methods"
+      },
+      {
+        "name": "Self-improving agents",
+        "tag": "Self-improving agents"
       },
       {
         "name": "Concurrent system-level surveys",
-        "tag": "Concurrent system-level"
+        "tag": "Concurrent system-level surveys"
       }
     ]
   },

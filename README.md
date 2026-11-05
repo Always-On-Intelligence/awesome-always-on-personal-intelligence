@@ -83,53 +83,72 @@ The synthesis finds the thinnest support for two channels: memory guiding sensin
 <a id="sec-3"></a>
 ## <img src="assets/icons/sensing.svg" height="30" align="top" alt=""/> Sensing
 
-Sensing acquires current information from the user and the environment, forming the current context and the state of ongoing tasks.
+Sensing takes in observations and feedback from the user and the world, forming the current context and the state of ongoing tasks.
 
 <a id="sec-3-1"></a>
 ### Sensing Space
 
-- [![Book 2020][b-book-2020-8c8c8c]](https://aima.cs.berkeley.edu/) Artificial Intelligence: A Modern Approach.
-- [![Proc. IEEE 1988][b-proc-ieee-1988-355774]](https://doi.org/10.1109/5.5968) Active perception.
+- Artificial Intelligence: A Modern Approach. [![Book 2020][b-book-2020-8c8c8c]](https://aima.cs.berkeley.edu/)
+- Active perception. [![Proc. IEEE 1988][b-proc-ieee-1988-355774]](https://doi.org/10.1109/5.5968)
 
 <a id="sec-3-1-1"></a>
 #### What Starts Observation
 
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.05784) Activity Frames: Deterministic Screen-Activity Compilation for Agent Memory and Replay. [![Code][b-code-3b434d-github]](https://github.com/nossa-y/activity-frames) ![Continuous][b-continuous-8fa399]
-- [![ECCV 2026][b-eccv-2026-355774]](https://arxiv.org/abs/2603.19054) Em-Garde: A Propose-Match Framework for Proactive Streaming Video Understanding. ![Triggered][b-triggered-8fa399] ![M→S][b-m-to-s-607a6d]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.24904) Mage-VL: An Efficient Codec-Native Streaming Multimodal Foundation Model. [![Code][b-code-3b434d-github]](https://github.com/microsoft/Mage) ![Continuous][b-continuous-8fa399]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.17679) PULSE: Agentic Investigation with Passive Sensing for Proactive Affective Intervention in Cancer Survivorship. ![On-demand][b-on-demand-8fa399]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.02812) VibeVoice-ASR-Streaming Technical Report. ![Continuous][b-continuous-8fa399]
-- [![arXiv 2024][b-arxiv-2024-a1574a]](https://arxiv.org/abs/2412.15240) ChainStream: An LLM-based Framework for Unified Synthetic Sensing. [![Code][b-code-3b434d-github]](https://github.com/MobileLLM/ChainStream) ![Continuous][b-continuous-8fa399]
-- [![arXiv 2024][b-arxiv-2024-a1574a]](https://arxiv.org/abs/2410.00037) Moshi: a speech-text foundation model for real-time dialogue. [![Code][b-code-3b434d-github]](https://github.com/kyutai-labs/moshi) ![Continuous][b-continuous-8fa399]
-- [![IEEE JSSC 2020][b-ieee-jssc-2020-355774]](https://doi.org/10.1109/JSSC.2020.2968800) Vocell: A 65-nm Speech-Triggered Wake-Up SoC for 10-μW Keyword Spotting and Speaker Verification. ![Continuous][b-continuous-8fa399]
-- [![IEEE JSSC 2019][b-ieee-jssc-2019-355774]](https://doi.org/10.1109/JSSC.2019.2936756) An Acoustic Signal Processing Chip With 142-nW Voice Activity Detection Using Mixer-Based Sequential Frequency Scanning and Neural Network Classification. ![Continuous][b-continuous-8fa399]
-- [![CACM 2006][b-cacm-2006-355774]](https://doi.org/10.1145/1107458.1107460) MyLifeBits: A Personal Database for Everything. ![Continuous][b-continuous-8fa399]
+##### Continuous sensing
+
+- Activity Frames: Deterministic Screen-Activity Compilation for Agent Memory and Replay. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.05784) [![Code][b-code-3b434d-github]](https://github.com/nossa-y/activity-frames)
+- Mage-VL: An Efficient Codec-Native Streaming Multimodal Foundation Model. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.24904) [![Code][b-code-3b434d-github]](https://github.com/microsoft/Mage)
+- VibeVoice-ASR-Streaming Technical Report. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.02812)
+- ChainStream: An LLM-based Framework for Unified Synthetic Sensing. [![arXiv 2024][b-arxiv-2024-a1574a]](https://arxiv.org/abs/2412.15240) [![Code][b-code-3b434d-github]](https://github.com/MobileLLM/ChainStream)
+- Moshi: a speech-text foundation model for real-time dialogue. [![arXiv 2024][b-arxiv-2024-a1574a]](https://arxiv.org/abs/2410.00037) [![Code][b-code-3b434d-github]](https://github.com/kyutai-labs/moshi)
+- Vocell: A 65-nm Speech-Triggered Wake-Up SoC for 10-μW Keyword Spotting and Speaker Verification. [![IEEE JSSC 2020][b-ieee-jssc-2020-355774]](https://doi.org/10.1109/JSSC.2020.2968800)
+- An Acoustic Signal Processing Chip With 142-nW Voice Activity Detection Using Mixer-Based Sequential Frequency Scanning and Neural Network Classification. [![IEEE JSSC 2019][b-ieee-jssc-2019-355774]](https://doi.org/10.1109/JSSC.2019.2936756)
+- MyLifeBits: A Personal Database for Everything. [![CACM 2006][b-cacm-2006-355774]](https://doi.org/10.1145/1107458.1107460)
+
+##### Triggered sensing
+
+- Em-Garde: A Propose-Match Framework for Proactive Streaming Video Understanding. [![ECCV 2026][b-eccv-2026-355774]](https://arxiv.org/abs/2603.19054) ![M→S][b-m-to-s-607a6d]
+
+##### On-demand sensing
+
+- PULSE: Agentic Investigation with Passive Sensing for Proactive Affective Intervention in Cancer Survivorship. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.17679)
 
 <a id="sec-3-1-2"></a>
-#### Observations and Current State
+#### Observation Formats and Metadata
 
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.04334) Do GUI Agents Believe Their Eyes? Diagnosing State-Belief Reliance on Pixels versus Structure.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2601.18842) GUIGuard-Bench: Toward a General Evaluation for Privacy-Preserving GUI Agents.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.16257) SuperSenseDoctor: A Multimodal and Contactless Agent for Health Tracking. ![S→A][b-s-to-a-556b88] ![S→M][b-s-to-m-9d675d]
-- [![NeurIPS D&amp;B 2024][b-neurips-d-b-2024-355774]](https://arxiv.org/abs/2406.13352) AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents. [![Code][b-code-3b434d-github]](https://github.com/ethz-spylab/agentdojo)
+- Do GUI Agents Believe Their Eyes? Diagnosing State-Belief Reliance on Pixels versus Structure. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.04334)
+- GUIGuard-Bench: Toward a General Evaluation for Privacy-Preserving GUI Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2601.18842)
+- SuperSenseDoctor: A Multimodal and Contactless Agent for Health Tracking. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.16257) ![S→A][b-s-to-a-556b88] ![S→M][b-s-to-m-9d675d]
+- AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents. [![NeurIPS D&amp;B 2024][b-neurips-d-b-2024-355774]](https://arxiv.org/abs/2406.13352) [![Code][b-code-3b434d-github]](https://github.com/ethz-spylab/agentdojo)
 
 <a id="sec-3-2"></a>
-### Operating Conditions for Sensing
+### Shared Conditions for Sensing
 
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2611.02599) Camera-Free Object Discovery and Interaction with GazeTags.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2604.17817) Do LLMs Need to See Everything? A Benchmark and Study of Failures in LLM-driven Smartphone Automation using Screentext vs. Screenshots.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2603.23640) LLM Inference at the Edge: Mobile, NPU, and GPU Performance Efficiency Trade-offs Under Sustained Load.
-- [![ACL 2026][b-acl-2026-355774]](https://arxiv.org/abs/2512.06380) Protecting Bystander Privacy via Selective Hearing in Audio LLMs.
-- [![arXiv 2025][b-arxiv-2025-a1574a]](https://arxiv.org/abs/2512.16045) Full System Architecture Modeling for Wearable Egocentric Contextual AI.
-- [![CHI 2024][b-chi-2024-355774]](https://doi.org/10.1145/3613904.3642242) In Focus, Out of Privacy: The Wearer's Perspective on the Privacy Dilemma of Camera Glasses.
-- [![MobiCom 2024][b-mobicom-2024-355774]](https://arxiv.org/abs/2403.12844) MELTing point: Mobile Evaluation of Language Transformers. [![Code][b-code-3b434d-github]](https://github.com/brave-experiments/melt-public)
-- [![PETS 2022][b-pets-2022-355774]](https://petsymposium.org/popets/2022/popets-2022-0064.php) Exploring the Privacy Concerns of Bystanders in Smart Homes from the Perspectives of Both Owners and Bystanders.
-- [![ASRU 2021][b-asru-2021-355774]](https://arxiv.org/abs/2109.06483) Overlap-aware low-latency online speaker diarization based on end-to-end local segmentation. [![Code][b-code-3b434d-github]](https://github.com/juanmc2005/StreamingSpeakerDiarization)
-- [![Sensors 2020][b-sensors-2020-355774]](https://doi.org/10.3390/s20051446) Thermal Model and Countermeasures for Future Smart Glasses.
-- [![IoTDI 2019][b-iotdi-2019-355774]](https://arxiv.org/abs/1810.11546) Mobile Sensor Data Anonymization.
-- [![SEC 2017][b-sec-2017-355774]](https://doi.org/10.1145/3132211.3134458) An Empirical Study of Latency in an Emerging Class of Edge Computing Applications for Wearable Cognitive Assistance.
-- [![MobileHCI 2015][b-mobilehci-2015-355774]](https://doi.org/10.1145/2785830.2785842) Don't Look at Me That Way! Understanding User Attitudes Towards Data Glasses Usage.
-- [![CHI 2014][b-chi-2014-355774]](https://doi.org/10.1145/2556288.2557352) In Situ with Bystanders of Augmented Reality Glasses: Perspectives on Recording and Privacy-Mediating Technologies.
+#### Whose information is the assistant allowed to observe?
+
+- Protecting Bystander Privacy via Selective Hearing in Audio LLMs. [![ACL 2026][b-acl-2026-355774]](https://arxiv.org/abs/2512.06380)
+- In Focus, Out of Privacy: The Wearer's Perspective on the Privacy Dilemma of Camera Glasses. [![CHI 2024][b-chi-2024-355774]](https://doi.org/10.1145/3613904.3642242)
+- Exploring the Privacy Concerns of Bystanders in Smart Homes from the Perspectives of Both Owners and Bystanders. [![PETS 2022][b-pets-2022-355774]](https://petsymposium.org/popets/2022/popets-2022-0064.php)
+- Overlap-aware low-latency online speaker diarization based on end-to-end local segmentation. [![ASRU 2021][b-asru-2021-355774]](https://arxiv.org/abs/2109.06483) [![Code][b-code-3b434d-github]](https://github.com/juanmc2005/StreamingSpeakerDiarization)
+- Mobile Sensor Data Anonymization. [![IoTDI 2019][b-iotdi-2019-355774]](https://arxiv.org/abs/1810.11546)
+- Don't Look at Me That Way! Understanding User Attitudes Towards Data Glasses Usage. [![MobileHCI 2015][b-mobilehci-2015-355774]](https://doi.org/10.1145/2785830.2785842)
+- In Situ with Bystanders of Augmented Reality Glasses: Perspectives on Recording and Privacy-Mediating Technologies. [![CHI 2014][b-chi-2014-355774]](https://doi.org/10.1145/2556288.2557352)
+
+#### How long can sensing continue?
+
+- Camera-Free Object Discovery and Interaction with GazeTags. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2611.02599)
+- Full System Architecture Modeling for Wearable Egocentric Contextual AI. [![arXiv 2025][b-arxiv-2025-a1574a]](https://arxiv.org/abs/2512.16045)
+- MELTing point: Mobile Evaluation of Language Transformers. [![MobiCom 2024][b-mobicom-2024-355774]](https://arxiv.org/abs/2403.12844) [![Code][b-code-3b434d-github]](https://github.com/brave-experiments/melt-public)
+- Thermal Model and Countermeasures for Future Smart Glasses. [![Sensors 2020][b-sensors-2020-355774]](https://doi.org/10.3390/s20051446)
+
+#### Can observations reach decisions in time?
+
+- LLM Inference at the Edge: Mobile, NPU, and GPU Performance Efficiency Trade-offs Under Sustained Load. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2603.23640)
+- An Empirical Study of Latency in an Emerging Class of Edge Computing Applications for Wearable Cognitive Assistance. [![SEC 2017][b-sec-2017-355774]](https://doi.org/10.1145/3132211.3134458)
+
+#### What does remote processing cost?
+
+- Do LLMs Need to See Everything? A Benchmark and Study of Failures in LLM-driven Smartphone Automation using Screentext vs. Screenshots. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2604.17817)
 
 <a id="sec-3-3"></a>
 ### Sensing Policy
@@ -137,90 +156,101 @@ Sensing acquires current information from the user and the environment, forming 
 <a id="sec-3-3-1"></a>
 #### Whether to Observe: Triggering and Wake-Up
 
-- [![ICLR 2026][b-iclr-2026-355774]](https://arxiv.org/abs/2511.04670) Cambrian-S: Towards Spatial Supersensing in Video. [![Code][b-code-3b434d-github]](https://github.com/cambrian-mllm/cambrian-s)
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.02265) CAPTURE: Disentangling Preference Drift from Memory Poisoning in Personalized LLM Agents.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.33142) GlanceAR: Repurposing Phone Sensors via Low-Cost Reflectors for Always-On Obstacle Awareness. ![S→A][b-s-to-a-556b88]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.07431) OpenGlass: Ultra-Low-Power On-Device AI Eyewear with Event-based Vision.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.03236) Perceive Before Reasoning: A Pre-Reasoning Perception Framework for Efficient and Reliable Proactive Mobile Agents.
-- [![ICCV 2025][b-iccv-2025-355774]](https://arxiv.org/abs/2503.06220) StreamMind: Unlocking Full Frame Rate Streaming Video Dialogue through Event-Gated Cognition.
-- [![UbiComp 2006][b-ubicomp-2006-355774]](https://www.microsoft.com/en-us/research/publication/sensecam-retrospective-memory-aid/) SenseCam: A Retrospective Memory Aid.
+- Cambrian-S: Towards Spatial Supersensing in Video. [![ICLR 2026][b-iclr-2026-355774]](https://arxiv.org/abs/2511.04670) [![Code][b-code-3b434d-github]](https://github.com/cambrian-mllm/cambrian-s)
+- CAPTURE: Disentangling Preference Drift from Memory Poisoning in Personalized LLM Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.02265)
+- GlanceAR: Repurposing Phone Sensors via Low-Cost Reflectors for Always-On Obstacle Awareness. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.33142) ![S→A][b-s-to-a-556b88]
+- OpenGlass: Ultra-Low-Power On-Device AI Eyewear with Event-based Vision. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.07431)
+- Perceive Before Reasoning: A Pre-Reasoning Perception Framework for Efficient and Reliable Proactive Mobile Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.03236)
+- StreamMind: Unlocking Full Frame Rate Streaming Video Dialogue through Event-Gated Cognition. [![ICCV 2025][b-iccv-2025-355774]](https://arxiv.org/abs/2503.06220)
+- SenseCam: A Retrospective Memory Aid. [![UbiComp 2006][b-ubicomp-2006-355774]](https://www.microsoft.com/en-us/research/publication/sensecam-retrospective-memory-aid/)
 
 <a id="sec-3-3-2"></a>
 #### How Much to Observe: Allocating the Perception Budget
 
-- [![CVPR 2026][b-cvpr-2026-355774]](https://arxiv.org/abs/2512.00891) Accelerating Streaming Video LLMs via Hierarchical Token Compression. [![Code][b-code-3b434d-github]](https://github.com/lern-to-write/STC)
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2611.04494) Spatial Memory for AR Glasses: Hierarchical Visual Acquisition and Source-Linked Recall. ![S→M][b-s-to-m-9d675d]
-- [![CVPR 2025][b-cvpr-2025-355774]](https://doi.org/10.1109/CVPR52734.2025.02226) HD-EPIC: A Highly-Detailed Egocentric Video Dataset.
-- [![arXiv 2025][b-arxiv-2025-a1574a]](https://arxiv.org/abs/2512.14052) HyperVL: An Efficient and Dynamic Multimodal Large Language Model for Edge Devices.
-- [![ICCV 2025][b-iccv-2025-355774]](https://arxiv.org/abs/2506.22139) Q-Frame: Query-aware Frame Selection and Multi-Resolution Adaptation for Video-LLMs.
-- [![CVPR 2025][b-cvpr-2025-355774]](https://arxiv.org/abs/2411.15556) ReWind: Understanding Long Videos with Instructed Learnable Memory.
-- [![NeurIPS 2025][b-neurips-2025-355774]](https://arxiv.org/abs/2507.13348) VisionThink: Smart and Efficient Vision Language Model via Reinforcement Learning. [![Code][b-code-3b434d-github]](https://github.com/dvlab-research/VisionThink)
-- [![CVPR 2024][b-cvpr-2024-355774]](https://arxiv.org/abs/2406.11816) VideoLLM-online: Online Video Large Language Model for Streaming Video. [![Project][b-project-3b434d]](https://showlab.github.io/videollm-online)
+- Accelerating Streaming Video LLMs via Hierarchical Token Compression. [![CVPR 2026][b-cvpr-2026-355774]](https://arxiv.org/abs/2512.00891) [![Code][b-code-3b434d-github]](https://github.com/lern-to-write/STC)
+- Spatial Memory for AR Glasses: Hierarchical Visual Acquisition and Source-Linked Recall. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2611.04494) ![S→M][b-s-to-m-9d675d]
+- HD-EPIC: A Highly-Detailed Egocentric Video Dataset. [![CVPR 2025][b-cvpr-2025-355774]](https://doi.org/10.1109/CVPR52734.2025.02226)
+- HyperVL: An Efficient and Dynamic Multimodal Large Language Model for Edge Devices. [![arXiv 2025][b-arxiv-2025-a1574a]](https://arxiv.org/abs/2512.14052)
+- Q-Frame: Query-aware Frame Selection and Multi-Resolution Adaptation for Video-LLMs. [![ICCV 2025][b-iccv-2025-355774]](https://arxiv.org/abs/2506.22139)
+- ReWind: Understanding Long Videos with Instructed Learnable Memory. [![CVPR 2025][b-cvpr-2025-355774]](https://arxiv.org/abs/2411.15556)
+- VisionThink: Smart and Efficient Vision Language Model via Reinforcement Learning. [![NeurIPS 2025][b-neurips-2025-355774]](https://arxiv.org/abs/2507.13348) [![Code][b-code-3b434d-github]](https://github.com/dvlab-research/VisionThink)
+- VideoLLM-online: Online Video Large Language Model for Streaming Video. [![CVPR 2024][b-cvpr-2024-355774]](https://arxiv.org/abs/2406.11816) [![Project][b-project-3b434d]](https://showlab.github.io/videollm-online)
 
 <a id="sec-3-3-3"></a>
-#### How Long to Observe: Observation Windows
+#### How Much History to Use: Observation Windows
 
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.05121) Audio Interaction Model. [![Code][b-code-3b434d-github]](https://github.com/xzf-thu/Audio-Interaction)
-- [![ICLR 2026][b-iclr-2026-355774]](https://arxiv.org/abs/2510.09608) StreamingVLM: Real-Time Understanding for Infinite Video Streams. [![Code][b-code-3b434d-github]](https://github.com/mit-han-lab/streaming-vlm)
-- [![ICLR 2024][b-iclr-2024-355774]](https://arxiv.org/abs/2309.17453) Efficient Streaming Language Models with Attention Sinks. [![Code][b-code-3b434d-github]](https://github.com/mit-han-lab/streaming-llm)
-- [![arXiv 2024][b-arxiv-2024-a1574a]](https://arxiv.org/abs/2412.08646) StreamChat: Chatting with Streaming Video.
+- Audio Interaction Model. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.05121) [![Code][b-code-3b434d-github]](https://github.com/xzf-thu/Audio-Interaction)
+- StreamingVLM: Real-Time Understanding for Infinite Video Streams. [![ICLR 2026][b-iclr-2026-355774]](https://arxiv.org/abs/2510.09608) [![Code][b-code-3b434d-github]](https://github.com/mit-han-lab/streaming-vlm)
+- Efficient Streaming Language Models with Attention Sinks. [![ICLR 2024][b-iclr-2024-355774]](https://arxiv.org/abs/2309.17453) [![Code][b-code-3b434d-github]](https://github.com/mit-han-lab/streaming-llm)
+- StreamChat: Chatting with Streaming Video. [![arXiv 2024][b-arxiv-2024-a1574a]](https://arxiv.org/abs/2412.08646)
 
 <a id="sec-3-3-4"></a>
 #### Where to Cut: Online Segmentation
 
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2601.07582) ES-Mem: Event Segmentation-Based Memory for Long-Term Dialogue Agents.
-- [![CVPR 2026][b-cvpr-2026-355774]](https://arxiv.org/abs/2601.15655) Event-VStream: Event-Driven Real-Time Understanding for Long Video Streams.
-- [![IEEE TNNLS 2025][b-ieee-tnnls-2025-355774]](https://arxiv.org/abs/2309.15683) End-to-End Streaming Video Temporal Action Segmentation with Reinforce Learning. [![Code][b-code-3b434d-github]](https://github.com/Thinksky5124/SVTAS)
-- [![ICIAP 2025][b-iciap-2025-355774]](https://arxiv.org/abs/2507.16342) Mamba-OTR: a Mamba-based Solution for Online Take and Release Detection from Untrimmed Egocentric Video.
-- [![ICCV 2025][b-iccv-2025-355774]](https://arxiv.org/abs/2510.06855) Online Generic Event Boundary Detection.
-- [![ECCV 2024][b-eccv-2024-355774]](https://arxiv.org/abs/2407.12987) ActionSwitch: Class-agnostic Detection of Simultaneous Actions in Streaming Videos. [![Code][b-code-3b434d-github]](https://github.com/musicalOffering/ActionSwitch-release)
-- [![CVPR Workshop 2024][b-cvpr-workshop-2024-355774]](https://arxiv.org/abs/2406.01079) Object Aware Egocentric Online Action Detection.
-- [![CVPR 2024][b-cvpr-2024-355774]](https://doi.org/10.1109/CVPR52733.2024.01722) Progress-Aware Online Action Segmentation for Egocentric Procedural Task Videos.
-- [![ISKE 2023][b-iske-2023-355774]](https://arxiv.org/abs/2209.13808) Streaming Video Temporal Action Segmentation In Real Time.
-- [![CVPR 2022][b-cvpr-2022-355774]](https://doi.org/10.1109/CVPR52688.2022.02042) Assembly101: A Large-Scale Multi-View Video Dataset for Understanding Procedural Activities.
-- [![ECCV 2022][b-eccv-2022-355774]](https://arxiv.org/abs/2209.09236) Real-time Online Video Detection with Temporal Smoothing Transformers. [![Code][b-code-3b434d-github]](https://github.com/zhaoyue-zephyrus/TeSTra)
-- [![IJCV 2022][b-ijcv-2022-355774]](https://doi.org/10.1007/s11263-021-01531-2) Rescaling Egocentric Vision: Collection, Pipeline and Challenges for EPIC-KITCHENS-100.
-- [![NeurIPS 2021][b-neurips-2021-355774]](https://arxiv.org/abs/2107.03377) Long Short-Term Transformer for Online Action Detection.
-- [![ICCV 2019][b-iccv-2019-355774]](https://arxiv.org/abs/1903.09868) StartNet: Online Detection of Action Start in Untrimmed Videos.
-- [![ECCV 2018][b-eccv-2018-355774]](https://arxiv.org/abs/1802.06822) Online Detection of Action Start in Untrimmed, Streaming Videos.
-- [![ECCV 2016][b-eccv-2016-355774]](https://arxiv.org/abs/1604.06506) Online Action Detection.
-- [![Psychol. Bull. 2007][b-psychol-bull-2007-355774]](https://doi.org/10.1037/0033-2909.133.2.273) Event Perception: A Mind/Brain Perspective.
+##### Action progress and onsets
+
+- End-to-End Streaming Video Temporal Action Segmentation with Reinforce Learning. [![IEEE TNNLS 2025][b-ieee-tnnls-2025-355774]](https://arxiv.org/abs/2309.15683) [![Code][b-code-3b434d-github]](https://github.com/Thinksky5124/SVTAS)
+- Progress-Aware Online Action Segmentation for Egocentric Procedural Task Videos. [![CVPR 2024][b-cvpr-2024-355774]](https://doi.org/10.1109/CVPR52733.2024.01722)
+- Streaming Video Temporal Action Segmentation In Real Time. [![ISKE 2023][b-iske-2023-355774]](https://arxiv.org/abs/2209.13808)
+- Real-time Online Video Detection with Temporal Smoothing Transformers. [![ECCV 2022][b-eccv-2022-355774]](https://arxiv.org/abs/2209.09236) [![Code][b-code-3b434d-github]](https://github.com/zhaoyue-zephyrus/TeSTra)
+- Long Short-Term Transformer for Online Action Detection. [![NeurIPS 2021][b-neurips-2021-355774]](https://arxiv.org/abs/2107.03377)
+- StartNet: Online Detection of Action Start in Untrimmed Videos. [![ICCV 2019][b-iccv-2019-355774]](https://arxiv.org/abs/1903.09868)
+- Online Detection of Action Start in Untrimmed, Streaming Videos. [![ECCV 2018][b-eccv-2018-355774]](https://arxiv.org/abs/1802.06822)
+- Online Action Detection. [![ECCV 2016][b-eccv-2016-355774]](https://arxiv.org/abs/1604.06506)
+
+##### Overlapping and unfamiliar events
+
+- Mamba-OTR: a Mamba-based Solution for Online Take and Release Detection from Untrimmed Egocentric Video. [![ICIAP 2025][b-iciap-2025-355774]](https://arxiv.org/abs/2507.16342)
+- Online Generic Event Boundary Detection. [![ICCV 2025][b-iccv-2025-355774]](https://arxiv.org/abs/2510.06855)
+- ActionSwitch: Class-agnostic Detection of Simultaneous Actions in Streaming Videos. [![ECCV 2024][b-eccv-2024-355774]](https://arxiv.org/abs/2407.12987) [![Code][b-code-3b434d-github]](https://github.com/musicalOffering/ActionSwitch-release)
+- Object Aware Egocentric Online Action Detection. [![CVPR Workshop 2024][b-cvpr-workshop-2024-355774]](https://arxiv.org/abs/2406.01079)
+
+##### Boundaries from prediction and change
+
+- ES-Mem: Event Segmentation-Based Memory for Long-Term Dialogue Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2601.07582)
+- Event-VStream: Event-Driven Real-Time Understanding for Long Video Streams. [![CVPR 2026][b-cvpr-2026-355774]](https://arxiv.org/abs/2601.15655)
+- Event Perception: A Mind/Brain Perspective. [![Psychol. Bull. 2007][b-psychol-bull-2007-355774]](https://doi.org/10.1037/0033-2909.133.2.273)
+
+##### Boundary timing and its value
+
+- Assembly101: A Large-Scale Multi-View Video Dataset for Understanding Procedural Activities. [![CVPR 2022][b-cvpr-2022-355774]](https://doi.org/10.1109/CVPR52688.2022.02042)
+- Rescaling Egocentric Vision: Collection, Pipeline and Challenges for EPIC-KITCHENS-100. [![IJCV 2022][b-ijcv-2022-355774]](https://doi.org/10.1007/s11263-021-01531-2)
 
 <a id="sec-3-3-5"></a>
 #### What to Keep: Compression, Representation, and Redaction
 
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.00696) Imprint: Online Memory Compression for Long-Horizon Egocentric QA. ![S→M][b-s-to-m-9d675d]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.12642) Reconstruction and Reflection of Positive Experiences through Resurfacing Laughter-indexed Everyday Moments. ![S→M][b-s-to-m-9d675d]
-- [![CVPR 2025][b-cvpr-2025-355774]](https://arxiv.org/abs/2504.16030) LiveCC: Learning Video LLM with Streaming Speech Transcription at Scale. [![Code][b-code-3b434d-github]](https://github.com/showlab/livecc)
-- [![IMWUT 2024][b-imwut-2024-355774]](https://doi.org/10.1145/3643502) Kirigami: Lightweight Speech Filtering for Privacy-Preserving Activity Recognition Using Audio.
+- Imprint: Online Memory Compression for Long-Horizon Egocentric QA. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.00696) ![S→M][b-s-to-m-9d675d]
+- Reconstruction and Reflection of Positive Experiences through Resurfacing Laughter-indexed Everyday Moments. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.12642) ![S→M][b-s-to-m-9d675d]
+- LiveCC: Learning Video LLM with Streaming Speech Transcription at Scale. [![CVPR 2025][b-cvpr-2025-355774]](https://arxiv.org/abs/2504.16030) [![Code][b-code-3b434d-github]](https://github.com/showlab/livecc)
+- Kirigami: Lightweight Speech Filtering for Privacy-Preserving Activity Recognition Using Audio. [![IMWUT 2024][b-imwut-2024-355774]](https://doi.org/10.1145/3643502)
 
 <a id="sec-3-3-6"></a>
 #### Whether Enough Has Been Observed: Interpretation and Readiness
 
-- [![EMNLP 2026][b-emnlp-2026-355774]](https://arxiv.org/abs/2605.28108) Ask Now, Use Later: Benchmarking the Proactivity Gap in Long-Lived LLM Agents.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.16766) EgoAsk: Egocentric Teaching of Personalized Object Knowledge for Household Robots.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.23783) N₀-TWAM: Scaling Tactile-Native World-Action Model for Contact-Rich Manipulation. [![Code][b-code-3b434d-github]](https://github.com/neoteai/N0-TWAM)
-- [![UIST 2025][b-uist-2025-355774]](https://doi.org/10.1145/3746059.3747700) Scaling Context-Aware Task Assistants that Learn from Demonstration and Adapt through Mixed-Initiative Dialogue.
+- Ask Now, Use Later: Benchmarking the Proactivity Gap in Long-Lived LLM Agents. [![EMNLP 2026][b-emnlp-2026-355774]](https://arxiv.org/abs/2605.28108)
+- EgoAsk: Egocentric Teaching of Personalized Object Knowledge for Household Robots. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.16766)
+- N₀-TWAM: Scaling Tactile-Native World-Action Model for Contact-Rich Manipulation. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.23783) [![Code][b-code-3b434d-github]](https://github.com/neoteai/N0-TWAM)
+- Scaling Context-Aware Task Assistants that Learn from Demonstration and Adapt through Mixed-Initiative Dialogue. [![UIST 2025][b-uist-2025-355774]](https://doi.org/10.1145/3746059.3747700)
 
 <a id="sec-3-3-7"></a>
 #### Where the Computation Runs: On-Device, Edge, and Cloud
 
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.17172) OpenJarvis: Personal AI, On Personal Devices. [![Code][b-code-3b434d-github]](https://github.com/openjarvis/openjarvis)
-- [![arXiv 2025][b-arxiv-2025-a1574a]](https://arxiv.org/abs/2504.17735) EgoCHARM: Resource-Efficient Hierarchical Activity Recognition using an Egocentric IMU Sensor.
-- [![IEEE TMC 2020][b-ieee-tmc-2020-355774]](https://arxiv.org/abs/1712.03073) DeepWear: Adaptive Local Offloading for On-Wearable Deep Learning.
-- [![ASPLOS 2020][b-asplos-2020-355774]](https://mktrm.github.io/files/shredder_asplos20.pdf) Shredder: Learning Noise Distributions to Protect Inference Privacy.
-- [![ASPLOS 2017][b-asplos-2017-355774]](https://ypkang.github.io/downloads/kang17neurosurgeon.pdf) Neurosurgeon: Collaborative Intelligence Between the Cloud and Mobile Edge.
+- OpenJarvis: Personal AI, On Personal Devices. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.17172) [![Code][b-code-3b434d-github]](https://github.com/openjarvis/openjarvis)
+- EgoCHARM: Resource-Efficient Hierarchical Activity Recognition using an Egocentric IMU Sensor. [![arXiv 2025][b-arxiv-2025-a1574a]](https://arxiv.org/abs/2504.17735)
+- DeepWear: Adaptive Local Offloading for On-Wearable Deep Learning. [![IEEE TMC 2020][b-ieee-tmc-2020-355774]](https://arxiv.org/abs/1712.03073)
+- Shredder: Learning Noise Distributions to Protect Inference Privacy. [![ASPLOS 2020][b-asplos-2020-355774]](https://mktrm.github.io/files/shredder_asplos20.pdf)
+- Neurosurgeon: Collaborative Intelligence Between the Cloud and Mobile Edge. [![ASPLOS 2017][b-asplos-2017-355774]](https://ypkang.github.io/downloads/kang17neurosurgeon.pdf)
 
 <a id="sec-3-3-8"></a>
 #### Where the Result Goes: Routing
 
-- [![CVPR 2025][b-cvpr-2025-355774]](https://arxiv.org/abs/2501.03218) Dispider: Enabling Video LLMs with Active Real-Time Interaction via Disentangled Perception, Decision, and Reaction. [![Code][b-code-3b434d-github]](https://github.com/mark12ding/dispider)
-- [![arXiv 2025][b-arxiv-2025-a1574a]](https://arxiv.org/abs/2507.07957) MIRIX: Multi-Agent Memory System for LLM-Based Agents. [![Code][b-code-3b434d-github]](https://github.com/Mirix-AI/MIRIX)
+- Dispider: Enabling Video LLMs with Active Real-Time Interaction via Disentangled Perception, Decision, and Reaction. [![CVPR 2025][b-cvpr-2025-355774]](https://arxiv.org/abs/2501.03218) [![Code][b-code-3b434d-github]](https://github.com/mark12ding/dispider)
+- MIRIX: Multi-Agent Memory System for LLM-Based Agents. [![arXiv 2025][b-arxiv-2025-a1574a]](https://arxiv.org/abs/2507.07957) [![Code][b-code-3b434d-github]](https://github.com/Mirix-AI/MIRIX)
 
 <a id="sec-3-3-9"></a>
 #### Learning the Sensing Policy
 
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.12469) Not All Speech Is Intent: Adaptive Self-Correcting Inference Layer for Post-ASR False Wake-Up. ![M→S][b-m-to-s-607a6d] ![A→M][b-a-to-m-9d675d]
+- Not All Speech Is Intent: Adaptive Self-Correcting Inference Layer for Post-ASR False Wake-Up. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.12469) ![M→S][b-m-to-s-607a6d] ![A→M][b-a-to-m-9d675d]
 
 <a id="sec-3-4"></a>
 ### Sensing Coupling Across the Loop
@@ -228,17 +258,17 @@ Sensing acquires current information from the user and the environment, forming 
 <a id="sec-3-4-2"></a>
 #### Memory to Sensing: the M→S Channel
 
-- [![Interspeech 2020][b-interspeech-2020-355774]](https://www.isca-archive.org/interspeech_2020/wang20z_interspeech.html) VoiceFilter-Lite: Streaming Targeted Voice Separation for On-Device Speech Recognition. ![M→S][b-m-to-s-607a6d]
+- VoiceFilter-Lite: Streaming Targeted Voice Separation for On-Device Speech Recognition. [![Interspeech 2020][b-interspeech-2020-355774]](https://www.isca-archive.org/interspeech_2020/wang20z_interspeech.html) ![M→S][b-m-to-s-607a6d]
 
 <a id="sec-3-4-3"></a>
 #### Action to Sensing: the A→S Channel
 
-- [![ACL 2026][b-acl-2026-355774]](https://arxiv.org/abs/2604.05477) Don't Act Blindly: Robust GUI Automation via Action-Effect Verification and Self-Correction. ![A→S][b-a-to-s-607a6d]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2603.10165) OpenClaw-RL: Train Any Agent Simply by Talking. [![Code][b-code-3b434d-github]](https://github.com/Gen-Verse/OpenClaw-RL) ![A→S][b-a-to-s-607a6d]
-- [![CVPR 2025][b-cvpr-2025-355774]](https://arxiv.org/abs/2412.04455) Code-as-Monitor: Constraint-aware Visual Programming for Reactive and Proactive Robotic Failure Detection. ![A→S][b-a-to-s-607a6d]
-- [![Findings of EMNLP 2024][b-findings-of-emnlp-2024-355774]](https://arxiv.org/abs/2406.12639) Ask-before-Plan: Proactive Language Agents for Real-World Planning. [![Code][b-code-3b434d-github]](https://github.com/magicgh/ask-before-plan) ![A→S][b-a-to-s-607a6d]
-- [![CoRL 2023][b-corl-2023-355774]](https://proceedings.mlr.press/v229/ren23a.html) Robots That Ask For Help: Uncertainty Alignment for Large Language Model Planners. ![A→S][b-a-to-s-607a6d]
-- [![T-RO 2017][b-t-ro-2017-355774]](https://arxiv.org/abs/1604.03670) Interactive Perception: Leveraging Action in Perception and Perception in Action. ![A→S][b-a-to-s-607a6d]
+- Don't Act Blindly: Robust GUI Automation via Action-Effect Verification and Self-Correction. [![ACL 2026][b-acl-2026-355774]](https://arxiv.org/abs/2604.05477) ![A→S][b-a-to-s-607a6d]
+- OpenClaw-RL: Train Any Agent Simply by Talking. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2603.10165) [![Code][b-code-3b434d-github]](https://github.com/Gen-Verse/OpenClaw-RL) ![A→S][b-a-to-s-607a6d]
+- Code-as-Monitor: Constraint-aware Visual Programming for Reactive and Proactive Robotic Failure Detection. [![CVPR 2025][b-cvpr-2025-355774]](https://arxiv.org/abs/2412.04455) ![A→S][b-a-to-s-607a6d]
+- Ask-before-Plan: Proactive Language Agents for Real-World Planning. [![Findings of EMNLP 2024][b-findings-of-emnlp-2024-355774]](https://arxiv.org/abs/2406.12639) [![Code][b-code-3b434d-github]](https://github.com/magicgh/ask-before-plan) ![A→S][b-a-to-s-607a6d]
+- Robots That Ask For Help: Uncertainty Alignment for Large Language Model Planners. [![CoRL 2023][b-corl-2023-355774]](https://proceedings.mlr.press/v229/ren23a.html) ![A→S][b-a-to-s-607a6d]
+- Interactive Perception: Leveraging Action in Perception and Perception in Action. [![T-RO 2017][b-t-ro-2017-355774]](https://arxiv.org/abs/1604.03670) ![A→S][b-a-to-s-607a6d]
 
 <a id="sec-3-5"></a>
 ### Evaluation
@@ -246,103 +276,134 @@ Sensing acquires current information from the user and the environment, forming 
 <a id="sec-3-5-2"></a>
 #### Benchmarks and Evaluation Settings
 
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2604.02317) A Simple Baseline for Streaming Video Understanding. [![Code][b-code-3b434d-github]](https://github.com/EvolvingLMMs-Lab/SimpleStream)
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.38678) AskStream: When and What to Ask Proactively under Uncertainty in Streaming Video Understanding. [![Code][b-code-3b434d-github]](https://github.com/wanglu-cs/AskStream) ![Readiness and response timing][b-readiness-and-response-timing-8fa399] ![S→A][b-s-to-a-556b88]
-- [![EMNLP 2026][b-emnlp-2026-355774]](https://arxiv.org/abs/2608.27219) BALMS: Benchmarking Agentic LLMs for Longitudinal Mental Health Sensing. ![Perception baselines][b-perception-baselines-8fa399]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.33117) ECG-Scroll: A Long-Horizon, Streaming Benchmark and Agent Environment for Interpretation of Ambulatory Electrocardiograms. ![Readiness and response timing][b-readiness-and-response-timing-8fa399]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.02246) Ego-METAS: Egocentric online Multimodal Energy-efficient Temporal Action Segmentation benchmark. ![Continuous and triggered capture][b-continuous-and-triggered-capture-8fa399]
-- [![AAAI 2026][b-aaai-2026-355774]](https://doi.org/10.1609/aaai.v40i8.37589) EgoCross: Benchmarking Multimodal Large Language Models for Cross-Domain Egocentric Video Question Answering.
-- [![ICLR 2026][b-iclr-2026-355774]](https://arxiv.org/abs/2510.06218) EgoNight: Towards Egocentric Vision Understanding at Night with a Challenging Benchmark. [![Code][b-code-3b434d-github]](https://github.com/dehezhang2/EgoNight) ![Perception baselines][b-perception-baselines-8fa399]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.07299) EgoPro-Bench: Benchmarking Personalized Proactive Interaction in Egocentric Video Streams. ![Readiness and response timing][b-readiness-and-response-timing-8fa399]
-- [![ECCV 2026][b-eccv-2026-355774]](https://arxiv.org/abs/2606.24422) EgoSAT: A Comprehensive Benchmark of Egocentric Streaming Interaction Understanding. ![Readiness and response timing][b-readiness-and-response-timing-8fa399]
-- [![CVPR 2026][b-cvpr-2026-355774]](https://arxiv.org/abs/2602.14122) EgoSound: Benchmarking Sound Understanding in Egocentric Videos. ![Perception baselines][b-perception-baselines-8fa399]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.06976) HealthLoopQA: A Context-Aware Question Answering Benchmark for Interpreting Wearable Monitoring Data in Diabetes Care. ![Perception baselines][b-perception-baselines-8fa399]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.27074) IPIBench: Evaluating Interactive Proactive Intelligence of MLLMs under Continuous Streams. ![Guidance from Memory and Action][b-guidance-from-memory-and-action-8fa399] ![M→S][b-m-to-s-607a6d] ![L2][b-l2-6b7785]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.03507) LongCounsel-8: A Benchmark Suite for Longitudinal Depression Tracking from Multi-Session Counseling Dialogues. ![Perception baselines][b-perception-baselines-8fa399]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.19564) Remember, Verify, or Ask? Evaluating Memory Decisions at Reuse Time. ![On-demand][b-on-demand-8fa399]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.05342) SentinelBench: A Benchmark for Long-Running Monitoring Agents. ![Guidance from Memory and Action][b-guidance-from-memory-and-action-8fa399] ![A→S][b-a-to-s-607a6d]
-- [![CVPR 2026][b-cvpr-2026-355774]](https://arxiv.org/abs/2603.08620) StreamReady: Learning What to Answer and When in Long Streaming Videos. ![Readiness and response timing][b-readiness-and-response-timing-8fa399]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.10875) VibeLifeBench: Can Your Life Agent Be Proactive and Persistent in a Living World? [![Code][b-code-3b434d-github]](https://github.com/evolvent-ai/VibeLifeBench) ![On-demand][b-on-demand-8fa399]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.05405) WearableQA: A Benchmark for Health Reasoning over Real-World Wearable Data. ![Perception baselines][b-perception-baselines-8fa399]
-- [![ICLR 2026][b-iclr-2026-355774]](https://arxiv.org/abs/2601.02391) WearVox: An Egocentric Multichannel Voice Assistant Benchmark for Wearables. ![Readiness and response timing][b-readiness-and-response-timing-8fa399]
-- [![ICML Workshop 2026][b-icml-workshop-2026-355774]](https://arxiv.org/abs/2603.17357) WebPII: Benchmarking Visual PII Detection for Computer-Use Agents. ![Perception baselines][b-perception-baselines-8fa399]
-- [![CVPR 2025][b-cvpr-2025-355774]](https://arxiv.org/abs/2503.03803) EgoLife: Towards Egocentric Life Assistant. [![Code][b-code-3b434d-github]](https://github.com/EvolvingLMMs-Lab/EgoLife) ![Continuous and triggered capture][b-continuous-and-triggered-capture-8fa399] ![L2][b-l2-6b7785]
-- [![TVCG 2025][b-tvcg-2025-355774]](https://arxiv.org/abs/2508.01915) EgoTrigger: Toward Audio-Driven Image Capture for Human Memory Enhancement in All-Day Energy-Efficient Smart Glasses.
-- [![NeurIPS 2025][b-neurips-2025-355774]](https://arxiv.org/abs/2510.14560) Eyes Wide Open: Ego Proactive Video-LLM for Streaming Video. ![Readiness and response timing][b-readiness-and-response-timing-8fa399]
-- [![ASRU 2025][b-asru-2025-355774]](https://arxiv.org/abs/2503.04721) Full-Duplex-Bench: A Benchmark to Evaluate Full-duplex Spoken Dialogue Models on Turn-taking Capabilities. ![Readiness and response timing][b-readiness-and-response-timing-8fa399]
-- [![CVPR 2025][b-cvpr-2025-355774]](https://arxiv.org/abs/2501.05510) OVO-Bench: How Far Is Your Video-LLM from Real-World Online Video Understanding? [![Code][b-code-3b434d-github]](https://github.com/JoeLeelyf/OVO-Bench) ![Readiness and response timing][b-readiness-and-response-timing-8fa399]
-- [![ACM MM 2025][b-acm-mm-2025-355774]](https://arxiv.org/abs/2504.07981) ScreenSpot-Pro: GUI Grounding for Professional High-Resolution Computer Use. [![Code][b-code-3b434d-github]](https://github.com/likaixin2000/ScreenSpot-Pro-GUI-Grounding) ![Perception baselines][b-perception-baselines-8fa399]
-- [![arXiv 2025][b-arxiv-2025-a1574a]](https://arxiv.org/abs/2510.23981) TeleEgo: Benchmarking Egocentric AI Assistants in the Wild. [![Code][b-code-3b434d-github]](https://github.com/TeleAI-UAGI/TeleEgo) ![Readiness and response timing][b-readiness-and-response-timing-8fa399]
-- [![NeurIPS D&amp;B 2025][b-neurips-d-b-2025-355774]](https://arxiv.org/abs/2511.22154) WearVQA: A Visual Question Answering Benchmark for Wearables in Egocentric Authentic Real-world scenarios. ![Perception baselines][b-perception-baselines-8fa399]
-- [![arXiv 2024][b-arxiv-2024-a1574a]](https://arxiv.org/abs/2406.08085) Flash-VStream: Memory-Based Real-Time Understanding for Long Video Streams. [![Project][b-project-3b434d]](https://invinciblewyq.github.io/vstream-page/) ![Continuous and triggered capture][b-continuous-and-triggered-capture-8fa399]
-- [![NeurIPS 2024][b-neurips-2024-355774]](https://arxiv.org/abs/2411.01122) OnlineTAS: An Online Baseline for Temporal Action Segmentation.
-- [![ICLR 2024][b-iclr-2024-355774]](https://arxiv.org/abs/2307.13854) WebArena: A Realistic Web Environment for Building Autonomous Agents. [![Code][b-code-3b434d-github]](https://github.com/web-arena-x/webarena)
-- [![CVPR 2022][b-cvpr-2022-355774]](https://arxiv.org/abs/2110.07058) Ego4D: Around the World in 3,000 Hours of Egocentric Video. [![Data][b-data-3b434d]](https://ego4d-data.org/) ![Perception baselines][b-perception-baselines-8fa399]
-- [![ICCV 2021][b-iccv-2021-355774]](https://arxiv.org/abs/2101.10511) Generic Event Boundary Detection: A Benchmark for Event Segmentation. ![Perception baselines][b-perception-baselines-8fa399]
-- [![Odyssey 2020][b-odyssey-2020-355774]](https://arxiv.org/abs/1908.04284) Personal VAD: Speaker-Conditioned Voice Activity Detection. ![M→S][b-m-to-s-607a6d]
-- [![IEEE Pervasive 2017][b-ieee-pervasive-2017-355774]](https://doi.org/10.1109/MPRV.2017.3971131) Recognizing Detailed Human Context In-the-Wild from Smartphones and Smartwatches. ![Perception baselines][b-perception-baselines-8fa399]
-- [![CHI 1999][b-chi-1999-355774]](https://www.microsoft.com/en-us/research/publication/principles-mixed-initiative-user-interfaces/) Principles of mixed-initiative user interfaces.
+##### Perception baselines: supplied input
+
+- BALMS: Benchmarking Agentic LLMs for Longitudinal Mental Health Sensing. [![EMNLP 2026][b-emnlp-2026-355774]](https://arxiv.org/abs/2608.27219)
+- EgoCross: Benchmarking Multimodal Large Language Models for Cross-Domain Egocentric Video Question Answering. [![AAAI 2026][b-aaai-2026-355774]](https://doi.org/10.1609/aaai.v40i8.37589)
+- EgoNight: Towards Egocentric Vision Understanding at Night with a Challenging Benchmark. [![ICLR 2026][b-iclr-2026-355774]](https://arxiv.org/abs/2510.06218) [![Code][b-code-3b434d-github]](https://github.com/dehezhang2/EgoNight)
+- EgoSAT: A Comprehensive Benchmark of Egocentric Streaming Interaction Understanding. [![ECCV 2026][b-eccv-2026-355774]](https://arxiv.org/abs/2606.24422)
+- EgoSound: Benchmarking Sound Understanding in Egocentric Videos. [![CVPR 2026][b-cvpr-2026-355774]](https://arxiv.org/abs/2602.14122)
+- HealthLoopQA: A Context-Aware Question Answering Benchmark for Interpreting Wearable Monitoring Data in Diabetes Care. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.06976)
+- LongCounsel-8: A Benchmark Suite for Longitudinal Depression Tracking from Multi-Session Counseling Dialogues. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.03507)
+- WearableQA: A Benchmark for Health Reasoning over Real-World Wearable Data. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.05405)
+- WebPII: Benchmarking Visual PII Detection for Computer-Use Agents. [![ICML Workshop 2026][b-icml-workshop-2026-355774]](https://arxiv.org/abs/2603.17357)
+- OVO-Bench: How Far Is Your Video-LLM from Real-World Online Video Understanding? [![CVPR 2025][b-cvpr-2025-355774]](https://arxiv.org/abs/2501.05510) [![Code][b-code-3b434d-github]](https://github.com/JoeLeelyf/OVO-Bench)
+- ScreenSpot-Pro: GUI Grounding for Professional High-Resolution Computer Use. [![ACM MM 2025][b-acm-mm-2025-355774]](https://arxiv.org/abs/2504.07981) [![Code][b-code-3b434d-github]](https://github.com/likaixin2000/ScreenSpot-Pro-GUI-Grounding)
+- WearVQA: A Visual Question Answering Benchmark for Wearables in Egocentric Authentic Real-world scenarios. [![NeurIPS D&amp;B 2025][b-neurips-d-b-2025-355774]](https://arxiv.org/abs/2511.22154)
+- Ego4D: Around the World in 3,000 Hours of Egocentric Video. [![CVPR 2022][b-cvpr-2022-355774]](https://arxiv.org/abs/2110.07058) [![Data][b-data-3b434d]](https://ego4d-data.org/)
+- Recognizing Detailed Human Context In-the-Wild from Smartphones and Smartwatches. [![IEEE Pervasive 2017][b-ieee-pervasive-2017-355774]](https://doi.org/10.1109/MPRV.2017.3971131)
+
+##### Continuous and triggered capture: coverage and cost
+
+- Ego-METAS: Egocentric online Multimodal Energy-efficient Temporal Action Segmentation benchmark. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.02246)
+- EgoLife: Towards Egocentric Life Assistant. [![CVPR 2025][b-cvpr-2025-355774]](https://arxiv.org/abs/2503.03803) [![Code][b-code-3b434d-github]](https://github.com/EvolvingLMMs-Lab/EgoLife) ![L2][b-l2-6b7785]
+- EgoTrigger: Toward Audio-Driven Image Capture for Human Memory Enhancement in All-Day Energy-Efficient Smart Glasses. [![TVCG 2025][b-tvcg-2025-355774]](https://arxiv.org/abs/2508.01915)
+
+##### Organizing supplied streams
+
+- A Simple Baseline for Streaming Video Understanding. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2604.02317) [![Code][b-code-3b434d-github]](https://github.com/EvolvingLMMs-Lab/SimpleStream)
+- Flash-VStream: Memory-Based Real-Time Understanding for Long Video Streams. [![arXiv 2024][b-arxiv-2024-a1574a]](https://arxiv.org/abs/2406.08085) [![Project][b-project-3b434d]](https://invinciblewyq.github.io/vstream-page/)
+- OnlineTAS: An Online Baseline for Temporal Action Segmentation. [![NeurIPS 2024][b-neurips-2024-355774]](https://arxiv.org/abs/2411.01122)
+- Generic Event Boundary Detection: A Benchmark for Event Segmentation. [![ICCV 2021][b-iccv-2021-355774]](https://arxiv.org/abs/2101.10511)
+
+##### Readiness and response timing
+
+- AskStream: When and What to Ask Proactively under Uncertainty in Streaming Video Understanding. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.38678) [![Code][b-code-3b434d-github]](https://github.com/wanglu-cs/AskStream) ![S→A][b-s-to-a-556b88]
+- ECG-Scroll: A Long-Horizon, Streaming Benchmark and Agent Environment for Interpretation of Ambulatory Electrocardiograms. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.33117)
+- EgoPro-Bench: Benchmarking Personalized Proactive Interaction in Egocentric Video Streams. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.07299)
+- StreamReady: Learning What to Answer and When in Long Streaming Videos. [![CVPR 2026][b-cvpr-2026-355774]](https://arxiv.org/abs/2603.08620)
+- WearVox: An Egocentric Multichannel Voice Assistant Benchmark for Wearables. [![ICLR 2026][b-iclr-2026-355774]](https://arxiv.org/abs/2601.02391)
+- Eyes Wide Open: Ego Proactive Video-LLM for Streaming Video. [![NeurIPS 2025][b-neurips-2025-355774]](https://arxiv.org/abs/2510.14560)
+- Full-Duplex-Bench: A Benchmark to Evaluate Full-duplex Spoken Dialogue Models on Turn-taking Capabilities. [![ASRU 2025][b-asru-2025-355774]](https://arxiv.org/abs/2503.04721)
+- TeleEgo: Benchmarking Egocentric AI Assistants in the Wild. [![arXiv 2025][b-arxiv-2025-a1574a]](https://arxiv.org/abs/2510.23981) [![Code][b-code-3b434d-github]](https://github.com/TeleAI-UAGI/TeleEgo)
+
+##### On-demand: checking again
+
+- Remember, Verify, or Ask? Evaluating Memory Decisions at Reuse Time. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.19564)
+- VibeLifeBench: Can Your Life Agent Be Proactive and Persistent in a Living World? [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.10875) [![Code][b-code-3b434d-github]](https://github.com/evolvent-ai/VibeLifeBench)
+
+##### Guidance from Memory and Action
+
+- IPIBench: Evaluating Interactive Proactive Intelligence of MLLMs under Continuous Streams. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.27074) ![M→S][b-m-to-s-607a6d] ![L2][b-l2-6b7785]
+- SentinelBench: A Benchmark for Long-Running Monitoring Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.05342) ![A→S][b-a-to-s-607a6d]
+- Personal VAD: Speaker-Conditioned Voice Activity Detection. [![Odyssey 2020][b-odyssey-2020-355774]](https://arxiv.org/abs/1908.04284) ![M→S][b-m-to-s-607a6d]
 
 ---
 
 <a id="sec-4"></a>
 ## <img src="assets/icons/memory.svg" height="30" align="top" alt=""/> Memory
 
-Memory retains information for later service and supplies it when a decision needs it or a commitment falls due.
+Memory keeps what the assistant learns about the user and hands it back when a decision needs it or a commitment falls due.
 
 <a id="sec-4-1"></a>
 ### Memory Space
 
-- [![TACL 2024][b-tacl-2024-355774]](https://arxiv.org/abs/2307.03172) Lost in the Middle: How Language Models Use Long Contexts. [![Code][b-code-3b434d-github]](https://github.com/nelson-liu/lost-in-the-middle)
-- [![arXiv 2024][b-arxiv-2024-a1574a]](https://arxiv.org/abs/2404.06654) RULER: What's the Real Context Size of Your Long-Context Language Models? [![Code][b-code-3b434d-github]](https://github.com/hsiehjackson/ruler)
+- Lost in the Middle: How Language Models Use Long Contexts. [![TACL 2024][b-tacl-2024-355774]](https://arxiv.org/abs/2307.03172) [![Code][b-code-3b434d-github]](https://github.com/nelson-liu/lost-in-the-middle)
+- RULER: What's the Real Context Size of Your Long-Context Language Models? [![arXiv 2024][b-arxiv-2024-a1574a]](https://arxiv.org/abs/2404.06654) [![Code][b-code-3b434d-github]](https://github.com/hsiehjackson/ruler)
 
 <a id="sec-4-1-1"></a>
 #### What Persists: Past, Present, and Future
 
-- [![CVPR 2026][b-cvpr-2026-355774]](https://arxiv.org/abs/2604.13074) PersonaVLM: Long-Term Personalized Multimodal LLMs. [![Code][b-code-3b434d-github]](https://github.com/MiG-NJU/PersonaVLM) ![Profile][b-profile-bb9188]
-- [![arXiv 2025][b-arxiv-2025-a1574a]](https://arxiv.org/abs/2504.19413) Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory. [![Code][b-code-3b434d-github]](https://github.com/mem0ai/mem0) ![Profile][b-profile-bb9188]
-- [![arXiv 2025][b-arxiv-2025-a1574a]](https://arxiv.org/abs/2511.13593) O-Mem: Omni Memory System for Personalized, Long Horizon, Self-Evolving Agents. ![Profile][b-profile-bb9188] ![M→A][b-m-to-a-556b88]
-- [![PACLIC 2025][b-paclic-2025-355774]](https://arxiv.org/abs/2501.02157) Personalized Graph-Based Retrieval for Large Language Models. [![Code][b-code-3b434d-github]](https://github.com/pgraphrag-benchmark/pgr-llm) ![Profile][b-profile-bb9188]
+- PersonaVLM: Long-Term Personalized Multimodal LLMs. [![CVPR 2026][b-cvpr-2026-355774]](https://arxiv.org/abs/2604.13074) [![Code][b-code-3b434d-github]](https://github.com/MiG-NJU/PersonaVLM)
+- Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory. [![arXiv 2025][b-arxiv-2025-a1574a]](https://arxiv.org/abs/2504.19413) [![Code][b-code-3b434d-github]](https://github.com/mem0ai/mem0)
+- O-Mem: Omni Memory System for Personalized, Long Horizon, Self-Evolving Agents. [![arXiv 2025][b-arxiv-2025-a1574a]](https://arxiv.org/abs/2511.13593) ![M→A][b-m-to-a-556b88]
+- Personalized Graph-Based Retrieval for Large Language Models. [![PACLIC 2025][b-paclic-2025-355774]](https://arxiv.org/abs/2501.02157) [![Code][b-code-3b434d-github]](https://github.com/pgraphrag-benchmark/pgr-llm)
 
 <a id="sec-4-1-2"></a>
 #### Representations and Storage
 
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.29606) Agent Zero Memory: Provenance-Aware Long-Term Memory for LLM Agents.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.17534) ArborMem: Navigating Interaction States with Memory Forests.
-- [![EMNLP 2026][b-emnlp-2026-355774]](https://arxiv.org/abs/2609.08550) CreaMem: A Scene-Aware Memory Architecture for Personalized Agents.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.18461) Disentangling Long-Term Memory via Latent Neuro-Symbolic Reasoning. ![M→A][b-m-to-a-556b88]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.11776) DPPM: Dual-Path Parametric Memory for Personalized Language Models.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.37443) ETAMem: Decoupling and Aligning Heterogeneous Memory for Long-Term Conversational Agents.
-- [![NeurIPS 2026][b-neurips-2026-355774]](https://arxiv.org/abs/2608.15008) Harness the Memory: A Holistic Evaluation of Memory Substrates in Memory Agents.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.10071) HGP:An on-device personalized agent memory via hybrid graph storage. [![Code][b-code-3b434d-github]](https://github.com/Ouan6/HGP-)
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.23890) Latent Multimodal Memory Reasoning. ![M→A][b-m-to-a-556b88]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.36435) MemFold: Learning Compact Soft Memory for Long-Context Personalization via On-Policy Optimization. ![M→A][b-m-to-a-556b88]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.26760) Metis: Memory Foundation Model. [![Code][b-code-3b434d-github]](https://github.com/MemTensor/Metis)
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.31255) PIA: A Personal Intelligence Agent Turning Health Conversations into Records and Records into Understanding. ![M→A][b-m-to-a-556b88]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.32564) ProTTT: Learning to Learn Semantic User Memory with Test-Time Training.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2611.02612) Scalaris: A Scalable Enterprise Memory Architecture for Conversational AI Assistants.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.08055) SodaMem: Evidence-Grounded Temporal Graph Memory for LLM Agents. [![Code][b-code-3b434d-github]](https://github.com/SodaMem/SodaMem)
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.17010) ThinkFlow: Self-Evolving Probabilistic Latent Memory for Lifelong Conversational Agents.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.14958) What Survives When Activation Steering Is Used as Memory. [![Code][b-code-3b434d-github]](https://github.com/vedant-jumle/Seahorse)
-- [![arXiv 2025][b-arxiv-2025-a1574a]](https://arxiv.org/abs/2507.03724) MemOS: A Memory OS for AI System. [![Code][b-code-3b434d-github]](https://github.com/MemTensor/MemOS)
-- [![TMLR 2024][b-tmlr-2024-355774]](https://arxiv.org/abs/2305.16291) Voyager: An Open-Ended Embodied Agent with Large Language Models. [![Code][b-code-3b434d-github]](https://github.com/MineDojo/Voyager)
+##### Structured records and embeddings
+
+- Agent Zero Memory: Provenance-Aware Long-Term Memory for LLM Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.29606)
+- ArborMem: Navigating Interaction States with Memory Forests. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.17534)
+- CreaMem: A Scene-Aware Memory Architecture for Personalized Agents. [![EMNLP 2026][b-emnlp-2026-355774]](https://arxiv.org/abs/2609.08550)
+- Disentangling Long-Term Memory via Latent Neuro-Symbolic Reasoning. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.18461) ![M→A][b-m-to-a-556b88]
+- ETAMem: Decoupling and Aligning Heterogeneous Memory for Long-Term Conversational Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.37443)
+- HGP:An on-device personalized agent memory via hybrid graph storage. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.10071) [![Code][b-code-3b434d-github]](https://github.com/Ouan6/HGP-)
+- Latent Multimodal Memory Reasoning. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.23890) ![M→A][b-m-to-a-556b88]
+- PIA: A Personal Intelligence Agent Turning Health Conversations into Records and Records into Understanding. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.31255) ![M→A][b-m-to-a-556b88]
+- Scalaris: A Scalable Enterprise Memory Architecture for Conversational AI Assistants. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2611.02612)
+- SodaMem: Evidence-Grounded Temporal Graph Memory for LLM Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.08055) [![Code][b-code-3b434d-github]](https://github.com/SodaMem/SodaMem)
+
+##### Code and dense state
+
+- MemFold: Learning Compact Soft Memory for Long-Context Personalization via On-Policy Optimization. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.36435) ![M→A][b-m-to-a-556b88]
+- Metis: Memory Foundation Model. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.26760) [![Code][b-code-3b434d-github]](https://github.com/MemTensor/Metis)
+- ThinkFlow: Self-Evolving Probabilistic Latent Memory for Lifelong Conversational Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.17010)
+- What Survives When Activation Steering Is Used as Memory. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.14958) [![Code][b-code-3b434d-github]](https://github.com/vedant-jumle/Seahorse)
+- Voyager: An Open-Ended Embodied Agent with Large Language Models. [![TMLR 2024][b-tmlr-2024-355774]](https://arxiv.org/abs/2305.16291) [![Code][b-code-3b434d-github]](https://github.com/MineDojo/Voyager)
+
+##### Parametric memory
+
+- DPPM: Dual-Path Parametric Memory for Personalized Language Models. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.11776)
+- ProTTT: Learning to Learn Semantic User Memory with Test-Time Training. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.32564)
+
+##### The choice of a storage architecture
+
+- Harness the Memory: A Holistic Evaluation of Memory Substrates in Memory Agents. [![NeurIPS 2026][b-neurips-2026-355774]](https://arxiv.org/abs/2608.15008)
+- MemOS: A Memory OS for AI System. [![arXiv 2025][b-arxiv-2025-a1574a]](https://arxiv.org/abs/2507.03724) [![Code][b-code-3b434d-github]](https://github.com/MemTensor/MemOS)
 
 <a id="sec-4-2"></a>
-### Operating Conditions for Memory
+### Shared Conditions for Memory
 
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.12320) AIM: A Privacy-Aware Interoperable Memory Framework for Multi-Agent Multi-User LLM Systems.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.36373) Audience-Bound Persistent Memory: Authorization Across the Memory Lifecycle.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.24359) Can Agents Keep Secrets They Were Never Told? Benchmarking Latent Privacy Risks Across Sessions with MemJoin.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.33623) Characterizing Memory Misalignment in Human-LLM Interaction From User Perspectives.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.28315) Disclosure Begets Disclosure: A Self-Reinforcing Privacy Loop in LLM Agents with Persistent Memory. ![M→A][b-m-to-a-556b88] ![A→M][b-a-to-m-9d675d]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.03130) DP-MemView: A Memory Interface for Attribute-Level Transcript Privacy in Long-Term LLM Agents.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.35233) EP-Mem: Elastic Privacy Memory for Social Relationship-Aware LLM Agents.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2611.00650) Heirloom: Carrying a Phone's Personalization Across Base-Model Generations.
-- [![NeurIPS 2026][b-neurips-2026-355774]](https://arxiv.org/abs/2610.04195) MemLeak: Cross-User Semantic Leakage in Multi-Tenant AI Agent Memory.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.22061) MEMORY Wins All: Indirect Bias Injection Attacks via Social Media Content. ![S→M][b-s-to-m-9d675d] ![M→A][b-m-to-a-556b88]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.35576) Share-Borne AI Virus: Memory-Hopping Attacks Across LLM Agents. [![Code][b-code-3b434d-github]](https://github.com/psidharth567/Share-Borne-Virus)
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.14697) Vulnerabilities in Personalization: Assessing Health Privacy Risks in ChatGPT Logs and Memory.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.03700) When Agents Learn to Be You: Benchmarking Privacy Leakage, Impersonation Risk, and Defenses in Persona Skills.
+#### What is the assistant allowed to keep, and for how long?
+
+- AIM: A Privacy-Aware Interoperable Memory Framework for Multi-Agent Multi-User LLM Systems. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.12320)
+- Audience-Bound Persistent Memory: Authorization Across the Memory Lifecycle. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.36373)
+- Can Agents Keep Secrets They Were Never Told? Benchmarking Latent Privacy Risks Across Sessions with MemJoin. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.24359)
+- Characterizing Memory Misalignment in Human-LLM Interaction From User Perspectives. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.33623)
+- Disclosure Begets Disclosure: A Self-Reinforcing Privacy Loop in LLM Agents with Persistent Memory. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.28315) ![M→A][b-m-to-a-556b88] ![A→M][b-a-to-m-9d675d]
+- DP-MemView: A Memory Interface for Attribute-Level Transcript Privacy in Long-Term LLM Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.03130)
+- EP-Mem: Elastic Privacy Memory for Social Relationship-Aware LLM Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.35233)
+- MemLeak: Cross-User Semantic Leakage in Multi-Tenant AI Agent Memory. [![NeurIPS 2026][b-neurips-2026-355774]](https://arxiv.org/abs/2610.04195)
+- MEMORY Wins All: Indirect Bias Injection Attacks via Social Media Content. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.22061) ![S→M][b-s-to-m-9d675d] ![M→A][b-m-to-a-556b88]
+- Share-Borne AI Virus: Memory-Hopping Attacks Across LLM Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.35576) [![Code][b-code-3b434d-github]](https://github.com/psidharth567/Share-Borne-Virus)
+- Vulnerabilities in Personalization: Assessing Health Privacy Risks in ChatGPT Logs and Memory. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.14697)
+- When Agents Learn to Be You: Benchmarking Privacy Leakage, Impersonation Risk, and Defenses in Persona Skills. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.03700)
+
+#### Can the store be reached when it is needed?
+
+- Heirloom: Carrying a Phone's Personalization Across Base-Model Generations. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2611.00650)
 
 <a id="sec-4-3"></a>
 ### Memory Policy
@@ -350,114 +411,131 @@ Memory retains information for later service and supplies it when a decision nee
 <a id="sec-4-3-1"></a>
 #### What to Store and in What Form: Admission and Encoding
 
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.21144) AdaMem: Learning What to Remember with Adaptive Memory Policies for Personalized Agents. [![Code][b-code-3b434d-github]](https://github.com/galaxyChen/AdaMem) ![S→M][b-s-to-m-9d675d]
-- [![NeurIPS Workshop 2026][b-neurips-workshop-2026-355774]](https://arxiv.org/abs/2610.07707) AgentMemGate: Addressing Speculation Contamination in Conversational Assistant Memory.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.36976) AMU:Admission and Memory Update for Personalized Conversations---Structured Memory with SLM Guided Control. [![Code][b-code-3b434d-github]](https://github.com/UnicusT11/AMU-memory)
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.33432) ConMem: Counterfactual Multi-Scenario Probing for Resolving LLM Memory Misalignment. ![M→A][b-m-to-a-556b88]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.16303) FTA-Mem: Fact-Time-Affect Anchored Memory for Low-Density Long-Term Dialogue.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.11270) Gated Memory: Admission-Controlled Memory Formation for Conversational AI.
-- [![NeurIPS Workshop 2026][b-neurips-workshop-2026-355774]](https://arxiv.org/abs/2610.02897) Interpreting at Write Time: A Policy Ablation for Multi-Goal Agent Memory.
-- [![ICLR 2026][b-iclr-2026-355774]](https://arxiv.org/abs/2506.15841) MEM1: Learning to Synergize Memory and Reasoning for Efficient Long-Horizon Agents.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2604.04853) MemMachine: A Ground-Truth-Preserving Memory System for Personalized AI Agents.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.33015) SLICE-Mem: Salience-Gated Lightweight Information Curation for Efficient LLM Agent Memory.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.27607) What should AI forget? A design and taxonomy for negative space governance in AI memory.
-- [![UIST 2023][b-uist-2023-355774]](https://arxiv.org/abs/2304.03442) Generative Agents: Interactive Simulacra of Human Behavior.
+##### Admission
+
+- AdaMem: Learning What to Remember with Adaptive Memory Policies for Personalized Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.21144) [![Code][b-code-3b434d-github]](https://github.com/galaxyChen/AdaMem) ![S→M][b-s-to-m-9d675d]
+- AgentMemGate: Addressing Speculation Contamination in Conversational Assistant Memory. [![NeurIPS Workshop 2026][b-neurips-workshop-2026-355774]](https://arxiv.org/abs/2610.07707)
+- AMU:Admission and Memory Update for Personalized Conversations---Structured Memory with SLM Guided Control. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.36976) [![Code][b-code-3b434d-github]](https://github.com/UnicusT11/AMU-memory)
+- ConMem: Counterfactual Multi-Scenario Probing for Resolving LLM Memory Misalignment. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.33432) ![M→A][b-m-to-a-556b88]
+- Gated Memory: Admission-Controlled Memory Formation for Conversational AI. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.11270)
+- SLICE-Mem: Salience-Gated Lightweight Information Curation for Efficient LLM Agent Memory. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.33015)
+- What should AI forget? A design and taxonomy for negative space governance in AI memory. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.27607)
+- When Routine Chats Turn Toxic: Unintended Long-Term State Poisoning in Personalized Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.06731)
+
+##### Encoding
+
+- FTA-Mem: Fact-Time-Affect Anchored Memory for Low-Density Long-Term Dialogue. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.16303)
+- Interpreting at Write Time: A Policy Ablation for Multi-Goal Agent Memory. [![NeurIPS Workshop 2026][b-neurips-workshop-2026-355774]](https://arxiv.org/abs/2610.02897)
+- MEM1: Learning to Synergize Memory and Reasoning for Efficient Long-Horizon Agents. [![ICLR 2026][b-iclr-2026-355774]](https://arxiv.org/abs/2506.15841)
+- MemMachine: A Ground-Truth-Preserving Memory System for Personalized AI Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2604.04853)
+- Generative Agents: Interactive Simulacra of Human Behavior. [![UIST 2023][b-uist-2023-355774]](https://arxiv.org/abs/2304.03442)
 
 <a id="sec-4-3-2"></a>
 #### How State Remains Reachable: Indexing and Identity
 
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.16211) Accurate and Efficient Long-Term Memory for LLM Agents.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.08566) BIO-MEMART: Biometric-Aware KV Cache Memory for Multi-User LLM Agents.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.27279) EnSIMem: Entity-Structured Indexing for Long-Term Agent Memory. [![Code][b-code-3b434d-github]](https://github.com/RamonMeng/EnSIMem)
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.36713) From Voiceprints to User Entities: Online Speaker-Memory Construction for Multi-User Spoken Agents. ![S→M][b-s-to-m-9d675d]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.05526) Have I Scene This Before? Spatially Grounded Conversational Memory for Complex Queries in Egocentric Assistants. ![S→M][b-s-to-m-9d675d] ![M→A][b-m-to-a-556b88]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.10677) Infini Memory: Maintainable Topic Documents for Long-Term LLM Agent Memory. ![S→M][b-s-to-m-9d675d]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.38209) Is it my preference? Role Grounding Attack against Agent's Memory via Social Interaction. ![S→M][b-s-to-m-9d675d] ![M→A][b-m-to-a-556b88]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.07725) PERSIST: Who-What-When Memory Across Sessions for Full-Duplex Spoken Dialogue.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.08558) Personalizing LLM Agent Memory Using Biometrics.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.22844) RaMem: Contextual Reinstatement for Long-term Agentic Memory.
-- [![NeurIPS 2025][b-neurips-2025-355774]](https://arxiv.org/abs/2502.12110) A-MEM: Agentic Memory for LLM Agents. [![Code][b-code-3b434d-github]](https://github.com/WujiangXu/A-mem)
-- [![arXiv 2025][b-arxiv-2025-a1574a]](https://arxiv.org/abs/2501.13956) Zep: A Temporal Knowledge Graph Architecture for Agent Memory. [![Code][b-code-3b434d-github]](https://github.com/getzep/graphiti)
+- Accurate and Efficient Long-Term Memory for LLM Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.16211)
+- BIO-MEMART: Biometric-Aware KV Cache Memory for Multi-User LLM Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.08566)
+- EnSIMem: Entity-Structured Indexing for Long-Term Agent Memory. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.27279) [![Code][b-code-3b434d-github]](https://github.com/RamonMeng/EnSIMem)
+- From Voiceprints to User Entities: Online Speaker-Memory Construction for Multi-User Spoken Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.36713) ![S→M][b-s-to-m-9d675d]
+- Have I Scene This Before? Spatially Grounded Conversational Memory for Complex Queries in Egocentric Assistants. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.05526) ![S→M][b-s-to-m-9d675d] ![M→A][b-m-to-a-556b88]
+- Infini Memory: Maintainable Topic Documents for Long-Term LLM Agent Memory. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.10677) ![S→M][b-s-to-m-9d675d]
+- Is it my preference? Role Grounding Attack against Agent's Memory via Social Interaction. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.38209) ![S→M][b-s-to-m-9d675d] ![M→A][b-m-to-a-556b88]
+- PERSIST: Who-What-When Memory Across Sessions for Full-Duplex Spoken Dialogue. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.07725)
+- Personalizing LLM Agent Memory Using Biometrics. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.08558)
+- RaMem: Contextual Reinstatement for Long-term Agentic Memory. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.22844)
+- A-MEM: Agentic Memory for LLM Agents. [![NeurIPS 2025][b-neurips-2025-355774]](https://arxiv.org/abs/2502.12110) [![Code][b-code-3b434d-github]](https://github.com/WujiangXu/A-mem)
+- Zep: A Temporal Knowledge Graph Architecture for Agent Memory. [![arXiv 2025][b-arxiv-2025-a1574a]](https://arxiv.org/abs/2501.13956) [![Code][b-code-3b434d-github]](https://github.com/getzep/graphiti)
 
 <a id="sec-4-3-3"></a>
 #### What Is Exposed Now: Retrieval and Delivery
 
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.34673) Agent Memory as Recommendation: Recommender-System Design for Long-Term Memory of LLM Agents.
-- [![EMNLP 2026][b-emnlp-2026-355774]](https://arxiv.org/abs/2610.02472) APDMem: Agent-Controlled Progressive Disclosure for Query-Adaptive Long-Term Memory.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2611.02480) Chain on Demand: Deferred Evidence Organization for Long-Term Conversational Memory. [![Code][b-code-3b434d-github]](https://github.com/Renkiroo/chainondemand)
-- [![ACL 2026][b-acl-2026-355774]](https://arxiv.org/abs/2601.05107) Controllable Memory Usage: Balancing Anchoring and Innovation in Long-Term Human-Agent Interaction. ![M→A][b-m-to-a-556b88]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.07403) Defense-in-Depth for LLMs: Evaluating Memory Gates Against Activation-Induced and Memory-Induced Sycophancy.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.14952) Do Personalized LLMs Need the Whole Conversation? Matching the Full History with Only 5% of Its Text via Relevance-Filtered Context.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.33274) FlexA-Mem: Budget-Adaptive Agentic Memory for LLM Agents. [![Code][b-code-3b434d-github]](https://github.com/WujiangXu/Flex-Amem)
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.22310) HERO: Human-profile Enhanced Retrieval Optimization Framework for Long-term Agent Memory.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.27090) InferScale: GPU-Native KV Injection for Personalized LLM Serving.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.41521) KITE: Retrieval as a Decision Procedure for Long-Term Conversational Memory. [![Code][b-code-3b434d-github]](https://github.com/memoket/memoket-kite)
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.32511) Learning from Others, Acting for You: Cross-User Memory Sharing for LLM Agents. ![M→A][b-m-to-a-556b88]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.27809) LINE Conversation History Retrieval for Personal Memory RAG: Evaluating Search Representations and Hybrid Retrieval.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.01118) Madeleine: Learning Involuntary Recall for Conversational Memory from Simulated Lives.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.05162) Memadapter: Counterfactual Adaptation Against Memory-induced Sycophancy. [![Code][b-code-3b434d-github]](https://github.com/DEEP-JLU/MemAdapter)
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.22091) Memory That Looks Forward: A Zero-Inference Prospective Term for Personal Memory Retrieval. [![Code][b-code-3b434d-github]](https://github.com/Groffitti/memory-that-looks-forward) ![M→A][b-m-to-a-556b88]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.08300) Mitigating Over-Personalization in LLMs via Structured Memory.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.24190) Not Forgotten: Implementation and Evaluation of a Personalized Episodic Memory for the Humanoid Robot Head Kim. ![M→A][b-m-to-a-556b88]
-- [![EMNLP 2026][b-emnlp-2026-355774]](https://arxiv.org/abs/2601.13722) OP-Bench: Benchmarking Over-Personalization for Memory-Augmented Personalized Conversational Agents. ![M→A][b-m-to-a-556b88]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.34284) Over-Personalization Is a Decision Failure: Generation-Induced Apply Bias in LLMs. ![M→A][b-m-to-a-556b88]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.16168) QUMem: Personalized Memory for Query-Conditioned User-State Inference in LLM Agents.
-- [![SIGIR Workshop 2026][b-sigir-workshop-2026-355774]](https://arxiv.org/abs/2610.17673) RALI@iKAT 2026: Retrieval-aware User Profile Denoising via Personalized Conversational Dense Retrieval.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.09348) Relevance Is Not Sufficiency: What Actually Closes the Evidence Gap in Long-Term Memory QA. [![Code][b-code-3b434d-github]](https://github.com/LYF199903/BFR-An-Agent-Memory-Framework-for-Evidence-Reconstruction)
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.07164) Rethinking Experience Utilization in Self-Evolving Language Model Agents.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.31284) Retrieval-Augmented Online Textual Memory for Episodic Memory Video Question Answering. ![S→M][b-s-to-m-9d675d]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.12874) Temporal Evidence Forests for Long-Horizon Multi-Party Conversational Memory.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.10608) The Compliance Trap: Diagnosing How AI Agents Consume Conflicting Memory.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.36918) TrawMem: Reframing Agent Memory as Task-Oriented Role-Adaptive Workspaces.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.26005) VoiceMem: Streaming Dual-Brain Memory for Real-Time Interaction. [![Code][b-code-3b434d-github]](https://github.com/xzf-thu/VoiceMem)
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2611.00779) Who Schedules Agent Memory? A Sidecar Approach to Long-Horizon Tasks. ![M→A][b-m-to-a-556b88]
-- [![arXiv 2025][b-arxiv-2025-a1574a]](https://arxiv.org/abs/2511.18423) General Agentic Memory Via Deep Research. [![Code][b-code-3b434d-github]](https://github.com/VectorSpaceLab/general-agentic-memory)
+##### Retrieval
+
+- Agent Memory as Recommendation: Recommender-System Design for Long-Term Memory of LLM Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.34673)
+- APDMem: Agent-Controlled Progressive Disclosure for Query-Adaptive Long-Term Memory. [![EMNLP 2026][b-emnlp-2026-355774]](https://arxiv.org/abs/2610.02472)
+- Chain on Demand: Deferred Evidence Organization for Long-Term Conversational Memory. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2611.02480) [![Code][b-code-3b434d-github]](https://github.com/Renkiroo/chainondemand)
+- Controllable Memory Usage: Balancing Anchoring and Innovation in Long-Term Human-Agent Interaction. [![ACL 2026][b-acl-2026-355774]](https://arxiv.org/abs/2601.05107) ![M→A][b-m-to-a-556b88]
+- Defense-in-Depth for LLMs: Evaluating Memory Gates Against Activation-Induced and Memory-Induced Sycophancy. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.07403)
+- Do Personalized LLMs Need the Whole Conversation? Matching the Full History with Only 5% of Its Text via Relevance-Filtered Context. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.14952)
+- FlexA-Mem: Budget-Adaptive Agentic Memory for LLM Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.33274) [![Code][b-code-3b434d-github]](https://github.com/WujiangXu/Flex-Amem)
+- HERO: Human-profile Enhanced Retrieval Optimization Framework for Long-term Agent Memory. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.22310)
+- InferScale: GPU-Native KV Injection for Personalized LLM Serving. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.27090)
+- KITE: Retrieval as a Decision Procedure for Long-Term Conversational Memory. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.41521) [![Code][b-code-3b434d-github]](https://github.com/memoket/memoket-kite)
+- Learning from Others, Acting for You: Cross-User Memory Sharing for LLM Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.32511) ![M→A][b-m-to-a-556b88]
+- LINE Conversation History Retrieval for Personal Memory RAG: Evaluating Search Representations and Hybrid Retrieval. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.27809)
+- Madeleine: Learning Involuntary Recall for Conversational Memory from Simulated Lives. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.01118)
+- Memadapter: Counterfactual Adaptation Against Memory-induced Sycophancy. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.05162) [![Code][b-code-3b434d-github]](https://github.com/DEEP-JLU/MemAdapter)
+- Mitigating Over-Personalization in LLMs via Structured Memory. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.08300)
+- Not Forgotten: Implementation and Evaluation of a Personalized Episodic Memory for the Humanoid Robot Head Kim. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.24190) ![M→A][b-m-to-a-556b88]
+- OP-Bench: Benchmarking Over-Personalization for Memory-Augmented Personalized Conversational Agents. [![EMNLP 2026][b-emnlp-2026-355774]](https://arxiv.org/abs/2601.13722) ![M→A][b-m-to-a-556b88]
+- Over-Personalization Is a Decision Failure: Generation-Induced Apply Bias in LLMs. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.34284) ![M→A][b-m-to-a-556b88]
+- QUMem: Personalized Memory for Query-Conditioned User-State Inference in LLM Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.16168)
+- RALI@iKAT 2026: Retrieval-aware User Profile Denoising via Personalized Conversational Dense Retrieval. [![SIGIR Workshop 2026][b-sigir-workshop-2026-355774]](https://arxiv.org/abs/2610.17673)
+- Relevance Is Not Sufficiency: What Actually Closes the Evidence Gap in Long-Term Memory QA. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.09348) [![Code][b-code-3b434d-github]](https://github.com/LYF199903/BFR-An-Agent-Memory-Framework-for-Evidence-Reconstruction)
+- Rethinking Experience Utilization in Self-Evolving Language Model Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.07164)
+- Retrieval-Augmented Online Textual Memory for Episodic Memory Video Question Answering. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.31284) ![S→M][b-s-to-m-9d675d]
+- Temporal Evidence Forests for Long-Horizon Multi-Party Conversational Memory. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.12874)
+- The Compliance Trap: Diagnosing How AI Agents Consume Conflicting Memory. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.10608)
+- TrawMem: Reframing Agent Memory as Task-Oriented Role-Adaptive Workspaces. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.36918)
+- VoiceMem: Streaming Dual-Brain Memory for Real-Time Interaction. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.26005) [![Code][b-code-3b434d-github]](https://github.com/xzf-thu/VoiceMem)
+- General Agentic Memory Via Deep Research. [![arXiv 2025][b-arxiv-2025-a1574a]](https://arxiv.org/abs/2511.18423) [![Code][b-code-3b434d-github]](https://github.com/VectorSpaceLab/general-agentic-memory)
+
+##### Delivery
+
+- Memory That Looks Forward: A Zero-Inference Prospective Term for Personal Memory Retrieval. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.22091) [![Code][b-code-3b434d-github]](https://github.com/Groffitti/memory-that-looks-forward) ![M→A][b-m-to-a-556b88]
+- Who Schedules Agent Memory? A Sidecar Approach to Long-Horizon Tasks. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2611.00779) ![M→A][b-m-to-a-556b88]
 
 <a id="sec-4-3-4"></a>
 #### How Records Change: Consolidation and Correction
 
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2611.02912) A State Change Is Local, Its Consequences Are Not: Dependency-Aware State Revision for Long-Term Agent Memory.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.20616) Auto-Dreamer: Learning Offline Memory Consolidation for Language Agents.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.38573) CALM: Conflict-Aware Lifecycle Memory Governance for Long-Horizon Language Agents.
-- [![Findings of EMNLP 2026][b-findings-of-emnlp-2026-355774]](https://arxiv.org/abs/2609.09835) HyperTrace: Hypothesis-Based Preference Tracing for Online LLM Personalization. [![Code][b-code-3b434d-github]](https://github.com/jiseshen/HyperTrace)
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.00251) Hypotheses-Guided Self Distillation for Continual Personalization. ![M→A][b-m-to-a-556b88] ![A→M][b-a-to-m-9d675d]
-- [![ICLR 2026][b-iclr-2026-355774]](https://arxiv.org/abs/2510.18866) LightMem: Lightweight and Efficient Memory-Augmented Generation. [![Code][b-code-3b434d-github]](https://github.com/zjunlp/LightMem)
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.39790) Long-Term Agent Memory through Complementary Curation and Consolidation.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.29528) MedCache: Efficient and Temporally Valid Memory for Longitudinal Clinical Agents.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.09483) Memory Beyond Recall: A Dual-Process Cognitive Memory System for Self-Evolving LLM Agents.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.08374) MemQ: Integrating Q-Learning into Self-Evolving Memory Agents over Provenance DAGs. [![Code][b-code-3b434d-github]](https://github.com/jwliao-ai/MemQ) ![A→M][b-a-to-m-9d675d]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2602.20323) PhysMem: Scaling Test-Time Memory for Embodied Physical Reasoning.
-- [![NeurIPS 2026][b-neurips-2026-355774]](https://arxiv.org/abs/2610.29467) PreCoMem: Predictive Cognitive Memory for Self-Evolving Long-Term Dialogue Agents. [![Code][b-code-3b434d-github]](https://github.com/ZhongWishing/PreCoMem)
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.05241) StateWise: Diagnosing and Repairing Persistent Operational State Before Agent Actions. ![M→A][b-m-to-a-556b88]
-- [![Findings of EMNLP 2026][b-findings-of-emnlp-2026-355774]](https://arxiv.org/abs/2609.12373) Toward Robust Personalized Alignment for LLMs: Mitigating Persona Drift in Multi-Turn Dialogue.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2611.02001) TrackMem: Tracking Evolving Beliefs in Long-Horizon Financial Dialogue.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.12978) Useful Memories Become Faulty When Continuously Updated by LLMs.
-- [![ICML 2025][b-icml-2025-355774]](https://arxiv.org/abs/2409.07429) Agent Workflow Memory. [![Code][b-code-3b434d-github]](https://github.com/zorazrw/agent-workflow-memory)
-- [![arXiv 2025][b-arxiv-2025-a1574a]](https://arxiv.org/abs/2501.11733) Mobile-Agent-E: Self-Evolving Mobile Assistant for Complex Tasks. ![A→S][b-a-to-s-607a6d]
-- [![arXiv 2025][b-arxiv-2025-a1574a]](https://arxiv.org/abs/2504.13171) Sleep-time Compute: Beyond Inference Scaling at Test-time. [![Code][b-code-3b434d-github]](https://github.com/letta-ai/sleep-time-compute)
+##### Consolidation
+
+- Auto-Dreamer: Learning Offline Memory Consolidation for Language Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.20616)
+- HyperTrace: Hypothesis-Based Preference Tracing for Online LLM Personalization. [![Findings of EMNLP 2026][b-findings-of-emnlp-2026-355774]](https://arxiv.org/abs/2609.09835) [![Code][b-code-3b434d-github]](https://github.com/jiseshen/HyperTrace)
+- Hypotheses-Guided Self Distillation for Continual Personalization. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.00251) ![M→A][b-m-to-a-556b88] ![A→M][b-a-to-m-9d675d]
+- LightMem: Lightweight and Efficient Memory-Augmented Generation. [![ICLR 2026][b-iclr-2026-355774]](https://arxiv.org/abs/2510.18866) [![Code][b-code-3b434d-github]](https://github.com/zjunlp/LightMem)
+- Long-Term Agent Memory through Complementary Curation and Consolidation. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.39790)
+- Memory Beyond Recall: A Dual-Process Cognitive Memory System for Self-Evolving LLM Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.09483)
+- MemQ: Integrating Q-Learning into Self-Evolving Memory Agents over Provenance DAGs. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.08374) [![Code][b-code-3b434d-github]](https://github.com/jwliao-ai/MemQ) ![A→M][b-a-to-m-9d675d]
+- PhysMem: Scaling Test-Time Memory for Embodied Physical Reasoning. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2602.20323)
+- Useful Memories Become Faulty When Continuously Updated by LLMs. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.12978)
+- Agent Workflow Memory. [![ICML 2025][b-icml-2025-355774]](https://arxiv.org/abs/2409.07429) [![Code][b-code-3b434d-github]](https://github.com/zorazrw/agent-workflow-memory)
+- Mobile-Agent-E: Self-Evolving Mobile Assistant for Complex Tasks. [![arXiv 2025][b-arxiv-2025-a1574a]](https://arxiv.org/abs/2501.11733) ![A→S][b-a-to-s-607a6d]
+- Sleep-time Compute: Beyond Inference Scaling at Test-time. [![arXiv 2025][b-arxiv-2025-a1574a]](https://arxiv.org/abs/2504.13171) [![Code][b-code-3b434d-github]](https://github.com/letta-ai/sleep-time-compute)
+
+##### Correction
+
+- A State Change Is Local, Its Consequences Are Not: Dependency-Aware State Revision for Long-Term Agent Memory. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2611.02912)
+- CALM: Conflict-Aware Lifecycle Memory Governance for Long-Horizon Language Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.38573)
+- MedCache: Efficient and Temporally Valid Memory for Longitudinal Clinical Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.29528)
+- PreCoMem: Predictive Cognitive Memory for Self-Evolving Long-Term Dialogue Agents. [![NeurIPS 2026][b-neurips-2026-355774]](https://arxiv.org/abs/2610.29467) [![Code][b-code-3b434d-github]](https://github.com/ZhongWishing/PreCoMem)
+- StateWise: Diagnosing and Repairing Persistent Operational State Before Agent Actions. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.05241) ![M→A][b-m-to-a-556b88]
+- Toward Robust Personalized Alignment for LLMs: Mitigating Persona Drift in Multi-Turn Dialogue. [![Findings of EMNLP 2026][b-findings-of-emnlp-2026-355774]](https://arxiv.org/abs/2609.12373)
+- TrackMem: Tracking Evolving Beliefs in Long-Horizon Financial Dialogue. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2611.02001)
+- When Memory Updates but Behavior Does Not: Repairing Implicit Stale Dependencies in Personalized Agent Responses. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.01619)
 
 <a id="sec-4-3-5"></a>
 #### What Stops Influencing Later Decisions: Retirement, Forgetting, and Deletion
 
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.31366) AfterDeleteBench: Auditing Post-Deletion Information Persistence in LLM Agents.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.18052) Can Agents Forget When Asked? A Benchmark for Memory Unlearning in LLM Agents. [![Code][b-code-3b434d-github]](https://github.com/Nboxff/bemula-benchmark)
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.36414) Eternal Sunshine of the Spotless Mind: Systematically Erasing LLM's Memories.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.21405) MemCut: Every Secret Leaves a Trail in the Long-Term Memory of LLM Agents.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.24785) PANDO: Efficient Multimodal AI Agents via Online Skill Distillation.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.15710) Suggested Is Not Superseded: A Pre-Registered Evaluation of a System-One Model as a Memory-Retirement Gate.
-- [![Findings of EMNLP 2023][b-findings-of-emnlp-2023-355774]](https://aclanthology.org/2023.findings-emnlp.720/) Mind the Gap Between Conversations for Improved Long-Term Dialogue Generation.
+- AfterDeleteBench: Auditing Post-Deletion Information Persistence in LLM Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.31366)
+- Can Agents Forget When Asked? A Benchmark for Memory Unlearning in LLM Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.18052) [![Code][b-code-3b434d-github]](https://github.com/Nboxff/bemula-benchmark)
+- Eternal Sunshine of the Spotless Mind: Systematically Erasing LLM's Memories. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.36414)
+- MemCut: Every Secret Leaves a Trail in the Long-Term Memory of LLM Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.21405)
+- PANDO: Efficient Multimodal AI Agents via Online Skill Distillation. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.24785)
+- Suggested Is Not Superseded: A Pre-Registered Evaluation of a System-One Model as a Memory-Retirement Gate. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.15710)
+- Mind the Gap Between Conversations for Improved Long-Term Dialogue Generation. [![Findings of EMNLP 2023][b-findings-of-emnlp-2023-355774]](https://aclanthology.org/2023.findings-emnlp.720/)
 
 <a id="sec-4-3-6"></a>
 #### Learning the Memory Policy
 
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.34977) Adaptive Memory Index Evolution for Agents.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2611.03868) EvoGroup: A Self-Evolving Harness for Group Agents in Shared Contexts. [![Code][b-code-3b434d-github]](https://github.com/BigggFatttRabittt/EvoGroup)
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2611.03743) EvoMemState: Evolving Memory State for Personal Agents. [![Code][b-code-3b434d-github]](https://github.com/XMUDeepLIT/EvoMemState.git) ![M→A][b-m-to-a-556b88]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.23812) Learning Personalized Memory Gating from Delayed One-Sided Feedback. ![A→M][b-a-to-m-9d675d]
-- [![EMNLP 2026][b-emnlp-2026-355774]](https://arxiv.org/abs/2608.25329) Learning What to Share and What to Personalize: Hierarchical Strategy Co-Evolution for Agent Memory. ![A→M][b-a-to-m-9d675d]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.40195) MemLife: Curating and Reasoning over Long-Term Egocentric Video Memories. ![S→M][b-s-to-m-9d675d] ![M→A][b-m-to-a-556b88]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2602.02474) MemSkill: Learning and Evolving Memory Skills for Self-Evolving Agents. [![Code][b-code-3b434d-github]](https://github.com/ViktorAxelsen/MemSkill)
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.39276) MemSteer: Turning User Histories into Supervision for Agent Memory Optimization.
+- Adaptive Memory Index Evolution for Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.34977)
+- EvoGroup: A Self-Evolving Harness for Group Agents in Shared Contexts. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2611.03868) [![Code][b-code-3b434d-github]](https://github.com/BigggFatttRabittt/EvoGroup)
+- EvoMemState: Evolving Memory State for Personal Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2611.03743) [![Code][b-code-3b434d-github]](https://github.com/XMUDeepLIT/EvoMemState.git) ![M→A][b-m-to-a-556b88]
+- Learning Personalized Memory Gating from Delayed One-Sided Feedback. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.23812) ![A→M][b-a-to-m-9d675d]
+- Learning What to Share and What to Personalize: Hierarchical Strategy Co-Evolution for Agent Memory. [![EMNLP 2026][b-emnlp-2026-355774]](https://arxiv.org/abs/2608.25329) ![A→M][b-a-to-m-9d675d]
+- MemLife: Curating and Reasoning over Long-Term Egocentric Video Memories. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.40195) ![S→M][b-s-to-m-9d675d] ![M→A][b-m-to-a-556b88]
+- MemSkill: Learning and Evolving Memory Skills for Self-Evolving Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2602.02474) [![Code][b-code-3b434d-github]](https://github.com/ViktorAxelsen/MemSkill)
+- MemSteer: Turning User Histories into Supervision for Agent Memory Optimization. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.39276)
 
 <a id="sec-4-4"></a>
 ### Memory Coupling Across the Loop
@@ -465,122 +543,137 @@ Memory retains information for later service and supplies it when a decision nee
 <a id="sec-4-4-2"></a>
 #### Sensing to Memory: the S→M Channel
 
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.31864) AirLog: Store-Level Indoor Life Logging Made Easy. ![S→M][b-s-to-m-9d675d]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.02392) GROVE: Growing and Reasoning over Temporally Stratified Memory from Streaming Video Experience. [![Code][b-code-3b434d-github]](https://github.com/SitongGong/GROVE) ![S→M][b-s-to-m-9d675d] ![M→A][b-m-to-a-556b88]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.30895) Your Home Remembers: A Voice-Enabled Household Memory Assistant for Conversational Retrieval. ![S→M][b-s-to-m-9d675d]
+- AirLog: Store-Level Indoor Life Logging Made Easy. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.31864) ![S→M][b-s-to-m-9d675d]
+- GROVE: Growing and Reasoning over Temporally Stratified Memory from Streaming Video Experience. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.02392) [![Code][b-code-3b434d-github]](https://github.com/SitongGong/GROVE) ![S→M][b-s-to-m-9d675d] ![M→A][b-m-to-a-556b88]
+- Your Home Remembers: A Voice-Enabled Household Memory Assistant for Conversational Retrieval. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.30895) ![S→M][b-s-to-m-9d675d]
 
 <a id="sec-4-4-3"></a>
 #### Action to Memory: the A→M Channel
 
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.10319) Do Personalized Skills Help Coding Agents? An Empirical Study of Developer Interaction Traces. ![M→A][b-m-to-a-556b88] ![A→M][b-a-to-m-9d675d]
-- [![ACL 2026][b-acl-2026-355774]](https://arxiv.org/abs/2508.19828) Memory-R1: Enhancing Large Language Model Agents to Manage and Utilize Memories via Reinforcement Learning. ![A→M][b-a-to-m-9d675d]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.21768) Memory-R2: Fair Credit Assignment for Long-Horizon Memory-Augmented LLM Agents. ![A→M][b-a-to-m-9d675d]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.08995) Muscle Memory for Agents: Compile not Merely Retrieve. ![M→A][b-m-to-a-556b88] ![A→M][b-a-to-m-9d675d]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.26485) Promptile: Recovering and Reusing Prompting Strategies from LLM Interaction Histories. ![M→A][b-m-to-a-556b88] ![A→M][b-a-to-m-9d675d]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2611.02667) UPSHIFT: User Preference Steering from Human-AI Interaction Feedback Traces. ![M→A][b-m-to-a-556b88] ![A→M][b-a-to-m-9d675d]
-- [![ACL 2025][b-acl-2025-355774]](https://arxiv.org/abs/2503.08026) In Prospect and Retrospect: Reflective Memory Management for Long-term Personalized Dialogue Agents. ![A→M][b-a-to-m-9d675d]
+- Do Personalized Skills Help Coding Agents? An Empirical Study of Developer Interaction Traces. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.10319) ![M→A][b-m-to-a-556b88] ![A→M][b-a-to-m-9d675d]
+- Memory-R1: Enhancing Large Language Model Agents to Manage and Utilize Memories via Reinforcement Learning. [![ACL 2026][b-acl-2026-355774]](https://arxiv.org/abs/2508.19828) ![A→M][b-a-to-m-9d675d]
+- Memory-R2: Fair Credit Assignment for Long-Horizon Memory-Augmented LLM Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.21768) ![A→M][b-a-to-m-9d675d]
+- Muscle Memory for Agents: Compile not Merely Retrieve. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.08995) ![M→A][b-m-to-a-556b88] ![A→M][b-a-to-m-9d675d]
+- Promptile: Recovering and Reusing Prompting Strategies from LLM Interaction Histories. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.26485) ![M→A][b-m-to-a-556b88] ![A→M][b-a-to-m-9d675d]
+- UPSHIFT: User Preference Steering from Human-AI Interaction Feedback Traces. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2611.02667) ![M→A][b-m-to-a-556b88] ![A→M][b-a-to-m-9d675d]
+- In Prospect and Retrospect: Reflective Memory Management for Long-term Personalized Dialogue Agents. [![ACL 2025][b-acl-2025-355774]](https://arxiv.org/abs/2503.08026) ![A→M][b-a-to-m-9d675d]
 
 <a id="sec-4-5"></a>
 ### Evaluation
 
+<a id="sec-4-5-1"></a>
+#### Evaluation Metrics
+
+- Are We Ready For An Agent-Native Memory System? [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.24775) [![Code][b-code-3b434d-github]](https://github.com/OpenDataBox/MemoryData)
+
 <a id="sec-4-5-2"></a>
 #### Benchmarks and Evaluation Settings
 
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.36488) AdaptArena: Evaluating Test-Time Personalization of Web Agents. [![Code][b-code-3b434d-github]](https://github.com/McGill-NLP/web-agents-test-time-adaptations) ![Coupling and later use][b-coupling-and-later-use-bb9188] ![M→A][b-m-to-a-556b88]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.10526) Agents Don't Just Agree, They Remember: Benchmarking Persistent Sycophancy in Self-Improving Personal Agents. [![Code][b-code-3b434d-github]](https://github.com/henrymao2004/agent-sycophancy)
-- [![ICLR 2026][b-iclr-2026-355774]](https://proceedings.iclr.cc/paper_files/paper/2026/hash/0856bc553d3e3b9827e5140d0ad3bf8d-Abstract-Conference.html) AMemGym: Interactive Memory Benchmarking for Assistants in Long-Horizon Conversations. ![Admission][b-admission-bb9188] ![S→M][b-s-to-m-9d675d]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.37559) APM-Bench: Benchmarking Cross-session Persistent Memory for Egocentric Streaming Video Assistants. ![Coupling and later use][b-coupling-and-later-use-bb9188] ![S→M][b-s-to-m-9d675d] ![M→A][b-m-to-a-556b88]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.24775) Are We Ready For An Agent-Native Memory System? [![Code][b-code-3b434d-github]](https://github.com/OpenDataBox/MemoryData)
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.34790) BehaviorMem: Building and Evaluating User Memory from Real-World E-Commerce Behavior Streams. ![Profile][b-profile-bb9188] ![S→M][b-s-to-m-9d675d]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.29225) BenchTrace: A Benchmark for Testing Reflection Ability and Controlled Evolution in LLM Agents. ![Coupling and later use][b-coupling-and-later-use-bb9188]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.19338) Beyond the Current Observation: Evaluating Multimodal Large Language Models in Controllable Non-Markov Games. [![Code][b-code-3b434d-github]](https://github.com/InternLM/RNGBench) ![Recall baselines][b-recall-baselines-bb9188]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.19652) Can Agent Memory Systems Track Evolving State? ![Profile][b-profile-bb9188]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.04830) ContextWeave: A Real-World Workflow Benchmark. ![Coupling and later use][b-coupling-and-later-use-bb9188] ![M→A][b-m-to-a-556b88]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.05661) Continual Learning Bench: Evaluating Frontier AI Systems in Real-World Stateful Environments. ![Coupling and later use][b-coupling-and-later-use-bb9188]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.03874) ContinualSkillBench: Can LLM Agents Truly Evolve Their Capabilities? [![Code][b-code-3b434d-github]](https://github.com/gtynnn060110-hash/continual-skill-bench-final) ![Coupling and later use][b-coupling-and-later-use-bb9188]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.32574) CUE-Mem: Benchmarking Long-Term User Memory via Implicit Cues in Multimodal Conversations. [![Code][b-code-3b434d-github]](https://github.com/yulinlp/CUE-MEM) ![Admission][b-admission-bb9188]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.09315) Do Self-Evolving Agents Forget? Capability Degradation and Preservation in Lifelong LLM Agent Adaptation.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.24971) DolphinBench: Mapping the Pareto Frontier of Agent Memory. ![Coupling and later use][b-coupling-and-later-use-bb9188] ![M→A][b-m-to-a-556b88]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2611.00755) DuSE-Bench: Benchmarking Joint Reasoning over Evolving Dialogue and Documents. [![Code][b-code-3b434d-github]](https://github.com/JianfengGao7/DuSE-Bench) ![Coupling and later use][b-coupling-and-later-use-bb9188] ![M→A][b-m-to-a-556b88]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.03020) DyadMem: A Long-Term Memory Benchmark of How Agents Work with Users. ![Profile][b-profile-bb9188]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.22877) DynamicMem: A Long-Horizon Memory Benchmark in Real-World Settings.
-- [![EMNLP 2026][b-emnlp-2026-355774]](https://arxiv.org/abs/2609.22231) EvalMem: An Operation-Level Diagnostic Framework for Long-Term Memory Systems. ![Recall baselines][b-recall-baselines-bb9188]
-- [![Findings of ACL 2026][b-findings-of-acl-2026-355774]](https://arxiv.org/abs/2604.11182) Evaluating Memory Capability in Continuous Lifelog Scenario. ![Admission][b-admission-bb9188]
-- [![ICLR 2026][b-iclr-2026-355774]](https://arxiv.org/abs/2507.05257) Evaluating Memory in LLM Agents via Incremental Multi-Turn Interactions. [![Code][b-code-3b434d-github]](https://github.com/HUST-AI-HYZ/MemoryAgentBench) ![Recall baselines][b-recall-baselines-bb9188]
-- [![NeurIPS 2026][b-neurips-2026-355774]](https://arxiv.org/abs/2605.18421) EvoMemBench: Benchmarking Agent Memory from a Self-Evolving Perspective. [![Code][b-code-3b434d-github]](https://github.com/DSAIL-Memory/EvoMemBench) ![Coupling and later use][b-coupling-and-later-use-bb9188]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.17247) Explicit State Elicitation Is Not Enough: A Controlled Audit of Memory-Policy Classification. ![Coupling and later use][b-coupling-and-later-use-bb9188]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.26611) Fewer Clarifications, Better Code: Benchmarking Cross-Session Personalized Ambiguity Adaptation in Coding Assistants. ![Coupling and later use][b-coupling-and-later-use-bb9188] ![M→A][b-m-to-a-556b88]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2604.04901) FileGram: Grounding Agent Personalization in File-System Behavioral Traces. [![Code][b-code-3b434d-github]](https://github.com/synvo-ai/FileGram)
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.04095) FinPerMA: A Theory-Informed, Event-Grounded Personalized-Memory Benchmark for LLM Agents. ![Profile][b-profile-bb9188]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.02171) From Profiling to Synthesis: Benchmarking Implicit Behavioral Alignment in Personalized LLM Agents. ![Coupling and later use][b-coupling-and-later-use-bb9188] ![M→A][b-m-to-a-556b88]
-- [![Findings of ACL 2026][b-findings-of-acl-2026-355774]](https://arxiv.org/abs/2604.20006) From Recall to Forgetting: Benchmarking Long-Term Memory for Personalized Agents. ![Profile][b-profile-bb9188]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.24520) HABIT-Bench: Evaluating Habit Induction from Longitudinal Weak Evidence in Agent Memory. ![Profile][b-profile-bb9188]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2511.03506) HaluMem: Evaluating Hallucinations in Memory Systems of Agents. [![Code][b-code-3b434d-github]](https://github.com/MemTensor/HaluMem) ![Admission][b-admission-bb9188]
-- [![ECCV 2026][b-eccv-2026-355774]](https://arxiv.org/abs/2604.01221) HippoCamp: Benchmarking Contextual Agents on Personal Computers. [![Code][b-code-3b434d-github]](https://github.com/Savannah-yz/HippoCamp)
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.34735) iPrefBench: A User-Centric Benchmark for Personalized Mobile Use Agents. ![Coupling and later use][b-coupling-and-later-use-bb9188] ![M→A][b-m-to-a-556b88]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.30755) Is Complex Agentic Memory Always Needed? Naive RAG Is Stronger Than We Thought. ![Recall baselines][b-recall-baselines-bb9188]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.24368) Keep It InMind: Benchmarking the Implicit-Association Blind Spot in Agent Memory. ![Coupling and later use][b-coupling-and-later-use-bb9188] ![M→A][b-m-to-a-556b88]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.29433) Know It, Act on It: Investigating Memory Utilization in LLM Personalization. ![Coupling and later use][b-coupling-and-later-use-bb9188] ![M→A][b-m-to-a-556b88]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.04794) Knowing the Store: What a Memory Backend Must Write Down Before an Agent Can Read It. [![Code][b-code-3b434d-github]](https://github.com/ansh348/knowing-the-store) ![Prospective][b-prospective-bb9188]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2604.08455) KnowU-Bench: Towards Interactive, Proactive, and Personalized Mobile Agent Evaluation. [![Code][b-code-3b434d-github]](https://github.com/ZJU-REAL/KnowU-Bench)
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.12493) LongMemEval-V2: Evaluating Long-Term Agent Memory Toward Experienced Colleagues. [![Code][b-code-3b434d-github]](https://github.com/xiaowu0162/LongMemEval-V2) ![Coupling and later use][b-coupling-and-later-use-bb9188]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.16730) LSREP: A Longitudinal State-Replay Protocol for Evaluating Conversational Memory, with ICE v2 as an Audited Local-First Architecture. [![Code][b-code-3b434d-github]](https://github.com/Deepnar/ice)
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.05246) LUNAR: Benchmarking Personalized Large Language Models on UNiversal User BehAvioR Logs. ![Coupling and later use][b-coupling-and-later-use-bb9188]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.01272) Making Prospective Memory SLM-Shaped: Typed Intention Stores for Small-Model Agents. ![M→A][b-m-to-a-556b88]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.20926) MemConflict: Evaluating Long-Term Memory Systems Under Memory Conflicts. ![Profile][b-profile-bb9188]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.15128) MemEye: A Visual-Centric Evaluation Framework for Multimodal Agent Memory. [![Code][b-code-3b434d-github]](https://github.com/MinghoKwok/MemEye) ![Admission][b-admission-bb9188]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2611.01700) MemHarmBench: Evaluating Cross-Session Prompt Injection in Memory-Persistent AI Agents. [![Code][b-code-3b434d-github]](https://github.com/Kirito14IT/MemHarmBench) ![Coupling and later use][b-coupling-and-later-use-bb9188] ![M→A][b-m-to-a-556b88]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.14906) MemLens: Benchmarking Multimodal Long-Term Memory in Large Vision-Language Models. [![Code][b-code-3b434d-github]](https://github.com/xrenaf/MEMLENS) ![Recall baselines][b-recall-baselines-bb9188]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.12893) MemOps: Benchmarking Lifecycle Memory Operations in Long-Horizon Conversations. ![Admission][b-admission-bb9188]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.36457) Memory Consolidation Flattens the Temporal Shape of User Facts. ![Profile][b-profile-bb9188]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.34073) Memory Tax: Dissecting the Net Value of Agent Memory. ![Recall baselines][b-recall-baselines-bb9188]
-- [![ICML 2026][b-icml-2026-355774]](https://arxiv.org/abs/2602.16313) MemoryArena: Benchmarking Agent Memory in Interdependent Multi-Session Agentic Tasks. ![Coupling and later use][b-coupling-and-later-use-bb9188]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.09530) MemPrivacy: Privacy-Preserving Personalized Memory Management for Edge-Cloud Agents. [![Code][b-code-3b434d-github]](https://github.com/MemTensor/MemPrivacy) ![Admission][b-admission-bb9188] ![S→M][b-s-to-m-9d675d]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2611.02338) MemShift: Separating Detection from Repair in LLM-Derived Personal Memory. [![Code][b-code-3b434d-github]](https://github.com/zichuanxu/memshift) ![Profile][b-profile-bb9188]
-- [![EMNLP 2026][b-emnlp-2026-355774]](https://arxiv.org/abs/2608.24189) MemUse: Moving Memory Evaluation from Direct QA to Natural Integration in Long-Term Human-AI Conversation. [![Code][b-code-3b434d-github]](https://github.com/ryuichi-sumida/memuse) ![Coupling and later use][b-coupling-and-later-use-bb9188] ![M→A][b-m-to-a-556b88]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.18565) MINTEval: Evaluating Memory under Multi-Target Interference in Long-Horizon Agent Systems. [![Code][b-code-3b434d-github]](https://github.com/amy-hyunji/MINTEval) ![Profile][b-profile-bb9188]
-- [![ACM MM 2026][b-acm-mm-2026-355774]](https://arxiv.org/abs/2609.19059) MIRAGE: How Conversation State Shapes Historical Evidence Use in Multimodal Personal Agents. ![Recall baselines][b-recall-baselines-bb9188]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.29249) MOSAIC: An Omni-Modal Benchmark for Long-Term Memory and Cross-Modal Reasoning in Conversational Agents. ![Recall baselines][b-recall-baselines-bb9188]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2611.04867) One Assistant, Many Memories: Benchmarking Real-World Group Assistance When Recall Is Not Enough. ![Coupling and later use][b-coupling-and-later-use-bb9188] ![M→A][b-m-to-a-556b88]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.34526) PairPref: When Should Memory Guide the Answer? A Benchmark for Contextual Preference Use. ![Coupling and later use][b-coupling-and-later-use-bb9188] ![M→A][b-m-to-a-556b88]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.04003) PAST-Bench: Benchmarking the Foundations of Recursive Self-Improvement in Personal Agents. [![Code][b-code-3b434d-github]](https://github.com/Gen-Verse/PAST-Bench) ![Coupling and later use][b-coupling-and-later-use-bb9188]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.01149) PATH-Bench: Path-Dependent Evaluation of Lifelong Agents. ![Coupling and later use][b-coupling-and-later-use-bb9188]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.19314) PersEvalBench: Can LLM Evaluators Judge Contextually Appropriate Use of Persona Information? ![Profile][b-profile-bb9188]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.25535) Personalize-then-Store: Benchmarking and Learning Personalized Memory for Long-horizon Agents. [![Code][b-code-3b434d-github]](https://github.com/yeonjun-in/PerMemBench) ![Admission][b-admission-bb9188] ![S→M][b-s-to-m-9d675d]
-- [![COLM 2026][b-colm-2026-355774]](https://arxiv.org/abs/2607.12385) PM-Bench: Evaluating Prospective Memory in LLM Agents. ![Prospective][b-prospective-bb9188]
-- [![EMNLP 2026][b-emnlp-2026-355774]](https://arxiv.org/abs/2609.09664) PRAGMA: Evaluating Personalized Guidance with Memory Alignment in Lifelong Conversations. ![Coupling and later use][b-coupling-and-later-use-bb9188] ![M→A][b-m-to-a-556b88]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.30089) ProactEgoMem: Benchmarking Proactive Memory in Streaming Egocentric Video. ![Admission][b-admission-bb9188] ![S→M][b-s-to-m-9d675d]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2604.00842) Proactive Agent Research Environment: Simulating Active Users to Evaluate Proactive Assistants. [![Code][b-code-3b434d-github]](https://github.com/deepakn97/pare) ![A→S][b-a-to-s-607a6d]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.17701) ProEvent: An Event-centric Benchmark for Proactive Agents. ![Prospective][b-prospective-bb9188] ![S→M][b-s-to-m-9d675d]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.01780) RealCompanion: Benchmarking Human Understanding from Reasoning over Longitudinal Real-World Conversations. ![Coupling and later use][b-coupling-and-later-use-bb9188]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.27056) Setoka: A Benchmark for Hierarchical User Understanding in Personalized Agents over Heterogeneous Data. ![Profile][b-profile-bb9188]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.19610) SIMLIFE: Pattern Understanding for Long-Horizon Human-Agent Partnership. ![Profile][b-profile-bb9188]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.10265) Stale, Misattributed, or Late: Where Personal Memory Fails Before Generation. ![Profile][b-profile-bb9188]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.06527) STALE: Can LLM Agents Know When Their Memories Are No Longer Valid? ![Profile][b-profile-bb9188] ![M→S][b-m-to-s-607a6d]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.16746) State Contamination in Memory-Augmented LLM Agents.
-- [![Findings of EMNLP 2026][b-findings-of-emnlp-2026-355774]](https://arxiv.org/abs/2606.14571) StreamMemBench: Streaming Evaluation of Agent Memory for Future-Oriented Assistance. [![Code][b-code-3b434d-github]](https://github.com/landian60/StreamMemBench) ![Coupling and later use][b-coupling-and-later-use-bb9188] ![S→M][b-s-to-m-9d675d]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.19167) To Memories and Beyond: From Remembering to Knowing You across Long-Term Multimodal Personal Archives. ![Profile][b-profile-bb9188]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.23459) TriggerBench: Investigating Prospective Memory for Large Language Models. [![Code][b-code-3b434d-github]](https://github.com/KristenZHANG/TriggerBench-Official) ![Prospective][b-prospective-bb9188]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.28575) TWIST: A Proposed Benchmark for Intervention Quality in Conversational Memory, with a Human-Validated Draft-Alignment. ![Coupling and later use][b-coupling-and-later-use-bb9188] ![M→A][b-m-to-a-556b88]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.10042) UserToolBench: A User-Profile-Hidden Benchmark for Personalized Decision Making in Tool-Use LLMs. ![Coupling and later use][b-coupling-and-later-use-bb9188] ![M→A][b-m-to-a-556b88]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.27141) VitaBench 2.0: Evaluating Personalized and Proactive Agents in Long-Term User Interactions. [![Code][b-code-3b434d-github]](https://github.com/meituan-longcat/vitabench-2.0)
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.00570) VoiceLongMemEval: Do Assistants Remember How You Sounded? ![Recall baselines][b-recall-baselines-bb9188]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.01619) When Memory Updates but Behavior Does Not: Repairing Implicit Stale Dependencies in Personalized Agent Responses.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.13921) When Personal Memory Has No Single Answer: Evaluating LLM Agents under Irreducible Conflict. ![Profile][b-profile-bb9188] ![M→A][b-m-to-a-556b88]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.06731) When Routine Chats Turn Toxic: Unintended Long-Term State Poisoning in Personalized Agents.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.30485) Why Bother Me Again? Benchmarking Personal Agent Memory for Interaction Preferences. ![M→A][b-m-to-a-556b88] ![A→M][b-a-to-m-9d675d]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.05767) Will My Assistant Remember My Allergy? What Personal LLM Assistants Forget When Conversation Memory Is Compressed. ![Recall baselines][b-recall-baselines-bb9188]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.29341) WorldMemArena: Evaluating Multimodal Agent Memory Through Action-World Interaction. [![Code][b-code-3b434d-github]](https://github.com/UCSB-AI/WorldMemArena) ![Coupling and later use][b-coupling-and-later-use-bb9188] ![S→M][b-s-to-m-9d675d]
-- [![arXiv 2025][b-arxiv-2025-a1574a]](https://arxiv.org/abs/2505.11942) LifelongAgentBench: Evaluating LLM Agents as Lifelong Learners.
-- [![ICLR 2025][b-iclr-2025-355774]](https://arxiv.org/abs/2410.10813) LongMemEval: Benchmarking Chat Assistants on Long-Term Interactive Memory. [![Code][b-code-3b434d-github]](https://github.com/xiaowu0162/LongMemEval) ![Recall baselines][b-recall-baselines-bb9188]
-- [![ACL 2024][b-acl-2024-355774]](https://arxiv.org/abs/2402.17753) Evaluating Very Long-Term Conversational Memory of LLM Agents. ![Recall baselines][b-recall-baselines-bb9188]
+##### Recall baselines
+
+- Beyond the Current Observation: Evaluating Multimodal Large Language Models in Controllable Non-Markov Games. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.19338) [![Code][b-code-3b434d-github]](https://github.com/InternLM/RNGBench)
+- EvalMem: An Operation-Level Diagnostic Framework for Long-Term Memory Systems. [![EMNLP 2026][b-emnlp-2026-355774]](https://arxiv.org/abs/2609.22231)
+- Evaluating Memory in LLM Agents via Incremental Multi-Turn Interactions. [![ICLR 2026][b-iclr-2026-355774]](https://arxiv.org/abs/2507.05257) [![Code][b-code-3b434d-github]](https://github.com/HUST-AI-HYZ/MemoryAgentBench)
+- HippoCamp: Benchmarking Contextual Agents on Personal Computers. [![ECCV 2026][b-eccv-2026-355774]](https://arxiv.org/abs/2604.01221) [![Code][b-code-3b434d-github]](https://github.com/Savannah-yz/HippoCamp)
+- Is Complex Agentic Memory Always Needed? Naive RAG Is Stronger Than We Thought. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.30755)
+- LongMemEval-V2: Evaluating Long-Term Agent Memory Toward Experienced Colleagues. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.12493) [![Code][b-code-3b434d-github]](https://github.com/xiaowu0162/LongMemEval-V2)
+- MemEye: A Visual-Centric Evaluation Framework for Multimodal Agent Memory. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.15128) [![Code][b-code-3b434d-github]](https://github.com/MinghoKwok/MemEye)
+- MemLens: Benchmarking Multimodal Long-Term Memory in Large Vision-Language Models. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.14906) [![Code][b-code-3b434d-github]](https://github.com/xrenaf/MEMLENS)
+- Memory Tax: Dissecting the Net Value of Agent Memory. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.34073)
+- MIRAGE: How Conversation State Shapes Historical Evidence Use in Multimodal Personal Agents. [![ACM MM 2026][b-acm-mm-2026-355774]](https://arxiv.org/abs/2609.19059)
+- MOSAIC: An Omni-Modal Benchmark for Long-Term Memory and Cross-Modal Reasoning in Conversational Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.29249)
+- VoiceLongMemEval: Do Assistants Remember How You Sounded? [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.00570)
+- Will My Assistant Remember My Allergy? What Personal LLM Assistants Forget When Conversation Memory Is Compressed. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.05767)
+- LongMemEval: Benchmarking Chat Assistants on Long-Term Interactive Memory. [![ICLR 2025][b-iclr-2025-355774]](https://arxiv.org/abs/2410.10813) [![Code][b-code-3b434d-github]](https://github.com/xiaowu0162/LongMemEval)
+- Evaluating Very Long-Term Conversational Memory of LLM Agents. [![ACL 2024][b-acl-2024-355774]](https://arxiv.org/abs/2402.17753)
+
+##### Admission: what enters the store
+
+- AMemGym: Interactive Memory Benchmarking for Assistants in Long-Horizon Conversations. [![ICLR 2026][b-iclr-2026-355774]](https://proceedings.iclr.cc/paper_files/paper/2026/hash/0856bc553d3e3b9827e5140d0ad3bf8d-Abstract-Conference.html) ![S→M][b-s-to-m-9d675d]
+- CUE-Mem: Benchmarking Long-Term User Memory via Implicit Cues in Multimodal Conversations. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.32574) [![Code][b-code-3b434d-github]](https://github.com/yulinlp/CUE-MEM)
+- Evaluating Memory Capability in Continuous Lifelog Scenario. [![Findings of ACL 2026][b-findings-of-acl-2026-355774]](https://arxiv.org/abs/2604.11182)
+- HaluMem: Evaluating Hallucinations in Memory Systems of Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2511.03506) [![Code][b-code-3b434d-github]](https://github.com/MemTensor/HaluMem)
+- MemOps: Benchmarking Lifecycle Memory Operations in Long-Horizon Conversations. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.12893)
+- MemPrivacy: Privacy-Preserving Personalized Memory Management for Edge-Cloud Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.09530) [![Code][b-code-3b434d-github]](https://github.com/MemTensor/MemPrivacy) ![S→M][b-s-to-m-9d675d]
+- Personalize-then-Store: Benchmarking and Learning Personalized Memory for Long-horizon Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.25535) [![Code][b-code-3b434d-github]](https://github.com/yeonjun-in/PerMemBench) ![S→M][b-s-to-m-9d675d]
+- ProactEgoMem: Benchmarking Proactive Memory in Streaming Egocentric Video. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.30089) ![S→M][b-s-to-m-9d675d]
+- WorldMemArena: Evaluating Multimodal Agent Memory Through Action-World Interaction. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.29341) [![Code][b-code-3b434d-github]](https://github.com/UCSB-AI/WorldMemArena) ![S→M][b-s-to-m-9d675d]
+
+##### Profile: keeping what holds valid
+
+- Agents Don't Just Agree, They Remember: Benchmarking Persistent Sycophancy in Self-Improving Personal Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.10526) [![Code][b-code-3b434d-github]](https://github.com/henrymao2004/agent-sycophancy)
+- BehaviorMem: Building and Evaluating User Memory from Real-World E-Commerce Behavior Streams. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.34790) ![S→M][b-s-to-m-9d675d]
+- Can Agent Memory Systems Track Evolving State? [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.19652)
+- DyadMem: A Long-Term Memory Benchmark of How Agents Work with Users. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.03020)
+- FinPerMA: A Theory-Informed, Event-Grounded Personalized-Memory Benchmark for LLM Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.04095)
+- From Recall to Forgetting: Benchmarking Long-Term Memory for Personalized Agents. [![Findings of ACL 2026][b-findings-of-acl-2026-355774]](https://arxiv.org/abs/2604.20006)
+- HABIT-Bench: Evaluating Habit Induction from Longitudinal Weak Evidence in Agent Memory. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.24520)
+- LSREP: A Longitudinal State-Replay Protocol for Evaluating Conversational Memory, with ICE v2 as an Audited Local-First Architecture. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.16730) [![Code][b-code-3b434d-github]](https://github.com/Deepnar/ice)
+- MemConflict: Evaluating Long-Term Memory Systems Under Memory Conflicts. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.20926)
+- Memory Consolidation Flattens the Temporal Shape of User Facts. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.36457)
+- MemShift: Separating Detection from Repair in LLM-Derived Personal Memory. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2611.02338) [![Code][b-code-3b434d-github]](https://github.com/zichuanxu/memshift)
+- MINTEval: Evaluating Memory under Multi-Target Interference in Long-Horizon Agent Systems. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.18565) [![Code][b-code-3b434d-github]](https://github.com/amy-hyunji/MINTEval)
+- PersEvalBench: Can LLM Evaluators Judge Contextually Appropriate Use of Persona Information? [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.19314)
+- Setoka: A Benchmark for Hierarchical User Understanding in Personalized Agents over Heterogeneous Data. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.27056)
+- SIMLIFE: Pattern Understanding for Long-Horizon Human-Agent Partnership. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.19610)
+- Stale, Misattributed, or Late: Where Personal Memory Fails Before Generation. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.10265)
+- STALE: Can LLM Agents Know When Their Memories Are No Longer Valid? [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.06527) ![M→S][b-m-to-s-607a6d]
+- State Contamination in Memory-Augmented LLM Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.16746)
+- To Memories and Beyond: From Remembering to Knowing You across Long-Term Multimodal Personal Archives. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.19167)
+- When Personal Memory Has No Single Answer: Evaluating LLM Agents under Irreducible Conflict. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.13921) ![M→A][b-m-to-a-556b88]
+- Why Bother Me Again? Benchmarking Personal Agent Memory for Interaction Preferences. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.30485) ![M→A][b-m-to-a-556b88] ![A→M][b-a-to-m-9d675d]
+
+##### Prospective: holding what is pending
+
+- Knowing the Store: What a Memory Backend Must Write Down Before an Agent Can Read It. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.04794) [![Code][b-code-3b434d-github]](https://github.com/ansh348/knowing-the-store)
+- Making Prospective Memory SLM-Shaped: Typed Intention Stores for Small-Model Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.01272) ![M→A][b-m-to-a-556b88]
+- PM-Bench: Evaluating Prospective Memory in LLM Agents. [![COLM 2026][b-colm-2026-355774]](https://arxiv.org/abs/2607.12385)
+- ProEvent: An Event-centric Benchmark for Proactive Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.17701) ![S→M][b-s-to-m-9d675d]
+- TriggerBench: Investigating Prospective Memory for Large Language Models. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.23459) [![Code][b-code-3b434d-github]](https://github.com/KristenZHANG/TriggerBench-Official)
+
+##### Coupling and later use: state influences subsequent decisions
+
+- AdaptArena: Evaluating Test-Time Personalization of Web Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.36488) [![Code][b-code-3b434d-github]](https://github.com/McGill-NLP/web-agents-test-time-adaptations) ![M→A][b-m-to-a-556b88]
+- APM-Bench: Benchmarking Cross-session Persistent Memory for Egocentric Streaming Video Assistants. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.37559) ![S→M][b-s-to-m-9d675d] ![M→A][b-m-to-a-556b88]
+- BenchTrace: A Benchmark for Testing Reflection Ability and Controlled Evolution in LLM Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.29225)
+- ContextWeave: A Real-World Workflow Benchmark. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.04830) ![M→A][b-m-to-a-556b88]
+- Continual Learning Bench: Evaluating Frontier AI Systems in Real-World Stateful Environments. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.05661)
+- ContinualSkillBench: Can LLM Agents Truly Evolve Their Capabilities? [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.03874) [![Code][b-code-3b434d-github]](https://github.com/gtynnn060110-hash/continual-skill-bench-final)
+- DolphinBench: Mapping the Pareto Frontier of Agent Memory. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.24971) ![M→A][b-m-to-a-556b88]
+- DuSE-Bench: Benchmarking Joint Reasoning over Evolving Dialogue and Documents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2611.00755) [![Code][b-code-3b434d-github]](https://github.com/JianfengGao7/DuSE-Bench) ![M→A][b-m-to-a-556b88]
+- DynamicMem: A Long-Horizon Memory Benchmark in Real-World Settings. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.22877)
+- EvoMemBench: Benchmarking Agent Memory from a Self-Evolving Perspective. [![NeurIPS 2026][b-neurips-2026-355774]](https://arxiv.org/abs/2605.18421) [![Code][b-code-3b434d-github]](https://github.com/DSAIL-Memory/EvoMemBench)
+- Explicit State Elicitation Is Not Enough: A Controlled Audit of Memory-Policy Classification. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.17247)
+- Fewer Clarifications, Better Code: Benchmarking Cross-Session Personalized Ambiguity Adaptation in Coding Assistants. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.26611) ![M→A][b-m-to-a-556b88]
+- FileGram: Grounding Agent Personalization in File-System Behavioral Traces. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2604.04901) [![Code][b-code-3b434d-github]](https://github.com/synvo-ai/FileGram)
+- From Profiling to Synthesis: Benchmarking Implicit Behavioral Alignment in Personalized LLM Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.02171) ![M→A][b-m-to-a-556b88]
+- iPrefBench: A User-Centric Benchmark for Personalized Mobile Use Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.34735) ![M→A][b-m-to-a-556b88]
+- Keep It InMind: Benchmarking the Implicit-Association Blind Spot in Agent Memory. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.24368) ![M→A][b-m-to-a-556b88]
+- Know It, Act on It: Investigating Memory Utilization in LLM Personalization. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.29433) ![M→A][b-m-to-a-556b88]
+- KnowU-Bench: Towards Interactive, Proactive, and Personalized Mobile Agent Evaluation. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2604.08455) [![Code][b-code-3b434d-github]](https://github.com/ZJU-REAL/KnowU-Bench)
+- LUNAR: Benchmarking Personalized Large Language Models on UNiversal User BehAvioR Logs. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.05246)
+- MemHarmBench: Evaluating Cross-Session Prompt Injection in Memory-Persistent AI Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2611.01700) [![Code][b-code-3b434d-github]](https://github.com/Kirito14IT/MemHarmBench) ![M→A][b-m-to-a-556b88]
+- MemoryArena: Benchmarking Agent Memory in Interdependent Multi-Session Agentic Tasks. [![ICML 2026][b-icml-2026-355774]](https://arxiv.org/abs/2602.16313)
+- MemUse: Moving Memory Evaluation from Direct QA to Natural Integration in Long-Term Human-AI Conversation. [![EMNLP 2026][b-emnlp-2026-355774]](https://arxiv.org/abs/2608.24189) [![Code][b-code-3b434d-github]](https://github.com/ryuichi-sumida/memuse) ![M→A][b-m-to-a-556b88]
+- One Assistant, Many Memories: Benchmarking Real-World Group Assistance When Recall Is Not Enough. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2611.04867) ![M→A][b-m-to-a-556b88]
+- PairPref: When Should Memory Guide the Answer? A Benchmark for Contextual Preference Use. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.34526) ![M→A][b-m-to-a-556b88]
+- PAST-Bench: Benchmarking the Foundations of Recursive Self-Improvement in Personal Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.04003) [![Code][b-code-3b434d-github]](https://github.com/Gen-Verse/PAST-Bench)
+- PATH-Bench: Path-Dependent Evaluation of Lifelong Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.01149)
+- PRAGMA: Evaluating Personalized Guidance with Memory Alignment in Lifelong Conversations. [![EMNLP 2026][b-emnlp-2026-355774]](https://arxiv.org/abs/2609.09664) ![M→A][b-m-to-a-556b88]
+- Proactive Agent Research Environment: Simulating Active Users to Evaluate Proactive Assistants. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2604.00842) [![Code][b-code-3b434d-github]](https://github.com/deepakn97/pare) ![A→S][b-a-to-s-607a6d]
+- RealCompanion: Benchmarking Human Understanding from Reasoning over Longitudinal Real-World Conversations. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.01780)
+- StreamMemBench: Streaming Evaluation of Agent Memory for Future-Oriented Assistance. [![Findings of EMNLP 2026][b-findings-of-emnlp-2026-355774]](https://arxiv.org/abs/2606.14571) [![Code][b-code-3b434d-github]](https://github.com/landian60/StreamMemBench) ![S→M][b-s-to-m-9d675d]
+- TWIST: A Proposed Benchmark for Intervention Quality in Conversational Memory, with a Human-Validated Draft-Alignment. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.28575) ![M→A][b-m-to-a-556b88]
+- UserToolBench: A User-Profile-Hidden Benchmark for Personalized Decision Making in Tool-Use LLMs. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.10042) ![M→A][b-m-to-a-556b88]
+- VitaBench 2.0: Evaluating Personalized and Proactive Agents in Long-Term User Interactions. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.27141) [![Code][b-code-3b434d-github]](https://github.com/meituan-longcat/vitabench-2.0)
+- LifelongAgentBench: Evaluating LLM Agents as Lifelong Learners. [![arXiv 2025][b-arxiv-2025-a1574a]](https://arxiv.org/abs/2505.11942)
 
 ---
 
 <a id="sec-5"></a>
 ## <img src="assets/icons/action.svg" height="30" align="top" alt=""/> Action
 
-Action decides whether, when, and how the assistant intervenes, choosing among silence, communication, preparation, and execution.
+Action decides whether, when, and how the assistant acts on the external world, for example by sending a message, editing a file, or speaking aloud.
 
 <a id="sec-5-1"></a>
 ### Action Space
@@ -588,26 +681,32 @@ Action decides whether, when, and how the assistant intervenes, choosing among s
 <a id="sec-5-1-1"></a>
 #### What Starts an Action
 
-- [![ICLR 2026][b-iclr-2026-355774]](https://arxiv.org/abs/2512.06810) MMDuet2: Enhancing Proactive Interaction of Video MLLMs with Multi-Turn Reinforcement Learning. ![Proactive][b-proactive-8a9bb3]
-- [![PUC 2024][b-puc-2024-355774]](https://doi.org/10.1007/s00779-024-01825-5) A Conversational Agent for Creating Automations Exploiting Large Language Models. ![Deferred][b-deferred-8a9bb3]
-- [![IMWUT 2024][b-imwut-2024-355774]](https://arxiv.org/abs/2305.09802) Sasha: Creative Goal-Oriented Reasoning in Smart Homes with Large Language Models. ![Deferred][b-deferred-8a9bb3]
+##### Deferred action
+
+- A Conversational Agent for Creating Automations Exploiting Large Language Models. [![PUC 2024][b-puc-2024-355774]](https://doi.org/10.1007/s00779-024-01825-5)
+- Sasha: Creative Goal-Oriented Reasoning in Smart Homes with Large Language Models. [![IMWUT 2024][b-imwut-2024-355774]](https://arxiv.org/abs/2305.09802)
+
+##### Proactive action
+
+- MMDuet2: Enhancing Proactive Interaction of Video MLLMs with Multi-Turn Reinforcement Learning. [![ICLR 2026][b-iclr-2026-355774]](https://arxiv.org/abs/2512.06810)
 
 <a id="sec-5-1-2"></a>
 #### Interfaces, Consequences, and Feedback
 
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2603.02772) Self-Evolutionary Replanning for Failure-Aware Motion Planning.
-- [![ICML 2026][b-icml-2026-355774]](https://arxiv.org/abs/2603.23184) Unbiased Reward Modeling from Implicit Feedback for LLM Alignment.
-- [![arXiv 2025][b-arxiv-2025-a1574a]](https://arxiv.org/abs/2509.02544) UI-TARS-2 Technical Report: Advancing GUI Agent with Multi-Turn Reinforcement Learning. [![Code][b-code-3b434d-github]](https://github.com/bytedance/ui-tars)
-- [![NeurIPS 2024][b-neurips-2024-355774]](https://arxiv.org/abs/2405.15793) SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering.
+- Self-Evolutionary Replanning for Failure-Aware Motion Planning. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2603.02772)
+- Unbiased Reward Modeling from Implicit Feedback for LLM Alignment. [![ICML 2026][b-icml-2026-355774]](https://arxiv.org/abs/2603.23184)
+- UI-TARS-2 Technical Report: Advancing GUI Agent with Multi-Turn Reinforcement Learning. [![arXiv 2025][b-arxiv-2025-a1574a]](https://arxiv.org/abs/2509.02544) [![Code][b-code-3b434d-github]](https://github.com/bytedance/ui-tars)
+- SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering. [![NeurIPS 2024][b-neurips-2024-355774]](https://arxiv.org/abs/2405.15793)
 
 <a id="sec-5-2"></a>
-### Operating Conditions for Action
+### Shared Conditions for Action
 
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.30780) Sampling Safe Futures: Multimodal Trajectory Planning for Personalized Safety in Anthropomorphic AI. [![Code][b-code-3b434d-github]](https://github.com/benedettapicano/ANTHROPOMORPHIC_SAFETY_TRAJ)
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.05266) Who Is Your Agent Serving? Provider-Side Indirect Prompt Injection in Proactive Agents.
-- [![Ann. Behav. Med. 2018][b-ann-behav-med-2018-355774]](https://doi.org/10.1007/s12160-016-9830-8) Just-in-Time Adaptive Interventions (JITAIs) in Mobile Health: Key Components and Design Principles for Ongoing Health Behavior Support.
-- [![CHI 2008][b-chi-2008-355774]](https://doi.org/10.1145/1357054.1357070) Effects of intelligent notification management on users and their tasks.
-- [![HCI Journal 2002][b-hci-journal-2002-355774]](https://doi.org/10.1207/S15327051HCI1701_2) Comparison of Four Primary Methods for Coordinating the Interruption of People in Human-Computer Interaction.
+- Sampling Safe Futures: Multimodal Trajectory Planning for Personalized Safety in Anthropomorphic AI. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.30780) [![Code][b-code-3b434d-github]](https://github.com/benedettapicano/ANTHROPOMORPHIC_SAFETY_TRAJ)
+- Who Is Your Agent Serving? Provider-Side Indirect Prompt Injection in Proactive Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.05266)
+- Just-in-Time Adaptive Interventions (JITAIs) in Mobile Health: Key Components and Design Principles for Ongoing Health Behavior Support. [![Ann. Behav. Med. 2018][b-ann-behav-med-2018-355774]](https://doi.org/10.1007/s12160-016-9830-8)
+- Effects of intelligent notification management on users and their tasks. [![CHI 2008][b-chi-2008-355774]](https://doi.org/10.1145/1357054.1357070)
+- Comparison of Four Primary Methods for Coordinating the Interruption of People in Human-Computer Interaction. [![HCI Journal 2002][b-hci-journal-2002-355774]](https://doi.org/10.1207/S15327051HCI1701_2)
+- Principles of mixed-initiative user interfaces. [![CHI 1999][b-chi-1999-355774]](https://www.microsoft.com/en-us/research/publication/principles-mixed-initiative-user-interfaces/)
 
 <a id="sec-5-3"></a>
 ### Action Policy
@@ -615,64 +714,77 @@ Action decides whether, when, and how the assistant intervenes, choosing among s
 <a id="sec-5-3-1"></a>
 #### Whether and When to Intervene: Gating, Silence, and Asking
 
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.12322) Affective Agent: On-Device Personalized Intervention Reasoning for Wearable Systems. ![M→A][b-m-to-a-556b88] ![A→M][b-a-to-m-9d675d]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.28733) Agentic Abstention: Do Agents Know When to Stop Instead of Act? [![Code][b-code-3b434d-github]](https://github.com/lhannnn/agentic-abstention)
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.07148) Decoupling Conversational Dynamics in Full-Duplex Spoken Models through Reinforcement Learning.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.01588) Designing Proactive Thought Partners for Writing. ![S→A][b-s-to-a-556b88]
-- [![IUI 2026][b-iui-2026-355774]](https://arxiv.org/abs/2601.10253) Developer Interaction Patterns with Proactive AI: A Five-Day Field Study.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.30152) Do Proactive Agents Need an LLM to Decide When to Act?
-- [![CoRL 2026][b-corl-2026-355774]](https://arxiv.org/abs/2606.12475) Learning to Assist: Collaborative VLAs for Implicit Human-Robot Collaboration.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.05159) Proactive AI: From Turns to Replannable Dialogue Timelines. ![M→A][b-m-to-a-556b88]
-- [![ACL 2026][b-acl-2026-355774]](https://aclanthology.org/2026.acl-long.832/) ProActor: Timing-Aware Reinforcement Learning for Proactive Task Scheduling Agents.
-- [![ICLR 2026][b-iclr-2026-355774]](https://arxiv.org/abs/2510.23763) RoboOmni: Proactive Robot Manipulation in Omni-modal Context. [![Code][b-code-3b434d-github]](https://github.com/OpenMOSS/RoboOmni)
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2603.11409) Speak or Stay Silent: Context-Aware Turn-Taking in Multi-Party Dialogue.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.34507) The Price of Scale in Proactive Memory Recall. [![Code][b-code-3b434d-github]](https://github.com/RiverChenStillCompiling/price-of-scale) ![M→A][b-m-to-a-556b88]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.41129) When Should AI Agents Ask? Clarification Requests Under Limited Human Attention.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.40611) When to Assist and What to Suggest: Joint Gating and Memory-Grounded Hint Generation in One Compact Decoder. ![S→A][b-s-to-a-556b88] ![M→A][b-m-to-a-556b88]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.05626) When2Speak: A Dataset for Temporal Participation and Turn-Taking in Multi-Party Conversations for Large Language Models.
-- [![arXiv 2025][b-arxiv-2025-a1574a]](https://arxiv.org/abs/2509.01106) Robix: A Unified Model for Robot Interaction, Reasoning and Planning.
-- [![NeurIPS 2025][b-neurips-2025-355774]](https://arxiv.org/abs/2505.05467) StreamBridge: Turning Your Offline Video Large Language Model into a Proactive Streaming Assistant.
-- [![ICLR 2025][b-iclr-2025-355774]](https://arxiv.org/abs/2503.01174) Talking Turns: Benchmarking Audio Foundation Models on Turn-Taking Dynamics.
-- [![Findings of EMNLP 2025][b-findings-of-emnlp-2025-355774]](https://arxiv.org/abs/2411.17991) VideoLLM Knows When to Speak: Enhancing Time-Sensitive Video Comprehension with Video-Text Duet Interaction Format. [![Code][b-code-3b434d-github]](https://github.com/yellow-binary-tree/mmduet)
+##### Waiting for a useful moment
+
+- Affective Agent: On-Device Personalized Intervention Reasoning for Wearable Systems. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.12322) ![M→A][b-m-to-a-556b88] ![A→M][b-a-to-m-9d675d]
+- Decoupling Conversational Dynamics in Full-Duplex Spoken Models through Reinforcement Learning. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.07148)
+- Designing Proactive Thought Partners for Writing. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.01588) ![S→A][b-s-to-a-556b88]
+- Developer Interaction Patterns with Proactive AI: A Five-Day Field Study. [![IUI 2026][b-iui-2026-355774]](https://arxiv.org/abs/2601.10253)
+- Learning to Assist: Collaborative VLAs for Implicit Human-Robot Collaboration. [![CoRL 2026][b-corl-2026-355774]](https://arxiv.org/abs/2606.12475)
+- Proactive AI: From Turns to Replannable Dialogue Timelines. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.05159) ![M→A][b-m-to-a-556b88]
+- Speak or Stay Silent: Context-Aware Turn-Taking in Multi-Party Dialogue. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2603.11409)
+- When2Speak: A Dataset for Temporal Participation and Turn-Taking in Multi-Party Conversations for Large Language Models. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.05626)
+- Talking Turns: Benchmarking Audio Foundation Models on Turn-Taking Dynamics. [![ICLR 2025][b-iclr-2025-355774]](https://arxiv.org/abs/2503.01174)
+
+##### Clarifying, preparing, or stopping
+
+- Agentic Abstention: Do Agents Know When to Stop Instead of Act? [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.28733) [![Code][b-code-3b434d-github]](https://github.com/lhannnn/agentic-abstention)
+- RoboOmni: Proactive Robot Manipulation in Omni-modal Context. [![ICLR 2026][b-iclr-2026-355774]](https://arxiv.org/abs/2510.23763) [![Code][b-code-3b434d-github]](https://github.com/OpenMOSS/RoboOmni)
+- When Should AI Agents Ask? Clarification Requests Under Limited Human Attention. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.41129)
+- Robix: A Unified Model for Robot Interaction, Reasoning and Planning. [![arXiv 2025][b-arxiv-2025-a1574a]](https://arxiv.org/abs/2509.01106)
+
+##### Choosing a separate or shared timing model
+
+- Do Proactive Agents Need an LLM to Decide When to Act? [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.30152)
+- ProActor: Timing-Aware Reinforcement Learning for Proactive Task Scheduling Agents. [![ACL 2026][b-acl-2026-355774]](https://aclanthology.org/2026.acl-long.832/)
+- The Price of Scale in Proactive Memory Recall. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.34507) [![Code][b-code-3b434d-github]](https://github.com/RiverChenStillCompiling/price-of-scale) ![M→A][b-m-to-a-556b88]
+- When to Assist and What to Suggest: Joint Gating and Memory-Grounded Hint Generation in One Compact Decoder. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.40611) ![S→A][b-s-to-a-556b88] ![M→A][b-m-to-a-556b88]
+- StreamBridge: Turning Your Offline Video Large Language Model into a Proactive Streaming Assistant. [![NeurIPS 2025][b-neurips-2025-355774]](https://arxiv.org/abs/2505.05467)
+- VideoLLM Knows When to Speak: Enhancing Time-Sensitive Video Comprehension with Video-Text Duet Interaction Format. [![Findings of EMNLP 2025][b-findings-of-emnlp-2025-355774]](https://arxiv.org/abs/2411.17991) [![Code][b-code-3b434d-github]](https://github.com/yellow-binary-tree/mmduet)
 
 <a id="sec-5-3-2"></a>
-#### How Control Is Retained: Direct and Agentic
+#### How Control Is Retained: Single-Step and Multi-Step
 
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.01964) LongHorizon-Harness: Advancing Long-Horizon Agents for Real-World Tasks. [![Code][b-code-3b434d-github]](https://github.com/AMAP-ML/LongHorizon-Harness)
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.00546) Runtime-Independent Persistent Agents: Preserving Identity, Memory, and Code Across Models, Harnesses, and Servers. [![Code][b-code-3b434d-github]](https://github.com/our-ark/enoch-muse-runtime)
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.08828) When Agents Overtrust Environmental Evidence: An Extensible Agentic Framework for Benchmarking Evidence-Grounding Defects in LLM Agents.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.29095) Where Does Exactly-Once Live? Model, Harness, and Tool-Contract Effects on Duplicate Side Effects in LLM Agents. ![A→S][b-a-to-s-607a6d]
-- [![ICLR 2023][b-iclr-2023-355774]](https://arxiv.org/abs/2210.03629) ReAct: Synergizing Reasoning and Acting in Language Models. [![Project][b-project-3b434d]](https://react-lm.github.io)
+- LongHorizon-Harness: Advancing Long-Horizon Agents for Real-World Tasks. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.01964) [![Code][b-code-3b434d-github]](https://github.com/AMAP-ML/LongHorizon-Harness)
+- Runtime-Independent Persistent Agents: Preserving Identity, Memory, and Code Across Models, Harnesses, and Servers. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.00546) [![Code][b-code-3b434d-github]](https://github.com/our-ark/enoch-muse-runtime)
+- When Agents Overtrust Environmental Evidence: An Extensible Agentic Framework for Benchmarking Evidence-Grounding Defects in LLM Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.08828)
+- Where Does Exactly-Once Live? Model, Harness, and Tool-Contract Effects on Duplicate Side Effects in LLM Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.29095) ![A→S][b-a-to-s-607a6d]
+- ReAct: Synergizing Reasoning and Acting in Language Models. [![ICLR 2023][b-iclr-2023-355774]](https://arxiv.org/abs/2210.03629) [![Project][b-project-3b434d]](https://react-lm.github.io)
 
 <a id="sec-5-3-3"></a>
 #### Through Which Interface the State Changes: Effectors and Receipts
 
-- [![ICML 2026][b-icml-2026-355774]](https://arxiv.org/abs/2511.21689) ToolOrchestra: Elevating Intelligence via Efficient Model and Tool Orchestration. [![Code][b-code-3b434d-github]](https://github.com/NVlabs/ToolOrchestra)
-- [![arXiv 2023][b-arxiv-2023-a1574a]](https://arxiv.org/abs/2311.00772) SAGE: Smart home Agent with Grounded Execution.
+- ToolOrchestra: Elevating Intelligence via Efficient Model and Tool Orchestration. [![ICML 2026][b-icml-2026-355774]](https://arxiv.org/abs/2511.21689) [![Code][b-code-3b434d-github]](https://github.com/NVlabs/ToolOrchestra)
+- SAGE: Smart home Agent with Grounded Execution. [![arXiv 2023][b-arxiv-2023-a1574a]](https://arxiv.org/abs/2311.00772)
 
 <a id="sec-5-3-4"></a>
-#### Which Effect Is Authorized: Authority
+#### Which Effect Is Authorized: Proceeding, Confirming, and Withholding
 
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.04053) AgentAntibody: An Adaptive Immune System for Defending LLM Agents against Prompt Injection. ![M→A][b-m-to-a-556b88] ![A→M][b-a-to-m-9d675d]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.27443) Do User-Authored Permission Policies Improve Protection Against AI Agent Overreach?
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2602.16708) Formal Policy Enforcement for Agentic Systems.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.18684) Knowing the User Is Not Knowing What We Established: Grounding Awareness in Personal Agents. ![M→A][b-m-to-a-556b88]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.29167) Memory Provenance Laundering in LLM Agents: A Non-Amplification Firewall for Persistent Memory. ![M→A][b-m-to-a-556b88]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2603.23064) Mind Your HEARTBEAT! Claw Background Execution Inherently Enables Silent Memory Pollution.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.10487) Temporary Authority, Permanent Effects: Commit-Time Authorization for LLM Agents.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.01679) When Memory Becomes Authority: Benchmarking Authority Collapse at the Memory Consolidation Boundary.
-- [![ACL 2025][b-acl-2025-355774]](https://aclanthology.org/2025.acl-long.399/) AGrail: A Lifelong Agent Guardrail with Effective and Adaptive Safety Detection.
-- [![EMNLP 2025][b-emnlp-2025-355774]](https://arxiv.org/abs/2506.09600) Effective Red-Teaming of Policy-Adherent Agents.
+##### Checking permission before an action takes effect
+
+- AgentAntibody: An Adaptive Immune System for Defending LLM Agents against Prompt Injection. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.04053) ![M→A][b-m-to-a-556b88] ![A→M][b-a-to-m-9d675d]
+- Do User-Authored Permission Policies Improve Protection Against AI Agent Overreach? [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.27443)
+- Formal Policy Enforcement for Agentic Systems. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2602.16708)
+- Knowing the User Is Not Knowing What We Established: Grounding Awareness in Personal Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.18684) ![M→A][b-m-to-a-556b88]
+- Memory Provenance Laundering in LLM Agents: A Non-Amplification Firewall for Persistent Memory. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.29167) ![M→A][b-m-to-a-556b88]
+- AGrail: A Lifelong Agent Guardrail with Effective and Adaptive Safety Detection. [![ACL 2025][b-acl-2025-355774]](https://aclanthology.org/2025.acl-long.399/)
+- Effective Red-Teaming of Policy-Adherent Agents. [![EMNLP 2025][b-emnlp-2025-355774]](https://arxiv.org/abs/2506.09600)
+
+##### Rechecking after a pause or handoff
+
+- Mind Your HEARTBEAT! Claw Background Execution Inherently Enables Silent Memory Pollution. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2603.23064)
+- Temporary Authority, Permanent Effects: Commit-Time Authorization for LLM Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.10487)
+- When Memory Becomes Authority: Benchmarking Authority Collapse at the Memory Consolidation Boundary. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.01679)
 
 <a id="sec-5-3-5"></a>
 #### Learning the Action Policy
 
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.33467) A Personalized and Adaptive Intelligent Tutoring System for Psychomotor Learning. ![S→A][b-s-to-a-556b88]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.36019) Causal DAG-Guided Reinforcement Learning for Long-Term Physical Activity Maintenance: Using Prior Data to Inform Future Deployment. ![S→A][b-s-to-a-556b88] ![A→M][b-a-to-m-9d675d]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.14314) Communication Policy Evolution for Proactive LLM Agents.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.16417) Context-Aware Emotionally Adaptive Voice Assistants: A Multimodal Framework for Empathetic Human-Agent Interaction. ![S→A][b-s-to-a-556b88]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.00215) Personalizing Large Language Model Agents with Small Policy Models. ![M→A][b-m-to-a-556b88] ![A→M][b-a-to-m-9d675d]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.04416) Preference-Driven Online Adaptation for Personalized Interaction Initiation in Proactive AI Assistants. ![M→A][b-m-to-a-556b88] ![A→M][b-a-to-m-9d675d]
+- A Personalized and Adaptive Intelligent Tutoring System for Psychomotor Learning. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.33467) ![S→A][b-s-to-a-556b88]
+- Causal DAG-Guided Reinforcement Learning for Long-Term Physical Activity Maintenance: Using Prior Data to Inform Future Deployment. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.36019) ![S→A][b-s-to-a-556b88] ![A→M][b-a-to-m-9d675d]
+- Communication Policy Evolution for Proactive LLM Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.14314)
+- Context-Aware Emotionally Adaptive Voice Assistants: A Multimodal Framework for Empathetic Human-Agent Interaction. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.16417) ![S→A][b-s-to-a-556b88]
+- Personalizing Large Language Model Agents with Small Policy Models. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.00215) ![M→A][b-m-to-a-556b88] ![A→M][b-a-to-m-9d675d]
+- Preference-Driven Online Adaptation for Personalized Interaction Initiation in Proactive AI Assistants. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.04416) ![M→A][b-m-to-a-556b88] ![A→M][b-a-to-m-9d675d]
 
 <a id="sec-5-4"></a>
 ### Action Coupling Across the Loop
@@ -680,19 +792,27 @@ Action decides whether, when, and how the assistant intervenes, choosing among s
 <a id="sec-5-4-2"></a>
 #### Memory to Action: the M→A Channel
 
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.23779) ClawRec: A Claw-Native Recommender System. [![Code][b-code-3b434d-github]](https://github.com/RUCAIBox/ClawRec) ![M→A][b-m-to-a-556b88]
-- [![EMNLP 2026][b-emnlp-2026-355774]](https://arxiv.org/abs/2609.21154) CoLearn: An Agentic Tutor that Learns its Learner in a Human--AI Co-Learning Loop. ![M→A][b-m-to-a-556b88] ![A→M][b-a-to-m-9d675d]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.14036) Demystifying Agent Skills: Why They Work-Until They Don't. [![Code][b-code-3b434d-github]](https://github.com/zhiyuanjiang04/demystify-agent-skills) ![M→A][b-m-to-a-556b88]
-- [![ICLR 2026][b-iclr-2026-355774]](https://arxiv.org/abs/2505.16348) Embodied Agents Meet Personalization: Investigating Challenges and Solutions Through the Lens of Memory Utilization. [![Code][b-code-3b434d-github]](https://github.com/Connoriginal/MEMENTO) ![M→A][b-m-to-a-556b88]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.09895) Love for Believable AI: Artificial Partiality and Relationship Persistence as an Engineerable Stance. ![M→A][b-m-to-a-556b88]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.18652) MementoGUI: Learning Agentic Multimodal Memory Control for Long-Horizon GUI Agents. ![M→A][b-m-to-a-556b88]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.13527) MMSkills: Towards Multimodal Skills for General Visual Agents. [![Code][b-code-3b434d-github]](https://github.com/zkangning/MMSkills_for_Visual_Agents) ![M→A][b-m-to-a-556b88]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.07588) Personal-Agent Mediated Recommendation with Cross-Platform User History. ![M→A][b-m-to-a-556b88]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.36967) Proactive Memory for Event-Driven LLM Agents. [![Code][b-code-3b434d]](https://anonymous.4open.science/r/ProactMem-5351/) ![S→M][b-s-to-m-9d675d] ![M→A][b-m-to-a-556b88]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.27400) ProMemAgent: Long-Horizon Proactive Assistance with Context-Aware Prospective Memory from Sensory Perceptions. ![S→M][b-s-to-m-9d675d] ![M→A][b-m-to-a-556b88]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2611.00988) Pulse: Long-Horizon Tasks Need Streaming Personalization. ![M→A][b-m-to-a-556b88]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.13399) RegulaTutor: A Theory-Informed Framework for Long-Term Personalized Learning. ![M→A][b-m-to-a-556b88]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.33304) Relevance Does Not Imply Applicability: Experience Activation for Personal GUI Agents. ![M→A][b-m-to-a-556b88]
+##### Using personal and task context
+
+- ClawRec: A Claw-Native Recommender System. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.23779) [![Code][b-code-3b434d-github]](https://github.com/RUCAIBox/ClawRec) ![M→A][b-m-to-a-556b88]
+- CoLearn: An Agentic Tutor that Learns its Learner in a Human--AI Co-Learning Loop. [![EMNLP 2026][b-emnlp-2026-355774]](https://arxiv.org/abs/2609.21154) ![M→A][b-m-to-a-556b88] ![A→M][b-a-to-m-9d675d]
+- Embodied Agents Meet Personalization: Investigating Challenges and Solutions Through the Lens of Memory Utilization. [![ICLR 2026][b-iclr-2026-355774]](https://arxiv.org/abs/2505.16348) [![Code][b-code-3b434d-github]](https://github.com/Connoriginal/MEMENTO) ![M→A][b-m-to-a-556b88]
+- Love for Believable AI: Artificial Partiality and Relationship Persistence as an Engineerable Stance. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.09895) ![M→A][b-m-to-a-556b88]
+- MementoGUI: Learning Agentic Multimodal Memory Control for Long-Horizon GUI Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.18652) ![M→A][b-m-to-a-556b88]
+- Personal-Agent Mediated Recommendation with Cross-Platform User History. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.07588) ![M→A][b-m-to-a-556b88]
+- Pulse: Long-Horizon Tasks Need Streaming Personalization. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2611.00988) ![M→A][b-m-to-a-556b88]
+- RegulaTutor: A Theory-Informed Framework for Long-Term Personalized Learning. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.13399) ![M→A][b-m-to-a-556b88]
+
+##### Delivering due commitments and procedures
+
+- MMSkills: Towards Multimodal Skills for General Visual Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.13527) [![Code][b-code-3b434d-github]](https://github.com/zkangning/MMSkills_for_Visual_Agents) ![M→A][b-m-to-a-556b88]
+- Proactive Memory for Event-Driven LLM Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.36967) [![Code][b-code-3b434d]](https://anonymous.4open.science/r/ProactMem-5351/) ![S→M][b-s-to-m-9d675d] ![M→A][b-m-to-a-556b88]
+- ProMemAgent: Long-Horizon Proactive Assistance with Context-Aware Prospective Memory from Sensory Perceptions. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.27400) ![S→M][b-s-to-m-9d675d] ![M→A][b-m-to-a-556b88]
+
+##### Separating retrieval, delivery, and use
+
+- Demystifying Agent Skills: Why They Work-Until They Don't. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.14036) [![Code][b-code-3b434d-github]](https://github.com/zhiyuanjiang04/demystify-agent-skills) ![M→A][b-m-to-a-556b88]
+- Relevance Does Not Imply Applicability: Experience Activation for Personal GUI Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.33304) ![M→A][b-m-to-a-556b88]
 
 <a id="sec-5-5"></a>
 ### Evaluation
@@ -700,59 +820,71 @@ Action decides whether, when, and how the assistant intervenes, choosing among s
 <a id="sec-5-5-1"></a>
 #### Evaluation Metrics
 
-- [![WWW 2023][b-www-2023-355774]](https://arxiv.org/abs/2302.01724) Reinforcing User Retention in a Billion Scale Short Video Recommender System.
-- [![KDD 2019][b-kdd-2019-355774]](https://arxiv.org/abs/1902.05570) Reinforcement Learning to Optimize Long-term User Engagement in Recommender Systems.
+- Reinforcing User Retention in a Billion Scale Short Video Recommender System. [![WWW 2023][b-www-2023-355774]](https://arxiv.org/abs/2302.01724)
+- Reinforcement Learning to Optimize Long-term User Engagement in Recommender Systems. [![KDD 2019][b-kdd-2019-355774]](https://arxiv.org/abs/1902.05570)
 
 <a id="sec-5-5-2"></a>
 #### Benchmarks and Evaluation Settings
 
-- [![NeurIPS Workshop 2026][b-neurips-workshop-2026-355774]](https://arxiv.org/abs/2609.01836) Agent Memory Is a Surface for Endogenous Authorization Laundering. [![Code][b-code-3b434d-github]](https://github.com/tommasocerruti/eal-bench) ![Authority and consequences across interactions][b-authority-and-consequences-across-interactions-8a9bb3] ![M→A][b-m-to-a-556b88]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.06717) Agentic Coding Needs Proactivity, Not Just Autonomy.
-- [![Assistant Benchmark 2026][b-assistant-benchmark-2026-355774]](https://assistantbenchmark.com/) Assistant Benchmark: A Public Scorecard for AI Assistants You Can Text. ![Deferred][b-deferred-8a9bb3]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.14271) Auditing Agent Harness Safety. [![Code][b-code-3b434d-github]](https://github.com/eric-ai-lab/HarnessAudit) ![Reactive][b-reactive-8a9bb3]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2604.04184) AURA: Always-On Understanding and Real-Time Assistance via Video Streams. [![Code][b-code-3b434d-github]](https://github.com/aurateam2026/AURA) ![Proactive][b-proactive-8a9bb3] ![L0][b-l0-9a9a9a]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2604.06132) Claw-Eval: Towards Trustworthy Evaluation of Autonomous Agents. [![Code][b-code-3b434d-github]](https://github.com/claw-eval/claw-eval) ![Reactive][b-reactive-8a9bb3]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.12344) Claw-SWE-Bench: A Benchmark for Evaluating OpenClaw-style Agent Harnesses on Coding Tasks. [![Code][b-code-3b434d-github]](https://github.com/opensquilla/claw-swe-bench) ![Authority and consequences across interactions][b-authority-and-consequences-across-interactions-8a9bb3]
-- [![COLM Workshop 2026][b-colm-workshop-2026-355774]](https://arxiv.org/abs/2604.08523) ClawBench: Can AI Agents Complete Everyday Online Tasks? [![Code][b-code-3b434d-github]](https://github.com/reacher-z/ClawBench) ![Reactive][b-reactive-8a9bb3]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.34790) CoSec: Benchmarking Agent Security in Communities. ![Authority and consequences across interactions][b-authority-and-consequences-across-interactions-8a9bb3]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.01045) Empty Commitments: When Agents Promise What They Cannot Deliver. ![Deferred][b-deferred-8a9bb3]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.28833) Evaluating the Hidden Costs of Personalization in Large Language Models. [![Code][b-code-3b434d-github]](https://github.com/yumeng-10/personalization_risk) ![Authority and consequences across interactions][b-authority-and-consequences-across-interactions-8a9bb3] ![M→A][b-m-to-a-556b88]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2604.15037) From Reactive to Proactive: Assessing the Proactivity of Voice Agents via ProVoice-Bench. ![Proactive][b-proactive-8a9bb3]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.39086) HALO: Human-Grounded Granular Evaluation of Proactive Agents. [![Code][b-code-3b434d-github]](https://github.com/CedricPei/HALO) ![Proactive][b-proactive-8a9bb3] ![S→A][b-s-to-a-556b88] ![M→A][b-m-to-a-556b88]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.27180) HumanCLAW: Can Vision-Language Models Act Through a Body? [![Code][b-code-3b434d-github]](https://github.com/Human-CLAW/HumanCLAW) ![Reactive][b-reactive-8a9bb3]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.34640) InferPriv: Evaluating Inferential Privacy Leakage in LLM Assistants. ![Authority and consequences across interactions][b-authority-and-consequences-across-interactions-8a9bb3] ![M→A][b-m-to-a-556b88]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.33966) InteractiveWorld: A Verifiable Human-Centric Environment for Building Better Interactive MLLM Assistants. ![Reactive][b-reactive-8a9bb3] ![S→A][b-s-to-a-556b88] ![A→S][b-a-to-s-607a6d]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.14870) JarvisBench: Always-on Intelligence Between Humans and Agents. ![Reactive][b-reactive-8a9bb3]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2601.09382) Long-term Task-oriented Agent: Proactive Long-term Intent Maintenance in Dynamic Environments. ![Deferred][b-deferred-8a9bb3] ![M→A][b-m-to-a-556b88] ![L4][b-l4-9a7430]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.35439) Omni-InteractScope: Benchmarking Proactive and Agentic Interaction in Continuous Omnimodal Streams. ![Proactive][b-proactive-8a9bb3] ![S→A][b-s-to-a-556b88]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2611.02835) Omni-Life: Benchmarking Omnimodal Real-Time AI Assistants in People's Daily Lives. ![Proactive][b-proactive-8a9bb3] ![S→A][b-s-to-a-556b88]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.18577) OmniPro: A Comprehensive Benchmark for Omni-Proactive Streaming Video Understanding. [![Code][b-code-3b434d-github]](https://github.com/RuixiangZhao/OmniPro) ![Proactive][b-proactive-8a9bb3]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.19769) OpenComputer: Verifiable Software Worlds for Computer-Use Agents. [![Code][b-code-3b434d-github]](https://github.com/echo0715/OpenComputer) ![Reactive][b-reactive-8a9bb3]
-- [![EMNLP 2026][b-emnlp-2026-355774]](https://arxiv.org/abs/2609.03293) PACE: Towards Surfacing Hidden Conflicts in User Requests. [![Code][b-code-3b434d-github]](https://github.com/p2chp2t/pacemaker) ![Authority and consequences across interactions][b-authority-and-consequences-across-interactions-8a9bb3] ![M→A][b-m-to-a-556b88]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.27354) PAUSE: A User-Centric Benchmark for Personal AI Assistants in Unified Service Environments. ![Reactive][b-reactive-8a9bb3]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.34930) PDEU-Bench: Benchmarking the Personalized Planning Lifecycle of Tool-Calling LLM Agents. ![Reactive][b-reactive-8a9bb3] ![M→A][b-m-to-a-556b88]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2604.16813) PersonalHomeBench: Evaluating Agents in Personalized Smart Homes. ![Proactive][b-proactive-8a9bb3]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.04970) Plan, Watch, Recover: A Benchmark and Architectures for Proactive Procedural Assistance. ![Proactive][b-proactive-8a9bb3] ![A→S][b-a-to-s-607a6d] ![L2][b-l2-6b7785]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2602.04482) ProAgentBench: Evaluating LLM Agents for Proactive Assistance with Real-World Data. [![Code][b-code-3b434d]](https://anonymous.4open.science/r/ProAgentBench-6BC0) ![Proactive][b-proactive-8a9bb3]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.01912) SMH-Bench: Benchmarking LLM Agents for Environment-Grounded Reasoning and Action in Smart Homes. ![Reactive][b-reactive-8a9bb3]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.05563) SoCRATES: Towards Reliable Automated Evaluation of Proactive LLM Mediation across Domains and Socio-cognitive Variations. [![Code][b-code-3b434d-github]](https://github.com/DISL-Lab/SoCRATES) ![Authority and consequences across interactions][b-authority-and-consequences-across-interactions-8a9bb3]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.10692) SPIEval: Evaluating Large Language Models as Mobile Assistants over Scattered Personal Information. ![Reactive][b-reactive-8a9bb3]
-- [![ICLR 2026][b-iclr-2026-355774]](https://arxiv.org/abs/2410.06703) ST-WebAgentBench: A Benchmark for Evaluating Safety and Trustworthiness in Web Agents. [![Code][b-code-3b434d-github]](https://github.com/segev-shlomov/ST-WebAgentBench) ![Reactive][b-reactive-8a9bb3]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.34662) StreamVibe: Proactive Video Agents for Evolving User Intent. ![Proactive][b-proactive-8a9bb3] ![S→A][b-s-to-a-556b88] ![M→A][b-m-to-a-556b88]
-- [![ECCV 2026][b-eccv-2026-355774]](https://arxiv.org/abs/2603.27593) STRIDE: When to Speak Meets Sequence Denoising for Streaming Video Understanding. [![Code][b-code-3b434d-github]](https://github.com/interlive-team/STRIDE) ![Proactive][b-proactive-8a9bb3]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.03499) WeClawArena: An Auditable Sandbox and Benchmark for Cross-User Agents Collaboration and Security in Human-Centered Agent Networks. ![Authority and consequences across interactions][b-authority-and-consequences-across-interactions-8a9bb3]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.25707) Whose Credential Is It? How Owner Attribution in Agent MemoryShapes Cross-User Account Misuse. ![Authority and consequences across interactions][b-authority-and-consequences-across-interactions-8a9bb3] ![M→A][b-m-to-a-556b88]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.14678) π-Bench: Evaluating Proactive Personal Assistant Agents in Long-Horizon Workflows. [![Code][b-code-3b434d-github]](https://github.com/Simplified-Reasoning/Pi-Bench) ![Proactive][b-proactive-8a9bb3]
-- [![ICLR 2025][b-iclr-2025-355774]](https://arxiv.org/abs/2405.14573) AndroidWorld: A Dynamic Benchmarking Environment for Autonomous Agents. [![Code][b-code-3b434d-github]](https://github.com/google-research/android_world)
-- [![arXiv 2025][b-arxiv-2025-a1574a]](https://arxiv.org/abs/2509.17158) ARE: Scaling Up Agent Environments and Evaluations. [![Code][b-code-3b434d-github]](https://github.com/facebookresearch/meta-agents-research-environments) ![Deferred][b-deferred-8a9bb3]
-- [![arXiv 2025][b-arxiv-2025-a1574a]](https://arxiv.org/abs/2510.19771) Beyond Reactivity: Measuring Proactive Problem Solving in LLM Agents. ![Proactive][b-proactive-8a9bb3]
-- [![arXiv 2025][b-arxiv-2025-a1574a]](https://arxiv.org/abs/2508.02694) Efficient Agents: Building Effective Agents While Reducing Cost. [![Code][b-code-3b434d-github]](https://github.com/OPPO-PersonalAI/OAgents) ![Authority and consequences across interactions][b-authority-and-consequences-across-interactions-8a9bb3]
-- [![arXiv 2025][b-arxiv-2025-a1574a]](https://arxiv.org/abs/2508.14704) MCP-Universe: Benchmarking Large Language Models with Real-World Model Context Protocol Servers. [![Code][b-code-3b434d-github]](https://github.com/SalesforceAIResearch/MCP-Universe) ![Reactive][b-reactive-8a9bb3]
-- [![arXiv 2025][b-arxiv-2025-a1574a]](https://arxiv.org/abs/2509.24002) MCPMark: A Benchmark for Stress-Testing Realistic and Comprehensive MCP Use. [![Code][b-code-3b434d-github]](https://github.com/eval-sys/mcpmark) ![Reactive][b-reactive-8a9bb3]
-- [![ICLR 2024][b-iclr-2024-355774]](https://arxiv.org/abs/2308.03688) AgentBench: Evaluating LLMs as Agents. [![Code][b-code-3b434d-github]](https://github.com/thudm/agentbench)
-- [![NeurIPS D&amp;B 2024][b-neurips-d-b-2024-355774]](https://arxiv.org/abs/2404.07972) OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments. [![Code][b-code-3b434d-github]](https://github.com/xlang-ai/OSWorld)
-- [![NeurIPS D&amp;B 2023][b-neurips-d-b-2023-355774]](https://arxiv.org/abs/2306.06070) Mind2Web: Towards a Generalist Agent for the Web. [![Code][b-code-3b434d-github]](https://github.com/osu-nlp-group/mind2web)
-- [![Ann. Behav. Med. 2019][b-ann-behav-med-2019-355774]](https://academic.oup.com/abm/article/53/6/573/5091257) Efficacy of Contextually Tailored Suggestions for Physical Activity: A Micro-randomized Optimization Trial of HeartSteps. ![Authority and consequences across interactions][b-authority-and-consequences-across-interactions-8a9bb3]
+##### Reactive: executing a request
+
+- Auditing Agent Harness Safety. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.14271) [![Code][b-code-3b434d-github]](https://github.com/eric-ai-lab/HarnessAudit)
+- AURA: Always-On Understanding and Real-Time Assistance via Video Streams. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2604.04184) [![Code][b-code-3b434d-github]](https://github.com/aurateam2026/AURA) ![L0][b-l0-9a9a9a]
+- Claw-Eval: Towards Trustworthy Evaluation of Autonomous Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2604.06132) [![Code][b-code-3b434d-github]](https://github.com/claw-eval/claw-eval)
+- ClawBench: Can AI Agents Complete Everyday Online Tasks? [![COLM Workshop 2026][b-colm-workshop-2026-355774]](https://arxiv.org/abs/2604.08523) [![Code][b-code-3b434d-github]](https://github.com/reacher-z/ClawBench)
+- HumanCLAW: Can Vision-Language Models Act Through a Body? [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.27180) [![Code][b-code-3b434d-github]](https://github.com/Human-CLAW/HumanCLAW)
+- InteractiveWorld: A Verifiable Human-Centric Environment for Building Better Interactive MLLM Assistants. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.33966) ![S→A][b-s-to-a-556b88] ![A→S][b-a-to-s-607a6d]
+- OpenComputer: Verifiable Software Worlds for Computer-Use Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.19769) [![Code][b-code-3b434d-github]](https://github.com/echo0715/OpenComputer)
+- PAUSE: A User-Centric Benchmark for Personal AI Assistants in Unified Service Environments. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.27354)
+- PDEU-Bench: Benchmarking the Personalized Planning Lifecycle of Tool-Calling LLM Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.34930) ![M→A][b-m-to-a-556b88]
+- SPIEval: Evaluating Large Language Models as Mobile Assistants over Scattered Personal Information. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.10692)
+- ST-WebAgentBench: A Benchmark for Evaluating Safety and Trustworthiness in Web Agents. [![ICLR 2026][b-iclr-2026-355774]](https://arxiv.org/abs/2410.06703) [![Code][b-code-3b434d-github]](https://github.com/segev-shlomov/ST-WebAgentBench)
+- STRIDE: When to Speak Meets Sequence Denoising for Streaming Video Understanding. [![ECCV 2026][b-eccv-2026-355774]](https://arxiv.org/abs/2603.27593) [![Code][b-code-3b434d-github]](https://github.com/interlive-team/STRIDE)
+- AndroidWorld: A Dynamic Benchmarking Environment for Autonomous Agents. [![ICLR 2025][b-iclr-2025-355774]](https://arxiv.org/abs/2405.14573) [![Code][b-code-3b434d-github]](https://github.com/google-research/android_world)
+- MCP-Universe: Benchmarking Large Language Models with Real-World Model Context Protocol Servers. [![arXiv 2025][b-arxiv-2025-a1574a]](https://arxiv.org/abs/2508.14704) [![Code][b-code-3b434d-github]](https://github.com/SalesforceAIResearch/MCP-Universe)
+- MCPMark: A Benchmark for Stress-Testing Realistic and Comprehensive MCP Use. [![arXiv 2025][b-arxiv-2025-a1574a]](https://arxiv.org/abs/2509.24002) [![Code][b-code-3b434d-github]](https://github.com/eval-sys/mcpmark)
+- AgentBench: Evaluating LLMs as Agents. [![ICLR 2024][b-iclr-2024-355774]](https://arxiv.org/abs/2308.03688) [![Code][b-code-3b434d-github]](https://github.com/thudm/agentbench)
+- OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments. [![NeurIPS D&amp;B 2024][b-neurips-d-b-2024-355774]](https://arxiv.org/abs/2404.07972) [![Code][b-code-3b434d-github]](https://github.com/xlang-ai/OSWorld)
+- WebArena: A Realistic Web Environment for Building Autonomous Agents. [![ICLR 2024][b-iclr-2024-355774]](https://arxiv.org/abs/2307.13854) [![Code][b-code-3b434d-github]](https://github.com/web-arena-x/webarena)
+- Mind2Web: Towards a Generalist Agent for the Web. [![NeurIPS D&amp;B 2023][b-neurips-d-b-2023-355774]](https://arxiv.org/abs/2306.06070) [![Code][b-code-3b434d-github]](https://github.com/osu-nlp-group/mind2web)
+
+##### Deferred: commitments over time
+
+- Assistant Benchmark: A Public Scorecard for AI Assistants You Can Text. [![Assistant Benchmark 2026][b-assistant-benchmark-2026-355774]](https://assistantbenchmark.com/)
+- Empty Commitments: When Agents Promise What They Cannot Deliver. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.01045)
+- JarvisBench: Always-on Intelligence Between Humans and Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.14870)
+- Long-term Task-oriented Agent: Proactive Long-term Intent Maintenance in Dynamic Environments. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2601.09382) ![M→A][b-m-to-a-556b88] ![L4][b-l4-9a7430]
+- OmniPro: A Comprehensive Benchmark for Omni-Proactive Streaming Video Understanding. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.18577) [![Code][b-code-3b434d-github]](https://github.com/RuixiangZhao/OmniPro)
+- SMH-Bench: Benchmarking LLM Agents for Environment-Grounded Reasoning and Action in Smart Homes. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.01912)
+- π-Bench: Evaluating Proactive Personal Assistant Agents in Long-Horizon Workflows. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.14678) [![Code][b-code-3b434d-github]](https://github.com/Simplified-Reasoning/Pi-Bench)
+- ARE: Scaling Up Agent Environments and Evaluations. [![arXiv 2025][b-arxiv-2025-a1574a]](https://arxiv.org/abs/2509.17158) [![Code][b-code-3b434d-github]](https://github.com/facebookresearch/meta-agents-research-environments)
+
+##### Proactive: acting or staying silent
+
+- Agentic Coding Needs Proactivity, Not Just Autonomy. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.06717)
+- From Reactive to Proactive: Assessing the Proactivity of Voice Agents via ProVoice-Bench. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2604.15037)
+- HALO: Human-Grounded Granular Evaluation of Proactive Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.39086) [![Code][b-code-3b434d-github]](https://github.com/CedricPei/HALO) ![S→A][b-s-to-a-556b88] ![M→A][b-m-to-a-556b88]
+- Omni-InteractScope: Benchmarking Proactive and Agentic Interaction in Continuous Omnimodal Streams. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.35439) ![S→A][b-s-to-a-556b88]
+- Omni-Life: Benchmarking Omnimodal Real-Time AI Assistants in People's Daily Lives. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2611.02835) ![S→A][b-s-to-a-556b88]
+- PersonalHomeBench: Evaluating Agents in Personalized Smart Homes. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2604.16813)
+- Plan, Watch, Recover: A Benchmark and Architectures for Proactive Procedural Assistance. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.04970) ![A→S][b-a-to-s-607a6d] ![L2][b-l2-6b7785]
+- ProAgentBench: Evaluating LLM Agents for Proactive Assistance with Real-World Data. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2602.04482) [![Code][b-code-3b434d]](https://anonymous.4open.science/r/ProAgentBench-6BC0)
+- StreamVibe: Proactive Video Agents for Evolving User Intent. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.34662) ![S→A][b-s-to-a-556b88] ![M→A][b-m-to-a-556b88]
+- Beyond Reactivity: Measuring Proactive Problem Solving in LLM Agents. [![arXiv 2025][b-arxiv-2025-a1574a]](https://arxiv.org/abs/2510.19771)
+
+##### Authority and consequences across interactions
+
+- Agent Memory Is a Surface for Endogenous Authorization Laundering. [![NeurIPS Workshop 2026][b-neurips-workshop-2026-355774]](https://arxiv.org/abs/2609.01836) [![Code][b-code-3b434d-github]](https://github.com/tommasocerruti/eal-bench) ![M→A][b-m-to-a-556b88]
+- Claw-SWE-Bench: A Benchmark for Evaluating OpenClaw-style Agent Harnesses on Coding Tasks. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.12344) [![Code][b-code-3b434d-github]](https://github.com/opensquilla/claw-swe-bench)
+- CoSec: Benchmarking Agent Security in Communities. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.34790)
+- Evaluating the Hidden Costs of Personalization in Large Language Models. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.28833) [![Code][b-code-3b434d-github]](https://github.com/yumeng-10/personalization_risk) ![M→A][b-m-to-a-556b88]
+- InferPriv: Evaluating Inferential Privacy Leakage in LLM Assistants. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.34640) ![M→A][b-m-to-a-556b88]
+- PACE: Towards Surfacing Hidden Conflicts in User Requests. [![EMNLP 2026][b-emnlp-2026-355774]](https://arxiv.org/abs/2609.03293) [![Code][b-code-3b434d-github]](https://github.com/p2chp2t/pacemaker) ![M→A][b-m-to-a-556b88]
+- SoCRATES: Towards Reliable Automated Evaluation of Proactive LLM Mediation across Domains and Socio-cognitive Variations. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.05563) [![Code][b-code-3b434d-github]](https://github.com/DISL-Lab/SoCRATES)
+- WeClawArena: An Auditable Sandbox and Benchmark for Cross-User Agents Collaboration and Security in Human-Centered Agent Networks. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.03499)
+- Whose Credential Is It? How Owner Attribution in Agent MemoryShapes Cross-User Account Misuse. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.25707) ![M→A][b-m-to-a-556b88]
+- Efficient Agents: Building Effective Agents While Reducing Cost. [![arXiv 2025][b-arxiv-2025-a1574a]](https://arxiv.org/abs/2508.02694) [![Code][b-code-3b434d-github]](https://github.com/OPPO-PersonalAI/OAgents)
+- Efficacy of Contextually Tailored Suggestions for Physical Activity: A Micro-randomized Optimization Trial of HeartSteps. [![Ann. Behav. Med. 2019][b-ann-behav-med-2019-355774]](https://academic.oup.com/abm/article/53/6/573/5091257)
 
 ---
 
@@ -767,75 +899,75 @@ How Sensing, Memory, and Action work together in wearable, digital, and physical
 <a id="sec-6-1-1"></a>
 #### Wearable Assistance in Daily Activity and Conversation
 
-- [![IEEE VRW 2026][b-ieee-vrw-2026-355774]](https://arxiv.org/abs/2601.17622) Memento: Towards Proactive Visualization of Everyday Memories with Personal Wearable AR Assistant. ![M→S][b-m-to-s-607a6d] ![L4][b-l4-9a7430]
-- [![arXiv 2025][b-arxiv-2025-a1574a]](https://arxiv.org/abs/2512.06721) ProAgent: Harnessing On-Demand Sensory Contexts for Proactive LLM Agent Systems in the Wild. ![M→S][b-m-to-s-607a6d] ![L4][b-l4-9a7430]
-- [![ECCV 2026][b-eccv-2026-355774]](https://arxiv.org/abs/2607.11523) Vinci2: Providing Proactive Assistance in Continuous Egocentric Videos. [![Code][b-code-3b434d-github]](https://github.com/SitongGong/EgoMemo) [![Project][b-project-3b434d]](https://sitonggong.github.io/EgoServe-page/) ![L3][b-l3-b8924a]
-- [![arXiv 2025][b-arxiv-2025-a1574a]](https://arxiv.org/abs/2510.14359) AI for Service: Proactive Assistance with AI Glasses. ![A→S][b-a-to-s-607a6d] ![L3][b-l3-b8924a]
-- [![CHI 2025][b-chi-2025-355774]](https://arxiv.org/abs/2501.16240) AiGet: Transforming Everyday Moments into Hidden Knowledge Discovery with AI Assistance on Smart Glasses. ![M→S][b-m-to-s-607a6d] ![L3][b-l3-b8924a]
-- [![IMWUT 2025][b-imwut-2025-355774]](https://arxiv.org/abs/2412.04036) SocialMind: LLM-based Proactive AR Social Assistive System with Human-like Perception for In-situ Live Interactions. ![M→S][b-m-to-s-607a6d] ![L3][b-l3-b8924a]
-- [![UbiComp Workshop 2026][b-ubicomp-workshop-2026-355774]](https://arxiv.org/abs/2610.38629) ItemCompass: Real-Time Edge-AI Wearable Vision for Tag-Free Domestic Object Retrieval. ![S→M][b-s-to-m-9d675d] ![M→A][b-m-to-a-556b88] ![L2][b-l2-6b7785]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.11487) LightMem-Ego: Your AI Memory for Everyday Life. [![Code][b-code-3b434d-github]](https://github.com/zjunlp/LightMem-Ego) ![L2][b-l2-6b7785]
-- [![IEEE VR 2026][b-ieee-vr-2026-355774]](https://arxiv.org/abs/2602.00793) SpeechLess: Micro-utterance with Personalized Spatial Memory-aware Assistant in Everyday Augmented Reality. ![M→S][b-m-to-s-607a6d] ![L2][b-l2-6b7785]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.40370) The Athlete as a Scientist of One: Agentic Bayesian Experimental Design for Individualized Physiology from Consumer Wearables. ![S→M][b-s-to-m-9d675d] ![M→A][b-m-to-a-556b88] ![A→M][b-a-to-m-9d675d] ![L2][b-l2-6b7785]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2604.03486) VisionClaw: Always-On AI Agents through Smart Glasses. ![L2][b-l2-6b7785]
-- [![arXiv 2025][b-arxiv-2025-a1574a]](https://arxiv.org/abs/2502.01801) MemPal: Leveraging Multimodal AI and LLMs for Voice-Activated Object Retrieval in Homes of Older Adults. ![S→M][b-s-to-m-9d675d] ![M→A][b-m-to-a-556b88] ![L2][b-l2-6b7785]
-- [![IMWUT 2026][b-imwut-2026-355774]](https://arxiv.org/abs/2605.04227) Pro²Assist: Continuous Step-aware Proactive Assistance with Multi-modal Egocentric Perception for Long-horizon Procedural Tasks. ![L0][b-l0-9a9a9a]
-- [![Findings of ACL 2025][b-findings-of-acl-2025-355774]](https://arxiv.org/abs/2505.04066) LLAMAPIE: Proactive In-Ear Conversation Assistants. [![Code][b-code-3b434d-github]](https://github.com/chentuochao/LlamaPIE) ![L0][b-l0-9a9a9a]
-- [![EMNLP 2025][b-emnlp-2025-355774]](https://arxiv.org/abs/2506.05904) Proactive Assistant Dialogue Generation from Streaming Egocentric Videos. [![Code][b-code-3b434d-github]](https://github.com/pro-assist/ProAssist) [![Project][b-project-3b434d]](https://pro-assist.github.io/) ![L0][b-l0-9a9a9a]
-- [![UIST 2025][b-uist-2025-355774]](https://arxiv.org/abs/2507.21378) ProMemAssist: Exploring Timely Proactive Assistance Through Working Memory Modeling in Multi-Modal Wearable Devices. ![L0][b-l0-9a9a9a]
-- [![UIST 2025][b-uist-2025-355774]](https://arxiv.org/abs/2509.09255) Sensible Agent: A Framework for Unobtrusive Interaction with Proactive AR Agents. ![L0][b-l0-9a9a9a]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2601.19952) LTS-VoiceAgent: A Listen-Think-Speak Framework for Efficient Streaming Voice Interaction via Semantic Triggering and Incremental Reasoning.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.26485) OmniInteract: Benchmarking Real-World Streaming Interaction for Real-Time Omnimodal Assistants. [![Code][b-code-3b434d-github]](https://github.com/Lucky-Lance/OmniInteract)
-- [![ICML 2026][b-icml-2026-355774]](https://arxiv.org/abs/2601.22575) PhoStream: Benchmarking Real-World Streaming for Omnimodal Assistants in Mobile Scenarios. [![Code][b-code-3b434d-github]](https://github.com/Lucky-Lance/PhoStream)
-- [![HPCA 2026][b-hpca-2026-355774]](https://arxiv.org/abs/2512.12284) V-Rex: Real-Time Streaming Video LLM Acceleration via Dynamic KV Cache Retrieval.
-- [![arXiv 2025][b-arxiv-2025-a1574a]](https://arxiv.org/abs/2511.13261) Building Egocentric Procedural AI Assistant: Methods, Benchmarks, and Challenges. [![Code][b-code-3b434d-github]](https://github.com/z1oong/Building-Egocentric-Procedural-AI-Assistant) [![Project][b-project-3b434d]](https://github.com/z1oong/Building-Egocentric-Procedural-AI-Assistant)
-- [![NeurIPS 2024][b-neurips-2024-355774]](https://arxiv.org/abs/2405.19487) A Full-duplex Speech Dialogue Scheme Based On Large Language Models.
-- [![EMNLP 2024][b-emnlp-2024-355774]](https://arxiv.org/abs/2409.15594) Beyond Turn-Based Interfaces: Synchronous LLMs as Full-Duplex Dialogue Agents.
-- [![Findings of EMNLP 2024][b-findings-of-emnlp-2024-355774]](https://doi.org/10.18653/v1/2024.findings-emnlp.909) Large Language Models Know What To Say But Not When To Speak.
+- Memento: Towards Proactive Visualization of Everyday Memories with Personal Wearable AR Assistant. [![IEEE VRW 2026][b-ieee-vrw-2026-355774]](https://arxiv.org/abs/2601.17622) ![M→S][b-m-to-s-607a6d] ![L4][b-l4-9a7430]
+- ProAgent: Harnessing On-Demand Sensory Contexts for Proactive LLM Agent Systems in the Wild. [![arXiv 2025][b-arxiv-2025-a1574a]](https://arxiv.org/abs/2512.06721) ![M→S][b-m-to-s-607a6d] ![L4][b-l4-9a7430]
+- Vinci2: Providing Proactive Assistance in Continuous Egocentric Videos. [![ECCV 2026][b-eccv-2026-355774]](https://arxiv.org/abs/2607.11523) [![Code][b-code-3b434d-github]](https://github.com/SitongGong/EgoMemo) [![Project][b-project-3b434d]](https://sitonggong.github.io/EgoServe-page/) ![L3][b-l3-b8924a]
+- AI for Service: Proactive Assistance with AI Glasses. [![arXiv 2025][b-arxiv-2025-a1574a]](https://arxiv.org/abs/2510.14359) ![A→S][b-a-to-s-607a6d] ![L3][b-l3-b8924a]
+- AiGet: Transforming Everyday Moments into Hidden Knowledge Discovery with AI Assistance on Smart Glasses. [![CHI 2025][b-chi-2025-355774]](https://arxiv.org/abs/2501.16240) ![M→S][b-m-to-s-607a6d] ![L3][b-l3-b8924a]
+- SocialMind: LLM-based Proactive AR Social Assistive System with Human-like Perception for In-situ Live Interactions. [![IMWUT 2025][b-imwut-2025-355774]](https://arxiv.org/abs/2412.04036) ![M→S][b-m-to-s-607a6d] ![L3][b-l3-b8924a]
+- ItemCompass: Real-Time Edge-AI Wearable Vision for Tag-Free Domestic Object Retrieval. [![UbiComp Workshop 2026][b-ubicomp-workshop-2026-355774]](https://arxiv.org/abs/2610.38629) ![S→M][b-s-to-m-9d675d] ![M→A][b-m-to-a-556b88] ![L2][b-l2-6b7785]
+- LightMem-Ego: Your AI Memory for Everyday Life. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.11487) [![Code][b-code-3b434d-github]](https://github.com/zjunlp/LightMem-Ego) ![L2][b-l2-6b7785]
+- SpeechLess: Micro-utterance with Personalized Spatial Memory-aware Assistant in Everyday Augmented Reality. [![IEEE VR 2026][b-ieee-vr-2026-355774]](https://arxiv.org/abs/2602.00793) ![M→S][b-m-to-s-607a6d] ![L2][b-l2-6b7785]
+- The Athlete as a Scientist of One: Agentic Bayesian Experimental Design for Individualized Physiology from Consumer Wearables. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.40370) ![S→M][b-s-to-m-9d675d] ![M→A][b-m-to-a-556b88] ![A→M][b-a-to-m-9d675d] ![L2][b-l2-6b7785]
+- VisionClaw: Always-On AI Agents through Smart Glasses. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2604.03486) ![L2][b-l2-6b7785]
+- MemPal: Leveraging Multimodal AI and LLMs for Voice-Activated Object Retrieval in Homes of Older Adults. [![arXiv 2025][b-arxiv-2025-a1574a]](https://arxiv.org/abs/2502.01801) ![S→M][b-s-to-m-9d675d] ![M→A][b-m-to-a-556b88] ![L2][b-l2-6b7785]
+- Pro²Assist: Continuous Step-aware Proactive Assistance with Multi-modal Egocentric Perception for Long-horizon Procedural Tasks. [![IMWUT 2026][b-imwut-2026-355774]](https://arxiv.org/abs/2605.04227) ![L0][b-l0-9a9a9a]
+- LLAMAPIE: Proactive In-Ear Conversation Assistants. [![Findings of ACL 2025][b-findings-of-acl-2025-355774]](https://arxiv.org/abs/2505.04066) [![Code][b-code-3b434d-github]](https://github.com/chentuochao/LlamaPIE) ![L0][b-l0-9a9a9a]
+- Proactive Assistant Dialogue Generation from Streaming Egocentric Videos. [![EMNLP 2025][b-emnlp-2025-355774]](https://arxiv.org/abs/2506.05904) [![Code][b-code-3b434d-github]](https://github.com/pro-assist/ProAssist) [![Project][b-project-3b434d]](https://pro-assist.github.io/) ![L0][b-l0-9a9a9a]
+- ProMemAssist: Exploring Timely Proactive Assistance Through Working Memory Modeling in Multi-Modal Wearable Devices. [![UIST 2025][b-uist-2025-355774]](https://arxiv.org/abs/2507.21378) ![L0][b-l0-9a9a9a]
+- Sensible Agent: A Framework for Unobtrusive Interaction with Proactive AR Agents. [![UIST 2025][b-uist-2025-355774]](https://arxiv.org/abs/2509.09255) ![L0][b-l0-9a9a9a]
+- LTS-VoiceAgent: A Listen-Think-Speak Framework for Efficient Streaming Voice Interaction via Semantic Triggering and Incremental Reasoning. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2601.19952)
+- OmniInteract: Benchmarking Real-World Streaming Interaction for Real-Time Omnimodal Assistants. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.26485) [![Code][b-code-3b434d-github]](https://github.com/Lucky-Lance/OmniInteract)
+- PhoStream: Benchmarking Real-World Streaming for Omnimodal Assistants in Mobile Scenarios. [![ICML 2026][b-icml-2026-355774]](https://arxiv.org/abs/2601.22575) [![Code][b-code-3b434d-github]](https://github.com/Lucky-Lance/PhoStream)
+- V-Rex: Real-Time Streaming Video LLM Acceleration via Dynamic KV Cache Retrieval. [![HPCA 2026][b-hpca-2026-355774]](https://arxiv.org/abs/2512.12284)
+- Building Egocentric Procedural AI Assistant: Methods, Benchmarks, and Challenges. [![arXiv 2025][b-arxiv-2025-a1574a]](https://arxiv.org/abs/2511.13261) [![Code][b-code-3b434d-github]](https://github.com/z1oong/Building-Egocentric-Procedural-AI-Assistant) [![Project][b-project-3b434d]](https://github.com/z1oong/Building-Egocentric-Procedural-AI-Assistant)
+- A Full-duplex Speech Dialogue Scheme Based On Large Language Models. [![NeurIPS 2024][b-neurips-2024-355774]](https://arxiv.org/abs/2405.19487)
+- Beyond Turn-Based Interfaces: Synchronous LLMs as Full-Duplex Dialogue Agents. [![EMNLP 2024][b-emnlp-2024-355774]](https://arxiv.org/abs/2409.15594)
+- Large Language Models Know What To Say But Not When To Speak. [![Findings of EMNLP 2024][b-findings-of-emnlp-2024-355774]](https://doi.org/10.18653/v1/2024.findings-emnlp.909)
 
 <a id="sec-6-1-2"></a>
-#### Digital Workspace and Personal Services
+#### Digital Workspace and Personal Assistants
 
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.08311) Ouroboros: A Self-Developing Frontier Coding Agent with Reviewed Core Evolution. [![Code][b-code-3b434d-github]](https://github.com/razzant/ouroboros) ![L5][b-l5-6b4e17]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.21805) An Agentic Just-in-Time Adaptive Intervention System for Personalized Sleep Support: Proof-of-Concept Study with N of 1 Data. ![M→A][b-m-to-a-556b88] ![L3][b-l3-b8924a]
-- [![UIST 2026][b-uist-2026-355774]](https://arxiv.org/abs/2608.04274) Compass: Continuously Aligning Social Media Feeds via In-Situ Reflections. ![S→A][b-s-to-a-556b88] ![M→A][b-m-to-a-556b88] ![L3][b-l3-b8924a]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2604.08000) PASK: Toward Intent-Aware Proactive Agents with Long-Term Memory. ![M→A][b-m-to-a-556b88] ![L3][b-l3-b8924a]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.16707) User as Code: Executable Memory for Personalized Agents. ![M→A][b-m-to-a-556b88] ![L3][b-l3-b8924a]
-- [![CHI 2026][b-chi-2026-355774]](https://arxiv.org/abs/2509.24073) "Having Lunch Now": Understanding How Users Engage with a Proactive Agent for Daily Planning and Self-Reflection. ![A→S][b-a-to-s-607a6d] ![A→M][b-a-to-m-9d675d] ![L2][b-l2-6b7785]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.24706) "MeBo Leaves a Piece of You Behind": Designing a Relational Voice-Based Memory Companion for Older Adults. ![M→A][b-m-to-a-556b88] ![L2][b-l2-6b7785]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.13940) A Self-Evolving Agent for Longitudinal Personal Health Management. [![Code][b-code-3b434d-github]](https://github.com/HC-Guo/HealthClaw) ![L2][b-l2-6b7785]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.40492) Agentic University: Collaborative Agents for Personalized Learning. [![Code][b-code-3b434d-github]](https://github.com/AgenticOrgLab/AgenticUniversity.git) ![M→A][b-m-to-a-556b88] ![A→M][b-a-to-m-9d675d] ![L2][b-l2-6b7785]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.06110) ECHO: A Locally-Deployable Agentic Health Assistant with Temporal Memory, Safety Guardrails, and Speech Assessment. ![M→A][b-m-to-a-556b88] ![L2][b-l2-6b7785]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.12625) KnowAct-GUIClaw: Know Deeply, Act Perfectly, Personal GUI Assistant with Self-Evolving Memory and Skill. [![Code][b-code-3b434d-github]](https://github.com/HITsz-TMG/KnowAct) ![A→S][b-a-to-s-607a6d] ![A→M][b-a-to-m-9d675d] ![L2][b-l2-6b7785]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.39976) Richard: Voice-First Mobile Interaction for Persistent Tasks. ![L2][b-l2-6b7785]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.00478) Ekova: A Personality-Support Agent for Self-Discovery Dialogue. [![Code][b-code-3b434d-github]](https://github.com/Yukyin/Ekova) ![L1][b-l1-868e98]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.22794) MOSS: Self-Evolution through Source-Level Rewriting in Autonomous Agent Systems. [![Code][b-code-3b434d-github]](https://github.com/hkgai-official/Moss) ![L1][b-l1-868e98]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.08699) nanoMuse: An Open-Source Personal Agent for Every Device You Own. [![Code][b-code-3b434d-github]](https://github.com/nano-muse/nanoMuse) ![L1][b-l1-868e98]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.14777) JoyAI-VL-Interaction: Real-Time Vision-Language Interaction Intelligence. [![Code][b-code-3b434d-github]](https://github.com/jd-opensource/JoyAI-VL-Interaction) ![L0][b-l0-9a9a9a]
-- [![ICLR 2026][b-iclr-2026-355774]](https://arxiv.org/abs/2510.04618) Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models. [![Code][b-code-3b434d-github]](https://github.com/ace-agent/ace)
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.20622) Darwin Mobile Agent: A Roadmap for Self-Evolution.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2602.21548) DualPath: Breaking the Storage Bandwidth Bottleneck in Agentic LLM Inference.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.16157) FreeToken: Efficient Edge-Native MoE Serving with Bandwidth-Adaptive Execution. [![Code][b-code-3b434d-github]](https://github.com/FlashML-org/FreeToken)
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.14502) From Chatbot to Digital Colleague: The Paradigm Shift Toward Persistent Autonomous AI.
-- [![CVPR 2026][b-cvpr-2026-355774]](https://arxiv.org/abs/2605.31365) Learning to Adapt: Self-Improving Web Agent via Cognitive-Aware Exploration.
-- [![ICLR 2026][b-iclr-2026-355774]](https://arxiv.org/abs/2509.25140) ReasoningBank: Scaling Agent Self-Evolving with Reasoning Memory. [![Code][b-code-3b434d-github]](https://github.com/google-research/reasoning-bank)
-- [![ICML 2026][b-icml-2026-355774]](https://arxiv.org/abs/2605.16883) SE-GA: Memory-Augmented Self-Evolution for GUI Agents. [![Code][b-code-3b434d-github]](https://github.com/jinshilong-dev/SE-GA)
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.18890) Skill-Guided Continuation Distillation for GUI Agents.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.20636) SkillHarness: Harnessing Safe Skills for Computer-Use Agents. [![Code][b-code-3b434d-github]](https://github.com/YurunChen/SkillHarness)
+- Ouroboros: A Self-Developing Frontier Coding Agent with Reviewed Core Evolution. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.08311) [![Code][b-code-3b434d-github]](https://github.com/razzant/ouroboros) ![L5][b-l5-6b4e17]
+- An Agentic Just-in-Time Adaptive Intervention System for Personalized Sleep Support: Proof-of-Concept Study with N of 1 Data. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.21805) ![M→A][b-m-to-a-556b88] ![L3][b-l3-b8924a]
+- Compass: Continuously Aligning Social Media Feeds via In-Situ Reflections. [![UIST 2026][b-uist-2026-355774]](https://arxiv.org/abs/2608.04274) ![S→A][b-s-to-a-556b88] ![M→A][b-m-to-a-556b88] ![L3][b-l3-b8924a]
+- PASK: Toward Intent-Aware Proactive Agents with Long-Term Memory. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2604.08000) ![M→A][b-m-to-a-556b88] ![L3][b-l3-b8924a]
+- User as Code: Executable Memory for Personalized Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.16707) ![M→A][b-m-to-a-556b88] ![L3][b-l3-b8924a]
+- "Having Lunch Now": Understanding How Users Engage with a Proactive Agent for Daily Planning and Self-Reflection. [![CHI 2026][b-chi-2026-355774]](https://arxiv.org/abs/2509.24073) ![A→S][b-a-to-s-607a6d] ![A→M][b-a-to-m-9d675d] ![L2][b-l2-6b7785]
+- "MeBo Leaves a Piece of You Behind": Designing a Relational Voice-Based Memory Companion for Older Adults. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.24706) ![M→A][b-m-to-a-556b88] ![L2][b-l2-6b7785]
+- A Self-Evolving Agent for Longitudinal Personal Health Management. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.13940) [![Code][b-code-3b434d-github]](https://github.com/HC-Guo/HealthClaw) ![L2][b-l2-6b7785]
+- Agentic University: Collaborative Agents for Personalized Learning. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.40492) [![Code][b-code-3b434d-github]](https://github.com/AgenticOrgLab/AgenticUniversity.git) ![M→A][b-m-to-a-556b88] ![A→M][b-a-to-m-9d675d] ![L2][b-l2-6b7785]
+- ECHO: A Locally-Deployable Agentic Health Assistant with Temporal Memory, Safety Guardrails, and Speech Assessment. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.06110) ![M→A][b-m-to-a-556b88] ![L2][b-l2-6b7785]
+- KnowAct-GUIClaw: Know Deeply, Act Perfectly, Personal GUI Assistant with Self-Evolving Memory and Skill. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.12625) [![Code][b-code-3b434d-github]](https://github.com/HITsz-TMG/KnowAct) ![A→S][b-a-to-s-607a6d] ![A→M][b-a-to-m-9d675d] ![L2][b-l2-6b7785]
+- Richard: Voice-First Mobile Interaction for Persistent Tasks. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.39976) ![L2][b-l2-6b7785]
+- Ekova: A Personality-Support Agent for Self-Discovery Dialogue. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.00478) [![Code][b-code-3b434d-github]](https://github.com/Yukyin/Ekova) ![L1][b-l1-868e98]
+- MOSS: Self-Evolution through Source-Level Rewriting in Autonomous Agent Systems. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.22794) [![Code][b-code-3b434d-github]](https://github.com/hkgai-official/Moss) ![L1][b-l1-868e98]
+- nanoMuse: An Open-Source Personal Agent for Every Device You Own. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.08699) [![Code][b-code-3b434d-github]](https://github.com/nano-muse/nanoMuse) ![L1][b-l1-868e98]
+- JoyAI-VL-Interaction: Real-Time Vision-Language Interaction Intelligence. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.14777) [![Code][b-code-3b434d-github]](https://github.com/jd-opensource/JoyAI-VL-Interaction) ![L0][b-l0-9a9a9a]
+- Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models. [![ICLR 2026][b-iclr-2026-355774]](https://arxiv.org/abs/2510.04618) [![Code][b-code-3b434d-github]](https://github.com/ace-agent/ace)
+- Darwin Mobile Agent: A Roadmap for Self-Evolution. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.20622)
+- DualPath: Breaking the Storage Bandwidth Bottleneck in Agentic LLM Inference. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2602.21548)
+- FreeToken: Efficient Edge-Native MoE Serving with Bandwidth-Adaptive Execution. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.16157) [![Code][b-code-3b434d-github]](https://github.com/FlashML-org/FreeToken)
+- From Chatbot to Digital Colleague: The Paradigm Shift Toward Persistent Autonomous AI. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.14502)
+- Learning to Adapt: Self-Improving Web Agent via Cognitive-Aware Exploration. [![CVPR 2026][b-cvpr-2026-355774]](https://arxiv.org/abs/2605.31365)
+- ReasoningBank: Scaling Agent Self-Evolving with Reasoning Memory. [![ICLR 2026][b-iclr-2026-355774]](https://arxiv.org/abs/2509.25140) [![Code][b-code-3b434d-github]](https://github.com/google-research/reasoning-bank)
+- SE-GA: Memory-Augmented Self-Evolution for GUI Agents. [![ICML 2026][b-icml-2026-355774]](https://arxiv.org/abs/2605.16883) [![Code][b-code-3b434d-github]](https://github.com/jinshilong-dev/SE-GA)
+- Skill-Guided Continuation Distillation for GUI Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.18890)
+- SkillHarness: Harnessing Safe Skills for Computer-Use Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.20636) [![Code][b-code-3b434d-github]](https://github.com/YurunChen/SkillHarness)
 
 <a id="sec-6-1-3"></a>
 #### Physical Assistance and Collaboration
 
-- [![Cureus 2025][b-cureus-2025-355774]](https://doi.org/10.7759/cureus.77635) The Long-Term Use of Communication Robots by Users of Visiting Healthcare Services: Development of an Integrated Vital Signs Measurement System. ![L4][b-l4-9a7430]
-- [![IJSR 2023][b-ijsr-2023-355774]](https://doi.org/10.1007/s12369-021-00843-0) Integrating Social Assistive Robots, IoT, Virtual Communities and Smart Objects to Assist at-Home Independently Living Elders: the MoveCare Project. ![L4][b-l4-9a7430]
-- [![J. Robotics 2018][b-j-robotics-2018-355774]](https://doi.org/10.1155/2018/1754657) Hobbit: Providing Fall Detection and Prevention for the Elderly in the Real World. ![L4][b-l4-9a7430]
-- [![IEEE RAM 2017][b-ieee-ram-2017-355774]](https://arxiv.org/abs/1604.04384) The STRANDS Project: Long-Term Autonomy in Everyday Environments. ![L4][b-l4-9a7430]
-- [![arXiv 2025][b-arxiv-2025-a1574a]](https://arxiv.org/abs/2509.11914) EgoMem: Lifelong Memory Agent for Full-duplex Omnimodal Models. ![L3][b-l3-b8924a]
-- [![JARLife 2024][b-jarlife-2024-355774]](https://doi.org/10.14283/jarlife.2024.2) ElliQ, an AI-Driven Social Robot to Alleviate Loneliness: Progress and Lessons Learned. ![L3][b-l3-b8924a] ![Product][b-product-8a6400]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.11377) A Glimpse into Long-term Physical Coexistence with Intelligent Robots. ![L2][b-l2-6b7785]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.21453) CarryOn: A Dual-Loop Harness for Personalized and Reliable Robot Assistance. ![M→A][b-m-to-a-556b88] ![L2][b-l2-6b7785]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.20330) RoboFind: Multi-Agent Personalized Object Search for People Who Are Blind or Have Low Vision. ![L2][b-l2-6b7785]
-- [![IROS 2025][b-iros-2025-355774]](https://arxiv.org/abs/2409.17655) AssistantX: An LLM-Powered Proactive Assistant in Collaborative Human-Populated Environments. [![Code][b-code-3b434d-github]](https://github.com/AssistantX-Agent/AssistantX) [![Project][b-project-3b434d]](https://assistantx-agent.github.io/AssistantX/) ![A→S][b-a-to-s-607a6d] ![A→M][b-a-to-m-9d675d] ![L2][b-l2-6b7785]
+- The Long-Term Use of Communication Robots by Users of Visiting Healthcare Services: Development of an Integrated Vital Signs Measurement System. [![Cureus 2025][b-cureus-2025-355774]](https://doi.org/10.7759/cureus.77635) ![L4][b-l4-9a7430]
+- Integrating Social Assistive Robots, IoT, Virtual Communities and Smart Objects to Assist at-Home Independently Living Elders: the MoveCare Project. [![IJSR 2023][b-ijsr-2023-355774]](https://doi.org/10.1007/s12369-021-00843-0) ![L4][b-l4-9a7430]
+- Hobbit: Providing Fall Detection and Prevention for the Elderly in the Real World. [![J. Robotics 2018][b-j-robotics-2018-355774]](https://doi.org/10.1155/2018/1754657) ![L4][b-l4-9a7430]
+- The STRANDS Project: Long-Term Autonomy in Everyday Environments. [![IEEE RAM 2017][b-ieee-ram-2017-355774]](https://arxiv.org/abs/1604.04384) ![L4][b-l4-9a7430]
+- EgoMem: Lifelong Memory Agent for Full-duplex Omnimodal Models. [![arXiv 2025][b-arxiv-2025-a1574a]](https://arxiv.org/abs/2509.11914) ![L3][b-l3-b8924a]
+- ElliQ, an AI-Driven Social Robot to Alleviate Loneliness: Progress and Lessons Learned. [![JARLife 2024][b-jarlife-2024-355774]](https://doi.org/10.14283/jarlife.2024.2) ![L3][b-l3-b8924a] ![Product][b-product-8a6400]
+- A Glimpse into Long-term Physical Coexistence with Intelligent Robots. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.11377) ![L2][b-l2-6b7785]
+- CarryOn: A Dual-Loop Harness for Personalized and Reliable Robot Assistance. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.21453) ![M→A][b-m-to-a-556b88] ![L2][b-l2-6b7785]
+- RoboFind: Multi-Agent Personalized Object Search for People Who Are Blind or Have Low Vision. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.20330) ![L2][b-l2-6b7785]
+- AssistantX: An LLM-Powered Proactive Assistant in Collaborative Human-Populated Environments. [![IROS 2025][b-iros-2025-355774]](https://arxiv.org/abs/2409.17655) [![Code][b-code-3b434d-github]](https://github.com/AssistantX-Agent/AssistantX) [![Project][b-project-3b434d]](https://assistantx-agent.github.io/AssistantX/) ![A→S][b-a-to-s-607a6d] ![A→M][b-a-to-m-9d675d] ![L2][b-l2-6b7785]
 
 <a id="sec-6-2"></a>
 ### Shared Conditions and Implementation Across Modules
@@ -843,131 +975,179 @@ How Sensing, Memory, and Action work together in wearable, digital, and physical
 <a id="sec-6-2-1"></a>
 #### Shared Conditions
 
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2604.08224) Externalization in LLM Agents: A Unified Review of Memory, Skills, Protocols and Harness Engineering.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.26025) In-Context World Modeling for Robotic Control.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.17128) Toward Personal Intelligence Through Cooperative Observation.
-- [![ACM TIOT 2025][b-acm-tiot-2025-355774]](https://arxiv.org/abs/2504.03360) Sustainable LLM Inference for Edge AI: Evaluating Quantized LLMs for Energy Efficiency, Output Accuracy, and Inference Latency.
+- Externalization in LLM Agents: A Unified Review of Memory, Skills, Protocols and Harness Engineering. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2604.08224)
+- In-Context World Modeling for Robotic Control. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.26025)
+- Practice Makes Unsafe: Skill Misevolution in Self-Improving LLM Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.12851) [![Code][b-code-3b434d-github]](https://github.com/henrymao2004/misevolve)
+- Toward Personal Intelligence Through Cooperative Observation. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.17128)
+- Your Agent May Misevolve: Emergent Risks in Self-evolving LLM Agents. [![ICLR 2026][b-iclr-2026-355774]](https://arxiv.org/abs/2509.26354) [![Code][b-code-3b434d-github]](https://github.com/ShaoShuai0605/Misevolution)
+- Sustainable LLM Inference for Edge AI: Evaluating Quantized LLMs for Energy Efficiency, Output Accuracy, and Inference Latency. [![ACM TIOT 2025][b-acm-tiot-2025-355774]](https://arxiv.org/abs/2504.03360)
 
 <a id="sec-6-2-2"></a>
 #### Implementation: Organizing Context Across Requests
 
-- [![NeurIPS Workshop 2026][b-neurips-workshop-2026-355774]](https://arxiv.org/abs/2609.10144) Kernel-Managed Shared Memory for System-Wide Personalization.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.26530) PILOT in the Loop: Live Self-Improvement for Long-Horizon Agents.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.25195) Qwen-Audio-Agent Technical Report.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.09497) Ream: Unfolding Mutual Awareness in Human-Agent Workspaces. ![S→M][b-s-to-m-9d675d] ![M→A][b-m-to-a-556b88]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.01490) The Persona Is Still There, but Who Is Speaking? Latent Identity Reversion in Persistent AI Agents.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.30893) Working Through Representation: Malleable Workspaces for Human-Agent Knowledge Work. ![M→A][b-m-to-a-556b88] ![A→M][b-a-to-m-9d675d]
+- Kernel-Managed Shared Memory for System-Wide Personalization. [![NeurIPS Workshop 2026][b-neurips-workshop-2026-355774]](https://arxiv.org/abs/2609.10144)
+- PILOT in the Loop: Live Self-Improvement for Long-Horizon Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.26530)
+- Qwen-Audio-Agent Technical Report. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.25195)
+- Ream: Unfolding Mutual Awareness in Human-Agent Workspaces. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.09497) ![S→M][b-s-to-m-9d675d] ![M→A][b-m-to-a-556b88]
+- The Persona Is Still There, but Who Is Speaking? Latent Identity Reversion in Persistent AI Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.01490)
+- Working Through Representation: Malleable Workspaces for Human-Agent Knowledge Work. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.30893) ![M→A][b-m-to-a-556b88] ![A→M][b-a-to-m-9d675d]
 
 <a id="sec-6-3"></a>
 ### Levels of Loop Closure
 
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.28691) Code Is the Body: Agent-Owned Software Bodies for Recursive Evolution and Descent. ![Digital][b-digital-a39a87] ![L5][b-l5-6b4e17]
-- [![AAAI 2025][b-aaai-2025-355774]](https://arxiv.org/abs/2409.02069) A Deployed Online Reinforcement Learning Algorithm In An Oral Health Clinical Trial. ![Digital][b-digital-a39a87] ![L5][b-l5-6b4e17]
-- [![arXiv 2024][b-arxiv-2024-a1574a]](https://arxiv.org/abs/2408.15076) MiWaves Reinforcement Learning Algorithm. ![Digital][b-digital-a39a87] ![L5][b-l5-6b4e17]
-- [![IMWUT 2020][b-imwut-2020-355774]](https://arxiv.org/abs/1909.03539) Personalized HeartSteps: A Reinforcement Learning Algorithm for Optimizing Physical Activity. ![Wearable][b-wearable-a39a87] ![L5][b-l5-6b4e17]
-- [![ICLR 2026][b-iclr-2026-355774]](https://arxiv.org/abs/2509.21730) ProPerSim: Developing Proactive and Personalized AI Assistants through User-Assistant Simulation. ![Digital][b-digital-a39a87] ![A→M][b-a-to-m-9d675d] ![L4][b-l4-9a7430]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.28910) Robots That Take Initiative: A Framework for Building and Evaluating Proactive Robots. ![Physical][b-physical-a39a87] ![A→S][b-a-to-s-607a6d] ![L4][b-l4-9a7430]
-- [![JMIR 2024][b-jmir-2024-355774]](https://doi.org/10.2196/60834) Effectiveness of a Digital Health Intervention Leveraging Reinforcement Learning: Results From the Diabetes and Mental Health Adaptive Notification Tracking and Evaluation (DIAMANTE) Randomized Clinical Trial. ![Digital][b-digital-a39a87] ![L4][b-l4-9a7430]
-- [![CHI 2024][b-chi-2024-355774]](https://arxiv.org/abs/2403.05584) Time2Stop: Adaptive and Explainable Human-AI Loop for Smartphone Overuse Intervention. ![Digital][b-digital-a39a87] ![L4][b-l4-9a7430]
-- [![RA-L 2020][b-ra-l-2020-355774]](https://arxiv.org/abs/2006.09019) Lio – A Personal Robot Assistant for Human-Robot Interaction and Care Applications. ![Physical][b-physical-a39a87] ![L4][b-l4-9a7430] ![Product][b-product-8a6400]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.25971) Anticipate and Learn: Unleashing Idle-Time Compute in Proactive Agents. [![Code][b-code-3b434d-github]](https://github.com/AgentACE-AI/ProAct) ![Digital][b-digital-a39a87] ![M→S][b-m-to-s-607a6d] ![L3][b-l3-b8924a]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.09625) AwareLLM: A Proactive Multimodal Ecosystem for Personalized Human-AI Collaboration to Enhance Productivity. ![Digital][b-digital-a39a87] ![L3][b-l3-b8924a]
-- [![ICLR 2025][b-iclr-2025-355774]](https://arxiv.org/abs/2410.12361) Proactive Agent: Shifting LLM Agents from Reactive Responses to Active Assistance. [![Code][b-code-3b434d-github]](https://github.com/thunlp/proactiveagent) ![Digital][b-digital-a39a87] ![L3][b-l3-b8924a]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.10350) ABot-AgentOS: A General Robotic Agent OS with Lifelong Multi-modal Memory. [![Code][b-code-3b434d-github]](https://github.com/amap-cvlab/ABot-AgentOS) ![Physical][b-physical-a39a87] ![L2][b-l2-6b7785]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2604.10096) ABot-Claw: A Foundation for Persistent, Cooperative, and Self-Evolving Robotic Agents. ![Physical][b-physical-a39a87] ![A→S][b-a-to-s-607a6d] ![L2][b-l2-6b7785]
-- [![CHI 2026][b-chi-2026-355774]](https://arxiv.org/abs/2510.05449) Bloom: Designing for LLM-Augmented Behavior Change Interactions. ![Digital][b-digital-a39a87] ![L2][b-l2-6b7785]
-- [![WWW 2026][b-www-2026-355774]](https://arxiv.org/abs/2603.01104) Egocentric Co-Pilot: Web-Native Smart-Glasses Agents for Assistive Egocentric AI. ![Wearable][b-wearable-a39a87] ![A→S][b-a-to-s-607a6d] ![L2][b-l2-6b7785]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2602.16173) Learning Personalized Agents from Human Feedback. [![Code][b-code-3b434d-github]](https://github.com/facebookresearch/PAHF) ![Digital][b-digital-a39a87] ![M→S][b-m-to-s-607a6d] ![L2][b-l2-6b7785]
-- [![ICLR 2026][b-iclr-2026-355774]](https://arxiv.org/abs/2508.09736) Seeing, Listening, Remembering, and Reasoning: A Multimodal Agent with Long-Term Memory. [![Code][b-code-3b434d-github]](https://github.com/ByteDance-Seed/m3-agent) ![Wearable][b-wearable-a39a87] ![M→S][b-m-to-s-607a6d] ![L2][b-l2-6b7785]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.16295) VisualClaw: A Real-Time, Personalized Agent for the Physical World. [![Code][b-code-3b434d-github]](https://github.com/UCSC-VLAA/VisualClaw) ![Digital][b-digital-a39a87] ![L2][b-l2-6b7785]
-- [![EMNLP 2025][b-emnlp-2025-355774]](https://arxiv.org/abs/2506.06326) Memory OS of AI Agent. [![Code][b-code-3b434d-github]](https://github.com/BAI-LAB/MemoryOS) ![Digital][b-digital-a39a87] ![L2][b-l2-6b7785]
-- [![AAAI 2024][b-aaai-2024-355774]](https://arxiv.org/abs/2305.10250) MemoryBank: Enhancing Large Language Models with Long-Term Memory. [![Code][b-code-3b434d-github]](https://github.com/zhongwanjun/memorybank-siliconfriend) ![Digital][b-digital-a39a87] ![L2][b-l2-6b7785]
-- [![CHI 2024][b-chi-2024-355774]](https://arxiv.org/abs/2309.16639) MindShift: Leveraging Large Language Models for Mental-States-Based Problematic Smartphone Use Intervention. ![Digital][b-digital-a39a87] ![L2][b-l2-6b7785]
-- [![CHI 2024][b-chi-2024-355774]](https://arxiv.org/abs/2402.11353) Understanding the Impact of Long-Term Memory on Self-Disclosure with Large Language Model-Driven Chatbots for Public Health Intervention. ![Digital][b-digital-a39a87] ![L2][b-l2-6b7785]
-- [![arXiv 2024][b-arxiv-2024-a1574a]](https://arxiv.org/abs/2412.21080) Vinci: A Real-time Embodied Smart Assistant based on Egocentric Vision-Language Model. [![Code][b-code-3b434d-github]](https://github.com/OpenGVLab/vinci) ![Wearable][b-wearable-a39a87] ![L2][b-l2-6b7785]
-- [![arXiv 2023][b-arxiv-2023-a1574a]](https://arxiv.org/abs/2310.08560) MemGPT: Towards LLMs as Operating Systems. ![Digital][b-digital-a39a87] ![L2][b-l2-6b7785]
-- [![Front. Psychiatry 2026][b-front-psychiatry-2026-355774]](https://doi.org/10.3389/fpsyt.2026.1740539) Detection of Depression Risk among Older Adults Using Home-Deployed Socially Assistive Robots: A Real-World Study. ![Physical][b-physical-a39a87] ![L1][b-l1-868e98] ![Product][b-product-8a6400]
-- [![ICRA 2026][b-icra-2026-355774]](https://arxiv.org/abs/2508.05535) Mixed-Initiative Dialog for Human-Robot Collaborative Manipulation. [![Project][b-project-3b434d]](https://robin-lab.cs.utexas.edu/MicoBot/) ![Physical][b-physical-a39a87] ![L0][b-l0-9a9a9a]
-- [![NeurIPS 2025][b-neurips-2025-355774]](https://arxiv.org/abs/2505.14668) ContextAgent: Context-Aware Proactive LLM Agents with Open-World Sensory Perceptions. [![Code][b-code-3b434d-github]](https://github.com/openaiotlab/ContextAgent) ![Wearable][b-wearable-a39a87] ![A→S][b-a-to-s-607a6d] ![L0][b-l0-9a9a9a]
-- [![J. Clin. Med. 2026][b-j-clin-med-2026-355774]](https://doi.org/10.3390/jcm15010217) Socially Assistive Robot Hyodol for Depressive Symptoms of Community-Dwelling Older Adults in Medically Underserved Areas: A Preliminary Study. ![Physical][b-physical-a39a87] ![Product][b-product-8a6400]
+#### Wearable
+
+- Personalized HeartSteps: A Reinforcement Learning Algorithm for Optimizing Physical Activity. [![IMWUT 2020][b-imwut-2020-355774]](https://arxiv.org/abs/1909.03539) ![L5][b-l5-6b4e17]
+- Egocentric Co-Pilot: Web-Native Smart-Glasses Agents for Assistive Egocentric AI. [![WWW 2026][b-www-2026-355774]](https://arxiv.org/abs/2603.01104) ![A→S][b-a-to-s-607a6d] ![L2][b-l2-6b7785]
+- Seeing, Listening, Remembering, and Reasoning: A Multimodal Agent with Long-Term Memory. [![ICLR 2026][b-iclr-2026-355774]](https://arxiv.org/abs/2508.09736) [![Code][b-code-3b434d-github]](https://github.com/ByteDance-Seed/m3-agent) ![M→S][b-m-to-s-607a6d] ![L2][b-l2-6b7785]
+- Vinci: A Real-time Embodied Smart Assistant based on Egocentric Vision-Language Model. [![arXiv 2024][b-arxiv-2024-a1574a]](https://arxiv.org/abs/2412.21080) [![Code][b-code-3b434d-github]](https://github.com/OpenGVLab/vinci) ![L2][b-l2-6b7785]
+- ContextAgent: Context-Aware Proactive LLM Agents with Open-World Sensory Perceptions. [![NeurIPS 2025][b-neurips-2025-355774]](https://arxiv.org/abs/2505.14668) [![Code][b-code-3b434d-github]](https://github.com/openaiotlab/ContextAgent) ![A→S][b-a-to-s-607a6d] ![L0][b-l0-9a9a9a]
+
+#### Digital
+
+- Code Is the Body: Agent-Owned Software Bodies for Recursive Evolution and Descent. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.28691) ![L5][b-l5-6b4e17]
+- A Deployed Online Reinforcement Learning Algorithm In An Oral Health Clinical Trial. [![AAAI 2025][b-aaai-2025-355774]](https://arxiv.org/abs/2409.02069) ![L5][b-l5-6b4e17]
+- MiWaves Reinforcement Learning Algorithm. [![arXiv 2024][b-arxiv-2024-a1574a]](https://arxiv.org/abs/2408.15076) ![L5][b-l5-6b4e17]
+- ProPerSim: Developing Proactive and Personalized AI Assistants through User-Assistant Simulation. [![ICLR 2026][b-iclr-2026-355774]](https://arxiv.org/abs/2509.21730) ![A→M][b-a-to-m-9d675d] ![L4][b-l4-9a7430]
+- Effectiveness of a Digital Health Intervention Leveraging Reinforcement Learning: Results From the Diabetes and Mental Health Adaptive Notification Tracking and Evaluation (DIAMANTE) Randomized Clinical Trial. [![JMIR 2024][b-jmir-2024-355774]](https://doi.org/10.2196/60834) ![L4][b-l4-9a7430]
+- Time2Stop: Adaptive and Explainable Human-AI Loop for Smartphone Overuse Intervention. [![CHI 2024][b-chi-2024-355774]](https://arxiv.org/abs/2403.05584) ![L4][b-l4-9a7430]
+- Anticipate and Learn: Unleashing Idle-Time Compute in Proactive Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.25971) [![Code][b-code-3b434d-github]](https://github.com/AgentACE-AI/ProAct) ![M→S][b-m-to-s-607a6d] ![L3][b-l3-b8924a]
+- AwareLLM: A Proactive Multimodal Ecosystem for Personalized Human-AI Collaboration to Enhance Productivity. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.09625) ![L3][b-l3-b8924a]
+- Proactive Agent: Shifting LLM Agents from Reactive Responses to Active Assistance. [![ICLR 2025][b-iclr-2025-355774]](https://arxiv.org/abs/2410.12361) [![Code][b-code-3b434d-github]](https://github.com/thunlp/proactiveagent) ![L3][b-l3-b8924a]
+- Bloom: Designing for LLM-Augmented Behavior Change Interactions. [![CHI 2026][b-chi-2026-355774]](https://arxiv.org/abs/2510.05449) ![L2][b-l2-6b7785]
+- Learning Personalized Agents from Human Feedback. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2602.16173) [![Code][b-code-3b434d-github]](https://github.com/facebookresearch/PAHF) ![M→S][b-m-to-s-607a6d] ![L2][b-l2-6b7785]
+- VisualClaw: A Real-Time, Personalized Agent for the Physical World. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.16295) [![Code][b-code-3b434d-github]](https://github.com/UCSC-VLAA/VisualClaw) ![L2][b-l2-6b7785]
+- Memory OS of AI Agent. [![EMNLP 2025][b-emnlp-2025-355774]](https://arxiv.org/abs/2506.06326) [![Code][b-code-3b434d-github]](https://github.com/BAI-LAB/MemoryOS) ![L2][b-l2-6b7785]
+- MemoryBank: Enhancing Large Language Models with Long-Term Memory. [![AAAI 2024][b-aaai-2024-355774]](https://arxiv.org/abs/2305.10250) [![Code][b-code-3b434d-github]](https://github.com/zhongwanjun/memorybank-siliconfriend) ![L2][b-l2-6b7785]
+- MindShift: Leveraging Large Language Models for Mental-States-Based Problematic Smartphone Use Intervention. [![CHI 2024][b-chi-2024-355774]](https://arxiv.org/abs/2309.16639) ![L2][b-l2-6b7785]
+- Understanding the Impact of Long-Term Memory on Self-Disclosure with Large Language Model-Driven Chatbots for Public Health Intervention. [![CHI 2024][b-chi-2024-355774]](https://arxiv.org/abs/2402.11353) ![L2][b-l2-6b7785]
+- MemGPT: Towards LLMs as Operating Systems. [![arXiv 2023][b-arxiv-2023-a1574a]](https://arxiv.org/abs/2310.08560) ![L2][b-l2-6b7785]
+
+#### Physical
+
+- Robots That Take Initiative: A Framework for Building and Evaluating Proactive Robots. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.28910) ![A→S][b-a-to-s-607a6d] ![L4][b-l4-9a7430]
+- ABot-AgentOS: A General Robotic Agent OS with Lifelong Multi-modal Memory. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.10350) [![Code][b-code-3b434d-github]](https://github.com/amap-cvlab/ABot-AgentOS) ![L2][b-l2-6b7785]
+- ABot-Claw: A Foundation for Persistent, Cooperative, and Self-Evolving Robotic Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2604.10096) ![A→S][b-a-to-s-607a6d] ![L2][b-l2-6b7785]
+- Mixed-Initiative Dialog for Human-Robot Collaborative Manipulation. [![ICRA 2026][b-icra-2026-355774]](https://arxiv.org/abs/2508.05535) [![Project][b-project-3b434d]](https://robin-lab.cs.utexas.edu/MicoBot/) ![L0][b-l0-9a9a9a]
+
+#### Physical products
+
+- Lio – A Personal Robot Assistant for Human-Robot Interaction and Care Applications. [![RA-L 2020][b-ra-l-2020-355774]](https://arxiv.org/abs/2006.09019) ![L4][b-l4-9a7430] ![Product][b-product-8a6400]
+- Detection of Depression Risk among Older Adults Using Home-Deployed Socially Assistive Robots: A Real-World Study. [![Front. Psychiatry 2026][b-front-psychiatry-2026-355774]](https://doi.org/10.3389/fpsyt.2026.1740539) ![L1][b-l1-868e98] ![Product][b-product-8a6400]
+- Socially Assistive Robot Hyodol for Depressive Symptoms of Community-Dwelling Older Adults in Medically Underserved Areas: A Preliminary Study. [![J. Clin. Med. 2026][b-j-clin-med-2026-355774]](https://doi.org/10.3390/jcm15010217) ![Product][b-product-8a6400]
 
 <a id="sec-6-4"></a>
 ### Self-Evolution in Deployed Loops
 
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.39122) Appreciation Teaches Unauthorized Execution: Self-Evolution Degrades the Robustness of Personal Agents to Indirect Prompt Injection. [![Code][b-code-3b434d-github]](https://github.com/SaFo-Lab/Evolve-IPI) ![M→A][b-m-to-a-556b88] ![A→M][b-a-to-m-9d675d]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.26853) COPE: Continual Personalization of LLMs under Sparse User Feedback via User Embeddings and Self-Evaluation. ![M→A][b-m-to-a-556b88] ![A→M][b-a-to-m-9d675d]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2602.03445) CRL-VLA: Continual Vision-Language-Action Learning.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.04141) Efficient Test-Time Adaptation through Human-AI Interaction. ![M→A][b-m-to-a-556b88] ![A→M][b-a-to-m-9d675d]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.10332) EmbodiSkill: Skill-Aware Reflection for Self-Evolving Embodied Agents.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.13941) EvolveMem: Self-Evolving Memory Architecture via AutoResearch for LLM Agents. [![Code][b-code-3b434d-github]](https://github.com/aiming-lab/SimpleMem)
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.36892) Harness Evolution as Learning: Approximation, Generalization, and Optimization Limits of Self-Improving Personal Agents.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.30621) Harness Updating Is Not Harness Benefit: Disentangling Evolution Capabilities in Self-Evolving LLM Agents. [![Code][b-code-3b434d-github]](https://github.com/A-EVO-Lab/a-evolve)
-- [![NeurIPS Workshop 2026][b-neurips-workshop-2026-355774]](https://arxiv.org/abs/2608.16114) HyperSkill: Self-Evolving LLM Agents via Hypergraph-Structured Skill Memory.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.08106) PACE: Anytime-Valid Acceptance Tests for Self-Evolving Agents.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.14855) PEAM: On-device Communication Agent for Personalized, Efficient and Autonomous Mobile Network Configuration. ![M→A][b-m-to-a-556b88] ![A→M][b-a-to-m-9d675d]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.02885) PsyEvo: A Personalized Counseling Agent That Self-Evolves at Test Time. [![Code][b-code-3b434d-github]](https://github.com/Lingxi-mental-health/PsyEvo) ![M→A][b-m-to-a-556b88] ![A→M][b-a-to-m-9d675d]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2611.01581) Recursive Self-Improvement of Exoskeleton Assistance Policies through Human-in-the-Loop Feedback.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.09629) Rethinking Self-Evolving Agents: Do We Still Need Prescribed Optimization Pipelines?
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.35596) SEABench: Benchmarking Endogenous Misalignment In Self-Evolving Agents.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.11350) Self-Evolving Embodied Agents via Skill-Harness Evolution.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.01314) SkillSmith: Co-Evolving Skills and Tools for Self-Improving Agent Systems.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2604.14399) SpaceMind: A Modular and Self-Evolving Embodied Vision-Language Agent Framework for Autonomous On-orbit Servicing. [![Code][b-code-3b434d-github]](https://github.com/wuaodi/SpaceMind)
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.14852) Towards Human-like Physical Intelligence: Lifelong Vision-Language-Action Learning for Robotic Manipulation.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.16590) Zetta ζ: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence. [![Code][b-code-3b434d-github]](https://github.com/air-embodied-brain/Zetta-Embodiment)
-- [![arXiv 2025][b-arxiv-2025-a1574a]](https://arxiv.org/abs/2506.13131) AlphaEvolve: A coding agent for scientific and algorithmic discovery.
-- [![NeurIPS 2025][b-neurips-2025-355774]](https://arxiv.org/abs/2506.21669) SEEA-R1: Tree-Structured Reinforcement Fine-Tuning for Self-Evolving Embodied Agents.
-- [![NeurIPS 2025][b-neurips-2025-355774]](https://arxiv.org/abs/2506.10943) Self-Adapting Language Models.
-- [![arXiv 2025][b-arxiv-2025-a1574a]](https://arxiv.org/abs/2511.14759) π&#42;0.6: a VLA That Learns From Experience.
+#### Why revision is harder inside an always-on assistant
+
+- CRL-VLA: Continual Vision-Language-Action Learning. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2602.03445)
+- HyperSkill: Self-Evolving LLM Agents via Hypergraph-Structured Skill Memory. [![NeurIPS Workshop 2026][b-neurips-workshop-2026-355774]](https://arxiv.org/abs/2608.16114)
+- Rethinking Self-Evolving Agents: Do We Still Need Prescribed Optimization Pipelines? [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.09629)
+- Self-Evolving Embodied Agents via Skill-Harness Evolution. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.11350)
+- SpaceMind: A Modular and Self-Evolving Embodied Vision-Language Agent Framework for Autonomous On-orbit Servicing. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2604.14399) [![Code][b-code-3b434d-github]](https://github.com/wuaodi/SpaceMind)
+- Towards Human-like Physical Intelligence: Lifelong Vision-Language-Action Learning for Robotic Manipulation. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.14852)
+- Zetta ζ: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.16590) [![Code][b-code-3b434d-github]](https://github.com/air-embodied-brain/Zetta-Embodiment)
+- AlphaEvolve: A coding agent for scientific and algorithmic discovery. [![arXiv 2025][b-arxiv-2025-a1574a]](https://arxiv.org/abs/2506.13131)
+- SEEA-R1: Tree-Structured Reinforcement Fine-Tuning for Self-Evolving Embodied Agents. [![NeurIPS 2025][b-neurips-2025-355774]](https://arxiv.org/abs/2506.21669)
+- Self-Adapting Language Models. [![NeurIPS 2025][b-neurips-2025-355774]](https://arxiv.org/abs/2506.10943)
+- π&#42;0.6: a VLA That Learns From Experience. [![arXiv 2025][b-arxiv-2025-a1574a]](https://arxiv.org/abs/2511.14759)
+
+#### What a revision changes
+
+- Recursive Self-Improvement of Exoskeleton Assistance Policies through Human-in-the-Loop Feedback. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2611.01581)
+
+#### Revising model parameters from personal feedback
+
+- COPE: Continual Personalization of LLMs under Sparse User Feedback via User Embeddings and Self-Evaluation. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.26853) ![M→A][b-m-to-a-556b88] ![A→M][b-a-to-m-9d675d]
+- Efficient Test-Time Adaptation through Human-AI Interaction. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.04141) ![M→A][b-m-to-a-556b88] ![A→M][b-a-to-m-9d675d]
+- PsyEvo: A Personalized Counseling Agent That Self-Evolves at Test Time. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.02885) [![Code][b-code-3b434d-github]](https://github.com/Lingxi-mental-health/PsyEvo) ![M→A][b-m-to-a-556b88] ![A→M][b-a-to-m-9d675d]
+
+#### Revising prompts and written instructions
+
+- EmbodiSkill: Skill-Aware Reflection for Self-Evolving Embodied Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.10332)
+- PACE: Anytime-Valid Acceptance Tests for Self-Evolving Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.08106)
+- PEAM: On-device Communication Agent for Personalized, Efficient and Autonomous Mobile Network Configuration. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.14855) ![M→A][b-m-to-a-556b88] ![A→M][b-a-to-m-9d675d]
+
+#### Revising storage and retrieval rules
+
+- EvolveMem: Self-Evolving Memory Architecture via AutoResearch for LLM Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.13941) [![Code][b-code-3b434d-github]](https://github.com/aiming-lab/SimpleMem)
+
+#### Revising tools and APIs
+
+- SkillSmith: Co-Evolving Skills and Tools for Self-Improving Agent Systems. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.01314)
+
+#### Revising the harness while the assistant runs
+
+- Harness Evolution as Learning: Approximation, Generalization, and Optimization Limits of Self-Improving Personal Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.36892)
+
+#### Which revisions are governed
+
+- Appreciation Teaches Unauthorized Execution: Self-Evolution Degrades the Robustness of Personal Agents to Indirect Prompt Injection. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.39122) [![Code][b-code-3b434d-github]](https://github.com/SaFo-Lab/Evolve-IPI) ![M→A][b-m-to-a-556b88] ![A→M][b-a-to-m-9d675d]
+- Harness Updating Is Not Harness Benefit: Disentangling Evolution Capabilities in Self-Evolving LLM Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.30621) [![Code][b-code-3b434d-github]](https://github.com/A-EVO-Lab/a-evolve)
+- SEABench: Benchmarking Endogenous Misalignment In Self-Evolving Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.35596)
 
 ---
 
 <a id="sec-8"></a>
 ## <img src="assets/icons/evolution.svg" height="30" align="top" alt=""/> Trends and Open Problems
 
-Three research needs: preserving opportunities to observe change, keeping retained state correctable, and testing why a mechanism revision is justified and whether it helps later.
+Where current always-on systems fall short, stated as open problems in four parts: sustaining the continuing loop; authority, privacy, and safety; self-evolution and recursive revision; and longitudinal evaluation and real deployment.
 
 <a id="sec-8-1"></a>
-### Local Policies for Always-On Assistance
+### Sustaining the Continuing Loop
 
-- [![ICML 2026][b-icml-2026-355774]](https://arxiv.org/abs/2605.28293) ProRL: Effective Reinforcement Learning for Proactive Recommendation via Rectified Policy Gradient Estimation. [![Code][b-code-3b434d-github]](https://github.com/hongruhou89/ProRL)
+- ProRL: Effective Reinforcement Learning for Proactive Recommendation via Rectified Policy Gradient Estimation. [![ICML 2026][b-icml-2026-355774]](https://arxiv.org/abs/2605.28293) [![Code][b-code-3b434d-github]](https://github.com/hongruhou89/ProRL)
 
 <a id="sec-8-3"></a>
 ### Self-Evolution and Recursive Revision
 
-- [![AAMAS 2026][b-aamas-2026-355774]](https://arxiv.org/abs/2510.25616) Don't Blind Your VLA: Aligning Visual Representations for OOD Generalization. [![Code][b-code-3b434d-github]](https://github.com/CognitiveAISystems/BlindVLA)
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2603.19461) Hyperagents. [![Code][b-code-3b434d-github]](https://github.com/facebookresearch/Hyperagents)
-- [![ICLR Workshop 2026][b-iclr-workshop-2026-355774]](https://arxiv.org/abs/2602.07755) Learning to Continually Learn via Meta-learning Agentic Memory Designs. [![Code][b-code-3b434d-github]](https://github.com/zksha/alma)
-- [![ICML Workshop 2026][b-icml-workshop-2026-355774]](https://arxiv.org/abs/2604.00830) Learning to Learn-at-Test-Time: Language Agents with Learnable Adaptation Policies. [![Code][b-code-3b434d-github]](https://github.com/zzzlou/meta-ttl)
-- [![ICML Workshop 2026][b-icml-workshop-2026-355774]](https://arxiv.org/abs/2605.19576) Library Drift: Diagnosing and Fixing a Silent Failure Mode in Self-Evolving LLM Skill Libraries. [![Code][b-code-3b434d-github]](https://github.com/amazon-science/Self-Evolving-Agents-Ratchet)
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.24735) Metaⁿ: Recursive Self-Improvement through Emergent Depth. [![Code][b-code-3b434d-github]](https://github.com/minnesotanlp/meta-n)
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.12851) Practice Makes Unsafe: Skill Misevolution in Self-Improving LLM Agents. [![Code][b-code-3b434d-github]](https://github.com/henrymao2004/misevolve)
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.15524) Recursive Harness Self-Improvement.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.07663) Recursive Self-Improvement in AI: From Bounded Self-Refinement to Autonomous Research Loops.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.24300) Self-Authored Verification Is Unreliable in Heuristic Self-Improving Agents.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.00871) Self-Evolving Agents with Anytime-Valid Certificates.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.26294) The Red Queen Gödel Machine: Co-Evolving Agents and Their Evaluators.
-- [![ICLR 2026][b-iclr-2026-355774]](https://arxiv.org/abs/2509.26354) Your Agent May Misevolve: Emergent Risks in Self-evolving LLM Agents. [![Code][b-code-3b434d-github]](https://github.com/ShaoShuai0605/Misevolution)
+#### Telling Whether a Revision Helped
+
+- Do Self-Evolving Agents Forget? Capability Degradation and Preservation in Lifelong LLM Agent Adaptation. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.09315)
+- Don't Blind Your VLA: Aligning Visual Representations for OOD Generalization. [![AAMAS 2026][b-aamas-2026-355774]](https://arxiv.org/abs/2510.25616) [![Code][b-code-3b434d-github]](https://github.com/CognitiveAISystems/BlindVLA)
+- LifeSide: Benchmarking Agents as Lifelong Digital Companions. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.04660)
+- SEA-Eval: A Benchmark for Evaluating Self-Evolving Agents Beyond Episodic Assessment. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2604.08988)
+- Self-Authored Verification Is Unreliable in Heuristic Self-Improving Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.24300)
+- Self-Evolving Agents with Anytime-Valid Certificates. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.00871)
+- Toward User-Conditioned Evaluation of Personal LLM Agents under Temporal Interventions. [![KDD Workshop 2026][b-kdd-workshop-2026-355774]](https://arxiv.org/abs/2607.21635)
+
+#### Keeping Self-Evolution Within the User's Bounds
+
+- Library Drift: Diagnosing and Fixing a Silent Failure Mode in Self-Evolving LLM Skill Libraries. [![ICML Workshop 2026][b-icml-workshop-2026-355774]](https://arxiv.org/abs/2605.19576) [![Code][b-code-3b434d-github]](https://github.com/amazon-science/Self-Evolving-Agents-Ratchet)
+
+#### Revising the Revision Procedure
+
+- Hyperagents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2603.19461) [![Code][b-code-3b434d-github]](https://github.com/facebookresearch/Hyperagents)
+- Learning to Continually Learn via Meta-learning Agentic Memory Designs. [![ICLR Workshop 2026][b-iclr-workshop-2026-355774]](https://arxiv.org/abs/2602.07755) [![Code][b-code-3b434d-github]](https://github.com/zksha/alma)
+- Learning to Learn-at-Test-Time: Language Agents with Learnable Adaptation Policies. [![ICML Workshop 2026][b-icml-workshop-2026-355774]](https://arxiv.org/abs/2604.00830) [![Code][b-code-3b434d-github]](https://github.com/zzzlou/meta-ttl)
+- Metaⁿ: Recursive Self-Improvement through Emergent Depth. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.24735) [![Code][b-code-3b434d-github]](https://github.com/minnesotanlp/meta-n)
+- Recursive Harness Self-Improvement. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.15524)
+- Recursive Self-Improvement in AI: From Bounded Self-Refinement to Autonomous Research Loops. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.07663)
+- The Last AI Built by Humans: Toward Genuine Recursive Self-Improvement. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.11873) [![Code][b-code-3b434d-github]](https://github.com/theseus-labs-rsi/awesome-rsi)
+- The Red Queen Gödel Machine: Co-Evolving Agents and Their Evaluators. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.26294)
 
 <a id="sec-8-4"></a>
 ### Longitudinal Evaluation and Real Deployment
 
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.15439) AuthScribe: Supporting Agency and Authorship in LLM-Assisted Reflective Journaling. ![M→A][b-m-to-a-556b88]
-- [![ICML 2026][b-icml-2026-355774]](https://arxiv.org/abs/2511.19399) DR Tulu: Reinforcement Learning with Evolving Rubrics for Deep Research. [![Code][b-code-3b434d-github]](https://github.com/rlresearch/dr-tulu)
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.10822) Guided Reflection for Personal Sleep Insight in Everyday Sleep Tracking. ![M→A][b-m-to-a-556b88]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.04660) LifeSide: Benchmarking Agents as Lifelong Digital Companions.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2611.02088) Measuring "Success" In the Transition from Pre- to Post-LLM Conversational Agents through the Lens of Interaction &amp; Explanations for Older Adults.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.07523) PAIR: Perceptual Affective Inference and Regulation in a Real-Time Multimodal Conversational Agent. ![M→A][b-m-to-a-556b88] ![A→M][b-a-to-m-9d675d]
-- [![ACL 2026][b-acl-2026-355774]](https://arxiv.org/abs/2603.01562) RubricBench: Aligning Model-Generated Rubrics with Human Standards. [![Code][b-code-3b434d-github]](https://github.com/planepig/rubricbench)
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2604.08988) SEA-Eval: A Benchmark for Evaluating Self-Evolving Agents Beyond Episodic Assessment.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.20077) Tailored to you: longitudinal effects of personalising language models.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.11873) The Last AI Built by Humans: Toward Genuine Recursive Self-Improvement. [![Code][b-code-3b434d-github]](https://github.com/theseus-labs-rsi/awesome-rsi)
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.26300) The Verification Horizon: No Silver Bullet for Coding Agent Rewards.
-- [![KDD Workshop 2026][b-kdd-workshop-2026-355774]](https://arxiv.org/abs/2607.21635) Toward User-Conditioned Evaluation of Personal LLM Agents under Temporal Interventions.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.38753) Where the Evidence Lives: Auditing AI Companions' Self-Descriptions.
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.12790) Who Grades the Grader? Co-Evolving Evaluation Metrics and Skills for Self-Improving LLM Agents. [![Code][b-code-3b434d-github]](https://github.com/amazon-science/Self-Evolving-Agents-Double-Ratchet)
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.29901) Working with Agentic &#96;Teammates': When a New Organizational Actor Collides with the Human Ecosystem of Work.
-- [![ICML 2020][b-icml-2020-355774]](https://proceedings.mlr.press/v119/perdomo20a.html) Performative Prediction.
-- [![RecSys 2018][b-recsys-2018-355774]](https://arxiv.org/abs/1710.11214) How Algorithmic Confounding in Recommendation Systems Increases Homogeneity and Decreases Utility.
+#### Evaluating a Loop Whose Decisions Shape Later Inputs
+
+- DR Tulu: Reinforcement Learning with Evolving Rubrics for Deep Research. [![ICML 2026][b-icml-2026-355774]](https://arxiv.org/abs/2511.19399) [![Code][b-code-3b434d-github]](https://github.com/rlresearch/dr-tulu)
+- RubricBench: Aligning Model-Generated Rubrics with Human Standards. [![ACL 2026][b-acl-2026-355774]](https://arxiv.org/abs/2603.01562) [![Code][b-code-3b434d-github]](https://github.com/planepig/rubricbench)
+- The Verification Horizon: No Silver Bullet for Coding Agent Rewards. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.26300)
+- Who Grades the Grader? Co-Evolving Evaluation Metrics and Skills for Self-Improving LLM Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.12790) [![Code][b-code-3b434d-github]](https://github.com/amazon-science/Self-Evolving-Agents-Double-Ratchet)
+- Performative Prediction. [![ICML 2020][b-icml-2020-355774]](https://proceedings.mlr.press/v119/perdomo20a.html)
+- How Algorithmic Confounding in Recommendation Systems Increases Homogeneity and Decreases Utility. [![RecSys 2018][b-recsys-2018-355774]](https://arxiv.org/abs/1710.11214)
+
+#### Measuring Benefit and Burden Over Months
+
+- AuthScribe: Supporting Agency and Authorship in LLM-Assisted Reflective Journaling. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.15439) ![M→A][b-m-to-a-556b88]
+- Guided Reflection for Personal Sleep Insight in Everyday Sleep Tracking. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.10822) ![M→A][b-m-to-a-556b88]
+- Measuring "Success" In the Transition from Pre- to Post-LLM Conversational Agents through the Lens of Interaction &amp; Explanations for Older Adults. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2611.02088)
+- PAIR: Perceptual Affective Inference and Regulation in a Real-Time Multimodal Conversational Agent. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.07523) ![M→A][b-m-to-a-556b88] ![A→M][b-a-to-m-9d675d]
+- Tailored to you: longitudinal effects of personalising language models. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.20077)
+- Where the Evidence Lives: Auditing AI Companions' Self-Descriptions. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.38753)
+- Working with Agentic &#96;Teammates': When a New Organizational Actor Collides with the Human Ecosystem of Work. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.29901)
 
 ---
 
@@ -976,41 +1156,58 @@ Three research needs: preserving opportunities to observe change, keeping retain
 
 Capability-focused surveys, and concurrent system-level surveys that connect several components around persistent state, device platforms, human trajectories, or model-harness co-evolution.
 
-- [![TMLR 2026][b-tmlr-2026-355774]](https://openreview.net/forum?id=CTr3bovS5F) A Survey of Self-Evolving Agents: What, When, How, and Where to Evolve on the Path to Artificial Super Intelligence. ![Capability-focused][b-capability-focused-8c8c8c]
-- [![Preprints 2026][b-preprints-2026-8c8c8c]](https://www.preprints.org/manuscript/202608.0648/v1) A Survey on AI Smart Glasses for Wearable Intelligence: From Egocentric Sensing to Agentic Personalization. ![Concurrent system-level][b-concurrent-system-level-8c8c8c]
-- [![EMNLP 2026][b-emnlp-2026-355774]](https://arxiv.org/abs/2604.16548) A Survey on Long-Term Memory Security in LLM Agents: Attacks, Defenses, and Governance Across the Memory Lifecycle. ![Capability-focused][b-capability-focused-8c8c8c] ![S→M][b-s-to-m-9d675d]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2604.22748) Agentic World Modeling: Foundations, Capabilities, Laws, and Beyond. [![Code][b-code-3b434d-github]](https://github.com/matrix-agent/awesome-agentic-world-modeling)
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.18661) AI for Auto-Research: Roadmap &amp; User Guide. [![Code][b-code-3b434d-github]](https://github.com/worldbench/awesome-ai-auto-research) ![Capability-focused][b-capability-focused-8c8c8c]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.30306) Always-On Agents: A Survey of Persistent Memory, State, and Governance in LLM Agents. ![Concurrent system-level][b-concurrent-system-level-8c8c8c]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.04045) Audio-Visual Intelligence in Large Foundation Models. [![Code][b-code-3b434d-github]](https://github.com/JavisVerse/Awesome-AVI)
-- [![Machine Intelligence Research 2026][b-machine-intelligence-research-2026-355774]](https://arxiv.org/abs/2503.15275) Challenges and Trends in Egocentric Vision: A Survey. ![Capability-focused][b-capability-focused-8c8c8c]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.10915) ComBodied Agents: a New Paradigm of Human-Centric Agentic AI.
-- [![TMLR 2026][b-tmlr-2026-355774]](https://arxiv.org/abs/2607.10113) Dynamic Agent Skills: A Lifecycle Survey and Taxonomy of Evolving Skill Libraries. ![Capability-focused][b-capability-focused-8c8c8c]
-- [![IMWUT 2026][b-imwut-2026-355774]](https://arxiv.org/abs/2604.02711) Foundation Models Defining A New Era In Sensor-based Human Activity Recognition: A Survey And Outlook. [![Code][b-code-3b434d-github]](https://github.com/zhaxidele/Foundation-Models-Defining-A-New-Era-In-Human-Activity-Recognition) ![Capability-focused][b-capability-focused-8c8c8c]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.24877) From Seeing to Acting: Smart Glasses as First-Person Intelligence Platforms. [![Code][b-code-3b434d-github]](https://github.com/zhangzjn/awesome-smart-glasses)
-- [![Findings of ACL 2026][b-findings-of-acl-2026-355774]](https://arxiv.org/abs/2603.04592) From Static Inference to Dynamic Interaction: A Survey of Streaming Large Language Models. [![Code][b-code-3b434d-github]](https://github.com/EIT-NLP/Awesome-Streaming-LLMs) ![Capability-focused][b-capability-focused-8c8c8c]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.13104) Self-Improvements in Modern Agentic Systems: A Survey. [![Code][b-code-3b434d-github]](https://github.com/selfimproving-agent/awesome-Self-Improving-Agents) ![Capability-focused][b-capability-focused-8c8c8c]
-- [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2602.22680) Toward Personalized LLM-Powered Agents: Foundations, Evaluation, and Future Directions.
-- [![Preprints 2026][b-preprints-2026-8c8c8c]](https://doi.org/10.20944/preprints202607.1328.v1) Towards Long-Horizon Agents: A Survey. ![Concurrent system-level][b-concurrent-system-level-8c8c8c]
-- [![arXiv 2025][b-arxiv-2025-a1574a]](https://arxiv.org/abs/2508.07407) A Comprehensive Survey of Self-Evolving AI Agents: A New Paradigm Bridging Foundation Models and Lifelong Agentic Systems. [![Code][b-code-3b434d-github]](https://github.com/EvoAgentX/Awesome-Self-Evolving-Agents) ![Capability-focused][b-capability-focused-8c8c8c]
-- [![ACM TOIS 2025][b-acm-tois-2025-355774]](https://arxiv.org/abs/2404.13501) A Survey on the Memory Mechanism of Large Language Model based Agents. [![Code][b-code-3b434d-github]](https://github.com/nuster1128/LLM_Agent_Memory_Survey) [![Project][b-project-3b434d]](https://github.com/nuster1128/LLM_Agent_Memory_Survey) ![Capability-focused][b-capability-focused-8c8c8c]
-- [![TACL 2025][b-tacl-2025-355774]](https://arxiv.org/abs/2407.18418) Know Your Limits: A Survey of Abstention in Large Language Models. ![Capability-focused][b-capability-focused-8c8c8c]
-- [![TMLR 2025][b-tmlr-2025-355774]](https://arxiv.org/abs/2411.18279) Large Language Model-Brained GUI Agents: A Survey. [![Code][b-code-3b434d-github]](https://github.com/vyokky/LLM-Brained-GUI-Agents-Survey) ![Capability-focused][b-capability-focused-8c8c8c]
-- [![arXiv 2025][b-arxiv-2025-a1574a]](https://arxiv.org/abs/2512.13564) Memory in the Age of AI Agents. [![Code][b-code-3b434d-github]](https://github.com/Shichun-Liu/Agent-Memory-Paper-List)
-- [![ACM TOIS 2025][b-acm-tois-2025-355774]](https://doi.org/10.1145/3715097) Proactive Conversational AI: A Comprehensive Survey of Advancements and Opportunities. ![Capability-focused][b-capability-focused-8c8c8c]
-- [![Front. Comput. Sci. 2024][b-front-comput-sci-2024-355774]](https://arxiv.org/abs/2308.11432) A Survey on Large Language Model based Autonomous Agents. [![Code][b-code-3b434d-github]](https://github.com/paitesanshi/llm-agent-survey) ![Capability-focused][b-capability-focused-8c8c8c]
-- [![Natl. Sci. Rev. 2024][b-natl-sci-rev-2024-355774]](https://arxiv.org/abs/2306.13549) A Survey on Multimodal Large Language Models. [![Code][b-code-3b434d-github]](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models) ![Capability-focused][b-capability-focused-8c8c8c]
-- [![arXiv 2024][b-arxiv-2024-a1574a]](https://arxiv.org/abs/2401.03568) Agent AI: Surveying the Horizons of Multimodal Interaction.
-- [![IJCV 2024][b-ijcv-2024-355774]](https://arxiv.org/abs/2308.07123) An Outlook into the Future of Egocentric Vision. ![Capability-focused][b-capability-focused-8c8c8c]
-- [![arXiv 2024][b-arxiv-2024-a1574a]](https://arxiv.org/abs/2409.00088) On-Device Language Models: A Comprehensive Review. [![Code][b-code-3b434d-github]](https://github.com/NexaAI/Awesome-LLMs-on-device) ![Capability-focused][b-capability-focused-8c8c8c]
-- [![ACM CSUR 2024][b-acm-csur-2024-355774]](https://arxiv.org/abs/2304.08354) Tool Learning with Foundation Models. [![Code][b-code-3b434d-github]](https://github.com/openbmb/bmtools)
-- [![SIGIR 2024][b-sigir-2024-355774]](https://arxiv.org/abs/2404.12670) Towards Human-centered Proactive Conversational Agents.
-- [![IJCAI 2023][b-ijcai-2023-355774]](https://arxiv.org/abs/2305.02750) A Survey on Proactive Dialogue Systems: Problems, Methods, and Prospects. ![Capability-focused][b-capability-focused-8c8c8c]
-- [![arXiv 2023][b-arxiv-2023-a1574a]](https://arxiv.org/abs/2312.10997) Retrieval-Augmented Generation for Large Language Models: A Survey. ![Capability-focused][b-capability-focused-8c8c8c]
-- [![arXiv 2023][b-arxiv-2023-a1574a]](https://arxiv.org/abs/2309.07864) The Rise and Potential of Large Language Model Based Agents: A Survey. [![Code][b-code-3b434d-github]](https://github.com/woooodyy/llm-agent-paper-list) ![Capability-focused][b-capability-focused-8c8c8c]
-- [![arXiv 2023][b-arxiv-2023-a1574a]](https://arxiv.org/abs/2312.17432) Video Understanding with Large Language Models: A Survey. [![Code][b-code-3b434d-github]](https://github.com/yunlong10/awesome-llms-for-video-understanding) ![Capability-focused][b-capability-focused-8c8c8c]
-- [![IEEE TETCI 2022][b-ieee-tetci-2022-355774]](https://arxiv.org/abs/2103.04918) A Survey of Embodied AI: From Simulators to Research Tasks. ![Capability-focused][b-capability-focused-8c8c8c]
-- [![FnTIR 2014][b-fntir-2014-355774]](https://doi.org/10.1561/1500000033) LifeLogging: Personal Big Data.
+### Perception across modalities and deployment settings
+
+- Audio-Visual Intelligence in Large Foundation Models. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.04045) [![Code][b-code-3b434d-github]](https://github.com/JavisVerse/Awesome-AVI)
+- Challenges and Trends in Egocentric Vision: A Survey. [![Machine Intelligence Research 2026][b-machine-intelligence-research-2026-355774]](https://arxiv.org/abs/2503.15275)
+- Foundation Models Defining A New Era In Sensor-based Human Activity Recognition: A Survey And Outlook. [![IMWUT 2026][b-imwut-2026-355774]](https://arxiv.org/abs/2604.02711) [![Code][b-code-3b434d-github]](https://github.com/zhaxidele/Foundation-Models-Defining-A-New-Era-In-Human-Activity-Recognition)
+- From Static Inference to Dynamic Interaction: A Survey of Streaming Large Language Models. [![Findings of ACL 2026][b-findings-of-acl-2026-355774]](https://arxiv.org/abs/2603.04592) [![Code][b-code-3b434d-github]](https://github.com/EIT-NLP/Awesome-Streaming-LLMs)
+- A Survey on Multimodal Large Language Models. [![Natl. Sci. Rev. 2024][b-natl-sci-rev-2024-355774]](https://arxiv.org/abs/2306.13549) [![Code][b-code-3b434d-github]](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models)
+- An Outlook into the Future of Egocentric Vision. [![IJCV 2024][b-ijcv-2024-355774]](https://arxiv.org/abs/2308.07123)
+- On-Device Language Models: A Comprehensive Review. [![arXiv 2024][b-arxiv-2024-a1574a]](https://arxiv.org/abs/2409.00088) [![Code][b-code-3b434d-github]](https://github.com/NexaAI/Awesome-LLMs-on-device)
+- Video Understanding with Large Language Models: A Survey. [![arXiv 2023][b-arxiv-2023-a1574a]](https://arxiv.org/abs/2312.17432) [![Code][b-code-3b434d-github]](https://github.com/yunlong10/awesome-llms-for-video-understanding)
+- LifeLogging: Personal Big Data. [![FnTIR 2014][b-fntir-2014-355774]](https://doi.org/10.1561/1500000033)
+
+### How information is retained, used, and governed
+
+- A Survey on Long-Term Memory Security in LLM Agents: Attacks, Defenses, and Governance Across the Memory Lifecycle. [![EMNLP 2026][b-emnlp-2026-355774]](https://arxiv.org/abs/2604.16548) ![S→M][b-s-to-m-9d675d]
+- Toward Personalized LLM-Powered Agents: Foundations, Evaluation, and Future Directions. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2602.22680)
+- A Survey on the Memory Mechanism of Large Language Model based Agents. [![ACM TOIS 2025][b-acm-tois-2025-355774]](https://arxiv.org/abs/2404.13501) [![Code][b-code-3b434d-github]](https://github.com/nuster1128/LLM_Agent_Memory_Survey) [![Project][b-project-3b434d]](https://github.com/nuster1128/LLM_Agent_Memory_Survey)
+- Memory in the Age of AI Agents. [![arXiv 2025][b-arxiv-2025-a1574a]](https://arxiv.org/abs/2512.13564) [![Code][b-code-3b434d-github]](https://github.com/Shichun-Liu/Agent-Memory-Paper-List)
+- Retrieval-Augmented Generation for Large Language Models: A Survey. [![arXiv 2023][b-arxiv-2023-a1574a]](https://arxiv.org/abs/2312.10997)
+
+### Proactive assistance
+
+- Know Your Limits: A Survey of Abstention in Large Language Models. [![TACL 2025][b-tacl-2025-355774]](https://arxiv.org/abs/2407.18418)
+- Proactive Conversational AI: A Comprehensive Survey of Advancements and Opportunities. [![ACM TOIS 2025][b-acm-tois-2025-355774]](https://doi.org/10.1145/3715097)
+- Towards Human-centered Proactive Conversational Agents. [![SIGIR 2024][b-sigir-2024-355774]](https://arxiv.org/abs/2404.12670)
+- A Survey on Proactive Dialogue Systems: Problems, Methods, and Prospects. [![IJCAI 2023][b-ijcai-2023-355774]](https://arxiv.org/abs/2305.02750)
+
+### Agent decision and execution methods
+
+- Agentic World Modeling: Foundations, Capabilities, Laws, and Beyond. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2604.22748) [![Code][b-code-3b434d-github]](https://github.com/matrix-agent/awesome-agentic-world-modeling)
+- Large Language Model-Brained GUI Agents: A Survey. [![TMLR 2025][b-tmlr-2025-355774]](https://arxiv.org/abs/2411.18279) [![Code][b-code-3b434d-github]](https://github.com/vyokky/LLM-Brained-GUI-Agents-Survey)
+- A Survey on Large Language Model based Autonomous Agents. [![Front. Comput. Sci. 2024][b-front-comput-sci-2024-355774]](https://arxiv.org/abs/2308.11432) [![Code][b-code-3b434d-github]](https://github.com/paitesanshi/llm-agent-survey)
+- Agent AI: Surveying the Horizons of Multimodal Interaction. [![arXiv 2024][b-arxiv-2024-a1574a]](https://arxiv.org/abs/2401.03568)
+- Tool Learning with Foundation Models. [![ACM CSUR 2024][b-acm-csur-2024-355774]](https://arxiv.org/abs/2304.08354) [![Code][b-code-3b434d-github]](https://github.com/openbmb/bmtools)
+- The Rise and Potential of Large Language Model Based Agents: A Survey. [![arXiv 2023][b-arxiv-2023-a1574a]](https://arxiv.org/abs/2309.07864) [![Code][b-code-3b434d-github]](https://github.com/woooodyy/llm-agent-paper-list)
+- A Survey of Embodied AI: From Simulators to Research Tasks. [![IEEE TETCI 2022][b-ieee-tetci-2022-355774]](https://arxiv.org/abs/2103.04918)
+
+### Self-improving agents
+
+- A Survey of Self-Evolving Agents: What, When, How, and Where to Evolve on the Path to Artificial Super Intelligence. [![TMLR 2026][b-tmlr-2026-355774]](https://openreview.net/forum?id=CTr3bovS5F)
+- AI for Auto-Research: Roadmap &amp; User Guide. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.18661) [![Code][b-code-3b434d-github]](https://github.com/worldbench/awesome-ai-auto-research)
+- Dynamic Agent Skills: A Lifecycle Survey and Taxonomy of Evolving Skill Libraries. [![TMLR 2026][b-tmlr-2026-355774]](https://arxiv.org/abs/2607.10113)
+- Self-Improvements in Modern Agentic Systems: A Survey. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2607.13104) [![Code][b-code-3b434d-github]](https://github.com/selfimproving-agent/awesome-Self-Improving-Agents)
+- A Comprehensive Survey of Self-Evolving AI Agents: A New Paradigm Bridging Foundation Models and Lifelong Agentic Systems. [![arXiv 2025][b-arxiv-2025-a1574a]](https://arxiv.org/abs/2508.07407) [![Code][b-code-3b434d-github]](https://github.com/EvoAgentX/Awesome-Self-Evolving-Agents)
+
+### Concurrent system-level surveys
+
+- A Survey on AI Smart Glasses for Wearable Intelligence: From Egocentric Sensing to Agentic Personalization. [![Preprints 2026][b-preprints-2026-8c8c8c]](https://www.preprints.org/manuscript/202608.0648/v1)
+- Always-On Agents: A Survey of Persistent Memory, State, and Governance in LLM Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.30306)
+- ComBodied Agents: a New Paradigm of Human-Centric Agentic AI. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.10915)
+- From Seeing to Acting: Smart Glasses as First-Person Intelligence Platforms. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.24877) [![Code][b-code-3b434d-github]](https://github.com/zhangzjn/awesome-smart-glasses)
+- Towards Long-Horizon Agents: A Survey. [![Preprints 2026][b-preprints-2026-8c8c8c]](https://doi.org/10.20944/preprints202607.1328.v1)
 
 ---
 
@@ -1125,16 +1322,16 @@ Products are listed apart from research works, one line per product with its off
 <a id="products-tools"></a>
 ### Developer Tools
 
-- ![Memory][b-memory-8c8c8c] Graphiti: builds temporal knowledge graphs from evolving interactions while retaining fact history and links to source episodes. [![Code][b-code-3b434d-github]](https://github.com/getzep/graphiti) [![Docs][b-docs-3b434d]](https://help.getzep.com/graphiti/getting-started/welcome) [![Website][b-website-3b434d]](https://github.com/getzep/graphiti)
-- ![Memory][b-memory-8c8c8c] Letta: supports stateful agents with persistent editable memory and background consolidation of lessons from prior conversations. [![Code][b-code-3b434d-github]](https://github.com/letta-ai/letta) [![Docs][b-docs-3b434d]](https://docs.letta.com/configuration/memory) [![Website][b-website-3b434d]](https://www.letta.com/)
-- ![Memory][b-memory-8c8c8c] Mem0: adds retrievable long-term memories that persist across an agent's sessions, tools, and runs. [![Code][b-code-3b434d-github]](https://github.com/mem0ai/mem0) [![Docs][b-docs-3b434d]](https://docs.mem0.ai/introduction) [![Website][b-website-3b434d]](https://mem0.ai/)
-- ![Memory][b-memory-8c8c8c] MemOS: provides APIs to store, retrieve, edit, and delete persistent agent memory with asynchronous ingestion and feedback-based correction. [![Code][b-code-3b434d-github]](https://github.com/MemTensor/MemOS) [![Docs][b-docs-3b434d]](https://memos-docs.openmem.net/) [![Website][b-website-3b434d]](https://github.com/MemTensor/MemOS)
-- ![Runtime][b-runtime-8c8c8c] Inngest: triggers asynchronous background functions from application events, webhooks, or recurring schedules for ongoing agent workflows. [![Code][b-code-3b434d-github]](https://github.com/inngest/inngest) [![Docs][b-docs-3b434d]](https://www.inngest.com/docs/features/events-triggers) [![Website][b-website-3b434d]](https://www.inngest.com/)
-- ![Runtime][b-runtime-8c8c8c] LangGraph: uses persistent checkpoints and cross-thread stores to resume agent workflows and retain useful context across interactions. [![Code][b-code-3b434d-github]](https://github.com/langchain-ai/langgraph) [![Docs][b-docs-3b434d]](https://docs.langchain.com/oss/python/langgraph/persistence) [![Website][b-website-3b434d]](https://docs.langchain.com/oss/python/langgraph/overview)
-- ![Runtime][b-runtime-8c8c8c] Temporal: preserves workflow execution state through failures so long-running background jobs can wait for events and resume work. [![Code][b-code-3b434d-github]](https://github.com/temporalio/temporal) [![Docs][b-docs-3b434d]](https://docs.temporal.io/workflow-execution) [![Website][b-website-3b434d]](https://temporal.io/)
-- ![Integrations][b-integrations-8c8c8c] Composio: connects agents to user-authorized app accounts and delivers app-event triggers that can start contextual background work. [![Code][b-code-3b434d-github]](https://github.com/ComposioHQ/composio) [![Docs][b-docs-3b434d]](https://docs.composio.dev/docs/triggers) [![Website][b-website-3b434d]](https://composio.dev/)
-- ![Integrations][b-integrations-8c8c8c] Langfuse: records agent traces and evaluation signals to inspect failures, latency, and costs across ongoing assistance workflows. [![Code][b-code-3b434d-github]](https://github.com/langfuse/langfuse) [![Docs][b-docs-3b434d]](https://langfuse.com/docs/observability/overview) [![Website][b-website-3b434d]](https://langfuse.com/)
-- ![Integrations][b-integrations-8c8c8c] Model Context Protocol (MCP): standardizes connections to external data and tools so personal agents can access authorized context and invoke application capabilities. [![Code][b-code-3b434d-github]](https://github.com/modelcontextprotocol/modelcontextprotocol) [![Docs][b-docs-3b434d]](https://modelcontextprotocol.io/introduction) [![Website][b-website-3b434d]](https://modelcontextprotocol.io/)
+- Graphiti: builds temporal knowledge graphs from evolving interactions while retaining fact history and links to source episodes. ![Memory][b-memory-8c8c8c] [![Code][b-code-3b434d-github]](https://github.com/getzep/graphiti) [![Docs][b-docs-3b434d]](https://help.getzep.com/graphiti/getting-started/welcome) [![Website][b-website-3b434d]](https://github.com/getzep/graphiti)
+- Letta: supports stateful agents with persistent editable memory and background consolidation of lessons from prior conversations. ![Memory][b-memory-8c8c8c] [![Code][b-code-3b434d-github]](https://github.com/letta-ai/letta) [![Docs][b-docs-3b434d]](https://docs.letta.com/configuration/memory) [![Website][b-website-3b434d]](https://www.letta.com/)
+- Mem0: adds retrievable long-term memories that persist across an agent's sessions, tools, and runs. ![Memory][b-memory-8c8c8c] [![Code][b-code-3b434d-github]](https://github.com/mem0ai/mem0) [![Docs][b-docs-3b434d]](https://docs.mem0.ai/introduction) [![Website][b-website-3b434d]](https://mem0.ai/)
+- MemOS: provides APIs to store, retrieve, edit, and delete persistent agent memory with asynchronous ingestion and feedback-based correction. ![Memory][b-memory-8c8c8c] [![Code][b-code-3b434d-github]](https://github.com/MemTensor/MemOS) [![Docs][b-docs-3b434d]](https://memos-docs.openmem.net/) [![Website][b-website-3b434d]](https://github.com/MemTensor/MemOS)
+- Inngest: triggers asynchronous background functions from application events, webhooks, or recurring schedules for ongoing agent workflows. ![Runtime][b-runtime-8c8c8c] [![Code][b-code-3b434d-github]](https://github.com/inngest/inngest) [![Docs][b-docs-3b434d]](https://www.inngest.com/docs/features/events-triggers) [![Website][b-website-3b434d]](https://www.inngest.com/)
+- LangGraph: uses persistent checkpoints and cross-thread stores to resume agent workflows and retain useful context across interactions. ![Runtime][b-runtime-8c8c8c] [![Code][b-code-3b434d-github]](https://github.com/langchain-ai/langgraph) [![Docs][b-docs-3b434d]](https://docs.langchain.com/oss/python/langgraph/persistence) [![Website][b-website-3b434d]](https://docs.langchain.com/oss/python/langgraph/overview)
+- Temporal: preserves workflow execution state through failures so long-running background jobs can wait for events and resume work. ![Runtime][b-runtime-8c8c8c] [![Code][b-code-3b434d-github]](https://github.com/temporalio/temporal) [![Docs][b-docs-3b434d]](https://docs.temporal.io/workflow-execution) [![Website][b-website-3b434d]](https://temporal.io/)
+- Composio: connects agents to user-authorized app accounts and delivers app-event triggers that can start contextual background work. ![Integrations][b-integrations-8c8c8c] [![Code][b-code-3b434d-github]](https://github.com/ComposioHQ/composio) [![Docs][b-docs-3b434d]](https://docs.composio.dev/docs/triggers) [![Website][b-website-3b434d]](https://composio.dev/)
+- Langfuse: records agent traces and evaluation signals to inspect failures, latency, and costs across ongoing assistance workflows. ![Integrations][b-integrations-8c8c8c] [![Code][b-code-3b434d-github]](https://github.com/langfuse/langfuse) [![Docs][b-docs-3b434d]](https://langfuse.com/docs/observability/overview) [![Website][b-website-3b434d]](https://langfuse.com/)
+- Model Context Protocol (MCP): standardizes connections to external data and tools so personal agents can access authorized context and invoke application capabilities. ![Integrations][b-integrations-8c8c8c] [![Code][b-code-3b434d-github]](https://github.com/modelcontextprotocol/modelcontextprotocol) [![Docs][b-docs-3b434d]](https://modelcontextprotocol.io/introduction) [![Website][b-website-3b434d]](https://modelcontextprotocol.io/)
 
 ---
 
@@ -1148,10 +1345,10 @@ python3 scripts/build_readme.py
 python3 scripts/build_readme.py --check
 ```
 
-Each research entry renders in one format, and its venue badge opens the paper:
+Each research entry renders in one format: the title first, then its badges, and the venue badge opens the paper:
 
 ```
-- [![Venue Year]](paper URL) Title. [![Code]](code URL) ![M→S]
+- Title. [![Venue Year]](paper URL) [![Code]](code URL) ![M→S]
 ```
 
 - Use the acceptance venue when a work has one, and `arXiv` otherwise.
@@ -1206,7 +1403,6 @@ The paper will be released soon. Until then, please cite it as it currently appe
 [b-acm-mm-2026-355774]: https://img.shields.io/badge/ACM_MM_2026-355774?style=flat-square
 [b-acm-tiot-2025-355774]: https://img.shields.io/badge/ACM_TIOT_2025-355774?style=flat-square
 [b-acm-tois-2025-355774]: https://img.shields.io/badge/ACM_TOIS_2025-355774?style=flat-square
-[b-admission-bb9188]: https://img.shields.io/badge/Admission-bb9188?style=flat-square
 [b-ann-behav-med-2018-355774]: https://img.shields.io/badge/Ann._Behav._Med._2018-355774?style=flat-square
 [b-ann-behav-med-2019-355774]: https://img.shields.io/badge/Ann._Behav._Med._2019-355774?style=flat-square
 [b-arxiv-2023-a1574a]: https://img.shields.io/badge/arXiv_2023-a1574a?style=flat-square
@@ -1218,10 +1414,8 @@ The paper will be released soon. Until then, please cite it as it currently appe
 [b-asru-2021-355774]: https://img.shields.io/badge/ASRU_2021-355774?style=flat-square
 [b-asru-2025-355774]: https://img.shields.io/badge/ASRU_2025-355774?style=flat-square
 [b-assistant-benchmark-2026-355774]: https://img.shields.io/badge/Assistant_Benchmark_2026-355774?style=flat-square
-[b-authority-and-consequences-across-interactions-8a9bb3]: https://img.shields.io/badge/Authority_and_consequences_across_interactions-8a9bb3?style=flat-square
 [b-book-2020-8c8c8c]: https://img.shields.io/badge/Book_2020-8c8c8c?style=flat-square
 [b-cacm-2006-355774]: https://img.shields.io/badge/CACM_2006-355774?style=flat-square
-[b-capability-focused-8c8c8c]: https://img.shields.io/badge/Capability--focused-8c8c8c?style=flat-square
 [b-chi-1999-355774]: https://img.shields.io/badge/CHI_1999-355774?style=flat-square
 [b-chi-2008-355774]: https://img.shields.io/badge/CHI_2008-355774?style=flat-square
 [b-chi-2014-355774]: https://img.shields.io/badge/CHI_2014-355774?style=flat-square
@@ -1232,12 +1426,8 @@ The paper will be released soon. Until then, please cite it as it currently appe
 [b-code-3b434d-github]: https://img.shields.io/badge/Code-3b434d?style=flat-square&logo=github&logoColor=white
 [b-colm-2026-355774]: https://img.shields.io/badge/COLM_2026-355774?style=flat-square
 [b-colm-workshop-2026-355774]: https://img.shields.io/badge/COLM_Workshop_2026-355774?style=flat-square
-[b-concurrent-system-level-8c8c8c]: https://img.shields.io/badge/Concurrent_system--level-8c8c8c?style=flat-square
-[b-continuous-8fa399]: https://img.shields.io/badge/Continuous-8fa399?style=flat-square
-[b-continuous-and-triggered-capture-8fa399]: https://img.shields.io/badge/Continuous_and_triggered_capture-8fa399?style=flat-square
 [b-corl-2023-355774]: https://img.shields.io/badge/CoRL_2023-355774?style=flat-square
 [b-corl-2026-355774]: https://img.shields.io/badge/CoRL_2026-355774?style=flat-square
-[b-coupling-and-later-use-bb9188]: https://img.shields.io/badge/Coupling_and_later_use-bb9188?style=flat-square
 [b-cureus-2025-355774]: https://img.shields.io/badge/Cureus_2025-355774?style=flat-square
 [b-cvpr-2022-355774]: https://img.shields.io/badge/CVPR_2022-355774?style=flat-square
 [b-cvpr-2024-355774]: https://img.shields.io/badge/CVPR_2024-355774?style=flat-square
@@ -1245,8 +1435,6 @@ The paper will be released soon. Until then, please cite it as it currently appe
 [b-cvpr-2026-355774]: https://img.shields.io/badge/CVPR_2026-355774?style=flat-square
 [b-cvpr-workshop-2024-355774]: https://img.shields.io/badge/CVPR_Workshop_2024-355774?style=flat-square
 [b-data-3b434d]: https://img.shields.io/badge/Data-3b434d?style=flat-square
-[b-deferred-8a9bb3]: https://img.shields.io/badge/Deferred-8a9bb3?style=flat-square
-[b-digital-a39a87]: https://img.shields.io/badge/Digital-a39a87?style=flat-square
 [b-docs-3b434d]: https://img.shields.io/badge/Docs-3b434d?style=flat-square
 [b-eccv-2016-355774]: https://img.shields.io/badge/ECCV_2016-355774?style=flat-square
 [b-eccv-2018-355774]: https://img.shields.io/badge/ECCV_2018-355774?style=flat-square
@@ -1265,7 +1453,6 @@ The paper will be released soon. Until then, please cite it as it currently appe
 [b-fntir-2014-355774]: https://img.shields.io/badge/FnTIR_2014-355774?style=flat-square
 [b-front-comput-sci-2024-355774]: https://img.shields.io/badge/Front._Comput._Sci._2024-355774?style=flat-square
 [b-front-psychiatry-2026-355774]: https://img.shields.io/badge/Front._Psychiatry_2026-355774?style=flat-square
-[b-guidance-from-memory-and-action-8fa399]: https://img.shields.io/badge/Guidance_from_Memory_and_Action-8fa399?style=flat-square
 [b-hci-journal-2002-355774]: https://img.shields.io/badge/HCI_Journal_2002-355774?style=flat-square
 [b-hpca-2026-355774]: https://img.shields.io/badge/HPCA_2026-355774?style=flat-square
 [b-iccv-2019-355774]: https://img.shields.io/badge/ICCV_2019-355774?style=flat-square
@@ -1333,24 +1520,15 @@ The paper will be released soon. Until then, please cite it as it currently appe
 [b-neurips-d-b-2025-355774]: https://img.shields.io/badge/NeurIPS_D%26B_2025-355774?style=flat-square
 [b-neurips-workshop-2026-355774]: https://img.shields.io/badge/NeurIPS_Workshop_2026-355774?style=flat-square
 [b-odyssey-2020-355774]: https://img.shields.io/badge/Odyssey_2020-355774?style=flat-square
-[b-on-demand-8fa399]: https://img.shields.io/badge/On--demand-8fa399?style=flat-square
 [b-paclic-2025-355774]: https://img.shields.io/badge/PACLIC_2025-355774?style=flat-square
-[b-perception-baselines-8fa399]: https://img.shields.io/badge/Perception_baselines-8fa399?style=flat-square
 [b-pets-2022-355774]: https://img.shields.io/badge/PETS_2022-355774?style=flat-square
-[b-physical-a39a87]: https://img.shields.io/badge/Physical-a39a87?style=flat-square
 [b-preprints-2026-8c8c8c]: https://img.shields.io/badge/Preprints_2026-8c8c8c?style=flat-square
-[b-proactive-8a9bb3]: https://img.shields.io/badge/Proactive-8a9bb3?style=flat-square
 [b-proc-ieee-1988-355774]: https://img.shields.io/badge/Proc._IEEE_1988-355774?style=flat-square
 [b-product-8a6400]: https://img.shields.io/badge/Product-8a6400?style=flat-square
-[b-profile-bb9188]: https://img.shields.io/badge/Profile-bb9188?style=flat-square
 [b-project-3b434d]: https://img.shields.io/badge/Project-3b434d?style=flat-square
-[b-prospective-bb9188]: https://img.shields.io/badge/Prospective-bb9188?style=flat-square
 [b-psychol-bull-2007-355774]: https://img.shields.io/badge/Psychol._Bull._2007-355774?style=flat-square
 [b-puc-2024-355774]: https://img.shields.io/badge/PUC_2024-355774?style=flat-square
 [b-ra-l-2020-355774]: https://img.shields.io/badge/RA--L_2020-355774?style=flat-square
-[b-reactive-8a9bb3]: https://img.shields.io/badge/Reactive-8a9bb3?style=flat-square
-[b-readiness-and-response-timing-8fa399]: https://img.shields.io/badge/Readiness_and_response_timing-8fa399?style=flat-square
-[b-recall-baselines-bb9188]: https://img.shields.io/badge/Recall_baselines-bb9188?style=flat-square
 [b-recsys-2018-355774]: https://img.shields.io/badge/RecSys_2018-355774?style=flat-square
 [b-runtime-8c8c8c]: https://img.shields.io/badge/Runtime-8c8c8c?style=flat-square
 [b-s-to-a-556b88]: https://img.shields.io/badge/S%E2%86%92A-556b88?style=flat-square
@@ -1365,14 +1543,12 @@ The paper will be released soon. Until then, please cite it as it currently appe
 [b-tmlr-2024-355774]: https://img.shields.io/badge/TMLR_2024-355774?style=flat-square
 [b-tmlr-2025-355774]: https://img.shields.io/badge/TMLR_2025-355774?style=flat-square
 [b-tmlr-2026-355774]: https://img.shields.io/badge/TMLR_2026-355774?style=flat-square
-[b-triggered-8fa399]: https://img.shields.io/badge/Triggered-8fa399?style=flat-square
 [b-tvcg-2025-355774]: https://img.shields.io/badge/TVCG_2025-355774?style=flat-square
 [b-ubicomp-2006-355774]: https://img.shields.io/badge/UbiComp_2006-355774?style=flat-square
 [b-ubicomp-workshop-2026-355774]: https://img.shields.io/badge/UbiComp_Workshop_2026-355774?style=flat-square
 [b-uist-2023-355774]: https://img.shields.io/badge/UIST_2023-355774?style=flat-square
 [b-uist-2025-355774]: https://img.shields.io/badge/UIST_2025-355774?style=flat-square
 [b-uist-2026-355774]: https://img.shields.io/badge/UIST_2026-355774?style=flat-square
-[b-wearable-a39a87]: https://img.shields.io/badge/Wearable-a39a87?style=flat-square
 [b-website-3b434d]: https://img.shields.io/badge/Website-3b434d?style=flat-square
 [b-www-2023-355774]: https://img.shields.io/badge/WWW_2023-355774?style=flat-square
 [b-www-2026-355774]: https://img.shields.io/badge/WWW_2026-355774?style=flat-square
