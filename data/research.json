@@ -5179,9 +5179,9 @@
     "added": "2026-10-29"
   },
   {
-    "id": "whybotherme2026",
+    "id": "mempabench2026",
     "section": "sec-4-5-2",
-    "group": "Profile: keeping what holds valid",
+    "group": "Coupling and later use: state influences subsequent decisions",
     "title": "Why Bother Me Again? Benchmarking Personal Agent Memory for Interaction Preferences",
     "year": 2026,
     "venue": "arXiv",
@@ -8199,7 +8199,7 @@
     "added": "2026-11-05"
   },
   {
-    "id": "proactiveserviceagents2026",
+    "id": "tang2026proactiveserviceagentsunified",
     "section": "related-surveys",
     "group": "Proactive assistance",
     "title": "Proactive Service Agents: A Unified Decision Framework, Methods, and Evaluation",
@@ -8247,14 +8247,15 @@
     "added": "2026-11-05"
   },
   {
-    "id": "omnimmi2025",
+    "id": "wang2025omnimmicomprehensivemultimodalinteraction",
     "section": "sec-3-5-2",
     "group": "Readiness and response timing",
     "title": "OmniMMI: A Comprehensive Multi-modal Interaction Benchmark in Streaming Video Contexts",
     "year": 2025,
     "venue": "CVPR",
     "links": {
-      "paper": "https://arxiv.org/abs/2503.22952"
+      "paper": "https://arxiv.org/abs/2503.22952",
+      "code": "https://github.com/patrick-tssn/M4"
     },
     "added": "2026-11-05"
   },
@@ -8319,7 +8320,7 @@
     "added": "2026-11-05"
   },
   {
-    "id": "cognifold2026",
+    "id": "wang2026cognifoldalwaysonproactivememory",
     "section": "sec-4-3-4",
     "group": "Consolidation",
     "title": "CogniFold: Always-On Proactive Memory via Cognitive Folding",
@@ -8344,14 +8345,15 @@
     "added": "2026-11-05"
   },
   {
-    "id": "clawanything2026",
+    "id": "lin2026clawanythingbenchmarkingalwaysonpersonal",
     "section": "sec-4-5-2",
     "group": "Coupling and later use: state influences subsequent decisions",
     "title": "Claw-Anything: Benchmarking Always-On Personal Assistants with Broader Access to User's Digital World",
     "year": 2026,
     "venue": "arXiv",
     "links": {
-      "paper": "https://arxiv.org/abs/2605.26086"
+      "paper": "https://arxiv.org/abs/2605.26086",
+      "code": "https://github.com/LiberCoders/CLaw-Anything"
     },
     "added": "2026-11-05"
   },
@@ -8631,9 +8633,9 @@
     "added": "2026-11-05"
   },
   {
-    "id": "fingertip20k2026",
-    "section": "sec-5-5-2",
-    "group": "Proactive: acting or staying silent",
+    "id": "yang2026fingertip20kbenchmarkproactive",
+    "section": "sec-4-5-2",
+    "group": "Coupling and later use: state influences subsequent decisions",
     "title": "FingerTip 20K: A Benchmark for Proactive and Personalized Mobile LLM Agents",
     "year": 2026,
     "venue": "ICLR",
@@ -8862,16 +8864,20 @@
     "added": "2026-11-05"
   },
   {
-    "id": "personalalign2026",
+    "id": "lyu2026personalalignhierarchicalimplicitintent",
     "section": "sec-5-4-2",
     "group": "Using personal and task context",
     "title": "PersonalAlign: Hierarchical Implicit Intent Alignment for Personalized GUI Agent with Long-Term User-Centric Records",
     "year": 2026,
     "venue": "ACL",
     "links": {
-      "paper": "https://arxiv.org/abs/2601.09636"
+      "paper": "https://arxiv.org/abs/2601.09636",
+      "code": "https://github.com/JiuTian-VL/PersonalAlign"
     },
-    "added": "2026-11-05"
+    "added": "2026-11-05",
+    "tags": [
+      "M→A"
+    ]
   },
   {
     "id": "satori2024",
@@ -9095,5 +9101,1774 @@
       "paper": "https://arxiv.org/abs/2610.41057"
     },
     "added": "2026-11-05"
+  },
+  {
+    "id": "ha2014wearable",
+    "section": "background",
+    "group": "Introduction and Foundations",
+    "title": "Towards Wearable Cognitive Assistance",
+    "year": 2014,
+    "venue": "MobiSys",
+    "links": {
+      "paper": "https://www.pdl.cmu.edu/PDL-FTP/CloudComputing/ha-mobisys2014_abs.shtml"
+    }
+  },
+  {
+    "id": "horvitz1998lumiere",
+    "section": "background",
+    "group": "Introduction and Foundations",
+    "title": "The Lumière Project: Bayesian User Modeling for Inferring the Goals and Needs of Software Users",
+    "year": 1998,
+    "venue": "UAI",
+    "links": {
+      "paper": "https://www.microsoft.com/en-us/research/publication/lumiere-project-bayesian-user-modeling-inferring-goals-needs-software-users/"
+    }
+  },
+  {
+    "id": "streampro2026",
+    "section": "background",
+    "group": "Introduction and Foundations",
+    "title": "StreamPro: From Reactive Perception to Proactive Decision-Making in Streaming Video",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.16381"
+    }
+  },
+  {
+    "id": "weiser1991ubicomp",
+    "section": "background",
+    "group": "Introduction and Foundations",
+    "title": "The Computer for the 21st Century",
+    "year": 1991,
+    "venue": "Scientific American",
+    "links": {
+      "paper": "https://doi.org/10.1038/scientificamerican0991-94"
+    }
+  },
+  {
+    "id": "wang2026reliableselfevolving",
+    "section": "related-surveys",
+    "group": "Self-improving agents",
+    "title": "Diving into Reliable Self-Evolving Agents: A Survey",
+    "year": 2026,
+    "venue": "Preprints",
+    "links": {
+      "paper": "https://doi.org/10.20944/preprints202609.0913.v1"
+    }
+  },
+  {
+    "id": "sharma2022autonomousrl",
+    "section": "background",
+    "group": "Introduction and Foundations",
+    "title": "Autonomous Reinforcement Learning: Formalism and Benchmarking",
+    "year": 2022,
+    "venue": "ICLR",
+    "links": {
+      "paper": "https://arxiv.org/abs/2112.09605"
+    }
+  },
+  {
+    "id": "coala2024",
+    "section": "background",
+    "group": "Introduction and Foundations",
+    "title": "Cognitive Architectures for Language Agents",
+    "year": 2024,
+    "venue": "TMLR",
+    "links": {
+      "paper": "https://arxiv.org/abs/2309.02427",
+      "code": "https://github.com/ysymyth/awesome-language-agents"
+    }
+  },
+  {
+    "id": "craik1943nature",
+    "section": "background",
+    "group": "Introduction and Foundations",
+    "title": "The Nature of Explanation",
+    "year": 1943,
+    "venue": "Book",
+    "links": {
+      "paper": "https://archive.org/details/natureofexplanat0000crai"
+    }
+  },
+  {
+    "id": "laird2022introductionsoar",
+    "section": "background",
+    "group": "Introduction and Foundations",
+    "title": "Introduction to Soar",
+    "year": 2022,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2205.03854"
+    }
+  },
+  {
+    "id": "lecun2022ami",
+    "section": "background",
+    "group": "Introduction and Foundations",
+    "title": "A Path Towards Autonomous Machine Intelligence",
+    "year": 2022,
+    "venue": "OpenReview",
+    "links": {
+      "paper": "https://openreview.net/forum?id=BZ5a1r-kVsf"
+    }
+  },
+  {
+    "id": "contextengineering2025",
+    "section": "background",
+    "group": "Introduction and Foundations",
+    "title": "A Survey of Context Engineering for Large Language Models",
+    "year": 2025,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2507.13334",
+      "code": "https://github.com/Meirtz/Awesome-Context-Engineering"
+    }
+  },
+  {
+    "id": "abowd1997cyberguide",
+    "section": "background",
+    "group": "Mapping the Literature",
+    "title": "Cyberguide: A Mobile Context-Aware Tour Guide",
+    "year": 1997,
+    "venue": "Wireless Networks",
+    "links": {
+      "paper": "https://sites.cc.gatech.edu/fce/cyberguide/index.html"
+    }
+  },
+  {
+    "id": "bush1945memex",
+    "section": "background",
+    "group": "Mapping the Literature",
+    "title": "As We May Think",
+    "year": 1945,
+    "venue": "The Atlantic",
+    "links": {
+      "paper": "https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/"
+    }
+  },
+  {
+    "id": "clearbuds2022",
+    "section": "background",
+    "group": "Mapping the Literature",
+    "title": "ClearBuds: Wireless Binaural Earbuds for Learning-Based Speech Enhancement",
+    "year": 2022,
+    "venue": "MobiSys",
+    "links": {
+      "paper": "https://doi.org/10.1145/3498361.3538933"
+    }
+  },
+  {
+    "id": "dumais2003sis",
+    "section": "background",
+    "group": "Mapping the Literature",
+    "title": "Stuff I've Seen: A System for Personal Information Retrieval and Re-Use",
+    "year": 2003,
+    "venue": "SIGIR",
+    "links": {
+      "paper": "https://www.microsoft.com/en-us/research/publication/stuff-ive-seen-a-system-for-personal-information-retrieval-and-re-use/"
+    }
+  },
+  {
+    "id": "healey1998startlecam",
+    "section": "background",
+    "group": "Mapping the Literature",
+    "title": "StartleCam: A Cybernetic Wearable Camera",
+    "year": 1998,
+    "venue": "ISWC",
+    "links": {
+      "paper": "https://vismod.media.mit.edu/pub/tech-reports/TR-468/"
+    }
+  },
+  {
+    "id": "horvitz2004busybody",
+    "section": "background",
+    "group": "Mapping the Literature",
+    "title": "BusyBody: Creating and Fielding Personalized Models of the Cost of Interruption",
+    "year": 2004,
+    "venue": "CSCW",
+    "links": {
+      "paper": "https://www.microsoft.com/en-us/research/publication/busybody-creating-fielding-personalized-models-cost-interruption/"
+    }
+  },
+  {
+    "id": "myers2007calo",
+    "section": "background",
+    "group": "Mapping the Literature",
+    "title": "An Intelligent Personal Assistant for Task and Time Management",
+    "year": 2007,
+    "venue": "AI Magazine",
+    "links": {
+      "paper": "https://ojs.aaai.org/aimagazine/index.php/aimagazine/article/view/2039"
+    }
+  },
+  {
+    "id": "omniparser2024",
+    "section": "background",
+    "group": "Mapping the Literature",
+    "title": "OmniParser for Pure Vision Based GUI Agent",
+    "year": 2024,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2408.00203",
+      "code": "https://github.com/microsoft/omniparser"
+    }
+  },
+  {
+    "id": "pix2struct2023",
+    "section": "background",
+    "group": "Mapping the Literature",
+    "title": "Pix2Struct: Screenshot Parsing as Pretraining for Visual Language Understanding",
+    "year": 2023,
+    "venue": "ICML",
+    "links": {
+      "paper": "https://arxiv.org/abs/2210.03347"
+    }
+  },
+  {
+    "id": "remembranceagent1996",
+    "section": "background",
+    "group": "Mapping the Literature",
+    "title": "Remembrance Agent: A Continuously Running Automated Information Retrieval System",
+    "year": 1996,
+    "venue": "PAAM",
+    "links": {
+      "paper": "https://www.bradleyrhodes.com/Papers/remembrance.html"
+    }
+  },
+  {
+    "id": "screenai2024",
+    "section": "background",
+    "group": "Mapping the Literature",
+    "title": "ScreenAI: A Vision-Language Model for UI and Infographics Understanding",
+    "year": 2024,
+    "venue": "IJCAI",
+    "links": {
+      "paper": "https://arxiv.org/abs/2402.04615",
+      "code": "https://github.com/google-research-datasets/screen_annotation"
+    }
+  },
+  {
+    "id": "seeclick2024",
+    "section": "background",
+    "group": "Mapping the Literature",
+    "title": "SeeClick: Harnessing GUI Grounding for Advanced Visual GUI Agents",
+    "year": 2024,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2401.10935",
+      "code": "https://github.com/njucckevin/SeeClick"
+    }
+  },
+  {
+    "id": "semantichearing2023",
+    "section": "background",
+    "group": "Mapping the Literature",
+    "title": "Semantic Hearing: Programming Acoustic Scenes with Binaural Hearables",
+    "year": 2023,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2311.00320"
+    }
+  },
+  {
+    "id": "vap2022",
+    "section": "background",
+    "group": "Mapping the Literature",
+    "title": "Voice Activity Projection: Self-supervised Learning of Turn-taking Events",
+    "year": 2022,
+    "venue": "Interspeech",
+    "links": {
+      "paper": "https://doi.org/10.21437/Interspeech.2022-10955"
+    }
+  },
+  {
+    "id": "interactivebench2026",
+    "section": "sec-3-1",
+    "title": "Interactive Benchmarks",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.04737",
+      "code": "https://github.com/interactivebench/interactivebench"
+    }
+  },
+  {
+    "id": "domusfm2026",
+    "section": "sec-3-1-1",
+    "group": "Continuous sensing",
+    "title": "DomusFM: A Foundation Model for Event-Based Behavioral Monitoring in Smart-Homes",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2602.01910"
+    }
+  },
+  {
+    "id": "eventdrivenassist2026",
+    "section": "sec-3-1-1",
+    "group": "Triggered sensing",
+    "title": "Proactive Robot Assistance via Event-Driven Reasoning over State Changes",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.08344"
+    }
+  },
+  {
+    "id": "exploreuntilconfident2024",
+    "section": "sec-3-1-1",
+    "group": "On-demand sensing",
+    "title": "Explore until Confident: Efficient Exploration for Embodied Question Answering",
+    "year": 2024,
+    "venue": "RSS",
+    "links": {
+      "paper": "https://arxiv.org/abs/2403.15941"
+    }
+  },
+  {
+    "id": "gazeagent2026",
+    "section": "sec-3-1-1",
+    "group": "Triggered sensing",
+    "title": "GazeAgent: VLM-Guided Implicit Gaze Calibration from Egocentric Multimodal Behavior for AI Glasses",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.24364"
+    }
+  },
+  {
+    "id": "homeemergency2025",
+    "section": "sec-3-1-1",
+    "group": "Triggered sensing",
+    "title": "HomeEmergency – Using Audio to Find and Respond to Emergencies in the Home",
+    "year": 2025,
+    "venue": "RA-L",
+    "links": {
+      "paper": "https://arxiv.org/abs/2504.01089"
+    }
+  },
+  {
+    "id": "visioninaction2025",
+    "section": "sec-3-1-1",
+    "group": "On-demand sensing",
+    "title": "Vision in Action: Learning Active Perception from Human Demonstrations",
+    "year": 2025,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2506.15666"
+    },
+    "tags": [
+      "A→S"
+    ]
+  },
+  {
+    "id": "cartridges2025",
+    "section": "sec-3-1-2",
+    "title": "Cartridges: Lightweight and general-purpose long context representations via self-study",
+    "year": 2025,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2506.06266",
+      "code": "https://github.com/HazyResearch/cartridges"
+    }
+  },
+  {
+    "id": "copevideolm2026",
+    "section": "sec-3-1-2",
+    "title": "CoPE-VideoLM: Leveraging Codec Primitives For Efficient Video Language Modeling",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2602.13191"
+    }
+  },
+  {
+    "id": "ema2025",
+    "section": "sec-3-1-2",
+    "title": "Efficient Motion-Aware Video MLLM",
+    "year": 2025,
+    "venue": "CVPR",
+    "links": {
+      "paper": "https://arxiv.org/abs/2503.13016"
+    }
+  },
+  {
+    "id": "llavaonevision2-2026",
+    "section": "sec-3-1-2",
+    "title": "LLaVA-OneVision-2: Towards Next-Generation Perceptual Intelligence",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.25979",
+      "code": "https://github.com/EvolvingLMMs-Lab/LLaVA-OneVision-2"
+    }
+  },
+  {
+    "id": "onevisionencoder2026",
+    "section": "sec-3-1-2",
+    "title": "OneVision-Encoder: Codec-Aligned Sparsity as a Foundational Principle for Multimodal Intelligence",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2602.08683",
+      "code": "https://github.com/EvolvingLMMs-Lab/OneVision-Encoder"
+    }
+  },
+  {
+    "id": "shazeer2019fasttransformerdecodingwritehead",
+    "section": "sec-3-1-2",
+    "title": "Fast Transformer Decoding: One Write-Head is All You Need",
+    "year": 2019,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/1911.02150",
+      "code": "https://github.com/google-deepmind/alphadev"
+    }
+  },
+  {
+    "id": "duplexprivacy2026",
+    "section": "sec-3-2",
+    "group": "Whose information is the assistant allowed to observe?",
+    "title": "Privacy-Preserving End-to-End Full-Duplex Speech Dialogue Models",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.08179"
+    }
+  },
+  {
+    "id": "shan2021kws",
+    "section": "sec-3-2",
+    "group": "How long can sensing continue?",
+    "title": "A 510-nW Wake-Up Keyword-Spotting Chip Using Serial-FFT-Based MFCC and Binarized Depthwise Separable CNN in 28-nm CMOS",
+    "year": 2021,
+    "venue": "IEEE JSSC",
+    "links": {
+      "paper": "https://doi.org/10.1109/JSSC.2020.3029097"
+    }
+  },
+  {
+    "id": "acoustictriage2026",
+    "section": "sec-3-3-1",
+    "title": "Pre-Decoding Acoustic Triage for Budgeted Vision-Language Captioning of Untrimmed Egocentric Video",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.22359",
+      "code": "https://github.com/masjalayer/PreDecoding-AcousticTriage"
+    }
+  },
+  {
+    "id": "mosslive2026",
+    "section": "sec-3-3-3",
+    "title": "MOSS-Live: Full-Duplex Real-Time Interaction",
+    "year": 2026,
+    "venue": "OpenMOSS",
+    "links": {
+      "website": "https://www.moss.cn/en/models/moss-live"
+    }
+  },
+  {
+    "id": "videorecap2024",
+    "section": "sec-3-3-5",
+    "title": "Video ReCap: Recursive Captioning of Hour-Long Videos",
+    "year": 2024,
+    "venue": "CVPR",
+    "links": {
+      "paper": "https://arxiv.org/abs/2402.13250",
+      "code": "https://github.com/md-mohaiminul/VideoRecap"
+    }
+  },
+  {
+    "id": "eyerobot2025",
+    "section": "sec-3-3-9",
+    "title": "Eye, Robot: Learning to Look to Act with a BC-RL Perception-Action Loop",
+    "year": 2025,
+    "venue": "CoRL",
+    "links": {
+      "paper": "https://arxiv.org/abs/2506.10968",
+      "code": "https://github.com/kerrj/eyerobot"
+    }
+  },
+  {
+    "id": "eyerobot2026",
+    "section": "sec-3-3-9",
+    "title": "EyeRobot 2.0: Active Gaze for Precise Manipulation without Wrist Cameras",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.03710"
+    },
+    "tags": [
+      "A→S"
+    ]
+  },
+  {
+    "id": "vagenwm2025",
+    "section": "sec-3-3-9",
+    "title": "VAGEN: Reinforcing World Model Reasoning for Multi-Turn VLM Agents",
+    "year": 2025,
+    "venue": "NeurIPS",
+    "links": {
+      "paper": "https://arxiv.org/abs/2510.16907",
+      "code": "https://github.com/mll-lab-nu/VAGEN"
+    }
+  },
+  {
+    "id": "activealign2026",
+    "section": "sec-3-4-3",
+    "title": "ActiveAlign: Aligning Egocentric Manipulation via Active Perception",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.36859"
+    },
+    "tags": [
+      "A→S"
+    ]
+  },
+  {
+    "id": "enact2025",
+    "section": "sec-3-5-2",
+    "group": "Perception baselines: supplied input",
+    "title": "ENACT: Evaluating Embodied Cognition with World Modeling of Egocentric Interaction",
+    "year": 2025,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2511.20937",
+      "code": "https://github.com/mll-lab-nu/ENACT"
+    }
+  },
+  {
+    "id": "expressbench2025",
+    "section": "sec-3-5-2",
+    "group": "On-demand: checking again",
+    "title": "Beyond the Destination: A Novel Benchmark for Exploration-Aware Embodied Question Answering",
+    "year": 2025,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2503.11117"
+    }
+  },
+  {
+    "id": "homesafebench2026",
+    "section": "sec-3-5-2",
+    "group": "Readiness and response timing",
+    "title": "HomeSafe-Bench: Evaluating Vision-Language Models on Unsafe Action Detection for Embodied Agents in Household Scenarios",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.11975",
+      "code": "https://github.com/pujiayue/HomeSafe-Bench"
+    }
+  },
+  {
+    "id": "laeqa2025",
+    "section": "sec-3-5-2",
+    "group": "On-demand: checking again",
+    "title": "Enter the Mind Palace: Reasoning and Planning for Long-term Active Embodied Question Answering",
+    "year": 2025,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2507.12846"
+    }
+  },
+  {
+    "id": "mural2025",
+    "section": "sec-3-5-2",
+    "group": "Organizing supplied streams",
+    "title": "MuRAL: A Multi-Resident Ambient Sensor Dataset Annotated with Natural Language for Activities of Daily Living",
+    "year": 2025,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2504.20505"
+    }
+  },
+  {
+    "id": "pinverify2026",
+    "section": "sec-3-5-2",
+    "group": "On-demand: checking again",
+    "title": "PInVerify: An Offline Embodied Benchmark for Active Instance Verification",
+    "year": 2026,
+    "venue": "CVPR Workshop",
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.30639",
+      "code": "https://github.com/Avalon-S/PInVerify"
+    }
+  },
+  {
+    "id": "proactivebench",
+    "section": "sec-3-5-2",
+    "group": "Readiness and response timing",
+    "title": "ProactiveVideoQA: A Comprehensive Benchmark Evaluating Proactive Interactions in Video Large Language Models",
+    "year": 2025,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2507.09313",
+      "code": "https://github.com/yellow-binary-tree/ProactiveBench"
+    }
+  },
+  {
+    "id": "senri2026",
+    "section": "sec-3-5-2",
+    "group": "Organizing supplied streams",
+    "title": "SENRI: Understanding the Space-Event Nexus in Real-Life Videos",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.25309"
+    }
+  },
+  {
+    "id": "sensorqa2025",
+    "section": "sec-3-5-2",
+    "group": "Organizing supplied streams",
+    "title": "SensorQA: A Question Answering Benchmark for Daily-Life Monitoring",
+    "year": 2025,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2501.04974",
+      "code": "https://github.com/benjamin-reichman/SensorQA"
+    }
+  },
+  {
+    "id": "smarthomebench2025",
+    "section": "sec-3-5-2",
+    "group": "Perception baselines: supplied input",
+    "title": "SmartHome-Bench: A Comprehensive Benchmark for Video Anomaly Detection in Smart Homes Using Multi-Modal Large Language Models",
+    "year": 2025,
+    "venue": "CVPR",
+    "links": {
+      "paper": "https://arxiv.org/abs/2506.12992",
+      "code": "https://github.com/xinyi-0724/smarthome-bench-llm"
+    }
+  },
+  {
+    "id": "tavis2026",
+    "section": "sec-3-5-2",
+    "group": "Guidance from Memory and Action",
+    "title": "TAVIS: A Benchmark for Egocentric Active Vision and Anticipatory Gaze in Imitation Learning",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.07943",
+      "code": "https://github.com/spiglerg/tavis"
+    }
+  },
+  {
+    "id": "tomato2025",
+    "section": "sec-3-5-2",
+    "group": "Perception baselines: supplied input",
+    "title": "TOMATO: Assessing Visual Temporal Reasoning Capabilities in Multimodal Foundation Models",
+    "year": 2025,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2410.23266",
+      "code": "https://github.com/yale-nlp/TOMATO"
+    }
+  },
+  {
+    "id": "tvrbench2026",
+    "section": "sec-3-5-2",
+    "group": "Guidance from Memory and Action",
+    "title": "Where to Look: Can Foundation Models Reach a Target Viewpoint Through Active Exploration?",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2606.01247",
+      "code": "https://github.com/aim-uofa/TVRBench"
+    }
+  },
+  {
+    "id": "vabench2026",
+    "section": "sec-3-5-2",
+    "group": "Guidance from Memory and Action",
+    "title": "VABench: Measuring Embodied Spatial Intelligence through Visual Demonstrations, Active Perception, and Metric Control",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.19554",
+      "code": "https://github.com/zhangzhongbo2213/VABench"
+    }
+  },
+  {
+    "id": "dovsg2025",
+    "section": "sec-4-1-1",
+    "group": "Profile memory: what holds now",
+    "title": "Dynamic Open-Vocabulary 3D Scene Graphs for Long-term Language-Guided Mobile Manipulation",
+    "year": 2025,
+    "venue": "RA-L",
+    "links": {
+      "paper": "https://arxiv.org/abs/2410.11989"
+    }
+  },
+  {
+    "id": "dynamem2024",
+    "section": "sec-4-1-1",
+    "group": "Profile memory: what holds now",
+    "title": "DynaMem: Online Dynamic Spatio-Semantic Memory for Open World Mobile Manipulation",
+    "year": 2024,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2411.04999",
+      "code": "https://github.com/hello-robot/stretch_ai"
+    }
+  },
+  {
+    "id": "familyrobots2026",
+    "section": "sec-4-1-1",
+    "group": "Prospective memory: what is pending",
+    "title": "Designing Robots for Families: In-Situ Prototyping for Contextual Reminders on Family Routines",
+    "year": 2026,
+    "venue": "HRI",
+    "links": {
+      "paper": "https://arxiv.org/abs/2602.22628"
+    }
+  },
+  {
+    "id": "h2emv2026",
+    "section": "sec-4-1-1",
+    "group": "Retrospective memory: what happened",
+    "title": "Learning to Forget – Hierarchical Episodic Memory for Lifelong Robot Deployment",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.11306"
+    }
+  },
+  {
+    "id": "iclhome2024",
+    "section": "sec-4-1-1",
+    "group": "Profile memory: what holds now",
+    "title": "Interactive Continual Learning Architecture for Long-Term Personalization of Home Service Robots",
+    "year": 2024,
+    "venue": "ICRA",
+    "links": {
+      "paper": "https://arxiv.org/abs/2403.03462"
+    }
+  },
+  {
+    "id": "noa2026",
+    "section": "sec-4-1-1",
+    "group": "Profile memory: what holds now",
+    "title": "Fostering Emotional Engagement and Sustained Interaction in Care Homes Through Empathetic Human–Robot Conversation",
+    "year": 2026,
+    "venue": "ACM Transactions on Human-Robot Interact",
+    "links": {
+      "paper": "https://doi.org/10.1145/3840294"
+    }
+  },
+  {
+    "id": "tidybot2023",
+    "section": "sec-4-1-1",
+    "group": "Profile memory: what holds now",
+    "title": "TidyBot: Personalized Robot Assistance with Large Language Models",
+    "year": 2023,
+    "venue": "IROS",
+    "links": {
+      "paper": "https://arxiv.org/abs/2305.05658",
+      "code": "https://github.com/jimmyyhwu/tidybot"
+    }
+  },
+  {
+    "id": "memoryllm2024",
+    "section": "sec-4-1-2",
+    "group": "Parametric memory",
+    "title": "MEMORYLLM: Towards Self-Updatable Large Language Models",
+    "year": 2024,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2402.04624",
+      "code": "https://github.com/wangyu-ustc/MemoryLLM"
+    }
+  },
+  {
+    "id": "latimer2025hindsight2020buildingagent",
+    "section": "sec-4-3-2",
+    "group": "Maintenance and updates",
+    "title": "Hindsight is 20/20: Building Agent Memory that Retains, Recalls, and Reflects",
+    "year": 2025,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2512.12818"
+    }
+  },
+  {
+    "id": "llovi2024",
+    "section": "sec-4-3-3",
+    "group": "Retrieval",
+    "title": "A Simple LLM Framework for Long-Range Video Question-Answering",
+    "year": 2024,
+    "venue": "EMNLP",
+    "links": {
+      "paper": "https://arxiv.org/abs/2312.17235",
+      "code": "https://github.com/CeeZh/LLoVi"
+    }
+  },
+  {
+    "id": "videotree2025",
+    "section": "sec-4-3-3",
+    "group": "Retrieval",
+    "title": "VideoTree: Adaptive Tree-based Video Representation for LLM Reasoning on Long Videos",
+    "year": 2025,
+    "venue": "CVPR",
+    "links": {
+      "paper": "https://arxiv.org/abs/2405.19209"
+    }
+  },
+  {
+    "id": "prime2026",
+    "section": "sec-4-4-3",
+    "title": "PRIME: Training Free Proactive Reasoning via Iterative Memory Evolution for User-Centric Agent",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.07645"
+    },
+    "tags": [
+      "A→M"
+    ]
+  },
+  {
+    "id": "romerl2026",
+    "section": "sec-4-4-3",
+    "title": "RoMeRL: Balancing Feedback Coverage and the Memory-Reward Trap in Self-Evolving Agent Memory via Reduced-Order Utility States",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.02508",
+      "code": "https://github.com/YOUNG-fnxm/RoMeRL"
+    },
+    "tags": [
+      "A→M"
+    ]
+  },
+  {
+    "id": "egomemreason2026",
+    "section": "sec-4-5-2",
+    "group": "Recall baselines",
+    "title": "EgoMemReason: A Memory-Driven Reasoning Benchmark for Long-Horizon Egocentric Video Understanding",
+    "year": 2026,
+    "venue": "COLM",
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.09874"
+    }
+  },
+  {
+    "id": "findingdory2025",
+    "section": "sec-4-5-2",
+    "group": "Recall baselines",
+    "title": "FindingDory: A Benchmark to Evaluate Memory in Embodied Agents",
+    "year": 2025,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2506.15635"
+    }
+  },
+  {
+    "id": "hemv2024",
+    "section": "sec-4-5-2",
+    "group": "Recall baselines",
+    "title": "Episodic Memory Verbalization using Hierarchical Representations of Life-Long Robot Experience",
+    "year": 2025,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2409.17702"
+    }
+  },
+  {
+    "id": "lifeval2026",
+    "section": "sec-4-5-2",
+    "group": "Coupling and later use: state influences subsequent decisions",
+    "title": "LifeVal: Evaluating AI Model Performance on Personalized Agentic Consumer Tasks",
+    "year": 2026,
+    "venue": "OpenAI",
+    "links": {
+      "paper": "https://cdn.openai.com/pdf/lifeval.pdf"
+    }
+  },
+  {
+    "id": "memoreval2026",
+    "section": "sec-4-5-2",
+    "group": "Admission: what enters the store",
+    "title": "What Should Embodied Agents Remember? Benchmarking and Evaluating Memory Modality for Embodied Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.12561"
+    }
+  },
+  {
+    "id": "praxismembench2026",
+    "section": "sec-4-5-2",
+    "group": "Coupling and later use: state influences subsequent decisions",
+    "title": "Memorizing Who, Knowing How: Benchmarking Personal and Procedural Memory for Persistent Assistants",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.20022",
+      "code": "https://github.com/QMMMS/PraxisMemBench"
+    }
+  },
+  {
+    "id": "remembr2025",
+    "section": "sec-4-5-2",
+    "group": "Recall baselines",
+    "title": "ReMEmbR: Building and Reasoning Over Long-Horizon Spatio-Temporal Memory for Robot Navigation",
+    "year": 2025,
+    "venue": "ICRA",
+    "links": {
+      "paper": "https://arxiv.org/abs/2409.13682"
+    }
+  },
+  {
+    "id": "worldlines2026",
+    "section": "sec-4-5-2",
+    "group": "Profile: keeping what holds valid",
+    "title": "WorldLines: Benchmarking and Modeling Long-Horizon Stateful Embodied Agents",
+    "year": 2026,
+    "venue": "EMNLP",
+    "links": {
+      "paper": "https://arxiv.org/abs/2606.18847"
+    }
+  },
+  {
+    "id": "alexahunches2022",
+    "section": "sec-5-1-1",
+    "group": "Proactive action",
+    "title": "The Science Behind Hunches: Deep Device Embeddings",
+    "year": 2022,
+    "venue": "Amazon Science",
+    "links": {
+      "blog": "https://www.amazon.science/blog/the-science-behind-hunches-deep-device-embeddings"
+    }
+  },
+  {
+    "id": "eia2025",
+    "section": "sec-5-2",
+    "title": "EIA: Environmental Injection Attack on Generalist Web Agents for Privacy Leakage",
+    "year": 2025,
+    "venue": "ICLR",
+    "links": {
+      "paper": "https://arxiv.org/abs/2409.11295",
+      "code": "https://github.com/osu-nlp-group/eia_against_webagent"
+    }
+  },
+  {
+    "id": "iso13482",
+    "section": "sec-5-2",
+    "title": "Robots and Robotic Devices: Safety Requirements for Personal Care Robots",
+    "year": 2014,
+    "venue": "ISO",
+    "links": {
+      "website": "https://www.iso.org/standard/53820.html"
+    }
+  },
+  {
+    "id": "privacylens2024",
+    "section": "sec-5-2",
+    "title": "PrivacyLens: Evaluating Privacy Norm Awareness of Language Models in Action",
+    "year": 2024,
+    "venue": "NeurIPS D&B",
+    "links": {
+      "paper": "https://arxiv.org/abs/2409.00138",
+      "code": "https://github.com/salt-nlp/privacylens"
+    }
+  },
+  {
+    "id": "pacetiming2026",
+    "section": "sec-5-3-1",
+    "group": "Waiting for a useful moment",
+    "title": "PACE: Plan, Attend, Check, and Emit for Training-Free Response Timing in Streaming Video Understanding",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.28323"
+    }
+  },
+  {
+    "id": "pact2026",
+    "section": "sec-5-3-1",
+    "group": "Clarifying, preparing, or stopping",
+    "title": "PACT: Proactive Asking for Continual Task Assistance in Human-Robot Collaboration",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.24350"
+    }
+  },
+  {
+    "id": "chipchat2025",
+    "section": "sec-5-3-3",
+    "title": "ChipChat: Low-Latency Cascaded Conversational Agent in MLX",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2509.00078"
+    }
+  },
+  {
+    "id": "memoproagent2026",
+    "section": "sec-5-4-2",
+    "group": "Using personal and task context",
+    "title": "MemoProAgent: Toward Memory-Driven Proactive Assistance",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.22671"
+    },
+    "tags": [
+      "M→A"
+    ]
+  },
+  {
+    "id": "moshirag2026",
+    "section": "sec-5-5-1",
+    "title": "MoshiRAG: Asynchronous Knowledge Retrieval for Full-Duplex Speech Language Models",
+    "year": 2026,
+    "venue": "ICML",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.12928"
+    }
+  },
+  {
+    "id": "omnisafetybench2026",
+    "section": "sec-5-5-1",
+    "title": "Omni-SafetyBench: A Benchmark for Safety Evaluation of Audio-Visual Large Language Models",
+    "year": 2026,
+    "venue": "ACM MM",
+    "links": {
+      "paper": "https://arxiv.org/abs/2508.07173"
+    }
+  },
+  {
+    "id": "steps2026",
+    "section": "sec-5-5-1",
+    "title": "A Self-Triggered Agentic Push Recommendation System",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.01949"
+    }
+  },
+  {
+    "id": "carryoverbench2026",
+    "section": "sec-5-5-2",
+    "group": "Authority and consequences across interactions",
+    "title": "After the Attacker Leaves: Benchmarking Carryover Attacks on LLM Agents",
+    "year": 2026,
+    "venue": "EMNLP",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.28425"
+    }
+  },
+  {
+    "id": "fullduplexbenchv32026",
+    "section": "sec-5-5-2",
+    "group": "Reactive: executing a request",
+    "title": "Full-Duplex-Bench-v3: Benchmarking Tool Use for Full-Duplex Voice Agents Under Real-World Disfluency",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.04847"
+    }
+  },
+  {
+    "id": "kim2026egovoiceproactivespokenassistance",
+    "section": "sec-5-5-2",
+    "group": "Proactive: acting or staying silent",
+    "title": "EgoVoice: Proactive Spoken Assistance from Egocentric Multimodal Streams",
+    "year": 2026,
+    "venue": "EMNLP",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.12248"
+    }
+  },
+  {
+    "id": "normact2026",
+    "section": "sec-5-5-2",
+    "group": "Reactive: executing a request",
+    "title": "NormAct: Benchmarking Embodied Agents' Proactive Compliance with Unspoken Social Norms",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2606.27826"
+    }
+  },
+  {
+    "id": "optionworld2026",
+    "section": "sec-5-5-2",
+    "group": "Deferred: commitments over time",
+    "title": "OptionWorld: A Benchmark for Diagnosing Failures of LLMs as Long-Term Personal Assistants",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.28491"
+    }
+  },
+  {
+    "id": "robotagentbench2026",
+    "section": "sec-5-5-2",
+    "group": "Proactive: acting or staying silent",
+    "title": "RobotAgentBench: Towards Open-world Robot Autonomy",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.34649"
+    }
+  },
+  {
+    "id": "egoprobe2026",
+    "section": "sec-6-1-1",
+    "title": "EgoProbe: Benchmarking Long-Range and Exact Memory in Streaming Egocentric Videos",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.17128"
+    }
+  },
+  {
+    "id": "objectstream2026",
+    "section": "sec-6-1-1",
+    "title": "ObjectStream: Latent Objects as Memory Anchors for Streaming Video Understanding",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2607.28312",
+      "code": "https://github.com/DMK041218/ObjectStream"
+    }
+  },
+  {
+    "id": "streamahead2026",
+    "section": "sec-6-1-1",
+    "title": "StreamAhead: Real-Time Streaming Video Question Answering via Adaptive Precomputation",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.25551"
+    }
+  },
+  {
+    "id": "pam2026",
+    "section": "sec-6-1-3",
+    "title": "An Agentic Framework for Proactive Robots with Procedural Assistance Memory",
+    "year": 2026,
+    "venue": "CoRL",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.21211"
+    },
+    "tags": [
+      "M→A",
+      "L3"
+    ]
+  },
+  {
+    "id": "autoredclaw2026",
+    "section": "sec-6-2-1",
+    "title": "AutoRedClaw: Automated Red-Teaming for Claw-Style Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.27244",
+      "code": "https://github.com/SaFo-Lab/AutoRedClaw"
+    }
+  },
+  {
+    "id": "agentbound2025",
+    "section": "sec-6-2-2",
+    "title": "AgentBound: Securing Execution Boundaries of AI Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2510.21236"
+    }
+  },
+  {
+    "id": "conseca2025",
+    "section": "sec-6-2-2",
+    "title": "Contextual Agent Security: A Policy for Every Purpose",
+    "year": 2025,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2501.17070"
+    }
+  },
+  {
+    "id": "dshsuperagent2026",
+    "section": "sec-6-2-2",
+    "title": "Exploring Super-agent Design: Towards a More Autonomous Agent System",
+    "year": 2026,
+    "venue": "DeepSeek",
+    "links": {
+      "code": "https://github.com/deepseek-ai/dsh-superagent-prototype"
+    }
+  },
+  {
+    "id": "duplexomni2026",
+    "section": "sec-6-2-2",
+    "title": "DuplexOmni: Real-Time Listening, Seeing, Thinking, and Speaking for Full-Duplex Interaction",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2606.09186"
+    }
+  },
+  {
+    "id": "echoleak2025",
+    "section": "sec-6-2-2",
+    "title": "EchoLeak: The First Real-World Zero-Click Prompt Injection Exploit in a Production LLM System",
+    "year": 2025,
+    "venue": "AAAI Fall Symposium",
+    "links": {
+      "paper": "https://arxiv.org/abs/2509.10540"
+    }
+  },
+  {
+    "id": "isolategpt2025",
+    "section": "sec-6-2-2",
+    "title": "IsolateGPT: An Execution Isolation Architecture for LLM-Based Agentic Systems",
+    "year": 2025,
+    "venue": "NDSS",
+    "links": {
+      "paper": "https://arxiv.org/abs/2403.04960"
+    }
+  },
+  {
+    "id": "mcptox2025",
+    "section": "sec-6-2-2",
+    "title": "MCPTox: A Benchmark for Tool Poisoning Attack on Real-World MCP Servers",
+    "year": 2026,
+    "venue": "AAAI",
+    "links": {
+      "paper": "https://arxiv.org/abs/2508.14925"
+    }
+  },
+  {
+    "id": "progent2025",
+    "section": "sec-6-2-2",
+    "title": "Progent: Securing AI Agents with Privilege Control",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2504.11703",
+      "code": "https://github.com/sunblaze-ucb/progent"
+    }
+  },
+  {
+    "id": "promptware2025",
+    "section": "sec-6-2-2",
+    "title": "Invitation Is All You Need! Promptware Attacks Against LLM-Powered Assistants in Production Are Practical and Dangerous",
+    "year": 2025,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2508.12175"
+    }
+  },
+  {
+    "id": "lvmh2026",
+    "section": "sec-6-4",
+    "group": "Why revision is harder inside an always-on assistant",
+    "title": "LVMH: A Meta-Optimization Harness for Long-Video Agent Memory",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.23904"
+    }
+  },
+  {
+    "id": "demoicl2026",
+    "section": "sec-8-1",
+    "group": "Deciding When to Act, Wait, or Ask",
+    "title": "Demo-ICL: In-Context Learning for Procedural Video Knowledge Acquisition",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2602.08439",
+      "code": "https://github.com/dongyh20/Demo-ICL"
+    }
+  },
+  {
+    "id": "holoassist2023",
+    "section": "sec-8-1",
+    "group": "Deciding When to Act, Wait, or Ask",
+    "title": "HoloAssist: an Egocentric Human Interaction Dataset for Interactive AI Assistants in the Real World",
+    "year": 2023,
+    "venue": "ICCV",
+    "links": {
+      "paper": "https://arxiv.org/abs/2309.17024"
+    }
+  },
+  {
+    "id": "iclrobotsurvey2026",
+    "section": "sec-8-1",
+    "group": "Deciding When to Act, Wait, or Ask",
+    "title": "In-Context Learning for Robots: Methods and Applications",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.36012",
+      "code": "https://github.com/JethroJames/awesome-robots-icl"
+    }
+  },
+  {
+    "id": "icrt2024",
+    "section": "sec-8-1",
+    "group": "Deciding When to Act, Wait, or Ask",
+    "title": "In-Context Imitation Learning via Next-Token Prediction",
+    "year": 2024,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2408.15980",
+      "code": "https://github.com/Max-Fu/icrt"
+    }
+  },
+  {
+    "id": "qevd2024",
+    "section": "sec-8-1",
+    "group": "Deciding When to Act, Wait, or Ask",
+    "title": "What to Say and When to Say it: Live Fitness Coaching as a Testbed for Situated Interaction",
+    "year": 2024,
+    "venue": "NeurIPS D&B",
+    "links": {
+      "paper": "https://arxiv.org/abs/2407.08101"
+    }
+  },
+  {
+    "id": "roboicl2026",
+    "section": "sec-8-1",
+    "group": "Deciding When to Act, Wait, or Ask",
+    "title": "RoboICL: Embodied In-Context Learning with GPT-6 Astra",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.34261",
+      "code": "https://github.com/Mosi-AI/RoboICL"
+    }
+  },
+  {
+    "id": "oecddoubao2025",
+    "section": "sec-8-2",
+    "group": "Where the Assistant Runs and What It Can Reach",
+    "title": "ByteDance AI Smartphone Triggers App Restrictions and User Harms in China",
+    "year": 2025,
+    "venue": "OECD.AI",
+    "links": {
+      "website": "https://oecd.ai/en/incidents/2025-12-07-3ee1"
+    }
+  },
+  {
+    "id": "liao2022average",
+    "section": "sec-8-3",
+    "group": "Telling Whether a Revision Helped",
+    "title": "Batch Policy Learning in Average Reward Markov Decision Processes",
+    "year": 2022,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2007.11771"
+    }
+  },
+  {
+    "id": "capsreport2026",
+    "section": "sec-8-4",
+    "group": "Measuring Benefit and Burden Over Months",
+    "title": "Open and Emergent Problems in Agentic Privacy and Security: A Contextual Angle",
+    "year": 2026,
+    "venue": "Google",
+    "links": {
+      "paper": "https://storage.googleapis.com/gweb-research2023-media/pubtools/1047874.pdf"
+    }
+  },
+  {
+    "id": "lmmeter2025",
+    "section": "sec-3-2",
+    "group": "Can observations reach decisions in time?",
+    "title": "lm-Meter: Unveiling Runtime Inference Latency for On-Device Language Models",
+    "year": 2025,
+    "venue": "SEC",
+    "links": {
+      "paper": "https://arxiv.org/abs/2510.06126",
+      "code": "https://github.com/amai-gsu/LM-Meter"
+    }
+  },
+  {
+    "id": "ondevicellmeval2025",
+    "section": "sec-3-2",
+    "group": "Can observations reach decisions in time?",
+    "title": "A Systematic Evaluation of On-Device LLMs: Quantization, Performance, and Resources",
+    "year": 2025,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2505.15030"
+    }
+  },
+  {
+    "id": "edgeepisodicqa2026",
+    "section": "sec-3-2",
+    "group": "What does remote processing cost?",
+    "title": "Exploring Multimodal LMMs for Online Episodic Memory Question Answering on the Edge",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2602.22455"
+    }
+  },
+  {
+    "id": "cloudvqacost2026",
+    "section": "sec-3-2",
+    "group": "What does remote processing cost?",
+    "title": "How Much Does It Cost to Answer My Question? Benchmarking Cloud VLM-based VQA Systems",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.07861"
+    }
+  },
+  {
+    "id": "glassessemcom2026",
+    "section": "sec-3-2",
+    "group": "What does remote processing cost?",
+    "title": "Intention-Aware Semantic Agent Communications for AI Glasses",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.23691"
+    }
+  },
+  {
+    "id": "seem2026",
+    "section": "sec-4-1-1",
+    "group": "Retrospective memory: what happened",
+    "title": "Structured Episodic Event Memory",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2601.06411"
+    }
+  },
+  {
+    "id": "memir2026",
+    "section": "sec-4-1-1",
+    "group": "Retrospective memory: what happened",
+    "title": "Mitigating Provenance-Role Collapse in Long-Term Agents via Typed Memory Representation",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.25869"
+    }
+  },
+  {
+    "id": "mhgmem2026",
+    "section": "sec-4-1-1",
+    "group": "Retrospective memory: what happened",
+    "title": "Remembering Through Change: Provenance-Preserving Hypergraph Memory for Multimodal Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.29995"
+    }
+  },
+  {
+    "id": "promemory2026",
+    "section": "sec-4-1-1",
+    "group": "Prospective memory: what is pending",
+    "title": "Prospective Memory for Proactive LLM Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.05731"
+    }
+  },
+  {
+    "id": "budgetpm2026",
+    "section": "sec-4-1-1",
+    "group": "Prospective memory: what is pending",
+    "title": "When Should Agents Check External State? Budgeting Observations for Stored Intentions",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.37125"
+    }
+  },
+  {
+    "id": "ltmcostaccuracy2026",
+    "section": "sec-4-1-2",
+    "group": "The choice of a storage architecture",
+    "title": "Cost and Accuracy of Long-Term Memory in Distributed Multi-Agent Systems Based on Large Language Models",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2601.07978"
+    }
+  },
+  {
+    "id": "hippocampus2026",
+    "section": "sec-4-1-2",
+    "group": "The choice of a storage architecture",
+    "title": "Hippocampus: An Efficient and Scalable Memory Module for Agentic AI",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2602.13594"
+    }
+  },
+  {
+    "id": "bitemporalmemory2026",
+    "section": "sec-4-1-2",
+    "group": "The choice of a storage architecture",
+    "title": "A Graph-Native Bitemporal Memory Store for Conversational AI Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2607.26520"
+    }
+  },
+  {
+    "id": "portableagentmemory2026",
+    "section": "sec-4-2",
+    "group": "Can the store be reached when it is needed?",
+    "title": "Portable Agent Memory: A Protocol for Cryptographically-Verified Memory Transfer Across Heterogeneous AI Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.11032"
+    }
+  },
+  {
+    "id": "tepa2026",
+    "section": "sec-4-3-2",
+    "group": "Maintenance and updates",
+    "title": "TEPA: Revoking Stale Memories for Conflict-Robust Language Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.07429"
+    }
+  },
+  {
+    "id": "supersede2026",
+    "section": "sec-4-3-2",
+    "group": "Maintenance and updates",
+    "title": "Supersede: Diagnosing and Training the Memory-Update Gap in LLM Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2606.27472",
+      "code": "https://github.com/Vrin-cloud/supersede"
+    }
+  },
+  {
+    "id": "semanticcommit2025",
+    "section": "sec-4-3-2",
+    "group": "Maintenance and updates",
+    "title": "Semantic Commit: Helping Users Update Intent Specifications for AI Memory at Scale",
+    "year": 2025,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2504.09283"
+    }
+  },
+  {
+    "id": "farm2026",
+    "section": "sec-5-1-1",
+    "group": "Deferred action",
+    "title": "FARM: Field-Aware Resolution Model for Intelligent Trigger-Action Automation",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2601.15687"
+    }
+  },
+  {
+    "id": "localintent2026",
+    "section": "sec-5-1-1",
+    "group": "Deferred action",
+    "title": "LocalIntent: Outcome-Specific Structured Generation for Backend-Compatible Smart Building Automation with Local LLMs",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.23511"
+    }
+  },
+  {
+    "id": "homeassistantautomations2025",
+    "section": "sec-5-1-1",
+    "group": "Deferred action",
+    "title": "Generating HomeAssistant Automations Using an LLM-based Chatbot",
+    "year": 2025,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2505.02802"
+    }
+  },
+  {
+    "id": "radeg2026",
+    "section": "sec-5-4-2",
+    "group": "Separating retrieval, delivery, and use",
+    "title": "From Relevance to Execution Utility: Reward-Aware Dynamic Execution Gating for Skill-Based LLM Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.09168"
+    }
+  },
+  {
+    "id": "skillaligner2026",
+    "section": "sec-5-4-2",
+    "group": "Separating retrieval, delivery, and use",
+    "title": "SkillAligner: Treating Retrieved Skills as Adaptable Drafts at Execution Time",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.06880"
+    }
+  },
+  {
+    "id": "onerecipeharnesses2026",
+    "section": "sec-6-4",
+    "group": "What a revision changes",
+    "title": "One Recipe, Many Harnesses: What Self-Evolution Encodes Across Languages and Models",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.10178"
+    }
+  },
+  {
+    "id": "hase2026",
+    "section": "sec-6-4",
+    "group": "What a revision changes",
+    "title": "Harness-Aware Self-Evolving: Co-Evolving Model Weights, Harness, and Task Solutions",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2607.03935"
+    }
+  },
+  {
+    "id": "memevolve2025",
+    "section": "sec-6-4",
+    "group": "Revising storage and retrieval rules",
+    "title": "MemEvolve: Meta-Evolution of Agent Memory Systems",
+    "year": 2025,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2512.18746",
+      "code": "https://github.com/bingreeky/MemEvolve"
+    }
+  },
+  {
+    "id": "liveevo2026",
+    "section": "sec-6-4",
+    "group": "Revising storage and retrieval rules",
+    "title": "Live-Evo: Online Evolution of Agentic Memory from Continuous Feedback",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2602.02369",
+      "code": "https://github.com/ag2ai/Live-Evo"
+    }
+  },
+  {
+    "id": "reglos2026",
+    "section": "sec-6-4",
+    "group": "Revising storage and retrieval rules",
+    "title": "Reglos: A Self-Evolving Personal Memory Agent with Recursive Self-Improvement",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.06049"
+    }
+  },
+  {
+    "id": "mindmemos2026",
+    "section": "sec-6-4",
+    "group": "Revising storage and retrieval rules",
+    "title": "MindMemOS: A Portable and Self-Evolving Memory Operating Layer for AI Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.12428"
+    }
+  },
+  {
+    "id": "gate2025",
+    "section": "sec-6-4",
+    "group": "Revising tools and APIs",
+    "title": "GATE: Graph-based Adaptive Tool Evolution Across Diverse Tasks",
+    "year": 2025,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2502.14848",
+      "code": "https://github.com/ayanami2003/GATE"
+    }
+  },
+  {
+    "id": "toollibgen2025",
+    "section": "sec-6-4",
+    "group": "Revising tools and APIs",
+    "title": "ToolLibGen: Scalable Automatic Tool Creation and Aggregation for LLM Reasoning",
+    "year": 2025,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2510.07768"
+    }
+  },
+  {
+    "id": "liveswe2025",
+    "section": "sec-6-4",
+    "group": "Revising the harness while the assistant runs",
+    "title": "Live-SWE-agent: Can Software Engineering Agents Self-Evolve on the Fly?",
+    "year": 2025,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2511.13646",
+      "code": "https://github.com/OpenAutoCoder/live-swe-agent"
+    }
+  },
+  {
+    "id": "rrsi2026",
+    "section": "sec-6-4",
+    "group": "Revising the harness while the assistant runs",
+    "title": "RRSI: Regularized Recursive Self-Improvement of Agent Harnesses",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.24972",
+      "code": "https://github.com/google-research/rrsi"
+    }
+  },
+  {
+    "id": "releasegates2026",
+    "section": "sec-8-3",
+    "group": "Keeping Self-Evolution Within the User's Bounds",
+    "title": "Falsifiable Release Gates for Self-Improving Systems: Standing Invariants at Scale",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2607.13070"
+    }
+  },
+  {
+    "id": "anchor2026",
+    "section": "sec-8-3",
+    "group": "Keeping Self-Evolution Within the User's Bounds",
+    "title": "ANCHOR: An External LLM-Driven Supervisory Module Facilitating Healthy Evolution in Self-Evolving Systems",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2606.06114"
+    }
+  },
+  {
+    "id": "harnesstampering2026",
+    "section": "sec-8-3",
+    "group": "Keeping Self-Evolution Within the User's Bounds",
+    "title": "Auditing Harness Tampering in Self-Improving Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.00069"
+    }
   }
 ]

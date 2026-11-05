@@ -318,8 +318,14 @@ def contents(tops, children, count):
         title = node.get("short", node["title"])
         return f"{ROMAN[int(m.group(1))]}. {title}" if m else title
 
-    cells = [card("foundations", "foundations", f"{ROMAN[2]}. Foundations", [], "Overview and Foundations", note="Definitions · Channels · Levels")]
+    # The Background list (works the Introduction and Foundations build on) is reached from the Foundations card,
+    # so the grid keeps one card per chapter.
+    background = [f'<a href="#background">Background</a>'] if any(n["id"] == "background" for n in tops) else []
+    cells = [card("foundations", "foundations", f"{ROMAN[2]}. Foundations", background, "Overview and Foundations",
+                  note="Definitions · Channels · Levels")]
     for node in tops:
+        if node["id"] == "background":
+            continue
         cells.append(card(node["id"], node["icon"], numbered(node), [links(node)] if links(node) else [], node["title"]))
         if node["id"] == "sec-6" and not any(n["id"] == "sec-7" for n in tops):
             # HALO lists no works of its own here, so its card leads to the HALO code instead

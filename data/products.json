@@ -54,7 +54,8 @@
     "sources": [
       "ariagen1hardware",
       "ariaprofiles",
-      "ariaGen2hardware2025"
+      "ariaGen2hardware2025",
+      "projectaria2026"
     ],
     "checked": "2026-10-05"
   },
@@ -128,7 +129,8 @@
     ],
     "sources": [
       "brea2026",
-      "breatriggers2026"
+      "breatriggers2026",
+      "breasite2026"
     ],
     "checked": "2026-10-05"
   },
@@ -181,7 +183,8 @@
       "L4"
     ],
     "sources": [
-      "chatgptdots2026"
+      "chatgptdots2026",
+      "dots2026"
     ]
   },
   {
@@ -196,7 +199,8 @@
     },
     "tags": [],
     "sources": [
-      "chatgptscheduled2026"
+      "chatgptscheduled2026",
+      "chatgpt2026"
     ]
   },
   {
@@ -211,7 +215,8 @@
     },
     "tags": [],
     "sources": [
-      "openaidreaming2026"
+      "openaidreaming2026",
+      "chatgpt2026"
     ]
   },
   {
@@ -228,7 +233,8 @@
     ],
     "sources": [
       "claudecowork2026",
-      "claudescheduled2026"
+      "claudescheduled2026",
+      "claude2026"
     ],
     "checked": "2026-10-05"
   },
@@ -314,7 +320,8 @@
     },
     "tags": [],
     "sources": [
-      "geminischeduled2026"
+      "geminischeduled2026",
+      "gemini2026"
     ]
   },
   {
@@ -349,7 +356,8 @@
     ],
     "sources": [
       "hermesagent2026",
-      "hermescron2026"
+      "hermescron2026",
+      "hermes2026"
     ],
     "checked": "2026-10-05"
   },
@@ -384,7 +392,8 @@
     ],
     "sources": [
       "inboxzero2026",
-      "inboxzeroreplyzero2026"
+      "inboxzeroreplyzero2026",
+      "inboxzerosite2026"
     ],
     "checked": "2026-10-05"
   },
@@ -481,7 +490,8 @@
       "L2"
     ],
     "sources": [
-      "manusschedules2026"
+      "manusschedules2026",
+      "cue2026"
     ],
     "checked": "2026-10-05"
   },
@@ -501,7 +511,8 @@
       "metamuse2026",
       "musesafety2026",
       "musedesign2026",
-      "musehelpapproval2026"
+      "musehelpapproval2026",
+      "muse2026"
     ],
     "checked": "2026-10-05",
     "updates": [
@@ -544,7 +555,8 @@
     "sources": [
       "openclaw2026",
       "openclawheartbeat2026",
-      "openclawautomation2026"
+      "openclawautomation2026",
+      "openclawsite2026"
     ],
     "checked": "2026-10-05"
   },
@@ -615,7 +627,8 @@
     ],
     "sources": [
       "magiccue2025",
-      "magiccuehelp2026"
+      "magiccuehelp2026",
+      "magiccue2026"
     ],
     "checked": "2026-10-05"
   },
@@ -679,7 +692,8 @@
     ],
     "sources": [
       "vellumscheduling2026",
-      "vellumfollowups2026"
+      "vellumfollowups2026",
+      "vellum2026"
     ],
     "checked": "2026-10-05"
   },
@@ -732,7 +746,8 @@
     ],
     "sources": [
       "xiaoyisuggestions2026",
-      "harmonyos42023"
+      "harmonyos42023",
+      "xiaoyi2026"
     ],
     "checked": "2026-10-05"
   },
@@ -766,7 +781,8 @@
       "L3"
     ],
     "sources": [
-      "alexaplus2026"
+      "alexaplus2026",
+      "alexaplussite2026"
     ],
     "checked": "2026-10-05",
     "updates": [
@@ -808,7 +824,8 @@
       "L3"
     ],
     "sources": [
-      "elliqdocs2026"
+      "elliqdocs2026",
+      "elliqsite2026"
     ],
     "checked": "2026-10-05"
   },
@@ -912,7 +929,8 @@
     ],
     "sources": [
       "omi2026",
-      "omihelp2026"
+      "omihelp2026",
+      "omisite2026"
     ],
     "checked": "2026-10-05"
   },
@@ -1005,7 +1023,9 @@
       "M→A",
       "L2"
     ],
-    "sources": [],
+    "sources": [
+      "memoketgem2026"
+    ],
     "checked": "2026-10-26",
     "added": "2026-10-26"
   },
@@ -1023,7 +1043,9 @@
       "M→A",
       "L2"
     ],
-    "sources": [],
+    "sources": [
+      "soulogsense2026"
+    ],
     "checked": "2026-10-26",
     "added": "2026-10-26"
   },
@@ -1041,7 +1063,9 @@
       "M→A",
       "L2"
     ],
-    "sources": [],
+    "sources": [
+      "memomindone2026"
+    ],
     "checked": "2026-10-27",
     "added": "2026-10-27"
   },
@@ -1077,7 +1101,9 @@
       "M→A",
       "L2"
     ],
-    "sources": [],
+    "sources": [
+      "forth2026"
+    ],
     "checked": "2026-10-29",
     "added": "2026-10-29"
   },
@@ -1095,7 +1121,9 @@
       "M→A",
       "L2"
     ],
-    "sources": [],
+    "sources": [
+      "ona2026"
+    ],
     "checked": "2026-10-29",
     "added": "2026-10-29"
   },
@@ -1112,7 +1140,9 @@
       "M→A",
       "L3"
     ],
-    "sources": [],
+    "sources": [
+      "lia2026"
+    ],
     "checked": "2026-10-25",
     "added": "2026-10-25"
   },
@@ -1129,14 +1159,16 @@
       "M→A",
       "L3"
     ],
-    "sources": [],
+    "sources": [
+      "specsintelligence2026"
+    ],
     "checked": "2026-10-25",
     "added": "2026-10-25"
   },
   {
     "id": "violoop",
     "series": "Violoop",
-    "section": "products-devices",
+    "section": "products-digital",
     "title": "Violoop",
     "org": "Violoop",
     "links": {
@@ -1147,7 +1179,9 @@
       "M→A",
       "L3"
     ],
-    "sources": [],
+    "sources": [
+      "violoop2026"
+    ],
     "checked": "2026-10-25",
     "added": "2026-10-25"
   },
@@ -1165,7 +1199,9 @@
       "M→A",
       "L2"
     ],
-    "sources": [],
+    "sources": [
+      "switchbotmindclip2026"
+    ],
     "checked": "2026-10-25",
     "added": "2026-10-25"
   },
@@ -1181,7 +1217,9 @@
     "tags": [
       "L2"
     ],
-    "sources": [],
+    "sources": [
+      "sai2026"
+    ],
     "checked": "2026-10-25",
     "added": "2026-10-25"
   },
@@ -1214,7 +1252,9 @@
       "M→A",
       "L2"
     ],
-    "sources": [],
+    "sources": [
+      "harkpro2026"
+    ],
     "checked": "2026-10-28",
     "added": "2026-10-28"
   },
@@ -1231,7 +1271,9 @@
       "M→A",
       "L2"
     ],
-    "sources": [],
+    "sources": [
+      "oak12026"
+    ],
     "checked": "2026-11-03",
     "added": "2026-11-03"
   },
@@ -1270,5 +1312,64 @@
     "sources": [],
     "checked": "2026-11-06",
     "added": "2026-11-06"
+  },
+  {
+    "id": "orilo",
+    "series": "Orilo",
+    "section": "products-digital",
+    "title": "Orilo",
+    "org": "Echotime Technology",
+    "links": {
+      "website": "https://orilo.live/"
+    },
+    "sources": [
+      "orilo2026"
+    ],
+    "tags": [
+      "L3"
+    ],
+    "checked": "2026-11-06"
+  },
+  {
+    "id": "wajo",
+    "series": "Wajo",
+    "section": "products-digital",
+    "title": "Wajo",
+    "org": "Wajo",
+    "links": {
+      "website": "https://wajo.ai/"
+    },
+    "sources": [
+      "wajo2026"
+    ],
+    "checked": "2026-11-06"
+  },
+  {
+    "id": "copilot-windows",
+    "series": "Copilot",
+    "section": "products-digital",
+    "title": "Copilot on Windows",
+    "org": "Microsoft",
+    "links": {
+      "website": "https://copilot.microsoft.com/"
+    },
+    "sources": [
+      "copilotconnectors2026"
+    ],
+    "checked": "2026-11-06"
+  },
+  {
+    "id": "himax-hm01b0",
+    "series": "HM01B0",
+    "section": "products-devices",
+    "title": "HM01B0 image sensor",
+    "org": "Himax",
+    "links": {
+      "website": "https://www.himax.com.tw/products/cmos-image-sensor/always-on-vision-sensors/hm01b0/"
+    },
+    "sources": [
+      "himaxhm01b0"
+    ],
+    "checked": "2026-11-06"
   }
 ]

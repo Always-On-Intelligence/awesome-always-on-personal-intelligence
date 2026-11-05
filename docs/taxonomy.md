@@ -10,10 +10,11 @@ The list includes component methods, benchmarks, and partial systems when the su
 
 ## Structure
 
-The list starts directly with the survey's module chapters and follows its titles and terms. `data/sections.json` records the sections in reading order:
+The list follows the survey's chapters, titles, and terms, and it lists every work the survey cites. `data/sections.json` records the sections in reading order:
 
 | Section | Parts |
 |:--|:--|
+| Background | Works the Introduction and Foundations build on, and the earlier systems in the survey's map of the literature |
 | Sensing, Memory, Action | Space, shared conditions, policy, coupling across the loop, and evaluation, with the survey's subsections |
 | Applications, System Bottlenecks, and Loop Closure | Applications and bottlenecks by domain, shared conditions and implementation across modules, levels of loop closure, self-evolution in deployed loops |
 | Trends and Open Problems | Sustaining the continuing loop; authority, privacy, and safety; self-evolution and recursive revision; longitudinal evaluation and real deployment |
@@ -22,7 +23,7 @@ The list starts directly with the survey's module chapters and follows its title
 
 Long sections are divided into the survey's own sub-categories, kept as `groups` in `data/sections.json`: the paragraph headings of a subsection, the group rows of a module's benchmark table, the open problems of a Trends and Open Problems part, or the citation groups of the survey's related-survey paragraph. A work the survey cites goes under the sub-category that cites it, and works the survey does not cite yet go where they fit. A section whose works fall into fewer than two sub-categories is shown as one list.
 
-The README's Foundations section summarizes the survey's definitions, coupling channels, and loop-closure levels without a reading list. Works the survey cites only in its Introduction or Foundations, such as textbooks and early visions, are left out, apart from the related surveys and device pages.
+The README's Foundations section summarizes the survey's definitions, coupling channels, and loop-closure levels. Works the survey cites only in its Introduction or Foundations, such as early visions, textbooks, and cognitive architectures, are listed under Background, which the Foundations card of the contents links to.
 
 ## Placement
 

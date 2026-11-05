@@ -114,7 +114,10 @@
       "code": "https://github.com/modelcontextprotocol/modelcontextprotocol",
       "docs": "https://modelcontextprotocol.io/introduction"
     },
-    "checked": "2026-09-15"
+    "checked": "2026-09-15",
+    "sources": [
+      "mcpsite2026"
+    ]
   },
   {
     "id": "langfuse",

@@ -1,5 +1,23 @@
 [
   {
+    "id": "background",
+    "title": "Background",
+    "short": "Background",
+    "level": 2,
+    "icon": "foundations",
+    "description": "Works the survey cites in its Introduction and Foundations: early visions of personal assistance, the cognitive architectures and reinforcement learning behind the continuing loop, and the earlier systems its map of the literature starts from.",
+    "groups": [
+      {
+        "name": "Introduction and Foundations",
+        "tag": "Introduction and Foundations"
+      },
+      {
+        "name": "Mapping the Literature",
+        "tag": "Mapping the Literature"
+      }
+    ]
+  },
+  {
     "id": "sec-3",
     "title": "Sensing",
     "short": "Sensing",
