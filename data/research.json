@@ -8184,5 +8184,896 @@
       "paper": "https://arxiv.org/abs/2611.00650"
     },
     "added": "2026-11-05"
+  },
+  {
+    "id": "proactiveserviceagents2026",
+    "section": "related-surveys",
+    "group": "Proactive assistance",
+    "title": "Proactive Service Agents: A Unified Decision Framework, Methods, and Evaluation",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.03727"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "proactivityfoundations2026",
+    "section": "related-surveys",
+    "group": "Proactive assistance",
+    "title": "Foundations of Proactive Agents: Principles, Technical Layers, and Proactivity-Gym",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.37267"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "governedproactiveagency2026",
+    "section": "sec-5-1-1",
+    "group": "Proactive action",
+    "title": "When Intelligence Becomes Agency: A Theory of Governed, Proactive Agency for Symbiotic AI Systems",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.07741"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "tracestreaming2026",
+    "section": "sec-3-5-1",
+    "title": "TRACE: Temporal Audit and Condition-aware Evaluation of Streaming Video Understanding",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.30670"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "omnimmi2025",
+    "section": "sec-3-5-2",
+    "group": "Readiness and response timing",
+    "title": "OmniMMI: A Comprehensive Multi-modal Interaction Benchmark in Streaming Video Contexts",
+    "year": 2025,
+    "venue": "CVPR",
+    "links": {
+      "paper": "https://arxiv.org/abs/2503.22952"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "streamgaze2026",
+    "section": "sec-3-5-2",
+    "group": "Readiness and response timing",
+    "title": "StreamGaze: Gaze-Guided Temporal Reasoning and Proactive Understanding in Streaming Videos",
+    "year": 2026,
+    "venue": "CVPR",
+    "links": {
+      "paper": "https://arxiv.org/abs/2512.01707"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "streamarena2026",
+    "section": "sec-3-5-2",
+    "group": "Perception baselines: supplied input",
+    "title": "StreamArena: Toward Continuous, Interactive, and Long-Horizon Agentic Streaming Video Understanding",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.05703"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "provmem2026",
+    "section": "sec-4-3-1",
+    "group": "Admission",
+    "title": "ProV-Mem: Proactive Memory for Streaming Video Question Answering",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.23998"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "askfortomorrow2026",
+    "section": "sec-4-3-1",
+    "group": "Admission",
+    "title": "Learning What to Ask for Tomorrow: Active Preference Acquisition for Long-Term Personalized Web Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.31107"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "rememberwhenitmatters2026",
+    "section": "sec-4-3-3",
+    "group": "Delivery",
+    "title": "Remember When It Matters: Proactive Memory Agent for Long-Horizon Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2607.08716"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "cognifold2026",
+    "section": "sec-4-3-4",
+    "group": "Consolidation",
+    "title": "CogniFold: Always-On Proactive Memory via Cognitive Folding",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.13438"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "pcontextbench2026",
+    "section": "sec-4-5-2",
+    "group": "Coupling and later use: state influences subsequent decisions",
+    "title": "P-ContextBench: From Personal Fact Recall to Personalized Agent Behavior",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.40959"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "clawanything2026",
+    "section": "sec-4-5-2",
+    "group": "Coupling and later use: state influences subsequent decisions",
+    "title": "Claw-Anything: Benchmarking Always-On Personal Assistants with Broader Access to User's Digital World",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.26086"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "enpmrbench2026",
+    "section": "sec-4-5-2",
+    "group": "Coupling and later use: state influences subsequent decisions",
+    "title": "ENPMR-Bench: Benchmarking Proactive Memory Retrieval for Emotional Support Agents",
+    "year": 2026,
+    "venue": "ACL Findings",
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.27240"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "whennottohelp2025",
+    "section": "sec-5-3-1",
+    "group": "Waiting for a useful moment",
+    "title": "When not to help: planning for lasting human-AI collaboration",
+    "year": 2025,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2508.01837"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "why2speak2026",
+    "section": "sec-5-3-1",
+    "group": "Waiting for a useful moment",
+    "title": "Why2Speak: Faithful Reasoning for Abstaining Action Policies",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.20670"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "timeawarenavigation2026",
+    "section": "sec-5-3-1",
+    "group": "Waiting for a useful moment",
+    "title": "Time-Aware Assistive Navigation",
+    "year": 2026,
+    "venue": "ICRA",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.05596"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "egoproactiveambient2026",
+    "section": "sec-5-3-1",
+    "group": "Waiting for a useful moment",
+    "title": "Ambient @ EgoProactive 2026 : Proactive Egocentric Assistance with Visually Grounded Supervision",
+    "year": 2026,
+    "venue": "ECCV Wearable AI Challenge",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.07099"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "liveassistant2026",
+    "section": "sec-5-3-1",
+    "group": "Waiting for a useful moment",
+    "title": "Live Assistant: Learning Whether, When, and Whom to Assist in Real-World Live Social Streams",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.27303"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "hithinkturn2026",
+    "section": "sec-5-3-1",
+    "group": "Waiting for a useful moment",
+    "title": "HiThink Turn: An Intent-Aware Turn-Taking Control Module for Full-Duplex Dialogue",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.34096"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "hierarchicalprocedural2026",
+    "section": "sec-5-3-1",
+    "group": "Waiting for a useful moment",
+    "title": "Improving Proactive AI Assistance with Hierarchical Procedural Understanding",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.06505"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "innerthoughts2025",
+    "section": "sec-5-3-1",
+    "group": "Waiting for a useful moment",
+    "title": "Proactive Conversational Agents with Inner Thoughts",
+    "year": 2025,
+    "venue": "CHI",
+    "links": {
+      "paper": "https://arxiv.org/abs/2501.00383"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "jarvisspeech2026",
+    "section": "sec-5-3-1",
+    "group": "Waiting for a useful moment",
+    "title": "Jarvis: A Proactive Speech Agent for Multi-Party Conversations",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.07506"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "proactbreakdown2026",
+    "section": "sec-5-3-1",
+    "group": "Waiting for a useful moment",
+    "title": "ProACT: Towards Breakdown-Aware Proactive Agent in Multi-User Collaboration",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2607.03730"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "speakforme2026",
+    "section": "sec-5-3-1",
+    "group": "Waiting for a useful moment",
+    "title": "Speak for Me: Giving LLMs the Situational Awareness to Participate in a Meeting",
+    "year": 2026,
+    "venue": "EMNLP",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.03923"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "minicpmo2026",
+    "section": "sec-5-3-1",
+    "group": "Choosing a separate or shared timing model",
+    "title": "MiniCPM-o 4.5: Towards Real-Time Full-Duplex Omni-Modal Interaction",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.27393"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "syncpro2026",
+    "section": "sec-5-3-1",
+    "group": "Choosing a separate or shared timing model",
+    "title": "SyncPro: Synchronous Reasoning and Responding for Proactive Streaming Video Understanding",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.32132",
+      "code": "https://github.com/Eureka-Maggie/SyncPro"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "realtimevenus2026",
+    "section": "sec-5-3-1",
+    "group": "Choosing a separate or shared timing model",
+    "title": "Realtime-Venus: A full-duplex interaction system with asynchronous delegation",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.13814"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "streamov2026",
+    "section": "sec-5-3-1",
+    "group": "Choosing a separate or shared timing model",
+    "title": "StreamOV: Streaming Omni-Video Understanding via Evidence-Guided Memory and Response Triggering",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.25621"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "roma2026",
+    "section": "sec-5-3-1",
+    "group": "Choosing a separate or shared timing model",
+    "title": "ROMA: Real-time Omni-Multimodal Assistant with Interactive Streaming Understanding",
+    "year": 2026,
+    "venue": "ACL Findings",
+    "links": {
+      "paper": "https://arxiv.org/abs/2601.10323"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "responseg12026",
+    "section": "sec-5-3-1",
+    "group": "Choosing a separate or shared timing model",
+    "title": "Response-G1: Explicit Scene Graph Modeling for Proactive Streaming Video Understanding",
+    "year": 2026,
+    "venue": "ACL",
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.07575",
+      "code": "https://github.com/PolyX-Research/Response-G1"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "valueofinformation2026",
+    "section": "sec-5-3-1",
+    "group": "Clarifying, preparing, or stopping",
+    "title": "Value of Information: A Framework for Human–Agent Communication",
+    "year": 2026,
+    "venue": "ACL",
+    "links": {
+      "paper": "https://aclanthology.org/2026.acl-long.1987/"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "liveopsd2026",
+    "section": "sec-5-3-5",
+    "title": "Live-OPSD: On-Policy Self-Distillation for Proactive Streaming Large Video Models",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.36959"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "pppagent2026",
+    "section": "sec-5-3-5",
+    "title": "Training Proactive and Personalized LLM Agents",
+    "year": 2026,
+    "venue": "COLM",
+    "links": {
+      "paper": "https://arxiv.org/abs/2511.02208"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "proactvl2026",
+    "section": "sec-5-3-5",
+    "title": "Proact-VL: A Proactive VideoLLM for Real-Time AI Companions",
+    "year": 2026,
+    "venue": "ICML",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.03447",
+      "code": "https://github.com/microsoft/AnthropomorphicIntelligence/tree/main/Proact-VL"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "interruptionbudgets2026",
+    "section": "sec-5-5-1",
+    "title": "Ask Less, Ask Better: Allocating User Attention in Proactive LLM Agents with Interruption Budgets",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.24411"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "fingertip20k2026",
+    "section": "sec-5-5-2",
+    "group": "Proactive: acting or staying silent",
+    "title": "FingerTip 20K: A Benchmark for Proactive and Personalized Mobile LLM Agents",
+    "year": 2026,
+    "venue": "ICLR",
+    "links": {
+      "paper": "https://arxiv.org/abs/2507.21071"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "proactivemobile2026",
+    "section": "sec-5-5-2",
+    "group": "Proactive: acting or staying silent",
+    "title": "ProactiveMobile: A Comprehensive Benchmark for Boosting Proactive Intelligence on Mobile Devices",
+    "year": 2026,
+    "venue": "CVPR",
+    "links": {
+      "paper": "https://arxiv.org/abs/2602.21858"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "guidebench2026",
+    "section": "sec-5-5-2",
+    "group": "Proactive: acting or staying silent",
+    "title": "GUIDE: A Benchmark for Understanding and Assisting Users in Open-Ended GUI Tasks",
+    "year": 2026,
+    "venue": "CVPR",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.25864"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "act2intention2026",
+    "section": "sec-5-5-2",
+    "group": "Proactive: acting or staying silent",
+    "title": "Act2Intention: A Benchmark For Developing Active Mobile Agents Through Inferring User Intention from GUI Actions",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.14132"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "omniassistbench2026",
+    "section": "sec-5-5-2",
+    "group": "Proactive: acting or staying silent",
+    "title": "OmniAssistBench: Assistant-style Interaction Benchmark for Omni-LLMs",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.21360"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "duplexfloor2026",
+    "section": "sec-5-5-2",
+    "group": "Proactive: acting or staying silent",
+    "title": "Full-Duplex Speech Models Take the Floor When Asked, Not When Needed",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.19596"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "duplexact2026",
+    "section": "sec-5-5-2",
+    "group": "Proactive: acting or staying silent",
+    "title": "DuplexAct: How Interactive Are Frontier Full-Duplex Spoken Language Models?",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.17738"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "duplexactbench2026",
+    "section": "sec-5-5-2",
+    "group": "Proactive: acting or staying silent",
+    "title": "DuplexAct-Bench: Broadening Full-Duplex Speech Evaluation toward Proactive Interaction across Diverse Behavioral Requirements",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.39446"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "pitch2026",
+    "section": "sec-5-5-2",
+    "group": "Proactive: acting or staying silent",
+    "title": "When Should AI Chime In? Benchmarking Timely Contribution of Proactive Agents in Multi-Party Chat",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.25896"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "p3ibench2026",
+    "section": "sec-5-5-2",
+    "group": "Proactive: acting or staying silent",
+    "title": "From Perception to Prediction and Intervention: Benchmarking Proactive Video Assistants in Real-Life Scenarios",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.21568"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "dive2026",
+    "section": "sec-5-5-2",
+    "group": "Proactive: acting or staying silent",
+    "title": "DIVE: Benchmarking Full-Duplex Interaction with Visual Engagement in Continuous Streams",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.28405"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "interactionbench2026",
+    "section": "sec-5-5-2",
+    "group": "Proactive: acting or staying silent",
+    "title": "InteractionBench: A Real-Time Interaction Benchmark for Streaming Video Systems",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.05775"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "roboteqvideo2026",
+    "section": "sec-5-5-2",
+    "group": "Proactive: acting or staying silent",
+    "title": "RobotEQ-Video: A Video-Centric Benchmark for Social Proactive Intelligence with World-State Taxonomy",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.21371"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "roboteqpersonal2026",
+    "section": "sec-5-5-2",
+    "group": "Proactive: acting or staying silent",
+    "title": "RobotEQ 3.0: Towards Personalized Social Proactive Intelligence in Embodied Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.36618"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "overassist2026",
+    "section": "sec-5-5-2",
+    "group": "Proactive: acting or staying silent",
+    "title": "AI Assistants Overassist",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2607.21306"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "proactiveroles2026",
+    "section": "sec-5-5-2",
+    "group": "Proactive: acting or staying silent",
+    "title": "Exploring The Impact Of Proactive Generative AI Agent Roles In Time-Sensitive Collaborative Problem-Solving Tasks",
+    "year": 2026,
+    "venue": "CHI",
+    "links": {
+      "paper": "https://arxiv.org/abs/2602.17864"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "proactivecompetence2025",
+    "section": "sec-5-5-2",
+    "group": "Proactive: acting or staying silent",
+    "title": "When AI-Based Agents Are Proactive: Implications for Competence and System Satisfaction in Human-AI Collaboration",
+    "year": 2025,
+    "venue": "BISE",
+    "links": {
+      "paper": "https://doi.org/10.1007/s12599-024-00918-y"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "overact2026",
+    "section": "sec-5-5-2",
+    "group": "Authority and consequences across interactions",
+    "title": "OverAct: Measuring and Mitigating Proactive Over-Authorization in LLM Tool-Calling Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.01508"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "delegationbench2026",
+    "section": "sec-5-5-2",
+    "group": "Authority and consequences across interactions",
+    "title": "DelegationBench: Measuring When AI Agents Should Ask Before Acting",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.05532"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "personalalign2026",
+    "section": "sec-5-4-2",
+    "group": "Using personal and task context",
+    "title": "PersonalAlign: Hierarchical Implicit Intent Alignment for Personalized GUI Agent with Long-Term User-Centric Records",
+    "year": 2026,
+    "venue": "ACL",
+    "links": {
+      "paper": "https://arxiv.org/abs/2601.09636"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "satori2024",
+    "section": "sec-6-1-1",
+    "title": "Satori: Towards Proactive AR Assistant with Belief-Desire-Intention User Modeling",
+    "year": 2024,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2410.16668"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "yeti2025",
+    "section": "sec-6-1-1",
+    "title": "YETI (YET to Intervene) Proactive Interventions by Multimodal AI Agents in Augmented Reality Tasks",
+    "year": 2025,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2501.09355"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "watchguardian2025",
+    "section": "sec-6-1-1",
+    "title": "WatchGuardian: Enabling User-Defined Personalized Just-in-Time Intervention on Smartwatch",
+    "year": 2025,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2502.05783"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "mirai2025",
+    "section": "sec-6-1-1",
+    "title": "Mirai: A Wearable Proactive AI \"Inner-Voice\" for Contextual Nudging",
+    "year": 2025,
+    "venue": "CHI EA",
+    "links": {
+      "paper": "https://arxiv.org/abs/2502.02370"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "chatmuse2026",
+    "section": "sec-6-1-1",
+    "title": "ChatMuse: Supporting In-Person Small-Group Conversation Experience with a Proactive Assistive AI Agent in Mixed Reality",
+    "year": 2026,
+    "venue": "UIST",
+    "links": {
+      "paper": "https://arxiv.org/abs/2607.18556"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "pvcare2026",
+    "section": "sec-6-1-1",
+    "title": "Beyond Reactive Assistance: PV-Care Using Low-Density EEG and AI to Provide Proactive, Context-Aware Help for MCI",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.22024"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "oncallproactive2026",
+    "section": "sec-6-1-2",
+    "title": "Help Without Being Asked: A Deployed Proactive Agent System for On-Call Support with Continuous Self-Improvement",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.09579"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "proactiveva2025",
+    "section": "sec-6-1-2",
+    "title": "ProactiveVA: Proactive Visual Analytics with LLM-Based UI Agent",
+    "year": 2025,
+    "venue": "IEEE VIS",
+    "links": {
+      "paper": "https://arxiv.org/abs/2507.18165"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "ito2026",
+    "section": "sec-6-1-2",
+    "title": "ITO: Real-time Browser Tab Orchestration Through Intent Detection",
+    "year": 2026,
+    "venue": "UIST",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.09107"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "insighttoast2026",
+    "section": "sec-6-1-2",
+    "title": "InsightToast: Proactive Information Retrieval & Glanceable Visualization in the Side Channel of Data-Rich Meetings",
+    "year": 2026,
+    "venue": "UIST",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.31115"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "proactivewriting2026",
+    "section": "sec-6-1-2",
+    "title": "Towards Cognitive Process-Aware Proactive Writing Support",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.30424"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "codinggenie2025",
+    "section": "sec-6-1-2",
+    "title": "CodingGenie: A Proactive LLM-Powered Programming Assistant",
+    "year": 2025,
+    "venue": "FSE Demo",
+    "links": {
+      "paper": "https://arxiv.org/abs/2503.14724"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "codellaborator2025",
+    "section": "sec-6-1-2",
+    "title": "Assistance or Disruption? Exploring and Evaluating the Design and Trade-offs of Proactive AI Programming Support",
+    "year": 2025,
+    "venue": "CHI",
+    "links": {
+      "paper": "https://arxiv.org/abs/2502.18658"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "proactivecodingstudy2026",
+    "section": "sec-6-1-2",
+    "title": "An Empirical Study of Proactive Coding Assistants in Real-World Software Development",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2605.05700"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "pace2025",
+    "section": "sec-6-1-3",
+    "title": "PACE: Proactive Assistance in Human-Robot Collaboration Through Action-Completion Estimation",
+    "year": 2025,
+    "venue": "ICRA",
+    "links": {
+      "paper": "https://doi.org/10.1109/ICRA55743.2025.11127399"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "cognitiveactionreasoning2026",
+    "section": "sec-6-1-3",
+    "title": "Cognitive Action Reasoning for Proactive Robots from Human-Centered Multimodal Observations",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.23486"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "visualproactivity2026",
+    "section": "sec-6-1-3",
+    "title": "Visual Proactivity: Enhancing Human-Robot Collaboration Through Intent Communication",
+    "year": 2026,
+    "venue": "ICRA",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.21729"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "socialrobotagent2026",
+    "section": "sec-6-1-3",
+    "title": "From Social Reasoning to Embodied Interaction: An Agentic Framework for Social Robots",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.05964"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "proactivephysicalai2026",
+    "section": "sec-6-1-3",
+    "title": "Proactive Physical AI through Continuous Observation and Timely Intervention",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.16967"
+    },
+    "added": "2026-11-05"
+  },
+  {
+    "id": "outofsync2026",
+    "section": "sec-8-4",
+    "group": "Measuring Benefit and Burden Over Months",
+    "title": "Out of sync: Accommodation, evaluation, and emergence in five weeks with an agentic AI teammate",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2610.41057"
+    },
+    "added": "2026-11-05"
   }
 ]

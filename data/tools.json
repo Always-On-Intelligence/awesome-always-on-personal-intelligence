@@ -128,5 +128,16 @@
       "docs": "https://langfuse.com/docs/observability/overview"
     },
     "checked": "2026-09-15"
+  },
+  {
+    "id": "memu",
+    "section": "products-tools",
+    "group": "memory",
+    "title": "memU",
+    "description": "Keeps a shared personal memory across sessions, agents, and devices, forming memories in the background and retrieving them later.",
+    "links": {
+      "code": "https://github.com/NevaMind-AI/memU"
+    },
+    "checked": "2026-11-05"
   }
 ]
