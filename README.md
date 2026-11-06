@@ -5,7 +5,7 @@
 <img src="assets/banner.gif" width="100%" alt="Always-On Personal Intelligence: A Roadmap Towards Continuing, Self-Evolving Loops"/>
 
 <p>
-  <img src="https://img.shields.io/badge/Paper-Coming_Soon-355774?style=for-the-badge&logo=arxiv&logoColor=white" alt="Paper coming soon"/>
+  <a href="https://always-on-intelligence.github.io/Always-On_Personal_Intelligence.pdf"><img src="https://img.shields.io/badge/Paper-PDF-355774?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Paper (PDF)"/></a>
   <a href="https://always-on-intelligence.github.io/"><img src="https://img.shields.io/badge/Project-Website-66816D?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Project website"/></a>
 </p>
 
