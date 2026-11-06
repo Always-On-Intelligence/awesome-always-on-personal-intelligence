@@ -47,7 +47,7 @@ Always-on personal intelligence demands more than episodic, task-driven agents. 
 <em><b>Figure 1.</b> Overview of the roadmap. This roadmap is organized into five parts. We first define always-on personal intelligence as a continuing loop that connects Sensing, Memory, and Action through six directed channels. We then review each module by its space, conditions, policy, coupling, and evaluation. Building on these reviews, we examine integrated systems, their bottlenecks, and their levels of loop closure, and audit existing systems with HALO in read and run modes. Finally, we discuss the open problems in always-on personal intelligence.</em>
 </div>
 
-**How to read the list.** Sections and titles follow the survey's module chapters, and each work appears once, under the section where the survey discusses it. Long sections are divided into the survey's own sub-categories: the paragraphs of its text, the groups of its benchmark tables, or its open problems, and a work the survey cites sits under the one that cites it. Works added by the daily scan, which the survey does not cite yet, sit where they fit its framework. Each list runs from the newest work to the oldest, except the application and loop-closure lists, which run from the highest loop-closure level (`L5`) down. A channel tag such as `M→S` marks a work discussed under that coupling channel, `L0` to `L5` give a system's level in the loop-closure table, and `Product` marks a published study of a product. Products are listed separately under [Products & Tools](#products), one line per product with its official page.
+**How to read the list.** Sections and titles follow the survey's module chapters, and each work appears once, under the section where the survey discusses it. Works added by the daily scan, which the survey does not cite yet, sit where they fit its framework. Long sections are divided into the survey's own sub-categories: the paragraphs of its text, the groups of its benchmark tables, or its open problems, and a work the survey cites sits under the one that cites it. Works added by the daily scan, which the survey does not cite yet, sit where they fit its framework. Each list runs from the newest work to the oldest, except the application and loop-closure lists, which run from the highest loop-closure level (`L5`) down. A channel tag such as `M→S` marks a work discussed under that coupling channel, `L0` to `L5` give a system's level in the loop-closure table, and `Product` marks a published study of a product. Products are listed separately under [Products & Tools](#products), one line per product with its official page.
 
 ---
 
@@ -144,7 +144,7 @@ Sensing takes in observations and feedback from the user and the world, forming 
 
 #### How long can sensing continue?
 
-- Camera-Free Object Discovery and Interaction with GazeTags. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2611.02599)
+- Camera-Free Object Discovery and Interaction with GazeTags. [![UIST 2026][b-uist-2026-355774]](https://arxiv.org/abs/2611.02599)
 - Full System Architecture Modeling for Wearable Egocentric Contextual AI. [![arXiv 2025][b-arxiv-2025-a1574a]](https://arxiv.org/abs/2512.16045)
 - MELTing point: Mobile Evaluation of Language Transformers. [![MobiCom 2024][b-mobicom-2024-355774]](https://arxiv.org/abs/2403.12844) [![Code][b-code-3b434d-github]](https://github.com/brave-experiments/melt-public)
 - Thermal Model and Countermeasures for Future Smart Glasses. [![Sensors 2020][b-sensors-2020-355774]](https://doi.org/10.3390/s20051446)
@@ -284,7 +284,7 @@ Sensing takes in observations and feedback from the user and the world, forming 
 <a id="sec-3-5-1"></a>
 #### Evaluation Metrics
 
-- TRACE: Temporal Audit and Condition-aware Evaluation of Streaming Video Understanding. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.30670)
+- TRACE: Temporal Audit and Condition-aware Evaluation of Streaming Video Understanding. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.30670) [![Code][b-code-3b434d-github]](https://github.com/om-ai-lab/trace-bench)
 
 <a id="sec-3-5-2"></a>
 #### Benchmarks and Evaluation Settings
@@ -510,7 +510,7 @@ Memory keeps what the assistant learns about the user and hands it back when a d
 ##### Consolidation
 
 - Auto-Dreamer: Learning Offline Memory Consolidation for Language Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.20616)
-- CogniFold: Always-On Proactive Memory via Cognitive Folding. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.13438)
+- CogniFold: Always-On Proactive Memory via Cognitive Folding. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.13438) [![Code][b-code-3b434d-github]](https://github.com/OpenNorve/CogniFold)
 - HyperTrace: Hypothesis-Based Preference Tracing for Online LLM Personalization. [![Findings of EMNLP 2026][b-findings-of-emnlp-2026-355774]](https://arxiv.org/abs/2609.09835) [![Code][b-code-3b434d-github]](https://github.com/jiseshen/HyperTrace)
 - Hypotheses-Guided Self Distillation for Continual Personalization. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.00251) ![M→A][b-m-to-a-556b88] ![A→M][b-a-to-m-9d675d]
 - LightMem: Lightweight and Efficient Memory-Augmented Generation. [![ICLR 2026][b-iclr-2026-355774]](https://arxiv.org/abs/2510.18866) [![Code][b-code-3b434d-github]](https://github.com/zjunlp/LightMem)
@@ -677,7 +677,7 @@ Memory keeps what the assistant learns about the user and hands it back when a d
 - MemHarmBench: Evaluating Cross-Session Prompt Injection in Memory-Persistent AI Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2611.01700) [![Code][b-code-3b434d-github]](https://github.com/Kirito14IT/MemHarmBench) ![M→A][b-m-to-a-556b88]
 - MemoryArena: Benchmarking Agent Memory in Interdependent Multi-Session Agentic Tasks. [![ICML 2026][b-icml-2026-355774]](https://arxiv.org/abs/2602.16313)
 - MemUse: Moving Memory Evaluation from Direct QA to Natural Integration in Long-Term Human-AI Conversation. [![EMNLP 2026][b-emnlp-2026-355774]](https://arxiv.org/abs/2608.24189) [![Code][b-code-3b434d-github]](https://github.com/ryuichi-sumida/memuse) ![M→A][b-m-to-a-556b88]
-- One Assistant, Many Memories: Benchmarking Real-World Group Assistance When Recall Is Not Enough. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2611.04867) ![M→A][b-m-to-a-556b88]
+- One Assistant, Many Memories: Benchmarking Real-World Group Assistance When Recall Is Not Enough. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2611.04867) [![Code][b-code-3b434d-github]](https://github.com/HU-xiaobai/GroupAssistantBench) ![M→A][b-m-to-a-556b88]
 - P-ContextBench: From Personal Fact Recall to Personalized Agent Behavior. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.40959)
 - PairPref: When Should Memory Guide the Answer? A Benchmark for Contextual Preference Use. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.34526) ![M→A][b-m-to-a-556b88]
 - PAST-Bench: Benchmarking the Foundations of Recursive Self-Improvement in Personal Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.04003) [![Code][b-code-3b434d-github]](https://github.com/Gen-Verse/PAST-Bench)
@@ -915,13 +915,13 @@ Action decides whether, when, and how the assistant acts on the external world, 
 - DuplexAct-Bench: Broadening Full-Duplex Speech Evaluation toward Proactive Interaction across Diverse Behavioral Requirements. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.39446)
 - DuplexAct: How Interactive Are Frontier Full-Duplex Spoken Language Models? [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.17738)
 - Exploring The Impact Of Proactive Generative AI Agent Roles In Time-Sensitive Collaborative Problem-Solving Tasks. [![CHI 2026][b-chi-2026-355774]](https://arxiv.org/abs/2602.17864)
-- FingerTip 20K: A Benchmark for Proactive and Personalized Mobile LLM Agents. [![ICLR 2026][b-iclr-2026-355774]](https://arxiv.org/abs/2507.21071)
+- FingerTip 20K: A Benchmark for Proactive and Personalized Mobile LLM Agents. [![ICLR 2026][b-iclr-2026-355774]](https://arxiv.org/abs/2507.21071) [![Code][b-code-3b434d-github]](https://github.com/tsinghua-fib-lab/FingerTip-20K)
 - From Perception to Prediction and Intervention: Benchmarking Proactive Video Assistants in Real-Life Scenarios. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.21568)
 - From Reactive to Proactive: Assessing the Proactivity of Voice Agents via ProVoice-Bench. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2604.15037)
 - Full-Duplex Speech Models Take the Floor When Asked, Not When Needed. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.19596)
 - GUIDE: A Benchmark for Understanding and Assisting Users in Open-Ended GUI Tasks. [![CVPR 2026][b-cvpr-2026-355774]](https://arxiv.org/abs/2603.25864)
 - HALO: Human-Grounded Granular Evaluation of Proactive Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.39086) [![Code][b-code-3b434d-github]](https://github.com/CedricPei/HALO) ![S→A][b-s-to-a-556b88] ![M→A][b-m-to-a-556b88]
-- InteractionBench: A Real-Time Interaction Benchmark for Streaming Video Systems. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.05775)
+- InteractionBench: A Real-Time Interaction Benchmark for Streaming Video Systems. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.05775) [![Code][b-code-3b434d-github]](https://github.com/Espere-1119-Song/InteractionBench)
 - Omni-InteractScope: Benchmarking Proactive and Agentic Interaction in Continuous Omnimodal Streams. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.35439) ![S→A][b-s-to-a-556b88]
 - Omni-Life: Benchmarking Omnimodal Real-Time AI Assistants in People's Daily Lives. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2611.02835) ![S→A][b-s-to-a-556b88]
 - OmniAssistBench: Assistant-style Interaction Benchmark for Omni-LLMs. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.21360)
@@ -941,7 +941,7 @@ Action decides whether, when, and how the assistant acts on the external world, 
 - Agent Memory Is a Surface for Endogenous Authorization Laundering. [![NeurIPS Workshop 2026][b-neurips-workshop-2026-355774]](https://arxiv.org/abs/2609.01836) [![Code][b-code-3b434d-github]](https://github.com/tommasocerruti/eal-bench) ![M→A][b-m-to-a-556b88]
 - Claw-SWE-Bench: A Benchmark for Evaluating OpenClaw-style Agent Harnesses on Coding Tasks. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.12344) [![Code][b-code-3b434d-github]](https://github.com/opensquilla/claw-swe-bench)
 - CoSec: Benchmarking Agent Security in Communities. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.34790)
-- DelegationBench: Measuring When AI Agents Should Ask Before Acting. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.05532)
+- DelegationBench: Measuring When AI Agents Should Ask Before Acting. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.05532) [![Code][b-code-3b434d-github]](https://github.com/PieLord757/delegation-bench)
 - Evaluating the Hidden Costs of Personalization in Large Language Models. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.28833) [![Code][b-code-3b434d-github]](https://github.com/yumeng-10/personalization_risk) ![M→A][b-m-to-a-556b88]
 - InferPriv: Evaluating Inferential Privacy Leakage in LLM Assistants. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.34640) ![M→A][b-m-to-a-556b88]
 - OverAct: Measuring and Mitigating Proactive Over-Authorization in LLM Tool-Calling Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.01508)
@@ -1022,7 +1022,7 @@ How Sensing, Memory, and Action work together in wearable, digital, and physical
 - DualPath: Breaking the Storage Bandwidth Bottleneck in Agentic LLM Inference. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2602.21548)
 - FreeToken: Efficient Edge-Native MoE Serving with Bandwidth-Adaptive Execution. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.16157) [![Code][b-code-3b434d-github]](https://github.com/FlashML-org/FreeToken)
 - From Chatbot to Digital Colleague: The Paradigm Shift Toward Persistent Autonomous AI. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.14502)
-- Help Without Being Asked: A Deployed Proactive Agent System for On-Call Support with Continuous Self-Improvement. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2604.09579)
+- Help Without Being Asked: A Deployed Proactive Agent System for On-Call Support with Continuous Self-Improvement. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2604.09579) [![Code][b-code-3b434d-github]](https://github.com/volcengine/veaiops)
 - InsightToast: Proactive Information Retrieval &amp; Glanceable Visualization in the Side Channel of Data-Rich Meetings. [![UIST 2026][b-uist-2026-355774]](https://arxiv.org/abs/2608.31115)
 - ITO: Real-time Browser Tab Orchestration Through Intent Detection. [![UIST 2026][b-uist-2026-355774]](https://arxiv.org/abs/2608.09107)
 - Learning to Adapt: Self-Improving Web Agent via Cognitive-Aware Exploration. [![CVPR 2026][b-cvpr-2026-355774]](https://arxiv.org/abs/2605.31365)
@@ -1032,7 +1032,7 @@ How Sensing, Memory, and Action work together in wearable, digital, and physical
 - SkillHarness: Harnessing Safe Skills for Computer-Use Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2606.20636) [![Code][b-code-3b434d-github]](https://github.com/YurunChen/SkillHarness)
 - Towards Cognitive Process-Aware Proactive Writing Support. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.30424)
 - Assistance or Disruption? Exploring and Evaluating the Design and Trade-offs of Proactive AI Programming Support. [![CHI 2025][b-chi-2025-355774]](https://arxiv.org/abs/2502.18658)
-- CodingGenie: A Proactive LLM-Powered Programming Assistant. [![FSE Demo 2025][b-fse-demo-2025-355774]](https://arxiv.org/abs/2503.14724)
+- CodingGenie: A Proactive LLM-Powered Programming Assistant. [![FSE Demo 2025][b-fse-demo-2025-355774]](https://arxiv.org/abs/2503.14724) [![Code][b-code-3b434d-github]](https://github.com/sebzhao/CodingGenie)
 - ProactiveVA: Proactive Visual Analytics with LLM-Based UI Agent. [![IEEE VIS 2025][b-ieee-vis-2025-355774]](https://arxiv.org/abs/2507.18165)
 
 <a id="sec-6-1-3"></a>
@@ -1357,11 +1357,13 @@ Products are listed apart from research works, one line per product with its off
 <tr><td nowrap valign="top"><img src="https://www.google.com/s2/favicons?domain=jeyswork.com&sz=64" width="16" height="16" alt=""/> <b><a href="https://lia.jeyswork.com/en">LIA</a></b></td><td>LIA</td><td nowrap valign="top"><img src="https://img.shields.io/badge/L3-b8924a?style=flat-square" alt="L3" align="top"/> <img src="https://img.shields.io/badge/M%E2%86%92A-556b88?style=flat-square" alt="M→A" align="top"/></td></tr>
 <tr><td nowrap valign="top"><img src="https://www.google.com/s2/favicons?domain=lindy.ai&sz=64" width="16" height="16" alt=""/> <b><a href="https://www.lindy.ai/">Lindy</a></b></td><td>Lindy</td><td nowrap valign="top"><img src="https://img.shields.io/badge/No_level-d0d0d0?style=flat-square" alt="No level" align="top"/></td></tr>
 <tr><td nowrap valign="top"><img src="https://www.google.com/s2/favicons?domain=manus.im&sz=64" width="16" height="16" alt=""/> <b><a href="https://manus.im/">Manus</a></b></td><td>Manus</td><td nowrap valign="top"><img src="https://img.shields.io/badge/L2-6b7785?style=flat-square" alt="L2" align="top"/></td></tr>
-<tr><td nowrap valign="top"><img src="https://www.google.com/s2/favicons?domain=muse.ai&sz=64" width="16" height="16" alt=""/> <b><a href="https://muse.ai/">Muse</a></b></td><td>Meta</td><td nowrap valign="top"><img src="https://img.shields.io/badge/L3-b8924a?style=flat-square" alt="L3" align="top"/></td></tr>
+<tr><td nowrap valign="top"><img src="https://www.google.com/s2/favicons?domain=muse.ai&sz=64" width="16" height="16" alt=""/> <b><a href="https://muse.ai/">Muse</a></b><br/><sub>2026/11 · <a href="https://muse.ai/">Voice mode for Muse</a></sub></td><td>Meta</td><td nowrap valign="top"><img src="https://img.shields.io/badge/L3-b8924a?style=flat-square" alt="L3" align="top"/><br/><sub>&nbsp;</sub></td></tr>
+<tr><td nowrap valign="top"><img src="https://www.google.com/s2/favicons?domain=nico.app&sz=64" width="16" height="16" alt=""/> <b><a href="https://nico.app/">Nico</a></b></td><td>SUPERMIND PTE. LIMITED</td><td nowrap valign="top"><img src="https://img.shields.io/badge/L3-b8924a?style=flat-square" alt="L3" align="top"/> <img src="https://img.shields.io/badge/S%E2%86%92A-556b88?style=flat-square" alt="S→A" align="top"/> <img src="https://img.shields.io/badge/M%E2%86%92A-556b88?style=flat-square" alt="M→A" align="top"/></td></tr>
 <tr><td nowrap valign="top"><img src="https://www.google.com/s2/favicons?domain=openclaw.ai&sz=64" width="16" height="16" alt=""/> <b><a href="https://openclaw.ai/">OpenClaw</a></b></td><td>OpenClaw</td><td nowrap valign="top"><img src="https://img.shields.io/badge/L4-9a7430?style=flat-square" alt="L4" align="top"/></td></tr>
 <tr><td nowrap valign="top"><img src="https://www.google.com/s2/favicons?domain=github.com&sz=64" width="16" height="16" alt=""/> <b><a href="https://github.com/CopilotKit/OpenMuse">OpenMuse</a></b></td><td>CopilotKit</td><td nowrap valign="top"><img src="https://img.shields.io/badge/L2-6b7785?style=flat-square" alt="L2" align="top"/></td></tr>
 <tr><td nowrap valign="top"><img src="https://www.google.com/s2/favicons?domain=orchid.ai&sz=64" width="16" height="16" alt=""/> <b><a href="https://orchid.ai/">Orchid</a></b></td><td>Orchid</td><td nowrap valign="top"><img src="https://img.shields.io/badge/L3-b8924a?style=flat-square" alt="L3" align="top"/></td></tr>
 <tr><td nowrap valign="top"><img src="https://www.google.com/s2/favicons?domain=pally.com&sz=64" width="16" height="16" alt=""/> <b><a href="https://pally.com/">Pally</a></b></td><td>Pally</td><td nowrap valign="top"><img src="https://img.shields.io/badge/L4-9a7430?style=flat-square" alt="L4" align="top"/> <img src="https://img.shields.io/badge/A%E2%86%92M-9d675d?style=flat-square" alt="A→M" align="top"/></td></tr>
+<tr><td nowrap valign="top"><img src="https://www.google.com/s2/favicons?domain=perplexity.ai&sz=64" width="16" height="16" alt=""/> <b><a href="https://www.perplexity.ai/hub/products/teammate">Perplexity Teammates</a></b></td><td>Perplexity</td><td nowrap valign="top"><img src="https://img.shields.io/badge/L3-b8924a?style=flat-square" alt="L3" align="top"/> <img src="https://img.shields.io/badge/S%E2%86%92A-556b88?style=flat-square" alt="S→A" align="top"/> <img src="https://img.shields.io/badge/M%E2%86%92A-556b88?style=flat-square" alt="M→A" align="top"/></td></tr>
 <tr><td nowrap valign="top"><img src="https://www.google.com/s2/favicons?domain=sai.work&sz=64" width="16" height="16" alt=""/> <b><a href="https://sai.work">Sai</a></b></td><td>Simular</td><td nowrap valign="top"><img src="https://img.shields.io/badge/L2-6b7785?style=flat-square" alt="L2" align="top"/></td></tr>
 <tr><td nowrap valign="top"><img src="https://www.google.com/s2/favicons?domain=screenpipe.com&sz=64" width="16" height="16" alt=""/> <b><a href="https://screenpipe.com/">screenpipe</a></b></td><td>screenpipe</td><td nowrap valign="top"><img src="https://img.shields.io/badge/No_level-d0d0d0?style=flat-square" alt="No level" align="top"/></td></tr>
 <tr><td nowrap valign="top"><img src="https://www.google.com/s2/favicons?domain=apple.com&sz=64" width="16" height="16" alt=""/> <b><a href="https://support.apple.com/en-us/127257">Siri Conversation recall (macOS 27.2)</a></b></td><td>Apple</td><td nowrap valign="top"><img src="https://img.shields.io/badge/L1-868e98?style=flat-square" alt="L1" align="top"/> <img src="https://img.shields.io/badge/M%E2%86%92A-556b88?style=flat-square" alt="M→A" align="top"/> <img src="https://img.shields.io/badge/A%E2%86%92M-9d675d?style=flat-square" alt="A→M" align="top"/></td></tr>
