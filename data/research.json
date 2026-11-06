@@ -10702,6 +10702,50 @@
     }
   },
   {
+    "id": "companionqa2026",
+    "section": "sec-5-1-1",
+    "group": "Reactive action",
+    "title": "Companion-style QA Assistance in Ego-Vision",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.06721"
+    }
+  },
+  {
+    "id": "gazeify2026",
+    "section": "sec-5-1-1",
+    "group": "Reactive action",
+    "title": "Gazeify Then Voiceify: Physical Object Referencing Through Gaze and Voice Interaction with Displayless Smart Glasses",
+    "year": 2026,
+    "venue": "IUI",
+    "links": {
+      "paper": "https://arxiv.org/abs/2601.19281"
+    }
+  },
+  {
+    "id": "ludi2026",
+    "section": "sec-5-1-1",
+    "group": "Reactive action",
+    "title": "Ludi0.1: An Agentic System for Socially Intelligent Robots",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.22035"
+    }
+  },
+  {
+    "id": "homebot2026",
+    "section": "sec-5-1-1",
+    "group": "Reactive action",
+    "title": "Homebot: A Personal AI Agent for Conversational Home Assistance and Automation",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.02254"
+    }
+  },
+  {
     "id": "radeg2026",
     "section": "sec-5-4-2",
     "group": "Separating retrieval, delivery, and use",

@@ -11,7 +11,7 @@
 
 <p>
   <a href="https://github.com/Always-On-Intelligence/awesome-always-on-personal-intelligence/stargazers"><img src="https://img.shields.io/github/stars/Always-On-Intelligence/awesome-always-on-personal-intelligence?style=flat-square&logo=github&color=B88465" alt="GitHub stars"/></a>
-  <img src="https://img.shields.io/badge/Papers-884-355774?style=flat-square" alt="884 papers"/>
+  <img src="https://img.shields.io/badge/Papers-888-355774?style=flat-square" alt="888 papers"/>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-8C8C8C?style=flat-square" alt="MIT License"/></a>
 </p>
 
@@ -828,6 +828,13 @@ Action decides whether, when, and how the assistant acts on the external world, 
 
 <a id="sec-5-1-1"></a>
 #### What Starts an Action
+
+##### Reactive action
+
+- Companion-style QA Assistance in Ego-Vision. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2609.06721)
+- Gazeify Then Voiceify: Physical Object Referencing Through Gaze and Voice Interaction with Displayless Smart Glasses. [![IUI 2026][b-iui-2026-355774]](https://arxiv.org/abs/2601.19281)
+- Homebot: A Personal AI Agent for Conversational Home Assistance and Automation. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.02254)
+- Ludi0.1: An Agentic System for Socially Intelligent Robots. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2608.22035)
 
 ##### Deferred action
 
