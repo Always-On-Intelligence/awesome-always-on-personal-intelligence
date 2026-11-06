@@ -9,7 +9,7 @@ Use the [resource suggestion form](https://github.com/Always-On-Intelligence/awe
 ## Add or correct an entry
 
 1. Read [the scope and structure notes](docs/taxonomy.md) and search the data for the work.
-2. Add one record to the matching file: `data/research.json` for works cited in the survey, `data/products.json` for products, or `data/tools.json` for developer tools.
+2. Add one record to the matching file: `data/research.json` for works cited in the survey, or `data/products.json` for products.
 3. Regenerate and validate the README:
 
 ```bash
@@ -47,7 +47,7 @@ The README renders each entry as one line that starts with the title, followed b
 - Title. [![Venue Year]](paper URL) [![Code]](code URL) ![M→S]
 ```
 
-## Products and tools
+## Products
 
 `data/products.json` has one record per product, or per feature when a product line has several:
 
@@ -73,8 +73,6 @@ The README renders each entry as one line that starts with the title, followed b
 - `checked`: the date you opened the official page (`YYYY-MM-DD`).
 - `updates` (optional): major updates, each with a `date` (`YYYY-MM`), a short `label`, and an official HTTPS `url`. The README shows the latest three under the product's name.
 - `logo` (optional): the domain to take the product's icon from when its page's domain gives the wrong one, for example `langchain.com`.
-
-Developer tools in `data/tools.json` keep a one-sentence `description`, a `group` (`memory`, `runtime`, or `integrations`), their website, code, and docs links, and the `checked` date.
 
 ## Curation principles
 

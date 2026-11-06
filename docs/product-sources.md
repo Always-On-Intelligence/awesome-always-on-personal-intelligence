@@ -1,10 +1,10 @@
-# Product and infrastructure source notes
+# Product source notes
 
 Checked: **2026-09-15**.
 
-The README lists one line per product with its official page, checked on 2026-10-05. These notes keep the primary sources behind the curated product and tool entries from the September check. Product descriptions summarize documented capabilities, not independently measured performance or proof of a complete always-on loop. Availability is qualified by the official page's rollout, platform, and plan wording. No products were purchased or tested for this curation.
+The README lists one line per product with its official page, checked on 2026-10-05. These notes keep the primary sources behind the curated product entries from the September check. Product descriptions summarize documented capabilities, not independently measured performance or proof of a complete always-on loop. Availability is qualified by the official page's rollout, platform, and plan wording. No products were purchased or tested for this curation.
 
-The survey's digital-service discussion supplied ChatGPT Pulse, Claude Cowork, Muse, and Windows Recall; its bibliography supplied Ray-Ban Meta and PLAUD NotePin. Omi, screenpipe, OpenClaw, and Lindy extend coverage of wearable memory, desktop history, and continuing personal assistance. Developer infrastructure is maintained separately in `data/tools.json`.
+The survey's digital-service discussion supplied ChatGPT Pulse, Claude Cowork, Muse, and Windows Recall; its bibliography supplied Ray-Ban Meta and PLAUD NotePin. Omi, screenpipe, OpenClaw, and Lindy extend coverage of wearable memory, desktop history, and continuing personal assistance.
 
 ## Products
 
@@ -67,23 +67,6 @@ The survey's digital-service discussion supplied ChatGPT Pulse, Claude Cowork, M
 - **Capabilities:** The [official documentation](https://docs.lindy.ai/) describes inbox triage, meeting preparation, notes, and follow-ups. The [meeting-prep guide](https://docs.lindy.ai/features/meeting-assistant/meeting-prep) explains briefs based on upcoming meetings and prior context.
 - **Availability:** The [pricing page](https://www.lindy.ai/pricing) offers paid plans and a trial entry point.
 - **Boundary:** The catalog does not repeat marketing claims about hours saved, perfect recall, or universal autonomy. The included scope is connected workplace assistance.
-
-## Tools and infrastructure
-
-These are building blocks. Inclusion means a documented mechanism is relevant to continuing assistance, not that installing a component produces an always-on personal agent.
-
-| Entry | Primary evidence | Relevant mechanism |
-| --- | --- | --- |
-| Mem0 | [Official introduction](https://docs.mem0.ai/introduction) | Memory persists across sessions, tools, and runs; save/search interfaces and self-hosting are documented. |
-| Letta | [Memory and dreaming](https://docs.letta.com/configuration/memory) | Editable persistent memory and background consolidation of prior conversations. The current documentation uses MemFS; earlier API material describes memory blocks. |
-| Graphiti | [Official repository](https://github.com/getzep/graphiti), [documentation](https://help.getzep.com/graphiti/getting-started/welcome) | Incremental temporal graphs, fact validity/history, and provenance to source episodes. |
-| MemOS | [Official repository](https://github.com/MemTensor/MemOS) | Memory lifecycle APIs, asynchronous ingestion, and correction from feedback. Vendor benchmark numbers are not included in the catalog. |
-| LangGraph | [Persistence documentation](https://docs.langchain.com/oss/python/langgraph/persistence) | Checkpoints for resumable execution and stores for cross-thread context. Persistence across process restarts requires a persistent backend. |
-| Temporal | [Workflow execution](https://docs.temporal.io/workflow-execution) | Execution history and recoverable workflow state for work that spans failures or long waits. |
-| Inngest | [Events and triggers](https://www.inngest.com/docs/features/events-triggers) | Asynchronous functions started by application events, webhooks, and recurring schedules. |
-| Composio | [Triggers documentation](https://docs.composio.dev/docs/triggers) | User-account connections and app-event delivery; some providers use polling rather than immediate push. |
-| Model Context Protocol | [Official introduction](https://modelcontextprotocol.io/introduction) | Shared interfaces for data sources and tool access. The protocol does not itself supply scheduling, memory, or blanket authorization. |
-| Langfuse | [Observability documentation](https://langfuse.com/docs/observability/overview) | Agent traces and evaluation/monitoring signals for inspecting failures and resource use. |
 
 ## Maintenance
 

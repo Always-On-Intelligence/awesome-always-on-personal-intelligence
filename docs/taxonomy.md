@@ -19,7 +19,7 @@ The list follows the survey's chapters, titles, and terms, and it lists every wo
 | Applications, System Bottlenecks, and Loop Closure | Applications and bottlenecks by domain, shared conditions and implementation across modules, levels of loop closure, self-evolution in deployed loops |
 | Trends and Open Problems | Sustaining the continuing loop; authority, privacy, and safety; self-evolution and recursive revision; longitudinal evaluation and real deployment |
 | Related Surveys | Capability-focused and concurrent system-level surveys |
-| Products & Tools | One line per product the survey discusses, with its official page, by wearable, digital, and physical domain; devices and platforms; a few curated products; and developer tools |
+| Products | One line per product the survey discusses, with its official page, by wearable, digital, and physical domain; devices and platforms; and a few curated products |
 
 Long sections are divided into the survey's own sub-categories, kept as `groups` in `data/sections.json`: the paragraph headings of a subsection, the group rows of a module's benchmark table, the open problems of a Trends and Open Problems part, or the citation groups of the survey's related-survey paragraph. A work the survey cites goes under the sub-category that cites it, and works the survey does not cite yet go where they fit. A section whose works fall into fewer than two sub-categories is shown as one list.
 
@@ -45,6 +45,6 @@ Research works and products are kept apart. The survey's product sources (offici
 ## Maintenance
 
 - Research entries: newest first, then by title, within each section or sub-category. The lists under Applications and Bottlenecks and Levels of Loop Closure run from the highest loop-closure level down, then newest first; works without a level come last.
-- Products and tools: by group, then by title.
+- Products: one table per subsection, with a row per company, ordered by product name.
 - Sections without entries are omitted from the README.
-- Source data: `data/sections.json` (sections in reading order, with the survey's groupings and their tags), `data/research.json`, `data/products.json`, and `data/tools.json`. Framing text: `docs/readme-intro.md` and `docs/readme-footer.md`. `README.md` is generated.
+- Source data: `data/sections.json` (sections in reading order, with the survey's groupings and their tags), `data/research.json`, and `data/products.json`. Framing text: `docs/readme-intro.md` and `docs/readme-footer.md`. `README.md` is generated.

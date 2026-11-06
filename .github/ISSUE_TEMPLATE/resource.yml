@@ -1,5 +1,5 @@
 name: Suggest a resource
-description: Suggest a relevant paper, benchmark, product, or developer tool.
+description: Suggest a relevant paper, benchmark, or product.
 title: "[Resource] "
 body:
   - type: input
@@ -16,7 +16,6 @@ body:
         - Research paper or system
         - Benchmark or dataset
         - Product
-        - Developer tool
     validations:
       required: true
   - type: input

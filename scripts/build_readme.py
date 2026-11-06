@@ -22,7 +22,6 @@ CHANNELS = ["S→A", "S→M", "M→A", "A→S", "M→S", "A→M"]
 TAGS = set(CHANNELS) | {f"L{i}" for i in range(6)} | {"Product"}
 LINK_LABELS = ["paper", "blog", "docs", "website", "project", "code", "data"]
 PRODUCT_SECTIONS = {"products-wearable", "products-digital", "products-physical", "products-devices"}
-TOOL_GROUPS = {"memory": "Memory", "runtime": "Runtime", "integrations": "Integrations"}
 ROMAN = ["", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"]
 # Badge colours from the survey's palette: channels by the module that receives them (rose = Memory,
 # blue = Action, sage = Sensing), levels from grey to gold (L3 to L5 are the always-on levels).
@@ -116,7 +115,7 @@ def load_entries(by_id):
     entries = []
     seen_ids = set()
     seen_urls = set()
-    for filename in ("research.json", "products.json", "tools.json"):
+    for filename in ("research.json", "products.json"):
         data = json.loads((ROOT / "data" / filename).read_text(encoding="utf-8"))
         if not isinstance(data, list) or not data:
             raise ValueError(f"{filename}: expected a nonempty array")
@@ -133,7 +132,7 @@ def load_entries(by_id):
             check_links(name, entry.get("links"))
             if filename == "research.json":
                 if entry["section"].startswith("products"):
-                    raise ValueError(f"{name}: products and tools belong in products.json and tools.json")
+                    raise ValueError(f"{name}: products belong in products.json")
                 if "group" in entry and entry["group"] not in [g["name"] for g in node.get("groups", [])]:
                     raise ValueError(f"{name}: group {entry['group']!r} is not listed for section {node['id']}")
                 year = entry.get("year")
@@ -175,12 +174,6 @@ def load_entries(by_id):
                             raise ValueError(f"{name}: an update needs a YYYY-MM date and a short label")
                         check_links(name, {"website": update.get("url")})
                     entry = dict(entry, label=entry["org"], order=0)
-                else:
-                    if entry["section"] != "products-tools" or entry.get("group") not in TOOL_GROUPS:
-                        raise ValueError(f"{name}: tools use section products-tools and a group in {', '.join(TOOL_GROUPS)}")
-                    if not is_single_line(entry.get("description")):
-                        raise ValueError(f"{name}: invalid description")
-                    entry = dict(entry, label=TOOL_GROUPS[entry["group"]], order=list(TOOL_GROUPS).index(entry["group"]))
             entries.append(entry)
     return entries
 
@@ -213,11 +206,6 @@ def render_entry(entry, group_tags, badge, group_color=NEUTRAL):
         tags = "".join(f" {badge.tag(tag)}" for tag in entry.get("tags", []))
         title = md(entry["title"])
         return f"- **`{entry['label']}`** {title}.{link_badges(entry['links'], badge)}{tags}"
-    if "label" in entry:
-        description = entry["description"]
-        if len(description) > 1 and description[1].islower():
-            description = description[0].lower() + description[1:]
-        return f"- {md(entry['title'])}: {md(description)} {badge(entry['label'], NEUTRAL)}{link_badges(entry['links'], badge)}"
     title = md(entry["title"])
     title = title if title[-1] in ".?!" else title + "."
     tags = [badge(group_tags[entry["group"]], group_color)] if entry.get("group") in group_tags else []

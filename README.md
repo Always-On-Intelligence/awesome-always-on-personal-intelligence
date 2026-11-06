@@ -24,7 +24,7 @@
 <table align="center">
 <tr><td align="center" valign="top" width="33%"><a href="#foundations" title="Overview and Foundations"><img src="assets/icons/foundations.svg" width="40" alt=""/></a><br/><a href="#foundations" title="Overview and Foundations"><b>II. Foundations</b></a><br/><sub>Definitions · Channels · Levels</sub><br/><a href="#background">Background</a></td><td align="center" valign="top" width="33%"><a href="#sec-3" title="Sensing"><img src="assets/icons/sensing.svg" width="40" alt=""/></a><br/><a href="#sec-3" title="Sensing"><b>III. Sensing</b></a><br/><a href="#sec-3-1">Space</a> · <a href="#sec-3-2">Conditions</a> · <a href="#sec-3-3">Policy</a><br/><a href="#sec-3-4">Coupling</a> · <a href="#sec-3-5">Evaluation</a></td><td align="center" valign="top" width="33%"><a href="#sec-4" title="Memory"><img src="assets/icons/memory.svg" width="40" alt=""/></a><br/><a href="#sec-4" title="Memory"><b>IV. Memory</b></a><br/><a href="#sec-4-1">Space</a> · <a href="#sec-4-2">Conditions</a> · <a href="#sec-4-3">Policy</a><br/><a href="#sec-4-4">Coupling</a> · <a href="#sec-4-5">Evaluation</a></td></tr>
 <tr><td align="center" valign="top" width="33%"><a href="#sec-5" title="Action"><img src="assets/icons/action.svg" width="40" alt=""/></a><br/><a href="#sec-5" title="Action"><b>V. Action</b></a><br/><a href="#sec-5-1">Space</a> · <a href="#sec-5-2">Conditions</a> · <a href="#sec-5-3">Policy</a><br/><a href="#sec-5-4">Coupling</a> · <a href="#sec-5-5">Evaluation</a></td><td align="center" valign="top" width="33%"><a href="#sec-6" title="Applications, System Bottlenecks, and Loop Closure"><img src="assets/icons/systems.svg" width="40" alt=""/></a><br/><a href="#sec-6" title="Applications, System Bottlenecks, and Loop Closure"><b>VI. Systems &amp; Loop Closure</b></a><br/><a href="#sec-6-1">Applications</a> · <a href="#sec-6-2">Shared Conditions</a><br/><a href="#sec-6-3">Loop Closure</a> · <a href="#sec-6-4">Self-Evolution</a></td><td align="center" valign="top" width="33%"><a href="https://github.com/Always-On-Intelligence/HALO" title="HALO: Harness for Always-On Loop Oversight"><img src="assets/icons/evaluation.svg" width="40" alt=""/></a><br/><a href="https://github.com/Always-On-Intelligence/HALO" title="HALO: Harness for Always-On Loop Oversight"><b>VII. HALO</b></a><br/><sub>Read mode · Run mode</sub><br/><a href="https://github.com/Always-On-Intelligence/HALO">Code</a></td></tr>
-<tr><td align="center" valign="top" width="33%"><a href="#sec-8" title="Trends and Open Problems"><img src="assets/icons/evolution.svg" width="40" alt=""/></a><br/><a href="#sec-8" title="Trends and Open Problems"><b>VIII. Open Problems</b></a><br/><a href="#sec-8-1">Local Policies</a> · <a href="#sec-8-2">Coordination</a><br/><a href="#sec-8-3">Self-Evolution</a><br/><a href="#sec-8-4">Long-Term Evaluation</a></td><td align="center" valign="top" width="33%"><a href="#related-surveys" title="Related Surveys"><img src="assets/icons/surveys.svg" width="40" alt=""/></a><br/><a href="#related-surveys" title="Related Surveys"><b>Related Surveys</b></a></td><td align="center" valign="top" width="33%"><a href="#products" title="Products &amp; Tools"><img src="assets/icons/products.svg" width="40" alt=""/></a><br/><a href="#products" title="Products &amp; Tools"><b>Products &amp; Tools</b></a><br/><a href="#products-wearable">Wearable</a> · <a href="#products-digital">Digital</a> · <a href="#products-physical">Physical</a><br/><a href="#products-devices">Devices</a> · <a href="#products-tools">Tools</a></td></tr>
+<tr><td align="center" valign="top" width="33%"><a href="#sec-8" title="Trends and Open Problems"><img src="assets/icons/evolution.svg" width="40" alt=""/></a><br/><a href="#sec-8" title="Trends and Open Problems"><b>VIII. Open Problems</b></a><br/><a href="#sec-8-1">Local Policies</a> · <a href="#sec-8-2">Coordination</a><br/><a href="#sec-8-3">Self-Evolution</a><br/><a href="#sec-8-4">Long-Term Evaluation</a></td><td align="center" valign="top" width="33%"><a href="#related-surveys" title="Related Surveys"><img src="assets/icons/surveys.svg" width="40" alt=""/></a><br/><a href="#related-surveys" title="Related Surveys"><b>Related Surveys</b></a></td><td align="center" valign="top" width="33%"><a href="#products" title="Products"><img src="assets/icons/products.svg" width="40" alt=""/></a><br/><a href="#products" title="Products"><b>Products</b></a><br/><a href="#products-wearable">Wearable</a> · <a href="#products-digital">Digital</a> · <a href="#products-physical">Physical</a><br/><a href="#products-devices">Devices</a></td></tr>
 </table>
 
 <p align="center"><a href="#contributing">Contributing</a> · <a href="#citation">Citation</a></p>
@@ -47,7 +47,7 @@ Always-on personal intelligence demands more than episodic, task-driven agents. 
 <em><b>Figure 1.</b> Overview of the roadmap. This roadmap is organized into five parts. We first define always-on personal intelligence as a continuing loop that connects Sensing, Memory, and Action through six directed channels. We then review each module by its space, conditions, policy, coupling, and evaluation. Building on these reviews, we examine integrated systems, their bottlenecks, and their levels of loop closure, and audit existing systems with HALO in read and run modes. Finally, we discuss the open problems in always-on personal intelligence.</em>
 </div>
 
-**How to read the list.** Sections and titles follow the survey's module chapters, and each work appears once, under the section where the survey discusses it. Long sections are divided into the survey's own sub-categories: the paragraphs of its text, the groups of its benchmark tables, or its open problems, and a work the survey cites sits under the one that cites it. Every work the survey cites is listed: works cited only in its Introduction or Foundations are under [Background](#background), and works added by the daily scan, which the survey does not cite yet, sit where they fit its framework. Each list runs from the newest work to the oldest, except the application and loop-closure lists, which run from the highest loop-closure level (`L5`) down. A channel tag such as `M→S` marks a work discussed under that coupling channel, `L0` to `L5` give a system's level in the loop-closure table, and `Product` marks a published study of a product. Products are listed separately under [Products & Tools](#products), one line per product with its official page.
+**How to read the list.** Sections and titles follow the survey's module chapters, and each work appears once, under the section where the survey discusses it. Long sections are divided into the survey's own sub-categories: the paragraphs of its text, the groups of its benchmark tables, or its open problems, and a work the survey cites sits under the one that cites it. Every work the survey cites is listed: works cited only in its Introduction or Foundations are under [Background](#background), and works added by the daily scan, which the survey does not cite yet, sit where they fit its framework. Each list runs from the newest work to the oldest, except the application and loop-closure lists, which run from the highest loop-closure level (`L5`) down. A channel tag such as `M→S` marks a work discussed under that coupling channel, `L0` to `L5` give a system's level in the loop-closure table, and `Product` marks a published study of a product. Products are listed separately under [Products](#products), one line per product with its official page.
 
 ---
 
@@ -1489,9 +1489,9 @@ Capability-focused surveys, which each study one capability in depth, and concur
 ---
 
 <a id="products"></a>
-## <img src="assets/icons/products.svg" height="30" align="top" alt=""/> Products & Tools
+## <img src="assets/icons/products.svg" height="30" align="top" alt=""/> Products
 
-Products are listed apart from research works, one line per product with its official page. They cover the products and devices the survey discusses, by interaction domain and with the level the loop-closure table gives them, plus a few curated additions. Availability varies by plan, platform, and region. Developer tools are curated for this repository; see the [product source notes](docs/product-sources.md).
+Products are listed apart from research works, one line per product with its official page. They cover the products and devices the survey discusses, by interaction domain and with the level the loop-closure table gives them, plus a few curated additions. Availability varies by plan, platform, and region. The [product source notes](docs/product-sources.md) give the primary sources for some of these products.
 
 <a id="products-wearable"></a>
 ### Wearable Products
@@ -1600,21 +1600,6 @@ Products are listed apart from research works, one line per product with its off
 <tr><td nowrap valign="top"><img src="https://www.google.com/s2/favicons?domain=vuzix.com&sz=64" width="16" height="16" alt=""/> <b><a href="https://www.vuzix.com/products/m400-smart-glasses">Vuzix M400</a></b></td><td>Vuzix</td></tr>
 </tbody>
 </table>
-
-<a id="products-tools"></a>
-### Developer Tools
-
-- Graphiti: builds temporal knowledge graphs from evolving interactions while retaining fact history and links to source episodes. ![Memory][b-memory-8c8c8c] [![Code][b-code-3b434d-github]](https://github.com/getzep/graphiti) [![Docs][b-docs-3b434d]](https://help.getzep.com/graphiti/getting-started/welcome) [![Website][b-website-3b434d]](https://github.com/getzep/graphiti)
-- Letta: supports stateful agents with persistent editable memory and background consolidation of lessons from prior conversations. ![Memory][b-memory-8c8c8c] [![Code][b-code-3b434d-github]](https://github.com/letta-ai/letta) [![Docs][b-docs-3b434d]](https://docs.letta.com/configuration/memory) [![Website][b-website-3b434d]](https://www.letta.com/)
-- Mem0: adds retrievable long-term memories that persist across an agent's sessions, tools, and runs. ![Memory][b-memory-8c8c8c] [![Code][b-code-3b434d-github]](https://github.com/mem0ai/mem0) [![Docs][b-docs-3b434d]](https://docs.mem0.ai/introduction) [![Website][b-website-3b434d]](https://mem0.ai/)
-- MemOS: provides APIs to store, retrieve, edit, and delete persistent agent memory with asynchronous ingestion and feedback-based correction. ![Memory][b-memory-8c8c8c] [![Code][b-code-3b434d-github]](https://github.com/MemTensor/MemOS) [![Docs][b-docs-3b434d]](https://memos-docs.openmem.net/) [![Website][b-website-3b434d]](https://github.com/MemTensor/MemOS)
-- memU: keeps a shared personal memory across sessions, agents, and devices, forming memories in the background and retrieving them later. ![Memory][b-memory-8c8c8c] [![Code][b-code-3b434d-github]](https://github.com/NevaMind-AI/memU)
-- Inngest: triggers asynchronous background functions from application events, webhooks, or recurring schedules for ongoing agent workflows. ![Runtime][b-runtime-8c8c8c] [![Code][b-code-3b434d-github]](https://github.com/inngest/inngest) [![Docs][b-docs-3b434d]](https://www.inngest.com/docs/features/events-triggers) [![Website][b-website-3b434d]](https://www.inngest.com/)
-- LangGraph: uses persistent checkpoints and cross-thread stores to resume agent workflows and retain useful context across interactions. ![Runtime][b-runtime-8c8c8c] [![Code][b-code-3b434d-github]](https://github.com/langchain-ai/langgraph) [![Docs][b-docs-3b434d]](https://docs.langchain.com/oss/python/langgraph/persistence) [![Website][b-website-3b434d]](https://docs.langchain.com/oss/python/langgraph/overview)
-- Temporal: preserves workflow execution state through failures so long-running background jobs can wait for events and resume work. ![Runtime][b-runtime-8c8c8c] [![Code][b-code-3b434d-github]](https://github.com/temporalio/temporal) [![Docs][b-docs-3b434d]](https://docs.temporal.io/workflow-execution) [![Website][b-website-3b434d]](https://temporal.io/)
-- Composio: connects agents to user-authorized app accounts and delivers app-event triggers that can start contextual background work. ![Integrations][b-integrations-8c8c8c] [![Code][b-code-3b434d-github]](https://github.com/ComposioHQ/composio) [![Docs][b-docs-3b434d]](https://docs.composio.dev/docs/triggers) [![Website][b-website-3b434d]](https://composio.dev/)
-- Langfuse: records agent traces and evaluation signals to inspect failures, latency, and costs across ongoing assistance workflows. ![Integrations][b-integrations-8c8c8c] [![Code][b-code-3b434d-github]](https://github.com/langfuse/langfuse) [![Docs][b-docs-3b434d]](https://langfuse.com/docs/observability/overview) [![Website][b-website-3b434d]](https://langfuse.com/)
-- Model Context Protocol (MCP): standardizes connections to external data and tools so personal agents can access authorized context and invoke application capabilities. ![Integrations][b-integrations-8c8c8c] [![Code][b-code-3b434d-github]](https://github.com/modelcontextprotocol/modelcontextprotocol) [![Docs][b-docs-3b434d]](https://modelcontextprotocol.io/introduction) [![Website][b-website-3b434d]](https://modelcontextprotocol.io/)
 
 ---
 
@@ -1732,7 +1717,6 @@ The paper will be released soon. Until then, please cite it as it currently appe
 [b-cvpr-workshop-2026-355774]: https://img.shields.io/badge/CVPR_Workshop_2026-355774?style=flat-square
 [b-data-3b434d]: https://img.shields.io/badge/Data-3b434d?style=flat-square
 [b-deepseek-2026-355774]: https://img.shields.io/badge/DeepSeek_2026-355774?style=flat-square
-[b-docs-3b434d]: https://img.shields.io/badge/Docs-3b434d?style=flat-square
 [b-eccv-2016-355774]: https://img.shields.io/badge/ECCV_2016-355774?style=flat-square
 [b-eccv-2018-355774]: https://img.shields.io/badge/ECCV_2018-355774?style=flat-square
 [b-eccv-2022-355774]: https://img.shields.io/badge/ECCV_2022-355774?style=flat-square
@@ -1795,7 +1779,6 @@ The paper will be released soon. Until then, please cite it as it currently appe
 [b-imwut-2024-355774]: https://img.shields.io/badge/IMWUT_2024-355774?style=flat-square
 [b-imwut-2025-355774]: https://img.shields.io/badge/IMWUT_2025-355774?style=flat-square
 [b-imwut-2026-355774]: https://img.shields.io/badge/IMWUT_2026-355774?style=flat-square
-[b-integrations-8c8c8c]: https://img.shields.io/badge/Integrations-8c8c8c?style=flat-square
 [b-interspeech-2020-355774]: https://img.shields.io/badge/Interspeech_2020-355774?style=flat-square
 [b-interspeech-2022-355774]: https://img.shields.io/badge/Interspeech_2022-355774?style=flat-square
 [b-iotdi-2019-355774]: https://img.shields.io/badge/IoTDI_2019-355774?style=flat-square
@@ -1820,7 +1803,6 @@ The paper will be released soon. Until then, please cite it as it currently appe
 [b-m-to-a-556b88]: https://img.shields.io/badge/M%E2%86%92A-556b88?style=flat-square
 [b-m-to-s-607a6d]: https://img.shields.io/badge/M%E2%86%92S-607a6d?style=flat-square
 [b-machine-intelligence-research-2026-355774]: https://img.shields.io/badge/Machine_Intelligence_Research_2026-355774?style=flat-square
-[b-memory-8c8c8c]: https://img.shields.io/badge/Memory-8c8c8c?style=flat-square
 [b-mobicom-2024-355774]: https://img.shields.io/badge/MobiCom_2024-355774?style=flat-square
 [b-mobilehci-2015-355774]: https://img.shields.io/badge/MobileHCI_2015-355774?style=flat-square
 [b-mobisys-2014-355774]: https://img.shields.io/badge/MobiSys_2014-355774?style=flat-square
@@ -1854,7 +1836,6 @@ The paper will be released soon. Until then, please cite it as it currently appe
 [b-ra-l-2025-355774]: https://img.shields.io/badge/RA--L_2025-355774?style=flat-square
 [b-recsys-2018-355774]: https://img.shields.io/badge/RecSys_2018-355774?style=flat-square
 [b-rss-2024-355774]: https://img.shields.io/badge/RSS_2024-355774?style=flat-square
-[b-runtime-8c8c8c]: https://img.shields.io/badge/Runtime-8c8c8c?style=flat-square
 [b-s-to-a-556b88]: https://img.shields.io/badge/S%E2%86%92A-556b88?style=flat-square
 [b-s-to-m-9d675d]: https://img.shields.io/badge/S%E2%86%92M-9d675d?style=flat-square
 [b-scientific-american-1991-355774]: https://img.shields.io/badge/Scientific_American_1991-355774?style=flat-square
@@ -1878,7 +1859,6 @@ The paper will be released soon. Until then, please cite it as it currently appe
 [b-uist-2023-355774]: https://img.shields.io/badge/UIST_2023-355774?style=flat-square
 [b-uist-2025-355774]: https://img.shields.io/badge/UIST_2025-355774?style=flat-square
 [b-uist-2026-355774]: https://img.shields.io/badge/UIST_2026-355774?style=flat-square
-[b-website-3b434d]: https://img.shields.io/badge/Website-3b434d?style=flat-square
 [b-wireless-networks-1997-355774]: https://img.shields.io/badge/Wireless_Networks_1997-355774?style=flat-square
 [b-www-2023-355774]: https://img.shields.io/badge/WWW_2023-355774?style=flat-square
 [b-www-2026-355774]: https://img.shields.io/badge/WWW_2026-355774?style=flat-square

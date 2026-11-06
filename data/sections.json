@@ -950,11 +950,11 @@
   },
   {
     "id": "products",
-    "title": "Products & Tools",
-    "short": "Products & Tools",
+    "title": "Products",
+    "short": "Products",
     "level": 2,
     "icon": "products",
-    "description": "Products are listed apart from research works, one line per product with its official page. They cover the products and devices the survey discusses, by interaction domain and with the level the loop-closure table gives them, plus a few curated additions. Availability varies by plan, platform, and region. Developer tools are curated for this repository; see the [product source notes](docs/product-sources.md)."
+    "description": "Products are listed apart from research works, one line per product with its official page. They cover the products and devices the survey discusses, by interaction domain and with the level the loop-closure table gives them, plus a few curated additions. Availability varies by plan, platform, and region. The [product source notes](docs/product-sources.md) give the primary sources for some of these products."
   },
   {
     "id": "products-wearable",
@@ -981,13 +981,6 @@
     "id": "products-devices",
     "title": "Devices & Platforms",
     "short": "Devices",
-    "level": 3,
-    "parent": "products"
-  },
-  {
-    "id": "products-tools",
-    "title": "Developer Tools",
-    "short": "Tools",
     "level": 3,
     "parent": "products"
   }
