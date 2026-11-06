@@ -503,7 +503,14 @@
       "musedesign2026",
       "musehelpapproval2026"
     ],
-    "checked": "2026-10-05"
+    "checked": "2026-10-05",
+    "updates": [
+      {
+        "date": "2026-11",
+        "label": "Voice mode for Muse",
+        "url": "https://muse.ai/"
+      }
+    ]
   },
   {
     "id": "now-nudge",
@@ -1227,5 +1234,41 @@
     "sources": [],
     "checked": "2026-11-03",
     "added": "2026-11-03"
+  },
+  {
+    "id": "nico",
+    "series": "Nico",
+    "section": "products-digital",
+    "title": "Nico",
+    "org": "SUPERMIND PTE. LIMITED",
+    "links": {
+      "website": "https://nico.app/"
+    },
+    "tags": [
+      "S→A",
+      "M→A",
+      "L3"
+    ],
+    "sources": [],
+    "checked": "2026-11-06",
+    "added": "2026-11-06"
+  },
+  {
+    "id": "perplexityteammates",
+    "series": "Perplexity",
+    "section": "products-digital",
+    "title": "Teammates",
+    "org": "Perplexity",
+    "links": {
+      "website": "https://www.perplexity.ai/hub/products/teammate"
+    },
+    "tags": [
+      "S→A",
+      "M→A",
+      "L3"
+    ],
+    "sources": [],
+    "checked": "2026-11-06",
+    "added": "2026-11-06"
   }
 ]

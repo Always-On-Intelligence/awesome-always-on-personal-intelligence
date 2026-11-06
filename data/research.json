@@ -8013,7 +8013,7 @@
     "group": "How long can sensing continue?",
     "title": "Camera-Free Object Discovery and Interaction with GazeTags",
     "year": 2026,
-    "venue": "arXiv",
+    "venue": "UIST",
     "links": {
       "paper": "https://arxiv.org/abs/2611.02599"
     },
@@ -8027,7 +8027,8 @@
     "year": 2026,
     "venue": "arXiv",
     "links": {
-      "paper": "https://arxiv.org/abs/2611.04867"
+      "paper": "https://arxiv.org/abs/2611.04867",
+      "code": "https://github.com/HU-xiaobai/GroupAssistantBench"
     },
     "tags": [
       "M→A"
@@ -8240,7 +8241,8 @@
     "year": 2026,
     "venue": "arXiv",
     "links": {
-      "paper": "https://arxiv.org/abs/2609.30670"
+      "paper": "https://arxiv.org/abs/2609.30670",
+      "code": "https://github.com/om-ai-lab/trace-bench"
     },
     "added": "2026-11-05"
   },
@@ -8324,7 +8326,8 @@
     "year": 2026,
     "venue": "arXiv",
     "links": {
-      "paper": "https://arxiv.org/abs/2605.13438"
+      "paper": "https://arxiv.org/abs/2605.13438",
+      "code": "https://github.com/OpenNorve/CogniFold"
     },
     "added": "2026-11-05"
   },
@@ -8635,7 +8638,8 @@
     "year": 2026,
     "venue": "ICLR",
     "links": {
-      "paper": "https://arxiv.org/abs/2507.21071"
+      "paper": "https://arxiv.org/abs/2507.21071",
+      "code": "https://github.com/tsinghua-fib-lab/FingerTip-20K"
     },
     "added": "2026-11-05"
   },
@@ -8767,7 +8771,8 @@
     "year": 2026,
     "venue": "arXiv",
     "links": {
-      "paper": "https://arxiv.org/abs/2610.05775"
+      "paper": "https://arxiv.org/abs/2610.05775",
+      "code": "https://github.com/Espere-1119-Song/InteractionBench"
     },
     "added": "2026-11-05"
   },
@@ -8851,7 +8856,8 @@
     "year": 2026,
     "venue": "arXiv",
     "links": {
-      "paper": "https://arxiv.org/abs/2610.05532"
+      "paper": "https://arxiv.org/abs/2610.05532",
+      "code": "https://github.com/PieLord757/delegation-bench"
     },
     "added": "2026-11-05"
   },
@@ -8940,7 +8946,8 @@
     "year": 2026,
     "venue": "arXiv",
     "links": {
-      "paper": "https://arxiv.org/abs/2604.09579"
+      "paper": "https://arxiv.org/abs/2604.09579",
+      "code": "https://github.com/volcengine/veaiops"
     },
     "added": "2026-11-05"
   },
@@ -8995,7 +9002,8 @@
     "year": 2025,
     "venue": "FSE Demo",
     "links": {
-      "paper": "https://arxiv.org/abs/2503.14724"
+      "paper": "https://arxiv.org/abs/2503.14724",
+      "code": "https://github.com/sebzhao/CodingGenie"
     },
     "added": "2026-11-05"
   },
