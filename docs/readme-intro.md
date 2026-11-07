@@ -27,7 +27,7 @@
 Always-on personal intelligence demands more than episodic, task-driven agents. To remain always-on, it requires a **continuing loop** that sustains assistance between requests, retains personal context, and carries unfinished commitments forward. To grow more personal over time, this loop can also become **self-evolving**, revising how it works based on past experience.
 
 > [!IMPORTANT]
-> **The survey organizes the assistant into three functional modules, Sensing, Memory, and Action, connected by six directed channels that pass information between them. These modules operate under real-world limits, from battery life to privacy and user permissions, and run on models and the scaffolding around them.**
+> **The survey organizes always-on personal assistants into three functional modules, Sensing, Memory, and Action, connected by six directed channels that pass information between them. These modules operate under real-world limits, from battery life to privacy and user permissions, and run on models and the scaffolding around them.**
 
 <div align="center">
 <img src="assets/roadmap.png" width="95%" alt="Overview of the roadmap: the continuing loop, the module chapters, the system-level review, HALO, and the open problems"/>
