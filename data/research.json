@@ -2381,7 +2381,7 @@
     "group": "Clarifying, preparing, or stopping",
     "title": "Agentic Abstention: Do Agents Know When to Stop Instead of Act?",
     "year": 2026,
-    "venue": "arXiv",
+    "venue": "NeurIPS",
     "links": {
       "paper": "https://arxiv.org/abs/2606.28733",
       "code": "https://github.com/lhannnn/agentic-abstention"
@@ -4285,7 +4285,7 @@
     "group": "Which revisions are governed",
     "title": "Harness Updating Is Not Harness Benefit: Disentangling Evolution Capabilities in Self-Evolving LLM Agents",
     "year": 2026,
-    "venue": "arXiv",
+    "venue": "EMNLP",
     "links": {
       "paper": "https://arxiv.org/abs/2605.30621",
       "code": "https://github.com/A-EVO-Lab/a-evolve"
@@ -10709,7 +10709,8 @@
     "year": 2026,
     "venue": "arXiv",
     "links": {
-      "paper": "https://arxiv.org/abs/2609.06721"
+      "paper": "https://arxiv.org/abs/2609.06721",
+      "code": "https://github.com/QHUni/BuddyVQA"
     }
   },
   {
