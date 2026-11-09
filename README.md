@@ -10,6 +10,7 @@
 </p>
 
 <p>
+  <a href="https://doi.org/10.20944/preprints202611.0793.v1"><img src="https://img.shields.io/badge/DOI-10.20944%2Fpreprints202611.0793.v1-8B692E?style=flat-square" alt="DOI 10.20944/preprints202611.0793.v1"/></a>
   <a href="https://github.com/Always-On-Intelligence/awesome-always-on-personal-intelligence/stargazers"><img src="https://img.shields.io/github/stars/Always-On-Intelligence/awesome-always-on-personal-intelligence?style=flat-square&logo=github&color=B88465" alt="GitHub stars"/></a>
   <img src="https://img.shields.io/badge/Papers-888-355774?style=flat-square" alt="888 papers"/>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-8C8C8C?style=flat-square" alt="MIT License"/></a>
@@ -1651,15 +1652,16 @@ Repository code and curation text are available under the [MIT License](LICENSE)
 <a id="citation"></a>
 ## Citation
 
-The paper will be released soon. Until then, please cite it as it currently appears:
+If this list helps your work, please cite the survey:
 
 ```bibtex
-@misc{alwayson2026roadmap,
-  title  = {Always-On Personal Intelligence: A Roadmap Towards Continuing, Self-Evolving Loops},
-  author = {Liu, Shuai and Guo, Hongming and Jin, Weiyang and Hu, Kairui and Tian, Shulin and Dong, Yuhao and Wu, Jinming and Zhang, Kaichen and Tang, Yujin and Han, Xinyang and Chai, Wenhao and Fu, Yuqian and Zhang, Ce and Zhang, Yuanhan and Kong, Lingdong and Siyao, Li and Yang, Jingkang and Bertasius, Gedas and Li, Manling and Wu, Jiajun and Wang, Mengdi and Song, Dawn and Liu, Ziwei},
-  year   = {2026},
-  note   = {Paper coming soon},
-  url    = {https://github.com/Always-On-Intelligence/awesome-always-on-personal-intelligence}
+@article{alwayson2026roadmap,
+  title   = {Always-On Personal Intelligence: A Roadmap Towards Continuing, Self-Evolving Loops},
+  author  = {Liu, Shuai and Guo, Hongming and Jin, Weiyang and Hu, Kairui and Tian, Shulin and Dong, Yuhao and Wu, Jinming and Zhang, Kaichen and Tang, Yujin and Han, Xinyang and Chai, Wenhao and Fu, Yuqian and Zhang, Ce and Zhang, Yuanhan and Kong, Lingdong and Siyao, Li and Yang, Jingkang and Bertasius, Gedas and Li, Manling and Wu, Jiajun and Wang, Mengdi and Song, Dawn and Liu, Ziwei},
+  journal = {Preprints},
+  year    = {2026},
+  doi     = {10.20944/preprints202611.0793.v1},
+  url     = {https://doi.org/10.20944/preprints202611.0793.v1}
 }
 ```
 
