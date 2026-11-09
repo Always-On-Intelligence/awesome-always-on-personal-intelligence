@@ -1371,5 +1371,41 @@
       "himaxhm01b0"
     ],
     "checked": "2026-11-06"
+  },
+  {
+    "id": "lingguang20",
+    "series": "LingGuang",
+    "section": "products-digital",
+    "title": "2.0",
+    "org": "Ant Group",
+    "links": {
+      "website": "https://www.lingguang.com/"
+    },
+    "tags": [
+      "S→A",
+      "M→A",
+      "L2"
+    ],
+    "sources": [],
+    "checked": "2026-11-09",
+    "added": "2026-11-09"
+  },
+  {
+    "id": "plaudone",
+    "series": "PLAUD",
+    "section": "products-wearable",
+    "title": "One",
+    "org": "PLAUD",
+    "links": {
+      "website": "https://www.plaud.ai/products/plaud-one"
+    },
+    "tags": [
+      "S→M",
+      "M→A",
+      "L2"
+    ],
+    "sources": [],
+    "checked": "2026-11-09",
+    "added": "2026-11-09"
   }
 ]
