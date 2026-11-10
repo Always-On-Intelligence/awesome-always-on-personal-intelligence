@@ -1371,5 +1371,23 @@
       "himaxhm01b0"
     ],
     "checked": "2026-11-06"
+  },
+  {
+    "id": "actramag4g",
+    "series": "ACTRA",
+    "section": "products-wearable",
+    "title": "MAG 4G",
+    "org": "Stavecho Intelligence",
+    "links": {
+      "website": "https://actra.ai"
+    },
+    "tags": [
+      "S→M",
+      "M→A",
+      "L2"
+    ],
+    "sources": [],
+    "checked": "2026-11-10",
+    "added": "2026-11-10"
   }
 ]
