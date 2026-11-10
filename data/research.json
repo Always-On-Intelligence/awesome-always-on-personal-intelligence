@@ -1693,7 +1693,7 @@
     "section": "sec-4-3-6",
     "title": "MemSkill: Learning and Evolving Memory Skills for Self-Evolving Agents",
     "year": 2026,
-    "venue": "arXiv",
+    "venue": "NeurIPS",
     "links": {
       "paper": "https://arxiv.org/abs/2602.02474",
       "code": "https://github.com/ViktorAxelsen/MemSkill"
@@ -2381,7 +2381,7 @@
     "group": "Clarifying, preparing, or stopping",
     "title": "Agentic Abstention: Do Agents Know When to Stop Instead of Act?",
     "year": 2026,
-    "venue": "arXiv",
+    "venue": "NeurIPS",
     "links": {
       "paper": "https://arxiv.org/abs/2606.28733",
       "code": "https://github.com/lhannnn/agentic-abstention"
@@ -4285,7 +4285,7 @@
     "group": "Which revisions are governed",
     "title": "Harness Updating Is Not Harness Benefit: Disentangling Evolution Capabilities in Self-Evolving LLM Agents",
     "year": 2026,
-    "venue": "arXiv",
+    "venue": "EMNLP",
     "links": {
       "paper": "https://arxiv.org/abs/2605.30621",
       "code": "https://github.com/A-EVO-Lab/a-evolve"
@@ -10709,7 +10709,8 @@
     "year": 2026,
     "venue": "arXiv",
     "links": {
-      "paper": "https://arxiv.org/abs/2609.06721"
+      "paper": "https://arxiv.org/abs/2609.06721",
+      "code": "https://github.com/QHUni/BuddyVQA"
     }
   },
   {
@@ -10914,5 +10915,318 @@
     "links": {
       "paper": "https://arxiv.org/abs/2609.00069"
     }
+  },
+  {
+    "id": "relicandgumi2026",
+    "section": "sec-4-2",
+    "group": "What is the assistant allowed to keep, and for how long?",
+    "title": "Relic and Gumi: Governing Memory, Safety, and Continuity in Diegetic Relational Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.08504"
+    },
+    "added": "2026-11-10"
+  },
+  {
+    "id": "routetoremember2026",
+    "section": "sec-4-1-2",
+    "group": "Parametric memory",
+    "title": "Route to Remember: Adaptive Memory Selection for LLM Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.05636"
+    },
+    "added": "2026-11-10"
+  },
+  {
+    "id": "memoryawaremulti2026",
+    "section": "sec-5-4-2",
+    "group": "Using personal and task context",
+    "title": "Memory-Aware Multi-Agent Architecture with LLM-based Orchestration for Conversational Recommendation",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.08718"
+    },
+    "tags": [
+      "M→A"
+    ],
+    "added": "2026-11-10"
+  },
+  {
+    "id": "eventhoi2026",
+    "section": "sec-3-3-1",
+    "title": "EventHOI: Event-Driven Resource-Efficient Hand-Object Interaction Logging on Smartglasses",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.09089"
+    },
+    "tags": [
+      "S→M"
+    ],
+    "added": "2026-11-10"
+  },
+  {
+    "id": "memoir2026",
+    "section": "sec-4-3-4",
+    "group": "Consolidation",
+    "title": "MEMOIR: A Training-Free Memory Lifecycle for Long-Horizon LLM Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.07631"
+    },
+    "tags": [
+      "A→M"
+    ],
+    "added": "2026-11-10"
+  },
+  {
+    "id": "homeloop2026",
+    "section": "sec-5-5-2",
+    "group": "Proactive: acting or staying silent",
+    "title": "HomeLoop: A Simulation Framework and Benchmark for Robot-IoT Coordination in Everyday Domestic Assistance and Safety",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.08914"
+    },
+    "tags": [
+      "S→A"
+    ],
+    "added": "2026-11-10"
+  },
+  {
+    "id": "referclaw2026",
+    "section": "sec-5-3-1",
+    "group": "Clarifying, preparing, or stopping",
+    "title": "ReferClaw: Disambiguating User Intent for Egocentric Assistance",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.07683"
+    },
+    "tags": [
+      "S→A"
+    ],
+    "added": "2026-11-10"
+  },
+  {
+    "id": "thememorytrap2026",
+    "section": "sec-4-5-2",
+    "group": "Coupling and later use: state influences subsequent decisions",
+    "title": "The Memory Trap: Language Agents Overgeneralize from Benign Interactions",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.07554",
+      "code": "https://github.com/safety-research/memory-trap"
+    },
+    "tags": [
+      "M→A",
+      "A→M"
+    ],
+    "added": "2026-11-10"
+  },
+  {
+    "id": "memorydojo2026",
+    "section": "sec-4-5-2",
+    "group": "Coupling and later use: state influences subsequent decisions",
+    "title": "MemoryDojo: Benchmarking Poisoning Through LLM Agent Memory",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.09721"
+    },
+    "tags": [
+      "S→M",
+      "M→A"
+    ],
+    "added": "2026-11-10"
+  },
+  {
+    "id": "multimodalsea2026",
+    "section": "sec-5-5-2",
+    "group": "Authority and consequences across interactions",
+    "title": "Multimodal-SEA: Benchmarking AI Agent Security under Multimodal Social Engineering Attacks",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.08281",
+      "code": "https://github.com/Zhitao-He/M-SEABench"
+    },
+    "tags": [
+      "S→A"
+    ],
+    "added": "2026-11-10"
+  },
+  {
+    "id": "decisioncontext2026",
+    "section": "sec-5-4-2",
+    "group": "Separating retrieval, delivery, and use",
+    "title": "Decision Context: Persistent Behavioral Learning for AI Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.08644",
+      "code": "https://github.com/NimaVahdat/decision-context-memory"
+    },
+    "tags": [
+      "M→A",
+      "A→M"
+    ],
+    "added": "2026-11-10"
+  },
+  {
+    "id": "rememberingisnot2026",
+    "section": "sec-5-5-2",
+    "group": "Proactive: acting or staying silent",
+    "title": "Remembering Is Not Enough: Evaluating Timing and Omission in Longitudinal AI Mental Health Support",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.08721"
+    },
+    "tags": [
+      "M→A"
+    ],
+    "added": "2026-11-10"
+  },
+  {
+    "id": "wellnessrobotsand2026",
+    "section": "sec-6-1-3",
+    "title": "Wellness Robots and the Path to Full Autonomy",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.08930"
+    },
+    "tags": [
+      "M→A",
+      "L2"
+    ],
+    "added": "2026-11-10"
+  },
+  {
+    "id": "weaver2026",
+    "section": "sec-4-3-3",
+    "group": "Retrieval",
+    "title": "Weaver: Weaving Preference Evidence through Incremental Reasoning for Personalized Retrieval-Augmented Generation",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.05900"
+    },
+    "tags": [
+      "M→A"
+    ],
+    "added": "2026-11-10"
+  },
+  {
+    "id": "processprefbench2026",
+    "section": "sec-4-5-2",
+    "group": "Coupling and later use: state influences subsequent decisions",
+    "title": "ProcessPrefBench: Evaluating Cross-Task Transfer of Individual Process Preferences from Naturalistic Human-AI Interaction",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.06065"
+    },
+    "tags": [
+      "M→A"
+    ],
+    "added": "2026-11-10"
+  },
+  {
+    "id": "notyourdiary2026",
+    "section": "sec-4-5-2",
+    "group": "Coupling and later use: state influences subsequent decisions",
+    "title": "Not Your Diary, Just Your Topic: Grading the Wrong-User Control",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.09609"
+    },
+    "tags": [
+      "M→A"
+    ],
+    "added": "2026-11-10"
+  },
+  {
+    "id": "howmuchconversation2026",
+    "section": "sec-4-5-2",
+    "group": "Recall baselines",
+    "title": "How Much Conversation History Does an AI Agent Need?",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.09662"
+    },
+    "added": "2026-11-10"
+  },
+  {
+    "id": "trilemma2026",
+    "section": "sec-5-5-2",
+    "group": "Authority and consequences across interactions",
+    "title": "Trilemma: How Agents choose between Honesty, Confidentiality, and Task Completion",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.08312"
+    },
+    "tags": [
+      "M→A"
+    ],
+    "added": "2026-11-10"
+  },
+  {
+    "id": "frombenchmarksto2026",
+    "section": "sec-4-5-2",
+    "group": "Coupling and later use: state influences subsequent decisions",
+    "title": "From Benchmarks to Behaviors: A Framework for Auditing AI Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.03939"
+    },
+    "tags": [
+      "M→A"
+    ],
+    "added": "2026-11-10"
+  },
+  {
+    "id": "designingwithcinematic2026",
+    "section": "sec-5-4-2",
+    "group": "Using personal and task context",
+    "title": "Designing with Cinematic Language: An Intent-Driven Approach to Human-AI Video Clip Co-Creation",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.07377"
+    },
+    "tags": [
+      "M→A",
+      "A→M"
+    ],
+    "added": "2026-11-10"
+  },
+  {
+    "id": "spillway2026",
+    "section": "sec-5-3-4",
+    "group": "Checking permission before an action takes effect",
+    "title": "SPILLWAY: Separating Target Admission from Sanitization to Defend Tool-Using Agents against Prompt Injection",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.07222",
+      "code": "https://github.com/saintmachines/spillway"
+    },
+    "tags": [
+      "S→A"
+    ],
+    "added": "2026-11-10"
   }
 ]
