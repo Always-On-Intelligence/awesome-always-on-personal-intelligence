@@ -10914,5 +10914,16 @@
     "links": {
       "paper": "https://arxiv.org/abs/2609.00069"
     }
+  },
+  {
+    "id": "mixua2026",
+    "section": "sec-4-3-1",
+    "group": "Admission",
+    "title": "Who Remembers What? Multi-Granularity Memory Extraction for Multi-User, Multi-Agent Interaction",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.10439"
+    }
   }
 ]
