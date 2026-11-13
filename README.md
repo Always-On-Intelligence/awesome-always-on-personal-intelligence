@@ -546,6 +546,7 @@ Memory keeps what the assistant learns about the user and hands it back when a d
 - SLICE-Mem: Salience-Gated Lightweight Information Curation for Efficient LLM Agent Memory. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.33015)
 - What should AI forget? A design and taxonomy for negative space governance in AI memory. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.27607)
 - When Routine Chats Turn Toxic: Unintended Long-Term State Poisoning in Personalized Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.06731)
+- Who Remembers What? Multi-Granularity Memory Extraction for Multi-User, Multi-Agent Interaction. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2611.10439)
 
 ##### Encoding
 
