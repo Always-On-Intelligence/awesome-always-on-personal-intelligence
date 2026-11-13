@@ -1693,7 +1693,7 @@
     "section": "sec-4-3-6",
     "title": "MemSkill: Learning and Evolving Memory Skills for Self-Evolving Agents",
     "year": 2026,
-    "venue": "arXiv",
+    "venue": "NeurIPS",
     "links": {
       "paper": "https://arxiv.org/abs/2602.02474",
       "code": "https://github.com/ViktorAxelsen/MemSkill"
@@ -2381,7 +2381,7 @@
     "group": "Clarifying, preparing, or stopping",
     "title": "Agentic Abstention: Do Agents Know When to Stop Instead of Act?",
     "year": 2026,
-    "venue": "arXiv",
+    "venue": "NeurIPS",
     "links": {
       "paper": "https://arxiv.org/abs/2606.28733",
       "code": "https://github.com/lhannnn/agentic-abstention"
@@ -4285,7 +4285,7 @@
     "group": "Which revisions are governed",
     "title": "Harness Updating Is Not Harness Benefit: Disentangling Evolution Capabilities in Self-Evolving LLM Agents",
     "year": 2026,
-    "venue": "arXiv",
+    "venue": "EMNLP",
     "links": {
       "paper": "https://arxiv.org/abs/2605.30621",
       "code": "https://github.com/A-EVO-Lab/a-evolve"
@@ -10709,7 +10709,8 @@
     "year": 2026,
     "venue": "arXiv",
     "links": {
-      "paper": "https://arxiv.org/abs/2609.06721"
+      "paper": "https://arxiv.org/abs/2609.06721",
+      "code": "https://github.com/QHUni/BuddyVQA"
     }
   },
   {
@@ -10916,14 +10917,182 @@
     }
   },
   {
-    "id": "mixua2026",
-    "section": "sec-4-3-1",
-    "group": "Admission",
-    "title": "Who Remembers What? Multi-Granularity Memory Extraction for Multi-User, Multi-Agent Interaction",
+    "id": "deeppersonalization2026",
+    "section": "sec-6-1-2",
+    "title": "Deep Personalization: Continuous Context Observation for Local Proactive Agents",
     "year": 2026,
     "venue": "arXiv",
     "links": {
-      "paper": "https://arxiv.org/abs/2611.10439"
-    }
+      "paper": "https://arxiv.org/abs/2611.13457",
+      "code": "https://github.com/NVlabs/deep-personalization"
+    },
+    "tags": [
+      "S→M",
+      "M→A",
+      "A→M",
+      "L4"
+    ],
+    "added": "2026-11-12"
+  },
+  {
+    "id": "mirix202026",
+    "section": "sec-4-3-2",
+    "group": "Indexing",
+    "title": "MIRIX-2.0: Multi-Agent Memory System",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.12068"
+    },
+    "tags": [
+      "M→A"
+    ],
+    "added": "2026-11-12"
+  },
+  {
+    "id": "alifeof2026",
+    "section": "sec-6-2-1",
+    "title": "A Life of Its Own: How Agentic AI Companions Are Configured, Experienced as Autonomous Others, and Held Accountable",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.12076"
+    },
+    "added": "2026-11-12"
+  },
+  {
+    "id": "utopi2026",
+    "section": "sec-3-3-5",
+    "title": "UTOPI: Efficient Egocentric Long-Video Understanding in AR via User-Guided Token Pre-Compression",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.11562"
+    },
+    "tags": [
+      "S→M"
+    ],
+    "added": "2026-11-12"
+  },
+  {
+    "id": "notyetin2026",
+    "section": "sec-4-3-1",
+    "group": "Admission",
+    "title": "Not Yet in the Profile: Uncertainty-Aware Dynamic User Profiling by Learning from Future Interactions",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.11204"
+    },
+    "tags": [
+      "S→M",
+      "M→A"
+    ],
+    "added": "2026-11-12"
+  },
+  {
+    "id": "personalizedmemoryrubrics2026",
+    "section": "sec-4-3-6",
+    "title": "Personalized Memory Rubrics: Learning What to Remember per User via Rubric-Guided Credit Assignment",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.14017"
+    },
+    "tags": [
+      "M→A"
+    ],
+    "added": "2026-11-12"
+  },
+  {
+    "id": "tameingtheopen2026",
+    "section": "sec-4-3-2",
+    "group": "Maintenance and updates",
+    "title": "TAMEing the Open-World Personalization: Towards Open-Set Personalized MLLM Assistant",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.14118",
+      "code": "https://github.com/ronpay/TAME-O"
+    },
+    "tags": [
+      "S→M",
+      "M→A"
+    ],
+    "added": "2026-11-12"
+  },
+  {
+    "id": "autobuddy2026",
+    "section": "sec-5-5-2",
+    "group": "Proactive: acting or staying silent",
+    "title": "AutoBuddy: Evaluating Proactive, Always-On Agents on Task Discovery and Execution in a Simulated Workplace",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.12393"
+    },
+    "tags": [
+      "S→A"
+    ],
+    "added": "2026-11-12"
+  },
+  {
+    "id": "liveasset2026",
+    "section": "sec-5-4-2",
+    "group": "Using personal and task context",
+    "title": "LiveAsset: Learning Intent Assets from Corrective Interactions for Agent Runtime Control",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.11560",
+      "code": "https://github.com/landian60/LiveAsset"
+    },
+    "tags": [
+      "M→A",
+      "A→M"
+    ],
+    "added": "2026-11-12"
+  },
+  {
+    "id": "canllmagents2026",
+    "section": "sec-4-3-4",
+    "group": "Consolidation",
+    "title": "Can LLM Agents Organize Their Own Memory?",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.11929",
+      "code": "https://github.com/Qi202/SoMem"
+    },
+    "tags": [
+      "M→A"
+    ],
+    "added": "2026-11-12"
+  },
+  {
+    "id": "eyeq2026",
+    "section": "sec-3-1-2",
+    "title": "EyeQ: Exploring Corneal Reflection for Mobile Context Sensing",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.13640"
+    },
+    "added": "2026-11-12"
+  },
+  {
+    "id": "tancraft2026",
+    "section": "sec-5-3-1",
+    "group": "Using an expressed or inferred goal",
+    "title": "TanCRAFT: Context-Reasoned Anticipatory Feedback for Assembly Tasks",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.14470"
+    },
+    "tags": [
+      "S→A"
+    ],
+    "added": "2026-11-12"
   }
 ]
