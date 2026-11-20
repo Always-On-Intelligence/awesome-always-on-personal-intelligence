@@ -546,7 +546,6 @@ Memory keeps what the assistant learns about the user and hands it back when a d
 - SLICE-Mem: Salience-Gated Lightweight Information Curation for Efficient LLM Agent Memory. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.33015)
 - What should AI forget? A design and taxonomy for negative space governance in AI memory. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2610.27607)
 - When Routine Chats Turn Toxic: Unintended Long-Term State Poisoning in Personalized Agents. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2605.06731)
-- Who Remembers What? Multi-Granularity Memory Extraction for Multi-User, Multi-Agent Interaction. [![arXiv 2026][b-arxiv-2026-a1574a]](https://arxiv.org/abs/2611.10439)
 
 ##### Encoding
 
@@ -1590,6 +1589,7 @@ Products are listed apart from research works, one line per product with its off
 <tr><td nowrap valign="top"><img src="https://www.google.com/s2/favicons?domain=vivo.com.cn&sz=64" width="16" height="16" alt=""/> <b><a href="https://www.vivo.com.cn/originos">Xiao V Suggestions</a></b></td><td>vivo</td><td nowrap valign="top"><img src="https://img.shields.io/badge/L3-b8924a?style=flat-square" alt="L3" align="top"/></td></tr>
 <tr><td nowrap valign="top"><img src="https://www.google.com/s2/favicons?domain=coloros.com&sz=64" width="16" height="16" alt=""/> <b><a href="https://www.coloros.com/version/coloros17/">Xiaobu (ColorOS 17)</a></b></td><td>OPPO</td><td nowrap valign="top"><img src="https://img.shields.io/badge/L3-b8924a?style=flat-square" alt="L3" align="top"/></td></tr>
 <tr><td nowrap valign="top"><img src="https://www.google.com/s2/favicons?domain=huawei.com&sz=64" width="16" height="16" alt=""/> <b><a href="https://consumer.huawei.com/cn/mobileservices/celia/">Xiaoyi Suggestions</a></b></td><td>Huawei</td><td nowrap valign="top"><img src="https://img.shields.io/badge/L4-9a7430?style=flat-square" alt="L4" align="top"/></td></tr>
+<tr><td nowrap valign="top"><img src="https://www.google.com/s2/favicons?domain=zortex.me&sz=64" width="16" height="16" alt=""/> <b><a href="https://zortex.me/en/install">Zortex</a></b></td><td>Zortex</td><td nowrap valign="top"><img src="https://img.shields.io/badge/No_level-d0d0d0?style=flat-square" alt="No level" align="top"/></td></tr>
 </tbody>
 </table>
 

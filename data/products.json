@@ -1371,5 +1371,17 @@
       "himaxhm01b0"
     ],
     "checked": "2026-11-06"
+  },
+  {
+    "id": "zortex",
+    "series": "Zortex",
+    "section": "products-digital",
+    "title": "Zortex",
+    "org": "Zortex",
+    "links": {
+      "website": "https://zortex.me/en/install"
+    },
+    "sources": [],
+    "checked": "2026-11-20"
   }
 ]
