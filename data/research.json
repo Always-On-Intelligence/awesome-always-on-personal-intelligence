@@ -2155,7 +2155,7 @@
     "group": "Profile: keeping what holds valid",
     "title": "MINTEval: Evaluating Memory under Multi-Target Interference in Long-Horizon Agent Systems",
     "year": 2026,
-    "venue": "arXiv",
+    "venue": "NeurIPS",
     "links": {
       "paper": "https://arxiv.org/abs/2605.18565",
       "code": "https://github.com/amy-hyunji/MINTEval"
@@ -4503,7 +4503,7 @@
     "group": "Revising the Revision Procedure",
     "title": "Metaⁿ: Recursive Self-Improvement through Emergent Depth",
     "year": 2026,
-    "venue": "arXiv",
+    "venue": "NeurIPS",
     "links": {
       "paper": "https://arxiv.org/abs/2608.24735",
       "code": "https://github.com/minnesotanlp/meta-n"
@@ -6339,7 +6339,7 @@
     "id": "efficienttesttime2026",
     "section": "sec-6-4",
     "group": "Revising model parameters from personal feedback",
-    "title": "Efficient Test-Time Adaptation through Human-AI Interaction",
+    "title": "Efficient Test-Time Adaptation through Human-Agent Interaction",
     "year": 2026,
     "venue": "arXiv",
     "links": {
@@ -6592,7 +6592,7 @@
   {
     "id": "samplingsafefutures2026",
     "section": "sec-5-2",
-    "title": "Sampling Safe Futures: Multimodal Trajectory Planning for Personalized Safety in Anthropomorphic AI",
+    "title": "Shielded Trajectory Sampling for Personalized Relational Safety in Conversational AI",
     "year": 2026,
     "venue": "arXiv",
     "links": {
@@ -7308,7 +7308,8 @@
     "year": 2026,
     "venue": "arXiv",
     "links": {
-      "paper": "https://arxiv.org/abs/2609.36457"
+      "paper": "https://arxiv.org/abs/2609.36457",
+      "code": "https://github.com/aimsresearchlab/lapse"
     },
     "added": "2026-10-25"
   },
@@ -10942,7 +10943,8 @@
     "year": 2026,
     "venue": "arXiv",
     "links": {
-      "paper": "https://arxiv.org/abs/2611.12068"
+      "paper": "https://arxiv.org/abs/2611.12068",
+      "code": "https://github.com/Mirix-AI/MIRIX"
     },
     "tags": [
       "M→A"
@@ -11010,7 +11012,7 @@
     "group": "Maintenance and updates",
     "title": "TAMEing the Open-World Personalization: Towards Open-Set Personalized MLLM Assistant",
     "year": 2026,
-    "venue": "arXiv",
+    "venue": "NeurIPS",
     "links": {
       "paper": "https://arxiv.org/abs/2611.14118",
       "code": "https://github.com/ronpay/TAME-O"
@@ -11116,5 +11118,288 @@
       "blog": "https://claude.com/resources/articles/building-always-on-agents"
     },
     "added": "2026-11-21"
+  },
+  {
+    "id": "memstress2026",
+    "section": "sec-8-4",
+    "group": "Measuring Benefit and Burden Over Months",
+    "title": "MEM-STRESS: Longitudinal Field Study of a Wearable-Informed AI Chatbot for Stress Management",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.23691"
+    },
+    "tags": [
+      "S→M",
+      "M→A"
+    ],
+    "added": "2026-11-20"
+  },
+  {
+    "id": "instantweightspace2026",
+    "section": "sec-4-1-2",
+    "group": "Parametric memory",
+    "title": "Instant Weight-Space Consolidation for Long-Term Memory in LLMs",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.20759"
+    },
+    "added": "2026-11-20"
+  },
+  {
+    "id": "premind2026",
+    "section": "sec-4-5-2",
+    "group": "Coupling and later use: state influences subsequent decisions",
+    "title": "PReMind: When Personal Memory Meets Visual Hazards",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.23808"
+    },
+    "tags": [
+      "S→A",
+      "M→A"
+    ],
+    "added": "2026-11-20"
+  },
+  {
+    "id": "fromcompanionto2026",
+    "section": "sec-5-3-1",
+    "group": "Clarifying, preparing, or stopping",
+    "title": "From Companion to Guardian: Designing an Emergency Support System Using a Quadruped Robot for Older Adults",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.19932"
+    },
+    "tags": [
+      "S→A"
+    ],
+    "added": "2026-11-20"
+  },
+  {
+    "id": "ledger2026",
+    "section": "sec-4-3-4",
+    "group": "Correction",
+    "title": "LEDGER: Auditable Agent Memory Under Change",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.20927"
+    },
+    "added": "2026-11-20"
+  },
+  {
+    "id": "ubihearo2026",
+    "section": "sec-3-3-1",
+    "title": "UbiHearo: Bringing Scenario-Aware Sound Guidance to DHH Users with Mobile Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.20686"
+    },
+    "tags": [
+      "S→A"
+    ],
+    "added": "2026-11-20"
+  },
+  {
+    "id": "heams2026",
+    "section": "sec-4-2",
+    "group": "What is the assistant allowed to keep, and for how long?",
+    "title": "HEAMS: Holistic Evaluation of Agent Memory Systems",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.20144",
+      "code": "https://github.com/milatechtransfer/heams"
+    },
+    "added": "2026-11-20"
+  },
+  {
+    "id": "memdoctor2026",
+    "section": "sec-4-3-4",
+    "group": "Correction",
+    "title": "MemDoctor: Stage-wise Error Attribution and Repair for MLLM Agent Memory",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.21019"
+    },
+    "added": "2026-11-20"
+  },
+  {
+    "id": "ragina2026",
+    "section": "sec-4-5-2",
+    "group": "Coupling and later use: state influences subsequent decisions",
+    "title": "RAG in a Trenchcoat: When Minimal Memory Is Enough for Agentic Systems, and When It Isn't",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.22179"
+    },
+    "tags": [
+      "M→A"
+    ],
+    "added": "2026-11-20"
+  },
+  {
+    "id": "memosync2026",
+    "section": "sec-4-2",
+    "group": "What is the assistant allowed to keep, and for how long?",
+    "title": "MemoSync: Co-Managing Developer-Agent Metamemory Across Contexts",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.24165",
+      "code": "https://github.com/SLEEPYBQ/MemoSync"
+    },
+    "tags": [
+      "M→A",
+      "A→M"
+    ],
+    "added": "2026-11-20"
+  },
+  {
+    "id": "personalizedlanguagemodels2026",
+    "section": "sec-5-3-5",
+    "title": "Personalized Language Models for One-to-Many Private Communications",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.19155"
+    },
+    "tags": [
+      "M→A",
+      "A→M"
+    ],
+    "added": "2026-11-20"
+  },
+  {
+    "id": "whatmovesa2026",
+    "section": "sec-4-5-2",
+    "group": "Recall baselines",
+    "title": "What Moves a LoCoMo Score? Memory Context, Answer Prompts and Judges",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.19199"
+    },
+    "added": "2026-11-20"
+  },
+  {
+    "id": "craft2026",
+    "section": "sec-5-3-5",
+    "title": "CRAFT: A Robot-Agent Harness with Scope-Aware Adaptation",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.19952"
+    },
+    "tags": [
+      "M→A",
+      "A→M"
+    ],
+    "added": "2026-11-20"
+  },
+  {
+    "id": "rememberedasbrief2026",
+    "section": "sec-4-5-2",
+    "group": "Coupling and later use: state influences subsequent decisions",
+    "title": "Remembered as Brief: Stored Preferences SilentlyRemove Decision-Critical Information",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.22697"
+    },
+    "tags": [
+      "S→M",
+      "M→A"
+    ],
+    "added": "2026-11-20"
+  },
+  {
+    "id": "regimecouncil2026",
+    "section": "sec-4-3-6",
+    "title": "RegimeCouncil: Paired-Evidence Routing For Memory Conflict Governance In LLM Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.22113"
+    },
+    "tags": [
+      "M→A",
+      "A→M"
+    ],
+    "added": "2026-11-20"
+  },
+  {
+    "id": "controllingproactivemultimodal2026",
+    "section": "sec-5-3-4",
+    "group": "Checking permission before an action takes effect",
+    "title": "Controlling Proactive Multimodal AI: Separating Perception from Participation",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.22431"
+    },
+    "tags": [
+      "S→A"
+    ],
+    "added": "2026-11-20"
+  },
+  {
+    "id": "egojev2026",
+    "section": "sec-3-3-2",
+    "title": "EgoJev: Finding Evidence in Egocentric Video by Reading VLM Decisions",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.24616"
+    },
+    "added": "2026-11-20"
+  },
+  {
+    "id": "jetriever2026",
+    "section": "sec-4-3-3",
+    "group": "Retrieval",
+    "title": "Jetriever: Shifting Agent Memory Retrieval from Similarity to Utility",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.21478"
+    },
+    "tags": [
+      "M→A"
+    ],
+    "added": "2026-11-20"
+  },
+  {
+    "id": "evibridge2026",
+    "section": "sec-5-3-1",
+    "group": "Clarifying, preparing, or stopping",
+    "title": "EviBridge: Encoding Predictive Visual Evidence for Proactive Interaction",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.20916"
+    },
+    "tags": [
+      "S→A"
+    ],
+    "added": "2026-11-20"
+  },
+  {
+    "id": "safepersonalrsi2026",
+    "section": "sec-6-4",
+    "group": "Which revisions are governed",
+    "title": "Safe Personal RSI: Evaluating and Repairing Personal-Agent Updates",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.23651"
+    },
+    "added": "2026-11-20"
   }
 ]
