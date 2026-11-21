@@ -10,21 +10,21 @@ The list includes component methods, benchmarks, and partial systems when the su
 
 ## Structure
 
-The list follows the survey's chapters, titles, and terms, and it lists every work the survey cites. `data/sections.json` records the sections in reading order:
+The list follows the survey's chapters, titles, and terms, and it lists every work the survey cites. Products and Featured Industry Blogs come first, the research sections follow in the survey's order, and Background closes the list. `data/sections.json` records the sections in this reading order:
 
 | Section | Parts |
 |:--|:--|
-| Background | Works the Introduction and Foundations build on, and the earlier systems in the survey's map of the literature |
+| Products | One line per product the survey discusses, with its official page, by wearable, digital, and physical domain; devices and platforms; and a few curated products |
+| Featured Industry Blogs | Engineering articles from organizations whose models and assistants are widely used, selected by the maintainers for how closely they match the survey's framing |
 | Sensing, Memory, Action | Space, shared conditions, policy, coupling across the loop, and evaluation, with the survey's subsections |
 | Applications, System Bottlenecks, and Loop Closure | Applications and bottlenecks by domain, shared conditions and implementation across modules, levels of loop closure, self-evolution in deployed loops |
 | Trends and Open Problems | Sustaining the continuing loop; authority, privacy, and safety; self-evolution and recursive revision; longitudinal evaluation and real deployment |
 | Related Surveys | Capability-focused and concurrent system-level surveys |
-| Featured Industry Blogs | Engineering articles from organizations whose models and assistants are widely used, selected by the maintainers for how closely they match the survey's framing |
-| Products | One line per product the survey discusses, with its official page, by wearable, digital, and physical domain; devices and platforms; and a few curated products |
+| Background | Works the Introduction and Foundations build on, and the earlier systems in the survey's map of the literature |
 
 Long sections are divided into the survey's own sub-categories, kept as `groups` in `data/sections.json`: the paragraph headings of a subsection, the group rows of a module's benchmark table, the open problems of a Trends and Open Problems part, or the citation groups of the survey's related-survey paragraph. A work the survey cites goes under the sub-category that cites it, and works the survey does not cite yet go where they fit. A section whose works fall into fewer than two sub-categories is shown as one list.
 
-The README's Foundations section summarizes the survey's definitions, coupling channels, and loop-closure levels. Works the survey cites only in its Introduction or Foundations, such as early visions, textbooks, and cognitive architectures, are listed under Background, which the Foundations card of the contents links to.
+The README's Foundations section summarizes the survey's definitions, coupling channels, and loop-closure levels. Works the survey cites only in its Introduction or Foundations, such as early visions, textbooks, and cognitive architectures, are listed under Background. Background and Featured Industry Blogs have no card of their own in the contents: a `card_of` field in `data/sections.json` names the section whose card links to them, Related Surveys and Products.
 
 ## Placement
 
