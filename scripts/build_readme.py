@@ -15,7 +15,7 @@ import json
 from pathlib import Path
 import re
 import sys
-from urllib.parse import quote, urlsplit
+from urllib.parse import urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 CHANNELS = ["S→A", "S→M", "M→A", "A→S", "M→S", "A→M"]
@@ -23,51 +23,136 @@ TAGS = set(CHANNELS) | {f"L{i}" for i in range(6)} | {"Product"}
 LINK_LABELS = ["paper", "blog", "docs", "website", "project", "code", "data"]
 PRODUCT_SECTIONS = {"products-wearable", "products-digital", "products-physical", "products-devices"}
 ROMAN = ["", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"]
-# Badge colours from the survey's palette: channels by the module that receives them (rose = Memory,
-# blue = Action, sage = Sensing), levels from grey to gold (L3 to L5 are the always-on levels).
-CHANNEL_COLORS = {"S→M": "9d675d", "A→M": "9d675d", "S→A": "556b88", "M→A": "556b88", "M→S": "607a6d", "A→S": "607a6d"}
-LEVEL_COLORS = {"L0": "9a9a9a", "L1": "868e98", "L2": "6b7785", "L3": "b8924a", "L4": "9a7430", "L5": "6b4e17"}
-GROUP_COLORS = {"sec-3": "8fa399", "sec-4": "bb9188", "sec-5": "8a9bb3", "sec-6": "a39a87"}
-VENUE_COLORS = {"arXiv": "a1574a", "Preprints": "8c8c8c", "Book": "8c8c8c"}
-VENUE_DEFAULT, PRODUCT_COLOR, NEUTRAL = "355774", "8a6400", "8c8c8c"
-NO_LEVEL = "d0d0d0"  # products the survey gives no level: lighter than the L0 to L2 greys, with dark text
-# Links other than the one the venue badge opens, as dark badges after the title, in this order
-LINK_BADGES, LINK_COLOR = {"code": "Code", "project": "Project", "data": "Data", "docs": "Docs", "blog": "Blog", "website": "Website"}, "3b434d"
+# Badges are small SVG pills kept in assets/badges and generated here, in the survey's palette. A tinted pill has a
+# light fill and dark text, and swaps to a dark fill and light text under a dark colour scheme; an outline pill uses
+# one mid grey that reads on both. Channels take the tint of the module that receives them (rose = Memory,
+# blue = Action, sage = Sensing). Levels are grey up to L2 and gold with a dot from L3, the first always-on level.
+BADGE_DIR = "assets/badges"
+#        light fill, light text, dark fill, dark text
+TINTS = {"gold": ("F5ECD9", "6B4E17", "3D2F12", "E8CF98"), "grey": ("EEF0F2", "57606A", "2A313C", "C3CAD3"),
+         "rose": ("F4E7E4", "7D4A41", "3E2925", "E5BDB5"), "blue": ("E6ECF3", "3D5370", "243044", "B9C9E0"),
+         "sage": ("E5EDE8", "44604F", "24352B", "B7D0C1")}
+OUTLINE, OUTLINE_MUTED, PRIMARY = "6E7781", "8C959F", "8B692E"
+CHANNEL_TINTS = {"S→M": "rose", "A→M": "rose", "S→A": "blue", "M→A": "blue", "M→S": "sage", "A→S": "sage"}
+LEVEL_DOTS = {"L3": ("B8924A", "9A7430"), "L4": ("9A7430", "C9A45C"), "L5": ("6B4E17", "F2DCA6")}  # light, dark
+LEVELS = [f"L{i}" for i in range(6)]
+GROUP_TINTS = {"sec-3": "sage", "sec-4": "rose", "sec-5": "blue", "sec-6": "grey"}
+QUIET_VENUES = {"arXiv", "Preprints", "Book"}  # outline pills; every other venue gets the gold tint
+# Links other than the one the venue badge opens, as outline pills after the title, in this order
+LINK_BADGES = {"code": "Code", "project": "Project", "data": "Data", "docs": "Docs", "blog": "Blog", "website": "Website"}
+GITHUB_MARK = ("M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94"
+               "-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07"
+               "-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27"
+               "c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48"
+               " 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z")
+FONT = "-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif"
 MAIN_LINKS = ["paper", "project", "website", "docs", "blog", "code", "data"]
 
 
+def text_width(text, size, bold=False):
+    """An estimate of a label's width in a system sans font. The SVG sets textLength to it, so the label fits its pill
+    whatever font the reader's system supplies."""
+    total = 0.0
+    for c in text:
+        if c in "iIl.,:;|!'j·":
+            total += 0.28
+        elif c in "ftr()-[] /":
+            total += 0.34
+        elif c in "mw":
+            total += 0.84
+        elif c in "MW":
+            total += 0.90
+        elif c == "→":
+            total += 1.0
+        elif c.isdigit():
+            total += 0.57
+        elif c.isupper() or c in "&+@%":
+            total += 0.69
+        else:
+            total += 0.55
+    return round(total * size * (1.07 if bold else 1.0), 1)
+
+
 class Badges:
-    """Coloured shields.io badges, written as reference-style images so each badge URL appears once."""
+    """SVG pills in assets/badges. Lists use them as reference-style images, so each file is named once in the README,
+    and the product tables use them as HTML images. `files` collects every badge the README needs."""
 
     def __init__(self):
         self.refs = {}
+        self.files = {}
 
     @staticmethod
-    def url(text, color, logo=None):
-        label = text.replace("-", "--").replace("_", "__").replace(" ", "_")
-        icon = f"&logo={logo}&logoColor=white" if logo else ""
-        return f"https://img.shields.io/badge/{quote(label, safe='')}-{color}?style=flat-square{icon}"
+    def svg(text, style, dot=None, mark=False, height=18, size=11, bold=False):
+        """style is a tint name, "outline", "muted" (a fainter outline) or "primary" (a solid button)."""
+        pad = 8 if height == 18 else 14
+        lead = (11 if dot else 0) + (15 if mark else 0)
+        tw = text_width(text, size, bold)
+        width = round(pad * 2 + lead + tw)
+        r, mid = height / 2, pad + lead + tw / 2
+        css, shapes = "", ""
+        if style in TINTS:
+            lf, lt, df, dt = TINTS[style]
+            css = f".b{{fill:#{lf}}}.t{{fill:#{lt}}}"
+            dark = f".b{{fill:#{df}}}.t{{fill:#{dt}}}"
+            if dot:
+                css += f".d{{fill:#{dot[0]}}}"
+                dark += f".d{{fill:#{dot[1]}}}"
+            css += f"@media (prefers-color-scheme:dark){{{dark}}}"
+            shapes = f'<rect class="b" width="{width}" height="{height}" rx="{r:g}"/>'
+        elif style == "primary":
+            css = f".b{{fill:#{PRIMARY}}}.t{{fill:#FFFFFF}}"
+            shapes = f'<rect class="b" width="{width}" height="{height}" rx="{r:g}"/>'
+        else:
+            ink = OUTLINE_MUTED if style == "muted" else OUTLINE
+            css = f".t{{fill:#{ink}}}.o{{fill:none;stroke:#8C959F;stroke-opacity:.55}}"
+            shapes = f'<rect class="o" x=".5" y=".5" width="{width - 1}" height="{height - 1}" rx="{r - .5:g}"/>'
+        if dot:
+            shapes += f'<circle class="d" cx="{pad + 3}" cy="{r:g}" r="3"/>'
+        if mark:
+            shapes += f'<path class="t" transform="translate({pad} {(height - 11) / 2:g}) scale(.6875)" d="{GITHUB_MARK}"/>'
+        weight = ' font-weight="600"' if bold else ""
+        label = html.escape(text, quote=True)
+        return (f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-label="{label}">'
+                f"<title>{label}</title><style>{css}</style>{shapes}"
+                f'<text class="t" x="{mid:g}" y="{r + size * 0.36:g}" font-family="{FONT}" font-size="{size}"{weight} text-anchor="middle" textLength="{tw:g}">{label}</text></svg>\n')
 
-    @staticmethod
-    def color(tag):
-        return CHANNEL_COLORS.get(tag) or LEVEL_COLORS.get(tag) or (PRODUCT_COLOR if tag == "Product" else NEUTRAL)
+    def path(self, text, style, name=None, **options):
+        """Registers a badge file and returns its path."""
+        name = name or style + "-" + re.sub(r"[^a-z0-9]+", "-", text.lower().replace("→", " to ")).strip("-")
+        self.files[f"{name}.svg"] = self.svg(text, style, **options)
+        return f"{BADGE_DIR}/{name}.svg"
 
-    def __call__(self, text, color, logo=None):
-        key = "b-" + re.sub(r"[^a-z0-9]+", "-", f"{text} {color} {logo or ''}".lower().replace("→", " to ")).strip("-")
-        if key not in self.refs:
-            self.refs[key] = self.url(text, color, logo)
+    def __call__(self, text, style, **options):
+        path = self.path(text, style, **options)
+        key = "b-" + Path(path).stem
+        self.refs[key] = path
         return f"![{md(text)}][{key}]"
 
-    def tag(self, tag):
-        return self(tag, self.color(tag))
+    @staticmethod
+    def tag_style(tag):
+        if tag in CHANNEL_TINTS:
+            return CHANNEL_TINTS[tag], {}
+        if tag in LEVEL_DOTS:
+            return "gold", {"dot": LEVEL_DOTS[tag]}
+        return "grey", {}
 
-    def img(self, text, color=None):
+    def tag(self, tag):
+        style, options = self.tag_style(tag)
+        return self(tag, style, **options)
+
+    def venue(self, venue, year):
+        return self(f"{venue} {year}", "outline" if venue in QUIET_VENUES else "gold")
+
+    def img(self, text, style=None):
         """A badge as an HTML image, for HTML tables, where Markdown references are not read. It sits at the top of its
         line, so a line of badges is exactly as tall as a line of text."""
-        return f'<img src="{self.url(text, color or self.color(text))}" alt="{html.escape(text)}" align="top"/>'
+        options = {}
+        if style is None:
+            style, options = self.tag_style(text)
+        return f'<img src="{self.path(text, style, **options)}" height="18" alt="{html.escape(text)}" align="top"/>'
 
     def definitions(self):
-        return [f"[{key}]: {url}" for key, url in sorted(self.refs.items())]
+        return [f"[{key}]: {path}" for key, path in sorted(self.refs.items())]
 
 
 def is_single_line(value):
@@ -198,16 +283,17 @@ def markdown_url(url):
 
 
 def link_badges(links, badge, skip=None):
-    """Each link as a small dark badge, with the GitHub mark on code hosted there."""
+    """Each link as a small outline pill, with the GitHub mark on code hosted there."""
     out = []
     for label, text in LINK_BADGES.items():
         if label in links and label != skip:
-            logo = "github" if label == "code" and urlsplit(links[label]).netloc == "github.com" else None
-            out.append(f"[{badge(text, LINK_COLOR, logo)}]({markdown_url(links[label])})")
+            mark = label == "code" and urlsplit(links[label]).netloc == "github.com"
+            pill = badge(text, "outline", name="link-" + label + ("-github" if mark else ""), mark=mark)
+            out.append(f"[{pill}]({markdown_url(links[label])})")
     return "".join(f" {b}" for b in out)
 
 
-def render_entry(entry, group_tags, badge, group_color=NEUTRAL):
+def render_entry(entry, group_tags, badge, group_color="grey"):
     if "org" in entry:
         tags = "".join(f" {badge.tag(tag)}" for tag in entry.get("tags", []))
         title = md(entry["title"])
@@ -217,7 +303,7 @@ def render_entry(entry, group_tags, badge, group_color=NEUTRAL):
     tags = [badge(group_tags[entry["group"]], group_color)] if entry.get("group") in group_tags else []
     tags = "".join(f" {t}" for t in tags + [badge.tag(tag) for tag in entry.get("tags", [])])
     main = next(label for label in MAIN_LINKS if label in entry["links"])  # the venue badge opens it, the paper when there is one
-    venue = badge(f"{entry['venue']} {entry['year']}", VENUE_COLORS.get(entry["venue"], VENUE_DEFAULT))
+    venue = badge.venue(entry["venue"], entry["year"])
     # the title comes first; the venue badge after it opens the paper (or the work's page when there is no paper)
     return f"- {title} [{venue}]({markdown_url(entry['links'][main])}){link_badges(entry['links'], badge, skip=main)}{tags}"
 
@@ -246,17 +332,17 @@ def product_table(rows, badge):
     for e in sorted(rows, key=lambda e: (e["series"].casefold(), e["title"].casefold())):
         icons.setdefault(e["series"], logo(e))
         companies.setdefault(e["org"].casefold(), []).append(e)
-    rated = any(t in LEVEL_COLORS or t in CHANNEL_COLORS for e in rows for t in e.get("tags", []))
+    rated = any(t in LEVELS or t in CHANNEL_TINTS for e in rows for t in e.get("tags", []))
     head = "<th>Product</th><th>Company</th>" + ("<th>Level and channels</th>" if rated else "")
     body = []
     for group in sorted(companies.values(), key=lambda g: product_name(g[0]).casefold()):
         names, levels = [], []
         for e in group:
             names.append(f'{icons[e["series"]]}<b><a href="{html.escape(e["links"]["website"])}">{md(product_name(e))}</a></b>')
-            tags = sorted((t for t in e.get("tags", []) if t in LEVEL_COLORS or t in CHANNEL_COLORS), key=lambda t: t not in LEVEL_COLORS)
-            if not any(t in LEVEL_COLORS for t in tags):  # so that a line without a level does not seem to share the one above
+            tags = sorted((t for t in e.get("tags", []) if t in LEVELS or t in CHANNEL_TINTS), key=lambda t: t not in LEVELS)
+            if not any(t in LEVELS for t in tags):  # so that a line without a level does not seem to share the one above
                 tags.insert(0, None)
-            levels.append(" ".join(badge.img(t) if t else badge.img("No level", NO_LEVEL) for t in tags))
+            levels.append(" ".join(badge.img(t) if t else badge.img("No level", "muted") for t in tags))
             for u in sorted(e.get("updates", []), key=lambda u: u["date"], reverse=True)[:3]:
                 names.append(f'<sub>{u["date"].replace("-", "/")} · <a href="{html.escape(u["url"])}">{md(u["label"])}</a></sub>')
                 levels.append("<sub>&nbsp;</sub>")  # keeps each feature's badges on the line of its name
@@ -282,6 +368,7 @@ def heading(node):
 
 
 HALO_REPO = "https://github.com/Always-On-Intelligence/HALO"
+DOI = "10.20944/preprints202611.0793.v1"
 
 
 def card(href, icon, title, lines, full=None, note=None):
@@ -353,6 +440,12 @@ def build(sections, entries):
     intro = intro.replace("{{PAPER_COUNT}}", str(papers)).replace("{{WORK_COUNT}}", str(works)).replace("{{PRODUCT_COUNT}}", str(products)).replace("{{TOC}}", "\n".join(toc))
     parts = ["<!-- Generated by scripts/build_readme.py. Edit data/*.json or docs/readme-*.md, then regenerate. -->", "", intro, ""]
     badge = Badges()
+    # the header of docs/readme-intro.md names these files
+    badge.path("Paper (PDF)", "primary", name="header-paper", height=30, size=13, bold=True)
+    badge.path("Project website", "outline", name="header-website", height=30, size=13, bold=True)
+    badge.path(f"DOI {DOI}", "outline", name="header-doi")
+    badge.path(f"{papers} papers", "gold", name="header-papers")
+    badge.path("MIT License", "outline", name="header-license")
     top_of = {}
     for node in sections:
         top_of[node["id"]] = top_of.get(node.get("parent"), node["id"])
@@ -370,7 +463,7 @@ def build(sections, entries):
             parts.extend(product_table(own, badge))
             parts.append("")
         elif own:
-            color = GROUP_COLORS.get(top_of.get(node["id"]), NEUTRAL)
+            color = GROUP_TINTS.get(top_of.get(node["id"]), "grey")
             used = [g["name"] for g in node.get("groups", []) if any(e.get("group") == g["name"] for e in own)]
             if len(used) >= 2:
                 # the paper's own divisions of this section, in its order, one short list each
@@ -395,7 +488,7 @@ def build(sections, entries):
         emit(top)
     parts.append((ROOT / "docs" / "readme-footer.md").read_text(encoding="utf-8").rstrip())
     parts += ["", "<!-- badge images -->", *badge.definitions()]
-    return "\n".join(parts) + "\n"
+    return "\n".join(parts) + "\n", badge.files
 
 
 def validate_local_links(content):
@@ -406,7 +499,7 @@ def validate_local_links(content):
             raise ValueError(f"Broken anchor: {target}")
         if not target.startswith(("https://", "#", "mailto:")) and not (ROOT / target.split("#")[0]).exists():
             raise ValueError(f"Missing local link: {target}")
-    for target in re.findall(r'<img[^>]+src="([^"]+)"', content):
+    for target in re.findall(r'<img[^>]+src="([^"]+)"', content) + re.findall(r"^\[b-[^\]]+\]: (\S+)$", content, flags=re.M):
         if not target.startswith("https://") and not (ROOT / target).is_file():
             raise ValueError(f"Missing image: {target}")
 
@@ -417,14 +510,25 @@ def main():
     args = parser.parse_args()
     sections, by_id = load_sections()
     entries = load_entries(by_id)
-    content = build(sections, entries)
-    validate_local_links(content)
+    content, badges = build(sections, entries)
     output = ROOT / "README.md"
+    folder = ROOT / BADGE_DIR
     if args.check:
+        on_disk = {f.name: f.read_text(encoding="utf-8") for f in folder.glob("*.svg")} if folder.is_dir() else {}
+        if on_disk != badges:
+            raise ValueError(f"{BADGE_DIR} is stale. Run python3 scripts/build_readme.py")
+        validate_local_links(content)
         if output.read_text(encoding="utf-8") != content:
             raise ValueError("README.md is stale. Run python3 scripts/build_readme.py")
         print(f"OK: {len(entries)} entries in {len(sections)} sections; schema, unique sources, local links, images, anchors, and generated README checked.")
     else:
+        folder.mkdir(parents=True, exist_ok=True)
+        for stale in folder.glob("*.svg"):
+            if stale.name not in badges:
+                stale.unlink()
+        for name, svg in badges.items():
+            (folder / name).write_text(svg, encoding="utf-8")
+        validate_local_links(content)
         output.write_text(content, encoding="utf-8")
         print(f"Generated README.md with {len(entries)} entries.")
 

@@ -3,15 +3,15 @@
 <img src="assets/banner.gif" width="100%" alt="Always-On Personal Intelligence: A Roadmap Towards Continuing, Self-Evolving Loops"/>
 
 <p>
-  <a href="https://always-on-intelligence.github.io/Always-On_Personal_Intelligence.pdf"><img src="https://img.shields.io/badge/Paper-PDF-355774?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Paper (PDF)"/></a>
-  <a href="https://always-on-intelligence.github.io/"><img src="https://img.shields.io/badge/Project-Website-66816D?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Project website"/></a>
+  <a href="https://always-on-intelligence.github.io/Always-On_Personal_Intelligence.pdf"><img src="assets/badges/header-paper.svg" height="30" alt="Paper (PDF)"/></a>
+  <a href="https://always-on-intelligence.github.io/"><img src="assets/badges/header-website.svg" height="30" alt="Project website"/></a>
 </p>
 
 <p>
-  <a href="https://doi.org/10.20944/preprints202611.0793.v1"><img src="https://img.shields.io/badge/DOI-10.20944%2Fpreprints202611.0793.v1-8B692E?style=flat-square" alt="DOI 10.20944/preprints202611.0793.v1"/></a>
-  <a href="https://github.com/Always-On-Intelligence/awesome-always-on-personal-intelligence/stargazers"><img src="https://img.shields.io/github/stars/Always-On-Intelligence/awesome-always-on-personal-intelligence?style=flat-square&logo=github&color=B88465" alt="GitHub stars"/></a>
-  <img src="https://img.shields.io/badge/Papers-{{PAPER_COUNT}}-355774?style=flat-square" alt="{{PAPER_COUNT}} papers"/>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-8C8C8C?style=flat-square" alt="MIT License"/></a>
+  <a href="https://doi.org/10.20944/preprints202611.0793.v1"><img src="assets/badges/header-doi.svg" height="18" alt="DOI 10.20944/preprints202611.0793.v1"/></a>
+  <img src="assets/badges/header-papers.svg" height="18" alt="{{PAPER_COUNT}} papers"/>
+  <a href="LICENSE"><img src="assets/badges/header-license.svg" height="18" alt="MIT License"/></a>
+  <a href="https://github.com/Always-On-Intelligence/awesome-always-on-personal-intelligence/stargazers"><img src="https://img.shields.io/github/stars/Always-On-Intelligence/awesome-always-on-personal-intelligence?style=social" height="18" alt="GitHub stars"/></a>
 </p>
 
 <sub>Contributions are welcome</sub>
