@@ -91,6 +91,8 @@ def load_sections():
             raise ValueError(f"section {name}: a top-level section needs an icon and a description")
         if node["level"] > 2 and by_id.get(node.get("parent"), {}).get("level") != node["level"] - 1:
             raise ValueError(f"section {name}: parent must be the enclosing section")
+        if node.get("card", True) not in (True, False) or (node["level"] != 2 and "card" in node):
+            raise ValueError(f"section {name}: card is true or false, on a top-level section only")
         if node.get("sort", "year") not in ("year", "level"):
             raise ValueError(f"section {name}: sort must be year or level")
         groups = node.get("groups", [])
@@ -288,7 +290,8 @@ def card(href, icon, title, lines, full=None, note=None):
 
 
 def contents(tops, children, count):
-    """The table of contents as a grid of chapter cards, with Related Surveys, Contributing and Citation below."""
+    """The table of contents as a grid of chapter cards. A section with `"card": false` is linked from the line
+    below the grid instead, before Contributing and Citation."""
     def links(node):
         rows, width = [], 0
         for c in (c for c in children.get(node["id"], []) if count(c)):
@@ -312,7 +315,7 @@ def contents(tops, children, count):
     cells = [card("foundations", "foundations", f"{ROMAN[2]}. Foundations", background, "Overview and Foundations",
                   note="Definitions · Channels · Levels")]
     for node in tops:
-        if node["id"] == "background":
+        if node["id"] == "background" or node.get("card") is False:
             continue
         cells.append(card(node["id"], node["icon"], numbered(node), [links(node)] if links(node) else [], node["title"]))
         if node["id"] == "sec-6" and not any(n["id"] == "sec-7" for n in tops):
@@ -321,8 +324,10 @@ def contents(tops, children, count):
                               "HALO: Harness for Always-On Loop Oversight", note="Read mode · Run mode"))
     cells += ['<td width="33%"></td>'] * (-len(cells) % 3)
     rows = ["<tr>" + "".join(cells[i:i + 3]) + "</tr>" for i in range(0, len(cells), 3)]
+    below = [f'<a href="#{n["id"]}">{html.escape(n.get("short", n["title"]))}</a>' for n in tops if n.get("card") is False]
+    below += ['<a href="#contributing">Contributing</a>', '<a href="#citation">Citation</a>']
     return ['<div align="center">', "", '<table align="center">', *rows, "</table>", "",
-            '<p align="center"><a href="#contributing">Contributing</a> · <a href="#citation">Citation</a></p>', "", "</div>"]
+            f'<p align="center">{" · ".join(below)}</p>', "", "</div>"]
 
 
 def build(sections, entries):

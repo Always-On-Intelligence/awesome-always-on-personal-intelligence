@@ -78,6 +78,7 @@ The README renders each entry as one line that starts with the title, followed b
 
 - Place each work once, under the survey section that discusses it. Lists run from the newest work to the oldest.
 - Add a channel tag only when the work supplies or uses that channel.
+- Featured Industry Blogs is curated by the maintainers. Suggest an article through the resource form instead of adding it yourself, and note that product announcements belong under Products.
 - Keep titles exact and leave out rankings, promotional wording, and affiliate links.
 - Report corrections, moved links, and discontinued products with a source.
 

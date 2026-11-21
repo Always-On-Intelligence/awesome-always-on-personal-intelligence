@@ -28,7 +28,7 @@
 <tr><td align="center" valign="top" width="33%"><a href="#sec-8" title="Trends and Open Problems"><img src="assets/icons/evolution.svg" width="40" alt=""/></a><br/><a href="#sec-8" title="Trends and Open Problems"><b>VIII. Open Problems</b></a><br/><a href="#sec-8-1">Local Policies</a> · <a href="#sec-8-2">Coordination</a><br/><a href="#sec-8-3">Self-Evolution</a><br/><a href="#sec-8-4">Long-Term Evaluation</a></td><td align="center" valign="top" width="33%"><a href="#related-surveys" title="Related Surveys"><img src="assets/icons/surveys.svg" width="40" alt=""/></a><br/><a href="#related-surveys" title="Related Surveys"><b>Related Surveys</b></a></td><td align="center" valign="top" width="33%"><a href="#products" title="Products"><img src="assets/icons/products.svg" width="40" alt=""/></a><br/><a href="#products" title="Products"><b>Products</b></a><br/><a href="#products-wearable">Wearable</a> · <a href="#products-digital">Digital</a> · <a href="#products-physical">Physical</a><br/><a href="#products-devices">Devices</a></td></tr>
 </table>
 
-<p align="center"><a href="#contributing">Contributing</a> · <a href="#citation">Citation</a></p>
+<p align="center"><a href="#industry-blogs">Industry Blogs</a> · <a href="#contributing">Contributing</a> · <a href="#citation">Citation</a></p>
 
 </div>
 
@@ -1512,6 +1512,15 @@ Capability-focused surveys, which each study one capability in depth, and concur
 
 ---
 
+<a id="industry-blogs"></a>
+## <img src="assets/icons/blogs.svg" height="30" align="top" alt=""/> Featured Industry Blogs
+
+Engineering articles from organizations whose models and assistants are widely used, selected by the maintainers because they describe how always-on assistants are built in terms close to the survey's: operating between requests, keeping state across sessions, and acting within the permissions the user sets. They are not peer-reviewed and are listed apart from research works.
+
+- Building Always-On Agents. [![Anthropic 2026][b-anthropic-2026-355774]](https://claude.com/resources/articles/building-always-on-agents)
+
+---
+
 <a id="products"></a>
 ## <img src="assets/icons/products.svg" height="30" align="top" alt=""/> Products
 
@@ -1703,6 +1712,7 @@ If this list helps your work, please cite the survey:
 [b-amazon-science-2022-355774]: https://img.shields.io/badge/Amazon_Science_2022-355774?style=flat-square
 [b-ann-behav-med-2018-355774]: https://img.shields.io/badge/Ann._Behav._Med._2018-355774?style=flat-square
 [b-ann-behav-med-2019-355774]: https://img.shields.io/badge/Ann._Behav._Med._2019-355774?style=flat-square
+[b-anthropic-2026-355774]: https://img.shields.io/badge/Anthropic_2026-355774?style=flat-square
 [b-arxiv-2019-a1574a]: https://img.shields.io/badge/arXiv_2019-a1574a?style=flat-square
 [b-arxiv-2022-a1574a]: https://img.shields.io/badge/arXiv_2022-a1574a?style=flat-square
 [b-arxiv-2023-a1574a]: https://img.shields.io/badge/arXiv_2023-a1574a?style=flat-square

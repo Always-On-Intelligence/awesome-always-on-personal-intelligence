@@ -11105,5 +11105,16 @@
     "links": {
       "paper": "https://arxiv.org/abs/2611.10439"
     }
+  },
+  {
+    "id": "anthropic-always-on-agents-2026",
+    "section": "industry-blogs",
+    "title": "Building Always-On Agents",
+    "year": 2026,
+    "venue": "Anthropic",
+    "links": {
+      "blog": "https://claude.com/resources/articles/building-always-on-agents"
+    },
+    "added": "2026-11-21"
   }
 ]
