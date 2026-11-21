@@ -949,6 +949,15 @@
     ]
   },
   {
+    "id": "industry-blogs",
+    "title": "Featured Industry Blogs",
+    "short": "Industry Blogs",
+    "level": 2,
+    "icon": "blogs",
+    "card": false,
+    "description": "Engineering articles from organizations whose models and assistants are widely used, selected by the maintainers because they describe how always-on assistants are built in terms close to the survey's: operating between requests, keeping state across sessions, and acting within the permissions the user sets. They are not peer-reviewed and are listed apart from research works."
+  },
+  {
     "id": "products",
     "title": "Products",
     "short": "Products",
