@@ -1,21 +1,48 @@
 [
   {
-    "id": "background",
-    "title": "Background",
-    "short": "Background",
+    "id": "products",
+    "title": "Products",
+    "short": "Products",
     "level": 2,
-    "icon": "foundations",
-    "description": "Works the survey cites in its Introduction and Foundations: early visions of personal assistance, the cognitive architectures and reinforcement learning behind the continuing loop, and the earlier systems its map of the literature starts from.",
-    "groups": [
-      {
-        "name": "Introduction and Foundations",
-        "tag": "Introduction and Foundations"
-      },
-      {
-        "name": "Mapping the Literature",
-        "tag": "Mapping the Literature"
-      }
-    ]
+    "icon": "products",
+    "description": "Products are listed apart from research works, one line per product with its official page. They cover the products and devices the survey discusses, by interaction domain and with the level the loop-closure table gives them, plus a few curated additions. Availability varies by plan, platform, and region. The [product source notes](docs/product-sources.md) give the primary sources for some of these products."
+  },
+  {
+    "id": "products-wearable",
+    "title": "Wearable Products",
+    "short": "Wearable",
+    "level": 3,
+    "parent": "products"
+  },
+  {
+    "id": "products-digital",
+    "title": "Digital Products",
+    "short": "Digital",
+    "level": 3,
+    "parent": "products"
+  },
+  {
+    "id": "products-physical",
+    "title": "Physical Products",
+    "short": "Physical",
+    "level": 3,
+    "parent": "products"
+  },
+  {
+    "id": "products-devices",
+    "title": "Devices & Platforms",
+    "short": "Devices",
+    "level": 3,
+    "parent": "products"
+  },
+  {
+    "id": "industry-blogs",
+    "title": "Featured Industry Blogs",
+    "short": "Industry Blogs",
+    "level": 2,
+    "icon": "blogs",
+    "description": "Engineering articles from organizations whose models and assistants are widely used, selected by the maintainers because they describe how always-on assistants are built in terms close to the survey's: operating between requests, keeping state across sessions, and acting within the permissions the user sets. They are not peer-reviewed and are listed apart from research works.",
+    "card_of": "products"
   },
   {
     "id": "sec-3",
@@ -949,48 +976,22 @@
     ]
   },
   {
-    "id": "industry-blogs",
-    "title": "Featured Industry Blogs",
-    "short": "Industry Blogs",
+    "id": "background",
+    "title": "Background",
+    "short": "Background",
     "level": 2,
-    "icon": "blogs",
-    "card": false,
-    "description": "Engineering articles from organizations whose models and assistants are widely used, selected by the maintainers because they describe how always-on assistants are built in terms close to the survey's: operating between requests, keeping state across sessions, and acting within the permissions the user sets. They are not peer-reviewed and are listed apart from research works."
-  },
-  {
-    "id": "products",
-    "title": "Products",
-    "short": "Products",
-    "level": 2,
-    "icon": "products",
-    "description": "Products are listed apart from research works, one line per product with its official page. They cover the products and devices the survey discusses, by interaction domain and with the level the loop-closure table gives them, plus a few curated additions. Availability varies by plan, platform, and region. The [product source notes](docs/product-sources.md) give the primary sources for some of these products."
-  },
-  {
-    "id": "products-wearable",
-    "title": "Wearable Products",
-    "short": "Wearable",
-    "level": 3,
-    "parent": "products"
-  },
-  {
-    "id": "products-digital",
-    "title": "Digital Products",
-    "short": "Digital",
-    "level": 3,
-    "parent": "products"
-  },
-  {
-    "id": "products-physical",
-    "title": "Physical Products",
-    "short": "Physical",
-    "level": 3,
-    "parent": "products"
-  },
-  {
-    "id": "products-devices",
-    "title": "Devices & Platforms",
-    "short": "Devices",
-    "level": 3,
-    "parent": "products"
+    "icon": "foundations",
+    "description": "Works the survey cites in its Introduction and Foundations: early visions of personal assistance, the cognitive architectures and reinforcement learning behind the continuing loop, and the earlier systems its map of the literature starts from.",
+    "groups": [
+      {
+        "name": "Introduction and Foundations",
+        "tag": "Introduction and Foundations"
+      },
+      {
+        "name": "Mapping the Literature",
+        "tag": "Mapping the Literature"
+      }
+    ],
+    "card_of": "related-surveys"
   }
 ]
