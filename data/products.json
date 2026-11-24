@@ -185,6 +185,13 @@
     "sources": [
       "chatgptdots2026",
       "dots2026"
+    ],
+    "updates": [
+      {
+        "date": "2026-11",
+        "label": "Health records in Dot",
+        "url": "https://learn.chatgpt.com/docs/dots"
+      }
     ]
   },
   {
@@ -1425,5 +1432,40 @@
     "sources": [],
     "checked": "2026-11-09",
     "added": "2026-11-09"
+  },
+  {
+    "id": "personalintelligencein",
+    "series": "Google Search",
+    "section": "products-digital",
+    "title": "Personal Intelligence in Google Search (AI Mode)",
+    "org": "Google",
+    "links": {
+      "website": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/"
+    },
+    "tags": [
+      "M→A",
+      "L2"
+    ],
+    "sources": [],
+    "checked": "2026-11-24",
+    "added": "2026-11-24"
+  },
+  {
+    "id": "superhumango",
+    "series": "Superhuman",
+    "section": "products-digital",
+    "title": "Go",
+    "org": "Superhuman (formerly Grammarly)",
+    "links": {
+      "website": "https://superhuman.com/go"
+    },
+    "tags": [
+      "S→A",
+      "M→A",
+      "L3"
+    ],
+    "sources": [],
+    "checked": "2026-11-24",
+    "added": "2026-11-24"
   }
 ]
