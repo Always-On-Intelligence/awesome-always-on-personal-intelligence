@@ -1425,5 +1425,23 @@
     "sources": [],
     "checked": "2026-11-09",
     "added": "2026-11-09"
+  },
+  {
+    "id": "xiaodou",
+    "series": "Doubao",
+    "section": "products-digital",
+    "title": "小豆 (Xiaodou)",
+    "org": "ByteDance (Doubao)",
+    "links": {
+      "website": "https://www.doubao.com/xiaodou"
+    },
+    "tags": [
+      "S→A",
+      "M→A",
+      "L3"
+    ],
+    "sources": [],
+    "checked": "2026-11-25",
+    "added": "2026-11-25"
   }
 ]
