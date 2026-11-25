@@ -2083,7 +2083,8 @@
     "year": 2026,
     "venue": "arXiv",
     "links": {
-      "paper": "https://arxiv.org/abs/2608.01149"
+      "paper": "https://arxiv.org/abs/2608.01149",
+      "code": "https://github.com/Xidong-Yang/Pathbench"
     }
   },
   {
@@ -9129,7 +9130,7 @@
     "id": "streampro2026",
     "section": "background",
     "group": "Introduction and Foundations",
-    "title": "StreamPro: From Reactive Perception to Proactive Decision-Making in Streaming Video",
+    "title": "StreamPro: Reinforcement Learning with Multi-Grained Rewards for Proactive Streaming Video Understanding",
     "year": 2026,
     "venue": "arXiv",
     "links": {
@@ -11155,7 +11156,8 @@
     "year": 2026,
     "venue": "arXiv",
     "links": {
-      "paper": "https://arxiv.org/abs/2611.23808"
+      "paper": "https://arxiv.org/abs/2611.23808",
+      "code": "https://github.com/oyt9306/PReMind"
     },
     "tags": [
       "S→A",
@@ -11235,7 +11237,7 @@
     "group": "Coupling and later use: state influences subsequent decisions",
     "title": "RAG in a Trenchcoat: When Minimal Memory Is Enough for Agentic Systems, and When It Isn't",
     "year": 2026,
-    "venue": "arXiv",
+    "venue": "NeurIPS",
     "links": {
       "paper": "https://arxiv.org/abs/2611.22179"
     },
@@ -11284,7 +11286,8 @@
     "year": 2026,
     "venue": "arXiv",
     "links": {
-      "paper": "https://arxiv.org/abs/2611.19199"
+      "paper": "https://arxiv.org/abs/2611.19199",
+      "code": "https://github.com/becos-ai/locomo-results"
     },
     "added": "2026-11-20"
   },
@@ -11368,7 +11371,8 @@
     "year": 2026,
     "venue": "arXiv",
     "links": {
-      "paper": "https://arxiv.org/abs/2611.21478"
+      "paper": "https://arxiv.org/abs/2611.21478",
+      "code": "https://github.com/imlrz/Jetriever"
     },
     "tags": [
       "M→A"
@@ -11420,7 +11424,7 @@
     "group": "Parametric memory",
     "title": "Route to Remember: Adaptive Memory Selection for LLM Agents",
     "year": 2026,
-    "venue": "arXiv",
+    "venue": "NeurIPS Workshop",
     "links": {
       "paper": "https://arxiv.org/abs/2611.05636"
     },
@@ -11555,7 +11559,7 @@
     "group": "Separating retrieval, delivery, and use",
     "title": "Decision Context: Persistent Behavioral Learning for AI Agents",
     "year": 2026,
-    "venue": "arXiv",
+    "venue": "NeurIPS Workshop",
     "links": {
       "paper": "https://arxiv.org/abs/2611.08644",
       "code": "https://github.com/NimaVahdat/decision-context-memory"
@@ -11617,7 +11621,7 @@
     "group": "Coupling and later use: state influences subsequent decisions",
     "title": "ProcessPrefBench: Evaluating Cross-Task Transfer of Individual Process Preferences from Naturalistic Human-AI Interaction",
     "year": 2026,
-    "venue": "arXiv",
+    "venue": "EMNLP Workshop",
     "links": {
       "paper": "https://arxiv.org/abs/2611.06065"
     },
@@ -11632,7 +11636,7 @@
     "group": "Coupling and later use: state influences subsequent decisions",
     "title": "Not Your Diary, Just Your Topic: Grading the Wrong-User Control",
     "year": 2026,
-    "venue": "arXiv",
+    "venue": "NeurIPS Workshop",
     "links": {
       "paper": "https://arxiv.org/abs/2611.09609"
     },
@@ -11705,7 +11709,7 @@
     "group": "Checking permission before an action takes effect",
     "title": "SPILLWAY: Separating Target Admission from Sanitization to Defend Tool-Using Agents against Prompt Injection",
     "year": 2026,
-    "venue": "arXiv",
+    "venue": "NeurIPS",
     "links": {
       "paper": "https://arxiv.org/abs/2611.07222",
       "code": "https://github.com/saintmachines/spillway"
@@ -11714,5 +11718,138 @@
       "S→A"
     ],
     "added": "2026-11-10"
+  },
+  {
+    "id": "hyperharness2026",
+    "section": "sec-4-3-6",
+    "title": "HyperHarness: Learning to Generate Personalized Agent Harnesses from User Histories",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.29062"
+    },
+    "tags": [
+      "M→A"
+    ],
+    "added": "2026-11-25"
+  },
+  {
+    "id": "wasp2026",
+    "section": "sec-4-1-2",
+    "group": "Parametric memory",
+    "title": "WASP: Continual Weight Adaptation for Streaming LLM Personalization",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.30134"
+    },
+    "tags": [
+      "M→A"
+    ],
+    "added": "2026-11-25"
+  },
+  {
+    "id": "healthikigai2026",
+    "section": "sec-5-4-2",
+    "group": "Using personal and task context",
+    "title": "Health Ikigai: Semantic Conversational Interfaces for Wearable Health Data to Support Behavioral Change for Senior Indian",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.28883"
+    },
+    "tags": [
+      "S→A",
+      "M→A"
+    ],
+    "added": "2026-11-25"
+  },
+  {
+    "id": "composingindependentlydistilled2026",
+    "section": "sec-4-3-6",
+    "title": "Composing Independently Distilled Memory and Retrieval Policies for Long-Term Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.30230"
+    },
+    "tags": [
+      "M→A"
+    ],
+    "added": "2026-11-25"
+  },
+  {
+    "id": "contextfact2026",
+    "section": "sec-4-3-1",
+    "group": "Encoding",
+    "title": "ContextFact: Remembering Facts in Context for Long-Term Conversational Agents",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.29155",
+      "code": "https://github.com/JiayuHuang01/ContextFact"
+    },
+    "tags": [
+      "S→M"
+    ],
+    "added": "2026-11-25"
+  },
+  {
+    "id": "mmmem2026",
+    "section": "sec-4-4-3",
+    "title": "MMMem: Self-Improving Agents with Task-Aware Multimodal Experience Consolidation",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.30287"
+    },
+    "tags": [
+      "M→A",
+      "A→M"
+    ],
+    "added": "2026-11-25"
+  },
+  {
+    "id": "speakwhenyou2026",
+    "section": "sec-3-3-6",
+    "title": "Speak When You See It: Proactive Task Assistants Should Wait for Evidence, Not the Clock",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.30895"
+    },
+    "tags": [
+      "S→A"
+    ],
+    "added": "2026-11-25"
+  },
+  {
+    "id": "howshoulda2026",
+    "section": "sec-4-3-4",
+    "group": "Consolidation",
+    "title": "How Should a Home Robot Update Its Memories When Human Routines Change?",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.29818",
+      "code": "https://github.com/nesl/memory-for-home-robots"
+    },
+    "tags": [
+      "S→M",
+      "M→S"
+    ],
+    "added": "2026-11-25"
+  },
+  {
+    "id": "consumertimevalidity2026",
+    "section": "sec-5-3-4",
+    "group": "Rechecking after a pause or handoff",
+    "title": "Consumer-Time Validity in Stateful AI Runtimes: Verifying Recovered State and Deferred Authority",
+    "year": 2026,
+    "venue": "arXiv",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.29004"
+    },
+    "added": "2026-11-25"
   }
 ]

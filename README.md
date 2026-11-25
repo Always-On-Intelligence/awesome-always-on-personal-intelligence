@@ -11,7 +11,7 @@
 
 <p>
   <a href="https://doi.org/10.20944/preprints202611.0793.v1"><img src="assets/badges/header-doi.svg" height="18" alt="DOI 10.20944/preprints202611.0793.v1"/></a>
-  <img src="assets/badges/header-papers.svg" height="18" alt="942 papers"/>
+  <img src="assets/badges/header-papers.svg" height="18" alt="951 papers"/>
   <a href="LICENSE"><img src="assets/badges/header-license.svg" height="18" alt="MIT License"/></a>
   <a href="https://github.com/Always-On-Intelligence/awesome-always-on-personal-intelligence/stargazers"><img src="https://img.shields.io/github/stars/Always-On-Intelligence/awesome-always-on-personal-intelligence?style=social" height="18" alt="GitHub stars"/></a>
 </p>
@@ -132,6 +132,7 @@ Products are listed apart from research works, one line per product with its off
 <tr><td nowrap valign="top"><img src="https://www.google.com/s2/favicons?domain=chatgpt.com&sz=64" width="16" height="16" alt=""/> <b><a href="https://learn.chatgpt.com/docs/dots">ChatGPT Dot</a></b><br/><img src="https://www.google.com/s2/favicons?domain=chatgpt.com&sz=64" width="16" height="16" alt=""/> <b><a href="https://chatgpt.com/overview/">ChatGPT Memory</a></b><br/><img src="https://www.google.com/s2/favicons?domain=chatgpt.com&sz=64" width="16" height="16" alt=""/> <b><a href="https://learn.chatgpt.com/docs/automations">ChatGPT Scheduled Tasks</a></b></td><td>OpenAI</td><td nowrap valign="top"><img src="assets/badges/gold-l4.svg" height="18" alt="L4" align="top"/> <img src="assets/badges/sage-a-to-s.svg" height="18" alt="A→S" align="top"/><br/><img src="assets/badges/muted-no-level.svg" height="18" alt="No level" align="top"/><br/><img src="assets/badges/muted-no-level.svg" height="18" alt="No level" align="top"/></td></tr>
 <tr><td nowrap valign="top"><img src="https://www.google.com/s2/favicons?domain=claude.com&sz=64" width="16" height="16" alt=""/> <b><a href="https://claude.com/product/cowork">Claude Cowork</a></b><br/><img src="https://www.google.com/s2/favicons?domain=claude.com&sz=64" width="16" height="16" alt=""/> <b><a href="https://claude.com/product/claude-duet">Claude Duet</a></b></td><td>Anthropic</td><td nowrap valign="top"><img src="assets/badges/grey-l2.svg" height="18" alt="L2" align="top"/><br/><img src="assets/badges/gold-l3.svg" height="18" alt="L3" align="top"/> <img src="assets/badges/blue-m-to-a.svg" height="18" alt="M→A" align="top"/></td></tr>
 <tr><td nowrap valign="top"><img src="https://www.google.com/s2/favicons?domain=microsoft.com&sz=64" width="16" height="16" alt=""/> <b><a href="https://copilot.microsoft.com/">Copilot on Windows</a></b><br/><img src="https://www.google.com/s2/favicons?domain=microsoft.com&sz=64" width="16" height="16" alt=""/> <b><a href="https://support.microsoft.com/en-us/windows/ai/ai-features/retrace-your-steps-with-recall">Windows Recall</a></b></td><td>Microsoft</td><td nowrap valign="top"><img src="assets/badges/muted-no-level.svg" height="18" alt="No level" align="top"/><br/><img src="assets/badges/grey-l2.svg" height="18" alt="L2" align="top"/> <img src="assets/badges/rose-s-to-m.svg" height="18" alt="S→M" align="top"/></td></tr>
+<tr><td nowrap valign="top"><img src="https://www.google.com/s2/favicons?domain=doubao.com&sz=64" width="16" height="16" alt=""/> <b><a href="https://www.doubao.com/xiaodou">Doubao 小豆 (Xiaodou)</a></b></td><td>ByteDance (Doubao)</td><td nowrap valign="top"><img src="assets/badges/gold-l3.svg" height="18" alt="L3" align="top"/> <img src="assets/badges/blue-s-to-a.svg" height="18" alt="S→A" align="top"/> <img src="assets/badges/blue-m-to-a.svg" height="18" alt="M→A" align="top"/></td></tr>
 <tr><td nowrap valign="top"><img src="https://www.google.com/s2/favicons?domain=langchain.com&sz=64" width="16" height="16" alt=""/> <b><a href="https://github.com/langchain-ai/executive-ai-assistant">EAIA (Executive AI Assistant)</a></b></td><td>LangChain</td><td nowrap valign="top"><img src="assets/badges/gold-l4.svg" height="18" alt="L4" align="top"/></td></tr>
 <tr><td nowrap valign="top"><img src="https://www.google.com/s2/favicons?domain=folk.com&sz=64" width="16" height="16" alt=""/> <b><a href="https://www.folk.com/">Folk</a></b></td><td>folk</td><td nowrap valign="top"><img src="assets/badges/gold-l4.svg" height="18" alt="L4" align="top"/></td></tr>
 <tr><td nowrap valign="top"><img src="https://www.google.com/s2/favicons?domain=samsung.com&sz=64" width="16" height="16" alt=""/> <b><a href="https://www.samsung.com/us/galaxy-ai/">Galaxy AI Now Nudge</a></b></td><td>Samsung</td><td nowrap valign="top"><img src="assets/badges/gold-l3.svg" height="18" alt="L3" align="top"/></td></tr>
@@ -393,6 +394,7 @@ Sensing takes in observations and feedback from the user and the world, forming 
 - Ask Now, Use Later: Benchmarking the Proactivity Gap in Long-Lived LLM Agents. [![EMNLP 2026][b-gold-emnlp-2026]](https://arxiv.org/abs/2605.28108)
 - EgoAsk: Egocentric Teaching of Personalized Object Knowledge for Household Robots. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2609.16766)
 - N₀-TWAM: Scaling Tactile-Native World-Action Model for Contact-Rich Manipulation. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2607.23783) [![Code][b-link-code-github]](https://github.com/neoteai/N0-TWAM)
+- Speak When You See It: Proactive Task Assistants Should Wait for Evidence, Not the Clock. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2611.30895) ![S→A][b-blue-s-to-a]
 - Scaling Context-Aware Task Assistants that Learn from Demonstration and Adapt through Mixed-Initiative Dialogue. [![UIST 2025][b-gold-uist-2025]](https://doi.org/10.1145/3746059.3747700)
 
 <a id="sec-3-3-7"></a>
@@ -587,7 +589,8 @@ Memory keeps what the assistant learns about the user and hands it back when a d
 - DPPM: Dual-Path Parametric Memory for Personalized Language Models. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2610.11776)
 - Instant Weight-Space Consolidation for Long-Term Memory in LLMs. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2611.20759)
 - ProTTT: Learning to Learn Semantic User Memory with Test-Time Training. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2609.32564)
-- Route to Remember: Adaptive Memory Selection for LLM Agents. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2611.05636)
+- Route to Remember: Adaptive Memory Selection for LLM Agents. [![NeurIPS Workshop 2026][b-gold-neurips-workshop-2026]](https://arxiv.org/abs/2611.05636)
+- WASP: Continual Weight Adaptation for Streaming LLM Personalization. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2611.30134) ![M→A][b-blue-m-to-a]
 - MEMORYLLM: Towards Self-Updatable Large Language Models. [![arXiv 2024][b-outline-arxiv-2024]](https://arxiv.org/abs/2402.04624) [![Code][b-link-code-github]](https://github.com/wangyu-ustc/MemoryLLM)
 
 ##### The choice of a storage architecture
@@ -647,6 +650,7 @@ Memory keeps what the assistant learns about the user and hands it back when a d
 
 ##### Encoding
 
+- ContextFact: Remembering Facts in Context for Long-Term Conversational Agents. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2611.29155) [![Code][b-link-code-github]](https://github.com/JiayuHuang01/ContextFact) ![S→M][b-rose-s-to-m]
 - FTA-Mem: Fact-Time-Affect Anchored Memory for Low-Density Long-Term Dialogue. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2608.16303)
 - Interpreting at Write Time: A Policy Ablation for Multi-Goal Agent Memory. [![NeurIPS Workshop 2026][b-gold-neurips-workshop-2026]](https://arxiv.org/abs/2610.02897)
 - MEM1: Learning to Synergize Memory and Reasoning for Efficient Long-Horizon Agents. [![ICLR 2026][b-gold-iclr-2026]](https://arxiv.org/abs/2506.15841)
@@ -694,7 +698,7 @@ Memory keeps what the assistant learns about the user and hands it back when a d
 - FlexA-Mem: Budget-Adaptive Agentic Memory for LLM Agents. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2610.33274) [![Code][b-link-code-github]](https://github.com/WujiangXu/Flex-Amem)
 - HERO: Human-profile Enhanced Retrieval Optimization Framework for Long-term Agent Memory. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2608.22310)
 - InferScale: GPU-Native KV Injection for Personalized LLM Serving. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2607.27090)
-- Jetriever: Shifting Agent Memory Retrieval from Similarity to Utility. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2611.21478) ![M→A][b-blue-m-to-a]
+- Jetriever: Shifting Agent Memory Retrieval from Similarity to Utility. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2611.21478) [![Code][b-link-code-github]](https://github.com/imlrz/Jetriever) ![M→A][b-blue-m-to-a]
 - KITE: Retrieval as a Decision Procedure for Long-Term Conversational Memory. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2610.41521) [![Code][b-link-code-github]](https://github.com/memoket/memoket-kite)
 - Learning from Others, Acting for You: Cross-User Memory Sharing for LLM Agents. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2609.32511) ![M→A][b-blue-m-to-a]
 - LINE Conversation History Retrieval for Personal Memory RAG: Evaluating Search Representations and Hybrid Retrieval. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2608.27809)
@@ -732,6 +736,7 @@ Memory keeps what the assistant learns about the user and hands it back when a d
 - Auto-Dreamer: Learning Offline Memory Consolidation for Language Agents. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2605.20616)
 - Can LLM Agents Organize Their Own Memory? [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2611.11929) [![Code][b-link-code-github]](https://github.com/Qi202/SoMem) ![M→A][b-blue-m-to-a]
 - CogniFold: Always-On Proactive Memory via Cognitive Folding. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2605.13438) [![Code][b-link-code-github]](https://github.com/OpenNorve/CogniFold)
+- How Should a Home Robot Update Its Memories When Human Routines Change? [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2611.29818) [![Code][b-link-code-github]](https://github.com/nesl/memory-for-home-robots) ![S→M][b-rose-s-to-m] ![M→S][b-sage-m-to-s]
 - HyperTrace: Hypothesis-Based Preference Tracing for Online LLM Personalization. [![Findings of EMNLP 2026][b-gold-findings-of-emnlp-2026]](https://arxiv.org/abs/2609.09835) [![Code][b-link-code-github]](https://github.com/jiseshen/HyperTrace)
 - Hypotheses-Guided Self Distillation for Continual Personalization. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2609.00251) ![M→A][b-blue-m-to-a] ![A→M][b-rose-a-to-m]
 - LightMem: Lightweight and Efficient Memory-Augmented Generation. [![ICLR 2026][b-gold-iclr-2026]](https://arxiv.org/abs/2510.18866) [![Code][b-link-code-github]](https://github.com/zjunlp/LightMem)
@@ -773,8 +778,10 @@ Memory keeps what the assistant learns about the user and hands it back when a d
 #### Learning the Memory Policy
 
 - Adaptive Memory Index Evolution for Agents. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2610.34977)
+- Composing Independently Distilled Memory and Retrieval Policies for Long-Term Agents. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2611.30230) ![M→A][b-blue-m-to-a]
 - EvoGroup: A Self-Evolving Harness for Group Agents in Shared Contexts. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2611.03868) [![Code][b-link-code-github]](https://github.com/BigggFatttRabittt/EvoGroup)
 - EvoMemState: Evolving Memory State for Personal Agents. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2611.03743) [![Code][b-link-code-github]](https://github.com/XMUDeepLIT/EvoMemState.git) ![M→A][b-blue-m-to-a]
+- HyperHarness: Learning to Generate Personalized Agent Harnesses from User Histories. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2611.29062) ![M→A][b-blue-m-to-a]
 - Learning Personalized Memory Gating from Delayed One-Sided Feedback. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2610.23812) ![A→M][b-rose-a-to-m]
 - Learning What to Share and What to Personalize: Hierarchical Strategy Co-Evolution for Agent Memory. [![EMNLP 2026][b-gold-emnlp-2026]](https://arxiv.org/abs/2608.25329) ![A→M][b-rose-a-to-m]
 - MemLife: Curating and Reasoning over Long-Term Egocentric Video Memories. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2609.40195) ![S→M][b-rose-s-to-m] ![M→A][b-blue-m-to-a]
@@ -799,6 +806,7 @@ Memory keeps what the assistant learns about the user and hands it back when a d
 - Do Personalized Skills Help Coding Agents? An Empirical Study of Developer Interaction Traces. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2608.10319) ![M→A][b-blue-m-to-a] ![A→M][b-rose-a-to-m]
 - Memory-R1: Enhancing Large Language Model Agents to Manage and Utilize Memories via Reinforcement Learning. [![ACL 2026][b-gold-acl-2026]](https://arxiv.org/abs/2508.19828) ![A→M][b-rose-a-to-m]
 - Memory-R2: Fair Credit Assignment for Long-Horizon Memory-Augmented LLM Agents. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2605.21768) ![A→M][b-rose-a-to-m]
+- MMMem: Self-Improving Agents with Task-Aware Multimodal Experience Consolidation. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2611.30287) ![M→A][b-blue-m-to-a] ![A→M][b-rose-a-to-m]
 - Muscle Memory for Agents: Compile not Merely Retrieve. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2608.08995) ![M→A][b-blue-m-to-a] ![A→M][b-rose-a-to-m]
 - PRIME: Training Free Proactive Reasoning via Iterative Memory Evolution for User-Centric Agent. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2604.07645) ![A→M][b-rose-a-to-m]
 - Promptile: Recovering and Reusing Prompting Strategies from LLM Interaction Histories. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2610.26485) ![M→A][b-blue-m-to-a] ![A→M][b-rose-a-to-m]
@@ -833,7 +841,7 @@ Memory keeps what the assistant learns about the user and hands it back when a d
 - MIRAGE: How Conversation State Shapes Historical Evidence Use in Multimodal Personal Agents. [![ACM MM 2026][b-gold-acm-mm-2026]](https://arxiv.org/abs/2609.19059)
 - MOSAIC: An Omni-Modal Benchmark for Long-Term Memory and Cross-Modal Reasoning in Conversational Agents. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2610.29249)
 - VoiceLongMemEval: Do Assistants Remember How You Sounded? [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2609.00570)
-- What Moves a LoCoMo Score? Memory Context, Answer Prompts and Judges. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2611.19199)
+- What Moves a LoCoMo Score? Memory Context, Answer Prompts and Judges. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2611.19199) [![Code][b-link-code-github]](https://github.com/becos-ai/locomo-results)
 - Will My Assistant Remember My Allergy? What Personal LLM Assistants Forget When Conversation Memory Is Compressed. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2609.05767)
 - Episodic Memory Verbalization using Hierarchical Representations of Life-Long Robot Experience. [![arXiv 2025][b-outline-arxiv-2025]](https://arxiv.org/abs/2409.17702)
 - FindingDory: A Benchmark to Evaluate Memory in Embodied Agents. [![arXiv 2025][b-outline-arxiv-2025]](https://arxiv.org/abs/2506.15635)
@@ -917,17 +925,17 @@ Memory keeps what the assistant learns about the user and hands it back when a d
 - MemoryArena: Benchmarking Agent Memory in Interdependent Multi-Session Agentic Tasks. [![ICML 2026][b-gold-icml-2026]](https://arxiv.org/abs/2602.16313)
 - MemoryDojo: Benchmarking Poisoning Through LLM Agent Memory. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2611.09721) ![S→M][b-rose-s-to-m] ![M→A][b-blue-m-to-a]
 - MemUse: Moving Memory Evaluation from Direct QA to Natural Integration in Long-Term Human-AI Conversation. [![EMNLP 2026][b-gold-emnlp-2026]](https://arxiv.org/abs/2608.24189) [![Code][b-link-code-github]](https://github.com/ryuichi-sumida/memuse) ![M→A][b-blue-m-to-a]
-- Not Your Diary, Just Your Topic: Grading the Wrong-User Control. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2611.09609) ![M→A][b-blue-m-to-a]
+- Not Your Diary, Just Your Topic: Grading the Wrong-User Control. [![NeurIPS Workshop 2026][b-gold-neurips-workshop-2026]](https://arxiv.org/abs/2611.09609) ![M→A][b-blue-m-to-a]
 - One Assistant, Many Memories: Benchmarking Real-World Group Assistance When Recall Is Not Enough. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2611.04867) [![Code][b-link-code-github]](https://github.com/HU-xiaobai/GroupAssistantBench) ![M→A][b-blue-m-to-a]
 - P-ContextBench: From Personal Fact Recall to Personalized Agent Behavior. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2610.40959)
 - PairPref: When Should Memory Guide the Answer? A Benchmark for Contextual Preference Use. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2609.34526) ![M→A][b-blue-m-to-a]
 - PAST-Bench: Benchmarking the Foundations of Recursive Self-Improvement in Personal Agents. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2608.04003) [![Code][b-link-code-github]](https://github.com/Gen-Verse/PAST-Bench)
-- PATH-Bench: Path-Dependent Evaluation of Lifelong Agents. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2608.01149)
+- PATH-Bench: Path-Dependent Evaluation of Lifelong Agents. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2608.01149) [![Code][b-link-code-github]](https://github.com/Xidong-Yang/Pathbench)
 - PRAGMA: Evaluating Personalized Guidance with Memory Alignment in Lifelong Conversations. [![EMNLP 2026][b-gold-emnlp-2026]](https://arxiv.org/abs/2609.09664) ![M→A][b-blue-m-to-a]
-- PReMind: When Personal Memory Meets Visual Hazards. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2611.23808) ![S→A][b-blue-s-to-a] ![M→A][b-blue-m-to-a]
+- PReMind: When Personal Memory Meets Visual Hazards. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2611.23808) [![Code][b-link-code-github]](https://github.com/oyt9306/PReMind) ![S→A][b-blue-s-to-a] ![M→A][b-blue-m-to-a]
 - Proactive Agent Research Environment: Simulating Active Users to Evaluate Proactive Assistants. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2604.00842) [![Code][b-link-code-github]](https://github.com/deepakn97/pare) ![A→S][b-sage-a-to-s]
-- ProcessPrefBench: Evaluating Cross-Task Transfer of Individual Process Preferences from Naturalistic Human-AI Interaction. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2611.06065) ![M→A][b-blue-m-to-a]
-- RAG in a Trenchcoat: When Minimal Memory Is Enough for Agentic Systems, and When It Isn't. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2611.22179) ![M→A][b-blue-m-to-a]
+- ProcessPrefBench: Evaluating Cross-Task Transfer of Individual Process Preferences from Naturalistic Human-AI Interaction. [![EMNLP Workshop 2026][b-gold-emnlp-workshop-2026]](https://arxiv.org/abs/2611.06065) ![M→A][b-blue-m-to-a]
+- RAG in a Trenchcoat: When Minimal Memory Is Enough for Agentic Systems, and When It Isn't. [![NeurIPS 2026][b-gold-neurips-2026]](https://arxiv.org/abs/2611.22179) ![M→A][b-blue-m-to-a]
 - RealCompanion: Benchmarking Human Understanding from Reasoning over Longitudinal Real-World Conversations. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2610.01780)
 - Remembered as Brief: Stored Preferences SilentlyRemove Decision-Critical Information. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2611.22697) ![S→M][b-rose-s-to-m] ![M→A][b-blue-m-to-a]
 - StreamMemBench: Streaming Evaluation of Agent Memory for Future-Oriented Assistance. [![Findings of EMNLP 2026][b-gold-findings-of-emnlp-2026]](https://arxiv.org/abs/2606.14571) [![Code][b-link-code-github]](https://github.com/landian60/StreamMemBench) ![S→M][b-rose-s-to-m]
@@ -1081,12 +1089,13 @@ Action decides whether, when, and how the assistant acts on the external world, 
 - Formal Policy Enforcement for Agentic Systems. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2602.16708)
 - Knowing the User Is Not Knowing What We Established: Grounding Awareness in Personal Agents. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2610.18684) ![M→A][b-blue-m-to-a]
 - Memory Provenance Laundering in LLM Agents: A Non-Amplification Firewall for Persistent Memory. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2607.29167) ![M→A][b-blue-m-to-a]
-- SPILLWAY: Separating Target Admission from Sanitization to Defend Tool-Using Agents against Prompt Injection. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2611.07222) [![Code][b-link-code-github]](https://github.com/saintmachines/spillway) ![S→A][b-blue-s-to-a]
+- SPILLWAY: Separating Target Admission from Sanitization to Defend Tool-Using Agents against Prompt Injection. [![NeurIPS 2026][b-gold-neurips-2026]](https://arxiv.org/abs/2611.07222) [![Code][b-link-code-github]](https://github.com/saintmachines/spillway) ![S→A][b-blue-s-to-a]
 - AGrail: A Lifelong Agent Guardrail with Effective and Adaptive Safety Detection. [![ACL 2025][b-gold-acl-2025]](https://aclanthology.org/2025.acl-long.399/)
 - Effective Red-Teaming of Policy-Adherent Agents. [![EMNLP 2025][b-gold-emnlp-2025]](https://arxiv.org/abs/2506.09600)
 
 ##### Rechecking after a pause or handoff
 
+- Consumer-Time Validity in Stateful AI Runtimes: Verifying Recovered State and Deferred Authority. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2611.29004)
 - Mind Your HEARTBEAT! Claw Background Execution Inherently Enables Silent Memory Pollution. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2603.23064)
 - Temporary Authority, Permanent Effects: Commit-Time Authorization for LLM Agents. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2607.10487)
 - When Memory Becomes Authority: Benchmarking Authority Collapse at the Memory Consolidation Boundary. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2608.01679)
@@ -1118,6 +1127,7 @@ Action decides whether, when, and how the assistant acts on the external world, 
 - CoLearn: An Agentic Tutor that Learns its Learner in a Human--AI Co-Learning Loop. [![EMNLP 2026][b-gold-emnlp-2026]](https://arxiv.org/abs/2609.21154) ![M→A][b-blue-m-to-a] ![A→M][b-rose-a-to-m]
 - Designing with Cinematic Language: An Intent-Driven Approach to Human-AI Video Clip Co-Creation. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2611.07377) ![M→A][b-blue-m-to-a] ![A→M][b-rose-a-to-m]
 - Embodied Agents Meet Personalization: Investigating Challenges and Solutions Through the Lens of Memory Utilization. [![ICLR 2026][b-gold-iclr-2026]](https://arxiv.org/abs/2505.16348) [![Code][b-link-code-github]](https://github.com/Connoriginal/MEMENTO) ![M→A][b-blue-m-to-a]
+- Health Ikigai: Semantic Conversational Interfaces for Wearable Health Data to Support Behavioral Change for Senior Indian. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2611.28883) ![S→A][b-blue-s-to-a] ![M→A][b-blue-m-to-a]
 - LiveAsset: Learning Intent Assets from Corrective Interactions for Agent Runtime Control. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2611.11560) [![Code][b-link-code-github]](https://github.com/landian60/LiveAsset) ![M→A][b-blue-m-to-a] ![A→M][b-rose-a-to-m]
 - Love for Believable AI: Artificial Partiality and Relationship Persistence as an Engineerable Stance. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2610.09895) ![M→A][b-blue-m-to-a]
 - MementoGUI: Learning Agentic Multimodal Memory Control for Long-Horizon GUI Agents. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2605.18652) ![M→A][b-blue-m-to-a]
@@ -1136,7 +1146,7 @@ Action decides whether, when, and how the assistant acts on the external world, 
 
 ##### Separating retrieval, delivery, and use
 
-- Decision Context: Persistent Behavioral Learning for AI Agents. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2611.08644) [![Code][b-link-code-github]](https://github.com/NimaVahdat/decision-context-memory) ![M→A][b-blue-m-to-a] ![A→M][b-rose-a-to-m]
+- Decision Context: Persistent Behavioral Learning for AI Agents. [![NeurIPS Workshop 2026][b-gold-neurips-workshop-2026]](https://arxiv.org/abs/2611.08644) [![Code][b-link-code-github]](https://github.com/NimaVahdat/decision-context-memory) ![M→A][b-blue-m-to-a] ![A→M][b-rose-a-to-m]
 - Demystifying Agent Skills: Why They Work-Until They Don't. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2608.14036) [![Code][b-link-code-github]](https://github.com/zhiyuanjiang04/demystify-agent-skills) ![M→A][b-blue-m-to-a]
 - From Relevance to Execution Utility: Reward-Aware Dynamic Execution Gating for Skill-Based LLM Agents. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2608.09168)
 - Relevance Does Not Imply Applicability: Experience Activation for Personal GUI Agents. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2609.33304) ![M→A][b-blue-m-to-a]
@@ -1649,7 +1659,7 @@ Works the survey cites in its Introduction and Foundations: early visions of per
 
 ### Introduction and Foundations
 
-- StreamPro: From Reactive Perception to Proactive Decision-Making in Streaming Video. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2605.16381)
+- StreamPro: Reinforcement Learning with Multi-Grained Rewards for Proactive Streaming Video Understanding. [![arXiv 2026][b-outline-arxiv-2026]](https://arxiv.org/abs/2605.16381)
 - A Survey of Context Engineering for Large Language Models. [![arXiv 2025][b-outline-arxiv-2025]](https://arxiv.org/abs/2507.13334) [![Code][b-link-code-github]](https://github.com/Meirtz/Awesome-Context-Engineering)
 - Cognitive Architectures for Language Agents. [![TMLR 2024][b-gold-tmlr-2024]](https://arxiv.org/abs/2309.02427) [![Code][b-link-code-github]](https://github.com/ysymyth/awesome-language-agents)
 - A Path Towards Autonomous Machine Intelligence. [![OpenReview 2022][b-gold-openreview-2022]](https://openreview.net/forum?id=BZ5a1r-kVsf)
@@ -1793,6 +1803,7 @@ If this list helps your work, please cite the survey:
 [b-gold-emnlp-2024]: assets/badges/gold-emnlp-2024.svg
 [b-gold-emnlp-2025]: assets/badges/gold-emnlp-2025.svg
 [b-gold-emnlp-2026]: assets/badges/gold-emnlp-2026.svg
+[b-gold-emnlp-workshop-2026]: assets/badges/gold-emnlp-workshop-2026.svg
 [b-gold-findings-of-acl-2025]: assets/badges/gold-findings-of-acl-2025.svg
 [b-gold-findings-of-acl-2026]: assets/badges/gold-findings-of-acl-2026.svg
 [b-gold-findings-of-emnlp-2023]: assets/badges/gold-findings-of-emnlp-2023.svg
